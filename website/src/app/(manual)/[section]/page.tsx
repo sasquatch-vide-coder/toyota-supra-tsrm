@@ -1,17 +1,6 @@
-import fs from "fs";
-import path from "path";
 import Link from "next/link";
-import { SectionInfo } from "@/types";
 import { notFound } from "next/navigation";
-
-function loadSections(): SectionInfo[] {
-  const filePath = path.join(process.cwd(), "src", "content", "sections.json");
-  try {
-    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  } catch {
-    return [];
-  }
-}
+import { loadSections } from "@/lib/sections";
 
 export function generateStaticParams() {
   const sections = loadSections();

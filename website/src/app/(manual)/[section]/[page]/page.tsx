@@ -3,16 +3,8 @@ import path from "path";
 import { notFound } from "next/navigation";
 import ManualPage from "@/components/ManualPage";
 import PageNavigation from "@/components/PageNavigation";
-import { PageData, SectionInfo } from "@/types";
-
-function loadSections(): SectionInfo[] {
-  const filePath = path.join(process.cwd(), "src", "content", "sections.json");
-  try {
-    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  } catch {
-    return [];
-  }
-}
+import { PageData } from "@/types";
+import { loadSections } from "@/lib/sections";
 
 function loadPage(section: string, page: number): PageData | null {
   const filePath = path.join(
