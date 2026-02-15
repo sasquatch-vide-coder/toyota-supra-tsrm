@@ -69,7 +69,7 @@ export default function LandingPage() {
               </svg>
               <div>
                 <div className="text-sm font-semibold text-gray-300">AI-Upscaled Diagrams</div>
-                <div className="text-xs text-gray-600 mt-0.5">Original scans enhanced with 8x_NMKD-Typescale_175k</div>
+                <div className="text-xs text-gray-600 mt-0.5">All factory manual diagrams upscaled using AI</div>
               </div>
             </div>
             <div className="flex items-start gap-3">
