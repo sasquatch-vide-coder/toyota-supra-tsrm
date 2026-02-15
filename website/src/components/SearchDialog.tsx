@@ -411,6 +411,21 @@ export default function SearchDialog() {
               {error}
             </p>
           )}
+
+          {/* View all results link */}
+          {!isLoading && totalItems > 0 && (
+            <div className="px-4 py-2.5 border-t border-gray-100 text-center">
+              <button
+                onClick={() => {
+                  setIsOpen(false);
+                  router.push(`/search?q=${encodeURIComponent(query)}`);
+                }}
+                className="text-sm text-red-600 hover:text-red-700 font-medium"
+              >
+                View all results →
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
