@@ -2,12 +2,10 @@
 .env
 .env.*
 
-# Large binary assets (GIF scans, upscaled images)
+# Processing pipeline data (not needed for website)
 data/raw/
 data/diagrams/
 data/processed/
-website/public/images/
-website/public/originals/
 
 # Python
 __pycache__/

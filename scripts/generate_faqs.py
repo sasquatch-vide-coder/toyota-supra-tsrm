@@ -238,7 +238,7 @@ async def run(with_embeddings: bool = False) -> None:
     print(f"Collected {len(pages)} pages for FAQ generation.")
 
     # Generate FAQs using Claude
-    semaphore = asyncio.Semaphore(3)
+    semaphore = asyncio.Semaphore(10)
     async with AsyncClaudeClient() as client:
         tasks = [
             generate_faqs_for_page(client, semaphore, page)
