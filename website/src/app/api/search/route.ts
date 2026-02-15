@@ -40,44 +40,36 @@ export async function GET(request: NextRequest) {
     // Generate embedding if OpenAI key is available
     const queryEmbedding = await getQueryEmbedding(query);
 
-    // Build parallel search calls based on source filter
-    const searches: Promise<{ data: unknown; error: unknown }>[] = [];
-
+    // Run searches in parallel, conditionally based on source filter
     const searchManual = !source || source === "manual";
     const searchFaq = !source || source === "faq";
     const searchForum = !source || source === "forum";
 
-    searches.push(
+    const empty = { data: [] as unknown[], error: null };
+
+    const [pagesResult, faqsResult, forumResult] = await Promise.all([
       searchManual
         ? supabase.rpc("hybrid_search", {
             query_text: query,
             query_embedding: queryEmbedding,
             match_count: 20,
           })
-        : Promise.resolve({ data: [], error: null })
-    );
-
-    searches.push(
+        : empty,
       searchFaq
         ? supabase.rpc("search_faqs", {
             query_text: query,
             query_embedding: queryEmbedding,
             match_count: 5,
           })
-        : Promise.resolve({ data: [], error: null })
-    );
-
-    searches.push(
+        : empty,
       searchForum
         ? supabase.rpc("search_forum_threads", {
             query_text: query,
             query_embedding: queryEmbedding,
             match_count: 10,
           })
-        : Promise.resolve({ data: [], error: null })
-    );
-
-    const [pagesResult, faqsResult, forumResult] = await Promise.all(searches);
+        : empty,
+    ]);
 
     if (pagesResult.error) {
       console.error("hybrid_search error:", pagesResult.error);
@@ -89,9 +81,9 @@ export async function GET(request: NextRequest) {
       console.error("search_forum_threads error:", forumResult.error);
     }
 
-    const results: SearchResult[] = (pagesResult.data as SearchResult[]) ?? [];
-    const faqs: FAQResult[] = (faqsResult.data as FAQResult[]) ?? [];
-    const forum: ForumResult[] = (forumResult.data as ForumResult[]) ?? [];
+    const results: SearchResult[] = (pagesResult.data ?? []) as SearchResult[];
+    const faqs: FAQResult[] = (faqsResult.data ?? []) as FAQResult[];
+    const forum: ForumResult[] = (forumResult.data ?? []) as ForumResult[];
 
     const response = NextResponse.json({ results, faqs, forum });
     response.headers.set(
