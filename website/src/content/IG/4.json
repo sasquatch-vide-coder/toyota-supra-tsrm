@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-4",
+  "section_header": "IGNITION SYSTEM — Ignition System Circuit",
+  "title": "IGNITION SYSTEM CIRCUIT",
+  "ocr_text": "IGNITION SYSTEM CIRCUIT\n\n7M-GE\n\nIgnition Switch\nAM2 IG2\nAM2 30A\nFusible Link\nMAIN 2.0L\nBattery\n\nDistributor\nSpark Plug\nIgnition Coil\nIgniter\nTo Tachometer\nG1 G2 G- NE IGT IGF\nEngine ECU\n\n7M-GTE\n\nIgnition Switch\nAM2 30A\nFusible Link\nMAIN 2.0L\nBattery\n\nCam Position Sensor\nTo Tachometer\nG1 IGF\nEngine ECU\nG2 IGT\nNE IGDA\nN/C- IGDB\n\nIgniter\nSpark Plug\nIgnition Coil\n\nELECTRONIC SPARK ADVANCE (ESA)\n\nThe ECU is programmed with data for optimum ignition timing under any and all operating conditions. Using data provided by sensors which monitor various engine functions (rpm, intake air volume, eng. temperature, etc.) the microcomputer (ECU) triggers the spark at precisely the right instant."
+}

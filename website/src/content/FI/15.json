@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-15",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "",
+  "ocr_text": "OK CONTINUED FROM PAGE FI-14\n\nCHECK COLD START INJECTOR\n(See page FI-77)\nBAD\n1. Cold start injector\n2. Cold start injector time switch\n(See page FI-112)\n\nOK\n\nCHECK FUEL PRESSURE\n(See page FI-71)\nBAD\n1. Fuel pump (See page FI-70)\n2. Fuel filter\n3. Fuel pressure regulator\n(See page FI-81)\n\nOK\n\nCHECK INJECTORS\n(See page FI-83)\nBAD\nInjection condition\n\nOK\n\nCHECK EFI ELECTRONIC CIRCUIT\nUSING VOLT/OHMMETER\n(See pages FI-30, 49)\nBAD\n1. Wiring connection\n2. Power to ECU\n(1) Fusible links\n(2) Fuses\n(3) EFI main relay\n3. Air flow meter\n4. Water temp. sensor\n5. Air temp. sensor\n6. Injection signal circuit\n(1) Injector wiring\n(2) Resistor (7M-GTE)\n(3) ECU\n\nSYMPTOM — ENGINE SOMETIMES STALLS\n\nCHECK DIAGNOSIS SYSTEM\nCheck for output of diagnostic code.\n(See page FI-23)\nMalfunction code(s)\nDiagnostic code(s) (See page FI-26)\n\nNormal code\n\nCHECK AIR FLOW METER\n(See pages FI-94, 96)\nBAD\nAir flow meter\n\nOK\n\nCHECK WIRING CONNECTORS AND\nRELAYS\nCheck for a signal change when the connector or relay is slightly tapped or wiggled.\nBAD\n1. Connector\n2. EFI main relay (See page FI-109)\n3. Circuit opening relay (See page FI-110)"
+}

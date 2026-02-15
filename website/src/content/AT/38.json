@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-38",
+  "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting (Mechanical System Tests)",
+  "title": "",
+  "ocr_text": "AT-38        AUTOMATIC TRANSMISSION — Troubleshooting (Mechanical System Tests)\n\n2 Range\nP\nR\nN\nD\n2\nL\n\n1 ← 2  Abnormal Noise?\n2 ← 1  Shock?\n\nAT2809\n\n(c) Check for abnormal noise at acceleration and deceleration, and for shock at up-shift and down-shift.\n\n3. L RANGE TEST\n(a) While running in the L range, check to see that there is no up-shift to 2nd gear.\n\nL Range        No Up-Shift\nP\nR\nN\nD\n2\nL\n\n1 → 2\n\nAT2808\n\n(b) While running in the L range, release the accelerator pedal and check the engine braking effect.\nEVALUATION\nIf there is no engine braking effect:\n• First and reverse brake is defective\n\nL Range\nP\nR\nN\nD\n2\nL\n\n1 → Engine Braking?\n\nAT2807\n\n(c) Check for abnormal noise during acceleration and deceleration.\n\nL Range\nP\nR\nN\nD\n2\nL\n\nAbnormal Noise?\n\nAT2806\n\n4. R RANGE TEST\nShift into the R range and, while starting at full throttle, check for slipping.\n\nR Range        Full Open\nP\nR\nN\nD\n2\nL\n\nSlipping?\n\nAT2805"
+}

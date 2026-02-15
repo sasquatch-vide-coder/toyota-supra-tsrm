@@ -1,0 +1,6 @@
+{
+  "page_id": "",
+  "section_header": "TOYOTA SUPRA",
+  "title": "",
+  "ocr_text": "TOYOTA SUPRA\n\nEol (7M-GTE)\n\n7                                    I                                    8\n\n[THIS IS DIAGRAM: Complex electrical wiring diagram showing various connections and components including:\n- Battery connections\n- VSV (For Fuel Pressure Up)\n- Charge/Exhaust switch-Over VSV\n- Various ECU connections\n- IGN, IGF, and ECT inputs\n- Oil cooler bypass VSV\n- CAM Position Sensor\n- Multiple relay and connector points\n\nKey components labeled:\n- BATT\n- CHK\n- E02\n- VSV connections\n- Multiple numbered terminals and pins\n- Notes indicating wire colors (B/R, B/W, etc.)\n- References to \"From GAUGE Fuse (2.5)\", \"From IGN Fuse (1.7)\", \"From A/C Amplifier (1.7)\"\n- \"To ECT ECU (2.5)\"\n- \"To Oil Charger Relay (2.4)\"\n- \"To ABS & TRAC Relay (5.7)\"\n- \"To Speed Sensor (5.1)\"\n- \"To ECT ECU (2.6)\"\n- \"To Oil Pressure Sender (3.3)\"\n- \"To Check Connector (8.6)\"\n- \"To Tachometer (2.5)\"\n\nIgnition coil symbol shown in upper right\nVarious numbered connection points: 100A, 102A, 101A, 103A, 104A, 105A]"
+}

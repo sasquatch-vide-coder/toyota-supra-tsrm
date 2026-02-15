@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-97",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF THEFT DETERRENT HORN CIRCUIT.",
+  "ocr_text": "BODY ELECTRICAL SYSTEM — Theft Deterrent System\nBE-97\n\nL | INSPECTION OF THEFT DETERRENT HORN CIRCUIT.\n\nTurn ignition switch off.\n\nIs HAZ HORN fuse normal? → No → Replace fuse. Is operation normal? → No → Short circuit in wire harness between fuse and terminal 6 of computer.\n↓ Yes\nFuse faulty.\n\nTHEFT DETERRENT HORN\n↓\nINSPECT THEFT DETERRENT HORN OPERATION\nDisconnect connector from horn.\nIs horn operation normal? (See page BE-109) → No → Replace theft deterrent horn.\n↓ Yes\n\nCOMPUTER\n↓\nDisconnect computer connector and inspect connector on wire harness side as follows.\n↓\nINSPECT THEFT DETERRENT HORN CIRCUIT\nGround the terminal 6 and check that blow the theft deterrent horn. → No → Open circuit in theft deterrent horn circuit.\n↓ Yes\nReplace computer."
+}

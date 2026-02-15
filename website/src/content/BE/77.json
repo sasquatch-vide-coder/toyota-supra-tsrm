@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-77",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Inspection of vacuum circuit (7M-GTE only).",
+  "ocr_text": "K\nInspection of vacuum circuit (7M-GTE only).\n\nTurn ignition switch off.\n\nVACUUM HOSE\n\nAre there cracks or other damage on the\nvacuum hose?\nNo\nYes\nReplace vacuum hose.\n\nVACUUM SWITCH\nNo\n\nINSPECT VACUUM SWITCH CIRCUIT\nDisconnect connector from vacuum switch.\nIs there continuity between terminal 1 of\nvacuum switch and body ground?\nNo\n• Vacuum switch improperly installed.\n• Body ground faulty.\n\nYes\n\nINSPECT VACUUM SWITCH OPERATION\nIs vacuum switch normal?\n(See page BE-84)\nNo\nReplace vacuum switch.\n\nYes\n\nVACUUM PUMP\n\nINSPECT GROUND CONNECTION\nDisconnect connector from vacuum pump.\nIs there continuity between terminal 2 of wire\nharness side connector and body ground?\nNo\n• Open circuit in wire harness between\n  terminal 2 and body ground.\n• Body ground faulty.\n\nYes\n\nINSPECT VACUUM PUMP OPERATION\nIs vacuum pump operation normal?\n(See page BE-84)\nNo\nReplace vacuum pump.\n\nYes\n\nConnect connector to vacuum switch and\npump.\n\nCONTINUED ON NEXT PAGE"
+}

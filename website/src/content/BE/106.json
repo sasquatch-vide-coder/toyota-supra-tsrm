@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-106",
+  "section_header": "BODY ELECTRICAL SYSTEM — Audio System",
+  "title": "",
+  "ocr_text": "BE-106\n\nBODY ELECTRICAL SYSTEM — Audio System\n\n(c) No sound from one speaker.\nPossible causes:\n• Loose speaker connector\n• Broken wire in speaker wire harness\n• Defective speaker\n• Defective radio and tape player\n\nTEST 1\n\nIs the speaker connected? → Yes → Pull out connector and reinsert. → OK → Inspect connector.\n↓ No\nConnect.\n↓\n⊙ → No ←┘\n↓ OK\n\nTEST 2\n\nTemporarily install another speaker. Okay? → Yes → Replace speaker.\n↓ No\nCheck for continuity in speaker wire harness. → OK → Replace radio and tape player.\n↓ No\nInspect and repair speaker wire harness.\n\n2. FAINT RECEPTION\nPossible causes:\n• Defective antenna or antenna cable\n• Defective speaker\n• Defective radio"
+}

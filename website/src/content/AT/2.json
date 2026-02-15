@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-2",
+  "section_header": "AUTOMATIC TRANSMISSION — Description",
+  "title": "DESCRIPTION",
+  "ocr_text": "DESCRIPTION\n\nGENERAL\n\nThe A340E is a 4-speed, Electronic Controlled Transmission (hereafter called ECT) developed for use with high-performance engines such as the 7M-GE and 7M-GTE. A lock-up mechanism is built into the torque converter.\n\n[Image: Cross-sectional diagram of transmission]\n\n01328\n\nThe A340E transmission is mainly composed of the torque converter, the overdrive (hereafter called O/D) planetary gear unit, 3-speed planetary gear unit, the hydraulic control system and the electronic control system.\n\n[Image: Schematic diagram showing transmission components]\n\nTorque Converter\nOil Pump\nO/D Planetary Gear Set\nFront Planetary Gear Set\nC₀   B₀   F₀   B₁   C₂   C₁   B₂   F₁   B₃   F₂\nRear Planetary Gear Set\nO/D Input Shaft\nInput Shaft\nOutput Shaft\nO/D Planetary Gear Unit\n3-Speed Planetary Gear Unit\nHydraulic Control Unit\n\nAT2/b3"
+}

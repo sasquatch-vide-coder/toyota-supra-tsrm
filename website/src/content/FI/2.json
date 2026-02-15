@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-2",
+  "section_header": "EFI SYSTEM — System Description",
+  "title": "SYSTEM DESCRIPTION",
+  "ocr_text": "SYSTEM DESCRIPTION\n\n7M-GE\n\nHCV Valve\nVacuum EFI\nEGR Vacuum Modulator (BVSV)\nEGR Valve\nEGR Gas Temp. Sensor\nTurbo Pressure Sensor\nAir Valve\nCalibrator switch only\nCold Start Injector\nThrottle Position Sensor\nPressure Regulator\nAir Flow Meter\nSpeed Sensor\nTDC Magnet Trim Sensor\nNO.1 Oxygen Sensor\nNO.2 Oxygen Sensor\nSub-Oxygen Sensor\nIgniter\nFuel Tank\nFuel Pump Relay\nFuel Tank Relay\nResistor\nCircuit Opening Relay\nIgnition SW\n*CHECK ENGINE* Warning Light\nEFI Main Relay\nBattery\nElectrical Load\nCheck Connector\nA/C Sw\nSpeed Sensor\nNO.1 Oxygen Sensor\nNO.2 Heated Oxygen Sensor (HO2S)\nF03731"
+}

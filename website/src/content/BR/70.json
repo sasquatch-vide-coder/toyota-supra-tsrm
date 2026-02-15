@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-70",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "BR-70\n\nBRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\n5V\n\nBelow\n1V\n\nAbout 3ms\n\nL7823\n\nMatchmarks\n\nPR0134\n\nA340E, R154\n\nSensor Rotor\n\nE2613\n\nReverse Gear\nW58\n\nBR1309\n\nMatchmarks\n\nPR0134\n\n(c) Run the vehicle at 20 km/h (12.4 mph), check that the speed sensor output wave matches the wave pattern shown above for the illumination.\n(d) Disconnect the oscilloscope and install the computer in place.\n(e) Install the glove box.\n\n2. INSPECT SENSOR ROTOR SERRATIONS\n(a) Drain the transmission fluid.\n(b) Remove the propeller shaft.\n(See page PR-3)\n(c) Remove the extension housing.\n\n(d) (A340E, R154)\nInspect the sensor rotor serration for scratches, cracks, missing teeth or abnormal play.\n\n(e) (W58)\nInspect the reverse gear serration for scratches, cracks, missing teeth or abnormal play.\n\n(f) Install the extension housing.\n(g) Install the propeller shaft.\n(See page PR-9)\n(h) Fill the transmission fluid and check fluid level."
+}

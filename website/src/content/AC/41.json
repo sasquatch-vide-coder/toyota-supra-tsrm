@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-41",
+  "section_header": "AIR CONDITIONING SYSTEM — Amplifiers",
+  "title": "2. System Operation When Input False Signal\nCondition: Setting Temperature is at 25°C (77°F)",
+  "ocr_text": "AIR CONDITIONING SYSTEM — Amplifiers                                                AC-41\n\n2. System Operation When Input False Signal\n   Condition: Setting Temperature is at 25°C (77°F)\n\nSystem Main Parts | False Signal | Motion\n\nAir Mix Control Servo Motor | A | Air mix control servo motor shaft moves towards max. hot side.\n                            | B | Air mix control servo motor shaft moves towards max. cool side.\n\nAir Vent Mode Control Servo Motor | A | VENT: Close | BI-LEVEL: Close | HEAT: Open | DEF: Close\n                                  | B | VENT: Open | BI-LEVEL: Close | HEAT: Close | DEF: Close\n\nBlower Motor | A | Blower motor rotates at high speed.\n             | B |\n\nWater Valve | A | OPEN\n            | B | CLOSE\n\nFRE/REC Control Servo Motor | FRE Switch ON | Fresh air is ventilated.\n                            | REC Switch ON | Recirculation air is ventilated.\n\nIf necessary, replace the system amplifier."
+}

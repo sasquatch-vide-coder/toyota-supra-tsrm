@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-11",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "TROUBLESHOOTING PROCEDURES",
+  "ocr_text": "EFI SYSTEM — Troubleshooting\n\nDigital Type\nAnalog Type\n\n4. Use a volt/ohmmeter with high impedance (10 kΩ V mini-mum) for troubleshooting of the electrical circuit. (See pages FI-30, 49)\n\nTROUBLESHOOTING PROCEDURES\n\nSYMPTOM — DIFFICULT TO START OR NO START\n(ENGINE WILL NOT CRANK OR CRANKS SLOWLY)\n\nCHECK POWER SOURCE\n\nBAD\n\n1. Battery\n(1) Connection\n(2) Gravity — drive belt — charging system\n(3) Voltage\n2. Fusible links\n\nOK\n\nCHECK STARTING SYSTEM\n\nBAD\n\n1. Ignition switch\n2. Starter\n3. Starter relay (M/T, USA A/T)\n4. Clutch start switch (M/T)\n5. Neutral start switch (A/T)\n6. Wiring/Connection"
+}

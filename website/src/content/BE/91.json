@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-91",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF BACK DOOR KEY UNLOCK SWITCH CIRCUIT.",
+  "ocr_text": "D    INSPECTION OF BACK DOOR KEY UNLOCK SWITCH CIRCUIT.\n\nTurn ignition switch off.\n\nCOMPUTER\n\nDisconnect computer connector and inspect\nconnector on wire harness side as follows.\n\nINSPECT BACK DOOR KEY UNLOCK\nSWITCH CIRCUIT\nIs there continuity between terminal 10 and\nground with key position is normal?\n\nYes → Short circuit in back door key unlock\nswitch circuit.\n\nNo ↓\n\nIs there continuity between terminal 10 and\nground with back door unlocked with key?\n\nNo → Open circuit in back door key unlock\nswitch circuit.\n\nYes ↓\n\nReplace computer."
+}

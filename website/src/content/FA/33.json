@@ -1,0 +1,6 @@
+{
+  "page_id": "FA-33",
+  "section_header": "FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension",
+  "title": "Troubleshooting No. 3: No anti-roll function",
+  "ocr_text": "FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension     FA-33\n\nTroubleshooting No. 3: No anti-roll function\n\nInitial check\n(See page FA-30)\n\nDo TEMS indicator lights indicate as shown below when the steering wheel is turned sharply while driving at 40 km/h (25 mph)?\n\nVehicle speed above 40 km/h (25 mph) | Sharp turn\nLights Position | S M F | S M F\nNormal | ON OFF OFF | ON ON ON\nSport | ON ON OFF | ON ON ON\n\nYes → Road test again.\n\nNo ↓\n\nCheck steering sensor and circuit.\n\nBad → Repair or replace.\n\nOK ↓\n\nCheck speed sensor and circuit.\n\nBad → [connects to Repair or replace]\n\nOK ↓\n\nTry another TEMS computer."
+}

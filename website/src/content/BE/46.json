@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-46",
+  "section_header": "BODY ELECTRICAL SYSTEM — Combination Meter",
+  "title": "",
+  "ocr_text": "BE-46\n\nBODY ELECTRICAL SYSTEM — Combination Meter\n\n3. MEASURE TURBO METER RESISTANCE\n(a) Disconnect the two drive circuit wire harnesses from the turbo meter terminals.\n\n(b) Measure the resistance between terminals.\nResistance: Approx. 72 Ω\nIf resistance value is not as specified, replace the turbo meter.\nIf resistance value is not as specified, replace the turbo meter drive circuit.\n\n4. INSPECT PRESSURE SENSOR\n(a) Connect a series of three 1.5 V dry cell batteries.\n(b) Connect the positive (+) lead from the dry cell batteries to terminal 3 and the negative (—) lead to terminal 1.\n(c) Connect the positive (+) lead from the voltmeter to terminal 2 and the negative (—) lead to terminal 1.\n(d) Check that the voltage between terminals 2 and 1.\nVoltage: Approx. 1.5 V\n\n(e) Apply 200 mmHg (7.87 in.Hg, 26.7 kPa) of vacuum.\nCheck that the voltage drops below 1.5 V.\n\n(f) Using SST, apply 0.5 kg/cm² (7.1 psi, 49 kPa) of pressure.\nCheck that the voltage rises above 1.5 V.\nSST 09992-00241\nIf operations are not as specified, replace the sensor."
+}

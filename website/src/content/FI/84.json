@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-84",
+  "section_header": "EFI SYSTEM — Fuel System",
+  "title": "REMOVAL OF INJECTORS",
+  "ocr_text": "REMOVAL OF INJECTORS\n\n1. DISCONNECT CABLE FROM NEGATIVE TERMINAL OF BATTERY\nCAUTION: Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the \"LOCK\" position and the negative (−) terminal cable is disconnected from the battery.\n\n2. DRAIN COOLANT\n\n3. DISCONNECT FOLLOWING HOSES:\n• Water hoses from throttle body (7M-GE) or water bypass pipe (7M-GTE)\n• Vacuum hoses from throttle body\n• ISC valve hoses from throttle body\n• Vacuum hose from pressure regulator\n\n4. DISCONNECT FOLLOWING CONNECTORS:\n• Throttle position sensor connector\n• ISC valve connector\n• (7M-GE)\nCold start injector connector\n\n5. DISCONNECT ACCELERATOR CONNECTING ROD\n\n6. REMOVE AIR INTAKE CONNECTOR\n(7M-GE)\n(a) Disconnect the air cleaner hose from the throttle body.\n(b) Remove the throttle body air intake connector and brackets.\n\n(c) Remove the four bolts and two nuts, intake connector and gasket.\n(7M-GTE)\n(See steps 1 to 5 on page EM-12)\n\n7. (7M-GTE)\nREMOVE THROTTLE BODY\n(See step 6 on page FI-102)\n\n8. REMOVE ISC VALVE\n(a) Disconnect the No.1 water by-pass hose from the ISC valve."
+}

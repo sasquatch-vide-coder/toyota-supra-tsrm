@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-16",
+  "section_header": "BODY ELECTRICAL SYSTEM — Lighting System",
+  "title": "Daytime Running Light System (CANADA only)\nWiring and Connectors Diagram",
+  "ocr_text": "BE-16\nBODY ELECTRICAL SYSTEM — Lighting System\n\nDaytime Running Light System (CANADA only)\nWiring and Connectors Diagram\n\nHeadlight Control Relay\nTaillight Control Relay\nFuse\nFront Fog Light Relay\nFL ALT\nFL AM1\nIgnition Switch\nFL AM2\nFL\n20L\nBattery\nFront Fog Light Switch\nTo Clock\n\nLight Regulator Relay\n21N\n21E\nECU-IG\n4T8\n\nLH Retractor Motor\nRH Retractor Motor\n\nFuse RTR\n8T1\n1A1\nJB16\n\nIgnition Switch\n4  3  2  1\n8  7  6  5\n\nHeadlight Control Relay\n2        1\n4     3\n\nLight Control Switch and\nHeadlight Dimmer Switch\nH  H        H  H  H  H  H  H  H  H\n\nFront Fog Light Switch\n1\n2\n3\n4\n5\n\nFuse\nHEAD (LH)\n\nOH Beam Indicator Light\n\nFuse\nHEAD (RH)\n\nHeadlight\nDimmer\nSwitch\n\nLight Control\nSwitch\n\nFLASH\nHI\n\nOFF\nTAIL\nHEAD\n\nOFF\nTAIL\nHEAD\n\nTaillight Control Relay\n&\nFront Fog Light Relay\n2        1\n4     3\n\n2        1\n4     3\n\nLight Retractor Relay\nLH\nHI    LO\nL    S    N    L    S    N\nRH\nHI    LO\nL    S    N    L    S    N\n\n88-0297\n88-0310"
+}

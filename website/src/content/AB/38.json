@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-38",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "",
+  "ocr_text": "DIAGNOSTIC CHART (Cont'd)\n\n7\nCheck front airbag sensor.\nNG → Replace front airbag sensor.\nOK ↓\nRepair or replace harness or connector between\ncenter airbag sensor assembly and front airbag\nsensor. (See page AB-21).\n\n8\nCheck spiral cable.\nNG → Repair or replace spiral cable.\nOK ↓\nRepair or replace harness or connector between\ncenter airbag sensor assembly and spiral cable.\n\nWIRING DIAGRAM\n\nCenter Airbag Sensor Assembly\nPower Source\n\nSteering Wheel Pad\nD1 → Safing Sensor\nSouth\nSpiral Cable\nD→\n\n+SL→\nFront Airbag Sensor LH\n-SL→\n\n+SR→\nFront Airbag Sensor RH\n-SR→\n\nAB0190"
+}

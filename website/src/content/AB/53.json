@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-53",
+  "section_header": "SRS AIRBAG - Troubleshooting",
+  "title": "",
+  "ocr_text": "7\nCheck center airbag sensor assembly.\n\nCenter Airbag\nSensor Assembly\nSpiral\nCable\nSteering Wheel\nPad (Squib)\n\nD+\nD-\n\nAB0073\nAB0094\n\nOK\nNG\n\nConnect center airbag sensor assembly connector.\n\nMeasure resistance between D+ and D- on center\nairbag sensor assembly side of connector between\ncenter airbag sensor assembly and spiral cable.\n\nON\nResistance: 40 kΩ or more\n\nReplace center airbag sensor assembly.\n\nFrom the results of the above inspection, the malfunctioning part can now be considered normal. To\nmake sure of this, use the simulation method to check."
+}

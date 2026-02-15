@@ -1,0 +1,6 @@
+{
+  "page_id": "CH-5",
+  "section_header": "CHARGING SYSTEM — On-Vehicle Inspection",
+  "title": "",
+  "ocr_text": "CHARGING SYSTEM — On-Vehicle Inspection\n\nCH-5\n\n[DIAGRAM: Alternator with Terminal F and Terminal B labeled]\n\n[DIAGRAM: Two gauges shown - Voltmeter (scale 0-20V) and Ammeter (scale showing values from 0-30-40-50-60)]\n\nIf the voltage reading is less than standard voltage, check the IC regulator and alternator as follows:\n• With terminal F grounded, start the engine and check the voltage reading of terminal B.\n• If the voltage reading is higher than standard voltage, replace the IC regulator.\n• If the voltage reading is less than standard voltage, repair the alternator.\n\n8. INSPECT CHARGING CIRCUIT WITH LOAD\n(a) With the engine running at 2,000 rpm, turn on the high beam headlights and place the heater fan control switch at HI.\n(b) Check the reading on the ammeter.\nStandard amperage: 30 A or more\nIf the ammeter reading is less than 30 A, repair the alternator. (See page CH-6)\nHINT: If the battery is fully charged, the indication will sometimes be less than 30 A."
+}

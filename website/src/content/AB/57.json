@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-57",
+  "section_header": "AIRBAG — Troubleshooting",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "SRS AIRBAG — Troubleshooting AB-57\n\nINSPECTION PROCEDURES\n\nP Preparation C Check\n\n1 Preparation.\n\nLOCK\n\nP (1) Disconnect battery negative (—) terminal cable, and wait at least 20 seconds.\n(2) Remove steering wheel pad (See page AB-15).\n\nCaution\nWhen storing steering wheel pad, keep upper surface of the pad facing upward.\n\nAB0112\n\n2 Check squib circuit.\n\nCenter Airbag Spiral Steering Wheel\nSensor Assembly Cable Pad (Squib)\n\nD+ D—\n\nAB0012\nAB0028\n\nP Disconnect center airbag sensor assembly connector.\n\nC Measure resistance between D+ and D— on spiral cable side of connector between spiral cable and steering wheel pad.\n\nOK Resistance: Less than 1 Ω\n\nNG\n\nOK Go to step 5"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-5",
+  "section_header": "STARTING SYSTEM — Starter",
+  "title": "INSPECTION OF STARTER",
+  "ocr_text": "INSPECTION OF STARTER\nArmature Coil\n\n1. INSPECT THAT COMMUTATOR IS NOT GROUNDED\nUsing an ohmmeter, check that there is no continuity between the commutator and armature coil core.\nIf there is continuity, replace the armature.\n\nNo continuity\n\n2. INSPECT COMMUTATOR FOR OPEN CIRCUIT\nUsing an ohmmeter, check that there is continuity between the segments of the commutator.\nIf there is no continuity between any segment, replace the armature.\n\nContinuity\n\nCommutator\n\n1. INSPECT COMMUTATOR FOR DIRTY AND BURNT SURFACES\nIf the surface is dirty or burnt, correct it with sandpaper (No. 400) or on a lathe.\n\n2. INSPECT COMMUTATOR CIRCLE RUNOUT\n(a) Place the commutator on V-blocks.\n(b) Using a dial indicator, measure the circle runout.\nMaximum circle runout: 0.05 mm (0.0020 in.)\nIf the circle runout is greater than maximum, correct it on a lathe.\n\n3. INSPECT COMMUTATOR DIAMETER\nUsing vernier calipers, measure the commutator diameter.\nStandard diameter: 30 mm (1.18 in.)\nMinimum diameter: 29 mm (1.14 in.)\nIf the diameter is less than minimum, replace the armature."
+}

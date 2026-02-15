@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-49",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "TROUBLESHOOTING WITH VOLT/OHMMETER (7M-GTE)",
+  "ocr_text": "HINT: The following troubleshooting procedures are for designed for those who suspect the system, therefore the procedure may vary somewhat. However, troubleshooting should be performed referring to the inspection methods described in this manual.\n\nBefore beginning inspection, it is best to first make a simple check of the fuses, fusible links and condition of the connectors.\n\nThe following troubleshooting procedures are based on the supposition that the trouble lies in the short or open circuit in a component outside the computer or a poor connection in the connector.\n\nIf engine check occurs even though proper operation is connected to the computer connector, then it can be assumed the computer is faulty and should be replaced.\n\nLOCATION OF FUSES AND FUSIBLE LINKS\n\nNo. 1 Junction Block\nFuse\nGAUGE 7.5A\nFuse\nIGN 7.5 A\n\nFusible Link\nAM1 40A\nEFI Main Relay\n\nFusible Link\nALT 100A\n\nFusible Link\n2.0L\n\nNo. 2\nJunction Block\n\nFusible Link\nAM2 30A\nFuse\nEFI 15A"
+}

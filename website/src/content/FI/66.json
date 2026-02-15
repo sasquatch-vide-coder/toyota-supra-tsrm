@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-66",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "FI-66          EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)\n\nNo. | Terminals | Trouble | Condition | STD Voltage\n11 | W — E1 | No voltage | No. trouble (\"CHECK ENGINE\" warning light off) and engine running | 8 — 14 V\n\nECU\n\nFUSE\nGAUGE 7.5A | \"CHECK ENGINE\" Warning Light\n\nCombination Meter\n\nW\n\nE1\n\nF02728\n\n① There is no voltage between ECU terminals W and E1. (oding)\n\nECU\nVoltmeter\nE1\nW\n\nF02772\n\n② Check that there is voltage between ECU terminal W and body ground.\n\nNO | OK\n\n③ Check wiring between ECU terminal E1 and body ground.\n\nOK | BAD\n\nTry another ECU. | Repair or replace.\n\nECU\nVoltmeter\nW\n\nF02773\n\nCheck GAUGE fuse (7.5A) and \"CHECK ENGINE\" warning light.\n\nOK | BAD\n\nRepair or replace.\n\nFuse blows again\n\nECU\nOhmmeter\nE1\n\nF02766\n\nCheck wiring between ECU terminal W and fuse. | BAD | Repair or replace."
+}

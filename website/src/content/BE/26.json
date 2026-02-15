@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-26",
+  "section_header": "BODY ELECTRICAL SYSTEM — Lighting System",
+  "title": "",
+  "ocr_text": "BE-26\n\nBODY ELECTRICAL SYSTEM — Lighting System\n\nTurn Signal and Hazard Warning System\n\n1. INSPECT SWITCHS\n(Turn Signal Switch/Continuity)\nSee Headlight Dimmer and Turn Signal Switch on page BE-22.\n\n(Hazard Warning Switch/Continuity)\n\nTerminal\nSwitch Position | 1 | 2 | 3 | 5 | 6 | 7 | 8 | 9 | 10\n\nOFF\n\nON\n\nIf continuity is not as specified, replace the switch or bulb.\n\n2. INSPECT TURN SIGNAL FLASHER\n(Operation)\n(a) Connect the positive (+) lead from the battery to terminal 2 and the negative (−) lead to terminal 3.\n(b) Connect the two turn signal light bulbs parallel to each other to terminals 1 and 3, check that the bulbs flash.\nHINT: The turn signal lights should flash 60 to 120 times per minute.\nIf one of the front or rear turn signal lights has an open circuit, the number of flashers will be more than 140 per minute.\nIf operation is not as specified, replace the flasher.\n\nFog Light System\n\n1. INSPECT SWITCH CONTINUITY\n\nTerminal\nSwitch Position | 1 | 2 | 4 | 5\n\nOFF\n\nON\n\nIf continuity is not as specified, replace the switch or bulb.\n\n2. INSPECT FOG LIGHT RELAY\nSee Taillight Control Relay on page BE-22."
+}

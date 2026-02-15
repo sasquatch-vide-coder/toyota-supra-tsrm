@@ -1,0 +1,24 @@
+# Environment / secrets
+.env
+.env.*
+
+# Large binary assets (GIF scans, upscaled images)
+data/raw/
+data/diagrams/
+data/processed/
+website/public/images/
+website/public/originals/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Errors log
+data/errors.log

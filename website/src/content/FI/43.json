@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-43",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)",
+  "title": "",
+  "ocr_text": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)     FI-43\n\nNo. | Terminals | Trouble | Condition | STD Voltage\n8 | IGT — E1 | No voltage | Idling | 0.7 ~ 1.0 V\n\nECU\n\nIgnition Switch\nAM2 -----IG2\n\nAM2 30A\nFusible\nLink\nMAIN 2.0L\n\nBattery\n\nIgniter or\nIgnition Coil\n\nTo\nTachometer\n\nIGF\nIGT\nE1\n\nFI3576\n\n1 There is no voltage between ECU terminals IGT and E1.\n(Idling)\n\n1\n\nECU | IGT\nVoltmeter\nE1\nV\n\nFI1642\n\n2 Check that there is voltage between ECU terminal IGT and body\nground. (Idling)\n\nNO | OK\n\n3 Check wiring between ECU\nterminal E1 and body ground.\n\nBAD | Repair or\nreplace.\n\nOK\n\nTry another ECU.\n\nCheck fusible links and ignition\nswitch.\n\nBAD | Repair or replace.\n\nOK\n\n2\n\nECU | IGT\nVoltmeter\nV\n\nFI1725\n\nCheck distributor. (See page IG-9)\n\nBAD | Repair or replace.\n\nOK\n\n3\n\nE1 | ECU\nOhmmeter\nΩ\n\nFI2311\n\nCheck wiring between ECU and\nbattery.\n\nBAD | Repair or replace.\n\nOK\n\nCheck igniter.\n\nBAD | Repair or replace."
+}

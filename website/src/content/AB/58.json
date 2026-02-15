@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-58",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "",
+  "ocr_text": "AB-58\n\nSRS AIRBAG — Troubleshooting\n\n3\nCheck spiral cable.\n\nCenter Airbag\nSensor Assembly\n\nSpiral\nCable\n\nSteering Wheel\nPad (Squib)\n\nD⁺\nD⁻\n\nAB0011\nAB0058\n\nP\nDisconnect connector between center airbag\nsensor assembly and spiral cable.\n\nC\nMeasure resistance between D⁺ and D⁻ on spiral\ncable side of connector between spiral cable and\nsteering wheel pad.\n\nOK\nResistance: Less than 1 Ω\n\nOK\nNG\nRepair or replace spiral cable.\n\n4\nCheck harness between center airbag sensor assembly and spiral cable.\n\nCenter Airbag\nSensor Assembly\n\nSpiral\nCable\n\nSteering Wheel\nPad (Squib)\n\nD⁺\nD⁻\n\nAB0011\nAB0058\n\nC\nMeasure resistance between D⁺ and D⁻ on center\nairbag sensor assembly side of connector between\ncenter airbag sensor assembly and spiral cable.\n\nOK\nResistance: Less than 1 Ω\n\nOK\nNG\nRepair or replace harness or connector between\ncenter airbag sensor assembly and spiral cable."
+}

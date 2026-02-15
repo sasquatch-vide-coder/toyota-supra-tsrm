@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-56",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "BR-56\n\nBRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\nContinued from BR-55\n\nIs connector of computer properly connected?\nAnd are all terminals in the connector?\n\nNO → Faulty connector.\n\nYES\n↓\n\nIs there 10 — 16 V between terminal IG on\ncomputer wire harness side connector and\nbody ground? (Ignition switch on)\n\nNO → Faulty power circuit.\n\nYES\n↓\n\nDoes warning light go off when both the\ncomputer connector and actuator check con-\nnector are disconnected? (Ignition switch on)\n\nNO\n(Comes on) → Short circuit in wire harness between\ncomputer terminal W and actuator\nterminal W.\n\nYES\n(Goes off)\n↓\n\nFaulty computer."
+}

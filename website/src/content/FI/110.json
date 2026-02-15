@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-110",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "Circuit Opening Relay",
+  "ocr_text": "Circuit Opening Relay\n\nTo Ignition Switch (ST1)\nECU (STA)\nECU +B (UB1)\nEFI Main Relay\nFP\nB\nSTA\n+B\nCheck Connector\nFP\nFC\nE1\nFuel Pump Switch\n(Air Flow Meter)\n(7M-GTE)\nFuel Pump\nControl Relay\nECU\n(7M-GTE)\nF11305\n\nINSPECTION OF CIRCUIT OPENING RELAY\n\n1. INSPECT RELAY CONTINUITY\n(a) Using an ohmmeter, check that there is continuity between terminals STA and E1.\n(b) Check that there is continuity between terminals B and FC.\n(c) Check that there is no continuity between terminals B and FP.\nIf continuity is not as specified, replace the relay.\n\nContinuity\nSTA\nB\nNo continuity\nContinuity\nFC\nE1\nFP\nF11308\n\n2. INSPECT RELAY OPERATION\n(a) Apply battery voltage across terminals STA and E1.\n(b) Using an ohmmeter, check that there is continuity between terminals B and FP.\n\nContinuity\nBattery\nF11309\n\n(c) Apply battery voltage across terminals B and FC.\n(d) Check that there is continuity between terminals B and FP.\nIf operation is not as specified, replace the relay.\n\nContinuity\nBattery\nF11310"
+}

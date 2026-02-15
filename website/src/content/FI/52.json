@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-52",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "FI-52\n\nEFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)\n\nNo.\nTerminals\nTrouble\nCondition\nSTD Voltage\n1\nBATT — E1\nNo voltage\nIgnition switch ON\n10 ~ 14 V\nIG SW — E1\nNo voltage\nIgnition switch ON\n10 ~ 14 V\nM-REL — E1\nNo voltage\nIgnition switch ON\n10 ~ 14 V\n+B(+B1) — E1\nNo voltage\nIgnition switch ON\n10 ~ 14 V\n\nECU\nBATT\nEFI Main Relay\n+B\nFusible Link\nFuse\n+B1\nAM2 30A\nEFI 15A\nM-REL\nFusible\nMAIN 2.0L\nLink\nIgnition Switch\nFuse\nAM2\nIG2\nIGN 7.5A\nIG SW\nBattery\nE1\n\nFI3610\n\nBATT - E1\n\nECU\n1\nVoltmeter\nThere is no voltage between ECU terminals BATT and E1.\nE1\nBATT\n\nCheck that there is voltage between ECU terminal BATT and body\n2\nground.\nNO\nOK\n\nFI2753\nCheck wiring between ECU terminal E1 and body\n3\nground.\n\nECU\n2\nOK\nBAD\nVoltmeter\nTry another ECU.\nRepair or replace.\nBATT\nE1\n\nBAD\nCheck fuse and fusible links.\nReplace.\n\nFI2754\nOK\n\nBAD\nCheck wiring between ECU\nRepair or replace.\nterminal and battery.\n\nECU\n3\n\nOhmmeter\nE1\n\nFI2755"
+}

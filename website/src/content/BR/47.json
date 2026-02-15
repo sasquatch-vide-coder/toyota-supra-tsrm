@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-47",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "FUNCTION OF COMPONENTS",
+  "ocr_text": "FUNCTION OF COMPONENTS\n\nComponent | Function\n\nFront Speed Sensor | Detects the wheel speed of each of the left and right front wheels.\n\nRear Speed Sensor | Detects the average wheel speed of the left and right rear wheels.\n\nANTILOCK Warning Light | Lights up to alert the driver when trouble has occured in the Anti-lock Brake System.\n\nA.B.S. Actuator | Controls the brake fluid pressure to each disc brake cylinder through signals from the computer.\n\nAnti-lock Brake System Computer | From the wheel speed signals from each sensor, it calculates acceleration, deceleration and slip values and sends signals to the actuator to control brake fluid pressure.\n\nLOCATION OF SYSTEM PARTS\n\nRear Speed Sensor (W58)\n\nAnti-lock Brake System Computer\n\nANTILOCK Warning Light\n\nA.B.S. Actuator\n\nRear Speed Sensor (A340E, R154)\n\nNeutral Start Switch (A340E)\n\nFront Speed Sensor\n\nBR31R1"
+}

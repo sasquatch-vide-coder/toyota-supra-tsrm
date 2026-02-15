@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-72",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "AB-72\nSRS AIRBAG — Troubleshooting\n\nINSPECTION PROCEDURES\n\nHINT: When a malfunction code other than code 31 is displayed at the same time, first repair the malfunction indicated by the malfunction code other than code 31.\n\nP Preparation    C Check\n\n1   Is diagnostic code 31 output again?\n\nACC        ON\nor\n\nE1\nTc\nCode 31\n\nAMB115 255358\nGI1163A\n\nP  Clear malfunction code 41 stored in memory (See page AB-31).\n\nC  (1) Turn ignition switch LOCK, and wait at least 20 seconds.\n(2) Turn ignition switch ACC or ON, and wait at least 20 seconds.\n(3) Repeat operations in step (1) and (2) at least 5 times.\n(4) Using SST, connect terminals Tc and E1 of check connector.\nSST 09843-18020\n(5) Check diagnostic code.\n\nYES                         NO    Using simulation method, reproduce malfunction symptoms (See page AB-32).\n\nReplace center airbag sensor assembly."
+}

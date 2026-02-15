@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-67",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\nBR-67\n\n3. VISUALLY INSPECT SENSOR ROTOR SERRATIONS\n(a) Remove the two bolts and remove the torque plate with brake cylinder.\n(b) Remove the rotor disc.\n(c) Inspect the sensor rotor serrations for scratches, cracks, warping or missing teeth.\n(d) Install the rotor disc and brake cylinder assembly with two bolts.\nTorque: 1,065 kg-cm (77 ft-lb, 104 N-m)\nNOTICE: To prevent damage to the serrations, do not strike the axle hub.\n\n4. INSPECT SENSOR ROTOR RUNOUT\nMeasure the sensor rotor runout at 2 mm (0.08 in.) from the serration edge.\nMaximum sensor rotor runout\n(the runout fluctuation measured at the top of 3 consecutive serrations): 0.1 mm (0.004 in.)\nIf not as specified, replace the front axle hub.\n\nINSPECTION OF FRONT SPEED SENSOR AND SENSOR ROTOR SERRATIONS (REFERENCE)\n\nINSPECT FRONT SPEED SENSOR AND SENSOR ROTOR SERRATIONS BY USING AN OSCILLOSCOPE\n(a) Connect an oscilloscope to the speed sensor connector.\n(b) Run the vehicle at 20 km/h (12.4 mph), and inspect speed sensor output wave.\n(c) Check that C is 0.5 V or more.\nIf not as specified, replace the speed sensor.\n(d) Check that B is 70% or more of A.\nIf not as specified, replace the front axle hub."
+}

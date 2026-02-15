@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-14",
+  "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting (Diagnosis System)",
+  "title": "READ DIAGNOSTIC CODE",
+  "ocr_text": "AT-14\n\nAUTOMATIC TRANSMISSION — Troubleshooting (Diagnosis System)\n\nREAD DIAGNOSTIC CODE\n\n1. TURN IGNITION SWITCH AND O/D SWITCH TO ON\nDo not start the engine.\nHINT: Warning and diagnostic codes can be read only when the overdrive switch is ON. If OFF, the overdrive OFF light will light continuously and will not blink.\n\n2. CONNECT T1 AND E1 TERMINALS OF CHECK CONNECTOR\nUsing SST, connect terminals T1 and E1 of the check connector.\nSST 09843-18020\n\n3. READ DIAGNOSTIC CODE\nRead the diagnostic code as indicated by the number of times the O/D OFF light flashes.\n\n(Diagnostic Code Indication)\n• If the system is operating normally, the light will flash 2 times per second.\n\n• In the event of a malfunction, the light will flash 1 time per second. The number of blinks will equal the first number of the two digit diagnostic code. A 2.5 seconds pause will separate each number (first and second number) of the two digit diagnostic code. If there are two or more codes, there will be a 2.5 seconds pause between each.\nHINT: In the event of several trouble codes occuring simultaneously, indication will begin from the smaller value and continue to the larger.\n\n4. REMOVE SST"
+}

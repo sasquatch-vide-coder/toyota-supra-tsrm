@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-77",
+  "section_header": "EFI SYSTEM — Fuel System",
+  "title": "Cold Start Injector",
+  "ocr_text": "EFI SYSTEM — Fuel System                                                FI-77\n\nCold Start Injector\n\n7M·GE                                                    7M·GTE\n\n[Diagram showing two cold start injector cross-sections with labeled parts: Solenoid Coil, Spring, Plunger]\n\n[Wiring diagram showing connections between:\nBattery — MAIN 2.0L, ALT 40A, AM1 — Fusible Link\nIgnition Switch (AM1, ST1)\n[USA A/T] — Starter Relay\nCanada A/T — [M/T]\nClutch Start SW (M/T) — To Body Ground (Canada)\nNeutral Start SW (A/T)\nTo Theft Deterrent (USA)\nCold Start Injector\nCold Start Injector Time Switch (STA, ST1, STJ, STA)\nECU]\n\nF10827·FA0526\nFI18F21\n\n[Diagram showing cold start injector location in engine]\n\nON-VEHICLE INSPECTION (7M-GE Only)\n\nINSPECT RESISTANCE OF COLD START INJECTOR\n\n(a) Disconnect the cold start injector connector.\n(b) Using an ohmmeter, check the resistance of the injector.\n\nResistance:    2 — 4 Ω\n\nIf the resistance is not as specified, replace the cold start injector.\n\n(c) Connect the cold start injector connector.\n\nF1086"
+}

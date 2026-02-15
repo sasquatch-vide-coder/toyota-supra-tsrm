@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-48",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)",
+  "title": "",
+  "ocr_text": "California vehicle only\n\nECU\n+B(+B1)\nEGR Gas Temp. Sensor\nEGR\nValve\nTHG\nE2\nE1\n\n1\nThere is voltage between ECU terminals THG and E2.\n(IG SW ON)\n\n2\nCheck that there is voltage between ECU terminal +B(+B1) and\nbody ground. (IG SW ON)\n\nOK\nNO\nRefer to No. 1.\n(See page FI-35)\n\nCheck wiring between ECU terminal E1 and body ground.\n\nOK\nBAD\nRepair or replace.\n\nCheck EGR system.\n\nOK\nBAD\nRepair or replace.\n\n3\nCheck EGR gas temp. sensor.\n(See page FI-118)\n\nBAD\nOK\nReplace EGR gas temp.\nsensor.\nCheck wiring between ECU and\nEGR gas temp. sensor.\n\nOK\nBAD\nTry another ECU.\nRepair or replace.\n\nECU\nVoltmeter\nTHG\nE2\nFI2945\n\n2\nECU\n+B1\nVoltmeter\nE1\nFI0312\n\n3\nOhmmeter\nOil\nFI0874"
+}

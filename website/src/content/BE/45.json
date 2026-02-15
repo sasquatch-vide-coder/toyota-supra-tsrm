@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-45",
+  "section_header": "BODY ELECTRICAL SYSTEM — Combination Meter",
+  "title": "Turbo Meter",
+  "ocr_text": "Turbo Meter\n\nINSPECTION OF METER\n\n1. INSPECT METER OPERATION\n\n(a) Disconnect the connector from the pressure sensor.\n(b) Turn the ignition switch ON. Check that the meter needle moves to upper position.\n\n(c) Ground the terminal 2 on the wire harness side. Check that the meter needle moves to lower position.\n\nIf operations are not as specified, inspect the meter drive circuit.\n\n2. INSPECT METER DRIVE CIRCUIT\n\nDisconnect the connectors from the combination meter and inspect the connector on the wire harness side as shown in the chart below.\n\nCheck For | Tester Connection | Condition | Specified Value\nContinuity | On the connector \"A\" 1 — Ground | Always | Continuity\nVoltage | On the connector \"C\" B — Ground | Turn ignition switch to LOCK or ACC Turn ignition switch ON | No voltage Battery voltage\nContinuity | On the connector \"E\" 1 — Ground 2 — Ground 3 — Ground | Disconnect the connector from the pressure sensor and ground the three terminals on the wire harness side | No continuity Continuity\n\nIf circuit is as specified, measure the turbo meter resistance."
+}

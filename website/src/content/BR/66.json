@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-66",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "Front Speed Sensor",
+  "ocr_text": "BR-66\n\nBRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\nFront Speed Sensor\n\n195 (14, 19)\n\nkg·cm (ft·lb, N·m) : Specified torque\n\nBR10321-E4115\n\nLH Front\nSpeed Sensor\n\nRH Front\nSpeed Sensor\n\nFL-    FL+    FR-    FR+\n\nBZT4-62J12\n\nNo continuity\n\nBR1024\n\nBR1025\n\nINSPECTION OF FRONT SPEED SENSOR\n\n1. INSPECT SPEED SENSOR\n\n(a) Disconnect the speed sensor connector in the engine compartment.\n\n(b) Measure the resistance between terminals.\nResistance: 0.8 — 1.3 kΩ\nIf resistance value is not as specified, replace the sensor.\n\n(c) Check that there is no continuity between each terminal and sensor body.\nIf there is continuity, replace the sensor.\n\n(d) Connect the speed sensor connector.\n\n2. INSPECT SENSOR INSTALLATION\n\nCheck that the sensor installation bolt is tightened properly. If not, tighten the bolt.\nTorque: 195 kg·cm (14 ft·lb, 19 N·m)"
+}

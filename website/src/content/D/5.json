@@ -1,0 +1,6 @@
+{
+  "page_id": "7M-GE",
+  "section_header": "Engine Control (7M-GE)",
+  "title": "",
+  "ocr_text": "Engine Control (7M-GE)\n\n5                                                                                                                    6\n\n[ECU PIN CONNECTOR DIAGRAM showing pins labeled:\nTop row: E01-E29 with labels including PC, PC, O, C1, BT, OT, O2, M, SPD, IGT, THO, E2, VF1, NSW, OX1, IGF, V-, VB, FP, THG, VS, VC, BAT1, GR\nBottom row: E02-E30 with labels including E02, A/D, EGD, E1, BT, V+, C2, V/1, TE1, VTA, D1, THW, O2S, KNK, E2, L1, L2, L3, A/C, W, IGF, EG1, L4, SYS, #1, #3]\n\nNAFT BY GATE 1\n\nTo ECU (5-4)\n\nTHROTTLE POSITION SENSOR\n\nEFI WATER TEMP SENSOR\n\nAIR FLOW SENSOR\n\nCOLD START INJECTOR\n\nCIRCUIT OPENING RELAY\n\nGAUGE Fuse (7-10)\n\nVSV (For EGR)\n\nInlet Air Control\n\nISC VALVE\n\nCOME SWITCH\n(For ETCS)\nVSV\n\nINJ (Engine Relay)\n\nSpeed Sensor\n(2-11)\n\nTo ECU\n\nTo Data Link Connector (3-7)\n\nKNOCK SENSOR\n\nOX SENSOR (Main)\n\nOX SENSOR (Sub,California)\n\nCHECK CONNECTOR\n\nFrom TEMS Computer (3-7)\nFrom EFI ECU (2-4)\nFrom Igniter (1-7)\n\nFrom \"IGN\" Fuse (1-7)\nFrom A/C Amplifier (5-7)\n\nGNI Tank\n\nTo Main Relay (2-4)\nTo A/C Amplifier (5-7)\nTo Speed Sensor (2-11)\nTo EFI ECU (2-6)\n\nTo Diagnosis Relay (2-4)\nTo ECU ECU (2-14)\n\nBLG\nB/O"
+}

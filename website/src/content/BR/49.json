@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-49",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\nBR-49\n\nWIRING DIAGRAM\n\n[This is a wiring diagram showing the Anti-lock Brake System circuit with the following labeled components and connections:]\n\nSOL Fuse\nCPU (B)\nA.B.S. Fuse\nNeutral Start Switch (A/T Only)\nStop Light Switch\nEngine Fusible Link\nE.C.U.\nBrake Fluid Level Warning Switch\nANTI-LOCK Warning Light\nBRAKE Warning Light\nIgnition Switch\nAM Fusible Link\nA.L.T Fusible Link\nA.MAIN Fusible Link\nBattery\n\nDiagram shows connections to:\n- Front Solenoid\n- Front RH Speed Sensor\n- Front LH Speed Sensor\n- Rear LH Speed Sensor\n- Rear RH Speed Sensor\n\nWith notations:\nS1: 3-position solenoid for RH front wheel\nS2: 3-position solenoid for LH front wheel\nS3: 3-position solenoid for rear wheel\n\nVarious wire connections labeled with codes including:\nBAT, STP, IGT\nMT, FR+, FR-, FL-, FL+, RR-, RR+, RSSR, PSIG, GND\n\nBR37E3"
+}

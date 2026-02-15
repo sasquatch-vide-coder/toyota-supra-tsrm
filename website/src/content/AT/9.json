@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-9",
+  "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting (Basic Troubleshooting)",
+  "title": "TROUBLESHOOTING\nBasic Troubleshooting",
+  "ocr_text": "AUTOMATIC TRANSMISSION — Troubleshooting (Basic Troubleshooting)     AT-9\n\nTROUBLESHOOTING\nBasic Troubleshooting\n\nBefore troubleshooting an ECT, first determine whether the problem is electrical or mechanical. To do this, just refer to the basic troubleshooting flow-chart provided below.\n\nIf the cause is already known, using the basic troubleshooting chart below along with the general troubleshooting chart on the following pages should speed the procedure.\n\nRead Diagnostic Code\n(See page AT-14)\n\nBad → Repair or Replace\n\nOK\n↓\nPreliminary Check\n(See page AT-19)\n\nBad → Repair or Replace\n\nOK\n↓\nManual Shifting Test\n(See page AT-21)\n\nOK → Bad\n↓         ↓\nOK ← Stall Test, Time Lag Test and Hydraulic Test\n↓\nBad\n↓\nElectrical Control System Check     Repair Transmission\n↓\nRepair or Replace"
+}

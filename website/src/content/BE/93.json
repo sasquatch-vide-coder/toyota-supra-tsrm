@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-93",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF DOOR LOCK SWITCH CIRCUIT.",
+  "ocr_text": "F    INSPECTION OF DOOR LOCK SWITCH CIRCUIT.\n\nTurn ignition switch off.\n\nCOMPUTER.\n\nDisconnect computer connector and inspect\nconnector on wire harness side as follows.\n\nINSPECT LH DOOR LOCK SWITCH CIRCUIT\nClose RH front door.\nIs there continuity between terminal 7 and\nground with LH front door opened?\n\nNo → Open circuit in LH door lock switch\ncircuit.\n\n↓ Yes\n\nINSPECT RH DOOR LOCK SWITCH CIRCUIT\nClose LH front door.\nIs there continuity between terminal 7 and\nground with RH front door opened?\n\nNo → Open circuit in RH door lock switch\ncircuit.\n\n↓ Yes\n\nReplace computer."
+}

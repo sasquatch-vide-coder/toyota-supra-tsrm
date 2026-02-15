@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-103",
+  "section_header": "BODY ELECTRICAL SYSTEM — Audio System",
+  "title": "DESCRIPTION OF SYMBOLS",
+  "ocr_text": "DESCRIPTION OF SYMBOLS\n\n[Rectangle symbol] ..... Inspection\n[Oval symbol] ..... Check or replace part\n[Circle symbol] ..... Test by operating radio\n\n1. DEAD RADIO AND TAPE PLAYER\n(a) No power to radio or tape player, or power but no sound.\n\nPossible causes:\n• Blown DOME fuse\n• Short circuit or broken wire in power source wire harness\n• Loose connectors behind radio and tape player\n• Loose speaker connector\n• Defective speaker\n• Broken wire in speaker wire harness\n• Improperly installed radio or tape player\n• Defective radio or tape player\n\nTEST 1\n\nCheck DOME fuse. → OK → Proceed to Test 2.\n↓ Blown ↓ No\nReplace fuse. → Does not blow → [Circle symbol] → OK\n↓ Blows again\nCheck for short circuit in power source wire harness. → No short → Replace radio and tape player.\n↓ Short\nInspect and repair wire harness for radio and tape player."
+}

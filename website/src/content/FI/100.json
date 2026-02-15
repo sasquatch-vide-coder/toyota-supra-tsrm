@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-100",
+  "section_header": "EFI SYSTEM — Air Induction System",
+  "title": "Throttle Body",
+  "ocr_text": "Throttle Body\n\n7M·GE\n\nThrottle Position\nSensor\n\n7M·GTE\n\nThrottle Position\nSensor\n\nF08535 F08504 F08535\n\nON·VEHICLE INSPECTION\n\n1. INSPECT THROTTLE BODY\n(a) Check that the throttle linkage moves smoothly.\n\n(b) Check the vacuum at each port.\n• Start the engine.\n• Check the vacuum with your finger.\n\nPort Name          At idling          Other than idling\nPurge              No vacuum          Vacuum\nEGR                No vacuum          Vacuum\nR                  No vacuum          No vacuum\nP                  No vacuum          Vacuum\n\n7M·GE\nR\nEGR\nPurge\nF03469\n\n7M·GTE\nP\nPurge\nF08470"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "FA-34",
+  "section_header": "FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension",
+  "title": "Troubleshooting No. 4: No anti-dive function",
+  "ocr_text": "FA-34     FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension\n\nTroubleshooting No. 4:  No anti-dive function\n\nInitial check\n(See page FA-30)\n\nDo T·EMS indicator lights indicate as shown below when brake is depressed while driving above 60 km/h (37 mph)?\n\nVehicle speed above 60 km/h (37 mph)    Depress brake pedal\n\nLights Position    S    M    F    S    M    F\n\nNormal    ON    OFF    OFF    ON    ON    ON\n\nSport    ON    ON    OFF    ON    ON    ON\n\nYes → Road test again.\n\nNo ↓\n\nCheck stop light switch and circuit.\n\nBad → Repair or replace.\n\nOK ↓\n\nCheck speed sensor and circuit.\n\nBad → (returns to Repair or replace)\n\nOK ↓\n\nTry another T·EMS computer."
+}

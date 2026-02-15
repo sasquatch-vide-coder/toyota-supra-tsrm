@@ -1,0 +1,6 @@
+{
+  "page_id": "FA-41",
+  "section_header": "SFRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension",
+  "title": "",
+  "ocr_text": "Speed Sensor\n\nINSPECT SPEED SENSOR IN COMBINATION METER\n(a) Remove the combination meter.\n(b) Check that there is continuity between terminals SPD (+) and SPD (-) four times per each revolution of the shaft.\n\nThrottle Position Sensor\n\nINSPECT THROTTLE POSITION SENSOR\nUsing an ohmmeter, check the resistance between each terminals.\n\nTerminal | Throttle valve condition | Resistance (kΩ)\nIDL - E2 | Fully closed | 0\nIDL - E2 | Open | Infinity\nVcc - E2 | | 3-7\nVTA - E2 | Fully closed | 0.2-0.8\nVTA - E2 | Fully open | 3.3-10\n\nBrake Light Switch\n\nINSPECT BRAKE SIGNAL\nCheck that the brake light comes on when brake pedal is depressed."
+}

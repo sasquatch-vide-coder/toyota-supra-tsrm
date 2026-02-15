@@ -1,0 +1,6 @@
+{
+  "page_id": "EM-50",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "INSPECTION OF INTAKE AIR CONTROL SYSTEM (7M-GE only)",
+  "ocr_text": "INSPECTION OF INTAKE AIR CONTROL SYSTEM\n(7M-GE only)\n\n1. CHECK AIR CONTROL VALVE OPERATION\nWith 400 mmHg (15.75 in.Hg, 53.3 kPa) of vacuum applied to the actuator, check that the control valve moves smoothly to the fully closed position.\nIf not, adjust with the adjusting screw.\n\n2. CHECK VACUUM TANK BY BLOWING AIR INTO EACH PIPE\n(a) Check that air flows from pipe B to A.\n(b) Check that air does not flow from pipe A to B.\n\n(c) Apply 500 mmHg (19.69 in.Hg, 66.7 kPa) of vacuum to pipe B and check that there is no change in vacuum after one minute.\nIf there is a change, replace the vacuum tank.\n\n3. CHECK VACUUM CIRCUIT CONTINUITY IN THE VSV BY BLOWING AIR INTO PIPE\n(a) Connect the VSV terminals to the battery terminals as illustrated.\n(b) Blow air into pipe E and check that air comes out of pipe G.\n\n(c) Disconnect the battery.\n(d) Blow air into pipe E and check that air comes out of the air filter.\nIf a problem is found, replace the VSV."
+}

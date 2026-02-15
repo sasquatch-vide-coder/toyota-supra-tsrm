@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-20",
+  "section_header": "IGNITION SYSTEM — Distributor (7M-GE)",
+  "title": "",
+  "ocr_text": "IG-20\n\nIGNITION SYSTEM — Distributor (7M-GE)\n\n8. ADJUST IGNITION TIMING\n\n(a) Using SST, connect terminals TF1 and E1 of the check connector.\nSST 09843-18020\n\n(b) Check the idle speed.\nIdle speed: 7M-GE 700 rpm\n           7M-GTE 650 rpm\n\n(c) Using a timing light, slowly turn the distributor (7M-GE) or cam position sensor (7M-GTE) until the timing mark on the crankshaft pulley is aligned with the 10° mark. Tighten the distributor bolt and recheck the ignition timing.\n\nIgnition timing: 10° BTDC @ idle\n[w/ Terminals TF1 and E1 connected\nand Transmission in \"N\" range]\nTorque: 140 kg·cm (10 ft·lb, 14 N·m)\n\n(d) Remove SST.\nSST 09843-18020\n\n9. FURTHER CHECK IGNITION TIMING\n\nCheck the ignition timing advance.\nIgnition timing:\n7M-GE  9 — 10° BTDC @ idle\n7M-GTE More than 12° BTDC @ idle\n\n10. DISCONNECT TACHOMETER AND TIMING LIGHT FROM ENGINE"
+}

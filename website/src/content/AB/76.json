@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-76",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "INSPECTION PROCEDURES\n\nP Preparation    C Check\n\n1 Does airbag warning light turn off?\n\nLOCK\n\nCenter Airbag Sensor Assembly\n\nAB0117\nAB0441\n\nP (1) Turn ignition switch LOCK.\n(2) Disconnect negative (−) terminal cable from battery.\n(3) Disconnect center airbag sensor assembly connector.\n(4) Connect negative (−) terminal cable to battery.\n\nC Check operation of airbag warning light.\n\nYES\n\nNO Check airbag warning light circuit or terminal AB circuit of check connector.\n\nReplace center airbag sensor assembly."
+}

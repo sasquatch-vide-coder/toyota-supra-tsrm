@@ -1,0 +1,6 @@
+{
+  "page_id": "EM-82",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": "BORING OF CYLINDERS",
+  "ocr_text": "BORING OF CYLINDERS\n\nHINT:\n• Bore all six cylinders for the oversized piston outside diameter.\n• Replace the piston rings with ones to match the oversized pistons.\n\n1. SELECT OVERSIZED PISTON\nOversized piston diameter:\nO/S 0.50 7M-GE 83.40 — 83.45 mm\n(3.2835 — 3.2854 in.)\n7M-GTE 83.41 — 83.46 mm\n(3.2839 — 3.2858 in.)\n\n2. CALCULATE AMOUNT TO BORE CYLINDER\n(a) Using a micrometer, measure the piston diameter at a right angle to the piston pin hole center line, 22 mm (0.87 in.) from the piston head.\n(b) Calculate the amount each cylinder is to be rebored as follows:\nRebore amount = P + C — H\nP = Piston diameter\nC = Piston clearance\n7M-GE 0.08 — 0.10 mm\n(0.0020 — 0.0028 in.)\n7M-GTE 0.07 — 0.09 mm\n(0.0028 — 0.0035 in.)\nH = Allowance for honing\n0.02 mm (0.0008 in.) or less\n\n3. BORE AND HONE CYLINDERS TO CALCULATED DIMENSIONS\nMaximum honing: 0.02 mm (0.0008 in.)\nNOTICE: Excess honing will destroy the finished roundness."
+}

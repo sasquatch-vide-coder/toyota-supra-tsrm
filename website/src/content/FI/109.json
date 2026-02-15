@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-109",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "EFI Main Relay",
+  "ocr_text": "EFI Main Relay\n\nECU\nFusible Link\nFuse\nEFI Main Relay\n+B\nAMZ 30A\nEFI 15A\nBAT\nM-REL\nFusible\nLink\nMAIN 2.0L\nBattery\nF10466\n\nINSPECTION OF EFI MAIN RELAY\n\n1. CHECK OPERATION OF MAIN RELAY\nTurn the ignition switch ON. At this time an operation noise will occur from the relay.\n\nEFI\nMain Relay\nF10463\n\n2. INSPECT RELAY CONTINUITY\n(a) Using an ohmmeter, check that there is continuity between terminals 1 and 3.\n(b) Check that there is no continuity between terminals 2 and 4.\nIf continuity is not as specified, replace the relay.\n\nNo continuity\nContinuity\n1\n3\n1\n3\n2\n4\n2\n4\nB16030\n\n3. INSPECT RELAY OPERATION\n(a) Apply battery voltage across terminals 1 and 3.\n(b) Check that there is continuity between terminals 2 and 4.\nIf operation is not as specified, replace the relay.\n\nContinuity\nBattery\nB16031"
+}

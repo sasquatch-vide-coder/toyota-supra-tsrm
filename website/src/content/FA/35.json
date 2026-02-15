@@ -1,0 +1,6 @@
+{
+  "page_id": "FA-35",
+  "section_header": "FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension",
+  "title": "Troubleshooting No. 5: No high-speed response function",
+  "ocr_text": "FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension     FA-35\n\nTroubleshooting No. 5:  No high-speed response function\nHINT:   The high-speed response function only during nor-\n        mal base auto, and not during sport base auto.\n\nInitial check\n(See page FA-30)\n\nDo the TEMS indicator lights indicate as\nshown below when vehicle is gradually\naccelerated from below 100 km/h (63 mph)\nto above 120 km/h (75 mph)?\n\n                    Vehicle speed         Vehicle speed\n                    less than             above 120 km/h\n                    100 km/h (63 mph)     (75 mph)\nLights\nPosition    S       M       F       S       M       F\n\nNormal      ON      OFF     OFF     ON      ON      OFF\n\nYes → Road test again.\n\nNo ↓\n\nCheck speed sensor and circuit.\n\nBad → Repair or replace.\n\nOK ↓\n\nTry another TEMS computer."
+}

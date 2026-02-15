@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-64",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "FI-64     EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)\n\nNo. | Terminals | Trouble | Condition | STD Voltage\n9 | IGDA — E1 | No voltage | Idling | 1 — 3 V\nIGDB\n\n[CIRCUIT DIAGRAM showing:\n- ECU\n- Fusible Link\n- AM2 (30A)\n- AM2\n- MAIN 2.0L\n- Fusible Link\n- Battery\n- IG2\n- Ignition Switch\n- Igniter\n- To Tachometer\n- IGDA\n- IGDB\n- E1\nFD343]\n\n[DIAGRAM 1 showing ECU with voltmeter connected to IGDA, E1, and IGDB terminals]\nFD372b\n\n1. There is no voltage between ECU terminals IGDA or IGDB and E1. (Idling)\n\n2. Check that there is voltage between ECU terminal IGDA or IGDB and body ground. (Idling)\n\nNO | OK\n\n3. Check wiring between ECU terminal E1 and body ground. BAD → Repair or replace.\n\nOK\n\nTry another ECU\n\nCheck fusible links and ignition switch. BAD → Repair or replace.\n\nOK\n\nCheck cam position sensor. BAD → Repair or replace.\n\nOK\n\nCheck wiring between ECU and battery. BAD → Repair or replace.\n\nOK\n\nCheck igniter. BAD → Repair or replace.\n\n[DIAGRAM 2 showing ECU with voltmeter connected to IGDA, IGDB and ground]\nFD372a\n\n[DIAGRAM 3 showing Ohmmeter connected to E1 and ground]\nFD375a"
+}

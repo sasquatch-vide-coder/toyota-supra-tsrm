@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-76",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Inspection of neutral start switch circuit.",
+  "ocr_text": "J    Inspection of neutral start switch circuit.\n\nTurn ignition switch off.\n\nNEUTRAL\nSTART SWITCH\n\nINSPECT GROUND CONNECTION\nDisconnect connector from neutral start\nswitch.\nIs there continuity between terminal 2 of wire\nharness side connector and body ground?\n\nNo → Open circuit in wire harness between\nterminal 2 and body ground.\n\nYes\n↓\nINSPECT NEUTRAL START SWITCH\nOPERATION\nIs neutral start switch operation normal?\n(See page BE-82)\n\nNo → Replace neutral switch.\n\nYes\n↓\nConnect connector to neutral start switch.\n\nCOMPUTER\n\nDisconnect connector from computer and\ninspect connector on wire harness side as\nfollows.\n\nINSPECT NEUTRAL START SWITCH\nCIRCUIT\nIs there continuity between terminal 11 and\nbody ground when shifted to \"N\" and \"P\"\nrange?\n\nNo → Open circuit in wire harness between\nterminal 11 of computer and terminal 3\nof neutral start switch.\n\nYes\n↓\nReplace computer."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-106",
+  "section_header": "EFI SYSTEM — Air Induction System",
+  "title": "Idle Speed Control (ISC) Valve",
+  "ocr_text": "Idle Speed Control (ISC) Valve\n\n[DIAGRAM showing Rotor, Coil, Valve Shaft, Valve components and electrical schematic with S1, B1, S3, R2, S2, S4 connections to Rotor]\n\nCHECK FOR OPERATING SOUND FROM ISC VALVE\n\nCheck that there is a clicking sound immediately after stopping the engine.\n\n[DIAGRAM F16216 showing hand checking ISC valve with ear symbol]\n\nREMOVAL OF ISC VALVE\n\n1. DRAIN COOLANT\n\n2. DISCONNECT ISC VALVE CONNECTOR\n\n3. DISCONNECT NO.2 WATER BY-PASS HOSE AND AIR HOSE\n\n[DIAGRAM F16217 showing disconnection of hoses]\n\n4. REMOVE ISC VALVE\n(a) Remove the two bolts, ISC valve and gasket.\n(b) Disconnect the No.1 water by-pass hose from the ISC valve.\n(c) (7M-GTE)\nRemove the seal washer and check valve from the air intake chamber.\n\n[DIAGRAM F16218 showing ISC valve removal]"
+}

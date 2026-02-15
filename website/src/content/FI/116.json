@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-116",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "Fuel Pressure Control System (7M-GTE)",
+  "ocr_text": "FI-116\n\nEFI SYSTEM — Electronic Control System\n\nFuel Pressure Control System (7M-GTE)\n\n[DIAGRAM showing ECU connections with:\nTo Circuit Opening Relay ← STA\nTo EFI Main Relay ← +B(+B1)\nAir Temp. Sensor (Air Flow Meter) connected to VSV 2XXX (Fuel Pressure Up) ← VSV2\n← THA\n← E2\nWater Temp. Sensor ← THW\n← E1\nGround symbol]\n\nF10604\n\nINSPECTION OF FUEL PRESSURE CONTROL SYSTEM\n\nINSPECT VSV\n\nA. Inspect VSV for Open Circuit\n\nUsing an ohmmeter, check that there is continuity between terminals.\nResistance: 30 — 50 Ω\nIf there is no continuity, replace the VSV.\n\n[DIAGRAM showing ohmmeter connected to VSV]\nF11917\n\nB. Inspect VSV for Short Circuit\n\nUsing an ohmmeter, check that there is no continuity between each terminal and the body.\nIf there is continuity, replace the VSV.\n\n[DIAGRAM showing \"No continuity\" measurement between VSV terminal and body]\nF11918\n\nC. Inspect VSV Operation\n\n(a) Apply battery voltage across the terminals.\n(b) Check that air flows from pipe E to air filter.\n\n[DIAGRAM showing VSV connected to battery with Air inlet and Air Filter, indicating airflow]\nF11919"
+}

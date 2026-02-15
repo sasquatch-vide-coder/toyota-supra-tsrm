@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-68",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Inspection of resume/accel switch circuit.",
+  "ocr_text": "C    Inspection of resume/accel switch circuit.\n\nTurn ignition switch off.\n\nCONTROL SWITCH\n\nINSPECT GROUND CONNECTION\nDisconnect connector from control switch.\nIs there continuity between terminal **4\nof wire harness side connector and body\nground ?\n\nNo → • Open circuit in wire harness between\n       terminal *3 or **4 and body ground.\n     • Body ground faulty.\n\nYes\n↓\nINSPECT RESUME/ACCEL SWITCH\nOPERATION\nIs resume/accel switch operation normal ?\n(See page BE-81)\n\nNo → Replace control switch.\n\nYes\n↓\nConnect connector to control switch.\n\nCOMPUTER\n\nDisconnect connector from computer and\ninspect connector on wire harness side as\nfollows.\n\nINSPECT RESUME/ACCEL SWITCH\nCIRCUIT\nIs resistance value about 68 Ω between\nterminal 17 and body ground with resume\n/accel switch pushed on ?\n\nNo → Open or short circuit in wire harness\n       between terminal 17 of computer and\n       terminal *4 or **1 of control switch.\n\nYes\n↓\nReplace computer.\n\n*: U.S.A. (w/ Airbag system)\n**: CANADA (w/o Airbag system)"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-16",
+  "section_header": "IGNITION SYSTEM — On-Vehicle Inspection (7M-GTE)",
+  "title": "INSPECTION OF CAM POSITION SENSOR",
+  "ocr_text": "IG-16          IGNITION SYSTEM — On-Vehicle Inspection (7M-GTE)\n\nINSPECTION OF CAM POSITION SENSOR\n\nNE Pickup    G1 Pickup    G2 Pickup\n\n1.  INSPECT AIR GAPS\nUsing a feeler gauge, measure the gap between the signal\nrotor and pickup coil projection.\nAir gap:  0.2 — 0.4 mm (0.008 — 0.016 in.)\nIf the gap is not within specification, replace the cam po-\nsition sensor.\n\n2.  INSPECT PICKUP COILS\nUsing an ohmmeter, check resistance of the pickup coil.\nG1 pickup coil resistance:\n  G1 — G⊖   140 — 180 Ω\nG2 pickup coil resistance:\n  G2 — G⊖   140 — 180 Ω\nNE pickup coil resistance:\n  NE — G⊖   140 — 180 Ω\nIf the resistance is not within specification, replace the cam\nposition sensor."
+}

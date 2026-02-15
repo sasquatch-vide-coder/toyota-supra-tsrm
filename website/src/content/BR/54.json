@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-54",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "CLEARING OF DIAGNOSTIC CODES",
+  "ocr_text": "BR-54\n\nBRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\nCLEARING OF DIAGNOSTIC CODES\n\nCLEAR DIAGNOSTIC CODES\n(a) Turn the ignition switch on.\n(b) Disconnect the actuator check connector.\nHINT: Keep the vehicle stopped (vehicle speed 0 km/h (0 mph)).\n\n(c) Clear the diagnostic codes stored in computer by depressing the brake pedal 8 or more times within 3 seconds.\n\n(d) Check that the warning light shows the normal code.\n\n0.25 seconds\nON\nOFF\n0.25 seconds\n\n(e) Connect the actuator check connector.\n\n(f) Check that the warning light goes off."
+}

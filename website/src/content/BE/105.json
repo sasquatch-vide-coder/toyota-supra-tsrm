@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-105",
+  "section_header": "BODY ELECTRICAL SYSTEM — Audio System",
+  "title": "",
+  "ocr_text": "TEST 2\n\nCheck RADIO fuse.\n\nOK → Is there back-up power to connectors behind radio?\n\nYes → Proceed to Test 3.\n\nNo → Inspect and repair back-up power wire harness.\n\nBlown ↓\n\nReplace fuse\n\nOK → ⊙→OK\n\nBlown again ↓\n\nCheck for short circuit in back-up power source wire harness.\n\nOK → Replace radio.\n\nShort ↓\n\nInspect and repair wire harness for back-up power source.\n\nHINT: Back-up power refers to the storage voltage for preset tuning. This is applied even when the ignition switch is OFF.\n\nTEST 3\n\nCheck that antenna plug is secure in radio.\n\nOK → Replace plug. Okay?\n\nOK → Inspect antenna plug\n\nNo → Does radio alone work?\n\nYes → Replace tape player.\n\nNo ↓\n\nProceed to Test 4.\n\nLoose ↓\n\nInsert properly.\n\n↓\n⊙\n↓\nOK\n\nTEST 4\n\nTemporarily install another antenna. Okay?\n\nOK → Inspect antenna and antenna cable, and replace as necessary.\n\nNo ↓\n\nReplace radio.\n\nHINT: Since the diversity antenna consists of the pale and window antenna, be certain to check both."
+}

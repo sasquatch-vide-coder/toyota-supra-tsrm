@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-94",
+  "section_header": "STEERING — Power Steering (Progressive Power Steering)",
+  "title": "ELECTRONIC CONTROL SYSTEM",
+  "ocr_text": "ELECTRONIC CONTROL SYSTEM\n\nSolenoid Valve\n\n[Diagram showing solenoid valve with labeled parts: Coil, Spring, Valve]\n\nON-VEHICLE INSPECTION\n\n1. DISCONNECT WIRING CONNECTOR\n\n2. MEASURE RESISTANCE\nMeasure the resistance between SOL ⊕ and SOL ⊖.\nResistance: 6.0 — 11.0 Ω\n\n3. CHECK SOLENOID OPERATION\n(a) Connect the battery positive terminal to the solenoid terminal SOL ⊕.\n(b) Connect the battery negative terminal to the solenoid terminal SOL ⊖.\n(c) Check that the solenoid is clicked.\nIf faulty, replace the pressure control valve with the solenoid valve.\n\nNOTICE:\n• Do not apply voltage for more than 30 seconds to avoid damaging the solenoid.\n• If repeating this step, wait until the solenoid cools down enough that it can be touched by hand.\n\n4. CONNECT WIRING CONNECTOR"
+}

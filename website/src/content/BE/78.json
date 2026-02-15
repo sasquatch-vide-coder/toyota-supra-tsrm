@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-78",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "CONTINUED FROM PREVIOUS PAGE",
+  "ocr_text": "CONTINUED FROM PREVIOUS PAGE\n\nCOMPUTER\n\nDisconnect connector from computer and\ninspect connector on wire harness side as\nfollows.\n\nINSPECT VACUUM SWITCH CIRCUIT\nIs there continuity between terminal 9 and\nbody ground?\n\nNo\nOpen circuit in wire harness between\nterminal 9 of computer and terminal 1\nof vacuum switch.\n\nYes\n\nStart engine (idling).\n\nIs there continuity between terminal 9 and\nbody ground?\n\nYes\nShort circuit in wire harness between\nterminal 9 of computer and terminal 1\nof vacuum switch.\n\nNo\n\nStop the engine.\n\nINSPECT VACUUM PUMP CIRCUIT\nIs there continuity between terminal 1 and\nbody ground?\n\nNo\nOpen circuit in wire harness between\nterminal 1 of computer and terminal 1\nof vacuum pump.\n\nYes\n\nIs there continuity between terminal 1 and\nbody ground when disconnect connector\nfrom vacuum pump?\n\nYes\nShort circuit in wire harness between\nterminal 1 of computer and terminal 1\nof vacuum pump.\n\nNo\n\nReplace computer."
+}

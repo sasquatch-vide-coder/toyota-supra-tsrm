@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-71",
+  "section_header": "EFI SYSTEM — Fuel System",
+  "title": "ON-VEHICLE INSPECTION",
+  "ocr_text": "EFI SYSTEM — Fuel System\n\nFI-71\n\nON-VEHICLE INSPECTION\n\n1. CHECK FUEL PUMP OPERATION\n\n(a) Turn the ignition switch ON.\nHINT: Do not start the engine.\n\n(b) Using SST, connect terminals +B and Fp of the check connector.\nSST 09843-18020\n\n(c) Check that there is pressure in the fuel return hose.\nHINT: At this time, you will hear fuel return noise.\n\n(d) Remove SST.\nSST 09843-18020\n\n(e) Turn the ignition switch OFF.\n\nIf there is no pressure, check the following parts:\n• Fusible links\n• Fuses (EFI, IGN)\n• EFI main relay\n• Fuel pump\n• ECU\n• Wiring connections\n\n2. INSPECT FUEL PRESSURE\n\n(a) Check the battery voltage above 11 volts.\n\n(b) Disconnect the cable from the negative (—) terminal of the battery.\n\n(c) (7M-GE)\nDisconnect the cold start injector connector.\n\n(d) (7M-GE)\nDisconnect the cold start injector tube.\n• Place a suitable container or shop towel under the cold start injector tube.\n• Remove the union bolt and two gaskets, and disconnect cold start injector tube.\n\nHINT: Slowly loosen the union bolt."
+}

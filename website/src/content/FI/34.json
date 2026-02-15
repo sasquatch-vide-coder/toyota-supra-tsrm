@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-34",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)",
+  "title": "",
+  "ocr_text": "FI-34     EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)\n\n• IG SW – E1\n\n1. There is no voltage between ECU terminals IG SW and E1.\n   (IG SW ON)\n\n2. Check that there is voltage between ECU terminal IG SW and\n   body ground. (IG SW ON)\n\nNO                                    OK\n\nCheck wiring between ECU terminal E1 and body\nground.\n\nOK                                    BAD\n\nTry another ECU.                      Repair or replace.\n\n                           BAD\nCheck fuse, fusible links and          Repair or replace.\nignition switch.\n\n• M-REL – E1\n\n1. There is no voltage between ECU terminals M-REL and E1.\n   (IG SW ON)\n\n2. Check that there is voltage between ECU terminal M-REL and\n   body ground. (IG SW ON)\n\nNO                                    OK\n\nCheck wiring between ECU terminal E1 and body\nground.\n\nOK                                    BAD\n\nTry another ECU.                      Repair or replace.\n\n                           BAD\nCheck EFI main relay and wiring        Replace.\nharness.\n\nOK\n\nTry another ECU."
+}

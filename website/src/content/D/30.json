@@ -1,0 +1,6 @@
+{
+  "page_id": "EL-7",
+  "section_header": "RADIATOR FAN AND CONDENSER FAN",
+  "title": "TOYOTA SUPRA 7",
+  "ocr_text": "TOYOTA SUPRA 7\n\nRadiator Fan and Condenser Fan\n\n8\n\nFrom '78+ ALL-T' (1-1)\n\nFrom 'CIG' Fuse (8-6)\n\nV-R\n\n+B +4\nA/C\nCOOLER FAN\nN\n\n1\n\nDUAL PRESSURE SW.\nL-R\nV-R\n(DM-OTE1)\nY-G\nY\n(DM-OTE1)\nL-W\nL-W\n\nRadiator and Condenser Fan\nSignal Description\n\nTCCS ECU (1B,IB,ST)\n\nB-W\nV-W\n\nBR\nY-G\nA/C DUAL PRES.\n\nA/C MAGNETIC\nCLUTCH RELAY\nSW\n\nA/C MAGNETIC CLUTCH\n\nA/C CONDENSER\nFAN RELAY\n\nRADIATOR\nFAN RELAY NO.3\n\nRADIATOR FAN\nRELAY NO.2\n\nA/C THERMISTOR\n\nL-W\nB-W\nL-W\nW-G\n\nRADIATOR FAN\nRELAY NO.1\n\nW-B (M-OTE1)\n\nLG-R\n\nH2O\n\nA/C MAGNETIC\nCLUTCH\n\nA/C CONDENSER FAN MOTOR\n\nRADIATOR\nFAN MOTOR NO.3\n\nRADIATOR FAN\nMOTOR NO.2\n\nRADIATOR FAN MOTOR NO.1\n\nLG\nLG\nLG\n\nB\nB\nB\n\n+B +M +M +M +M +M\n\n(Wire to Wire Connector)"
+}

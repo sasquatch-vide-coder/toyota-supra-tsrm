@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-78",
+  "section_header": "EFI SYSTEM — Fuel System",
+  "title": "REMOVAL OF COLD START INJECTOR",
+  "ocr_text": "REMOVAL OF COLD START INJECTOR\n\n1. DISCONNECT CABLE FROM NEGATIVE TERMINAL OF BATTERY\nCAUTION: Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the \"LOCK\" position and the negative (—) terminal cable is disconnected from the battery.\n\n2. (7M-GE)\nDISCONNECT COLD START INJECTOR CONNECTOR\n\n3. DISCONNECT COLD START INJECTOR TUBE\n(a) Place a container or shop towel under the injector tube.\n(b) Remove the union bolt and two gaskets, and disconnect the injector tube from cold start injector.\nHINT: Slowly loosen the union bolt.\n\n4. REMOVE COLD START INJECTOR\n(7M-GE)\nRemove the two blots and cold start injector with the gasket.\n\n(7M-GTE)\nRemove the two bolts and cold start injector with the gasket, and disconnect the cold start injector connector."
+}

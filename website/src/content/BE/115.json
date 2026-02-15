@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-115",
+  "section_header": "BODY ELECTRICAL SYSTEM — Clock",
+  "title": "CLOCK\nTroubleshooting",
+  "ocr_text": "BODY ELECTRICAL SYSTEM — Clock\n\nBE-115\n\nCLOCK\nTroubleshooting\n\nCLOCK WILL NOT OPERATE\n\nCheck to see if fuse is blown. → Blown fuse → Locate trouble and repair or replace fuse as necessary.\n↓ OK\nCheck to see if clock adjusting button is sticking in position and has failed to return. → Adjusting button not returned → Repair if necessary or replace clock.\n↓ OK\nCheck to see if battery voltage is over 11V with no load. → Below 11V → Recharge or replace battery.\n↓ OK\nCheck to see if connector on clock side is loose or rusted. → Loose or rusted → Repair\n↓ OK\nCheck to see if there is voltage at terminal B or connector or clock side. → No voltage → Locate cause and repair.\n↓ OK\nCheck to see if clock ground wire is loose or rusted. → Loose or rusted → Repair\n↓ OK\nReplace clock.\n\nCLOCK LOSES OR GAINS TIME\n\nCheck amount of time the clock loses or gains per day or a week against the allowable error table.\n↓ Exceeds allowable error\nCheck to see if there is 11 — 15V on terminal B of connector on clock side. → Below 11V → Locate cause and repair, or recharge battery.\n↓ OK\nAdjust or replace clock."
+}

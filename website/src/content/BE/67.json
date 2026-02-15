@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-67",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Inspection of set/coast switch circuit.",
+  "ocr_text": "B\tInspection of set/coast switch circuit.\n\nTurn ignition switch off.\n\nCONTROL SWITCH\n\nINSPECT GROUND CONNECTION\nDisconnect connector from control switch.\nIs there continuity between terminal *3 or **4\nof wire harness side connector and body\nground?\n\nNo\n• Open circuit in wire harness between\nterminal *3 or **4 and body ground.\n• Body ground faulty.\n\nYes\n\nINSPECT SET/COAST SWITCH\nOPERATION\nIs set/coast switch operation normal?\n(See page BE-81)\n\nNo\nReplace control switch.\n\nYes\n\nConnect connector to control switch.\n\nCOMPUTER\n\nDisconnect connector from computer and\ninspect connector on wire harness side as\nfollows:\n\nINSPECT SET/COAST SWITCH CIRCUIT\nIs resistance value about 198 Ω between\nterminal 17 and body ground with set/coast\nswitch pushed on?\n\nNo\nOpen or short circuit in wire harness\nbetween terminal 17 of computer and\nterminal *4 or **1 of control switch.\n\nYes\n\nReplace computer.\n\n*: U.S.A. (w/ Airbag system)\n**: CANADA (w/o Airbag system)"
+}

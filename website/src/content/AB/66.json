@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-66",
+  "section_header": "AIRBAG — Troubleshooting",
+  "title": "DIAGNOSTIC CHART",
+  "ocr_text": "AB-66\nSRS AIRBAG — Troubleshooting\n\nDIAGNOSTIC CHART\n\nTroubleshooting for this system is different for when the airbag warning light does not light up and for when diagnostic code 22 is output. Confirm the problem symptoms first before selecting the appropriate troubleshooting procedure.\n\nHINT: If airbag warning light does not light up, perform the following troubleshooting:\n\n1\nCheck ECU-B fuse.\nNG → Go to step 6.\nOK ↓\n\n2\nCheck connection of center airbag sensor assembly connector.\nNG → Repair.\nOK ↓\n\n3\nPreparation.\n↓\n\n4\nCheck airbag warning light circuit.\nNG → Repair airbag warning light circuit (See page BE-36).\nOK ↓\n\n5\nDoes airbag warning light comes on?\nNO → Check harness between center airbag sensor assembly and electrical connection to clock mechanism. If normal, replace center airbag sensor assembly.\nYES ↓\n\nFrom the results of the above inspection, the malfunctioning part can now be confirmed. Before repairing the vehicle, use the simulation method to check.\n\n6\nIs new ECU-B fuse burnt out again?\nNO → Using simulation method, reproduce malfunction symptoms (See page AB-32).\nYES ↓\n\nCheck harness between ECU-B fuse and airbag warning light, and ECU-B fuse and center airbag sensor assembly."
+}

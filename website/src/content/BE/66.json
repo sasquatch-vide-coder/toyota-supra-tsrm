@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-66",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "",
+  "ocr_text": "CONTINUED FROM PREVIOUS PAGE\n\nINSPECT POWER SOURCE\nIs there battery voltage between terminal *5 or **1 and body ground?\n\nNo → Open circuit in wire harness between terminal *5 or **1 of main switch and terminal 4 of main relay.\n\nYes ↓\n\nINSPECT SWITCH OPERATION\nIs main switch operation normal?\n(See page BE-81)\n\nNo → Replace main switch.\n\nYes ↓\n\nCOMPUTER\n\nDisconnect connector from computer and inspect connector on wire harness side as follows.\n\n↓\n\nINSPECT GROUND CONNECTION\nIs there continuity between terminal 13 and body ground?\n\nNo → • Open circuit in wire harness between terminal 13 and body ground.\n• Body ground faulty.\n\nYes ↓\n\nINSPECT POWER SOURCE\nIs there battery voltage between terminal 10 and body ground with main switch turned on?\n\nNo → Open circuit in wire harness between terminal 10 of computer and terminal 6 of main switch.\n\nYes ↓\n\nReplace computer.\n\n*: U.S.A. (w/ Airbag system)\n**: CANADA (w/o Airbag system)"
+}

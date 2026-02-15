@@ -1,0 +1,6 @@
+{
+  "page_id": "CH-11",
+  "section_header": "CHARGING SYSTEM — Alternator",
+  "title": "",
+  "ocr_text": "Brushes\n\n1. INSPECT EXPOSED BRUSH LENGTH\nUsing a scale, measure the exposed brush length.\nStandard exposed length: 10.5 mm (0.413 in.)\nMinimum exposed length: 1.5 mm (0.059 in.)\n[7M-GE (M/T)]\nIf the exposed length is less than minimum, replace the brushes.\n[7M-GE (A/T) and 7M-GTE]\nIf the exposed length is less than minimum, replace the brush holder.\n\n2. [7M-GE (M/T)]\nIF NECESSARY, REPLACE BRUSHES\n(a) Unsolder and remove the brush and spring.\n(b) Run wire of the brush through the hole in the brush holder, and insert the spring and brush into the brush holder.\n(c) Solder the brush wire to the brush holder at the exposed length.\nExposed length: 10.5 mm (0.413 in.)\n(d) Check that the brush moves smoothly in the brush holder.\n(e) Cut off the excess wire.\n(f) Apply insulation paint to the soldered point.\n\nRectifiers (Rectifier Holder)\n\n1. INSPECT POSITIVE SIDE RECTIFIER\n(a) Using an ohmmeter, connect one tester probe to the positive (+) stud and the other to each rectifier terminal.\n\n(b) Reverse the polarity of the tester probes.\n(c) Check that one shows continuity and the other shows no continuity.\nIf not, replace the rectifier holder."
+}

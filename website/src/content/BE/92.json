@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-92",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF FRONT DOOR LOCK SOLENOID CIRCUIT.",
+  "ocr_text": "BE-92\nBODY ELECTRICAL SYSTEM — Theft Deterrent System\n\nE\nINSPECTION OF FRONT DOOR LOCK SOLENOID CIRCUIT.\n\nTurn ignition switch off.\n\nCOMPUTER\n\nDisconnect computer connector and inspect\nconnector on wire harness side as follows.\n\nINSPECT LH FRONT DOOR LOCK\nSOLENOID CIRCUIT\nLock RH front door.\n* Is there continuity between terminal 8 and\nground with LH door unlocked?\n\nNo → Open circuit in LH door lock solenoid\ncircuit.\n\nYes ↓\n\nINSPECT RH FRONT DOOR LOCK\nSOLENOID CIRCUIT\nLock LH front door.\n* Is there continuity between terminal 8 and\nground with RH door unlocked?\n\nNo → Open circuit in RH door lock solenoid\ncircuit.\n\nYes ↓\n\nReplace computer.\n\n*: This circuit includes the diode. If the circuit\nshows no continuity, change the positive and\nnegative probes and recheck the circuit."
+}

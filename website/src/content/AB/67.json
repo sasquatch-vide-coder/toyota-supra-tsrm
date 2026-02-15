@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-67",
+  "section_header": "SRS AIRBAG - Troubleshooting",
+  "title": "",
+  "ocr_text": "DIAGNOSTIC CHART\n\nHINT: If diagnostic code 22 is output, perform the following troubleshooting:\n\n1\nIs diagnostic code 22 output again?\n\nNO → Using simulation method, re-produce malfunction symptoms (See page AB-32).\n\nYES ↓\n\nReplace center airbag sensor assembly.\n\nWIRING DIAGRAM\n\nCenter Airbag Sensor Assembly\n+B\nLA\n\nECU-B\nAirbag Warning Light\n2\n\nFusible Link Box\nALT\nCheck Connector\nAB\n\nBattery\n\nAI0240"
+}

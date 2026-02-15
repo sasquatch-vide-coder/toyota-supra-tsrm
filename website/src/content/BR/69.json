@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-69",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\nBR-69\n\nApproach\n12 V\nOK\n2 V\nWithdrawal\n\nExample of voltage changes for malfunctions\n\n12 V\n(Changes but stays above 2 V)\n(Stays at 12 V)\n(Stays at 2 V or less)\n2 V\nBB3321\n\nA340E\nR154, W58\nRR+\nPSEN\nPSEN\n(W)\n(R)\n(R)\n1\n2\n3\n2\n1\n3\nRR-\nRR+\nRR-\n(B)\n(B)\n(W)\nBC3-2 A & 3J\n\n(g) Install the terminals to the connector.\nNOTICE: Do not misinstall the terminals.\n\n(h) Install the speed sensor properly with a bolt, and tighten the bolt.\nTorque:\nA340E, R154  160 kg-cm (12 ft-lb, 16 N-m)\nW58           290 kg-cm (21 ft-lb, 28 N-m)\n\nBB3320\n\nOn-Vehicle Inspection (Reference)\n(a) Remove the glove box and pull out the A.B.S. computer with connector connected.\n(b) From back side of the connector, connect the oscilloscope to the terminal RR+ (input) and RR— (ground).\n\nRR+\nRR-\n\nBB3321"
+}

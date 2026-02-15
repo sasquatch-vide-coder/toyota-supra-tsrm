@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-80",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "",
+  "ocr_text": "3\tCheck center airbag sensor assembly.\n\nACC\tON\nor\n\nCenter Airbag Sensor Assembly\n\nTc\n\nAB011E AB011E\nAB011E\n\nP\tUsing a service wire, connect terminal Tc of center airbag sensor assembly connector to body ground.\n\nC\tCheck operation of airbag warning light.\n\nON\tAirbag warning light comes on.\n\nNG\n\nOK\tCheck harness between center airbag sensor assembly and check connector.\n\nReplace center airbag sensor assembly."
+}

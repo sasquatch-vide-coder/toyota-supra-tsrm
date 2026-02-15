@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-8",
+  "section_header": "STARTING SYSTEM — Starter",
+  "title": "",
+  "ocr_text": "ST-8\n\nSTARTING SYSTEM — Starter\n\n[DIAGRAM: Two views of SST tool]\nSST\nST0921-31004\nST0921-51004\n\n(b) Using SST and a press, press in a new front bearing.\nSST 09201-41020\n(c) Using a press, press in a new rear bearing.\n\n[DIAGRAM: Magnetic switch with Terminal 50 and Terminal C labeled, showing Continuity test points]\nST0923\n\nMagnetic Switch\n\n1. PERFORM PULL-IN COIL OPEN CIRCUIT TEST\n\nUsing an ohmmeter, check that there is continuity between terminal 50 and C.\n\nIf there is no continuity, replace the magnetic switch assembly.\n\n[DIAGRAM: Magnetic switch showing Switch Body, Terminal 50, and Continuity test points]\nST0021\n\n2. PERFORM HOLD-IN COIL CIRCUIT TEST\n\nUsing an ohmmeter, check that there is continuity between terminal 50 and the switch body.\n\nIf there is no continuity, replace the magnetic switch assembly."
+}

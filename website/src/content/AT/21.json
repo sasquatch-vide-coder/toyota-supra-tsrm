@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-21",
+  "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting (Electronic Control System)",
+  "title": "Electronic Control System",
+  "ocr_text": "PRECAUTION\n\nDo not open the cover or the case of the ECU and various computer unless absolutely necessary. (If the IC terminals are touched, the IC may be destroyed by static electricity.)\n\nELECTRONIC CONTROL CIRCUIT\n\n[THIS IS DIAGRAM: Electronic control circuit diagram showing connections between various components including:\n- STP Unit\n- Speed Shift SW\n- No. 1 Solenoid\n- No. 2 Solenoid\n- Lock-Up Solenoid\n- No. 3 Solenoid\n- Motor Control\n- A/T S/L ECU\n- No. S.L. ECU\n- Oil Temp Sensor\n- Engine Control Computer\n- Engine ECU\n- Throttle Position Sensor\n- Inhibitor Switch\n- O/D OFF SW\n- CRUISE SW & SW\n- Shift SW\n- STOP/HA CPA F/B A/4\n- Battery\n- To Starter\nThe diagram shows electrical connections and grounding points labeled with numbers 1-10 and letters.]"
+}

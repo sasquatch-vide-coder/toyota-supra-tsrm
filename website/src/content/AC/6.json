@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-6",
+  "section_header": "AIR CONDITIONING SYSTEM — Air Conditioning System Circuit",
+  "title": "AIR CONDITIONING SYSTEM CIRCUIT (Cont'd)",
+  "ocr_text": "AIR CONDITIONING SYSTEM CIRCUIT (Cont'd)\n\n7M-GE Engine\n\n① A/C ② Pressure ③ Magnetic ④ Magnetic ⑤ Fan Relay ⑥ High Pressure\n    fuse    Light   Relay    Clutch     AG 1      Switch\n           Relay    Relay\n\nFuse 25A\nFUSE BOX\n          A/C fuse\n                  Heater Relay\n⑦\nDiff Amplifier\n⑧\nCooler Sensor\n⑨\nPoil GR Sensor\n⑩\nA/C Amplifier\n⑪\nThermistor\n⑫\nBlower Motor\n⑬\nBlower Resistor\n⑭\nIND/LINE Control\nServo Motor\n\n⑮Motor ⑯Air Mix ⑰Air Lock Mode ⑱\nFAN     Motor    Control Motor\nHI 1\n\n⑲Water ⑳Air Mix ㉑Air Lock Mode\nPump   Control Motor  Control Motor"
+}

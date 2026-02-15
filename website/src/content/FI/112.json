@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-112",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "Cold Start Injector Time Switch",
+  "ocr_text": "FI-112\t\t\tEFI SYSTEM — Electronic Control System\n\nCold Start Injector Time Switch\n\nTo Ignition Switch\n(ST1)\n\t\t\t\t\t\t\t\tTo ECU (STA)\n\nSTA\t\tSTJ\t\t\tSTJ\t\tSTA\n\n\t\t\t\tTo ECU (STJ)\n\n\t\t\t\tCold Start Injector\n\t\t\t\tTime Switch\n\nF03124\n\nOhmmeter\n\nSTA\t\tSTJ\n\nF03814T03A1\n\nINSPECTION OF COLD START INJECTOR TIME SWITCH\n\nINSPECT RESISTANCE OF COLD START INJECTOR TIME SWITCH\n\nUsing an ohmmeter, measure the resistance between each terminal.\n\nResistance:\nSTA — STJ\t25 — 45 Ω below 15°C (59°F)\n\t\t65 — 85 Ω above 30°C (86°F)\nSTA — Ground 25 — 85 Ω\n\nIf the resistance is not as specified, replace the switch."
+}

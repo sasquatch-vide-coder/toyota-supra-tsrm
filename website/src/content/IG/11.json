@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-11",
+  "section_header": "IGNITION SYSTEM — On-Vehicle Inspection (7M-GTE)",
+  "title": "",
+  "ocr_text": "6. REMOVE IGNITION COIL COVER\n(a) Remove the oil filler cap.\n(b) Remove the five nuts and ignition coil cover.\n\n7. REMOVE IGNITION COIL WITH BRACKET\n(a) Remove the nut.\n(b) Disconnect the No. 1 and No. 2 high-tension cords from the ignition coil and clamp.\n(c) Remove the ignition coil with bracket and high-tension cords.\n(d) Remove the No. 1 and No. 2 high-tension cords from spark plugs.\n\n8. REMOVE SPARK PLUGS\n\n9. PERFORM SPARK TEST\n(a) Install the oil filler cap.\n(b) Install the spark plugs to each high-tension cord.\n(c) Ground the spark plug.\n(d) Disconnect the solenoid resistor and cold start injector connector.\n(e) See if a spark occurs while engine is being cranked.\n\nINSPECTION OF HIGH-TENSION CORDS\n\nUsing an ohmmeter, measure the resistance.\nMaximum resistance: 25 kΩ per cord\nIf resistance exceeds maximum, check the terminals.\nIf necessary, replace the high-tension cord.\n\nINSPECTION OF SPARK PLUGS\n(See pages IG-7,8)"
+}

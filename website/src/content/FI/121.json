@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-121",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "",
+  "ocr_text": "3. (7M-GTE)\nINSPECT HEATER RESISTANCE OF OXYGEN\nSENSOR\nUsing an ohmmeter, measure the resistance between terminals 2 and 3.\nResistance: 3.0 ~ 3.6 Ω\nIf the resistance is not as specified, replace the sensor.\n\nSub-Oxygen Sensor\n[7M-GE (California Vehicles only)]\n\nINSPECTION OF SUB-OXYGEN SENSOR\n\n1. INSPECT SUB-OXYGEN SENSOR\nHINT: Inspect only when code No.27 is displayed.\n(a) Diagnostic code cancellation. (See Page FI-25)\n(b) Warm up the engine until it reaches normal operating\ntemperature.\n(c) (M/T)\nDrive for 5 minutes or more at less than 80 km/h (50\nmph) in 4th or 5th gear.\n(A/T)\nDrive for 5 minutes or more at less than 80 km/h (50\nmph) in \"D\" range.\n(d) Following the conditions in step (c), press fully on the\naccelerator pedal for 2 seconds or more.\n(e) Stop the vehicle and turn the ignition switch to OFF.\n(f) Carry out steps (b), (c) and (d) again to test acceleration.\nIf code No. 27 reappears again, check the sub-oxygen sensor circuit. If the circuit is normal, replace the sub-oxygen\nsensor.\n\n2. INSPECT HEATER RESISTANCE OF SUB-OXYGEN\nSENSOR\nUsing an ohmmeter, measure the resistance between terminals +B and HT.\nResistance: 5.1 ~ 6.3 Ω\nIf the resistance is not as specified, replace the sensor."
+}

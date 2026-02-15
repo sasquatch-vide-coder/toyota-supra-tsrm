@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-6",
+  "section_header": "IGNITION SYSTEM — On-Vehicle Inspection (7M-GE)",
+  "title": "INSPECTION OF HIGH-TENSION CORDS",
+  "ocr_text": "INSPECTION OF HIGH-TENSION CORDS\n\n1. REMOVE HIGH-TENSION CORDS\n(a) Disconnect the throttle body.\n• Disconnect the air cleaner hose.\n• Remove the throttle body bracket(s).\n• Disconnect the accelerator connecting rod.\n• Disconnect the PCV hose.\n• Remove the four bolts and pick up the throttle body.\n\n(b) Carefully remove the high-tension cords by their rubber boots from the spark plugs.\n\nNOTICE: Pulling on or bending the cords may damage the conductor inside.\n\nWRONG\nCORRECT\n\n2. INSPECT HIGH-TENSION CORD RESISTANCE\nUsing an ohmmeter, measure the resistance without disconnecting the cap.\n\nMaximum resistance: 25 kΩ per cord\n\nIf resistance exceeds maximum, check the terminals.\nIf necessary, replace the high-tension cord and/or distributor cap.\n\n3. INSTALL HIGH-TENSION CORDS\n(a) Install high-tension cords.\n(b) Install the throttle body.\n• Install the throttle body with the four bolts.\n• Connect the PCV hose.\n• Connect the accelerator connecting rod.\n• Install the throttle body bracket(s).\n• Connect the air cleaner hose."
+}

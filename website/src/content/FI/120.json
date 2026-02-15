@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-120",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "",
+  "ocr_text": "FI-120\n\nEFI SYSTEM — Electronic Control System\n\nCONTINUED FROM PAGE FI-119\n\n1\n2\n3\n4\n\nRepair the relevant diagnostic code.\n\nMalfunction code(s)\n(ex. code 21, code 25 and code 26)\n\nRead and record diagnostic codes (See pages FI-27, 28)\n\nNormal code, code 21,\ncode 25 and code 26\n\nDisconnect terminals TE1 and E1 of the check connector,\nand maintain engine at 2,500 rpm.\n\nMeasure voltage between terminals VF1 and E1.\n\n0 V\n5 V\n\nDisconnect the PCV hose.\n\nMeasure voltage between terminals VF1 and E1.\n\n0 V\nMore than 0 V\n\nRepair (Over rich)\n\nDisconnect the water temp. sensor connector and\nconnect resistor with resistance of 4 — 8 KΩ or\nanother coded water temp. sensor.\n\nConnect terminals TE1 and E1 of the check connector.\n\nWarm up the oxygen sensor with the engine at 2,500\nrpm for approx. 90 seconds. And maintain engine\nspeed at 2,500 rpm.\n\nMeasure voltage between terminals VF1 and E1.\n\n0 V\n5 V\n\nReplace the oxygen sensor.\n\nRepair (Over lean)"
+}

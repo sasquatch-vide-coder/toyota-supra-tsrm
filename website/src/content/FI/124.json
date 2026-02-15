@@ -1,0 +1,6 @@
+{
+  "page_id": "FL-124",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "",
+  "ocr_text": "FL-124\n\nEFI SYSTEM — Electronic Control System\n\n7M-GE\n\n[DIAGRAM showing ECU Wiring with IDL and E2 connections to Ohmmeter]\n\n7M-GTE\n\n[DIAGRAM showing ECU Wiring with IDL and E2 connections to Ohmmeter]\n\nF04221\nF01251\n\n3. INSPECT RESISTANCE OF ECU\nNOTICE:\n• Do not touch the ECU terminals.\n• The tester probe should be inserted into the wiring connector from the wiring side.\n\nCheck the resistance between each terminal of the wiring connectors.\n• Disconnect the connectors from the ECU.\n• Measure the resistance at each terminal.\n\nResistance of ECU Wiring Connectors\n\nTerminals | Condition | Resistance (Ω)\n\nIDL - E2 | Throttle valve open | ∞\nIDL - E2 | Throttle valve fully closed | 2,300 or less\n\nVTA - E2 | Throttle valve fully open | 3,600 — 10,300\nVTA - E2 | Throttle valve fully closed | 200 — 1,000\n\n*1 VC - E2 | — | 4,250 — 8,250\n\n*1 VS - E2 | Measuring plate fully closed | 200 — 600\n*1 VS - E2 | Measuring plate fully open | 20 — 1,200\n\nTHW - E2 | Coolant temperature 80°C (176°F) | 200 — 400\n\nG1, G2 - G ⊖ | — | 140 — 180\n\nNE - G ⊖\n(7M-GE) | — | 180 — 220\n\nNE - G ⊖\n(7M-GTE) | — | 140 — 180\n\nISC1, ISC2\nISC3, ISC4 | +B (+B1) | — | 10 — 30\n\n*1 7M-GE only\n*2 7M-GTE only"
+}

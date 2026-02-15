@@ -1,0 +1,114 @@
+{
+  "CO": {
+    "pages": 16,
+    "name": "Cooling System"
+  },
+  "IN": {
+    "name": "Introduction",
+    "pages": 14
+  },
+  "MA": {
+    "name": "Maintenance",
+    "pages": 16
+  },
+  "EM": {
+    "name": "Engine Mechanical",
+    "pages": 98
+  },
+  "EX": {
+    "name": "Exhaust System",
+    "pages": 4
+  },
+  "TC": {
+    "name": "Turbocharger System",
+    "pages": 18
+  },
+  "EC": {
+    "name": "Emission Control Systems",
+    "pages": 22
+  },
+  "FI": {
+    "name": "EFI System",
+    "pages": 126
+  },
+  "LU": {
+    "name": "Lubrication System",
+    "pages": 18
+  },
+  "IG": {
+    "name": "Ignition System",
+    "pages": 26
+  },
+  "ST": {
+    "name": "Starting System",
+    "pages": 12
+  },
+  "CH": {
+    "name": "Charging System",
+    "pages": 18
+  },
+  "CL": {
+    "name": "Clutch",
+    "pages": 16
+  },
+  "MT": {
+    "name": "Manual Transmission",
+    "pages": 86
+  },
+  "AT": {
+    "name": "Automatic Transmission",
+    "pages": 144
+  },
+  "PR": {
+    "name": "Propeller Shaft",
+    "pages": 10
+  },
+  "FA": {
+    "name": "Front Axle & Suspension",
+    "pages": 42
+  },
+  "RA": {
+    "name": "Rear Axle & Suspension",
+    "pages": 72
+  },
+  "BR": {
+    "name": "Brake System",
+    "pages": 72
+  },
+  "SR": {
+    "name": "Steering",
+    "pages": 96
+  },
+  "AB": {
+    "name": "SRS Airbag",
+    "pages": 90
+  },
+  "BE": {
+    "name": "Body Electrical System",
+    "pages": 116
+  },
+  "BO": {
+    "name": "Body",
+    "pages": 66
+  },
+  "AC": {
+    "name": "Air Conditioning System",
+    "pages": 46
+  },
+  "A": {
+    "name": "Service Specifications",
+    "pages": 36
+  },
+  "B": {
+    "name": "Standard Bolt Torque Specifications",
+    "pages": 4
+  },
+  "C": {
+    "name": "SST & SSM",
+    "pages": 18
+  },
+  "D": {
+    "name": "Electrical Wiring Diagrams",
+    "pages": 35
+  }
+}

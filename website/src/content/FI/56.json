@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-56",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "FI-56        EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)\n\n● VC – E2\n\n① There is no voltage between ECU terminals VC and E2.\n(IG SW ON)\n\nCheck that there is voltage between ECU terminal +B (+B1) and\nbody ground. (IG SW ON)\n\nOK\n\n② Check throttle position sensor.\n(See page FI-101)\n\nBAD\nRepair or replace.\n\nOK\nCheck wiring between ECU and throttle\nposition sensor.\n\nOK\n\nTry another ECU.\n\nNO\nRefer to No. 1.\n(See page FI-54)\n\nBAD\nRepair or replace\nwiring.\n\n● VTA – E2\n\n① There is no specified voltage at ECU terminals VTA and E2.\n(IG SW ON)\n\n② Check that there is voltage between ECU terminal VC and E2.\n(IG SW ON)\n\nNO\nRefer to VC – E2\ntrouble section.\n\nOK\n\n③ Check throttle position sensor.\n\nBAD\nRepair or replace.\n\nOK\nCheck wiring between ECU and\nthrottle position sensor.\n\nBAD\nRepair or replace.\n\nOK\n\nTry another ECU.\n\n(See page FI-101)\n\nECU\nVoltmeter\nVC\nE2\nF02763\n\n②\nOhmmeter\nVC\nVTA\nIDL\nE2\nF02835\n\nECU\nVoltmeter\nVTA\nE2\nF02763\n\n②\nECU\nVoltmeter\nVC\nE2\nF02764\n\n③\n(See page FI-101)\nOhmmeter\nVC\nVTA\nIDL\nE2\nF02835"
+}

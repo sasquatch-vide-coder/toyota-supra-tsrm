@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-114",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "Fuel Pump Relay and Resistor",
+  "ocr_text": "Fuel Pump Relay and Resistor\n\n[Diagram labels:]\nFP\nTo Circuit Opening\nRelay (FP)\n+B\nPR\nFuel Pump\nSolenoid Resistor\nTo ECU (FP)\nFPR\nFuel Pump Relay\nM\nFuel Pump\nFI112A\n\nINSPECTION OF PUMP RELAY AND RESISTOR\n\n1. INSPECT OF FUEL PUMP RELAY\nHINT: The relay is located in the left cowl side of engine\ncompartment.\n\n[Diagram label:]\nFPR\nFP\nPR\n+B\nFI113A\n\nA. Inspect Relay Continuity\n(a) Using an ohmmeter, check that there is continuity between terminals +B and PR.\n(b) Check that there is continuity between terminals +B and FPR.\n(c) Check that there is no continuity between terminals +B and PR.\n\nIf continuity is not as specified, replace the relay.\n\nContinuity\nContinuity\n+B\nFPR\nPR\n+B\nNo continuity\nFI2875\n\nB. Inspect Relay Operation\n(a) Apply battery voltage across terminals +B and FPR.\n(b) Using an ohmmeter, check that there is continuity between terminals +B and PR.\n(c) Check that there is no continuity between terminals +B and FP.\n\nIf operation is not as described, replace the relay.\n\nNo continuity\n+B\nFPR\nPR\n+B\nFP\nContinuity\nBattery\nFI2876"
+}

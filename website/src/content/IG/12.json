@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-12",
+  "section_header": "IGNITION SYSTEM — On-Vehicle Inspection (7M-GTE)",
+  "title": "INSPECTION OF IGNITION COIL",
+  "ocr_text": "INSPECTION OF IGNITION COIL\n\n1. INSPECT POWER SOURCE LINE\n(a) Disconnect the high-tension cord from the ignition coil.\n(b) Disconnect the ignition coil connectors.\n(c) Turn the ignition switch ON.\n\n(d) Using a voltmeter, measure the voltage between terminal 1 and body ground.\nVoltage: Approx. 12V\n\n2. INSPECT PRIMARY COIL RESISTANCE\nUsing an ohmmeter, measure the resistance between the positive (+) and negative (-) terminals.\nPrimary coil resistance (cold): 0.3 - 0.5 Ω\n\n3. INSPECT IGNITION COIL GROUND\nUsing an ohmmeter, check that there is no continuity between the ignition coil terminal and body ground.\n\n4. IF NECESSARY, REPLACE IGNITION COIL\nUsing a hexagon wrench 3 mm (0.12 in.), replace the ignition coil."
+}

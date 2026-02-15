@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-40",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)",
+  "title": "",
+  "ocr_text": "FI-40\n\nEFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)\n\nNo. | Terminals | Trouble | Condition | STD Voltage\n5 | THA — E2 | No voltage | Ignition switch ON | Intake air temperature 20°C (68°F) | 1—3 V\n\n[DIAGRAM: Circuit diagram showing Air Temp. Sensor (Air Flow Meter) with connections E2 and THA to ECU terminals +B (+B1) and E2, THA, E1]\n\n[DIAGRAM 1: ECU connection showing THA terminal with voltmeter connection]\nText: There is no voltage between ECU terminals THA and E2. (IG SW ON)\n\n[DIAGRAM 2: ECU connection showing +B (+B1) terminal with voltmeter connection]\nText: Check that there is voltage between ECU terminal +B (+B1) and body ground. (IG SW ON)\nOK → NO → Refer to No. 1. (See page FI-35)\n\n[DIAGRAM 3: ECU connection showing E1 terminal with ground connection]\nText: Check wiring between ECU terminal E1 and body ground.\nOK → BAD\nCheck air temp. sensor. (See page FI-94) → Repair or replace.\nBAD → OK\nReplace air flow meter. → Check wiring between ECU and air temp. sensor.\nOK → BAD\nTry another ECU. → Repair or replace.\n\n[DIAGRAM: Air Flow Meter with Ohmmeter connection between E2 and THA terminals]\nFI1272\nFI1636\nFI0313\nFI1253"
+}

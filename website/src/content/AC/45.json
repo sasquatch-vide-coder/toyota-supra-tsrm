@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-45",
+  "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment",
+  "title": "Air Mix Control Servo Motor",
+  "ocr_text": "Air Mix Control Servo Motor\n\nINSPECTION OF AIR MIX CONTROL SERVO\nMOTOR\n\n(Operation)\n\n(a) Connect the positive (+) lead from the battery to terminal 10 and the negative (—) lead to terminal 11.\n\n(b) Check that the lever moves smoothly from WARM to COOL.\n\n(c) Connect the positive (+) lead from the battery to terminal 11 and the negative (—) lead to terminal 10.\n\n(d) Check that the lever moves smoothly from COOL to WARM.\n\n(Resistance)\n\nWhile operating the servo motor from either points (a) or (b), measure the resistance values of terminals 5 and 6:\n\nPosition                    Resistance (Ω)\nCOOL                       1,900 ± 100\nWARM                      200 ± 50\n\nThe resistance values from COOL to WARM will successively decrease.\n\nIf operation or resistance is not as specified, replace the servo motor."
+}

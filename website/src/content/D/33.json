@@ -1,0 +1,6 @@
+{
+  "page_id": "7M-33",
+  "section_header": "Engine Control (7M-GE, 7M-GTE)",
+  "title": "",
+  "ocr_text": "Engine Control (7M-GE, 7M-GTE)\n\n5\n\n6\n\n7M-\n\nEG1 W10 KNO VF02 EG31 IG3 IG2 IG33 IG34 IGT\n\nFG2 IDO ST2 IGT\n\nTHROTTLE POSITION SENSOR\n\nEFI WATER TEMP SENSOR\n\nKNOCK SENSOR No. 1\n\nAIR FLOW METER\n\nCOLD START INJECTOR\n\nKNOCK SENSOR No. 2\n\nO2 SENSOR\n\nCHECK CONNECTOR\n\nEFI MAIN RELAY\n\nECT ECU (2-6)\n\nINJ1\n\nINJ2\n\nINJ3\n\nINJ4\n\nINJ5\n\nINJ6\n\nFUEL PUMP RESISTOR\n\nFUEL PUMP\n\nFrom TEMS Computer (3-7)\n\nFrom ECT ECU (2-6)\n\nIgnitor (6-8)\n\nTo Cruise Control Clutch SW (5-2)\n\nEFI RESISTOR"
+}

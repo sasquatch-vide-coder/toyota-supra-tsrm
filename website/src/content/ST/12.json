@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-12",
+  "section_header": "STARTING SYSTEM — Starter, Starter Relay, Clutch Start Switch",
+  "title": "INSTALLATION OF STARTER",
+  "ocr_text": "ST-12        STARTING SYSTEM — Starter, Starter Relay, Clutch Start Switch\n\nINSTALLATION OF STARTER\n\n1. INSTALL STARTER ON TRANSAXLE\nPlace the starter in the flywheel bellhousing, and install and\ntorque the starter mounting bolts.\nTorque: 400 kg-cm (29 ft-lb, 39 N-m)\n\n2. CONNECT TWO WIRES TO STARTER\nConnect the connector to the terminal on the magnetic\nswitch. Connect the cable from the battery to the terminal on the switch, and install the nut.\n\n3. CONNECT CABLE TO NEGATIVE TERMINAL OF BATTERY\nCheck that the engine starts.\n\nSTARTER RELAY (ex. Canada A/T)\n\nINSPECTION OF STARTER RELAY\n\nINSPECT STARTER RELAY\nLOCATION: The relay located in the passenger's kick\npanel.\n\nInspect Relay Continuity\n(a) Using an ohmmeter, check that there is continuity between terminals 1 and 3.\n(b) Check that there is no continuity between terminals\n2 and 4.\nIf continuity is not as specified, replace the relay.\n\nInspect Relay Operation\n(a) Apply battery voltage across terminals 1 and 3.\n(b) Check that there is continuity between terminals 2 and\n4.\nIf operation is not as described, replace the relay.\n\nCLUTCH START SWITCH (M/T)\n(See page CL-4)"
+}

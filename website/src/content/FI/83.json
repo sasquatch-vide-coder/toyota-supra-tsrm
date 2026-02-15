@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-83",
+  "section_header": "EFI SYSTEM — Fuel System",
+  "title": "Injectors",
+  "ocr_text": "Injectors\n\n[DIAGRAM showing injector cross-section with labels: Connector Terminal, Fuel, Injection, Coil]\n\nON-VEHICLE INSPECTION\n\n1. CHECK INJECTOR OPERATION\nCheck the operating sound from each injector.\n(a) With the engine running or cranking, use a sound scope to check that there is normal operating noise in proportion to engine rpm.\n\n[DIAGRAM showing Sound Scope being used on engine]\n\n(b) If you have no sound scope, you can check the injector transmission operation with your finger.\n\nIf no sound or an unusual sound is heard, check the wiring connector, injector, resistor (7M-GTE) or injection signal from the ECU.\n\n[DIAGRAM showing hand checking injector]\n\n2. INSPECT RESISTANCE OF INJECTOR\n(a) Disconnect the injector connector.\n(b) Using an ohmmeter, check the resistance of both terminals.\n\nResistance:\n7M-GE    Approx. 13.8 Ω\n7M-GTE   2.0 ~ 3.8 Ω\n\nIf the resistance is not as specified, replace the injector.\n(c) Reconnect the injector connector.\n\n[DIAGRAM showing ohmmeter testing injector with illustration of ohmmeter display]"
+}

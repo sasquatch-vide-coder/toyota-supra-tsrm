@@ -1,0 +1,6 @@
+{
+  "page_id": "FA-31",
+  "section_header": "FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension",
+  "title": "",
+  "ocr_text": "Yes\nContinued from page FA-30\n\nPlace mode select switch at Sport position while bouncing fender twice per one second. Check if damping becomes firmer.\n\nNo\nRemove the actuator from the vehicle and check the actuator operation. (See page FA-37)\n\nYes\nOK\nBad\n\nFaulty TEMS actuator (See page FA-37)\n\nFaulty shock absorber (See page FA-17)\n\nWith the mode select switch at Sport position, and short service connector (diagnosis) terminals Ts and E1, does all indicator light light?\n\nNo\nFaulty mode select switch, circuit or TEMS computer.\n\nYes\n\nWith the mode select switch at Sport position, bounce the fender and short service connector (diagnosis) terminals Ts and E1. Check if damping becomes even firmer.\n\nNo\nRemove the actuator from the vehicle and check the actuator operation. (See page FA-37)\n\nYes\nOK\nBad\n\nFaulty TEMS actuator (See page FA-37)\n\nInitial check OK\n\nFaulty shock absorber (See page FA-17)"
+}

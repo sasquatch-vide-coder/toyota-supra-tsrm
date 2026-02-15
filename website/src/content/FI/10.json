@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-10",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "TROUBLESHOOTING",
+  "ocr_text": "TROUBLESHOOTING\nTROUBLESHOOTING HINTS\n1. Engine troubles are usually not caused by the EFI system. When troubleshooting, always first check the condition of the other systems.\n(a) Power source\n• Battery\n• Fusible links\n• Fuses\n(b) Body ground\n(c) Fuel supply\n• Fuel leakage\n• Fuel filter\n• Fuel pump\n(d) Ignition system\n• Spark plug\n• High-tension cord\n• Distributor (7M-GE) or cam position sensor (7M-GTE)\n• Igniter and ignition coil\n(e) Air induction system\n• Vacuum leaks\n(f) Emission control system\n• PCV system\n• EGR system\n(g) Others\n• Ignition timing (ESA system)\n• Idle speed (ISC system)\n\n2. The most frequent cause of problems is simply a bad contact in wiring connectors. Always make sure that connections are secure.\nWhen inspecting the connector, pay particular attention to the following points:\n(a) Check to see that the terminals are not bent.\n(b) Check to see that the connector is pushed in completely and locked.\n(c) Check to see that there is no signal change when the connector is slightly tapped or wiggled.\n3. Sufficiently troubleshoot for other causes before replacing the ECU. The ECU is of high quality and it is expensive.\n\nLock\nFJ081\n\nFJ082"
+}

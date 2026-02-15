@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-61",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)     FI-61\n\nNo. | Terminals | Trouble | Condition | STD Voltage\n6 | THW - E2 | No voltage | Ignition switch ON | Coolant temperature 80°C (176°F) | 0.1 - 1.0 V\n\nECU\n+B (+B1)\nTHW\nE2\nE1\n\nWater Temp. Sensor\n\nFI2483\n\n1\nECU\nVoltmeter\nTHW\nE2\n\n1 There is no voltage between ECU terminals THW and E2.\n(IG SW ON)\n\nFI2765\n\n2 Check that there is voltage between ECU terminal +B (+B1) and body ground. (IG SW ON)\n\nOK | NO\n    | Refer to No. 1. (See page FI-54)\n\n2\nECU\nVoltmeter\n+B\n\nCheck wiring between ECU terminal E1 and body ground.\n\nOK | BAD\n    | Repair or replace.\n\nFI2757\n\n3 Inspect water temp. sensor.\n(See page FI-113)\n\nBAD | OK\nReplace water temp. sensor. | Check wiring between ECU and water temp. sensor.\n\n                              OK | BAD\n                              Try another ECU. | Repair or replace.\n\n3\nOhmmeter\n\nFI3754"
+}

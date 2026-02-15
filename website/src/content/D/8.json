@@ -1,0 +1,6 @@
+{
+  "page_id": "",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "Rear Window Defogger\n\n3\n\nFrom TCCS ECU (B-7)\n\nTo Light Failure Sensor (S-3)\nTo Power Window Main Relay (4-1)\n\n30A\nDEF\nCB\n\nOIL\nPRESSURE SENDER\n\nDEFOGGER\nRELAY\n\nY-B\n\nFUEL SENDER\nV L-R\nBR\n\nTURBO\nPRESSURE SENSOR\nV 1\n2\nGY 3\n4\nBR-R\n\nDRIVE\nCIRCUIT\n\nNOISE\nFILTER\n(For Rear\nWindow\nDefogger)\n\nTIMER\n\nTACH\nFrom Igniter (1-7)(B-8)\n\nREAR WINDOW\nDEFOGGER\n\nVOLT\n\nCHOKE\nONLY\n\n3\n\nWATER\nTEMP SENDER\n\n2\nY-G\n\nWATER TEMP\n\n1\n\nJ = Located under right front pillar\nE = Located behind radio\n/ = Located on back panel"
+}

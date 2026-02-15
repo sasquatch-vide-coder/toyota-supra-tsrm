@@ -1,0 +1,6 @@
+{
+  "page_id": "FA-39",
+  "section_header": "FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension",
+  "title": "Steering Sensor",
+  "ocr_text": "Steering Sensor\n\n1. CHECK STEERING SENSOR SYSTEM\n\n(a) Position the steering in the straightaway position.\n(b) Place the mode select switch to \"normal\" position.\n\n(c) Using a sub wire harness, short the service connector (Diagnosis) terminals T+ and E1.\n\n(d) Turn the ignition switch on, and check that the indicator lights S and F flash.\n\nIf not, there is a problem with either the mode select switch, service connector circuit or TEMS computer.\n\n(e) Turn the steering wheel 1/10 - 1/8 turn to the right from a straightaway position and check that the F indicator flash and the S light goes out.\n\n(f) Return the steering wheel to right from the straightaway position and then 1/10 - 1/8 turn to the left and check that the S indicator light flash and the F light goes out.\n\nIf operation is not as specified in (e) and (f) inspect for the cause."
+}

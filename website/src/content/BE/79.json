@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-79",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Inspection of ECT solenoid circuit.",
+  "ocr_text": "L    Inspection of ECT solenoid circuit.\n\nTurn ignition switch off.\n\nCOMPUTER\n\nDisconnect connector from computer and\ninspect connector on wire harness side as\nfollows.\n\nINSPECT ECT SOLENOID CIRCUIT\nIs there continuity between terminal 8 of wire\nharness side connector and terminal 11 of ECT\ncomputer?\n\nNo    Open circuit in wire harness between\n      terminal 8 of computer and terminal 11\n      of ECT computer.\n\nYes\n\nIs resistance value about 11 — 15 ohm\nbetween terminal 8 of wire harness side con-\nnector and body ground?\n\nNo    Open or short circuit in wire harness\n      between terminal 8 of computer and\n      terminal 11 of ECT computer or ECT\n      solenoid (No. 2).\n\nYes\n\nINSPECT OVERDRIVE CIRCUIT\nIs there continuity between terminal 6 of wire\nharness side connector and terminal 17 of ECT\ncomputer?\n\nNo    Open circuit in wire harness between\n      terminal 6 of computer and terminal 17\n      of ECT computer.\n\nYes\n\nReplace computer."
+}
