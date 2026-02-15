@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-62",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "AB-62\n\nSRS AIRBAG — Troubleshooting\n\nINSPECTION PROCEDURES\n\nP Preparation    C Check\n\n1 Preparation.\n\nLOCK\n\nP (1) Disconnect battery negative (—) terminal cable, and wait at least 20 seconds.\n(2) Remove steering wheel pad (See page AB-15).\n\nCaution\nWhen storing steering wheel pad, keep upper surface of pad facing upward.\n\nAB0151\nAB0340\n\n2 Check front airbag sensor circuit (Measure resistance between terminals +SR and —SR, +SL and —SL of center airbag sensor assembly connector.).\n\nCenter Airbag Sensor Assembly\n\n+SR\n—SR\n+SL\n—SL\n\nP Disconnect center airbag sensor assembly connector.\n\nC Measure resistance between terminals +SR and —SR, +SL and —SL of harness side connector of center airbag sensor assembly.\n\nOK Resistance: 765 Ω — 885 Ω\n\nAB0032\n\nOK\n\nNG Go to step 4"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-43",
+  "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment",
+  "title": "FUNCTIONAL TEST AND ADJUSTMENT\nAutomatic Temperature Control System",
+  "ocr_text": "FUNCTIONAL TEST AND\nADJUSTMENT\nAutomatic Temperature Control\nSystem\nON-VEHICLE INSPECTION\n\n1. DISCONNECT SHORT CIRCUIT CONNECTOR\n2. MAKE SHORT TERMINALS 1 AND 3 FOR TEST\n3. SET TEMPERATURE CONTROL AT 25°C (77°F)\n4. RUN ENGINE AT IDLING\n5. TURN ON BLOWER SWITCH TO AUTO POSITION\n\n6. CHECK AUTOMATIC TEMPERATURE CONTROL SYSTEM\n(a) Verify that the guide plate on the servo motor is positioned at the mark \"O\" (between the \"R\" and \"W\").\n(b) If the guide plate position is not at the mark \"O\", adjust as follows.\n\n(c) If the guide plate position is over the \"W\" area, connect the wire harness RG and BY.\n\n(d) If the guide plate position is over the \"R\" area, connect the wire harness RG and WB.\n\n7. CONNECT SHORT CIRCUIT CONNECTOR\n\nServo Motor\nGuide Plate\n\nW R\nBr-Y\nWB\nConnect\nRG\nBr-Y\nWB\n\nR W\nBr-Y\nWB\nRG\nBr-Y\nConnect\nWB"
+}

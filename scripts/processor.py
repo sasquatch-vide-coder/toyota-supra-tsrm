@@ -19,16 +19,18 @@ from claude_code_api import (
     RateLimitError,
 )
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-RAW_DIR = DATA_DIR / "raw"
-PROCESSED_DIR = DATA_DIR / "processed"
-SECTIONS_FILE = DATA_DIR / "sections.json"
-ERRORS_LOG = DATA_DIR / "errors.log"
+ROOT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+ERRORS_LOG = ROOT_DATA_DIR / "errors.log"
+
+MODEL_YEAR = {
+    "mk2": "1986",
+    "mk3": "1990",
+}
 
 MODEL = "claude-sonnet-4-5-20250929"
 MAX_TOKENS = 4096
 
-VISION_PROMPT = """You are analyzing a scanned page from a 1990 Toyota Supra Technical Service Repair Manual.
+VISION_PROMPT = """You are analyzing a scanned page from a {year} Toyota Supra Technical Service Repair Manual.
 Extract ALL content from this page and output valid JSON.
 
 Rules:
@@ -72,7 +74,7 @@ Output format:
 
 Output ONLY the JSON, no markdown fences or explanation."""
 
-OCR_PROMPT = """You are reading a scanned page from a 1990 Toyota Supra Technical Service Repair Manual.
+OCR_PROMPT = """You are reading a scanned page from a {year} Toyota Supra Technical Service Repair Manual.
 Extract ALL text from this page exactly as written, preserving reading order.
 
 Output valid JSON in this format:
@@ -101,9 +103,9 @@ def log_error(msg: str) -> None:
     print(f"  ERROR: {msg}", file=sys.stderr)
 
 
-def load_sections() -> dict:
-    if SECTIONS_FILE.exists():
-        return json.loads(SECTIONS_FILE.read_text(encoding="utf-8"))
+def load_sections(sections_file: Path) -> dict:
+    if sections_file.exists():
+        return json.loads(sections_file.read_text(encoding="utf-8"))
     return {}
 
 
@@ -120,12 +122,12 @@ def parse_page_id(path: Path) -> tuple[str, int]:
     return code, page
 
 
-def output_path(code: str, page: int) -> Path:
-    return PROCESSED_DIR / code / f"{code}_{page:03d}.json"
+def output_path(code: str, page: int, processed_dir: Path) -> Path:
+    return processed_dir / code / f"{code}_{page:03d}.json"
 
 
-def raw_output_path(code: str, page: int) -> Path:
-    return PROCESSED_DIR / code / f"{code}_{page:03d}.raw.txt"
+def raw_output_path(code: str, page: int, processed_dir: Path) -> Path:
+    return processed_dir / code / f"{code}_{page:03d}.raw.txt"
 
 
 def build_messages(image_path: Path, prompt: str = VISION_PROMPT) -> list[dict]:
@@ -148,7 +150,7 @@ def build_messages(image_path: Path, prompt: str = VISION_PROMPT) -> list[dict]:
     ]
 
 
-def process_response(text: str, code: str, page: int) -> dict | None:
+def process_response(text: str, code: str, page: int, processed_dir: Path) -> dict | None:
     """Parse Claude's response as JSON. Returns parsed dict or None on failure."""
     # Strip markdown fences if present
     cleaned = text.strip()
@@ -167,16 +169,16 @@ def process_response(text: str, code: str, page: int) -> dict | None:
     except json.JSONDecodeError as e:
         log_error(f"{code}-{page}: JSON parse failed: {e}")
         # Save raw response for debugging
-        raw_path = raw_output_path(code, page)
+        raw_path = raw_output_path(code, page, processed_dir)
         raw_path.parent.mkdir(parents=True, exist_ok=True)
         raw_path.write_text(text, encoding="utf-8")
         return None
 
 
-def process_file_sync(image_path: Path, force: bool = False, prompt: str = VISION_PROMPT) -> bool:
+def process_file_sync(image_path: Path, processed_dir: Path, force: bool = False, prompt: str = VISION_PROMPT) -> bool:
     """Process a single image file synchronously."""
     code, page = parse_page_id(image_path)
-    out = output_path(code, page)
+    out = output_path(code, page, processed_dir)
 
     if out.exists() and not force:
         print(f"  Skipping {code}-{page} (already processed)")
@@ -213,7 +215,7 @@ def process_file_sync(image_path: Path, force: bool = False, prompt: str = VISIO
             return False
 
         text = response.text
-        data = process_response(text, code, page)
+        data = process_response(text, code, page, processed_dir)
         if data is None:
             return False
 
@@ -229,12 +231,13 @@ async def process_file_async(
     client: AsyncClaudeClient,
     semaphore: asyncio.Semaphore,
     image_path: Path,
+    processed_dir: Path,
     force: bool = False,
     prompt: str = VISION_PROMPT,
 ) -> bool:
     """Process a single image file asynchronously."""
     code, page = parse_page_id(image_path)
-    out = output_path(code, page)
+    out = output_path(code, page, processed_dir)
 
     if out.exists() and not force:
         print(f"  Skipping {code}-{page} (already processed)")
@@ -269,7 +272,7 @@ async def process_file_async(
             return False
 
         text = response.text
-        data = process_response(text, code, page)
+        data = process_response(text, code, page, processed_dir)
         if data is None:
             return False
 
@@ -279,26 +282,26 @@ async def process_file_async(
         return True
 
 
-def find_images(section: str | None = None) -> list[Path]:
+def find_images(raw_dir: Path, section: str | None = None) -> list[Path]:
     """Find all GIF images to process."""
     if section:
-        section_dir = RAW_DIR / section
+        section_dir = raw_dir / section
         if not section_dir.exists():
             print(f"Section directory not found: {section_dir}", file=sys.stderr)
             return []
         return sorted(section_dir.glob("*.gif"))
-    return sorted(RAW_DIR.glob("*/*.gif"))
+    return sorted(raw_dir.glob("*/*.gif"))
 
 
-def find_failed() -> list[Path]:
+def find_failed(processed_dir: Path, raw_dir: Path) -> list[Path]:
     """Find pages that have raw.txt files (failed JSON parse) but no .json output."""
     failed = []
-    for raw_file in PROCESSED_DIR.glob("*/*.raw.txt"):
+    for raw_file in processed_dir.glob("*/*.raw.txt"):
         code = raw_file.parent.name
         stem = raw_file.stem.replace(".raw", "")
         json_file = raw_file.parent / f"{stem}.json"
         if not json_file.exists():
-            gif_file = RAW_DIR / code / f"{stem}.gif"
+            gif_file = raw_dir / code / f"{stem}.gif"
             if gif_file.exists():
                 failed.append(gif_file)
     # Also check errors.log for processor errors
@@ -309,19 +312,19 @@ def find_failed() -> list[Path]:
                 match = __import__("re").search(r"(\w+)-(\d+)", line)
                 if match:
                     code, page = match.group(1), int(match.group(2))
-                    out = output_path(code, page)
-                    gif = RAW_DIR / code / f"{code}_{page:03d}.gif"
+                    out = output_path(code, page, processed_dir)
+                    gif = raw_dir / code / f"{code}_{page:03d}.gif"
                     if gif.exists() and not out.exists() and gif not in failed:
                         failed.append(gif)
     return sorted(set(failed))
 
 
-async def process_batch(images: list[Path], force: bool = False, prompt: str = VISION_PROMPT) -> None:
+async def process_batch(images: list[Path], processed_dir: Path, force: bool = False, prompt: str = VISION_PROMPT) -> None:
     """Process multiple images concurrently."""
     semaphore = asyncio.Semaphore(3)
     async with AsyncClaudeClient() as client:
         tasks = [
-            process_file_async(client, semaphore, img, force=force, prompt=prompt)
+            process_file_async(client, semaphore, img, processed_dir, force=force, prompt=prompt)
             for img in images
         ]
         results = await asyncio.gather(*tasks, return_exceptions=True)
@@ -339,18 +342,25 @@ def main() -> None:
     parser.add_argument("--all", action="store_true", help="Process all downloaded pages")
     parser.add_argument("--retry", action="store_true", help="Retry previously failed pages")
     parser.add_argument("--force", action="store_true", help="Reprocess existing output files")
+    parser.add_argument("--model", choices=list(MODEL_YEAR.keys()), default="mk3", help="Vehicle model (default: mk3)")
     parser.add_argument("--ocr", action="store_true", help="Use OCR prompt (full-page text extraction)")
     parser.add_argument("--validate", action="store_true", help="Run validation after processing")
     args = parser.parse_args()
 
-    prompt = OCR_PROMPT if args.ocr else VISION_PROMPT
+    data_dir = ROOT_DATA_DIR / args.model
+    raw_dir = data_dir / "raw"
+    processed_dir = data_dir / "processed"
+    sections_file = data_dir / "sections.json"
+    year = MODEL_YEAR[args.model]
+
+    prompt = (OCR_PROMPT if args.ocr else VISION_PROMPT).format(year=year)
 
     if args.file:
         path = Path(args.file)
         if not path.exists():
             print(f"File not found: {path}", file=sys.stderr)
             sys.exit(1)
-        success = process_file_sync(path, force=args.force, prompt=prompt)
+        success = process_file_sync(path, processed_dir, force=args.force, prompt=prompt)
         if args.validate and success:
             code, page = parse_page_id(path)
             print(f"\nRunning validation for {code}-{page}...")
@@ -362,26 +372,26 @@ def main() -> None:
         sys.exit(0 if success else 1)
 
     if args.section and args.page:
-        gif = RAW_DIR / args.section / f"{args.section}_{args.page:03d}.gif"
+        gif = raw_dir / args.section / f"{args.section}_{args.page:03d}.gif"
         if not gif.exists():
             print(f"File not found: {gif}", file=sys.stderr)
             sys.exit(1)
-        success = process_file_sync(gif, force=args.force, prompt=prompt)
+        success = process_file_sync(gif, processed_dir, force=args.force, prompt=prompt)
         sys.exit(0 if success else 1)
 
     if args.retry:
-        images = find_failed()
+        images = find_failed(processed_dir, raw_dir)
         if not images:
             print("No failed pages to retry.")
             return
         print(f"Retrying {len(images)} failed pages...")
-        asyncio.run(process_batch(images, force=True, prompt=prompt))
+        asyncio.run(process_batch(images, processed_dir, force=True, prompt=prompt))
         return
 
     if args.section:
-        images = find_images(section=args.section)
+        images = find_images(raw_dir, section=args.section)
     elif args.all:
-        images = find_images()
+        images = find_images(raw_dir)
     else:
         parser.print_help()
         return
@@ -391,7 +401,7 @@ def main() -> None:
         return
 
     print(f"Processing {len(images)} images...")
-    asyncio.run(process_batch(images, force=args.force, prompt=prompt))
+    asyncio.run(process_batch(images, processed_dir, force=args.force, prompt=prompt))
 
 
 if __name__ == "__main__":

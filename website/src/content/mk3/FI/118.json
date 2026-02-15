@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-118",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "EGR Gas Temp. Sensor\n(California Vehicles only)",
+  "ocr_text": "FI-118\n\nEFI SYSTEM — Electronic Control System\n\nEGR Gas Temp. Sensor\n(California Vehicles only)\n\n[DIAGRAM showing EGR Gas Temp. Sensor connected to ECU with labels: Thermistor, EGR Valve, EGR Gas Temp. Sensor, ECU, +B(+B1), THG, E2, E1]\n\nE20279 FI0080\n\nINSPECTION OF EGR GAS TEMP. SENSOR\n\nINSPECT RESISTANCE OF EGR GAS TEMP. SENSOR\n\nUsing an ohmmeter, measure the resistance between the terminals.\n\nResistance:\n69.40 – 88.50 kΩ at 50°C (112°F)\n11.89 – 14.37 kΩ at 100°C (212°F)\n2.79 – 3.58 kΩ at 150°C (302°F)\n\nIf the resistance is not as specified, replace the sensor.\n\n[DIAGRAM showing Ohmmeter test setup with oil bath labeled: Ohmmeter, Oil, FI0674]"
+}

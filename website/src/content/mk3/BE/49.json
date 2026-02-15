@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-49",
+  "section_header": "BODY ELECTRICAL SYSTEM — Power Window",
+  "title": "POWER WINDOW",
+  "ocr_text": "POWER WINDOW\nPower Window Master Switch\n\nINSPECTION OF SWITCH\n\nINSPECT SWITCH CONTINUITY\nInspect the switch continuity between terminals.\n\nOperation window | Driver's side | Passenger's side\nTerminal\nSwitch | 1 2 6 5 | 1 3 4 5\nPosition\n\nWindow Unlock:\nUP      ○—○  ○—○  ○—○  ○—○\nOFF     ○———————○  ○———————○\nDOWN    ○———○  ○———○\n\nWindow Lock:\nUP      ○—○  ○—○  ○—○  ○—○\nOFF     ○———————○  ○———————○\nDOWN    ○———○  ○———○\n\nIf continuity is not as specified, replace the switch.\n\nPower Window Door Switch\n\nINSPECTION OF SWITCH\n\nINSPECT SWITCH CONTINUITY\nInspect the switch continuity between terminals.\n\nTerminal\nSwitch | 5 1 2 3 4\nPosition\n\nUP      ○—○    ○—○\nOFF     ○———○  ○———○\nDOWN    ○———○  ○———○\n\nIf continuity is not as specified, replace the switch.\n\nPower Window Motor\n\nINSPECTION OF MOTOR\n\n1. INSPECT CIRCUIT BREAKER OPERATION\n   (a) With the window in the full closed position, hold the\n       power window switch in \"UP\" position and check that\n       there is a circuit breaker operation noise with 4 to 40\n       seconds.\n\nWithin 4 to 40 seconds"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-7",
+  "section_header": "AUTOMATIC TRANSMISSION — Description",
+  "title": "ELECTRONIC CONTROL SYSTEM",
+  "ocr_text": "ELECTRONIC CONTROL SYSTEM\n\nThe electronic control system, which controls the shift points and the operation of the lock-up clutch, is composed of the following three parts:\n\n1. Sensors\n\nThese sensors sense the vehicle speed, throttle opening and other conditions and send this data to the ECU in the form of electrical signals.\n\n2. ECU\n\nThe ECU determines the shift and lock-up timing based upon the signals from sensors, and controls the solenoid valves of the hydraulic control unit accordingly.\n\n3. Actuators\n\nThese are three solenoid valves that control hydraulic pressure acting on the hydraulic valves to control shifting and lock up timing.\n\nSENSORS\n\nDRIVING PATTERN SELECTOR\n\nNEUTRAL START SWITCH\n\nTHROTTLE POSITION SENSOR\n\nVEHICLE SPEED SENSOR\n\nBRAKE LIGHT SWITCH\n\nO/D MAIN SWITCH\n\nCRUISE CONTROL COMPUTER\n\nWATER TEMPERATURE SENSOR\n\nECU\n\nEngine ECU\n\nControl of shift timing\n\nControl of lock-up timing\n\nSelf-diagnostic system\n\nBack-up system\n\nACTUATORS\n\nNO. 1 SOLENOID VALVE\n\nNO. 2 SOLENOID VALVE\n\nLOCK-UP SOLENOID VALVE\n\nO/D OFF INDICATOR LIGHT"
+}

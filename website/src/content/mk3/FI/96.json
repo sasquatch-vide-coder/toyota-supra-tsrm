@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-96",
+  "section_header": "EFI SYSTEM — Air Induction System",
+  "title": "Air Flow Meter (7M-GTE)",
+  "ocr_text": "Air Flow Meter (7M-GTE)\n\n[Diagram showing Air Flow Meter components with labels:]\nLeaf Spring\nLuminous Diode\nMirror\nAir Flow\nKarman Vortex\nVortex Generating Objectives\nPressure Directing Hole\nPhoto Transistor\n\nMX0901 FI-9346\n\nON-VEHICLE INSPECTION\n\nAir Flow Meter\n\nOhmmeter\n[Diagram showing ohmmeter connection]\nE1 VC KS THA E2\n[Connector diagram]\n\nFI-M25\n\nINSPECT RESISTANCE OF AIR FLOW METER\n\n(a) Disconnect the air flow meter connector.\n(b) Using an ohmmeter (analog type), measure the resistance between each terminal.\n\nTerminals          Resistance (Ω)          Temp. °C (°F)\n                   10,000 — 20,000         -20 (-4)\n                   4,000 — 7,000           0 (32)\nTHA — E2          2,000 — 3,000           20 (68)\n                   900 — 1,300             40 (104)\n                   400 — 700               60 (140)\n\nIf the resistance is not as specified, replace the air flow meter.\n\n(c) Reconnect the air flow meter connector."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-55",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "Open in Squib Circuit",
+  "ocr_text": "Diag.Code    14    Open in Squib Circuit\n\nCIRCUIT DESCRIPTION\n\nThe squib circuit consists of the center airbag sensor assembly, spiral cable and the steering wheel pad (squib). It causes the airbag to deploy when the airbag deployment conditions are satisfied.\nFor details of the function of each component, see FUNCTION OF COMPONENTS on page AB-7.\nDiagnostic code 14 is recorded when an open in the squib circuit is detected in the squib circuit.\n\nCode. No.    Diagnosis\n\n14    · Open circuit in D⁺ wire harness or D⁻ wire harness of squib.\n      · Squib malfunction.\n      · Spiral cable malfunction.\n      · Center airbag sensor assembly malfunction."
+}

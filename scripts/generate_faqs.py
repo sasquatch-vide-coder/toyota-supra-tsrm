@@ -23,10 +23,11 @@ from claude_code_api import (
     RateLimitError,
 )
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-SECTIONS_FILE = DATA_DIR / "sections.json"
-CONTENT_DIR = Path(__file__).resolve().parent.parent / "website" / "src" / "content"
-ERRORS_LOG = DATA_DIR / "errors.log"
+ROOT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+WEBSITE_DIR = Path(__file__).resolve().parent.parent / "website"
+ERRORS_LOG = ROOT_DATA_DIR / "errors.log"
+
+MODEL_YEAR = {"mk2": "1986", "mk3": "1990"}
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
@@ -35,7 +36,7 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 MODEL = "claude-sonnet-4-5-20250929"
 MAX_TOKENS = 2048
 
-FAQ_PROMPT = """You are analyzing a page from a 1990 Toyota Supra Technical Service Repair Manual.
+FAQ_PROMPT = """You are analyzing a page from a {year} Toyota Supra Technical Service Repair Manual.
 
 Based on the following page content, generate 1-3 frequently asked questions that a mechanic or enthusiast might search for. Each FAQ should:
 - Be a natural question someone would type into a search box
@@ -51,7 +52,7 @@ Content:
 Output ONLY valid JSON in this format, no markdown fences:
 [
   {{
-    "question": "How do I adjust valve clearance on a 1990 Toyota Supra?",
+    "question": "How do I adjust valve clearance on a {year} Toyota Supra?",
     "answer": "Valve clearance is adjusted using shims...",
     "category": "procedure"
   }}
@@ -65,9 +66,9 @@ def log_error(msg: str) -> None:
     print(f"  ERROR: {msg}", file=sys.stderr)
 
 
-def load_sections() -> dict:
-    if SECTIONS_FILE.exists():
-        return json.loads(SECTIONS_FILE.read_text(encoding="utf-8"))
+def load_sections(sections_file: Path) -> dict:
+    if sections_file.exists():
+        return json.loads(sections_file.read_text(encoding="utf-8"))
     return {}
 
 
@@ -100,10 +101,10 @@ def build_content_text(data: dict) -> str:
     return " ".join(texts)
 
 
-def collect_pages(sections: dict) -> list[dict]:
+def collect_pages(content_dir: Path, sections: dict, model: str) -> list[dict]:
     """Collect pages with enough text for FAQ generation."""
     pages = []
-    for section_dir in sorted(CONTENT_DIR.iterdir()):
+    for section_dir in sorted(content_dir.iterdir()):
         if not section_dir.is_dir():
             continue
         code = section_dir.name
@@ -123,6 +124,7 @@ def collect_pages(sections: dict) -> list[dict]:
                 "page": page_num,
                 "section_name": section_name,
                 "content_text": content_text,
+                "model": model,
             })
     return pages
 
@@ -150,10 +152,11 @@ async def generate_faqs_for_page(
     client: AsyncClaudeClient,
     semaphore: asyncio.Semaphore,
     page: dict,
+    faq_prompt: str,
 ) -> list[dict]:
     """Generate FAQs for a single page using Claude."""
     async with semaphore:
-        prompt = FAQ_PROMPT.format(
+        prompt = faq_prompt.format(
             section=page["section"],
             section_name=page["section_name"],
             page=page["page"],
@@ -201,6 +204,7 @@ async def generate_faqs_for_page(
                 "page": page["page"],
                 "section_name": page["section_name"],
                 "category": faq.get("category", "general"),
+                "model": page["model"],
             })
 
         if results:
@@ -227,21 +231,27 @@ def generate_embeddings_for_faqs(faqs: list[dict]) -> list[list[float]]:
     return all_embeddings
 
 
-async def run(with_embeddings: bool = False) -> None:
+async def run(model: str = "mk3", with_embeddings: bool = False) -> None:
     if not SUPABASE_URL or not SUPABASE_SERVICE_ROLE_KEY:
         print("ERROR: SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY must be set.", file=sys.stderr)
         sys.exit(1)
 
+    data_dir = ROOT_DATA_DIR / model
+    sections_file = data_dir / "sections.json"
+    content_dir = WEBSITE_DIR / "src" / "content" / model
+    year = MODEL_YEAR.get(model, "1990")
+
     supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
-    sections = load_sections()
-    pages = collect_pages(sections)
+    sections = load_sections(sections_file)
+    pages = collect_pages(content_dir, sections, model)
     print(f"Collected {len(pages)} pages for FAQ generation.")
 
     # Generate FAQs using Claude
+    faq_prompt = FAQ_PROMPT.replace("{year}", year)
     semaphore = asyncio.Semaphore(10)
     async with AsyncClaudeClient() as client:
         tasks = [
-            generate_faqs_for_page(client, semaphore, page)
+            generate_faqs_for_page(client, semaphore, page, faq_prompt)
             for page in pages
         ]
         results = await asyncio.gather(*tasks, return_exceptions=True)
@@ -281,13 +291,14 @@ async def run(with_embeddings: bool = False) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate FAQs from manual content via Claude")
+    parser.add_argument("--model", default="mk3", help="Vehicle model (default: mk3)")
     parser.add_argument(
         "--with-embeddings",
         action="store_true",
         help="Generate OpenAI embeddings for FAQs (requires OPENAI_API_KEY)",
     )
     args = parser.parse_args()
-    asyncio.run(run(with_embeddings=args.with_embeddings))
+    asyncio.run(run(model=args.model, with_embeddings=args.with_embeddings))
 
 
 if __name__ == "__main__":

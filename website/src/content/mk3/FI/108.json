@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-108",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "ELECTRONIC CONTROL SYSTEM\nLocation of Electronic Control Parts",
+  "ocr_text": "FI-108                    EFI SYSTEM — Electronic Control System\n\nELECTRONIC CONTROL SYSTEM\nLocation of Electronic Control Parts\n\n7M-GE\n\nFuel Pump Relay\nFuel Pump Solenoid\nResistor\nCold Start Injector\nTime Switch\nWater Temp.\nSensor\n\nSub-Oxygen Sensor\n(Calif. only)\n\nEGR Gas Temp. Sensor\n(Calif. only)\n\nOxygen Sensor\n\nEFI Main Relay\n\nECU\n\nCircuit Opening Relay\n\n7M-GTE\n\nOxygen Sensor\n\nFuel Pump Relay\n\nFuel Pump Solenoid\nResistor\nCold Start Injector\nTime Switch\nWater Temp.\nSensor\n\nSolenoid Resistor\n\nVSV (for FPU)\n\nEFI Main Relay"
+}

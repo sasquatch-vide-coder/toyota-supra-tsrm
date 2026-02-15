@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-90",
+  "section_header": "STEERING — Power Steering (Progressive Power Steering)",
+  "title": "Progressive Power Steering (PPS)\nELECTRONIC CIRCUIT",
+  "ocr_text": "SR-90\n\nSTEERING — Power Steering (Progressive Power Steering)\n\nProgressive Power Steering (PPS)\n\nELECTRONIC CIRCUIT\n\nDo not open the cover or the case of the ECU and various computer unless absolutely necessary. (If the IC terminals are touched, the IC may be destroyed by static electricity.)\n\nGear Housing\n\nFlow Dividing Valve\n\nPower Steering Pump\n\nHydraulic Reaction Chamber\n\nSpeed Sensor\n\nECU\n\nSolenoid Valve\n\nIgnition Switch\n\nFuse (ECU-IG)\n\nECU\n\n+B\n\nFusible Link\n\nSPD\n\nSolenoid Valve\n\nSpeed Sensor\n\nSOL ⊕\n\nBattery\n\nSOL ⊖\n\nGND\n\n+B\n\nSQL ⊕\n\nSPD\nGND\nSOL ⊖\n\nSR94433"
+}

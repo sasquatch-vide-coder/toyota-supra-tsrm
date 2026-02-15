@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-55",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)     FI-55\n\nNo. | Terminals | Trouble | Condition | STD voltage\n2 | IDL - E2 | No voltage | Ignition switch ON | Throttle valve open | 4 - 6 V\n  | VC - E2 |           |                      | -                    | 4 - 6 V\n  | VTA - E2 |           |                      | Throttle valve fully closed | 0.1 - 1.0 V\n  |          |           |                      | Throttle valve fully open   | 3.2 - 4.2 V\n\nECU\nThrottle Position Sensor\n+B\n(+B1)\nE2\nIDL\nVTA\nVC\nE2\nIDL\nVTA\nVC\nE1\n\nFI1366\n\nIDL - E2\n\n1. There is no voltage between ECU terminals IDL and E2.\n   (IG SW ON) (Throttle valve open)\n\n2. Check that there is voltage between ECU terminal +B (+B1)\n   and body ground. (IG SW ON)\n\nNO | OK\n\nCheck wiring between ECU terminal E1 and body ground.\n\nOK | BAD\n\nTry another ECU. | Repair or replace.\n\nBAD\n\nRefer to No. 1.\n(See page FI-54) | Repair or replace.\n\nOK\n\n(See page FI-101)\n\n3. Check throttle position sensor.\n\nBAD | BAD | OK\n\nRepair or replace | Check wiring between ECU and throttle position sensor.\n\nOK\n\nTry another ECU.\n\nVC\nVTA\nIDL\nE2\nOhmmeter\n\nFI2635"
+}

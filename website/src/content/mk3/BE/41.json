@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-41",
+  "section_header": "BODY ELECTRICAL SYSTEM — Combination Meter",
+  "title": "",
+  "ocr_text": "(d) Measure the resistance between terminals 3 and 4 for\neach float position.\n\nFloat position          mm (in.)          Resistance (Ω)\nF                 71.7 ± 3 (2.823 ± 0.12)      4.0 ± 1.0\nE                237.2 ± 3 (9.339 ± 0.12)    110.0 ± 7.0\n\nIf each resistance value is not as specified, replace the\nsender gauge.\n\nFuel Level Warning\n\nINSPECTION OF LEVEL WARNING\n\n1. INSPECT WARNING LIGHT OPERATION\n(a) Disconnect the connector from the fuel sender gauge.\nConnect the terminals 1 and 2 on the wire harness\nside connector.\n(b) Turn the ignition switch on. Check that the bulb lights.\nIf the bulb does not light, remove and test the bulb.\n\n2. INSPECT WARNING SWITCH OPERATION\n(a) Apply battery voltage between terminals 1 and 2\nthrough a 3.4 W test bulb. Check that the bulb lights.\nHINT: It will take a short time for the bulb to light.\n\n(b) Submerge the switch in gasoline. Check that the bulb\ngoes out.\n\nIf operation is not as specified, replace the sender gauge.\n\nWater Temperature Gauge\n\nINSPECTION OF GAUGE\n\n1. INSPECT RECEIVER GAUGE OPERATION\n(a) Disconnect the connector from the sender gauge.\n(b) Turn the ignition switch on. Check that the receiver\ngauge needle moves to the cold position."
+}

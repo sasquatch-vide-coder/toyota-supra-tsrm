@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-68",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "Rear Speed Sensor",
+  "ocr_text": "Rear Speed Sensor\n\nA340E and R154\n\n160 (12, 18)\n\nW58\n\n290 (21, 28)\n\nkg-cm (ft-lb, N-m) : Specified torque\n\nBR1328 Z00063\nOct., '90\n\nINSPECTION OF REAR SPEED SENSOR\n\nNo continuity\n\nBR1329\n\nV\nΩ\n\nRR\n\nRR—LH (W)\n\n2—10\nkΩ\n\n12V\n\nRR—(B)\n\nBR1370\n\n1. INSPECT SPEED SENSOR\n(a) Disconnect the speed sensor connector.\n(b) Check that there is no continuity between each terminal and sensor body.\nIf there is continuity, replace the speed sensor.\n(c) Remove the speed sensor from the transmission.\n(d) Remove the terminals from the connector.\n(e) Using a resistor (2 — 10 kΩ), complete the circuit as shown in the illustration.\nHINT: Do not short any terminal.\n(f) Check that the voltmeter alternately indicates 12 V and 2 V or less as the screwdriver is repeatedly brought towards the sensor and then withdrawn.\nIf indications are not as specified, replace the speed sensor.\nHINT: Cover the screwdriver tip with a cloth before use to prevent scratching the tip of the speed sensor."
+}

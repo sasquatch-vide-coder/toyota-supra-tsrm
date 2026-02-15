@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-125",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "Fuel Cut RPM",
+  "ocr_text": "Fuel Cut RPM\n\nINSPECTION OF FUEL CUT RPM\n\nINSPECT FUEL CUT RPM\n(a) Start and warm up the engine.\n(b) Disconnect the throttle position sensor connector from the throttle position sensor.\n(c) Connect circuit terminals IDL and E2 on the wire connector side.\n(d) Gradually raise the engine rpm and check by the fluctuation of the tachometer needle, that the fuel cut operation repeatedly goes on and off.\nHINT: The vehicle should be stopped.\nFuel cut rpm: 7M-GE 1,800 rpm\n7M-GTE 1,600 rpm\nFuel return rpm: 7M-GE 1,200 rpm\n7M-GTE 1,200 rpm"
+}

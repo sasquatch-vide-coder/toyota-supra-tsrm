@@ -1,0 +1,6 @@
+{
+  "page_id": "",
+  "section_header": "TOYOTA SUPRA (Cont'd)",
+  "title": "",
+  "ocr_text": "TOYOTA SUPRA (Cont'd)\n\n[Diagram showing Cruise Control system with car icon showing \"40 SET\"]\n\nCruise Control\n\n[Electrical wiring diagram showing connections between various components including:]\n\nCRUISE CONTROL COMPUTER\n\nFrom STOP Fuse\n\nCRUISE CONTROL MAIN SWITCH\n\nMAIN INDICATOR LIGHT\n\nRELAY\n\nRESUME CIRCUIT OPENING RELAY\n\nRESUME/COAST\n\nSET/\nDRIVE\n\nCANCEL\n\nDRIVER ACTUATOR CRUISE CONTROL\n\nCRUISE CONTROL ACTUATOR\n\nFrom TCCS ECU\n\nFrom TCM\n\nN/T Position SW (Park & Neutral)\n\nA/T Control Relay\n\nFrom SPD Sensor [EFI]\n\nVehicle Speed Sensor [ECT]\n\nN/T Neutral Start SW [A/T]\n\nFrom STOP LT SW (EFI) and Main TCCS ECU (TCCS)\n\nGround points\nd = Located on left fender\ne = Located under left front pillar\nf = Located on back panel"
+}

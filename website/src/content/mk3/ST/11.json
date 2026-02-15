@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-11",
+  "section_header": "STARTING SYSTEM — Starter",
+  "title": "PERFORMANCE TEST OF STARTER",
+  "ocr_text": "PERFORMANCE TEST OF STARTER\n\nNOTICE: These tests must be performed within 3 to 5 seconds to avoid burning out the coil.\n\n1. PERFORM PULL-IN TEST\n(a) Disconnect the field coil lead wire from terminal C.\n(b) Connect the battery to the magnetic switch as shown. Check that the clutch pinion gear moves outward.\nIf the clutch pinion gear does not move, replace the magnetic switch assembly.\n\n2. PERFORM HOLD-IN TEST\nWhile connected as above with the clutch pinion gear out, disconnect the negative (−) lead from terminal C. Check that the pinion gear remains out.\nIf the clutch pinion gear returns inward, replace the magnetic switch assembly.\n\n3. INSPECT CLUTCH PINION GEAR RETURN\nDisconnect the negative (−) lead from the switch body. Check that the clutch pinion gear returns inward.\nIf the clutch pinion gear does not return, replace the magnetic switch assembly.\n\n4. PERFORM NO-LOAD PERFORMANCE TEST\n(a) Connect the battery and ammeter to the starter as shown.\n(b) Check that the starter rotates smoothly and steadily with the pinion gear moving out. Check that the ammeter reads the specified current.\nSpecified current: 90 A or less at 11.5 V"
+}

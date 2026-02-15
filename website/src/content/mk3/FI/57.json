@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-57",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)     FI-57\n\nNo. | Terminals | Trouble | Condition | STD Voltage\n3 | KS — Body ground | No voltage | Ignition SW ON Cranking or running | 4 - 6 V 2 - 4 V\n  | VC — Body ground |           | Ignition SW ON | 4 - 6 V\n\nECU\n+B (+B1)\nVC\nKS\nE1\n\nAir Flow Meter\nVC\nKS\nE1\n\nFI2590\n\n• KS — Body ground\n\nECU\n① There is no voltage between ECU terminals KS and body ground. (IG SW ON)\n\nVoltmeter\nKS\n\nFI2725\n\nOK\nNO\nRefer to No. 1. (See page FI-54)\n\nECU\n②\n\n+B\n\nVoltmeter\nE1\n\n② Check that there is voltage between ECU terminal +B (+B1) and body ground. (IG SW ON)\n\n③ Check wiring between ECU terminal E1 and body ground.\n\nOK | BAD\nCheck wiring between ECU and air flow meter. | Repair or replace.\n\nFI2757\n\nOK | BAD\nTry another ECU. | Repair or replace.\n\nECU\n③\n\nOhmmeter\nE1\n\nFI2758"
+}

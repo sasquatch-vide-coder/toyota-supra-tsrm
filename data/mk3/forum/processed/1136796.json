@@ -1,0 +1,36 @@
+{
+  "thread_id": "1136796",
+  "title": "Fuel Leak?",
+  "url": "https://www.supraforums.com/threads/fuel-leak.1136796/",
+  "author": "A70bier",
+  "date_posted": "2026-02-08T18:13:03-0500",
+  "reply_count": 11,
+  "view_count": 81,
+  "is_sticky": false,
+  "issue_summary": "Owner of 1987 Supra experiencing fuel leak smell towards the front of the engine, initially uncertain of the source with a disconnected line visible.",
+  "symptoms": [
+    "strong fuel smell",
+    "suspected fuel leak towards front of engine",
+    "fluid on return fuel line"
+  ],
+  "fix_summary": "Fuel leak identified at the fuel injectors using dye. Owner planning to reseal or replace injector o-rings and gaskets.",
+  "related_systems": [
+    "Fuel System",
+    "Engine"
+  ],
+  "parts_mentioned": [
+    "fuel return line",
+    "Evap line",
+    "fuel injectors",
+    "fuel damper",
+    "fuel rail",
+    "copper washers",
+    "injector o-rings",
+    "injector gaskets",
+    "throttle body"
+  ],
+  "thread_type": "troubleshooting",
+  "is_resolved": true,
+  "key_takeaway": "Fuel leaks on MK3 Supras can be diagnosed using dye in the fuel tank or by jumping Fp and +B in the diagnostic block to pressurize the fuel system without starting the engine, and injector o-rings/gaskets are common leak points that should be lubricated with motor oil during installation.",
+  "searchable_text": "Fuel Leak? Owner of 1987 Supra experiencing fuel leak smell towards the front of the engine, initially uncertain of the source with a disconnected line visible. strong fuel smell suspected fuel leak towards front of engine fluid on return fuel line Fuel leak identified at the fuel injectors using dye. Owner planning to reseal or replace injector o-rings and gaskets. Fuel leaks on MK3 Supras can be diagnosed using dye in the fuel tank or by jumping Fp and +B in the diagnostic block to pressurize the fuel system without starting the engine, and injector o-rings/gaskets are common leak points that should be lubricated with motor oil during installation. fuel return line Evap line fuel injectors fuel damper fuel rail copper washers injector o-rings injector gaskets throttle body"
+}

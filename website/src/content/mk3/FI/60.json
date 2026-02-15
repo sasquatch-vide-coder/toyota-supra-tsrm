@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-60",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "FI-60\t\tEFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)\n\nNo.\tTerminals\tTrouble\t\t\t\tCondition\t\t\t\tSTD Voltage\n5\tTHA – E2\tNo voltage\tIgnition switch\t\tIntake air temperature 20°C (68°F)\t1 – 3 V\n\t\t\t\tON\n\nECU\n\n+B (+B1)\n\nAir Temp. Sensor\n(Air Flow Meter)\nTHA\nE2\nTHA\nE2\nE1\n\nFI3706\n\n①\n\nThere is no voltage between ECU terminals THA and E2.\n(IG SW ON)\n\nECU\n\nVoltmeter\nTHA\tE2\n\n②\tCheck that there is voltage between ECU terminal +B (+B1) and\nbody ground. (IG SW ON)\n\nOK\t\t\tNO\n\nRefer to No. 1.\n(See page FI-54)\n\nFI2767\n\n②\n\nCheck wiring between ECU terminal E1 and body ground.\n\nECU\n\nVoltmeter\n+B\n\nOK\t\tBAD\n\nRepair or replace.\n\n③\tCheck air temp. sensor.\n(See page FI-96)\n\nBAD\t\tOK\n\nReplace air flow\nmeter.\n\nCheck wiring between ECU and\nair temp. sensor.\n\nFI2767\n\nAir Flow Meter\t③\n\nOhmmeter\n\nTHA\tE2\n\nOK\t\tBAD\n\nTry another ECU.\n\nRepair or replace.\n\nFI8826"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-63",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "6. PUSH SUB MOTOR SWITCH\nPush and hold in the SUB MOTOR switch for a few seconds.\n\n7. DISCONNECT ACTUATOR CHECKER (SST) FROM ACTUATOR\n(a) Disconnect the actuator checker (SST) and sub-wire harness (SST) from the actuator.\nSST 09990 00150\n(b) Connect the actuator connectors.\n(c) Clear the diagnostic codes.\n(See page BR-54)\n\nREMOVAL OF ACTUATOR\n1. TAKE OUT FLUID WITH SYRINGE OR AN EQUIVALENT\nCAUTION: Do not let brake fluid remain on a painted surface. Wash off it immediately.\n\n2. DISCONNECT ACTUATOR CONNECTORS\nDisconnect the three connectors from the actuator.\n\n3. DISCONNECT BRAKE TUBES FROM ACTUATOR\nUsing SST, disconnect the five brake tubes from the actuator.\nSST 09751-36011\n\n4. REMOVE ACTUATOR\nRemove the three nut and remove the actuator."
+}

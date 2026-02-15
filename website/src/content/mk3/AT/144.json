@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-144",
+  "section_header": "AUTOMATIC TRANSMISSION — Shift Lock System",
+  "title": "",
+  "ocr_text": "AT-144                    AUTOMATIC TRANSMISSION — Shift Lock System\n\n3. INSPECT KEY INTERLOCK SOLENOID\n(a) Disconnect the solenoid connector.\n(b) Using an ohmmeter, measure the resistance between terminals.\nStandard resistance: 12 — 17 Ω\n\n(c) Apply the battery voltage between terminals.\nAt this time, confirm that a solenoid operation.\n\n4. INSPECT SHIFT LOCK CONTROL SWITCH\nInspect that there is continuity between each terminals.\n\n[TABLE:\nShift            Terminal      P       P₁      P₂\nPosition\nP range                       ○—○\n(Release button is not pushed)\nR, N, D, 2, L ranges         ○              ○\n]"
+}

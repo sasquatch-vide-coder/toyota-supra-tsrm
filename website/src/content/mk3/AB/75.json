@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-75",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "Airbag Warning Light System (Always Lit Up)",
+  "ocr_text": "Airbag Warning Light System (Always Lit Up)\n\nCIRCUIT DESCRIPTION\n\nThe airbag warning light is located on the combination meter.\nWhen the airbag system is normal, the airbag warning light lights up for approx. 6 seconds after the ignition switch is turned from LOCK position to ACC or ON position, and then turns off automatically.\nIf there is a malfunction in the airbag system, the airbag warning light lights up to inform the driver of the abnormality.\nWhen terminals Tc and E1 of the check connector are connected, the diagnostic code is displayed by the blinking of the airbag warning light.\n\nDIAGNOSTIC CHART\n\n1  Does airbag warning light turn off?\n   NO → Check airbag warning light circuit or terminal AB circuit of check connector.\n   YES ↓\n   Replace center airbag sensor assembly.\n\nWIRING DIAGRAM\n\nCenter Airbag Sensor Assembly\n\nECU-B\nAirbag Warning Light\nLA\nB\n\nFusible Link Box\nALT\n\nCheck Connector\nAB\n\nBattery\n\nAB02AD"
+}

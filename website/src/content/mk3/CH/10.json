@@ -1,0 +1,6 @@
+{
+  "page_id": "CH-10",
+  "section_header": "CHARGING SYSTEM — Alternator",
+  "title": "INSPECTION AND REPAIR OF ALTERNATOR",
+  "ocr_text": "INSPECTION AND REPAIR OF ALTERNATOR\n\nRotor\n\n1. INSPECT ROTOR FOR OPEN CIRCUIT\nUsing an ohmmeter, check that there is continuity between the slip rings.\nStandard resistance (cold): 2.8 — 3.0 Ω\nIf there is no continuity, replace the rotor.\n\n2. INSPECT ROTOR FOR GROUND\nUsing an ohmmeter, check that there is no continuity between the slip ring and the rotor.\nIf there is continuity, replace the rotor.\n\n3. INSPECT SLIP RINGS\n(a) Check that the slip rings are not rough or scored.\nIf rough or scored, replace the rotor.\n(b) Using vernier calipers, measure the slip ring diameters.\nStandard diameter: 14.2 — 14.4 mm\n(0.559 — 0.567 in.)\nMinimum diameter: 12.8 mm (0.504 in.)\nIf the diameter is less than minimum, replace the rotor.\n\nStator\n\n1. INSPECT STATOR FOR OPEN CIRCUIT\nUsing an ohmmeter, check that there is continuity between the coil leads.\nIf there is no continuity, replace the drive end frame assembly.\n\n2. INSPECT STATOR FOR GROUND\nUsing an ohmmeter, check that there is no continuity between the coil leads and drive end frame.\nIf there is continuity, replace the drive end frame assembly."
+}

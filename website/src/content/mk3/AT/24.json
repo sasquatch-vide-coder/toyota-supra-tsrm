@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-24",
+  "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting (Electronic Control System)",
+  "title": "",
+  "ocr_text": "Continued from page AT-23\n\nConnect ECT ECU connector and road test.\nDoes Tr terminal voltage rise from 0V\nto 7V in sequence?\n\n0→7V\n• Transmission faulty\n• Solenoid faulty\n\n0→5V\nProceed to trouble 3 (AT-26)\n\n0V\n\n0→3V\nAre there 12V between ECT ECU\nterminals 2— GND when in the D\nrange?\n\nYes\nNo\n\nAre there 12V between ECT ECU terminals\nL— GND when in the D range?\n\nNo\nYes\n• Neutral start switch circuit faulty\n• Neutral start switch faulty\n\nTry another ECT ECU"
+}

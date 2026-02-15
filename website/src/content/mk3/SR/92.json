@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-92",
+  "section_header": "STEERING — Power Steering (Progressive Power Steering)",
+  "title": "",
+  "ocr_text": "SR-92\n\nSTEERING — Power Steering (Progressive Power Steering)\n\nCONTINUED FROM PREVIOUS PAGE\n\nYes\n\nCheck 2.\nCheck that there is continuity between the ECU terminal GND and body ground.\n\nGND\n\nSP2197\n\nYes                                           No\n\n• Open circuit in wire harness between the ECU terminal GND and body ground.\n• Body ground faulty.\n\nCheck 3.\n(a) Jack up the rear wheel on one side.\n(b) Connect an ohmmeter between the ECU connector terminals SPD and GND.\n(c) Spin the rear wheel and check that the meter needle deflects from 0 Ω to ∞ Ω.\n\nSPD\nGND\n\nSP2088\n\nYes                                           No\n\n• Open or short circuit in wire harness between the ECU terminal SPD and speed sensor.\n• Speed sensor faulty (See page BE-84).\n\nCheck 4.\nCheck that there is no continuity between terminals SOL ① or SOL ② and GND.\n\nGND\n\nSOL①\nor\nSOL②\n\nSP2199\n\nYes                                           No\n\n• Short circuit in wire harness between the terminals SOL ① and SOL ②.\n• Solenoid valve faulty.\n\nCONTINUED ON NEXT PAGE"
+}

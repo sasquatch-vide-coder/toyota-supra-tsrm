@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-9",
+  "section_header": "IGNITION SYSTEM — On-Vehicle Inspection (7M-GE)",
+  "title": "",
+  "ocr_text": "INSPECTION OF IGNITION COIL\n\n1. DISCONNECT HIGH-TENSION CORD\n\n2. INSPECT PRIMARY COIL RESISTANCE\nUsing an ohmmeter, measure the resistance between the positive (+) and negative (-) terminals.\nPrimary coil resistance (cold): 0.24 - 0.30 Ω\n\n3. INSPECT SECONDARY COIL RESISTANCE\nUsing an ohmmeter, measure the resistance between the positive (+) terminal and high-tension terminal.\nSecondary coil resistance (cold): 9.2 - 12.4 kΩ\n\n4. RECONNECT HIGH-TENSION CORD\n\nINSPECTION OF DISTRIBUTOR\n\n1. INSPECT AIR GAPS\nUsing a feeler gauge, measure the gap between the signal rotor and pickup coil projection.\nAir gap: 0.2 mm (0.008 in.) or more\nIf the gap is not as specified, replace the distributor.\n\n2. INSPECT PICKUP COILS\nUsing an ohmmeter, check resistance of the pickup coil.\nG1 pickup coil resistance:\nG1 → 140 - 180 Ω\nG2 pickup coil resistance:\nG2 → 140 - 180 Ω\nNE pickup coil resistance:\nNE → 180 - 220 Ω\nIf the resistance is not as specified, replace the distributor.\n\nINSPECTION OF IGNITER\n(See procedure Spark Test on page IG-5)"
+}

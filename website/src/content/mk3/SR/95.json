@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-95",
+  "section_header": "STEERING — Power Steering (Progressive Power Steering)",
+  "title": "Power Steering ECU\nINSPECTION OF ECU",
+  "ocr_text": "STEERING — Power Steering (Progressive Power Steering)                    SR-95\n\nPower Steering ECU\nINSPECTION OF ECU\n\n1. JACK UP VEHICLE AND SUPPORT IT ON STANDS\n\n2. REMOVE GLOVE BOX\n   HINT: Do not disconnect the ECU connector.\n\n3. START ENGINE\n\n4. MEASURE VOLTAGE OF ECU\n   (a) Using a voltmeter, measure the voltage between ECU\n       terminals SOL ⊖ and GND while the engine is idling.\n       Standard voltage: 0.32 — 0.44 V\n\n   (b) Place the transmission in gear and while running at\n       about 50 km/h (31 mph), measure the voltage be-\n       tween ECU terminals SOL ⊖ and GND.\n       Standard voltage: Voltage measured in (a) above,\n                         minus 0.09 — 0.23 V\n\n   If no voltage, try another ECU.\n\n5. INSTALL GLOVE BOX\n\n6. LOWER VEHICLE"
+}

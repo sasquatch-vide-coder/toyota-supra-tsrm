@@ -4,7 +4,7 @@ import TorqueSpec from "./TorqueSpec";
 import CautionNotice from "./CautionNotice";
 import ManualTable from "./ManualTable";
 
-function renderBlock(block: ManualContentBlock, section: string, page: number, idx: number) {
+function renderBlock(block: ManualContentBlock, model: string, section: string, page: number, idx: number) {
   switch (block.type) {
     case "text":
       return (
@@ -34,7 +34,7 @@ function renderBlock(block: ManualContentBlock, section: string, page: number, i
       );
 
     case "diagram": {
-      const base = `/images/${section}/${section}_${String(page).padStart(3, "0")}_${block.index}`;
+      const base = `/images/${model}/${section}/${section}_${String(page).padStart(3, "0")}_${block.index}`;
       return (
         <DiagramViewer
           key={idx}
@@ -112,14 +112,16 @@ function renderBlock(block: ManualContentBlock, section: string, page: number, i
 
 export default function ManualPage({
   data,
+  model,
   section,
   page,
 }: {
   data: PageData;
+  model: string;
   section: string;
   page: number;
 }) {
-  const pageImage = `/images/${section}/${section}_${String(page).padStart(3, "0")}.png`;
+  const pageImage = `/images/${model}/${section}/${section}_${String(page).padStart(3, "0")}.png`;
   const hasOcrText = !!data.ocr_text;
   const hasContent = data.content && data.content.length > 0;
 
@@ -145,7 +147,7 @@ export default function ManualPage({
       ) : (
         <div>
           {data.content?.map((block, idx) =>
-            renderBlock(block, section, page, idx)
+            renderBlock(block, model, section, page, idx)
           )}
         </div>
       )}

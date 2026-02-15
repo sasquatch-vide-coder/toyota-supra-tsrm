@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-22",
+  "section_header": "AIR CONDITIONING SYSTEM — Compressor",
+  "title": "COMPRESSOR\nON-VEHICLE INSPECTION",
+  "ocr_text": "COMPRESSOR\nON-VEHICLE INSPECTION\n\n1. INSTALL MANIFOLD GAUGE SET\n(See page AC-21)\n\n2. RUN ENGINE AT APPROX. 1,500 RPM\n\n3. CHECK COMPRESSOR FOR FOLLOWING:\n(a) High pressure gauge reading is not lower and low pressure gauge reading is not higher than normal.\n(b) Metallic sound\n(c) Leakage from shaft seal\nIf defects are found, repair the compressor.\n\n4. CHECK MAGNETIC CLUTCH\n(a) Inspect the pressure plate and the rotor for signs of oil.\n(b) Check the clutch bearings for noise and grease leakage.\n\n(c) Using an ohmmeter, measure the resistance of the stator coil between the clutch lead wire and ground.\nStandard resistance: 2.7 — 3.1 Ω at 20°C (68°F)\nIf resistance value is not as specified, replace the coil.\n\n(d) Connect the positive (+) lead from the battery to terminal 1, check that the magnetic clutch is energized.\nIf magnetic clutch is not energized, replace the coil.\nNOTICE: Do not short the positive (+) lead wire on the vehicle by applying battery voltage."
+}

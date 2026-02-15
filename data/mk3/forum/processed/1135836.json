@@ -1,0 +1,31 @@
+{
+  "thread_id": "1135836",
+  "title": "About that Modern Digital Dash",
+  "url": "https://www.supraforums.com/threads/about-that-modern-digital-dash.1135836/",
+  "author": "KaminKevCrew",
+  "date_posted": "2025-09-04T19:34:16-0400",
+  "reply_count": 114,
+  "view_count": 4400,
+  "is_sticky": false,
+  "issue_summary": "Developer is creating a modern recreation of the rare JDM digital dashboard for the MK3 Supra using approximately 1,000 LEDs per cluster, with plans to manufacture and sell them.",
+  "symptoms": [],
+  "fix_summary": "",
+  "related_systems": [
+    "Instrumentation",
+    "Electrical",
+    "CAN Bus"
+  ],
+  "parts_mentioned": [
+    "digital dash",
+    "VFD displays",
+    "PCB boards",
+    "LEDs",
+    "speedometer cable",
+    "fuel level sender",
+    "oil temperature gauge"
+  ],
+  "thread_type": "modification",
+  "is_resolved": false,
+  "key_takeaway": "A custom digital dashboard is being developed that will be plug-and-play with factory wiring while also supporting CAN bus data from standalone ECUs, with each gauge able to independently select its data source.",
+  "searchable_text": "About that Modern Digital Dash Developer is creating a modern recreation of the rare JDM digital dashboard for the MK3 Supra using approximately 1,000 LEDs per cluster, with plans to manufacture and sell them. A custom digital dashboard is being developed that will be plug-and-play with factory wiring while also supporting CAN bus data from standalone ECUs, with each gauge able to independently select its data source. digital dash VFD displays PCB boards LEDs speedometer cable fuel level sender oil temperature gauge"
+}

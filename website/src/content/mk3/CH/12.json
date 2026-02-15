@@ -1,0 +1,6 @@
+{
+  "page_id": "CH-12",
+  "section_header": "CHARGING SYSTEM — Alternator",
+  "title": "",
+  "ocr_text": "CH-12                                    CHARGING SYSTEM — Alternator\n\nOhmmeter\n[Diagram showing ohmmeter connected to negative terminal]\nCH0041\n\nOhmmeter\n[Diagram showing ohmmeter with reversed polarity]\nCH0048\n\n[Diagram showing bearing inspection]\nCH0227\n\n[Diagram showing removal of four screws and bearing retainer]\nCH0228\n\n[Diagram showing socket wrench pressing out front bearing]\nCH0230\n\n2.    INSPECT NEGATIVE SIDE RECTIFIER\n(a)   Connect one tester probe to each rectifier terminal and\n      the other to each rectifier negative (—) terminal.\n\n(b)   Reverse the polarity of the tester probes.\n(c)   Check that one shows continuity and the other shows\n      no continuity.\nIf not, replace the rectifier holder.\n\nBearings\n\n1.    INSPECT FRONT BEARING\n      Check that the bearing is not rough or worn.\n\n2.    IF NECESSARY, REPLACE FRONT BEARING\n(a)   Remove the four screws and bearing retainer.\n\n(b)   Using a press and socket wrench, press out the front\n      bearing."
+}

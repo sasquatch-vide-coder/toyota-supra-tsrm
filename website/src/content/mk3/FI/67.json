@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-67",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)                    FI-67\n\nNo. | Terminals | Trouble | Condition | STD Voltage\n12 | A/C — E1 | No voltage | Ignition switch ON | Air conditioning ON | 10 ~ 14 V\n\nECU\n\nTo A/C Amplifier ————————————————— A/C\n\n                                    E1\n                                    ⏚\n\nFI0255\n\n① There is no voltage between ECU terminals A/C and E1.\n   (Air conditioning ON)\n\nECU\nVoltmeter\n⊖ ⊕\n    E1    A/C\n\nFI0576\n\n② Check that there is voltage between ECU terminal A/C and body ground.\n\nNO | OK\n\n③ Check wiring between ECU terminal E1 and body ground.\n\nOK | BAD\n\nTry another ECU. | Repair or replace.\n\nECU\nVoltmeter\n⊖ ⊕\n    A/C\n\nFI0219\n\nCheck that there is voltage between amplifier terminal and body ground. | BAD | Repair or replace.\n\nOK\n\nCheck wiring between amplifier and ECU terminal A/C. | BAD | Repair or replace.\n\nECU\nOhmmeter\n⊖ ⊕\n    E1\n\nFI0255"
+}

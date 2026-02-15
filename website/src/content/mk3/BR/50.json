@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-50",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "CONNECTORS",
+  "ocr_text": "BR-50\n\nBRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\nCONNECTORS\n\nA.B.S. Actuator\n\nCONNECTOR A\nMR    SR    T\n1  1  6\n2  5  4  3\nGND   R-    W\n\nCONNECTOR B\nMT   AST\n3  1  2\n6  5  4\nSRR     SFR\nSFL\n\nCONNECTOR C\nBM\n1\n2\nBS\n\nRear Speed Sensor (A/T)\nRR+   PSEN\n1\n2\nRR-\n\nFront Speed Sensor (LH)    Front Speed Sensor (RH)\n1    2           1    2\nFL-    FL+         FR-    FR+\n\nRear Speed Sensor (M/T)\nPSEN\n1    2\n3    4\nRR-    RR+\n\nAnti-lock Brake System Computer\nIG    W         FR+  RR+    T     STP  SFL\nSRR   BAT       GND1 PSEN\n20  19  18  17  16  15  14  13    4    3    1\n29  27  26  25  24  23  22  21  12  11  10  9  8  7  6\nSR   ECT        GND2  FL-   RR-   NL   MR   MT\n              FL+   FR-   R-   PL   PKB  AST  SFR\n\nE2401  E2402  D-2-2\nD-2-1\n92.2-1 09.2-1 89.2-2\nT2403"
+}

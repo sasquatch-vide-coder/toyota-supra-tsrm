@@ -19,11 +19,8 @@ from claude_code_api import (
     RateLimitError,
 )
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-RAW_DIR = DATA_DIR / "raw"
-PROCESSED_DIR = DATA_DIR / "processed"
-SECTIONS_FILE = DATA_DIR / "sections.json"
-ERRORS_LOG = DATA_DIR / "errors.log"
+ROOT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+ERRORS_LOG = ROOT_DATA_DIR / "errors.log"
 
 MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 2048
@@ -60,9 +57,9 @@ def log_error(msg: str) -> None:
     print(f"  ERROR: {msg}", file=sys.stderr)
 
 
-def load_sections() -> dict:
-    if SECTIONS_FILE.exists():
-        return json.loads(SECTIONS_FILE.read_text(encoding="utf-8"))
+def load_sections(sections_file: Path) -> dict:
+    if sections_file.exists():
+        return json.loads(sections_file.read_text(encoding="utf-8"))
     return {}
 
 
@@ -72,12 +69,12 @@ def parse_page_id(path: Path) -> tuple[str, int]:
     return parts[0], int(parts[1])
 
 
-def validation_path(code: str, page: int) -> Path:
-    return PROCESSED_DIR / code / f"{code}_{page:03d}.validation.json"
+def validation_path(processed_dir: Path, code: str, page: int) -> Path:
+    return processed_dir / code / f"{code}_{page:03d}.validation.json"
 
 
-def processed_path(code: str, page: int) -> Path:
-    return PROCESSED_DIR / code / f"{code}_{page:03d}.json"
+def processed_path(processed_dir: Path, code: str, page: int) -> Path:
+    return processed_dir / code / f"{code}_{page:03d}.json"
 
 
 def build_messages(image_path: Path, extracted_json: dict) -> list[dict]:
@@ -119,11 +116,11 @@ def parse_validation(text: str) -> dict | None:
         return None
 
 
-def validate_file_sync(image_path: Path, force: bool = False) -> dict | None:
+def validate_file_sync(image_path: Path, processed_dir: Path, force: bool = False) -> dict | None:
     """Validate a single page synchronously."""
     code, page = parse_page_id(image_path)
-    val_path = validation_path(code, page)
-    proc_path = processed_path(code, page)
+    val_path = validation_path(processed_dir, code, page)
+    proc_path = processed_path(processed_dir, code, page)
 
     if val_path.exists() and not force:
         print(f"  Skipping {code}-{page} (already validated)")
@@ -191,12 +188,13 @@ async def validate_file_async(
     client: AsyncClaudeClient,
     semaphore: asyncio.Semaphore,
     image_path: Path,
+    processed_dir: Path,
     force: bool = False,
 ) -> dict | None:
     """Validate a single page asynchronously."""
     code, page = parse_page_id(image_path)
-    val_path = validation_path(code, page)
-    proc_path = processed_path(code, page)
+    val_path = validation_path(processed_dir, code, page)
+    proc_path = processed_path(processed_dir, code, page)
 
     if val_path.exists() and not force:
         return json.loads(val_path.read_text(encoding="utf-8"))
@@ -241,34 +239,34 @@ async def validate_file_async(
         return result
 
 
-def find_images(section: str | None = None) -> list[Path]:
+def find_images(raw_dir: Path, section: str | None = None) -> list[Path]:
     if section:
-        section_dir = RAW_DIR / section
+        section_dir = raw_dir / section
         if not section_dir.exists():
             return []
         return sorted(section_dir.glob("*.gif"))
-    return sorted(RAW_DIR.glob("*/*.gif"))
+    return sorted(raw_dir.glob("*/*.gif"))
 
 
-async def validate_batch(images: list[Path], force: bool = False) -> list[dict | None]:
+async def validate_batch(images: list[Path], processed_dir: Path, force: bool = False) -> list[dict | None]:
     semaphore = asyncio.Semaphore(5)  # Haiku can handle more concurrency
     async with AsyncClaudeClient() as client:
         tasks = [
-            validate_file_async(client, semaphore, img, force=force)
+            validate_file_async(client, semaphore, img, processed_dir, force=force)
             for img in images
         ]
         return await asyncio.gather(*tasks, return_exceptions=True)
 
 
-def print_report() -> None:
+def print_report(processed_dir: Path, sections_file: Path) -> None:
     """Print a summary of all validation results."""
-    sections = load_sections()
+    sections = load_sections(sections_file)
     total_processed = 0
     total_passed = 0
     total_need_review = 0
     section_reports = []
 
-    for section_dir in sorted(PROCESSED_DIR.iterdir()):
+    for section_dir in sorted(processed_dir.iterdir()):
         if not section_dir.is_dir():
             continue
         code = section_dir.name
@@ -316,6 +314,7 @@ def print_report() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate extracted TSRM content")
+    parser.add_argument("--model", default="mk3", help="Vehicle model (default: mk3)")
     parser.add_argument("--file", help="Validate extraction for a single GIF file")
     parser.add_argument("--section", help="Validate all pages in a section")
     parser.add_argument("--all", action="store_true", help="Validate all processed pages")
@@ -323,8 +322,13 @@ def main() -> None:
     parser.add_argument("--force", action="store_true", help="Re-validate existing results")
     args = parser.parse_args()
 
+    data_dir = ROOT_DATA_DIR / args.model
+    raw_dir = data_dir / "raw"
+    processed_dir = data_dir / "processed"
+    sections_file = data_dir / "sections.json"
+
     if args.report:
-        print_report()
+        print_report(processed_dir, sections_file)
         return
 
     if args.file:
@@ -332,13 +336,13 @@ def main() -> None:
         if not path.exists():
             print(f"File not found: {path}", file=sys.stderr)
             sys.exit(1)
-        validate_file_sync(path, force=args.force)
+        validate_file_sync(path, processed_dir, force=args.force)
         return
 
     if args.section:
-        images = find_images(section=args.section)
+        images = find_images(raw_dir, section=args.section)
     elif args.all:
-        images = find_images()
+        images = find_images(raw_dir)
     else:
         parser.print_help()
         return
@@ -348,9 +352,9 @@ def main() -> None:
         return
 
     print(f"Validating {len(images)} pages...")
-    asyncio.run(validate_batch(images, force=args.force))
+    asyncio.run(validate_batch(images, processed_dir, force=args.force))
     print()
-    print_report()
+    print_report(processed_dir, sections_file)
 
 
 if __name__ == "__main__":

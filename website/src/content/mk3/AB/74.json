@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-74",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "INSPECTION PROCEDURES\n\nP Preparation    C Check\n\n1  Check operation of airbag warning light.\n\nACC    ON\nor\n\nAirbag Warning Light\nAB0118 AB0119\nAB0217\n\nP  Clear malfunction code 41 stored in memory (See page AB-31).\n\nC  (1) Turn ignition switch LOCK, and wait at least 2 seconds.\n(2) Turn ignition switch ACC or ON, and wait at least 20 seconds.\n(3) Check operation of airbag warning light.\n\nOK  Airbag warning light turns off.\n\nNG\n\nOK  System is normal.\n\n2  Is diagnostic code 41 output again?\n\nACC    ON\nor\n\nE1\nTc\nCode 41\nSST 09843-18020\n\nAB0118 AB0119\nAB-13 T-FIT394\n\nC  (1) Turn ignition switch ACC or ON, and wait at least 20 seconds.\n(2) Using SST, connect terminals Tc and E1 of check connector.\nSST 09843-18020\n(3) Check diagnostic code.\n\nNO\n\nYES  Check harness between ECU-B fuse and center airbag sensor assembly. If normal, replace center airbag sensor assembly.\n\nPerform troubleshooting according to malfunction code output."
+}

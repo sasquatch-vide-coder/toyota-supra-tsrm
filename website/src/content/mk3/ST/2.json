@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-2",
+  "section_header": "STARTING SYSTEM — Troubleshooting",
+  "title": "TROUBLESHOOTING",
+  "ocr_text": "TROUBLESHOOTING\n\nProblem | Possible cause | Remedy | Page\n\nEngine will not crank | Battery charge low | Check battery specific gravity | CH-2\n | | Charge or replace battery |\n | Battery cables loose, corroded or worn | Repair or replace cables |\n | Starter relay faulty (ex. Canada A/T) | Replace starter relay |\n | Clutch start switch faulty (M/T only) | Adjust switch position or | CL-4\n | | replace switch |\n | Neutral start switch faulty (A/T only) | Adjust or repair switch |\n | Fusible link faulty | Replace fusible link |\n | Starter faulty | Repair starter | ST-3\n | Ignition switch faulty | Replace ignition switch |\n\nEngine cranks slowly | Battery charge low | Check battery specific gravity | CH-2\n | | Charge or replace battery |\n | Battery cables loose, corroded or worn | Repair or replace cables |\n | Starter faulty | Repair starter | ST-3\n\nStarter keeps running | Starter faulty | Repair starter | ST-3\n | Ignition switch faulty | Replace ignition switch |\n | Short in wiring | Repair wiring |\n\nStarter spins — engine will not crank | Pinion gear teeth broken or faulty starter | Repair starter | ST-3\n | Flywheel teeth broken | Replace flywheel |"
+}

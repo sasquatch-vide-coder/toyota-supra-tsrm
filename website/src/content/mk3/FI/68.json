@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-68",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "California vehicles only\n\nTo EFI Main Relay\n\nOxygen Sensor\nOxygen Sensor Heater\n\nCheck Connector\nE1\nVF1\nTE1\n\nECU\nVF\nTE1\nOX\nHT\nE1\n\n① There is no voltage between ECU terminals VF and E1.\n\nCheck that there is specified voltage between ECU terminal VF and body ground.\nOK\nBAD\nCheck wiring between ECU terminal E1 and body ground.\nOK\nBAD\nRepair or replace.\nTry another ECU.\n\nCheck for suction of air into exhaust system.\nOK\nBAD\nRepair air suction.\n\nCheck for air leak from air intake system.\nOK\nBAD\nRepair air leak.\n\nCheck spark plugs.\nOK\nBAD\nRepair or replace.\n\nCheck cam position sensor and ignition system.\nOK\nBAD\nRepair or replace.\n\nCheck fuel pressure.\nOK\nBAD\nRepair or replace.\n\nCheck injectors.\nOK\nBAD\nRepair or replace.\n\nCheck cold start injector. *\nOK\nBAD\nRepair or replace.\n\nCheck air flow meter.\nOK\nBAD\nRepair or replace.\n\n② Check operation of oxygen sensor.\nOK\nBAD\nSystem normal.\n\nCheck wiring between oxygen sensor and ECU connectors.\nOK\nBAD\nRepair wiring.\n\nReplace oxygen sensor.\n\n* Rich malfunction only"
+}

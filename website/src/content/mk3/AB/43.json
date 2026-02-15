@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-43",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "Short in Squib Circuit or Front Airbag Sensor Circuit (to +B)",
+  "ocr_text": "Diag.Code 12\n\nShort in Squib Circuit or Front Airbag Sensor Circuit (to +B)\n\nCIRCUIT DESCRIPTION\n\nThe squib circuit consists of the center airbag sensor assembly, spiral cable and the steering wheel pad (squib). It causes the airbag to deploy when the airbag deployment conditions are satisfied.\n\nThe front airbag sensor detects the deceleration force in a frontal collision and is located in the front of the engine compartment.\n\nFor details of the function of each component, see FUNCTION OF COMPONENTS on page AB-7.\n\nDiagnostic code 12 is recorded when a +B short is detected in the squib circuit or the front airbag sensor circuit.\n\nCode No.                    Diagnosis\n\n12        · Short circuit in squib wire harness (to +B).\n          · Squib malfunction.\n          · Short circuit in front airbag sensor +S wire harness (to +B).\n          · Open circuit in RH and LH front airbag sensor harness.\n          · Spiral cable malfunction.\n          · Center airbag sensor assembly malfunction."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-69",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Inspection of actuator circuit.",
+  "ocr_text": "D | Inspection of actuator circuit.\n\nTurn ignition switch off.\n\nVACUUM HOSE\n\nAre there cracks or other damage on the\nvacuum hose?\nYes → Replace vacuum hose.\nNo ↓\n\nACTUATOR\n\nINSPECT CABLE FREEPLAY\nIs control cable freeplay less than 10 mm\n(0.39 in.)?\nNo → Adjust control cable freeplay.\nYes ↓\n\nINSPECT ACTUATOR OPERATION\nDisconnect connector from actuator.\nIs actuator operation normal?\n(See page BE-83)\nNo → Replace actuator.\nYes ↓\n\nSTOP LIGHT\nSWITCH\n\nINSPECT STOP LIGHT SWITCH CIRCUIT\nDisconnect connector from stop light switch.\nIs there continuity between terminal 1 of wire\nharness side connector and body ground?\nYes → Short circuit in wire harness between\nterminal 1 of actuator and terminal 4\nof stop light switch.\nNo ↓\n\nConnect connector to actuator.\nIs there continuity between terminal 1 of wire\nharness side connector and body ground?\nNo → Open circuit in wire harness between\nterminal 1 of actuator and terminal 4 of\nstop light switch.\nYes ↓\n\nINSPECT STOP LIGHT SWITCH\nOPERATION\nIs stop light switch operation normal?\n(See page BE-83)\nNo → Replace stop light switch.\nYes ↓\n\nConnect connector to stop light switch.\n\nCONTINUED ON NEXT PAGE"
+}

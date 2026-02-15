@@ -11,13 +11,20 @@ from pathlib import Path
 
 import httpx
 
-BASE_URL = "http://www.cygnusx1.net/Supra/Library/TSRM/MK3"
-MANUAL_URL = f"{BASE_URL}/manual.aspx"
+MODEL_CONFIGS = {
+    "mk2": {
+        "base_url": "http://www.cygnusx1.net/Supra/Library/TSRM/MK2",
+        "image_pattern": r'src="(/Media/Supra/Library/TSRM/MK2/[^"]+)"',
+    },
+    "mk3": {
+        "base_url": "http://www.cygnusx1.net/Supra/Library/TSRM/MK3",
+        "image_pattern": r'src="(/Media/Supra/Library/TSRM/MK3/[^"]+)"',
+    },
+}
+
 IMAGE_BASE = "http://www.cygnusx1.net"
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-RAW_DIR = DATA_DIR / "raw"
-SECTIONS_FILE = DATA_DIR / "sections.json"
-ERRORS_LOG = DATA_DIR / "errors.log"
+ROOT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+ERRORS_LOG = ROOT_DATA_DIR / "errors.log"
 REQUEST_DELAY = 0.5
 
 
@@ -28,20 +35,21 @@ def log_error(msg: str) -> None:
     print(f"  ERROR: {msg}", file=sys.stderr)
 
 
-def load_sections() -> dict:
-    if SECTIONS_FILE.exists():
-        return json.loads(SECTIONS_FILE.read_text(encoding="utf-8"))
+def load_sections(sections_file: Path) -> dict:
+    if sections_file.exists():
+        return json.loads(sections_file.read_text(encoding="utf-8"))
     return {}
 
 
-def save_sections(sections: dict) -> None:
-    SECTIONS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    SECTIONS_FILE.write_text(json.dumps(sections, indent=2) + "\n", encoding="utf-8")
+def save_sections(sections: dict, sections_file: Path) -> None:
+    sections_file.parent.mkdir(parents=True, exist_ok=True)
+    sections_file.write_text(json.dumps(sections, indent=2) + "\n", encoding="utf-8")
 
 
-def discover_sections(client: httpx.Client) -> list[tuple[str, str]]:
+def discover_sections(client: httpx.Client, base_url: str) -> list[tuple[str, str]]:
     """Fetch the main index page and extract section codes + names."""
-    resp = client.get(MANUAL_URL)
+    manual_url = f"{base_url}/manual.aspx"
+    resp = client.get(manual_url)
     resp.raise_for_status()
     html = resp.text
 
@@ -64,12 +72,13 @@ def discover_sections(client: httpx.Client) -> list[tuple[str, str]]:
     return sections
 
 
-def fetch_page(client: httpx.Client, code: str, page: int) -> tuple[str | None, int | None]:
+def fetch_page(client: httpx.Client, code: str, page: int, base_url: str, image_pattern: str) -> tuple[str | None, int | None]:
     """Fetch a manual page and return (image_url, total_pages).
 
     Returns (None, None) on failure.
     """
-    url = f"{MANUAL_URL}?S={code}&P={page}"
+    manual_url = f"{base_url}/manual.aspx"
+    url = f"{manual_url}?S={code}&P={page}"
     try:
         resp = client.get(url)
         resp.raise_for_status()
@@ -80,7 +89,7 @@ def fetch_page(client: httpx.Client, code: str, page: int) -> tuple[str | None, 
     html = resp.text
 
     # Extract image URL
-    img_match = re.search(r'src="(/Media/Supra/Library/TSRM/MK3/[^"]+)"', html)
+    img_match = re.search(image_pattern, html)
     if not img_match:
         log_error(f"No image URL found on {url}")
         return None, None
@@ -113,28 +122,28 @@ def download_image(client: httpx.Client, image_url: str, dest: Path, force: bool
         return False
 
 
-def download_page(client: httpx.Client, code: str, page: int, force: bool = False) -> int | None:
+def download_page(client: httpx.Client, code: str, page: int, raw_dir: Path, base_url: str, image_pattern: str, force: bool = False) -> int | None:
     """Download a single page. Returns total page count if discovered."""
-    dest = RAW_DIR / code / f"{code}_{page:03d}.gif"
+    dest = raw_dir / code / f"{code}_{page:03d}.gif"
 
     if dest.exists() and not force:
         print(f"  Skipping {dest.name} (already exists)")
         # Still need to fetch total if we don't know it
-        image_url, total = fetch_page(client, code, page)
+        image_url, total = fetch_page(client, code, page, base_url, image_pattern)
         return total
 
-    image_url, total = fetch_page(client, code, page)
+    image_url, total = fetch_page(client, code, page, base_url, image_pattern)
     if image_url:
         download_image(client, image_url, dest, force=force)
     return total
 
 
-def download_section(client: httpx.Client, code: str, sections: dict, force: bool = False) -> None:
+def download_section(client: httpx.Client, code: str, sections: dict, raw_dir: Path, sections_file: Path, base_url: str, image_pattern: str, force: bool = False) -> None:
     """Download all pages for a section."""
     print(f"Downloading section {code}...")
 
     # First, fetch page 1 to discover total page count
-    total = download_page(client, code, 1, force=force)
+    total = download_page(client, code, 1, raw_dir, base_url, image_pattern, force=force)
     time.sleep(REQUEST_DELAY)
 
     if total is None:
@@ -148,15 +157,16 @@ def download_section(client: httpx.Client, code: str, sections: dict, force: boo
 
     # Download remaining pages
     for page in range(2, total + 1):
-        download_page(client, code, page, force=force)
+        download_page(client, code, page, raw_dir, base_url, image_pattern, force=force)
         time.sleep(REQUEST_DELAY)
 
-    save_sections(sections)
+    save_sections(sections, sections_file)
     print(f"  Section {code}: {total} pages")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Download TSRM page images")
+    parser.add_argument("--model", choices=list(MODEL_CONFIGS.keys()), default="mk3", help="Vehicle model (default: mk3)")
     parser.add_argument("--section", help="Download only this section (e.g. CO)")
     parser.add_argument("--page", type=int, help="Download only this page number (requires --section)")
     parser.add_argument("--list-sections", action="store_true", help="Discover and print all sections")
@@ -166,12 +176,19 @@ def main() -> None:
     if args.page and not args.section:
         parser.error("--page requires --section")
 
+    config = MODEL_CONFIGS[args.model]
+    base_url = config["base_url"]
+    image_pattern = config["image_pattern"]
+    data_dir = ROOT_DATA_DIR / args.model
+    raw_dir = data_dir / "raw"
+    sections_file = data_dir / "sections.json"
+
     client = httpx.Client(timeout=30, follow_redirects=True)
-    sections = load_sections()
+    sections = load_sections(sections_file)
 
     try:
         if args.list_sections:
-            discovered = discover_sections(client)
+            discovered = discover_sections(client, base_url)
             print(f"Found {len(discovered)} sections:")
             for code, name in discovered:
                 print(f"  {code}: {name}")
@@ -180,32 +197,32 @@ def main() -> None:
                 if code not in sections:
                     sections[code] = {}
                 sections[code]["name"] = name
-            save_sections(sections)
+            save_sections(sections, sections_file)
             return
 
         if args.section and args.page:
             # Single page
-            total = download_page(client, args.section, args.page, force=args.force)
+            total = download_page(client, args.section, args.page, raw_dir, base_url, image_pattern, force=args.force)
             if total and args.section not in sections:
                 sections[args.section] = {"pages": total}
-                save_sections(sections)
+                save_sections(sections, sections_file)
             elif total and "pages" not in sections.get(args.section, {}):
                 sections.setdefault(args.section, {})["pages"] = total
-                save_sections(sections)
+                save_sections(sections, sections_file)
             return
 
         if args.section:
             # Single section
-            download_section(client, args.section, sections, force=args.force)
+            download_section(client, args.section, sections, raw_dir, sections_file, base_url, image_pattern, force=args.force)
             return
 
         # All sections
-        discovered = discover_sections(client)
+        discovered = discover_sections(client, base_url)
         print(f"Found {len(discovered)} sections, downloading all...")
         for code, name in discovered:
             sections.setdefault(code, {})["name"] = name
-            save_sections(sections)
-            download_section(client, code, sections, force=args.force)
+            save_sections(sections, sections_file)
+            download_section(client, code, sections, raw_dir, sections_file, base_url, image_pattern, force=args.force)
 
     finally:
         client.close()

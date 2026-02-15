@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-95",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "",
+  "ocr_text": "H    INSPECTION OF INDICATOR LIGHT CIRCUIT.\n\nTurn ignition switch off.\n\nCOMPUTER\n\nDisconnect computer connector and inspect\nconnector on wire harness side as follows.\n\nINSPECT INDICATOR LIGHT CIRCUIT\nConnect the positive lead from the ohmmeter\nto terminal 2 and negative lead from the ohm-\nmeter to ground.\n* Is there continuity between terminal 2 and\nground?\n\nNo\n\nOpen circuit in indicator light circuit.\n\n*: This circuit includes the LED. If the circuit\nshows no continuity, change the positive and\nnegative probes and recheck the circuit.\n\nYes\n\nReplace computer.\n\n\nI    INSPECTION OF STARTER CUT SYSTEM CIRCUIT.\n\nTurn ignition switch off.\n\nHINT:    If starter does not operate,\neven when system is cancelled, before\nchecking the circuit, use the key turn the\nfront door lock to the unlock position\nand recheck starter operation.\n\nCOMPUTER\n\nDisconnect computer connector and inspect\nconnector on wire harness side as follows.\n\nINSPECT STARTER CUT SYSTEM CIRCUIT\nDepress clutch pedal. (M/T only)\nIs there battery voltage between terminal 13 and\nground with ignition switch turned to ST?\n\nNo\n\nOpen circuit in starter relay circuit.\n\nYes\n\nReplace computer."
+}

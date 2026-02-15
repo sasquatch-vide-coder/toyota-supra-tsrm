@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-42",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)",
+  "title": "",
+  "ocr_text": "FI-42\n\nEFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)\n\nNo. | Terminals | Trouble | Condition | STD Voltage\n7 | STA — E1 | No voltage | Cranking | 6 — 14 V\n\nTo Circuit Opening Relay (STA)\n\nFusible Link\nAM1\nALT 100A\nAM1 40A\nMAIN 2.0L\nFusible Link\nBattery\n\nIgnition Switch\nST1\n(Canada A/T)\n(USA A/T)\nStarter Relay\n(M/T, USA A/T)\n\nNeutral Start Switch (A/T)\nStart Switch (M/T)\n(M/T)\n\nECU\nSTA\nStarter\nE1\n\nTo Theft Deterrent (USA)\nBody Ground (Canada)\n\nFI0311\n\n1. There is no voltage between ECU terminals STA and E1.\n(IG SW START)\n\nCheck starter operation.\nOK → Check wiring between ECU terminal STA and ignition switch terminal ST1.\nBAD → OK → BAD → Repair or replace.\n\n2. Check wiring between ECU terminal E1 and body ground.\nOK → Try another ECU.\nBAD → Repair or replace.\n\nCheck fusible links, battery, wiring, ignition switch and neutral start switch.\nBAD → Repair or replace.\nOK ↓\n\n3. Check that there is voltage at terminal 50 of starter.\n(IG SW START)    STD voltage:  6 — 14 V\nOK → Check starter.\nNO → Check wiring between ignition switch terminal ST1 and starter terminal 50.\n\nFI0236\n\nFI0335\n\nFI0311"
+}

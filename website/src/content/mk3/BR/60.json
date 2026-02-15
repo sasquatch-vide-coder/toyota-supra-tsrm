@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-60",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "BR-60\n\nBRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\n5\nAnti-lock brake system works inefficiently.\n\nDisconnect actuator check connector.\n(See page BR-52)\n\nDoes warning light show the diagnostic normal\ncode? (Ignition switch on)\n\nNO\nSee diagnostic code.\n(See page BR-53)\n\nYES\n\nIs there battery voltage between computer\nterminal STP and body ground when\ndepressing brake pedal?\n\nNO\nOpen circuit in stop light switch and/or\nwire harness.\n\nYES\n\nInspect actuator.\n(See page BR-61)"
+}

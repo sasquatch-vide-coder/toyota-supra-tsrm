@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-94",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF BACK DOOR AND/OR ENGINE HOOD COURTESY SWITCH CIRCUIT",
+  "ocr_text": "G\nINSPECTION OF BACK DOOR AND/OR ENGINE HOOD COURTESY SWITCH CIRCUIT.\n\nTurn ignition switch off.\n\nCOMPUTER\n\nDisconnect computer connector and inspect connector on wire harness side as follows.\n\nINSPECT BACK DOOR COURTESY SWITCH CIRCUIT\nClose engine hood.\n* Is there continuity between terminal 1 and ground with back door opened?\n\nYes\n\nNo\nOpen circuit in back door courtesy switch circuit.\n\nINSPECT ENGINE HOOD COURTESY SWITCH CIRCUIT\nClose back door.\nIs there continuity between terminal 1 and ground with engine hood opened?\n\nYes\n\nNo\nOpen circuit in engine hood courtesy switch circuit.\n\nReplace computer.\n\n*: This circuit includes the diode. If the circuit shows no continuity, change the positive and negative probes and recheck the circuit."
+}

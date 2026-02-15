@@ -1,0 +1,6 @@
+{
+  "page_id": "ECT-6",
+  "section_header": "ECT (Electronic Controlled Transmission)",
+  "title": "",
+  "ocr_text": "ECT\nECT (Electronic Controlled Transmission)\n5\n6\n\nTo Heater Relay, A/C Relay Box & Heater Control Assembly (7-2)\n\nTo A.B.S. Computer (B-2)\n\nY\nY\n(M/T)\nY\n\nW L N R P\nFrom \"ECUIG\" Fuse (3-8)\nECT\nPATTERN\nODM*\nL L 2L N2 NL PL\nSELECT SW\nCOOM*\nFrom \"DOME\" Fuse (6-7)\nFrom Stop Light SW (5-3)\nA/C\nINDICATOR\nLIGHT\nB\nBL\nO\nO\nR-B (A/T)\n2\nO\nO\nO\nWire to\nTest\nConnector\n3\nS\nO\nTo A.B.S. Computer\nWire to DLG2\nWire to DLG1\nTo Computer\n5\n(C-7)\n(C-7)\nM 5 T 6 7 8\n2ND 25 5\nECT(2C)\nINDICATOR\n1ST\n17\n10\n12\nSP2\n13\nL2\nL1 OD1\nDD\nIDL\nSP1 GND OD2\nGROUND\n(M/T)\n25\nP\n21 4\n21 4\n3\nP-G\nCLUTCH\nWire to\nTHROTTLE\nDLG1\nPOSITION\nConnector\nSENSOR\n(M/T)\n2ND BRAKE SWITCH\n1ST BRAKE SWITCH\nNo.1 SOLENOID\nNo.2 SOLENOID\nPATTERN SELECTOR SW (A/T)\nECT SOLENOID\nFrom EFI CONNECTOR (6-8)\nThrottle Position Sensor (6-8)\nTo Computer (6-2)\nFrom ETC/CRUISE (B-8)\nTo R-B (6-2)\nFrom To Starter Relay (5-2)\nTo Computer (6-2)"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-70",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "",
+  "ocr_text": "AB-70\n\nSRS AIRBAG — Troubleshooting\n\nHINT: If diagnostic code 22 is output, perform the following troubleshooting:\n\n1\nIs diagnostic code 22 output again.\n\nACC    ON\nor\n\nE1\n         Tc\n\nCode 22\n\nSST 09843-18020\n\nD\nClear malfunction code 41 stored in memory (See page AB-31).\n\nC\n(1) Turn ignition switch LOCK, and wait at least 2 seconds.\n(2) Turn ignition switch ACC or ON, and wait at least 20 seconds.\n(3) Using SST, connect terminals Tc and E1 of check connector.\nSST 09843-18020\n(4) Check diagnostic code.\n\nYES\n\nNO\nUsing simulation method, reproduce malfunction symptoms (See page AB-32).\n\nReplace center airbag sensor assembly."
+}

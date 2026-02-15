@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-10",
+  "section_header": "AIR CONDITIONING SYSTEM — General Description",
+  "title": "",
+  "ocr_text": "1. PRINCIPLE OF A/C ELECTRICAL CIRCUIT\n\n[Diagram showing electrical circuit with components: Ignition Switch (ACC), Circuit Breaker, HTR Fuse, Fuse, Battery, Heater Motor, Blower Motor, Blower Switch, A/C Fuse, A/C Switch, Dual Pressure Switch, A/C Amplifier, Magnetic Clutch Relay, Magnetic Clutch, Thermistor, TEMP]\n\n2. HOW IS THE MAGNETIC CLUTCH ENERGIZED?\n\nThe general process until the magnetic clutch is energized is shown below.\n\n① Ignition Switch \"ON\"\n|\n② Blower Switch \"ON\" ——→ Heater Relay \"ON\" (Blower Motor \"RUN\")\n|\n③ A/C Switch \"ON\" ——→ A/C Amplifier \"ON\" (A/C Amp. Main Power Supply)\n|\n④ Dual Pressure Switch \"ON\":\nRefrigerant Condition (2.1 kg/cm² (30 psi, 206 kPa) less than 27 kg/cm² (384 psi, 2,648 kPa))\n|\n⑤ Thermistor supplies temperature signal of evaporator to A/C amplifier.\n|\n⑥ VSV \"ON\" ——→ E/G Idle-up\n|\n⑦ Magnetic Clutch Relay \"ON\"\n|\n⑧ Temperature Sensor \"ON\":\nTemperature of Temperature Sensor is less than 180°C (356°F).\n|\n⑨ Magnetic Clutch \"ON\"\n|\n⑩ Revolution Detecting Sensor supplies RPM signal of compressor to A/C amplifier.\n\nIf compressor is not locked, magnetic clutch is continuously energized."
+}

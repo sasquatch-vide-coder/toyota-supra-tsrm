@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-93",
+  "section_header": "STEERING — Power Steering (Progressive Power Steering)",
+  "title": "",
+  "ocr_text": "STEERING — Power Steering (Progressive Power Steering)                    SR-93\n\nYes      CONTINUED FROM PREVIOUS PAGE\n\n[Diagram showing solenoid connections SOL⊕ and SOL⊖ with measuring device]\n\nCheck 5.\nMeasure the resistance between terminals SOL ⊕ and SOL ⊖.\nStandard resistance:    6.0 ~ 11.0 Ω\n\nSR0058\n\nYes                                                  No\n\n                                                      • Open circuit in wire harness between the terminals\n                                                        SOL ⊕ and SOL ⊖.\n                                                      • Solenoid valve faulty.\n\nCheck 6.\nInspect ECU.        Bad → Replace ECU."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-30",
+  "section_header": "AIR CONDITIONING SYSTEM — Condenser Fan Motors, Heater Blower Resistor, Relays",
+  "title": "",
+  "ocr_text": "AC-30  AIR CONDITIONING SYSTEM — Condenser Fan Motors, Heater Blower Resistor, Relays\n\nCONDENSER FAN MOTORS\n\nINSPECTION OF CONDENSER FAN MOTORS\n\n1. DISCONNECT NEGATIVE CABLE FROM BATTERY\n\n2. DISCONNECT CONNECTOR OF FAN MOTOR\n\n3. CHECK FAN MOTOR\n(a) Using the wire harness, apply battery voltage (12V) to the connector.\n(b) Check the smooth rotation of the motor within the specified current flow.\n\nStandard current:\nFan motor No.1 and No.2\n                    6.7 ± 0.7 A  (7M-GTE E/G and M/T model)\n                    6.7 ± 0.7 A  (7M-GTE E/G and A/T model or\n                                  7M-GE E/G model)\n\nFan motor No.3\n                    6.7 ± 0.7 A  (7M-GTE E/G and A/T model only)\n\nIf defective, replace the motor.\n\n4. CONNECT CONNECTOR OF FAN MOTOR\n\n5. CONNECT NEGATIVE CABLE TO BATTERY\n\nHEATER BLOWER RESISTOR\n\nINSPECTION OF RESISTOR\n\nINSPECT RESISTOR RESISTANCE\nCheck that there is continuity between terminals 4 and 6.\nIf there is no continuity, replace the resistor.\n\nRELAYS\n\nINSPECTION OF RELAYS\n\n1. REMOVE RELAYS"
+}

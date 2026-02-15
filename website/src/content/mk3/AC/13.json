@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-13",
+  "section_header": "AIR CONDITIONING SYSTEM — General Description",
+  "title": "",
+  "ocr_text": "(2) Air Vent Mode Control System & RECIRC./FRESH Control System\n\nOutside Air\nRECIRC./FRESH Control Damper\nInside Air\nInside Air\nAir Mix Control Damper\nHeater Core\nDefroster\nSide Defroster\nBlower Motor\nDef. Damper\nCool Air By-Pass Control Damper\nCool Air By-Pass Duct\nAir Flow Control Damper\nHeat Damper\nHeater\nRear Heater\nSide Ventilator\nCenter Ventilator\nSide Ventilator\nLower Ventilator\nAC1378\n\n(a) Air Vent Mode Control System\n\nAir flow changes as follows.\n① Air mix control servo motor shaft moves.\n② Program switch is changed.\n(Signal is transmitted to relay box)\n③ Relay box rotates a motor in air vent mode control servo motor.\n④ Servo motor links move.\n⑤ Each damper moves.\n⑥ As aforeide, the air flows as shown left illustration.\n\nVENT\nBI-LEVEL\nHEAT\nDEF\n☆ Cool Air\n➤ Warm Air\n\nLink\n\nAC1349"
+}

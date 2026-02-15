@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-54",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "FI-54\n\nEFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)\n\n● +B (+B1) — E1\n\n[Diagram 1 showing ECU and Voltmeter connection]\nECU\nVoltmeter\nE1\n+B1\nB\nFI2911\n\n[Diagram 2 showing ECU and Voltmeter connection]\nECU\nVoltmeter\nE1\n+B1\nB\nFI2757\n\n① There is no voltage between ECU terminals +B (+B1) and E1.\n(IG SW ON)\n\n② Check that there is voltage between ECU terminal +B (+B1) and\nbody ground. (IG SW ON)\n\nNO\n\nOK\nCheck wiring between ECU terminal E1 and body\nground.\n\nOK\nBAD\nTry another ECU.\nRepair or replace.\n\nBAD\nCheck fuse, fusible links and wiring\nharness.\nRepair or replace.\n\nOK\nCheck EFI main relay.\n(See page FI-109)\nBAD\nReplace.\n\nOK\nRefer to M-REL — E1 trouble\nsection."
+}

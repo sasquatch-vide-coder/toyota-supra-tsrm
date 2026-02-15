@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-57",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "2\t\"ANTILOCK\" warning light does not come on for 3 seconds after ignition switch on.\n\nDisconnect connector from actuator, and\nground the terminal W of the wire harness side\nconnector.\n(Ignition switch on)\n\nDoes warning light come on?\n\nNO\tBulb burned out or open circuit in wire\n\tharness between warning light and\n\tactuator terminal W.\n\nYES\n\nDisconnect connectors from computer and\nactuator, and ground terminal W of computer\nwire harness side connector.\n(Ignition switch on)\n\nDoes warning light come on?\n\nNO\tOpen circuit in wire harness between\n\tcomputer terminal W and warning\n\tlight.\n\nYES\n\nWith ignition switch off, disconnect actuator\nconnector, and check continuity between\nterminal W and AST on actuator side.\n\nReverse tester leads and check again.\nIs there one way continuity between terminals?\n\nNO\tShort circuit in actuator inside diode.\n\nYES\tHINT: If the diode is short-circuited, a\n\tmalfunction at computer terminal W will\n\toccur.\n\tWhen inspecting the terminal, connect the\n\tW wire to connector and disconnect actuator\n\tconnector. Then turn the ignition switch on,\n\tand check that the warning light goes on.\n\tIf it does, the computer terminal is OK.\n\nFaulty computer."
+}

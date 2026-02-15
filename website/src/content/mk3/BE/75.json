@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-75",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Inspection of clutch switch circuit.",
+  "ocr_text": "I\tInspection of clutch switch circuit.\n\nTurn ignition switch off.\n\nCLUTCH SWITCH\n\nINSPECT GROUND CONNECTION\nDisconnect connector from clutch switch.\nIs there continuity between terminal 2 of wire\nharness side connector and body ground?\n\nNo\n• Open circuit in wire harness between\n  terminal 2 and body ground.\n• Body ground faulty.\n\nYes\n\nINSPECT CLUTCH SWITCH OPERATION\nIs clutch switch operation normal?\n(See page BE-82)\n\nNo\n\nReplace clutch switch.\n\nYes\n\nConnect connector to clutch switch.\n\nCOMPUTER\n\nDisconnect connector from computer and\ninspect connector on wire harness side as\nfollows:\n\nINSPECT CLUTCH SWITCH CIRCUIT\nIs there continuity between terminal 11 and\nbody ground with clutch pedal depressed?\n\nNo\n\nOpen circuit in wire harness between\nterminal 11 of computer and terminal 1\nof clutch switch.\n\nYes\n\nIs there continuity between terminal 11 and\nbody ground with clutch pedal released?\n\nYes\n\nShort circuit in wire harness between\nterminal 11 of computer and terminal 1\nof clutch switch.\n\nNo\n\nReplace computer."
+}

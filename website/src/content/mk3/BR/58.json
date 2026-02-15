@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-58",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "BR-58\n\nBRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\n3\n\"ANTILOCK\" warning light comes on and off.\n\n• Actuator check connector is disconnected.\n• Open circuit in wire harness between computer terminal T and actuator terminal T.\n• Actuator terminal GND is improperly connected or open circuit in wire harness between actuator terminal GND and body ground.\n\n4\n• Brakes pull.\n• Braking inefficient.\n• A.B.S. operates at ordinary braking.\n• A.B.S. operates just before stopping at ordinary braking.\n• Brake pedal pulsates abnormally while A.B.S. working.\n\nDisconnect actuator check connector.\n(See page BR-52)\n\nDoes warning light show the diagnostic normal code? (Ignition switch on)\n\nNO → See diagnostic code. (See page BR-53)\n\nYES ↓\n\nAre each speed sensors installed in place? And are each installation bolts tightened securely?\n\nNO → Speed sensor installation faulty.\n\nYES ↓\n\nDisconnect connector from computer, inspect continuity between each speed sensor terminals on wire harness side. (See page BR-71)\n\n↓ Continued on page BR-59"
+}

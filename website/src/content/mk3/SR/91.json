@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-91",
+  "section_header": "STEERING — Power Steering (Progressive Power Steering)",
+  "title": "TROUBLESHOOTING",
+  "ocr_text": "TROUBLESHOOTING\n\nTrouble\n• Hard steering at idle or low-speed driving.\n• Steering too sensitive during high-speed driving.\n\nPreliminary Check\n• Check tire pressure.\n• Check lubrication of suspension and steering linkage.\n• Check front wheel alignment.\n• Check steering system joint and suspension arm ball joint.\n• Check for bent steering column.\n• Check that all connectors are secure.\n• Check PS pump fluid pressure. (See page SR-43)\n\nTurn ignition switch on.\n\nIs ECU1G fuse normal?\n\nYes\n\nNo\n\nReplace fuse.\nIs operation normal?\n\nYes\n\nFuse faulty.\n\nNo\n\nShort circuit in wire harness between fuse and ECU terminal +B.\n\nDisconnect the ECU connector.\n\nCheck 1.\nCheck that there is the battery voltage between the ECU terminal +B and body ground.\n\nYes\n\nNo\n\nOpen circuit in wire harness between the fuse and ECU terminal +B.\n\nCONTINUED ON NEXT PAGE"
+}

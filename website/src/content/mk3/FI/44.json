@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-44",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)",
+  "title": "",
+  "ocr_text": "FI-44\n\nEFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)\n\nNo.\nTerminals\nTrouble\nCondition\nSTD Voltage\n9\nISC1~ISC4—E1\nNo voltage\nIgnition switch ON\n9—14 V\n\nEFI Main Relay\nECU\nFuse\nEFI 15A\nISC1\nISC2\nISC3\nISC4\nFusible\nLink\nAM2 30A\nFusible\nLink\nMAIN 2.0L\n+B\n+B1\nM.REL\nBattery\nE1\n\nFI4653\n\nISC1\nISC2\nISC3\nISC4\nECU\nVoltmeter\nV\n\nFI4859\n\nECU\n+B\n+B1\nVoltmeter\nV\n\nFI0312\n\nS2\nS1\nB2\nB1\nBattery\n\nFI1643\n\n1\nThere is no voltage between ECU terminals ISC1 ~ ISC4 and\nE1. (IG SW ON)\n\n2\nCheck that there is voltage between ECU terminal +B (+B1)\nand body ground. (IG SW ON)\n\nOK\nNO\nRefer to No. 1.\n(See page FI-36)\n\nCheck wiring between ECU terminal E1 and body ground.\n\nOK\nBAD\n\n3\nCheck ISC valve.\n(See page FI-106)\n\nRepair or replace.\n\nBAD\nOK\n\nReplace ISC\nCheck wiring between ECU and EFI\nvalve.\nmain relay.\n\nOK\nBAD\n\nTry another ECU.\nRepair or replace."
+}

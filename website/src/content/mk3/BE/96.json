@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-96",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "",
+  "ocr_text": "BE-96\n\nBODY ELECTRICAL SYSTEM — Theft Deterrent System\n\nJ\nINSPECTION OF THEFT DETERRENT HORN AND LIGHT RETRACTOR CONTROL RELAY CIRCUIT.\n\nTurn ignition switch off.\n\nCOMPUTER\n\nDisconnect computer connector and check that stop the theft deterrent horn blows and/or headlight and taillight flash.\n\nNo → Short circuit in light retractor control relay or theft deterrent horn circuit.\n\n↓ Yes\n\nReplace computer.\n\nK\nINSPECTION OF LIGHT RETRACTOR CONTROL RELAY CIRCUIT.\n\nTurn ignition switch off.\n\nCOMPUTER\n\nDisconnect computer connector and inspect connector on wire harness side as follows.\n\nINSPECT LIGHT RETRACTOR CONTROL RELAY CIRCUIT\nRemove the HAZ-HORN fuse.\nGround the terminal B and check that flash the headlights and taillights.\n\nNo → • Open circuit in light retractor control relay circuit.\n• Check the light retractor control relay.\n\n↓ Yes\n\nReplace computer."
+}

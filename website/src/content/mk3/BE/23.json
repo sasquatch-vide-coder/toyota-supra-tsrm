@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-23",
+  "section_header": "BODY ELECTRICAL SYSTEM — Lighting System",
+  "title": "Light Retractor Control System",
+  "ocr_text": "Light Retractor Control System\n\n1. INSPECT LIGHT RETRACTOR CONTROL RELAY\n(Relay Operation)\n(a) Turn the light control switch off.\n(b) With connector connected, ground the terminal 14.\n(c) Check that the headlights rise with the light lit.\n\n(d) Quickly ground terminal 3. The light will go out, but the headlight should remain up.\n\n(e) When terminal 3 is taken off ground, the headlights should flip down.\nIf operation is not as specified, replace the relay.\n\n(Relay Circuit)\nDisconnect the relay and inspect the connector on the wire harness side as shown in the chart below.\nHINT: This circuit includes the diode, if the circuit shows no continuity change the positive and negative probes and recheck the circuit.\n\nWire Harness Side\n\nCheck For | Tester Connection | Condition | Specified Value\nVoltage | 8 - Ground | — | Battery voltage\nContinuity | 18 - Ground | — | Continuity\n | 4 - Ground | Ignition switch position | LOCK or ACC | No voltage\n | | | ON | Battery voltage\nVoltage | 2 - Ground | — | Battery voltage\n | 10 - Ground | — | Battery voltage\n | 15 - Ground | Door position | Closed (Courtesy switch OFF) | Battery voltage\n | | | Opened (Courtesy switch ON) | No voltage"
+}

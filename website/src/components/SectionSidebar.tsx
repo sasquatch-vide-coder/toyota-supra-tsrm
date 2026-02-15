@@ -7,21 +7,23 @@ import { SectionInfo } from "@/types";
 
 export default function SectionSidebar({
   sections,
+  model,
 }: {
   sections: SectionInfo[];
+  model: string;
 }) {
   const pathname = usePathname();
-  const currentSection = pathname.split("/")[1];
+  const currentSection = pathname.split("/")[2];
   const [expanded, setExpanded] = useState<string | null>(currentSection || null);
 
   return (
     <nav className="w-64 bg-gray-900 text-gray-300 h-screen overflow-y-auto fixed left-0 top-0 flex flex-col">
       <Link
-        href="/"
+        href={`/${model}`}
         className="block px-4 py-3 text-white font-bold text-lg border-b border-gray-700 hover:bg-gray-800"
       >
         <span className="text-red-500">TSRM</span>{" "}
-        <span className="text-sm font-normal text-gray-400">MK3 Supra</span>
+        <span className="text-sm font-normal text-gray-400">{model.toUpperCase()} Supra</span>
       </Link>
 
       <div className="flex-1 overflow-y-auto py-2">
@@ -66,11 +68,11 @@ export default function SectionSidebar({
                 <div className="bg-gray-950 py-1">
                   {section.page_index.map((p) => {
                     const pageActive =
-                      pathname === `/${section.code}/${p.page}`;
+                      pathname === `/${model}/${section.code}/${p.page}`;
                     return (
                       <Link
                         key={p.page}
-                        href={`/${section.code}/${p.page}`}
+                        href={`/${model}/${section.code}/${p.page}`}
                         className={`block px-8 py-1 text-xs hover:bg-gray-800 transition-colors ${
                           pageActive
                             ? "text-red-400 bg-gray-800"

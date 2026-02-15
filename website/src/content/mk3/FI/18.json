@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-18",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "SYMPTOM — HIGH ENGINE IDLE SPEED (NO DROP)",
+  "ocr_text": "SYMPTOM — HIGH ENGINE IDLE SPEED (NO DROP)\n\nCHECK ACCELERATOR LINKAGE\nBAD\nLinkage — Stuck\nOK\n\nCHECK DIAGNOSIS SYSTEM\nCheck for output of diagnostic code.\n(See page FI-23)\nMalfunction\ncode(s)\nDiagnostic code(s) (See page FI-26)\nNormal code\n\nCHECK ISC SYSTEM\nBAD\n1. Wiring connection\nAir con. Throttle position sensor—ECU)\n2. ISC valve\n3. Air conditioner switch\nOK\n\nCHECK THROTTLE POSITION SENSOR\nBAD\nThrottle body\nOK\n\nCHECK FUEL PRESSURE\n(See page FI-71)\nBAD\nFuel pressure regulator — High pressure\nOK\n\nCHECK COLD START INJECTOR\n(See page FI-77)\nBAD\nCold start injector — Leakage\nOK\n\nCHECK INJECTORS (See page FI-83)\nBAD\nInjectors — Leakage, Injection quality\nOK\n\nCHECK EFI ELECTRONIC CIRCUIT\nUSING VOLT/OHMMETER\n(See pages FI-30, 49)\nBAD\n1. Wiring connection\n2. Power to ECU\n(1) Fusible links\n(2) Fuses (EFI 15A, IGN 7.5A)\n(3) EFI main relay\n3. Air flow meter\n4. Water temp. sensor\n5. Air temp. sensor\n6. Injection signal circuit\n(1) Fusible links\n(2) Resistor (7M-GTE)\n(3) ECU"
+}

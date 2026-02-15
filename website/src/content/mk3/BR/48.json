@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-48",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "SYSTEM DIAGRAM",
+  "ocr_text": "BR-48\nBRAKE SYSTEM — Anti-lock Brake System (A.B.S.)\n\nSYSTEM DIAGRAM\n\n[Diagram labels, reading from top to bottom, left to right:]\n\n3-Position\nSolenoid\n\nR (Right wheel)\nRear Brake Cylinder\n\nL (Left wheel)\n\nMaster Cylinder\n\nP & BV\n\nP Reservoir\n\nR (Right wheel)\n3-Position\nSolenoid\n\nFront Brake Cylinder\n\nF (Left wheel)\n\n3-Position\nSolenoid\n\nSpeed\nSensors\n\nAnti-lock\nBrake\nSystem\nComputer\n\nBR1142"
+}

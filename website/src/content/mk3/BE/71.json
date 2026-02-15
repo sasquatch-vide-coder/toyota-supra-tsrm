@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-71",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Inspection of speed sensor circuit.",
+  "ocr_text": "E    Inspection of speed sensor circuit.\n\nSPEEDOMETER CABLE\n\nINSPECT SPEEDOMETER CABLE\nDoes the meter fluctuate when driving at a\nsteady speed?\n\nYes → Meter cable faulty.\n\nNo ↓\n\nTurn ignition switch off.\n\nSPEED SENSOR\n\nINSPECT GROUND CONNECTION\nDisconnect connector from meter (speed\nsensor).\nIs there continuity between terminal 5 of wire\nharness side connector and body ground?\n\nNo → Open circuit in wire harness between\nterminal 5 and body ground.\n\nYes ↓\n\nINSPECT SPEED SENSOR OPERATION\nIs speed sensor operation normal?\n(See page BE-84)\n\nNo → Speed sensor faulty.\n\nYes ↓\n\nCOMPUTER\n\nINSPECT SPEED SENSOR CIRCUIT\nDisconnect connector from computer.\nIs there continuity between terminal 6 of wire\nharness side connector and terminal 7 of\ncomputer.\n\nNo → Open circuit in wire harness between\nterminal 6 of speed sensor and terminal\n7 of computer.\n\nYes ↓\n\nReplace computer."
+}

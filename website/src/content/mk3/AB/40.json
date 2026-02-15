@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-40",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "",
+  "ocr_text": "AB-40\n\n4 Check squib circuit.\n\nCenter Airbag\nSensor Assembly\n\nSpiral\nCable\n\nSteering Wheel\nPad (Squib)\n\nD+\nD-\n\nAB0272\nAB0414\n\nC Measure resistance between D+, D- on spiral cable side of connector between spiral cable and steering wheel pad and body ground.\n\nON Resistance: ∞ Ω\n\nOK\n\nNG Go to step 8\n\n5 Check center airbag sensor assembly.\n\nCenter Airbag\nSensor Assembly\n\nSpiral\nCable\n\nSteering Wheel\nPad (Squib)\n\nACC\nON\n\nor\n\nD-\nD+\n\nE1\nTc\n\nCode 11\n\nAB0274\nAB0409\nAB0118 AB0410\nAB0120 AB0411\n\nPr (1) Connect connector to center airbag sensor assembly.\n(2) Using a service wire, connect D+ and D- on spiral cable side of connector between spiral cable and steering wheel pad.\n(3) Connect negative (-) terminal cable to battery, and wait at least 20 seconds.\n\nC (1) Turn ignition switch ACC or ON and wait at least 20 seconds.\n(2) Using SST, connect terminals Tc and E1 of check connector.\nSST 09843-18020\n(3) Check diagnostic code.\n\nON Diagnostic code 11 is not output.\n\nHint Codes other than code 11 may be output at this time, but this is not relevant to this check.\n\nOK\n\nNG Replace center airbag sensor assembly."
+}

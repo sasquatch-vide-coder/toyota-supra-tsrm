@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-13",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "",
+  "ocr_text": "OK CONTINUED FROM PAGE FI-12\n\nCHECK FUEL SUPPLY TO INJECTOR\n1. Fuel in tank\n2. Fuel pressure in fuel line\n(1) Connect terminals Fp and +B of the check connector.\n(2) You can feel fuel pressure in fuel return hose.\n3. Check circuit opening relay\n(See page FI-110)\n\nBAD\n1. Fuel line — leakage — deformation\n2. Fuse\n3. Fuel pump (See page FI-70)\n4. Fuel filter\n5. Fuel pressure regulator (See page FI-81)\n6. Circuit opening relay (See page FI-110)\n\nOK\n\nCHECK FUEL PUMP SWITCH IN AIR FLOW METER (7M-GE)\nCheck continuity between terminals FC and E1 with measuring plate of air flow meter open.\n\nBAD\nAir flow meter (See page FI-94)\n\nOK\n\nCHECK IGNITION TIMING\n1. Connect terminals TE1 and E1 of the check connector.\n2. Check ignition timing.\nSTD: 10° BTDC @ idle\n[w/ connect terminals TE1 and E1]\n\nNO\nAdjust ignition timing (See page IG-20)\n\nOK\n\nCHECK EFI ELECTRONIC CIRCUIT USING VOLT/OHMMETER\n(See pages FI-30, 49)\n\nNO\n1. Wiring connection\n2. Power to ECU\n(1) Fusible links\n(2) Fuses\n(3) EFI main relay\n3. Sensor signal\n4. Water temp. sensor\n5. Air temp. sensor\n6. Injection signal circuit\n(1) Injector wiring\n(2) Resistor (7M-GTE)\n(3) ECU"
+}

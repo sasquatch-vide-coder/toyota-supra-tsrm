@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-91",
+  "section_header": "EFI SYSTEM — Fuel System",
+  "title": "",
+  "ocr_text": "EFI SYSTEM — Fuel System\n\nFI-91\n\n(b) Connect No.1 water by-pass hose to the ISC valve.\n\n9. (7M-GTE)\nINSTALL THROTTLE BODY\n(See step 1 on page FI-104)\n\n10. INSTALL AIR INTAKE CONNECTOR\n(7M-GE)\n(a) Install a new gasket and air intake connector with the four bolts and two nuts.\nTorque: 180 kg·cm (13 ft·lb, 18 N·m)\n\n(b) Install the air intake connector and throttle body bracket.\n(c) Connect the air cleaner hose to the throttle body.\n(7M-GTE)\n(See steps 15 to 19 on pages EM-14, 15)\n\n11. CONNECT ACCELERATOR CONNECTING ROD\n\n12. CONNECT FOLLOWING CONNECTORS:\n• Throttle position sensor connector\n• ISC valve connector\n• (7M-GE)\nCold start injector connector\n\n13. CONNECT FOLLOWING HOSES:\n• Water hoses from throttle body (7M-GE) or water by-pass pipe (7M-GTE)\n• Vacuum hoses from throttle body\n• ISC valve hoses from throttle body\n• Vacuum hose from pressure regulator\n\n14. REFILL COOLANT (See page CO-5)\n\n15. CONNECT CABLE TO NEGATIVE TERMINAL OF BATTERY\n\n16. CHECK FOR FUEL LEAKAGE"
+}

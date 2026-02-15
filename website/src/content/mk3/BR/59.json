@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-59",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "Continued from BR-58\n\nDoes any abnormal change occur in continuity when the connectors or wire harness of the speed sensor and intermediate connectors are twisted or bent?\n\nYES (Abnormal change) → Faulty wire harness.\n\nNO (No change)\n↓\n\nIs there foreign material or ferric chips on the sensor tip?\n\nYES → Clean chips from the speed sensor.\n\nNO\n↓\n\nInspect the front axle hub serrations and sensor rotor serrations.\n(See pages BR-67 and 70)\n↓\n\nAre the front axle hub serrations and sensor rotor serrations OK?\n\nNO → Faulty front axle hub and/or sensor rotor.\n\nYES\n↓\n\nInspect the brake actuator operation.\n(See page BR-61)\n↓\n\nIs actuator operation OK?\n\nNO → Faulty brake actuator.\n\nYES\n↓\n\nReplace the speed sensor.\n(Inner magnet faulty)"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-22",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "",
+  "ocr_text": "CONTINUED FROM PAGE FI-21\n\nOK\n\nCHECK SPARK PLUGS\nPlug gap: 7M-GE 1.1 mm (0.043 in.)\n         7M-GTE 0.8 mm (0.031 in.)\n\n— HINT —\nCheck compression pressure and valve\nclearance if necessary.\n\nNO\n\n1. Spark plugs\n2. Compression pressure\n   Minimum: 1.0 kg/cm²\n            (98 psi, 883 kPa)\n   at 250 rpm\n3. Valve clearance\n   Standard: IN  0.15 — 0.25 mm\n                 (0.006 — 0.010 in.)\n             EX  0.20 — 0.30 mm\n                 (0.008 — 0.012 in.)\n\nOK\n\nCHECK EFI ELECTRONIC CIRCUT\nUSING VOLT/OHMMETER\n(See pages FI-30, 49)\n\nBAD\n\n1. Wiring connection\n2. Power to ECU\n   (1) Fusible links\n   (2) Fuses\n   (3) EFI main relay\n3. Ground circuit\n4. Water temp. sensor\n5. Air temp. sensor\n6. Throttle position sensor\n7. Injection signal circuit\n   (1) Injector wiring\n   (2) Resistor (7M-GTE)\n   (3) ECU"
+}

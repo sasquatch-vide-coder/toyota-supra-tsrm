@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-65",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)     FI-65\n\nNo.    Terminals    Trouble    Condition    STD Voltage\n10    ISC1 - ISC4 - E1    No voltage    Ignition switch ON    9 - 14 V\n\nEFI Main Relay    ISC Valve    ECU\n\nFuse\nEFI 15A\n\nAM2 2.0A\n\nFusible\nLink\n\nMAIN 2.0L\n\nBattery\n\nISC1\nISC2\nISC3\nISC4\n\nJ8\nJ81\nM-REL\n\nE1\n\nFI2659\n\nISC1 ISC2 ISC3 ISC4    ①\nECU\n\nVoltmeter\n\nFI1609\n\n②\n\nVoltmeter\n\nJ81\nE1\n\nFI2757\n\n③\n\nJ8/B2  S2\nS1\nS3\n\nJ81\nBattery\n\nFI1643\n\n① There is no voltage between ECU terminals ISC1 ~ ISC4 and E1.\n(IG SW ON)\n\n② Check that there is voltage between ECU terminal J8 (J81) and\nbody ground. (IG SW ON)\n\nOK    NO\n\nRefer to No. 1.\n(See page FI-54)\n\nCheck wiring between ECU terminal E1 and body ground.\n\nOK    BAD\n\nRepair or replace.\n\n③ Check ISV valve.\n(See page FI-106)\n\nBAD    OK\n\nReplace ISC\nvalve.\n\nCheck wiring between ECU and EFI\nmain relay.\n\nOK    BAD\n\nTry another ECU.    Repair or replace."
+}

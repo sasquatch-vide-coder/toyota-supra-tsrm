@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-63",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "",
+  "ocr_text": "BODY ELECTRICAL SYSTEM — Cruise Control System\t\t\tBE-63\n\nIndication Code\t\t\t\t\tDiagnosis\n\n\tON\t0.25S\t\t0.25S\nOFF\t\t\t\t\t\t\tNormal.\n\n11\tON\t\t0.5S\nOFF\t\t1.5S\t\t4S\t\t\tActuator circuit is abnormal.\n\n21\tON\t\t0.5S\nOFF\t\t1.5S\t\t\t\t\tSpeed sensor signal circuit is abnormal.\n\n23\tON\nOFF\t\t\t\t\t\t\t*Vehicle speed decreases to 16 km/h (10 mph) or more\n\t\t\t\t\t\t\t\tbelow set speed.\n\n31\tON\nOFF\t\t\t\t\t\t\tResume/accel switch circuit is abnormal\n\n*: If the set speed can be maintained when the speed control switch is again set at SET/COAST,\nthere is no malfunction.\n\nHINT:\n• Indication codes appear in order from No.11.\n• Indication is stopped when vehicle speed is over 16 km/h\n(10 mph) or main switch is turned off.\n• If there is no indication code, perform diagnosis and in-\nspection. (See page BE-64)"
+}

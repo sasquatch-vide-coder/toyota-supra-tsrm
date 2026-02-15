@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-33",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M GE)",
+  "title": "",
+  "ocr_text": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M GE)     FI-33\n\nNo. | Terminals | Trouble | Condition | STD Voltage\n1 | BATT - E1 | No voltage | — | 10 - 14 V\n  | IG SW - E1 | No voltage | Ignition switch ON | 10 - 14 V\n  | M REL - E1 | No voltage | Ignition switch ON | 10 - 14 V\n  | +B (+B1) - E1 | No voltage | — | 10 - 14 V\n\n[DIAGRAM showing circuit with Battery, Fusible Links (AM2 30A, MAIN 2.0L), Fuse (EFI 15A), Ignition Switch (AM2, IG2), EFI Main Relay, and ECU with terminals BATT, +B1, +B, M REL, IG SW, E1]\n\n• BATT - E1\n\n① There is no voltage between ECU terminals BATT and E1.\n\n② Check that there is voltage between ECU terminal BATT and body ground.\n\nNO | OK\n\n③ Check wiring between ECU terminal E1 and body ground.\n\nOK | BAD\n\nTry another ECU. | Repair or replace.\n\nCheck fuse and fusible links. | BAD | Replace.\n\nOK\n\nCheck wiring between ECU terminal and battery. | BAD | Repair or replace.\n\n[DIAGRAM 1: Voltmeter connected between ECU BATT terminal and E1]\nFI0309\n\n[DIAGRAM 2: Voltmeter connected between ECU BATT terminal and body ground]\nFI0310\n\n[DIAGRAM 3: Ohmmeter connected between ECU E1 terminal and body ground]\nFI0311"
+}

@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "thread_id": "1136590",
+    "title": "VAFM problems",
+    "url": "https://www.supraforums.com/threads/vafm-problems.1136590/",
+    "author": "Bjenkins1",
+    "date_posted": "2026-01-01T23:09:52-0500",
+    "reply_count": 26,
+    "view_count": 205,
+    "is_sticky": false
+  },
+  "posts": [
+    {
+      "author": "Bjenkins1",
+      "date": "2026-02-15T14:26:21-0500",
+      "content": "I made a few posts about an erratic idle issue and i figured i would just start a whole thread on this\n\n\n\n\n\n\n\noriginally when i would start the car, it runs great, the issue is once its warmed up the idle acts erratic, it stays within the normal RPMs 650-700rpm, but will fluctuate and the car acts like it wants to die out, it does stay running tho\n\n\n\n\n\n\n\nwhat I discovered today was, unplugging the VAFM connector makes the car run better, and like it should, if you give it gas, no fuel pump signal anymore so car dies, when i pulled the top off, it was way to clean in there for it to show that a failure was caused by dirt\n\n\n\n\n\n\n\ni also know if you unscrew the 2 screws on the connector part, you pull the traces off and then it wont even fire at all (learned my lesson years ago on this)\n\n\n\n\n\n\n\ni have to pass smog tomorrow, this idiot box is the reason why the car runs like shit, what can i do to fix this, and could the connector actually be the problem?",
+      "post_number": 1
+    },
+    {
+      "author": "BonestockNA",
+      "date": "2026-01-02T14:26:52-0500",
+      "content": "Do you have any codes stored?\n\n\n\n\n\n\n\nIf not, I would start looking for air/vacuum leaks.  Even a small one could cause this behavior.  Don't forget to check the vacuum lines for the power steering idle up and make sure the connection to the clean air intake is not leaking.",
+      "post_number": 2
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-02T21:21:31-0500",
+      "content": "Got a code while driving it today, thought it would be related to the AFM, but it was code 71, EGR crap\n\n\n\n\n\n\n\ni cleaned the inlet and replaced all 3 egr gaskets during the HG job  but i guess thats not enough, when i blew into the vacuum line, the engine is supposed to die, but it didnt so stuck closed egr valve\n\n\n\n\n\n\n\nupdate: im a total dumbass, you dont blow air into it, you suck,engine stumbled so valve is working\n\n\n\n\n\n\n\nTo bad i cant drive it because of a bad coolant leak so after i fix that, i will report back on whether or not this worked",
+      "post_number": 3
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-07T17:55:52-0500",
+      "content": "Update: i still have not figured this issue out, basically the idle surges or hunts, the engine only acts like this the more i warm it up or when settling back down from giving it throttle, its almost like its a bad TPS but not only was the tps replaced 3 years ago but i would expect the idle surge to be much more dramatic than 100rpm surge\n\n\n\n\n\n\n\nIdle fluctuates between 700-900rpm, sometimes after giving it throttle it will drop lower like it’s going to die then comes back up to the fluctuation, i will check the TPS because i did buy it from o reillys and third party parts in my experience always tend to be hit or miss\n\n\n\n\n\n\n\nI tested the AFM off the car and got the right resistance doing the test per the TSRM, but if i unplug the connector, idle goes up to 1100rpm, no surge, no rough running, the minute the connector even barely touches the pins, it either dies or goes back to running rough again\n\n\n\n\n\n\n\ni will also mention my idle is quite high when starting it up cold, the engine idles around 1800rpm then slowly go down",
+      "post_number": 4
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-08T14:02:05-0500",
+      "content": "Not sure where to go from here on this issue",
+      "post_number": 5
+    },
+    {
+      "author": "BonestockNA",
+      "date": "2026-01-11T10:01:51-0500",
+      "content": "That's a surge and it could be caused by quite a few things.  Bad fuel injector(s), poor combustion in one or more cylinders, idle speed control (IAC motor hunting), air leak somewhere or something putting intermittent load on the engine like an accessory drive or trans/torque converter issue (saw the ect pwr light on the dash so I assume AT).  I'm leaning towards air leak, leaky cold start injector or combustion problem somewhere the way it sounds.  You could try to disconnect and plug the fuel supply to the cold start injector and see if your idle smooths out.  \n\n\n\n\n\n\n\nAlso if the temperatures are cold when you start this engine it does have a highcam feature that will raise the rpm and slowly bring it down as water temperature rises.",
+      "post_number": 6
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-11T13:31:53-0500",
+      "content": "i have an air intake boot solution coming in the mail, even know i see no visual rips, its a possibility that its leaking from there, ill change out the PS pump idle up lines also\n\n\n\n\n\n\n\nim thinking about cleaning the idle air control valve but i cant get a gasket for it quick enough because the dealer has to special order it and it could take up to a month to get one, ive also heard that its more trouble than its worth\n\n\n\n\n\n\n\nDuring the HG job, a bunch of stuff was replaced\n\n\n\nFuel injector seals and O rings\n\n\n\nIntake and plenum gaskets (OEM)\n\n\n\nAll of the accessory belts\n\n\n\nAlmost every single coolant hose\n\n\n\nRear heater outlet\n\n\n\nA bunch of parts were thrown at this engine \n\n\n\nI also replaced every crush washer for the fuel lines so i see no leaks coming from the fuel rail",
+      "post_number": 7
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-13T15:11:45-0500",
+      "content": "So i took off the surge tank, the gasket is ripped in the corner, getting a gasket from toyota, cleaned the plugs\n\n\n\n\n\n\n\ntwo questions\n\n\n\n1. Is there a chance the gasket for the idle air control valve could get damaged if when removing for cleaning?\n\n\n\n2. I was gonna change the TB gasket but the only gasket i have is this one from the evergreen kit, should i use it or go oem?",
+      "post_number": 8
+    },
+    {
+      "author": "BonestockNA",
+      "date": "2026-01-13T15:49:18-0500",
+      "content": "1. You should definitely have a replacement gasket ready for the IAC motor.  \n\n\n\n2. I don't think your TB replacement gasket is an issue as long as it fits correctly.  \n\n\n\n\n\n\n\nI make some of these types of gaskets sometimes with good results.  \n\n\n\n\n\n\n\nThe reason by the way that I mentioned the cold start injector could be the reason for the idle surge is this was something I remember seeing on some of these vehicles back in the day.  When the fuel rail is charged and the cold start injector is not sealing 100%, the pressure pulsing in the rail can cause the injector to weep into the plenum and cause the idle surging.  The engine runs fine otherwise. \n\n\n\nThe problem was fixed by replacing the cold start injector valve.",
+      "post_number": 9
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-14T01:17:00-0500",
+      "content": "injector #2 wiring may be the issue, not sure how i can fix this unless i use another connector\n\n\n\n\n\n\n\nalso wanna make sure order of injector connectors is correct because this may have happened from being crossed\n\n\n\n\n\n\n\ni have the surge tank off, what else should i inspect before getting the surge tank gasket?\n\n\n\n\n\n\n\njust to sanity check this one more time\n\n\n\nInjector wire colors are?\n\n\n\n1 and 4 white with blue stripe and black and red wire\n\n\n\n2 and 6 white with red stripe and black and red wire\n\n\n\n3 and 5\n\n\n\nWhite wire and black and red wire",
+      "post_number": 10
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-15T14:43:07-0500",
+      "content": "Got the idle air control valve off and about to clean it, should i fully take it apart or just clean the outside? Theres a rubber seal on the inside and im afraid if i remove it, it will break",
+      "post_number": 11
+    },
+    {
+      "author": "3p141592654",
+      "date": "2026-01-15T20:53:30-0500",
+      "content": "You must first confirm the IDL switch in the throttle position sensor is set correctly. Easy to do.\n\n\n\n\n\n\nTurn off AC, lights and put trans in Neutral if A/T\n\n\nJump the ECU to diag mode using paper clip TE1 to E1\n\n\nTurn on ignition\n\n\nTo verify the IDL signal is working correctly, observe if the \ncheck engine light flashes\n at a steady, 0.26 second interval (indicating no codes, and thus, the IDL signal is correctly received as \"closed\").\n\n\nIf the light flashes code 51  the IDL signal is not being received correctly.\n\n\nStepping on the gas should open the IDL signal and cause a code 51.  Turning on the lights, AC, or putting the A/T in gear will also set code 51 so beware of that.\n\n\n\n\n\n\n\nIf the IDL switch is not set right you can calibrate it per the TSRM.  Its a simple job.  But your idle will never be correct if the IDL switch is not working right because the IDL switch actuates the idle software and changes the way timing is managed.",
+      "post_number": 12
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-15T22:54:22-0500",
+      "content": "Okay so this potentially may be a TPS issue after all? The reason why i didnt think it would be is i replaced it back in 2023 and the idle issue did not happen until the head gasket was done, i didnt even remove the tps off the throttle body during disassembly, ill go ahead and try your diagnosis after i get a new gasket for the idle air control valve, it was pretty carboned up but i did not rake it all apart, just cleaned the gasket surface and cleaned the pipe and air passages",
+      "post_number": 13
+    },
+    {
+      "author": "BonestockNA",
+      "date": "2026-01-16T14:38:56-0500",
+      "content": "I wanted to address your question about the EFI connectors.  The connector you are showing is broken and the insulation on the wires looks like its flaking off.  You can buy those connectors.  Look for  pinned connectors with pig tails on them.  You can work back up the harness a few inches until you get back to sound wiring and then solder the new connector leads in.  Use heat shrink to seal the joints.  Wire colors are not so important.  Just note the orientation of the connectors and which wire colors are on the left & right pins (ie which side is ground and which side is your channel output).  The new connector will need to match the same orientation when you hook up to the old wiring.  \n\n\n\n\n\n\n\nThe fuel injection system is a semi-sequential system.  There are only 3 channels so each channel will service 2 cylinders at the same time in a batch firing scheme.",
+      "post_number": 14
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-18T17:01:08-0500",
+      "content": "So im not good at wiring at all, thats always been difficult for me, i could use the crimp butt connectors but ive had issues with those or i just suck at it, but ill get a new connector, i did clean the iacv since i had it off, replaced the gasket too, what a pain in the ass to get that bottom coolant hose back on\n\n\n\n\n\n\n\nill look at the tps, my multimeter took a shit the other day so now i need another one to properly test it",
+      "post_number": 15
+    },
+    {
+      "author": "BonestockNA",
+      "date": "2026-01-19T12:38:00-0500",
+      "content": "I hear you.  I'm stuck putting new wires and connectors in part of a GS300 engine harness as we speak.  Not looking forward to it but it had to be done.  The run to the ignition coils is the Colonel's Extra Crispy recipe and I have to redo all of it.  Whoever had this car let it run borderline hot for a while and a lot of the wiring and connectors on top of the engine are cooked.  You know you are in for it when the connector tabs break off when you are disconnecting hardware.",
+      "post_number": 16
+    },
+    {
+      "author": "3p141592654",
+      "date": "2026-01-20T13:45:33-0500",
+      "content": "I  just replaced the housings on my injector connectors since the wires and pins were still fine. That is a lot easier than cutting and pig-tailing new connectors and pins.",
+      "post_number": 17
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-20T14:39:03-0500",
+      "content": "Yea id actually like to know how to do that properly, its something i thought about before i buy the whole pigtail connector",
+      "post_number": 18
+    },
+    {
+      "author": "3p141592654",
+      "date": "2026-01-20T17:41:52-0500",
+      "content": "You can buy a set of nippon denso fuel injector pigtails for $14 on ebay and practice de-pinning them.  Its easy once you get the hang of it.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou will also need a de-pinning kit like this one. (also all over ebay or amazon for $10.). Then watch a few you tube tutorials.",
+      "post_number": 19
+    },
+    {
+      "author": "BonestockNA",
+      "date": "2026-01-20T17:15:57-0500",
+      "content": "@3p141592654\n \n\n\n\n\n\n\n\nNice center cover.  That should last the life of the engine.  I had 2 new OEM covers so I just went that route but I like the look of the metal one.",
+      "post_number": 20
+    },
+    {
+      "author": "3p141592654",
+      "date": "2026-01-20T17:33:15-0500",
+      "content": "BonestockNA said: \n\n\n\n\n\n\n\n\n\n\n@3p141592654\n\n\n\n\n\n\n\nNice center cover.  That should last the life of the engine.  I had 2 new OEM covers so I just went that route but I like the look of the metal one.\n        \n\n\nClick to expand...\n\n\n\n\nThat center cover is cut slightly wrong.  If you look at the stock cover the holes are not centered but on the Nash cover they are so the entire plate shifts slightly like 1 mm.  But the cam covers still clear it due to the thickness of the gasket so it work fine..",
+      "post_number": 21
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-01-20T21:01:50-0500",
+      "content": "So i got it all back together now, havent adjusted TPS yet, thats coming next\n\n\n\n\n\n\n\nheres what ive done so far\n\n\n\nCleaned IACV\n\n\n\nReplaced Surge Tank Gasket\n\n\n\nReplaced the Air Intake Boot and completely redid the whole thing, used a metal 2.75 pipe with a 70mm to 80mm coupler for the AFM\n\n\n\n\n\n\n\nthe surging idle went away, but i have found a part of why it was surging\n\n\n\n\n\n\n\nsomething with the throttle stop screw not going all the way back down after throttle is given\n\n\n\n\n\n\n\nill post a video of it here\n\n\n\nI could have potentially tightened my throttle cable to tight, i have maybe two threads showing but I always assumed the tighter the better, maybe the throttle stop screw itself is not adjusted properly or the TPS needs adjustment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRight now warm its idling around 1200rpm, if i push down on the throttle screw it goes lower, but will surge a little bit, if i give it throttle is goes back to around 1100-1200rpm\n\n\n\n\n\n\n\nupdate: its the tps, i adjusted the throttle cable, and the surge came back, i adjusted the idle stop screw, but not sure how far it needs to sit away from the dash pot",
+      "post_number": 22
+    },
+    {
+      "author": "3p141592654",
+      "date": "2026-01-21T14:17:06-0500",
+      "content": "There is no idle stop screw.  The dashpot adjustment should not affect idle.  Remove the throttle rod from the throttle body and check if the throttle consistently. snaps back to closed position when you open it by hand. If the TB is sluggish or inconsistent figure out what is hanging it up.  If the TB is okay, then its your cable assembly.  Could be the bellcrank on top of the engine (plastic bushing disintegrate over time), or the cable is rusty, or the gas pedal is rusty.  You should check all those places for issues.",
+      "post_number": 23
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-02-12T15:36:45-0500",
+      "content": "Well after battling with a stupid surge that has been causing me a rough idle, i found the problem, and this really sucks, i thought, you know? 🤔 would if the plenum or intake manifold bolts are not tightened down all the way, so i checked every plenum bolt, and one seemed to be really loose, so i tightened it and it just kept loosening up, i took the bolt out and found a helicoil insert wrapped around the bolt..... it just crumbled away in my hands, so now im not sure how to go about this, because it happens to be right at where the vacuum bracket is closest to the firewall and this is going to be a major pain in the ass \n\n\n\n\n\n\n\nit threads all the way through until you get to the last few threads \n\n\n\n\n\n\n\ni swear whoever owned this before me did not properly take care of this car, there is also a broken off stud on the exhaust manifold and that one is right at the back of the firewall, so this blows....i just did so much work to this motor",
+      "post_number": 24
+    },
+    {
+      "author": "Bjenkins1",
+      "date": "2026-02-13T13:46:44-0500",
+      "content": "this is the bolt that im talking about, it just keeps freely spinning because whoever worked on the motor stripped out the last few threads, the previous helicoil that was installed came out with the bolt, not sure how to go about this at this point, i can also feel air being sucked in through my finger right where that bolt lines up and where the gasket sits",
+      "post_number": 25
+    },
+    {
+      "author": "BonestockNA",
+      "date": "2026-02-13T19:40:43-0500",
+      "content": "Good job finding the air leak.  That's usually the cause of performance issues when every thing else seems all good.  \n\n\n\n\n\n\n\nThe cause of this is a real PINTA.  If the threads were already repaired it probably was not done correctly.  A good helecoil repair usually holds.  You are supposed to put the thread coil in with red lock tight.   If the coil will thread back in OK maybe the solution is to lock tight it, let it set, then install the bolt.  \n\n\n\n\n\n\n\nIf everything is stripped out then you might need to step up the bolt size and re-drill and thread the hole for the new size.  I don't remember what those were... M8 sounds about right?  Step up to M10 if you have the room.  Another option may be to use a thru bolt if you can get a nut on the other side.  You just need to clamp the piece together.  If you want to start over you should be able to find those intakes around used.",
+      "post_number": 26
+    },
+    {
+      "author": "3p141592654",
+      "date": "2026-02-15T14:26:21-0500",
+      "content": "The good news is its not that bad a job to remove the top half of the intake manifold and repair it. Fixing the helicoil and new gaskets and you will be good to go. You may need a right angle drill adapter due to the limited space there to drill out the hole and fit the new helicoil.",
+      "post_number": 27
+    }
+  ],
+  "crawled_at": "2026-02-15T20:46:51.128456+00:00"
+}

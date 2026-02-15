@@ -1,0 +1,6 @@
+{
+  "page_id": "A8-9",
+  "section_header": "SRS AIRBAG — Operation",
+  "title": "",
+  "ocr_text": "• When Connector Connected\n\nTerminals\n\nConnectors    Short Spring Plate\n\nSquib\n\n• When Connector Disconnected\n\nShort Spring Plate ON\n\nSquib\n\nClosed Circuit\n\nA80082 A80093\n\nHINT: The illustration shows connectors ③ and ④. Connector ① has a short spring plate on the female terminal side, but the operating principle is the same.\n\n(3) Electrical Connection Check Mechanism\n\nThis mechanism is designed to electrically check if connectors are connected correctly and completely. The electrical connection check mechanism is designed so that the connection detection pin connects with female terminals when the connector housing lock is in the locked condition.\n\nConnection Detection Pin\n\nResistor\n\nFront Airbag Sensor\n\nA80086di\n\n• Half Connection\n\nConnection Detection Pin\n\nTerminal for Diagnosis\n\nSlope\n\n• Complete Connection\n\nConnection Detection Pin Contacting Terminal\n\nA80085 A80086 A80087 A80088\n\nHINT: The illustration shows connector ⑤. Connector ① also has the same operating principle."
+}

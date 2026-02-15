@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-42",
+  "section_header": "AIR CONDITIONING SYSTEM — Sensors",
+  "title": "SENSORS",
+  "ocr_text": "SENSORS\n\n1. IN-CAR SENSOR\n\nCheck the sensor resistance.\n\nHINT: If there is an open circuit in the sensor, the system will operate at maximum heating.\n\nConversely, if there is a short in the system, it will operate at maximum cooling.\n\nIf resistance is not as specified, replace the sensor.\n\n2. AMBIENT SENSOR\n\nCheck the sensor resistance.\n\nIf resistance is not as specified, replace the sensor.\n\n3. SOLAR SENSOR\n\nUsing an ohmmeter, check the continuity.\n\nHINT: There is the solar sensor on the safety pad of the assistant side.\n\nIf there is no continuity, replace the sensor."
+}

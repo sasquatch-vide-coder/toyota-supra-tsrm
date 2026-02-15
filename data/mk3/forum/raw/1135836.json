@@ -1,0 +1,765 @@
+{
+  "meta": {
+    "thread_id": "1135836",
+    "title": "About that Modern Digital Dash",
+    "url": "https://www.supraforums.com/threads/about-that-modern-digital-dash.1135836/",
+    "author": "KaminKevCrew",
+    "date_posted": "2025-09-04T19:34:16-0400",
+    "reply_count": 114,
+    "view_count": 4400,
+    "is_sticky": false
+  },
+  "posts": [
+    {
+      "author": "KaminKevCrew",
+      "date": "2026-02-15T15:21:30-0500",
+      "content": "The original thread is \nhere\n in case anyone is interested in what the heck I'm talking about.\n\n\n\n\n\n\n\nBut, I wanted to give a real update, as it has really been a long time coming. I will eventually be going into the though processes behind the decisions I made, and why I designed it the way I did, but that's not something I particularly want to get into today.\n\n\n\n\n\n\n\nAnyway, below is a photo of the latest test board I made, which is designed to test a few different component layouts, and I have finally come up with what are essentially the final layouts for the boards.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdit (because 'enter' apparently submitted my post):\n\n\n\n\n\n\n\nThis is using a basic 3d print to make each of these segments, and I have a strategy that will look far more polished in the final version. I am coming up on the final few steps to get this project completed now, and I can't even begin to tell you how much work it has been to get this far, or how excited I am to get this finished! \n\n\n\n\n\n\n\nI am planning to sell these once they're done, but a few modifications have been made from what would be a 100% replica of the original. I think it makes it a better product, more suited to a Supra in today's world, but it isn't quite going to be 100% authentic.\n\n\n\n\n\n\n\nI am extremely happy with how this is turning out. I have learned an unbelievable amount in the process of making this dream of mine a reality, and I can't wait to share the finished product. I have spent literally thousands of hours working on this project to learn what I needed in order to make it happen, and to design everything that needed designing - including two ground up redesigns from the initial concept. In the final design, there are approximately 1,000 LEDs going into every one of these gauge clusters. I am very fortunate to have been able to ask for advice from a close friend who actually has experience with designing PCBs, but aside from his advice, this entire project has been a solo labor of love. \n\n\n\n\n\n\n\nI'm going to go learn how to make a good rendering now so I can at least show what it should look like in the next week or two, then I'll be ordering all of the parts to put together the first few.",
+      "post_number": 1
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-04T20:27:46-0400",
+      "content": "Additionally, here's a quick clip with the very first version of the central gauge in the cluster. I have since redesigned it from the ground up twice, and figured out how to make it look even better, but I thought I should show what that initial prototype looked like from March of last year. Even back then, it looked 90% as good as it did in my wildest dreams - the latest version, once I get it in my hands, is going to be at least twice as good!",
+      "post_number": 2
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2025-09-04T21:19:46-0400",
+      "content": "That first prototype looks pretty good! looking forward to seeing the latest version.",
+      "post_number": 3
+    },
+    {
+      "author": "omicca",
+      "date": "2025-09-04T23:40:47-0400",
+      "content": "looks amazing! I wanted to do this but never got around to it. I'm glad you're doing it.",
+      "post_number": 4
+    },
+    {
+      "author": "CallHimHoly",
+      "date": "2025-09-05T11:29:05-0400",
+      "content": "Are you trying to replicate the other gauges too, or just for speedometer and odometer? Also, for what spec? I.e. rhd only, lhd, both, turbo, non turbo, auto, manual? What kind of mods would be needed? Very curious because its hard finding the specific year supra I want, but being able to throw in a like-oem digital dash would make the search a lot easier.",
+      "post_number": 5
+    },
+    {
+      "author": "FluxCapacitor",
+      "date": "2025-09-05T12:47:13-0400",
+      "content": "This is pretty sick.  I hope you're doing user configurable RPM bands with a  high RPM limit on these.\n\n\n\n\n\n\n\nGood job on already considering the high MPH that modern builds are capable of reaching.\n\n\n\n\n\n\n\nI love the \"modern retro\" theme.  It reminds me of a simpler time with vehicles.",
+      "post_number": 6
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-05T15:41:03-0400",
+      "content": "CallHimHoly said: \n\n\n\n\n\n\n\n\n\n            Are you trying to replicate the other gauges too, or just for speedometer and odometer? Also, for what spec? I.e. rhd only, lhd, both, turbo, non turbo, auto, manual? What kind of mods would be needed? Very curious because its hard finding the specific year supra I want, but being able to throw in a like-oem digital dash would make the search a lot easier.\n        \n\n\nClick to expand...\n\n\n\n\nYes - I am doing \nmost\n of the other gauges too! I am not doing a 'TEMS gauge' - the gauge on the digital dash that had the TEMS readout, and some other things - for the initial release as I don't think the amount of effort required to make that work is worth it, considering how many cars no longer have TEMS shocks at this point. I am toying with the idea of doing one in the future that will be configurable to work with any modern adjustable coilovers (and the original TEMS shocks too), but that would be dependent on how much interest I get for that sort of thing - I will likely at least do it as a one-off for my car though. For this first version, instead of a TEMS gauge I am simply adding two additional gauges. In my car, they are going to be configured to be oil pressure and oil temperature, but with the way I am going to be making these, it will actually be pretty easy to make them display any values you want.\n\n\n\n\n\n\n\nCurrently, the initial version is planned to have the following gauges: Boost Pressure, Oil Pressure, Oil Temperature, Fuel Level, what I'm calling the 'Main Gauge' (RPM, Speed, ODO/Trip - which I'm combining into one), and the PRNDL/PWR/ECON section from the original.\n\n\n\n\n\n\n\nFor a manual transmission vehicle, I am toying with the idea of replacing the PRNDL section with a gear indicator, but that will not be present on the first version.\n\n\n\n\n\n\n\nAs far as mods, this is going to be a drop in (aside from oil temp, and possibly oil pressure) replacement. So basically, you will be able to plug in the factory harness of a LHD car and get all of the data that you could originally, which is everything except speed. I am also working on implementing an encoder that will allow you to plug the speed cable directly into this dash, so you can also get speed as though you were using the factory dash. This will also allow users to configure the speed scaling in case they have different size wheel/tire combinations so you can retain an accurate speedometer.\n\n\n\n\n\n\n\nAdditionally, there will be a CANBus input - I currently only have access to a MaxxECU Race for testing purposes, but will be reaching out eventually, as I would like to cover the most common ECU brands and their CANBus specifications (Haltech, Link at a minimum). This way any information that you want to get directly from the ECU will be super easy to retrieve, and the wiring can be simplified if you're running everything from a high end ECU anyway.\n\n\n\n\n\n\n\nCurrently, I have been focusing on the LHD version, as my car is LHD. However, I have been keeping in mind RHD during the design process, and it will actually be relatively easy to produce RHD versions. All of this will bolt directly into the factory cluster mounting system, so it will be as plug and play as I can possibly make it.\n\n\n\n\n\n\n\nOne of my other goals with this was to increase the amount of customizability available. So, there will be wifi configuration available for things like changing the brightness scaling (this cluster will still automatically dim with the factory cluster dimmer) and for changing the colors as you'd like. Here's a (pretty low quality) video showing the same base board, but with different colors (Note: one of the reasons this looks way worse is that I filmed this before I found the right way to diffuse the light):\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    FluxCapacitor said: \n\n\n\n\n\n\n\n\n\n            This is pretty sick.  I hope you're doing user configurable RPM bands with a  high RPM limit on these.\n\n\n\n\n\n\n\nGood job on already considering the high MPH that modern builds are capable of reaching.\n\n\n\n\n\n\n\nI love the \"modern retro\" theme.  It reminds me of a simpler time with vehicles.\n        \n\n\nClick to expand...\n\n\n\n\nYes, the RPM bands will be configurable - the scaling on the original is very nice, because each bar on the tach represents a 100rpm jump. I haven't quite gotten into how I will scale the actual tach yet (the original goes up to 8,000rpm) but I am exploring options there which won't require me to completely redesign the PCB. I might do something similar to what older Formula 1 cars did, where the first part of the gauge uses a different scale than the rest of the gauge. So if the first 10 segments represented 200rpm each, then the tachometer could easily scale to 9,000rpm. Something like that would be very easy to implement if needed.\n\n\n\n\n\n\n\nThanks - I also wanted to consider anyone using kilometers as well - with how much power some MK3 Supras are making these days, I could see someone potentially hitting 400kph, which would require the 7th segment in the third digit of the speedometer.\n\n\n\n\n\n\n\nThat modern retro theme is exactly what I am going for here. At this point I'm pretty much over the whole LCD screen digital dash. They're useful and flexible, but they just don't feel special to me at this point now that every car ever is starting to come with them.",
+      "post_number": 7
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-05T16:40:32-0400",
+      "content": "For anyone curious, here's a quick screenshot I took of the Coolant Gauge's mechanical assembly: \n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI'm working on finishing up the final assembly process of all of the gauges, then I'll be wrapping up all of the renders and showing that off too.\n\n\n\n\n\n\n\nEdit: I am not happy with the font here that shows the numerical temperature. I am exploring other options for that currently as well.",
+      "post_number": 8
+    },
+    {
+      "author": "Reluctanse",
+      "date": "2025-09-05T16:43:18-0400",
+      "content": "beautiful work!",
+      "post_number": 9
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-06T01:54:42-0400",
+      "content": "Thank you! \n\n\n\n\n\n\n\nOne of the things that I thought might be better on a modern gauge would be to illuminate the values on the gauges directly. For instance, on the coolant gauge here, the original only marks the high and low points on the clear face of the cluster (the big panel that goes across the whole thing) and originally, all of those letters and numbers are backlit by tiny incandescent lights inside the cluster. It does look nice, but it would mean that I have to get a new silk screen made for every person who wants anything slightly different on any of the gauges. With the way I am going to be making these, having the values directly on the gauges will work much better. \n\n\n\n\n\n\n\nAdditionally for some reason, on the original, the fuel gauge is made this way, with the values being illuminated directly by the gauge. I'm not sure why they only did that for the fuel gauge, but I definitely like it a lot better, so I'm going to be doing that for all of the gauges.",
+      "post_number": 10
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2025-09-06T07:30:43-0400",
+      "content": "I'm even more excited now! Great work!",
+      "post_number": 11
+    },
+    {
+      "author": "Pidude3",
+      "date": "2025-09-07T13:18:54-0400",
+      "content": "Sick dude, keep it up! Like \n@omicca\n I also was thinking about doing this. Would definitely be in for a M/T LHD version once you get those sorted out, assuming pricing is reasonable and quality is good.",
+      "post_number": 12
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-07T15:06:47-0400",
+      "content": "For sure - out of curiosity, what would you consider a reasonable price for something like this (assuming a very high level of quality)? For something like this, a huge part of pricing is going to come down to economies of scale. For small quantities, the per part cost of PCBA is extremely high, but the setup costs can quickly amortize across a larger run. \n\n\n\n\n\n\n\nFor initial release, I am only planning on making a single model of cluster - it will be LHD, but will be compatible with manual and automatic transmissions, though the automatic functionality may be limited to aftermarket ECUs (As far as I'm aware, the factory automatic cluster doesn't have any display for what state the transmission is in, so there's no wiring going to the cluster for that). Other than that though, for the manual version I will just be able to turn off the LEDs related to the PRNDL stuff, and you won't be able to see that section at all through the housing. I could also potentially set up the PRNDL section to be a gear indicator. The original cluster has L2DNRP, and I could make that R12345 for a five speed or 123456 with R above (in the O/D Off segment of the original) for gear indicators. Neutral would just be all lights off I suppose. I haven't quite fully decided on how I want to do that yet though.",
+      "post_number": 13
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-08T02:27:24-0400",
+      "content": "Well, I (sort of) figured out rendering in Fusion 360 today, so I figure I should post a screenshot from that session. \n\n\n\n\n\n\n\nIt's not quite what it will look like in real life (and the fonts are still pending changes!) but here's basically what the planned layout is for the 'main gauge':\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom my previous tests with physical examples, the odometer/trip meter section (the part that reads 126458) will not be this dim on the actual run. There also appears to be some light bleed-through happening here, and I'm not 100% certain of why that is, but I'm just chalking that up to my inexperience with rendering. My goal for the final version is to have essentially zero visible bleed through happening on the final versions.",
+      "post_number": 14
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2025-09-08T08:53:23-0400",
+      "content": "An AFR reading/gauge in place of the L2DNRP might appeal to more buyers. But, not sure how much you would want to tray from the OE look. I do like how my BTI gauge does it, with lambda 1 being centered, left of center being rich/purple and right of center being lean/red. Example below. A pixelated version, similar to the RPM gauge, would probably fit the theme.",
+      "post_number": 15
+    },
+    {
+      "author": "traingeek2000",
+      "date": "2025-09-08T11:38:46-0400",
+      "content": "Apologies if this has been gone over already, but what is to be the data source for these gauges? Is the intent for these all to read CAN data from a standalone ECU or will there be analog options like the factory gauges? The speedometer in particular will be interesting seeing as the original is mechanical.\n\n\n\n\n\n\n\nI could run these off CAN but others might not.",
+      "post_number": 16
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-08T12:04:40-0400",
+      "content": "traingeek2000 said: \n\n\n\n\n\n\n\n\n\n            Apologies if this has been gone over already, but what is to be the data source for these gauges? Is the intent for these all to read CAN data from a standalone ECU or will there be analog options like the factory gauges? The speedometer in particular will be interesting seeing as the original is mechanical.\n\n\n\n\n\n\n\nI could run these off CAN but others might not.\n        \n\n\nClick to expand...\n\n\n\n\nNo worries - I think I mentioned it above, but my posts can be a little verbose. Basically, the answer is both. The cluster will be plug and play with the original harness, and I have a plan for how to get the mechanical speedometer working as well. Additionally, CANBus will be supported, and you will be able to decide the data source (CAN or factory harness) for each gauge independently.\n\n\n\n\n\n\n\nFor instance, in my Supra I have a MaxxECU Race running the engine, but my car still uses the factory fuel level sender. So, I will be able to use ECU data over CANBus for Tach, Speed, Oil Temperature, Oil Pressure, Boost, and Coolant Temp, then I can use the factory wiring to determine/display the fuel level.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            An AFR reading/gauge in place of the L2DNRP might appeal to more buyers. But, not sure how much you would want to tray from the OE look. I do like how my BTI gauge does it, with lambda 1 being centered, left of center being rich/purple and right of center being lean/red. Example below. A pixelated version, similar to the RPM gauge, would probably fit the theme.\n        \n\n\nClick to expand...\n\n\n\n\nThat’s a good point - an AFR gauge could be pretty cool. Currently, I‘m avoiding making any significant design changes to the Main Gauge. That gauge is already super complex to run; it has over 500 LEDs, and over 200 segments that need to be kept track of. \n\n\n\n\n\n\n\nHowever, I could definitely design a gauge to take the place of the oil temperature gauge for AFR purposes if a permanent AFR gauge would be useful. I am not 100% sure, but it seems to me that having an oil temperature sensor is relatively uncommon. If an AFR gauge would just be a temporary thing for tuning purposes or something, the software is already designed to allow switching between data sources for any given gauge (though the icon and numbers on the gauge won’t change when this happens).",
+      "post_number": 17
+    },
+    {
+      "author": "USNGoat",
+      "date": "2025-09-09T14:03:25-0400",
+      "content": "Super interested in this, I was in the process of planning out my own mishmash of custom and aftermarket products to achieve something similar. I have an EMU black and was planning to use the evolving motorsports VSS converter to convert the speed sensor output to something a digital dash can read. I'd link it but the spam policy isnt letting me \n\n\n\n\n\n\n\nWhat kind of price point are you looking at?",
+      "post_number": 18
+    },
+    {
+      "author": "te72",
+      "date": "2025-09-09T21:06:05-0400",
+      "content": "Looks great man, I remember the original thread you posted.",
+      "post_number": 19
+    },
+    {
+      "author": "MrThankUvryMuch",
+      "date": "2025-09-10T21:01:59-0400",
+      "content": "So friggin cool, I support it\n\n\n\n\n\n\n\nI'm just starting to look into how to put the OG RHD digi dash in my LHD right now so if anyone has any info from doing it other than that 2014 thread be my guest lol. Otherwise, guess I might wait...",
+      "post_number": 20
+    },
+    {
+      "author": "USNGoat",
+      "date": "2025-09-11T18:19:49-0400",
+      "content": "If you can find a good JDM digi dash even. Been a while since I've seen one on ebay. \n\n\n\n\n\n\n\nIt's a lot of work and tbh, the chances of breaking something while moving it over are pretty high.  They're 35+ years old at this point, after all.  \n\n\n\n\n\n\n\nThis is why doing a retro-inspired dash using newer tech was my plan. Breaking a $500 JDM dash that's hard to replace sounds like a great way to waste $500.",
+      "post_number": 21
+    },
+    {
+      "author": "kmichaelokelly",
+      "date": "2025-09-12T00:44:31-0400",
+      "content": "Super excited to see the final product! I have been wanting a digital dash in a lhd care since I heard of it being an option for rhd.",
+      "post_number": 22
+    },
+    {
+      "author": "Mr. Ghostly",
+      "date": "2025-09-12T04:48:26-0400",
+      "content": "Very interested, I had obtained a OEM digi dash for my car a while ago which was in perfect condition including pigtails that were labeled... Prior to shipping when one of the vfd's cracked.\n\n\n\n\n\n\n\n-curious what you would charge for something like this, I know you had asked what would be fair but the market doesn't know the work and time that goes into mfg so better something that you decide on to make it worth your time\n\n\n\n\n\n\n\n-you mentioned you didn't have much interest in replicating the suspension display, albeit a long shot but something that I think looks just as awesome, would be neat to be able to integrate with tein edfc (it's your time, it's up to you)\n\n\n\n\n\n\n\n-rando thought about the speedometer, would think it would be ideal to program the number of pulses per mile or something like that instead of trying to make use of the OEM cable drive system. There are aftermarket modules to convert cable drive to 3 wire vss signals and plenty of people do engine swaps and such, seems like it would make it easier on your end too.\n\n\n\n\n\n\n\n-are the segments charlieplexed? Just out of curiosity, as I've done some research on emulating the OEM display to some extent.",
+      "post_number": 23
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-12T17:55:20-0400",
+      "content": "MrThankUvryMuch said: \n\n\n\n\n\n\n\n\n\n            So friggin cool, I support it\n\n\n\n\n\n\n\nI'm just starting to look into how to put the OG RHD digi dash in my LHD right now so if anyone has any info from doing it other than that 2014 thread be my guest lol. Otherwise, guess I might wait...\n        \n\n\nClick to expand...\n\n\n\n\nThanks! The thing that kept me from trying to swap a RHD cluster to LHD was that I couldn't stand the way the Boost gauge looks on the right side, since it slants the opposite way of the coolant gauge. That would end up bothering me a ton, so I embarked on this project.\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    USNGoat said: \n\n\n\n\n\n\n\n\n\n            If you can find a good JDM digi dash even. Been a while since I've seen one on ebay.\n\n\n\n\n\n\n\nIt's a lot of work and tbh, the chances of breaking something while moving it over are pretty high.  They're 35+ years old at this point, after all. \n\n\n\n\n\n\n\nThis is why doing a retro-inspired dash using newer tech was my plan. Breaking a $500 JDM dash that's hard to replace sounds like a great way to waste $500.\n        \n\n\nClick to expand...\n\n\n\n\n$500? Dang, I guess I must have overpayed for my digital dash with a broken housing. I think I paid $500 for that alone - and while the VFDs themselves are fully functional and in great shape, the housing is broken and basically unusable. It was perfect for me though, since I mainly needed a good reference for this project. I've seen one or two in good condition on Facebook over the last couple of years that were listed for well over $1,000. It seems that as these have become both better known, and rarer, their prices have skyrocketed - at least in the US. \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Mr. Ghostly said: \n\n\n\n\n\n\n\n\n\n            Very interested, I had obtained a OEM digi dash for my car a while ago which was in perfect condition including pigtails that were labeled... Prior to shipping when one of the vfd's cracked.\n\n\n\n\n\n\n\n-curious what you would charge for something like this, I know you had asked what would be fair but the market doesn't know the work and time that goes into mfg so better something that you decide on to make it worth your time\n\n\n\n\n\n\n\n-you mentioned you didn't have much interest in replicating the suspension display, albeit a long shot but something that I think looks just as awesome, would be neat to be able to integrate with tein edfc (it's your time, it's up to you)\n\n\n\n\n\n\n\n-rando thought about the speedometer, would think it would be ideal to program the number of pulses per mile or something like that instead of trying to make use of the OEM cable drive system. There are aftermarket modules to convert cable drive to 3 wire vss signals and plenty of people do engine swaps and such, seems like it would make it easier on your end too.\n\n\n\n\n\n\n\n-are the segments charlieplexed? Just out of curiosity, as I've done some research on emulating the OEM display to some extent.\n        \n\n\nClick to expand...\n\n\n\n\nUnfortunately, I don't have a good answer for pricing yet. In the next post I make on this thread, I will outline the plan I have for manufacturing these, but I won't have a good idea of price until I've finished everything else that needs to go into these, and have received final pricing from suppliers and manufacturers. \n\n\n\n\n\n\n\nI would love to make the suspension display - my current car has Fortune Auto coilovers in it, and I know FA makes a product that's similar to the Tein EDFC; I would love to make something that will work for those. Once the base cluster is finished, I will definitely be looking into the feasibility of making those, and what it would cost to do. If I do make it, it will be a drop in replacement, so anyone who does buy one of these can take advantage of it if they want. \n\n\n\n\n\n\n\nAs far as the speedometer goes, I have been thinking that might be a better way to go - my car has a T56 swap in it, so I will be utilizing the standard VSS pulses to determine speed (though that will be read through CANBus from the ECU for me). I am also aware that the factory cables have a tendency to break over time, due to their length so it would make sense to make something that is just plug and play with an existing product. \n\n\n\n\n\n\n\nThe segments aren't charlieplexed - I looked into doing something like that when I was first researching this project, but I decided against it due to issues with the complexity involved with dealing with that many LEDs (both in terms of PCB layout, and software design).",
+      "post_number": 24
+    },
+    {
+      "author": "USNGoat",
+      "date": "2025-09-12T21:36:06-0400",
+      "content": "KaminKevCrew said: \n\n\n\n\n\n\n\n\n\n            $500? Dang, I guess I must have overpayed for my digital dash with a broken housing. I think I paid $500 for that alone - and while the VFDs themselves are fully functional and in great shape, the housing is broken and basically unusable. It was perfect for me though, since I mainly needed a good reference for this project. I've seen one or two in good condition on Facebook over the last couple of years that were listed for well over $1,000. It seems that as these have become both better known, and rarer, their prices have skyrocketed - at least in the US.\n        \n\n\nClick to expand...\n\n\n\n\nNope, I'm just getting back into the A70 game after leaving in 2004, so my knowledge of current prices is limited at best.  Everything older JDM is more expensive for sure though, it's a bit ridiculous.  Perfect time to buy a 35 year old Toyota and restore it! lol",
+      "post_number": 25
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-18T01:12:30-0400",
+      "content": "The coolant gauge assembly is now complete - including the final version (still, pending fonts) of the gauge layout: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI am, as always, open to feedback. These boards are all but done - for all gauges. They are only pending a design review from a friend who has far more PCB design experience than I do. Pending any changes from that design review, I will be spinning up the final design for the last board (the one that will allow this all to be plug and play with the factory wiring), and getting a design review on that. \n\n\n\n\n\n\n\nOnce that's finished, I will need to finish all of the software involved in this project, which is fairly extensive - but I have a lot more experience writing code than I do designing PCBs, so I anticipate that will go fairly quickly. \n\n\n\n\n\n\n\nFinally, I will be getting the enclosure designed and built - and I'm honestly pretty excited about it. At least for this first round of clusters, I am toying with the idea of making the enclosure out of some colored plastic - similar to the translucent N64 consoles from back in the day. I think that would be a really fun throwback, even if that's only something you would see before you install it. \n\n\n\n\n\n\n\nAfter that, I will be doing all of the programming, assembling, and testing of all of the clusters. \n\n\n\n\n\n\n\nI feel like I can finally see the light at the end of the tunnel here - I'm excited!",
+      "post_number": 26
+    },
+    {
+      "author": "traingeek2000",
+      "date": "2025-09-18T11:44:11-0400",
+      "content": "What font are you using for the numbers? I went on a journey of making some replica switches that never panned out but most fonts inside the Mk3 are some variant of Eurostile:",
+      "post_number": 27
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2025-09-18T14:02:43-0400",
+      "content": "N64 atomic colors! That's a really fun touch.",
+      "post_number": 28
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-18T15:28:09-0400",
+      "content": "traingeek2000 said: \n\n\n\n\n\n\n\n\n\n            What font are you using for the numbers? I went on a journey of making some replica switches that never panned out but most fonts inside the Mk3 are some variant of Eurostile:\n        \n\n\nClick to expand...\n\n\n\n\nHoly crap, thank you! The whole reason that I've been saying that the fonts are subject to change is that I knew the one I was using (Segoe UI - a default font in Fusion) was not correct. I am not a font expert, and I figured it would be more useful for me to spend time on the actual design. The font is an easy thing to change with the way I am planning to do this. Now that I know, I'll go ahead and figure out how to get them looking right in the CAD model. \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            N64 atomic colors! That's a really fun touch.\n        \n\n\nClick to expand...\n\n\n\n\nI thought it would be a good time too - since I'm going to do 5 gauge clusters for the initial run (that's the MOQ for the board house I'm planning to work with), I think it might be worth doing - there are 6 N64 atomic colors that I'm aware of, and one of them is the (comparatively) boring smoke color, leaving 5. So if I can find the plastic in the right colors for the housing to match the atomic colors, that would be a really fun way to differentiate at least the first 5 of these.\n\n\n\n\n\n\n\nParticularly for niche products like this, I've always felt that it's the small details that really make them fun.",
+      "post_number": 29
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2025-09-18T17:18:47-0400",
+      "content": "I am (obviously) not a professional CAD renderer, so there's some stuff that looks like it isn't quite set up right for this image, but this is the first time I've had more than one gauge in an environment, and I am just too excited to share it, even with the flaws that are clearly present.\n\n\n\n\n\n\n\nAlso, thanks to traingeek2000 - The fonts have been updated to Eurostile Extended Bold, so it really is all starting to look the part! I may need to make some changes to the design, as the new font is considerably wider than I anticipated - which means the numbers are all shorter than I was expecting (to make them fit in the width currently allotted) but it still looks pretty darn cool to me.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt's getting there! \n\n\n\n\n\n\n\nI'm going to end up importing all of this into Blender for a proper render once I have the designs 100% finalized, but I imagine that will take me several days to figure out, so I'm holding off on that until I have ordered all of the parts.",
+      "post_number": 30
+    },
+    {
+      "author": "USNGoat",
+      "date": "2011-05-01T18:34:45-0400",
+      "content": "MrThankUvryMuch said: \n\n\n\n\n\n\n\n\n\n            So friggin cool, I support it\n\n\n\n\n\n\n\nI'm just starting to look into how to put the OG RHD digi dash in my LHD right now so if anyone has any info from doing it other than that 2014 thread be my guest lol. Otherwise, guess I might wait...\n        \n\n\nClick to expand...\n\n\n\n\nIf you can find a good JDM digi dash even. Been a while since I've seen one on ebay. \n\n\n\n\n\n\n\nIt's a lot of work and tbh, the chances of breaking something while moving it over are pretty high.  They're 35+ years old at this point, after all.  \n\n\n\n\n\n\n\nThis is why doing a retro-inspired dash using newer tech was my plan. Breaking a $500 JDM dash that's hard to replace sounds like a great way to waste $500.",
+      "post_number": 31
+    },
+    {
+      "author": "kmichaelokelly",
+      "date": "2011-06-24T02:52:39-0400",
+      "content": "Super excited to see the final product! I have been wanting a digital dash in a lhd care since I heard of it being an option for rhd.",
+      "post_number": 32
+    },
+    {
+      "author": "Mr. Ghostly",
+      "date": "2022-07-18T19:05:22-0400",
+      "content": "Very interested, I had obtained a OEM digi dash for my car a while ago which was in perfect condition including pigtails that were labeled... Prior to shipping when one of the vfd's cracked.\n\n\n\n\n\n\n\n-curious what you would charge for something like this, I know you had asked what would be fair but the market doesn't know the work and time that goes into mfg so better something that you decide on to make it worth your time\n\n\n\n\n\n\n\n-you mentioned you didn't have much interest in replicating the suspension display, albeit a long shot but something that I think looks just as awesome, would be neat to be able to integrate with tein edfc (it's your time, it's up to you)\n\n\n\n\n\n\n\n-rando thought about the speedometer, would think it would be ideal to program the number of pulses per mile or something like that instead of trying to make use of the OEM cable drive system. There are aftermarket modules to convert cable drive to 3 wire vss signals and plenty of people do engine swaps and such, seems like it would make it easier on your end too.\n\n\n\n\n\n\n\n-are the segments charlieplexed? Just out of curiosity, as I've done some research on emulating the OEM display to some extent.",
+      "post_number": 33
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "MrThankUvryMuch said: \n\n\n\n\n\n\n\n\n\n            So friggin cool, I support it\n\n\n\n\n\n\n\nI'm just starting to look into how to put the OG RHD digi dash in my LHD right now so if anyone has any info from doing it other than that 2014 thread be my guest lol. Otherwise, guess I might wait...\n        \n\n\nClick to expand...\n\n\n\n\nThanks! The thing that kept me from trying to swap a RHD cluster to LHD was that I couldn't stand the way the Boost gauge looks on the right side, since it slants the opposite way of the coolant gauge. That would end up bothering me a ton, so I embarked on this project.\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    USNGoat said: \n\n\n\n\n\n\n\n\n\n            If you can find a good JDM digi dash even. Been a while since I've seen one on ebay.\n\n\n\n\n\n\n\nIt's a lot of work and tbh, the chances of breaking something while moving it over are pretty high.  They're 35+ years old at this point, after all. \n\n\n\n\n\n\n\nThis is why doing a retro-inspired dash using newer tech was my plan. Breaking a $500 JDM dash that's hard to replace sounds like a great way to waste $500.\n        \n\n\nClick to expand...\n\n\n\n\n$500? Dang, I guess I must have overpayed for my digital dash with a broken housing. I think I paid $500 for that alone - and while the VFDs themselves are fully functional and in great shape, the housing is broken and basically unusable. It was perfect for me though, since I mainly needed a good reference for this project. I've seen one or two in good condition on Facebook over the last couple of years that were listed for well over $1,000. It seems that as these have become both better known, and rarer, their prices have skyrocketed - at least in the US. \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Mr. Ghostly said: \n\n\n\n\n\n\n\n\n\n            Very interested, I had obtained a OEM digi dash for my car a while ago which was in perfect condition including pigtails that were labeled... Prior to shipping when one of the vfd's cracked.\n\n\n\n\n\n\n\n-curious what you would charge for something like this, I know you had asked what would be fair but the market doesn't know the work and time that goes into mfg so better something that you decide on to make it worth your time\n\n\n\n\n\n\n\n-you mentioned you didn't have much interest in replicating the suspension display, albeit a long shot but something that I think looks just as awesome, would be neat to be able to integrate with tein edfc (it's your time, it's up to you)\n\n\n\n\n\n\n\n-rando thought about the speedometer, would think it would be ideal to program the number of pulses per mile or something like that instead of trying to make use of the OEM cable drive system. There are aftermarket modules to convert cable drive to 3 wire vss signals and plenty of people do engine swaps and such, seems like it would make it easier on your end too.\n\n\n\n\n\n\n\n-are the segments charlieplexed? Just out of curiosity, as I've done some research on emulating the OEM display to some extent.\n        \n\n\nClick to expand...\n\n\n\n\nUnfortunately, I don't have a good answer for pricing yet. In the next post I make on this thread, I will outline the plan I have for manufacturing these, but I won't have a good idea of price until I've finished everything else that needs to go into these, and have received final pricing from suppliers and manufacturers. \n\n\n\n\n\n\n\nI would love to make the suspension display - my current car has Fortune Auto coilovers in it, and I know FA makes a product that's similar to the Tein EDFC; I would love to make something that will work for those. Once the base cluster is finished, I will definitely be looking into the feasibility of making those, and what it would cost to do. If I do make it, it will be a drop in replacement, so anyone who does buy one of these can take advantage of it if they want. \n\n\n\n\n\n\n\nAs far as the speedometer goes, I have been thinking that might be a better way to go - my car has a T56 swap in it, so I will be utilizing the standard VSS pulses to determine speed (though that will be read through CANBus from the ECU for me). I am also aware that the factory cables have a tendency to break over time, due to their length so it would make sense to make something that is just plug and play with an existing product. \n\n\n\n\n\n\n\nThe segments aren't charlieplexed - I looked into doing something like that when I was first researching this project, but I decided against it due to issues with the complexity involved with dealing with that many LEDs (both in terms of PCB layout, and software design).",
+      "post_number": 34
+    },
+    {
+      "author": "USNGoat",
+      "date": "2011-05-01T18:34:45-0400",
+      "content": "KaminKevCrew said: \n\n\n\n\n\n\n\n\n\n            $500? Dang, I guess I must have overpayed for my digital dash with a broken housing. I think I paid $500 for that alone - and while the VFDs themselves are fully functional and in great shape, the housing is broken and basically unusable. It was perfect for me though, since I mainly needed a good reference for this project. I've seen one or two in good condition on Facebook over the last couple of years that were listed for well over $1,000. It seems that as these have become both better known, and rarer, their prices have skyrocketed - at least in the US.\n        \n\n\nClick to expand...\n\n\n\n\nNope, I'm just getting back into the A70 game after leaving in 2004, so my knowledge of current prices is limited at best.  Everything older JDM is more expensive for sure though, it's a bit ridiculous.  Perfect time to buy a 35 year old Toyota and restore it! lol",
+      "post_number": 35
+    },
+    {
+      "author": "MrThankUvryMuch",
+      "date": "2021-09-28T22:13:25-0400",
+      "content": "USNGoat said: \n\n\n\n\n\n\n\n\n\n            If you can find a good JDM digi dash even. Been a while since I've seen one on ebay.\n\n\n\n\n\n\n\nIt's a lot of work and tbh, the chances of breaking something while moving it over are pretty high.  They're 35+ years old at this point, after all. \n\n\n\n\n\n\n\nThis is why doing a retro-inspired dash using newer tech was my plan. Breaking a $500 JDM dash that's hard to replace sounds like a great way to waste $500.\n        \n\n\nClick to expand...\n\n\n\n\nI already have one and a spare LHD cluster otherwise yeah I wouldn't bother lol. The acrylic is cracked so it's already some investment to make nice if I wanted to sell it. Might as well make a project out of it\n\n\n\n\n\n\n\nThat said if I fail, good to know this exists",
+      "post_number": 36
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "The coolant gauge assembly is now complete - including the final version (still, pending fonts) of the gauge layout: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI am, as always, open to feedback. These boards are all but done - for all gauges. They are only pending a design review from a friend who has far more PCB design experience than I do. Pending any changes from that design review, I will be spinning up the final design for the last board (the one that will allow this all to be plug and play with the factory wiring), and getting a design review on that. \n\n\n\n\n\n\n\nOnce that's finished, I will need to finish all of the software involved in this project, which is fairly extensive - but I have a lot more experience writing code than I do designing PCBs, so I anticipate that will go fairly quickly. \n\n\n\n\n\n\n\nFinally, I will be getting the enclosure designed and built - and I'm honestly pretty excited about it. At least for this first round of clusters, I am toying with the idea of making the enclosure out of some colored plastic - similar to the translucent N64 consoles from back in the day. I think that would be a really fun throwback, even if that's only something you would see before you install it. \n\n\n\n\n\n\n\nAfter that, I will be doing all of the programming, assembling, and testing of all of the clusters. \n\n\n\n\n\n\n\nI feel like I can finally see the light at the end of the tunnel here - I'm excited!",
+      "post_number": 37
+    },
+    {
+      "author": "traingeek2000",
+      "date": "2018-08-09T12:46:21-0400",
+      "content": "What font are you using for the numbers? I went on a journey of making some replica switches that never panned out but most fonts inside the Mk3 are some variant of Eurostile:",
+      "post_number": 38
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "N64 atomic colors! That's a really fun touch.",
+      "post_number": 39
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "traingeek2000 said: \n\n\n\n\n\n\n\n\n\n            What font are you using for the numbers? I went on a journey of making some replica switches that never panned out but most fonts inside the Mk3 are some variant of Eurostile:\n        \n\n\nClick to expand...\n\n\n\n\nHoly crap, thank you! The whole reason that I've been saying that the fonts are subject to change is that I knew the one I was using (Segoe UI - a default font in Fusion) was not correct. I am not a font expert, and I figured it would be more useful for me to spend time on the actual design. The font is an easy thing to change with the way I am planning to do this. Now that I know, I'll go ahead and figure out how to get them looking right in the CAD model. \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            N64 atomic colors! That's a really fun touch.\n        \n\n\nClick to expand...\n\n\n\n\nI thought it would be a good time too - since I'm going to do 5 gauge clusters for the initial run (that's the MOQ for the board house I'm planning to work with), I think it might be worth doing - there are 6 N64 atomic colors that I'm aware of, and one of them is the (comparatively) boring smoke color, leaving 5. So if I can find the plastic in the right colors for the housing to match the atomic colors, that would be a really fun way to differentiate at least the first 5 of these.\n\n\n\n\n\n\n\nParticularly for niche products like this, I've always felt that it's the small details that really make them fun.",
+      "post_number": 40
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "I am (obviously) not a professional CAD renderer, so there's some stuff that looks like it isn't quite set up right for this image, but this is the first time I've had more than one gauge in an environment, and I am just too excited to share it, even with the flaws that are clearly present.\n\n\n\n\n\n\n\nAlso, thanks to traingeek2000 - The fonts have been updated to Eurostile Extended Bold, so it really is all starting to look the part! I may need to make some changes to the design, as the new font is considerably wider than I anticipated - which means the numbers are all shorter than I was expecting (to make them fit in the width currently allotted) but it still looks pretty darn cool to me.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt's getting there! \n\n\n\n\n\n\n\nI'm going to end up importing all of this into Blender for a proper render once I have the designs 100% finalized, but I imagine that will take me several days to figure out, so I'm holding off on that until I have ordered all of the parts.",
+      "post_number": 41
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "I call dibs on atomic purple.\n\n\n\n\n\n\n\nAs far as ordering, I've seen many outfits request a non-refundable deposit before production and then full payment once it's done and ready for shipment. I think it would be reasonable for the deposit to cover at least the cost to produce and import. Essentially, whatever money you have to spend to get it to your \"warehouse\" + 5% to 10%. This would be a way to gauge interest and you might find there are far more than 5 interested.\n\n\n\n\n\n\n\nAs far as final pricing, your competitors will be displays from ECU master, Link ect and gauge faces like from Nightrun. I think something closer to digital display pricing would be appropriate. This is essentially a luxury good and probably justifies that kind of pricing. And, it's a niche product. To give you another idea, here's a \"digi\" dash option for an old Wagoneer. Very similar to your idea of a drop in modern version of an old gauge. They have two versions, the earlier simpler one for $1k and another updated one for $1700. These can read off the OBD2, have everything you need including sensors, separate signal converter of sorts and wiring. Digital Dakota has a lot of other drop in replacement displays for other vehicles and they seem to range from $1k-$1.8k. I think your digi-display justifies that pricing, particularly if it can connect to standalones (hopefully ECU master?) and/or OEM sensors. I would happy though, to ditch the OEM oil pressure sensor and would be happy to require some kind of external signal for the speedometer.\n\n\n\n\n\n\n\n\nhttps://www.summitracing.com/parts/dak-vhx86jwagkr?rrec=true\n\n\n\n\n\n\n\n\nhttps://www.summitracing.com/parts/...hCSARIsAOjVJ4HERfhSVc9UhHruxhd9S7qnBe4FAQvAih4pnHW6VojV_66KjX2Ema0aAkAvEALw_wcB",
+      "post_number": 42
+    },
+    {
+      "author": "Pidude3",
+      "date": "2018-07-24T16:19:54-0400",
+      "content": "@KaminKevCrew\n\n\n\nHaven't been able to find the time to write out a detailed response to your earlier question but \n@Whoosh10\n summarized my thoughts perfectly.",
+      "post_number": 43
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            I call dibs on atomic purple.\n\n\n\n\n\n\n\nAs far as ordering, I've seen many outfits request a non-refundable deposit before production and then full payment once it's done and ready for shipment. I think it would be reasonable for the deposit to cover at least the cost to produce and import. Essentially, whatever money you have to spend to get it to your \"warehouse\" + 5% to 10%. This would be a way to gauge interest and you might find there are far more than 5 interested.\n\n\n\n\n\n\n\nAs far as final pricing, your competitors will be displays from ECU master, Link ect and gauge faces like from Nightrun. I think something closer to digital display pricing would be appropriate. This is essentially a luxury good and probably justifies that kind of pricing. And, it's a niche product. To give you another idea, here's a \"digi\" dash option for an old Wagoneer. Very similar to your idea of a drop in modern version of an old gauge. They have two versions, the earlier simpler one for $1k and another updated one for $1700. These can read off the OBD2, have everything you need including sensors, separate signal converter of sorts and wiring. Digital Dakota has a lot of other drop in replacement displays for other vehicles and they seem to range from $1k-$1.8k. I think your digi-display justifies that pricing, particularly if it can connect to standalones (hopefully ECU master?) and/or OEM sensors. I would happy though, to ditch the OEM oil pressure sensor and would be happy to require some kind of external signal for the speedometer.\n\n\n\n\n\n\n\n\nhttps://www.summitracing.com/parts/dak-vhx86jwagkr?rrec=true\n\n\n\n\n\n\n\n\nhttps://www.summitracing.com/parts/...hCSARIsAOjVJ4HERfhSVc9UhHruxhd9S7qnBe4FAQvAih4pnHW6VojV_66KjX2Ema0aAkAvEALw_wcB\n\n\n\n\nClick to expand...\n\n\n\n\nHaha, I will make sure to put you down for atomic purple!\n\n\n\n\n\n\n\nThank you for the input - that's exactly the sort of thing I needed. I (vaguely) remember coming across the dakota digital gauge clusters when I was first looking to see if anyone had done anything similar to this, but only after your reminder. I also didn't realize they were so expensive! I wonder if they are producing their own housings, or if they're using ones made by someone else and modifying them. Simply adding a couple of screens (which is what it looks like is happening there) shouldn't be too difficult in and of itself. \n\n\n\n\n\n\n\nAs far as compatible ECUs go, I am currently intending to make this cluster compatible with all ECU manufacturers, provided someone (the manufacturer themselves, or the community) have documented the CAN protocol so I can implement it, and there is at least one person who wants to run this dash with that ECU manufacturer. I currently only have access to the ECU in my own car, which is a MaxxECU Race, but I am going to be trying to implement CAN for others from the get-go too, I just might need help from people who have other ECUs in their cars for testing. It will also be compatible with factory sensors as well - at least the ones for the analog gauges. \n\n\n\n\n\n\n\nAn external signal for the speedometer is likely going to be required at this point. I don't think there's much point in me implementing something that has been done already, especially since I would want to make it compatible with the original cables, which are getting harder to get and have a habit of breaking on their own anyway. \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Pidude3 said: \n\n\n\n\n\n\n\n\n\n\n@KaminKevCrew\n\n\n\nHaven't been able to find the time to write out a detailed response to your earlier question but \n@Whoosh10\n summarized my thoughts perfectly.\n        \n\n\nClick to expand...\n\n\n\n\nNo problem - I appreciate it, and I'm happy to hear that it seems the people who are most interested in this are on the same page regarding pricing / pricing for similar products currently on the market.",
+      "post_number": 44
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "I wanted to post a quick update (in addition to the replies above). \n\n\n\n\n\n\n\nI have 'finished' all of the icons now, and completed the full assemblies for the individual gauges. Here's a screenshot!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI even managed to fix the appearance of the coolant gauge. I'm not super stoked about the way the oil temperature and oil pressure gauges look (Oil pressure is traced from the original oil icon on the TEMS gauge, and the oil temperature icon is a combination of modified versions of the oil pressure and coolant temperature icons). \n\n\n\n\n\n\n\nThis also means that the PCBs for all of the gauges are now fully finished in terms of design, so I will likely be ordering samples very soon.\n\n\n\n\n\n\n\nThe todo list is getting shorter! Next up is going to be the indicator PCB, and the motherboard that will run this whole thing.",
+      "post_number": 45
+    },
+    {
+      "author": "MrThankUvryMuch",
+      "date": "2021-09-28T22:13:25-0400",
+      "content": "Nice work! Good to see it coming together\n\n\n\n\n\n\n\nI have an '86.5 on Haltech, if I can help get this developed somehow let me know",
+      "post_number": 46
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "Hoping this works for ECU Master Black. Link contains a DBC file. This is the ECU Master official share-drive so it should be valid and complete.\n\n\n\n\n\n\n\n\nEMU Black - Google Drive\n\n\n\n\n\n\n\nHere it is as a text file. eg.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdit: This one might be hepful too.\n\n\n\n\n\n\n\n\nCANVerter - Google Drive",
+      "post_number": 47
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "MrThankUvryMuch said: \n\n\n\n\n\n\n\n\n\n            Nice work! Good to see it coming together\n\n\n\n\n\n\n\nI have an '86.5 on Haltech, if I can help get this developed somehow let me know\n        \n\n\nClick to expand...\n\n\n\n\n\n\n\n\n\n\n\n                    Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            Hoping this works for ECU Master Black. Link contains a DBC file. This is the ECU Master official share-drive so it should be valid and complete.\n        \n\n\nClick to expand...\n\n\n\n\nThank you both! I will definitely be looking more into both of these as I work through the software development process. \n\n\n\n\n\n\n\nI thought I would post a little update here as it has been a while. The indicator PCB is now finished, and I have \nmost\n of the icon drawings done. There are still some pending, which are just more difficult to draw in CAD. \n\n\n\n\n\n\n\nI also made the decision to add a few of the icons from the TEMS gauge to the indicators gauge (ABS, Check Engine, Tail Light Out), as I am not currently going to be implementing a TEMS gauge. Fortunately, there was just the right amount of room to add those three to the indicators PCB so it all works out, and I'm happy with how it looks below the main gauge. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUp next is the main controller board - which is going to involve a fair amount of figuring as I go. I will continue to update here as I go!",
+      "post_number": 48
+    },
+    {
+      "author": "CallHimHoly",
+      "date": "2025-03-11T13:21:52-0400",
+      "content": "The question is no longer do I want this, it's how can I afford 2 lol. Awesome work! And thanks for your initial reply to me. Seems like you're thinking out all the what ifs which is good for future proofing and the possibility for customization will only extend your audience. Really solid work so far.",
+      "post_number": 49
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "CallHimHoly said: \n\n\n\n\n\n\n\n\n\n            The question is no longer do I want this, it's how can I afford 2 lol. Awesome work! And thanks for your initial reply to me. Seems like you're thinking out all the what ifs which is good for future proofing and the possibility for customization will only extend your audience. Really solid work so far.\n        \n\n\nClick to expand...\n\n\n\n\n I'm glad to hear you're excited about it! It definitely still has a ways to go, but my goal at this point is to have full prototypes of everything in hand before the end of the year, so hopefully I'll be able to figure out pricing and selling these. I have been doing all of the research I need to go through in order to properly implement this main controller board, but that is going well so far!",
+      "post_number": 50
+    },
+    {
+      "author": "Wreckless",
+      "date": "2002-02-13T14:00:00-0500",
+      "content": "This is exactly, and I do mean exactly what I'd dreamed of for my own 87 Turbo for years and years! I can't wait to see the finished result, and I am absolutely in the market for one of these when they get to production!\n\n\n\n\n\n\n\nGreat work, \n@KaminKevCrew\n! 🍺",
+      "post_number": 51
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Wreckless said: \n\n\n\n\n\n\n\n\n\n            This is exactly, and I do mean exactly what I'd dreamed of for my own 87 Turbo for years and years! I can't wait to see the finished result, and I am absolutely in the market for one of these when they get to production!\n\n\n\n\n\n\n\nGreat work, \n@KaminKevCrew\n! 🍺\n        \n\n\nClick to expand...\n\n\n\n\nThank you Wreckless! I am so glad that you and others are excited about this project.\n\n\n\n\n\n\n\nThe power supply prototype board has been ordered, so once that gets here I will assemble one and make sure it's all working as expected. Assuming that all goes well, I can incorporate it into the main control board, and I should be able to order all of the boards (hopefully!) before the end of the month. That will let me go through the bulk assembly of the boards, so I can get real photos / video of everything all together!\n\n\n\n\n\n\n\nHere's a screenshot of the power supply PCB:",
+      "post_number": 52
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Well, it's been about 10 days, and I finally had the chance today to get one of these little boards assembled. It really is incredible what modern electronics are able to achieve. The little IC that runs this whole operation is about half the size of a Micro SD card, but it can supply up to 12A total! That's absolutely mind blowing to me. That whole entire board is only about 1\" (25.4mm) x 2\" (50.8mm) and i am currently bench testing it supplying around 10A at 5V.\n\n\n\n\n\n\n\nAnyway, I wanted to post a little update here, so here are a couple of photos of my (extremely silly) testing setup:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe first photo is a closeup of the power supply itself - it's currently on a bed of thermal compound on a CPU cooler that I had laying around. It would probably overheat and blow up without some kind of external cooling since it's all on such a small board, so I decided to give it some help while I'm essentially torture testing it. \n\n\n\n\n\n\n\nThe second photo is the overall setup - the power supply outputs are connected directly to a 0.5 ohm, 50W power resistor which I am using as the load for testing. Without the cooler on the back of it (also a CPU cooler I had lying around), the resistor would burn up. \n\n\n\n\n\n\n\nAs long as this thing doesn't release the blue smoke here in the next hour or two, I'm going to call it good to go - there's only a couple of minor tweaks I'm going to implement, such as an under voltage cutoff, but that looks like it will be pretty easy to do, per the datasheet!\n\n\n\n\n\n\n\n\n\n\n\nProgress is being made!",
+      "post_number": 53
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "I always get excited when there's an update on this thread. \n\n\n\n\n\n\n\nKeep up the good work!",
+      "post_number": 54
+    },
+    {
+      "author": "CallHimHoly",
+      "date": "2025-03-11T13:21:52-0400",
+      "content": "I'm curious as to what kind of payment method you'd be taking for this? Any ideas? Need to get my wallet ready haha.\n\n\n\n\n\n\n\nAlso, love the torture test set up lol. How are you planning on cooling the power supply PCB? Or is external cooling not needed for what it'll be supplying?",
+      "post_number": 55
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "CallHimHoly said: \n\n\n\n\n\n\n\n\n\n            I'm curious as to what kind of payment method you'd be taking for this? Any ideas? Need to get my wallet ready haha.\n\n\n\n\n\n\n\nAlso, love the torture test set up lol. How are you planning on cooling the power supply PCB? Or is external cooling not needed for what it'll be supplying?\n        \n\n\nClick to expand...\n\n\n\n\nAs far as payment methods go, I’m going to be setting up a full website for these (and any other products I come up with) - probably using a platform like Shopify or SquareSpace, so through them I should be able to take just about any payment method (e.g. card, PayPal, Google Pay, &c).\n\n\n\n\n\n\n\nIn the actual design, the power supply will be integrated into the main board - which means it’s going to have a giant ground plane that will be able to spread the heat (the ground plane on the finished board will be at least 40x bigger), which I anticipate will basically remove the need for external cooling. That being said, I am going to be including provisions for mounting a small heatsink on the chip, just in case (the only thing that actually gets hot is the IC itself) it needs a little bit of help. \n\n\n\n\n\n\n\nAdditionally, the torture test is essentially simulating a situation where the user has selected 100% brightness on white, and they have every LED lit up on every single segment of the cluster - which is totally unrealistic. In normal use, I would anticipate that no more than ~50% of the power budget will be needed. These LEDs are eye-searingly bright at full brightness, so it should all work out well. \n\n\n\n\n\n\n\nIf I really need to, these ICs are designed so they can be synced up to run in parallel (up to 3 of them in parallel), so by simply copying the design two more times, I would have up to 36A @ 5V available - which is a huge amount of power available if needed.",
+      "post_number": 56
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "I have another update today. \n\n\n\nFirst, a more symbolic thing - I officially received my state LLC registration, so there is officially an LLC related to this project now. I haven't gotten around to building anything for the website yet, but it's done and it really feels like a big step, even if it really only took a few minutes to fill out the forms for. \n\n\n\n\n\n\n\nOn a more interesting note, I have a small concept site that gets across the beginning of what I'm thinking as far as how the configuration system will look for the user. To that end, I give you a concept of the configurator for the Fuel Gauge: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is a screenshot, but it's a fully interactive little web page, so it can be configured in real time, and you'll be able to see what it should look like before hitting 'save' to upload the configuration to the gauge cluster. There are definitely still some changes to be made, and I will be making this look more modern (assuming my host controller can handle it), I'm just excited to show something off. \n\n\n\n\n\n\n\nI would show this with a more complete version of the fuel gauge, but Autodesk Fusion has decided that it simply no longer wants to run on my Desktop, so I'm waiting to hear back from Autodesk support. Oh well!\n\n\n\n\n\n\n\nAnyway, I hope you enjoy this mini update. Feedback - as always - is 100% welcome.",
+      "post_number": 57
+    },
+    {
+      "author": "USNGoat",
+      "date": "2011-05-01T18:34:45-0400",
+      "content": "Re: speedo input, accepting either CAN input or a physical signal wire would probably be easiest. For those not running an aftermarket ECU with CAN outputs, they'd need a way to convert the mechanical output to electronic, like the evolving motorsports kit. \n\n\n\n\n\n\n\nThere's also GPS speedo stuff out there. I dont know how reliable those actually are tho.\n\n\n\n\n\n\n\nDefinitely a good idea to get away from the mechanical/cable-driven stuff though.",
+      "post_number": 58
+    },
+    {
+      "author": "SkipShot",
+      "date": "2020-11-21T14:30:37-0500",
+      "content": "WOW, what you younger folks are able to do with Digital just blows me away!\n\n\n\n\n\n\n\nYou're actually going to be selling these?\n\n\n\n\n\n\n\nSkip",
+      "post_number": 59
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "USNGoat said: \n\n\n\n\n\n\n\n\n\n            Re: speedo input, accepting either CAN input or a physical signal wire would probably be easiest. For those not running an aftermarket ECU with CAN outputs, they'd need a way to convert the mechanical output to electronic, like the evolving motorsports kit.\n\n\n\n\n\n\n\nThere's also GPS speedo stuff out there. I dont know how reliable those actually are tho.\n\n\n\n\n\n\n\nDefinitely a good idea to get away from the mechanical/cable-driven stuff though.\n        \n\n\nClick to expand...\n\n\n\n\nI agree - now, the plan is to get my hands on one of those mechanical to electronic converters and basically call it a 'verified' product for anyone who needs to do that conversion. \n\n\n\n\n\n\n\nI may end up supporting a GPS speedometer if there's enough demand (in the same way as the mechanical to electronic converter, where there's a 'verified' one but others may also work), but GPS antennas really require line of sight to the sky in order to work well, and I wouldn't want to have to tell people they have to cut a hole in their dashboard in order to get a reliable speedometer going.\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    SkipShot said: \n\n\n\n\n\n\n\n\n\n            WOW, what you younger folks are able to do with Digital just blows me away!\n\n\n\n\n\n\n\nYou're actually going to be selling these?\n\n\n\n\n\n\n\nSkip\n        \n\n\nClick to expand...\n\n\n\n\nI appreciate it Skip! Yeah, the goal is to get this built up to a fully finished product so I can sell them.",
+      "post_number": 60
+    },
+    {
+      "author": "MrThankUvryMuch",
+      "date": "2021-09-28T22:13:25-0400",
+      "content": "KaminKevCrew said: \n\n\n\n\n\n\n\n\n\n            I agree - now, the plan is to get my hands on one of those mechanical to electronic converters and basically call it a 'verified' product for anyone who needs to do that conversion.\n\n\n\n\n\n\n\nI may end up supporting a GPS speedometer if there's enough demand (in the same way as the mechanical to electronic converter, where there's a 'verified' one but others may also work), but GPS antennas really require line of sight to the sky in order to work well, and I wouldn't want to have to tell people they have to cut a hole in their dashboard in order to get a reliable speedometer going.\n        \n\n\nClick to expand...\n\n\n\n\nFWIW, the T56 kit only supports a GPS speedo to adapt to the mechanical stock cluster and it's a pretty popular transmission option for our cars. I have it if you need any questions answered. I sneak my GPS receiver through the driver side trim that covers the fuses, up through the door and it sits outside on my cowl.",
+      "post_number": 61
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "I think a generic single pulse input is fine. R154 guys can slap on a different sensor that converts it from a speedo cable to an electric signal for $50. Also, trigger wheels can be added to driveshafts or even use the ABS sensors. Standalones can adjust to any output and I bet the GPS sensors can output a given pulse as well. So, I think all we need is a single input for vehicle speed on the board. The user can figure out how to create the speed signal. \n\n\n\n\n\n\n\nThe only other thing I'll add is the ability to adjust the scale between pulse and speed (8k pulse per mile, 16k ect).",
+      "post_number": 62
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "MrThankUvryMuch said: \n\n\n\n\n\n\n\n\n\n            FWIW, the T56 kit only supports a GPS speedo to adapt to the mechanical stock cluster and it's a pretty popular transmission option for our cars. I have it if you need any questions answered. I sneak my GPS receiver through the driver side trim that covers the fuses, up through the door and it sits outside on my cowl.\n        \n\n\nClick to expand...\n\n\n\n\nInteresting - I have a Grannas T56 kit in my car too (I love it!). Now that I think about it, I think I was planning to use one of the front wheel speed sensors as an undriven wheel speed input and the rear wheel speed sensor for a driven wheel input as a way to implement traction control. \n\n\n\n\n\n\n\nI guess you don't actually have to implement a wheel speed sensor for an aftermarket ECU to function, so I'll need to noodle on that a little more. To Whoosh's point though, it may be worth just having a pulsed input available and let the user decide how they want to handle it. Do you know if the GPS sensor outputs the GPS data (presumably requiring a UART serial connection) or if it just sends out pulses? I never opted for the sensor thing because I wasn't planning to use it for my car. \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            I think a generic single pulse input is fine. R154 guys can slap on a different sensor that converts it from a speedo cable to an electric signal for $50. Also, trigger wheels can be added to driveshafts or even use the ABS sensors. Standalones can adjust to any output and I bet the GPS sensors can output a given pulse as well. So, I think all we need is a single input for vehicle speed on the board. The user can figure out how to create the speed signal.\n\n\n\n\n\n\n\nThe only other thing I'll add is the ability to adjust the scale between pulse and speed (8k pulse per mile, 16k ect).\n        \n\n\nClick to expand...\n\n\n\n\nI appreciate the input Whoosh - yes, I'm definitely going to make the pulse count to speed adjustable. In addition to the 'fun' parts of the configuration site (for the gauges), I am going to have a more basic looking page for all of the other configuration that needs to happen - that way I can keep it as widely compatible as possible.",
+      "post_number": 63
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "T56 doesn't have a speed sensor? \n\n\n\n\n\n\n\nI thought the GPS thing was only there to get the mechanical speedo working.",
+      "post_number": 64
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            T56 doesn't have a speed sensor?\n\n\n\n\n\n\n\nI thought the GPS thing was only there to get the mechanical speedo working.\n        \n\n\nClick to expand...\n\n\n\n\nI thought mine had a speed sensor on it, but it's also been ~5 years since I looked at it and over 2 years since my car has actually been running, so I just don't remember. Either way it should be easy enough to set up though so I'm not too worried about it.",
+      "post_number": 65
+    },
+    {
+      "author": "SkipShot",
+      "date": "2020-11-21T14:30:37-0500",
+      "content": "MrThankUvryMuch\n \n\n\n\n\"FWIW, the T56 kit only supports a GPS speedo to adapt to the mechanical stock cluster and it's a pretty popular transmission option for our cars. I have it if you need any questions answered. I sneak my GPS receiver through the driver side trim that covers the fuses, up through the door and it sits outside on my cowl.\"\n\n\n\n\n\n\n\nThere's a fella here at the shop that pulled a T56 Magnum out of his 69 SYC Camaro Tribute that's dang near new... has less than 500 miles.\n\n\n\nReally serious about swapping my R154 for this if the price is right. Gonna offer $2k 😳. He hasn't given me a number yet so I'll start the negotiations off with that.\n\n\n\n\n\n\n\nSkip",
+      "post_number": 66
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "I have another update today. I've been working through the website configurator thing, and I finally got all of the gauges implemented, with all of their colors configurable. Below is a screenshot of what that's looking like from the overview page: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI still need to work through the lower level programming on the microcontroller side, but it's pretty satisfying to see what it will look like with all of the configurable colors. \n\n\n\n\n\n\n\nI am thinking of putting this configurator online for people to mess around with / give feedback on, but I'm not sure if anyone would be interested enough for that to be worth doing on my end. Anyway, this whole deal is still moving forward - one step at a time.",
+      "post_number": 67
+    },
+    {
+      "author": "CallHimHoly",
+      "date": "2025-03-11T13:21:52-0400",
+      "content": "KaminKevCrew said: \n\n\n\n\n\n\n\n\n\n            I have another update today. I've been working through the website configurator thing, and I finally got all of the gauges implemented, with all of their colors configurable. Below is a screenshot of what that's looking like from the overview page:\n\n\n\n\nView attachment 323851\n\n\n\n\n\n\n\n\n\nI still need to work through the lower level programming on the microcontroller side, but it's pretty satisfying to see what it will look like with all of the configurable colors.\n\n\n\n\n\n\n\nI am thinking of putting this configurator online for people to mess around with / give feedback on, but I'm not sure if anyone would be interested enough for that to be worth doing on my end. Anyway, this whole deal is still moving forward - one step at a time.\n        \n\n\nClick to expand...\n\n\n\n\nI think at the point that you're already selling them, yeah it'd probably be useful. Would make it feel a bit more tangible being able to see the possibilities before buying. A promo video/pics could get the same point across, but that somehow feels a bit more unique. Now getting that set up, I can't imagine would be super easy. Or maybe it is, I'm not sure exactly what you're using as a configurator. If you think that'd be some useful feedback, then maybe setting it up would be worth it. Great progress.",
+      "post_number": 68
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "CallHimHoly said: \n\n\n\n\n\n\n\n\n\n            I think at the point that you're already selling them, yeah it'd probably be useful. Would make it feel a bit more tangible being able to see the possibilities before buying. A promo video/pics could get the same point across, but that somehow feels a bit more unique. Now getting that set up, I can't imagine would be super easy. Or maybe it is, I'm not sure exactly what you're using as a configurator. If you think that'd be some useful feedback, then maybe setting it up would be worth it. Great progress.\n        \n\n\nClick to expand...\n\n\n\n\nI appreciate it! I think I'll wait for now - I'm still not totally happy with it. I definitely will put it up once I'm selling these. I know I would want to mess around with a configurator if I had just ordered one of these but have to wait for shipping. \n\n\n\n\n\n\n\nI'm definitely hoping to do some sort of promo video for this, but we will see if that pans out. There will definitely be documentation and install instructions and whatnot. I have always disliked how so many automotive products just sort of expect you to figure it out, so I will definitely be making some instructions.",
+      "post_number": 69
+    },
+    {
+      "author": "chevydude",
+      "date": "2002-11-06T13:20:05-0500",
+      "content": "KaminKevCrew said: \n\n\n\n\n\n\n\n\n\n            There will definitely be documentation and install instructions and whatnot. I have always disliked how so many automotive products just sort of expect you to figure it out, so I will definitely be making some instructions.\n        \n\n\nClick to expand...\n\n\n\n\nThe Great Mystery smiles upon you.",
+      "post_number": 70
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "I have an exciting update today! I have spent the last few days working away on the firmware. It's finally at a point that I basically need to actually have the gauges in front of me to be able to do anything more meaningful. To that end, I will be doing a once over on the gauges tomorrow, making a couple of small changes and then I'll be ordering the 'production prototype' gauges. I also will need to do the control board design, but that shouldn't take more than a couple of days. Thankfully through my testing these last couple of days, I have come to the conclusion that I don't need any more hardware than expected. \n\n\n\n\n\n\n\nSo things are really moving forward!",
+      "post_number": 71
+    },
+    {
+      "author": "USNGoat",
+      "date": "2011-05-01T18:34:45-0400",
+      "content": "I am super excited to see how this turns out. Such a cool project.",
+      "post_number": 72
+    },
+    {
+      "author": "SupraForged",
+      "date": "2017-01-13T04:39:49-0500",
+      "content": "Looking awesome man, can't wait. You know the suspension gauge on the OG digidash? what if you made the same thing except it showed tire pressure? Just a thought, I love the retro glowing car.",
+      "post_number": 73
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "SupraForged said: \n\n\n\n\n\n\n\n\n\n            Looking awesome man, can't wait. You know the suspension gauge on the OG digidash? what if you made the same thing except it showed tire pressure? Just a thought, I love the retro glowing car.\n\n\n\n\n\n\n\n\nView attachment 324029\n\n\n\n\nClick to expand...\n\n\n\n\nIf there's enough demand for it, I'll make it. \n\n\n\n\n\n\n\nI've experimented with the suspension gauge (I call it the TEMS gauge) before, and it's a super difficult thing to make, due to both the detail needed, and the proximity of those details to each other. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA while ago I did some experimenting with the TEMS gauge, and the only one that still had the center of the car in the piece is the one you see here - and that's just because there's so much nylon powder in there that it can't come out. \n\n\n\n\n\n\n\nHopefully there will be enough demand that I can justify making a few more gauges - that would be really fun for me, and give people the opportunity to get the exact thing they wanted. As it stands, this is a pretty modular design, so there's no telling what the future may hold.",
+      "post_number": 74
+    },
+    {
+      "author": "robted",
+      "date": "2024-02-21T16:16:06-0500",
+      "content": "This is awesome work so far dude. I will definitely buy a set once there available. I will need a right hand drive version. Its been a dream of mine to have a digital dash for my mk3 supra. I made a post about this in the mk3 supra uk owners chat group on facebook and many people there are interested in your work, i left a link to this thread. Thankyou for your dedication to this project.",
+      "post_number": 75
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "robted said: \n\n\n\n\n\n\n\n\n\n            This is awesome work so far dude. I will definitely buy a set once there available. I will need a right hand drive version. Its been a dream of mine to have a digital dash for my mk3 supra. I made a post about this in the mk3 supra uk owners chat group on facebook and many people there are interested in your work, i left a link to this thread. Thankyou for your dedication to this project.\n        \n\n\nClick to expand...\n\n\n\n\nThank you for the kind words! It really is humbling to see people post about their excitement for my work here.\n\n\n\n\n\n\n\nI just found your post on the UK group, and I saw you made a comment about the Tein EDFC system being integrated in place of the original TEMS gauge - let's just say that exact idea has been on my mind for some time \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAs an update, I've order the final production prototypes for the coolant gauge. I needed to switch to an LED I haven't used before (which should be a drop in replacement, per the datasheet), as the manufacturer is out of stock of the LEDs I have been using. This shouldn't be an issue, as these are mainly to ensure that final fit and finish is good enough. The final production versions will all use the same single type of LED, so that I can ensure color consistency across batches.\n\n\n\n\n\n\n\nOnce I've verified that the LEDs are in fact a drop in replacement, I'll be ordering the rest of the boards for the gauge cluster, which will allow me to build the full production assembly of all gauges.\n\n\n\n\n\n\n\nI am currently working on creating the housing in CAD - a friend of mine owns a 3D scanner and was willing to scan an original housing for me, so I have that as a reference that I can work with now. I should have that finished in the next few days, so I'll post again once it's good to go!",
+      "post_number": 76
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Alright, making a simple housing went quite a bit quicker than I initially anticipated, so here's a screenshot!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is without the front cover, and it doesn't have all of the mounting points finalized - the gauges are essentially floating in there. But, I was too excited to not show a screenshot of the progress! (Fusion is weird, and I don't know why it doesn't show lighting for the fuel and coolant gauges - it should be there)\n\n\n\n\n\n\n\nOne big hurdle that's left is going to be figuring out the vent situation. Ideally, I would like to figure out a way to manufacture new vents, to simplify installation - the originals use some thin plastic tabs, and I'm sure there would be some real risk of breakage for anyone trying to transfer them over. At the same time, I'm not sure how feasible it really is to make the vents either - they're pretty precise, and have some very fine features, making 3d printing not exactly ideal. I also don't want to change their original design much, if at all, because the whole point of this project is to make it look like it could have come in the car from factory. If anyone has any ideas for this, I'm all ears. Maybe there are some aftermarket vents with similar dimensions to the originals that I could just design an adapting duct for? \n\n\n\n\n\n\n\nAnyway, I am currently 3d printing this housing (in segments!), and once that's done I'll be inspecting the fit in my car to see how much adjustment is needed (likely a lot!).",
+      "post_number": 77
+    },
+    {
+      "author": "robted",
+      "date": "2024-02-21T16:16:06-0500",
+      "content": "I love the new render, The project gets more real every time you post updates.  I'm glad your interested in the TEIN EDFC integration idea, there's so many ways to take your design to a perfect dash layout, the screens seem very modular in design and could be arranged however you design them, depending on other limitations. \n\n\n\n\n\n\n\nI was also wondering if possible, if you could create a digital Odometer Which is located to the right of the indicators gauge like the OEM digi dash. Or could it be integrated into the Trip counter next to the speed indicator? This is needed for us UK owners to pass MOT inspections. If possible, being able to program existing mileage into the odometer would be great also.\n\n\n\n\n\n\n\nI think finding a suitable donor analog  cluster would be easy enough, to take parts like the vents and even the clear plastic cover front piece from. I'm sure the vents could be transplanted with a careful approach. I would be happy to provide you with a right hand drive analog cluster when your ready for a right hand drive version. \n\n\n\n\n\n\n\nMany Thanks for your efforts!",
+      "post_number": 78
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "About those vents, here are my suggestions.\n\n\n\n\n\n\n\n1. Is it possible to reproduce the part that typically breaks or provide a repair part? That would be a simpler solution that re-creating the whole thing. \n\n\n\n\n\n\n\n2. We have JB weld. I don't think it would be unreasonable expectation for the installer to fix whatever breaks when transferring the vents over. So, perhaps you don't need to address it at all.\n\n\n\n\n\n\n\n3. Non-adjustable or limited functions vent. Something that looks about right but is easy to make. \n\n\n\n\n\n\n\n4. Walmart has these generic vents. Searching for \"square dash vent auto\" came up with some other options too. We'd also have to consider attaching the ducting.",
+      "post_number": 79
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "robted said: \n\n\n\n\n\n\n\n\n\n            I love the new render, The project gets more real every time you post updates.  I'm glad your interested in the TEIN EDFC integration idea, there's so many ways to take your design to a perfect dash layout, the screens seem very modular in design and could be arranged however you design them, depending on other limitations.\n\n\n\n\n\n\n\nI was also wondering if possible, if you could create a digital Odometer Which is located to the right of the indicators gauge like the OEM digi dash. Or could it be integrated into the Trip counter next to the speed indicator? This is needed for us UK owners to pass MOT inspections. If possible, being able to program existing mileage into the odometer would be great also.\n\n\n\n\n\n\n\nI think finding a suitable donor analog  cluster would be easy enough, to take parts like the vents and even the clear plastic cover front piece from. I'm sure the vents could be transplanted with a careful approach. I would be happy to provide you with a right hand drive analog cluster when your ready for a right hand drive version.\n\n\n\n\n\n\n\nMany Thanks for your efforts!\n        \n\n\nClick to expand...\n\n\n\n\nThank you for the kind words! \n\n\n\n\n\n\n\nYeah - I have Fortune Auto coilovers on my car, but Fortune Auto offers a system similar to the Tein EDFC, so it's something that has always been on my mind. Plus, from looking at their design, and the design of the original TEMS system - I'm 90% sure they're just stepper motors mounted to the top of the coilovers, which just turn the adjustment knob. That means I should (in theory) be able to design a controller that is compatible with \nany\n coilover system which uses a single adjustment knob at the top of the coilover. That's where I'd like to get to (especially considering how annoying it can be to get to the rear coilover adjustment knobs in these cars). \n\n\n\n\n\n\n\nCurrently, the plan is to use the trip meter to double as an odometer - that's why I added two extra digits. The idea is that if 'A' or 'B' are illuminated, then that trip meter is currently being displayed. If neither are illuminated, then that means the odometer is being displayed. I am planning to allow programming of existing mileage - it's something I would want for my own car, as I'd like to know what the real mileage on the chassis is without having to keep track of what the original mileage was when installed. For a digital system, this involves some extra trickery, but I believe I have a solution for it. Adding a dedicated odometer is possible, depending on requirements (does the UK require 0.1 mile increments, or is 1 mile resolution okay?). \n\n\n\n\n\n\n\nRequiring a donor is something I've considered, and most people who buy this are likely to be removing an analog cluster which probably have useable vents and a useable cover. I would like to avoid this requirement for a few reasons - chief among them is that I don't want to require people to take apart (and potentially break) something that has a finite number still available. I also want this to be as much of a drop in replacement as possible - the user should (ideally) be able to simply drop the steering wheel down as far as it goes, remove the top shroud from the underside of the dash, and unscrew the original cluster. After unplugging, they should be able to reverse the process with the new one, configure settings via their phone or laptop, and be good to go. Ideally, this should take less than 30 minutes to do. Another concern is that the original front covers have a subtle curve to them that's not going to be easy to replicate - I'd like to use all new parts just for the ease of integration - if I have exact dimensions in CAD, it's a lot easier to design everything to fit together. Unfortunately even with a 3d scan, injection molded parts are just extremely difficult to replicate (basically nothing is square on any injection mold). \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            About those vents, here are my suggestions.\n\n\n\n\n\n\n\n1. Is it possible to reproduce the part that typically breaks or provide a repair part? That would be a simpler solution that re-creating the whole thing.\n\n\n\n\n\n\n\n2. We have JB weld. I don't think it would be unreasonable expectation for the installer to fix whatever breaks when transferring the vents over. So, perhaps you don't need to address it at all.\n\n\n\n\n\n\n\n3. Non-adjustable or limited functions vent. Something that looks about right but is easy to make.\n\n\n\n\n\n\n\n4. Walmart has these generic vents. Searching for \"square dash vent auto\" came up with some other options too. We'd also have to consider attaching the ducting.\n        \n\n\nClick to expand...\n\n\n\n\nThe part I'm specifically concerned about is here: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt's a pair of thin plastic tabs that are injection molded as part of the front cover. If I require that people remove these vents to use with the new cluster, there's a good chance these tabs will snap, which means if you wanted to go back to the original cluster for whatever reason, you'd basically have to permanently glue the vents back in. For the cluster I pulled apart, I don't recall breaking these tabs, but I was being extremely careful, and I just don't think it's reasonable to expect every customer to be as careful as I was (besides, accidents happen). \n\n\n\n\n\n\n\nOption 3 is definitely something I've been considering. That would be relatively easy to integrate into the overall design, and would look the part. The main consideration here for me is that I know people have very different preferences when it comes to directing air. I personally love having AC blow on my arms and face when driving in the summer. I have several friends who \nhate\n that experience. I'd like to accommodate as many people as possible - though I do recognize that most MK3 Supras at this point are probably only driven by one person these days. That may mean that I can design two static vents - one for direct airflow, and one for indirect - that customers can choose at checkout, but I still think a more traditional adjustable design would be ideal. \n\n\n\n\n\n\n\nThat image of the walmart vent is intriguing. I could probably pop off the rear housing there, and 3d print up something that would be a direct replacement which could line up directly with the factory ducting behind the dash. I may investigate that - especially if there is a double version available.",
+      "post_number": 80
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "Another idea is to create option 3 regardless and allow the housing to accept the OEM vents. This would allow people to retain OEM vents if they'd like or opt for a fixed version if they're more comfortable with that. You could also sell the fixed vents separately as replacements for the OEM ones.",
+      "post_number": 81
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "Also, I have a Tein EDFC system. It can act just as a manual controller, but its main benefit is as an active suspension, meaning it controls compression on the fly based on various sensors in the little control unit. I really don't see anyway to sensibly integrate that into the gauge cluster other than giving it a little home for the box or gutting the box and really getting into the nitty gritty of its display unit. Maybe TEIN would be willing to help out though, because a little display in the digi dash for that would be incredible. \n\n\n\n\n\n\n\nThe TEIN system can also actively control rebound. I'm tempted to inquire on a custom coilover setup that could take advantage of that.",
+      "post_number": 82
+    },
+    {
+      "author": "robted",
+      "date": "2024-02-21T16:16:06-0500",
+      "content": "KaminKevCrew said: \n\n\n\n\n\n\n\n\n\n            Thank you for the kind words!\n\n\n\n\n\n\n\nYeah - I have Fortune Auto coilovers on my car, but Fortune Auto offers a system similar to the Tein EDFC, so it's something that has always been on my mind. Plus, from looking at their design, and the design of the original TEMS system - I'm 90% sure they're just stepper motors mounted to the top of the coilovers, which just turn the adjustment knob. That means I should (in theory) be able to design a controller that is compatible with \nany\n coilover system which uses a single adjustment knob at the top of the coilover. That's where I'd like to get to (especially considering how annoying it can be to get to the rear coilover adjustment knobs in these cars).\n\n\n\n\n\n\n\nCurrently, the plan is to use the trip meter to double as an odometer - that's why I added two extra digits. The idea is that if 'A' or 'B' are illuminated, then that trip meter is currently being displayed. If neither are illuminated, then that means the odometer is being displayed. I am planning to allow programming of existing mileage - it's something I would want for my own car, as I'd like to know what the real mileage on the chassis is without having to keep track of what the original mileage was when installed. For a digital system, this involves some extra trickery, but I believe I have a solution for it. Adding a dedicated odometer is possible, depending on requirements (does the UK require 0.1 mile increments, or is 1 mile resolution okay?).\n\n\n\n\n\n\n\nRequiring a donor is something I've considered, and most people who buy this are likely to be removing an analog cluster which probably have useable vents and a useable cover. I would like to avoid this requirement for a few reasons - chief among them is that I don't want to require people to take apart (and potentially break) something that has a finite number still available. I also want this to be as much of a drop in replacement as possible - the user should (ideally) be able to simply drop the steering wheel down as far as it goes, remove the top shroud from the underside of the dash, and unscrew the original cluster. After unplugging, they should be able to reverse the process with the new one, configure settings via their phone or laptop, and be good to go. Ideally, this should take less than 30 minutes to do. Another concern is that the original front covers have a subtle curve to them that's not going to be easy to replicate - I'd like to use all new parts just for the ease of integration - if I have exact dimensions in CAD, it's a lot easier to design everything to fit together. Unfortunately even with a 3d scan, injection molded parts are just extremely difficult to replicate (basically nothing is square on any injection mold).\n        \n\n\nClick to expand...\n\n\n\n\nI was thinking of mounting the TEIN EDFC into the cluster itself as the EDFC has tons of feature like dynamic control and gps, it may be better to the route you suggested as fitting the controller into the cluster would require a custom redesign of the front and back cover. but this is the part i would like to integrate:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt would be cool if the digi dash TEMs suspension indictor could communicate with the EDFC or Fortune Auto controller and be used to display the current setting like the TEMs did, but this might be a coding nightmare and be far outside of the scope of your project, plus I don't have the first idea of how it would work either.\n\n\n\n\n\n\n\nYour idea for the odometer is great, if its integrated into the trip counter that saves having to build an additional module just for mileage, it depends how close you will want to get to the look of the OEM digi cluster. \n\n\n\nthe MOT test only needs to count to the nearest mile which I think is how the standard supra cluster has it anyway, 6 digits is enough. Being able to program the miles is super cool too\n\n\n\n\n\n\n\nAs for the front cover clear piece, Vacuum forming a new one might be possible with a mold buck. I know PCBway can make crystal clear parts but they might be resin, its a tricky one for sure. All these design challenges are a reason why no one dared to tackle re-creating this dash.\n\n\n\n\n\n\n\nI think heating the Vent tabs with a hair dryer or hot air gun prier to separation should do the trick, however I do prefer your plug and play Mantra and hope alternatives can be found to potentially accidentally damaging decent parts.",
+      "post_number": 83
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "If there is a TEMS like display in the housing, instead of directly controlling the motors, it could just \"sense\" the voltage off the motors depending on what the windings are doing.\n\n\n\n\n\n\n\nMy EDFC system is basically set and forget and is placed exactly where the TEMS controller used to be. Unfortunately, because of its placement there's no good way to monitor what the suspension is doing.",
+      "post_number": 84
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            Another idea is to create option 3 regardless and allow the housing to accept the OEM vents. This would allow people to retain OEM vents if they'd like or opt for a fixed version if they're more comfortable with that. You could also sell the fixed vents separately as replacements for the OEM ones.\n        \n\n\nClick to expand...\n\n\n\n\nThis may be the best way to go - it would certainly be the easiest from a design perspective, as it means I don't have to worry about all of the fiddly little pieces that make a vent function.\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            Also, I have a Tein EDFC system. It can act just as a manual controller, but its main benefit is as an active suspension, meaning it controls compression on the fly based on various sensors in the little control unit. I really don't see anyway to sensibly integrate that into the gauge cluster other than giving it a little home for the box or gutting the box and really getting into the nitty gritty of its display unit. Maybe TEIN would be willing to help out though, because a little display in the digi dash for that would be incredible.\n\n\n\n\n\n\n\nThe TEIN system can also actively control rebound. I'm tempted to inquire on a custom coilover setup that could take advantage of that.\n        \n\n\nClick to expand...\n\n\n\n\nI was not aware that the EDFC is active, and adjusts the suspension based on what the car is actually doing. That's pretty cool, and basically means it does what the TEMS system originally did, right? I believe the original TEMS system only allowed the user to switch between soft and medium modes, and would activate a hard mode during hard cornering. \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    robted said: \n\n\n\n\n\n\n\n\n\n            I was thinking of mounting the TEIN EDFC into the cluster itself as the EDFC has tons of feature like dynamic control and gps, it may be better to the route you suggested as fitting the controller into the cluster would require a custom redesign of the front and back cover. but this is the part i would like to integrate:\n\n\n\n\n\n\n\nIt would be cool if the digi dash TEMs suspension indictor could communicate with the EDFC or Fortune Auto controller and be used to display the current setting like the TEMs did, but this might be a coding nightmare and be far outside of the scope of your project, plus I don't have the first idea of how it would work either.\n\n\n\n\n\n\n\nYour idea for the odometer is great, if its integrated into the trip counter that saves having to build an additional module just for mileage, it depends how close you will want to get to the look of the OEM digi cluster.\n\n\n\nthe MOT test only needs to count to the nearest mile which I think is how the standard supra cluster has it anyway, 6 digits is enough. Being able to program the miles is super cool too\n\n\n\n\n\n\n\nAs for the front cover clear piece, Vacuum forming a new one might be possible with a mold buck. I know PCBway can make crystal clear parts but they might be resin, its a tricky one for sure. All these design challenges are a reason why no one dared to tackle re-creating this dash.\n\n\n\n\n\n\n\nI think heating the Vent tabs with a hair dryer or hot air gun prier to separation should do the trick, however I do prefer your plug and play Mantra and hope alternatives can be found to potentially accidentally damaging decent parts.\n        \n\n\nClick to expand...\n\n\n\n\nVacuum forming may work - and I am planning to explore that for the rear housing, so it may be worth trying for the front housing as well. One of my concerns there, as pertains to the front cover, is that the buck would have to be basically perfectly smooth and uniform. Any sort of aberration will be easily visible, and I'd like it to appear visually perfect so as to not distract from the gauges inside. I'm also not sure how I would cut out the final shape of the housing / front cover after vacuum forming, as I'd rather not sit around for hours manually cutting them out from the base sheet. At the same time, they would no longer be flat, so figuring out fixturing for cutting them out could be complicated too. \n\n\n\n\n\n\n\nThe problem with resin 3d prints (PCBWay uses resin prints, then coats them in a clear lacquer) is that they're cured by UV light. If they're being used as a front cover, it will potentially be exposed to quite a bit of UV light, which will cause significant yellowing over time - this is especially a concern if I were to sell these to people in California / Florida / Australia, where there's a fairly high likelihood of customers removing the targa top on a nice day (this is less of an issue for you in the UK, and me in Washington). \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            If there is a TEMS like display in the housing, instead of directly controlling the motors, it could just \"sense\" the voltage off the motors depending on what the windings are doing.\n\n\n\n\n\n\n\nMy EDFC system is basically set and forget and is placed exactly where the TEMS controller used to be. Unfortunately, because of its placement there's no good way to monitor what the suspension is doing.\n        \n\n\nClick to expand...\n\n\n\n\nThis is a good point that I hadn't thought of - assuming the EDFC is using stepper motors, it may be possible to tap into the step / direction communication that is typically used to communicate with stepper motor drivers, and that could allow me to see exactly what the EDFC is doing. Otherwise, I might (as you pointed out) be able to read from the wires going to the motor directly and count pulses. Additionally, I could potentially design an encoder that can be mounted on the back of one of the motors to read the position of the motor and determine the settings from that. \n\n\n\n\n\n\n\nAll of that will definitely have to wait until I get the initial version with just the gauges out, as I will need to see what the real demand is to determine how much extra time is worth investing. That being said, there's really been a lot of great feedback in this thread, and I've been very happy to see the positive response in the UK group from robted's post.",
+      "post_number": 85
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "Exactly, it's like a modern TEMs system. It does wirelessly communicate with some modules, so perhaps another way to \"read\" off the system, but reading the voltage off the motors seems like a solution that could work with FA remote setup and EDFC. \n\n\n\n\n\n\n\nAnyways, when/if you ever get there I'd be happy to help. I think I even found the specs for the motors at one point.",
+      "post_number": 86
+    },
+    {
+      "author": "chevydude",
+      "date": "2002-11-06T13:20:05-0500",
+      "content": "Hear now. A couple things on keeping it simple. I'm just looking at the pic of the EDFC, as such I see a \"Power On\" icon next to the \"mode\" button. So, I'm guessing the active suspension can be turned on and off. I think a simple TEMS light lighting up when the EDFC is turned on would be fine, and much less work figuring  out. Where the end user decides to install the EDFC is up to them.\n\n\n\n\n\n\n\nAs for the vent tabs breaking, a lot of cars don't change their design of simple effective parts. There might be newer Toyota parts that are the same,or just about the same save a user slight trimming. Food for thought.",
+      "post_number": 87
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "chevydude said: \n\n\n\n\n\n\n\n\n\n            Hear now. A couple things on keeping it simple. I'm just looking at the pic of the EDFC, as such I see a \"Power On\" icon next to the \"mode\" button. So, I'm guessing the active suspension can be turned on and off. I think a simple TEMS light lighting up when the EDFC is turned on would be fine, and much less work figuring  out. Where the end user decides to install the EDFC is up to them.\n\n\n\n\n\n\n\nAs for the vent tabs breaking, a lot of cars don't change their design of simple effective parts. There might be newer Toyota parts that are the same,or just about the same save a user slight trimming. Food for thought.\n        \n\n\nClick to expand...\n\n\n\n\nAs it stands right now, I am not planning to put anything dedicated to TEMS / adaptive suspension in the design. I definitely will explore it later on, but I don't want to end up delaying the launch of the gauge cluster for a feature that (I assume) relatively few people can take advantage of. When I do implement it, I'll definitely be exploring options for implementation. In the mean time, there will definitely be a feature in the firmware to set an indicator to a 'TEMS' light - I may even replace the catalytic converter over temp light with an image of a coilover for the 'TEMS' light, as I believe only cars in Japan actually came with that warning light (please correct me if I'm wrong).\n\n\n\n\n\n\n\nThe problem with the tabs is that you would need a whole new front plastic (the black part), as the tabs themselves are on that side - the vents only have the notches on them. If the tabs broke, it may be possible to design a clever piece of plastic that glues onto the broken tabs, but that would be a very fiddly task. \n\n\n\n\n\n\n\nI do have an update: I printed out that simple shell I made, and test fit it in the car. It doesn't quite fit yet, and definitely needs some massaging, but it sure was satisfying to give it a test fit: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe holes even pretty much line up! I need to angle the backside on the bottom in more, and I need to bring the right side of the bottom section in to clear the HVAC controller, but this first shot was honestly way closer than I could have expected. All 3 of the top mounting tabs even slid right into the slots they're meant to fit in!",
+      "post_number": 88
+    },
+    {
+      "author": "SupraForged",
+      "date": "2017-01-13T04:39:49-0500",
+      "content": "I need it!!",
+      "post_number": 89
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "It's been almost a week since the last update, so I figure it's about time that I update everyone on my progress. \n\n\n\n\n\n\n\nI've been working on a few things:\n\n\n\nFirst, I printed out a revised version of the cluster housing, and even printed out the gauge mounts, and some light guides just to get an idea of how everything is going to fit together: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI have test fit this housing in the car, but that was before the mounts and guides were finished printing, so I didn't bother taking any photos on account of it basically looking the same as before (though the fit was better).\n\n\n\n\n\n\n\nI am also not 100% happy with what Fusion 360 was giving me when converting the scanned mesh to a solid body, so I have decided to go back through the mesh in Blender to see if preprocessing it before sending it off to Fusion will give me better results. I have never used Blender for anything serious before, so there's a massive learning curve and it might take me a while to get to a result that I'm happy with. Currently, the plan is work on both the model I already have in Fusion as well as this one, to see which I am happier with in the end, and I'll use that. This also gives me solid experience for working with Blender to preprocess meshes, which I'm sure will be invaluable in the future. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNext up, I've been building the site where I am going to sell these. Currently it's very much a rough draft, but it's starting to come together. I have expanded on the configuration functionality a little bit, just to add some fun for people to mess around with once the page it up. There's now a way to quick select between a number of themes - I think in the final firmware, I will add a way for users to save themes they've come up with, because they shouldn't take up too much storage, and I think it would be nice to be able to save your favorite themes. Anyway, here's a couple of screenshots of two of the (not final) themes: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOh, there is also a simple animation that can be turned on now if you want watch everything sweep across the screen. \n\n\n\n\n\n\n\nFinally, I have been modeling out the connector receptacles for the factory wiring harness. The nice thing is that these are actually relatively simple to make. They take some time to model, just because there's a bunch of somewhat tedious measuring involved, but it should be pretty simple to use these models in the final product. Test fitting has gone well, and they feel extremely secure. I just have one more that I need to model up. Here's an example: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI am still waiting for the Coolant Gauge production prototype board to arrive so I can ensure that the LEDs the manufacturer had on hand are, in fact drop in replacements. As long as they are, I will order the rest of the boards immediately afterword, as well as the production prototype light guides. Once all of that arrives, things should get much more exciting - and I should be able to show the cluster powered up in the car. \n\n\n\n\n\n\n\nI thought this would be a significantly shorter update, but I guess I've been keeping busy. There's (obviously) still more to come, but I have found that making these posts keeps me pretty motivated, so I will continue keeping everyone updated.",
+      "post_number": 90
+    },
+    {
+      "author": "S2000JsGTWidebody",
+      "date": "2024-06-17T18:04:45-0400",
+      "content": "Simply amazing and can't wait to buy this. \n\n\n\n\n\n\n\nCount me in for rocking the OE vents, couple broken tabs is not hard to fix. Having said that a full replacement vents option would be awesome too since one of mine doesn't adjust so well anymore.",
+      "post_number": 91
+    },
+    {
+      "author": "MrThankUvryMuch",
+      "date": "2021-09-28T22:13:25-0400",
+      "content": "The more this is developing the less I want to put all the time and effort to adapt my OE digi dash to LHD. Crazy work, those lighting presets look great especially the pink setup. Fully customizable would be incredible",
+      "post_number": 92
+    },
+    {
+      "author": "robted",
+      "date": "2024-02-21T16:16:06-0500",
+      "content": "This is getting very exciting. Every update is a treat. 2026 should turn out a great year if all goes well, JDM Style Digital Dash, New JDM rear tail lights. The Mk3 Supra is getting the respect it deserves. Thanks Kev for everything you are doing.",
+      "post_number": 93
+    },
+    {
+      "author": "USNGoat",
+      "date": "2011-05-01T18:34:45-0400",
+      "content": "JDM tail lights? Where's that?",
+      "post_number": 94
+    },
+    {
+      "author": "robted",
+      "date": "2024-02-21T16:16:06-0500",
+      "content": "USNGoat said: \n\n\n\n\n\n\n\n\n\n            JDM tail lights? Where's that?\n        \n\n\nClick to expand...\n\n\n\n\nFacebook group for lights is: \nSupra Mk3 USR Tail Lights & More",
+      "post_number": 95
+    },
+    {
+      "author": "Enraged",
+      "date": "2001-10-05T00:02:02-0400",
+      "content": "I may have missed it in the thread, but any plans for canbus support? I'm running an ECUMaster Black, and I made a simple canbus gauge with a Lilygo T-Panel, using the EMUCan github: \nGitHub - designer2k2/EMUcan: ECUMaster EMU CAN Stream Reader Arduino Library",
+      "post_number": 96
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Enraged said: \n\n\n\n\n\n\n\n\n\n            I may have missed it in the thread, but any plans for canbus support? I'm running an ECUMaster Black, and I made a simple canbus gauge with a Lilygo T-Panel, using the EMUCan github: \nGitHub - designer2k2/EMUcan: ECUMaster EMU CAN Stream Reader Arduino Library\n\n\n\n\nClick to expand...\n\n\n\n\n100%! I am planning to implement full CANBus support for several ECUs. Currently, I own a MaxxECU Race - so that's going to be the development ECU for now, but once that's up and running I will be working on implementing the CAN spec for other brands as well - Currently, I'm thinking (in no particular order) about Haltech, Link, ECUMasters, MaxxECU (obviously), and probably one or two others that I'm not remembering off the top of my head (it has been mentioned somewhere). I am also thinking about creating the ability to add custom CAN IDs for any oddball stuff out there, but I'm not sure if that would be terribly useful. I'm basically planning to implement the CAN protocol for any ECU that anyone is running in their car as long as the documentation is publicly available. \n\n\n\n\n\n\n\nI want to support as many people running this in their car as I possibly CAN (pun \nmaybe\n intended).\n\n\n\n\n\n\n\nI should really consider updating the first post to include a feature list / roadmap, but I haven't gotten around to anything like that. It would probably be helpful to at least clear up some of the FAQs.",
+      "post_number": 97
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "The coolant gauges have arrived, and they are working as expected - which means those LEDs are in fact drop in replacements for the LEDs I've been planning to use - at least for final prototyping! I don't have any photos yet, and am not at home at the moment so I can't show anything off, but I have verified that they are indeed working. \n\n\n\n\n\n\n\nUnfortunately, once I was able to verify that those LEDs work, they were no longer in stock! I have been checking their site every couple of days to see if those LEDs have been restocked. This morning they were in fact back in stock, so I was able to place an order for the rest of the boards! That means they will likely be here within the next week or two, at which point I'll be able to mount them up in a test cluster and actually see how everything lights up and looks in the car.",
+      "post_number": 98
+    },
+    {
+      "author": "robted",
+      "date": "2024-02-21T16:16:06-0500",
+      "content": "I don't want to clog up this thread with my ramblings but I'm very much looking forward to seeing this prototype lit up in the supra. I check back here multiple times a day looking for any morsel of an update. This is the best supra project to happen in decades. JDM rear 3 piece light replacements I could always see someone doing eventually but a new Digital dash, I never thought that would happen. Thanks Kev you Rock!",
+      "post_number": 99
+    },
+    {
+      "author": "USNGoat",
+      "date": "2011-05-01T18:34:45-0400",
+      "content": "I agree. Been checking and trying not to make a similar post, lol. \n\n\n\n\n\n\n\nPlus my factory gauge cluster is mostly inop currently due to 1JZ + standalone swap, so I've been putting off getting it all wired back up because this super dope digital dash i heard about might be coming someday soon...",
+      "post_number": 100
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "Good news, a company is making complete taillight replacements of several varieties including JDM. Should be available this summer, at least in the states.",
+      "post_number": 101
+    },
+    {
+      "author": "MrThankUvryMuch",
+      "date": "2021-09-28T22:13:25-0400",
+      "content": "USNGoat said: \n\n\n\n\n\n\n\n\n\n            I agree. Been checking and trying not to make a similar post, lol.\n\n\n\n\n\n\n\nPlus my factory gauge cluster is mostly inop currently due to 1JZ + standalone swap, so I've been putting off getting it all wired back up because this super dope digital dash i heard about might be coming someday soon...\n        \n\n\nClick to expand...\n\n\n\n\nYeah... Hear that. My tach still doesn't work in my 2J swap, pretty sure I fried it trying the resistor mod. Ready and waiting 🤞",
+      "post_number": 102
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "I appreciate everyone's support! I may have said this before, but if I knew how much work this whole deal was going to be when I started this project, I probably would never have taken it on. Now I only spend basically every waking moment thinking about it! \n\n\n\n\n\n\n\nUnfortunately, I don't have any major updates I can really show off at the moment. The boards were all ordered, and there was a bit of a SNAFU (my fault) regarding the main gauge (the one with the tachometer / speedometer) where some old fabrication export files made it into the order, so the layers didn't all line up properly. Thankfully, my manufacturer caught the issue, and I was able to figure out what went wrong and resolve it. Unfortunately, that took several days to resolve due mainly to time zone differences. But, the boards are now nearly finished being made, then the manufacturer will assemble the boards, which will take a few more days. After that, shipping from China usually takes about 3 days via DHL, so I expect I will have more of an update in a week or a week and a half. \n\n\n\n\n\n\n\nIn the meantime, I have been working more on the firmware side of things, and I am currently able to change the colors on the coolant gauge (the only board I have right now) in real time via the webpage hosted by the ESP32! I am working on setting up a second ESP32 to function as a CAN provider so that I can make sure I am able to get the gauge cluster to read from a CANBus correctly. This should let me emulate the functionality of all of the ECUs I am planning to support from the get-go, though I will probably need access to cars running those ECUs for 100% confirmed functionality. Maybe one day I'll be able to keep one of each on a rack so I can test in house, but that's not in the cards at the moment. \n\n\n\n\n\n\n\nI am also working on the full mainboard to control all of this (right now I'm just using a CAN-enabled ESP32 module called RejsaCAN). \n\n\n\n\n\n\n\nAdditionally, my car does not have a factory oil pressure sender, so if anyone happens to know what the resistance values are on that, I would be very grateful to know so I can select the correct resistors for that voltage divider! \n\n\n\n\n\n\n\nI hope that will suffice for an update!",
+      "post_number": 103
+    },
+    {
+      "author": "Asterix",
+      "date": "2002-09-13T09:19:51-0400",
+      "content": "The stock oil pressure sender is not a resistance that changes with pressure. It's a switch that switches depending on pressure: faster for higher pressure. Read about it \nhere\n.",
+      "post_number": 104
+    },
+    {
+      "author": "Tommallama",
+      "date": "2025-05-10T10:42:58-0400",
+      "content": "So apologies if already addressed but any chance you will be making the firmware available or have some means of folks rolling their own? Say if I want to use different fuel level sender that works opposite of the MK3's? Or if I want to use a speedo sender that uses some goofy number of pulses per whatever?\n\n\n\n\n\n\n\nLoving the concept so far but some of us are for sure going to end up with some weird configuration and if we want to go this route (and we do) it would be nice to not have to reach back for experimentation of some of our wacky ideas.\n\n\n\n\n\n\n\n-Tommy",
+      "post_number": 105
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Asterix said: \n\n\n\n\n\n\n\n\n\n            The stock oil pressure sender is not a resistance that changes with pressure. It's a switch that switches depending on pressure: faster for higher pressure. Read about it \nhere\n.\n        \n\n\nClick to expand...\n\n\n\n\nThank you for letting me know - I was not aware of that, and will need to look into it further. Do you know if the Oil Pressure signal gets sent to the factory ECU in addition to the OEM cluster? If not, I could probably find a more typical sender and include that in the box as a plug and play replacement, depending on how difficult it is to interpret the original signal (though I don't think it should be too bad to figure out). \n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Tommallama said: \n\n\n\n\n\n\n\n\n\n            So apologies if already addressed but any chance you will be making the firmware available or have some means of folks rolling their own? Say if I want to use different fuel level sender that works opposite of the MK3's? Or if I want to use a speedo sender that uses some goofy number of pulses per whatever?\n\n\n\n\n\n\n\nLoving the concept so far but some of us are for sure going to end up with some weird configuration and if we want to go this route (and we do) it would be nice to not have to reach back for experimentation of some of our wacky ideas.\n\n\n\n\n\n\n\n-Tommy\n        \n\n\nClick to expand...\n\n\n\n\nI don't \nthink\n I've specifically addressed this anywhere yet (but this thread is getting to be kind of long in terms of both time and number of posts!), but this is something I have waffled back and forth on a lot. \n\n\n\n\n\n\n\nBasically, there will be a lot of flexibility built in. I may even double up the inputs so that anyone can use any modern sensor to drive any gauge they want, though I haven't fully explored that yet. Pulses per anything are pretty easy to allow adjustment for, and that is something I specifically will be supporting in the factory firmware to accommodate different wheel / tire / diff / transmission choices. For something like a fuel level sender, it seems like most of the MK3 sensors used a rather low resistance range compared to what modern sensors use (please correct me if I'm wrong here), so I would need to build basically an extra set of voltage dividers to support modern sensors in addition to the original ones. This is not something that I am specifically against, but I haven't come to a concrete decision on that. Without a second set of dividers, a signal is liable to either not be read at all, or blow something up - neither of which is a particularly desirable outcome in my experience!",
+      "post_number": 106
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "Oil pressure signal goes to the gauge only. OEM ECU is completely blind to oil pressure.\n\n\n\n\n\n\n\nI for one, would be happy to move away from the stock oil pressure sender. I believe aftermarket ECUs can't read it, but I know my ECU master can't. Assuming the cluster could scale the oil gauge for our sensor of our choice, would that simplify things on the design side or would it be easier to build it for a specific sensor or style of sensor?",
+      "post_number": 107
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Whoosh10 said: \n\n\n\n\n\n\n\n\n\n            Oil pressure signal goes to the gauge only. OEM ECU is completely blind to oil pressure.\n\n\n\n\n\n\n\nI for one, would be happy to move away from the stock oil pressure sender. I believe aftermarket ECUs can't read it, but I know my ECU master can't. Assuming the cluster could scale the oil gauge for our sensor of our choice, would that simplify things on the design side or would it be easier to build it for a specific sensor or style of sensor?\n        \n\n\nClick to expand...\n\n\n\n\nGood to know - that definitely makes it a lot more reasonable to replace the oil pressure sender. \n\n\n\n\n\n\n\nAs far as the design side of things go, neither is terribly difficult on the software side of things. Basically, I need to enter all of the data for one sensor to function correctly, so making that a field that the user can update is not hard to do at that point, as long as the sensor itself has roughly similar characteristics (which basically all modern sensors do, in terms of their output signal). \n\n\n\n\n\n\n\nI think probably the way to go there then would be to have a 'recommended' sensor - which is just a sensor that I've verified works well; but give users the ability to set up their own sensor if desired.\n\n\n\n\n\n\n\nConsidering that this gauge cluster will have an oil temperature gauge, I'm also thinking about including a little harness that would allow users to connect up one of those Bosch combo temperature / pressure sensors (I am using one for fuel pressure and temperature on my car). That would give everyone a pretty simple way to get both oil related gauges up and running. Unfortunately, as far as I'm aware, those sensors only exist with M10 threads, and therefore would need an adapter. \n\n\n\n\n\n\n\nThat would, of course, come with the ability to run a more typical, stand alone pressure sensor as well.",
+      "post_number": 108
+    },
+    {
+      "author": "SupraMikeCT",
+      "date": "2004-04-04T14:50:26-0400",
+      "content": "Whoosh10 said: \n\n\n\n\n\n\n\n\n\n\n \"Oil pressure signal goes to the gauge only. OEM ECU is completely blind to oil pressure.\"\n\n\n\n\nClick to expand...\n\n\n\n\n   ^  All years GTE the oil pressure sender's negative pulses are an input to the stock ecu, see below.   Why, I don't know. I started a post years ago asking  what it actually would do if there was no oil pressure input to the ecu.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n            https://www.supraforums.com/threads/purpose-of-oil-pressure-input-on-turbo-ecu.1126409/",
+      "post_number": 109
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "My bad, I should have reviewed the TSRM more closely, but thanks for catching that SupraMike",
+      "post_number": 110
+    },
+    {
+      "author": "3p141592654",
+      "date": "2005-09-29T21:08:24-0400",
+      "content": "The Oil pressure input is used as part of the evaluation of stress on the engine (low pressure indicating high temperatures).  Under high stress conditions the ECU goes into a limp mode to try to reduce engine temperature and load. It can be eliminated without any impact as far as I can tell from my studies of the ECU code.",
+      "post_number": 111
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "A small update: the boards are in the US now - DHL is currently saying that they will be delivered on Thursday, but they've been stuck in Los Angeles due to 'extreme weather' for the last two days (as far as I can tell, the weather has been pretty tame all over the west coast) so we will see if that continues to happen or not. I am prepping a gauge cluster right now to be able to test fit everything and light it up, so keep an eye out for that.",
+      "post_number": 112
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "The boards arrived today: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI still have a few things I need to do before I can assemble everything. Namely, I need to solder connectors on the back of all the boards, build the harnesses for everything, and finish printing out all of the other components. That should at least let me show off some photos / video of the whole thing wired up in an enclosure and lit up. I’m hoping to do that by Monday next week. \n\n\n\n\n\n\n\nStay tuned…",
+      "post_number": 113
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Alright, I'm still waiting on some screws for the assembly in the prototype enclosure (which I also need to be able to fully assemble everything), but I'm too excited to not share this. I'll show more once everything is fully assembled into the prototype cluster housing (I'm currently waiting on some screws to show up), but here's a quick teaser photo:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt's cropped in a little, but these LEDs are SUPER bright - Oh, and they're only running at 50% in this photo.",
+      "post_number": 114
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "The community will appreciate another set of interior lights.",
+      "post_number": 115
+    },
+    {
+      "author": "USNGoat",
+      "date": "2011-05-01T18:34:45-0400",
+      "content": "I will no longer need to fix my busted dome light!\n\n\n\n\n\n\n\nJoking, of course.",
+      "post_number": 116
+    },
+    {
+      "author": "KaminKevCrew",
+      "date": "2021-06-09T13:33:12-0400",
+      "content": "Alright, I didn't quite get around to putting the whole cluster into the car yet, but here are a couple of photos of the gauge cluster in the dark. It is uncomfortably bright in the dark, and easily should be daylight readable. \n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThey look a little blurry because I don't have any acrylic pushing that plastic film down firmly onto each gauge, and because I don't have the acrylic with all of the icons added to it. The exciting thing is that every gauge is wired up and working, the whole cluster is able to run through some smooth animations, and it's all mounted in a prototype gauge cluster! I am also able to change the colors on the gauge via the web interface. I am so close to being able to actually release this thing.\n\n\n\n\n\n\n\nI'll be sure to take a short video with a real camera tomorrow with this thing bolted into the car so you can actually get an idea of what it will look like!\n\n\n\n\n\n\n\nEdit: If you look \nvery\n closely, you'll see that the shadows on the speedometer digits aren't correctly set up. That has now been fixed, and will show up correctly in the video tomorrow.",
+      "post_number": 117
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2021-05-17T09:17:16-0400",
+      "content": "Even in its prototype form, it looks sooo good.",
+      "post_number": 118
+    },
+    {
+      "author": "MrThankUvryMuch",
+      "date": "2021-09-28T22:13:25-0400",
+      "content": "Duuuuuuude! You're so much closer than I thought. Excellent work",
+      "post_number": 119
+    },
+    {
+      "author": "robted",
+      "date": "2024-02-21T16:16:06-0500",
+      "content": "This is amazing work so far. Im looking forward to seeing the video of it lit up in OEM colors. Awesome stuff Kev!",
+      "post_number": 120
+    },
+    {
+      "author": "traingeek2000",
+      "date": "2018-08-09T12:46:21-0400",
+      "content": "Incredible stuff!! I knew I was right to not fix my oil pressure gauge",
+      "post_number": 121
+    },
+    {
+      "author": "edbods",
+      "date": "2021-10-11T02:57:55-0400",
+      "content": "MPH is in caps but km/h is all lowercase...literally UNUSABLE.\n\n\n\n\n\n\n\nJokes aside, I know the dash has a shroud above it to reduce outside glare, but I wonder how the LEDs will appear in broad daylight. One neat thing about VFDs were that they were still very visible even when the sun was shining on them. Still looks cool as hell.",
+      "post_number": 122
+    },
+    {
+      "author": "USNGoat",
+      "date": "2011-05-01T18:34:45-0400",
+      "content": "It's been a week. Any news?",
+      "post_number": 123
+    },
+    {
+      "author": "robted",
+      "date": "2024-02-21T16:16:06-0500",
+      "content": "It's been a week. Any news?\n        \n\n\nClick to expand...\n\n\n\n\nwith respect, Patience is a requirement in projects, it will happen when it happens. We are lucky Kev is even doing this at all, if it takes another year then thats how long I will wait, No worries",
+      "post_number": 124
+    },
+    {
+      "author": "edbods",
+      "date": "2021-10-11T02:57:55-0400",
+      "content": "OH FOR CRYING OUT LOUD IT'S BEEN \nlooks at watch\n FIVE MINUTES WHERE THE HELL'S THE DISPLAYS ALREADY",
+      "post_number": 125
+    }
+  ],
+  "crawled_at": "2026-02-15T20:46:47.453216+00:00"
+}

@@ -32,13 +32,13 @@ const SECTION_DESCRIPTIONS: Record<string, string> = {
   D: "Appendix D",
 };
 
-export default function SectionGrid({ sections }: { sections: SectionInfo[] }) {
+export default function SectionGrid({ sections, model }: { sections: SectionInfo[]; model: string }) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {sections.map((section) => (
         <Link
           key={section.code}
-          href={`/${section.code}`}
+          href={`/${model}/${section.code}`}
           className="block border border-gray-200 rounded-lg p-4 hover:border-red-500 hover:shadow-md transition-all group"
         >
           <div className="flex items-baseline gap-2 mb-1">

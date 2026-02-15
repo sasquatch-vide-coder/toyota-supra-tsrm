@@ -1,0 +1,6 @@
+{
+  "page_id": "FA-32",
+  "section_header": "FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension",
+  "title": "Troubleshooting No. 2: No anti-squat function",
+  "ocr_text": "Troubleshooting No. 2: No anti-squat function\n\nInitial check\n(See page FA-30)\n\nDo TEMS indicator lights indicate as shown below on sudden acceleration?\n\nIgnition ON\nDo not start\nengine\n\nSudden\nacceleration\n\nLights\nPosition | S | M | F | S | M | F\nNormal | ON | OFF | OFF | ON | ON | ON\nSport | ON | ON | OFF | ON | ON | ON\n\nYes → Road test again.\n\nNo ↓\n\nCheck throttle position sensor and engine ECU circuit.\nBad → Repair or replace.\n\nOK ↓\n\nCheck speed sensor and circuit.\nBad → Repair or replace.\n\nOK ↓\n\nTry another TEMS computer."
+}

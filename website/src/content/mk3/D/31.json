@@ -1,0 +1,6 @@
+{
+  "page_id": "8",
+  "section_header": "TOYOTA SUPRA (Cont'd)",
+  "title": "A.B.S. (Anti-Lock Brake System)",
+  "ocr_text": "8 TOYOTA SUPRA (Cont'd)\n\nA.B.S. (Anti-Lock Brake System)\n\nA.B.S. ACTUATOR\n\n[Diagram shows three connector types labeled A, B, and C BLACK with their pin configurations]\n\nFrom \"GAUGE\" Fuse (3 2)\nFrom A/T Indicator SW (8 3)\nFrom A/T Indicator SW (14 3)\nFrom \"ECU-IG\" Fuse (3 4)\n\nA.B.S ACTUATOR\nL-O\nR-B\n\nMTR   MTR   FL   SRR  SRFR  SFL\n\nA.B.S COMPUTER\nMTR   MTR   FL   SRR  SRFR  SFL   ABT   LP   P-L   R-L   +1B   BATT\n\nA.B.S. SPEED SENSOR (REAR)\nA.B.S. SPEED SENSOR (FRONT LEFT)\nA.B.S. SPEED SENSOR (FRONT RIGHT)\n\nGround points\na - Located on left fender\nb - Located on engine block\nc - Located under left front pillar\nd - Located under"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "FA-40",
+  "section_header": "FRONT AXLE AND SUSPENSION — TOYOTA Electronic Modulated Suspension",
+  "title": "",
+  "ocr_text": "2. INSPECT STEERING SENSOR ASSEMBLY\n(a) Turn the ignition switch on, and measure the voltage between steering sensor connector terminals 1 and 2.\nStandard voltage: 3.5 — 4.2 volts\n\n(b) Measure the voltage between steering sensor connector terminals 3, 4 and 2 wheel slowly turning the steering wheel.\nStandard voltage: 5V — OV — 5V — OV\nIf not as shown above, either the circuit between the computer and steering sensor is shorted or the steering sensor is faulty.\n\n3. REMOVE STEERING SENSOR AND DISC\n(See page SR-7)\n\n4. INSPECT STEERING SENSOR AND DISC\n(a) Check that there is no foreign matter in the groove of the sensor. If necessary, clean out the groove with a soft cloth.\n\n(b) Check that the sensor disc is not bent and that no dirt or foreign matter are adhering.\n\n5. INSTALL STEERING SENSOR AND DISC\n(See page SR-12)\n\nMode Select Switch\n\nINSPECT SWITCH CONTINUITY\n(a) Remove the mode select switch from the center console box.\n(b) Disconnect the mode select switch connector.\n(c) Check that there is continuity between terminals 1 and 2 when mode select switch is \"Sport\" position.\n(d) Check that there is no continuity between terminals 1 and 2 when mode select switch is \"Normal\" position."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "RA-51",
+  "section_header": "REAR AXLE AND SUSPENSION — Differential (Differential Case)",
+  "title": "",
+  "ocr_text": "4. INSPECT SPRING FREE LENGTH\nMeasure the free length of the spring.\nLimit: 31.3 mm (1.232 in.)\n\nSELECT ADJUSTING SHIM\n\n1. MEASURE RH CASE\nMeasure the RH case as shown in the figure.\n\"A\" = Case dimension.\n\n2. MEASURE SIDE GEAR, THRUST WASHER AND CLUTCH PLATE\n(a) Assemble the side gear, thrust washers and clutch plates on the side gear.\nHINT: Do not assemble the adjusting shims.\n(b) Using SST to press down the thrust washers and clutch plates with about 10 kg (22 lb) of pressure, measure dimension \"B\".\nSST 09726-35010\nTotal shim thickness C:\n\"C\" = \"A\" - \"B\" - 16.15 mm (0.6358 in.)\n(c) Referring to the section table on the next page select the proper adjusting shims.\nHINT: The thrust washer attached to the outside of the side gear is marked from A to M according to thickness. This part is used only during assembly at the factory and therefore is neither a supply part, nor does it have a part number.\nDuring repair, install the selected adjusting shim (marked A through E) between the outermost thrust washer and case."
+}

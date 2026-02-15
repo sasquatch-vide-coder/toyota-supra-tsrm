@@ -1,0 +1,6 @@
+{
+  "page_id": "EM-35",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "REMOVAL OF CYLINDER HEAD",
+  "ocr_text": "REMOVAL OF CYLINDER HEAD\n(See pages EM-32, 33)\n\n1. REMOVE ALTERNATOR\n(a) Disconnect the No.3 PCV hose.\n(b) Remove the drive belt.\n(c) Remove the alternator and adjusting bar.\n\n2. (7M-GTE)\nREMOVE PS RESERVOIR TANK\nRemove the two bolts, nut and reservoir tank with bracket.\n\n3. (7M-GTE)\nREMOVE CAM POSITION SENSOR\n\n4. REMOVE AIR INTAKE CHAMBER WITH CONNECTOR\n(a) Remove the PCV pipe.\n(b) Disconnect the following connectors:\n• (7M-GE)\nCold start injector connector\n• Throttle position sensor connector\n• ISC valve connector\n(c) Disconnect the following hoses:\n• BVSV hose from throttle body\n• EGR hoses from throttle body\n• Vacuum transmitting pipe hoses from intake chamber\n• Pressure regulator hose\n• PS air hose\n• (7M-GTE)\nVSV hoses (for FPU)\n• (7M-GE)\nDiaphragm hose\n• (7M-GTE)\nAuxiliary air pipe hose from vacuum transmitting pipe hose\n• No.1 water by-pass hose from ISC valve\n• (7M-GE)\nNo.3 water by-pass hose from throttle body\n• (7M-GTE)\nNo.3 water by-pass hose from water by-pass pipe\n(d) Remove the EGR pipe mounting bolts.\n(e) Remove the manifold stay mounting bolts."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-71",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "Center Airbag Sensor Assembly Malfunction",
+  "ocr_text": "Diag.Code    31    Center Airbag Sensor Assembly Malfunction\n\nCIRCUIT DESCRIPTION\n\nThe center airbag sensor assembly consists of a center airbag sensor, safing sensors, ignition control and drive circuit, diagnosis circuit, etc.\nIt receives signals from the airbag sensors, judges whether or not the airbag must be activated, and diagnoses system malfunction.\nDiagnostic code 31 is recorded when occurrence of a malfunction in the center airbag sensor assembly is detected.\n\nCode No.                           Diagnosis\n31        · Center airbag sensor assembly malfunction.\n\nDIAGNOSTIC CHART\n\nHINT: When a malfunction code other than code 31 is displayed at the same time, first repair the malfunction indicated by the malfunction code other than code 31.\n\n1    Is diagnostic code 31 output again?    NO → Using simulation method, reproduce malfunction symptoms (See page AB-32).\n     ↓\n     YES\n     ↓\n     Replace center airbag sensor assembly."
+}

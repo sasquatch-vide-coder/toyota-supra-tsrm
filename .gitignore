@@ -1,12 +1,14 @@
 # Environment / secrets
 .env
 .env.*
+*_api.txt
+*.key
 
 # Processing pipeline data (not needed for website)
-data/raw/
-data/diagrams/
-data/processed/
-data/forum/
+data/*/raw/
+data/*/diagrams/
+data/*/processed/
+data/*/forum/
 
 # Python
 __pycache__/

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function LandingSearchBar() {
+export default function LandingSearchBar({ model }: { model: string }) {
   const [query, setQuery] = useState("");
   const router = useRouter();
 
@@ -11,7 +11,7 @@ export default function LandingSearchBar() {
     e.preventDefault();
     const trimmed = query.trim();
     if (trimmed.length >= 2) {
-      router.push(`/search?q=${encodeURIComponent(trimmed)}`);
+      router.push(`/${model}/search?q=${encodeURIComponent(trimmed)}`);
     }
   };
 

@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "thread_id": "1136796",
+    "title": "Fuel Leak?",
+    "url": "https://www.supraforums.com/threads/fuel-leak.1136796/",
+    "author": "A70bier",
+    "date_posted": "2026-02-08T18:13:03-0500",
+    "reply_count": 11,
+    "view_count": 81,
+    "is_sticky": false
+  },
+  "posts": [
+    {
+      "author": "A70bier",
+      "date": "2026-02-15T14:35:04-0500",
+      "content": "Hello, I recently purchase an 87 Supra, and I'm addressing it's issues. My mine issue is a fuel leak towards the front. Smells pretty strong. While trying to pinpoint the leak I saw this line that doesn't look like it's connected to anything and may be leaking fluid onto my return fuel line. Any insight on what this lines is? Could it be the fuel leak culprit, or a brake line??",
+      "post_number": 1
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2026-02-08T21:35:09-0500",
+      "content": "Could be Evap line? \n\n\n\n\n\n\n\nDo you see fuel leakage or just smell it?",
+      "post_number": 2
+    },
+    {
+      "author": "A70bier",
+      "date": "2026-02-09T06:33:57-0500",
+      "content": "Could be an Evap line, and I definitely smell gas but I need to clean the engine bay. Hard to know if its just oil, grime, or gas stains. I had tire put on and the tech showed me the fuel return line had what he thought was gas on it but after looking at it from above it might just be coming from that line (Evap?)",
+      "post_number": 3
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2026-02-09T09:08:39-0500",
+      "content": "Evap line would just have gas fumes, no leaks. In my experience, a disconnected Evap line smells worse on hot days. \n\n\n\n\n\n\n\nIn all likelihood, your fuel return line needs to be addressed. The soft hose is likely toast and/or the clamping situation is not the best. Is your setup OEM? You might be able to order parts from the dealer (ideal).",
+      "post_number": 4
+    },
+    {
+      "author": "Bruder",
+      "date": "2026-02-09T11:38:07-0500",
+      "content": "It's definitely a hydraulic line with that grey pipe and hex nut.  Did someone run a aftermarket flexible hose for the clutch and leave this hanging unused? There is a union for 2 pipes near this location on the frame wall.  If you want to diagnose your fuel leak, you can power up the fuel pump without starting the engine by jumping Fp and +B in the diagnostic block behind the fuse box behind the battery. The ignition key needs to be in the on position, but not running, or cranking. Have a fire extinguisher nearby just in case. It only takes a few moments for the system to pressure up.  Use your fingers to touch places like where the fuel damper connects to the rail, and other joints and smell for gas.  A mistake often made is to reuse the copper washers that seal these connections. They are only soft once and reusing them makes them harder resulting in an increased chance for leakage.  I can provide a list of part numbers if you want to replace all of these. The dealer still has them.  Torque connections to spec. You can check for codes using the method found in the \nonline manual\n.",
+      "post_number": 5
+    },
+    {
+      "author": "A70bier",
+      "date": "2026-02-10T05:59:38-0500",
+      "content": "I'll be putting due into my tank today and hopefully I can find it without running the pump, but thank you for the info incase that doesn't do it. I'll also look into whether a flexible hose was used for the clutch.",
+      "post_number": 6
+    },
+    {
+      "author": "3p141592654",
+      "date": "2026-02-10T18:55:46-0500",
+      "content": "This is the complete pressurized fuel system under the hood.  You should be able to trace it all out with a flashlight.",
+      "post_number": 7
+    },
+    {
+      "author": "A70bier",
+      "date": "2026-02-10T19:13:12-0500",
+      "content": "Turns out it's the fuel injectors. The dye didn't show up anywhere except around the injectors. Hopefully they just need to be resealed, and the leak will be addressed. I'll be replacing the rubber fuel lines, but I'd rather addressed the leak immediately and glad to know the rubber lines aren't leaking... yet. I appreciate all the help!",
+      "post_number": 8
+    },
+    {
+      "author": "3p141592654",
+      "date": "2026-02-10T19:58:01-0500",
+      "content": "Good job hunting that down. Its a littler cramped around the fuel rail best to remove the throttle body. Also lube the o-rings with motor oil so they don't bind up and tear (again?).",
+      "post_number": 9
+    },
+    {
+      "author": "A70bier",
+      "date": "2026-02-14T15:12:08-0500",
+      "content": "I've got the injectors out... Two of the gaskets are stuck in the block... Any recommendations on how to get these out other than scrapping them out and hoping they don't get into the cylinder?",
+      "post_number": 10
+    },
+    {
+      "author": "Whoosh10",
+      "date": "2026-02-14T22:18:42-0500",
+      "content": "Use something like this. Maybe steal some from your dentist.",
+      "post_number": 11
+    },
+    {
+      "author": "3p141592654",
+      "date": "2026-02-15T14:35:04-0500",
+      "content": "When I last did my injectors I got some dirt down the holes and that made me super nervous.  I think its almost impossible to avoid unless your engine is squeaky clean.  Mine had lots of oily gunk all over the head and manifold. So I hooked up a some small diameter tygon tubing to the shop vac and I actually vacuumed out the crap through the hole.  I used a borescope to check it was clean. So you might as well start picking at it and once its removed vacuum out the junk that fell in. To be super anal you could put that cylinder on TDC so that the valves are closed. \n\n\n\n\n\n\n\nBased on the picture it almost looks like some sort of sealant was added to those seals.  That may explain the degraded rubber and difficulty removing them.  Old seals are usually very hard but come out in one piece in my experience.",
+      "post_number": 12
+    }
+  ],
+  "crawled_at": "2026-02-15T20:46:49.259285+00:00"
+}

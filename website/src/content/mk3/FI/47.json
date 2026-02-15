@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-47",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GE)",
+  "title": "",
+  "ocr_text": "California vehicles only\n\nCheck Connector\nV+\nE1, TE1\n\nECU\nVF\nTE1\nOX1\nOX2\nH1\n+B (+B1)\nE1\n\nOxygen Sensor\nSub-Oxygen Sensor\nSub-Oxygen Sensor Heater\n\nFI3383\n\n1. There is no voltage between ECU terminals VF1 and E1.\n\nECU\nVoltmeter\nV\nE1\nVF1\n\n2. There is specified voltage between ECU terminal VF1 and body ground.\nNO\nOK\nCheck wiring between ECU terminal E1 and body ground.\nOK\nBAD\nTry another ECU.\nRepair or replace.\n\nFI2947\n\nSST\n\nCheck Connector\nE1\nTE1\nV+\nVF1\n\nVoltmeter\nV\nSST\n\nFI4210\nFI4209\n\nCheck for suction of air into exhaust system.\nBAD\nRepair air suction.\nOK\nCheck for air leak from air intake system.\nBAD\nRepair air leak.\nOK\nCheck spark plugs.\nBAD\nRepair or replace.\nOK\nCheck distributor and ignition system.\nBAD\nRepair or replace.\nOK\nCheck fuel pressure.\nBAD\nRepair or replace.\nOK\nCheck injectors.\nBAD\nRepair or replace.\nOK\nCheck cold start injector. *\nBAD\nRepair or replace.\nOK\nCheck air flow meter.\nBAD\nRepair or replace.\nOK\nCheck operation of oxygen sensors.\nOK\nSystem normal.\nBAD\nCheck wiring between oxygen sensors and ECU connectors.\nBAD\nRepair wiring.\nOK\nReplace oxygen sensors.\n\n* Rich malfunction only"
+}

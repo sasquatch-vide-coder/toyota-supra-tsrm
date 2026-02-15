@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-39",
+  "section_header": "AIR CONDITIONING SYSTEM — A/C Control Panel Assembly",
+  "title": "",
+  "ocr_text": "AIR CONDITIONING SYSTEM — A/C Control Panel Assembly\n\nAC-39\n\n[Diagram showing A/C Control Panel Assembly circuit with Resistance A component]\n\nAC1846\n\nControl Button\n\nA/C | FRS/REC | Mode Control | Blower Speed | Resistance (Ω) | Terminal ② | Voltage (V)\nON | REC | AUTO | AUTO | 620 | 8 | 1 or less\n | | | | | 7 | 12 or more\nOFF | | | | | 19 | 1 or less\n | | | | | 8 | 12 or more\n\nIf the voltage is not as specified, replace the A/C control panel assembly."
+}

@@ -1,68 +1,94 @@
 import Link from "next/link";
-import SectionGrid from "@/components/SectionGrid";
-import LandingSearchBar from "@/components/LandingSearchBar";
+import { MODELS } from "@/lib/models";
 import { loadSections } from "@/lib/sections";
 
 export default function LandingPage() {
-  const sections = loadSections();
-  const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
-
   return (
     <div className="min-h-screen">
-      {/* ─── Hero ─── */}
+      {/* Hero */}
       <section className="relative bg-gray-900 overflow-hidden">
-        {/* Diagonal accent line */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] bg-red-600/[0.04] rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-600/40 to-transparent" />
         </div>
 
         <div className="relative max-w-5xl mx-auto px-6 pt-24 pb-20 text-center">
-          {/* Document code tag */}
           <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-8 border border-gray-700 rounded-full text-xs tracking-widest uppercase text-gray-500">
             <span className="w-1.5 h-1.5 rounded-full bg-red-600" />
             Technical Service Repair Manual
           </div>
 
-          {/* Title block */}
           <h1 className="mb-4">
             <span className="block text-7xl sm:text-8xl font-black tracking-tighter text-red-600 font-mono">
               TSRM
             </span>
             <span className="block mt-3 text-xl sm:text-2xl font-light text-gray-300 tracking-wide">
-              MK3 Toyota Supra
+              Toyota Supra
             </span>
           </h1>
 
           <p className="max-w-lg mx-auto text-gray-500 text-sm leading-relaxed mb-12">
-            The complete 1990 factory service manual — digitized, searchable,
-            and modernized. {sections.length} sections, {totalPages.toLocaleString()} pages
-            of technical documentation at your fingertips.
+            Factory service manuals — digitized, searchable, and modernized.
+            Select your model to get started.
           </p>
 
-          {/* Search */}
-          <LandingSearchBar />
+          {/* Model cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto mt-8">
+            {MODELS.map((model) => {
+              const sections = loadSections(model.id);
+              const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
 
-          {/* Quick stats */}
-          <div className="mt-12 flex items-center justify-center gap-8 sm:gap-12 text-gray-500">
-            <div className="text-center">
-              <div className="text-2xl font-bold text-gray-300 font-mono">{sections.length}</div>
-              <div className="text-xs uppercase tracking-wider mt-0.5">Sections</div>
-            </div>
-            <div className="w-px h-8 bg-gray-700" />
-            <div className="text-center">
-              <div className="text-2xl font-bold text-gray-300 font-mono">{totalPages.toLocaleString()}</div>
-              <div className="text-xs uppercase tracking-wider mt-0.5">Pages</div>
-            </div>
-            <div className="w-px h-8 bg-gray-700" />
-            <div className="text-center">
-              <div className="text-2xl font-bold text-gray-300 font-mono">1990</div>
-              <div className="text-xs uppercase tracking-wider mt-0.5">Model Year</div>
-            </div>
+              return (
+                <Link
+                  key={model.id}
+                  href={`/${model.id}`}
+                  className="group block bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 text-left hover:border-red-500/50 hover:bg-white/10 transition-all"
+                >
+                  <div className="flex items-baseline gap-3 mb-3">
+                    <span className="text-3xl font-black text-red-600 font-mono">
+                      {model.id.toUpperCase()}
+                    </span>
+                    <span className="text-lg font-light text-gray-400">
+                      {model.year}
+                    </span>
+                  </div>
+                  <h2 className="text-xl font-semibold text-white mb-2 group-hover:text-red-400 transition-colors">
+                    {model.name}
+                  </h2>
+                  <p className="text-sm text-gray-500 mb-4">
+                    {model.description}
+                  </p>
+                  <div className="flex items-center gap-4 text-xs text-gray-600">
+                    {sections.length > 0 && (
+                      <>
+                        <span>{sections.length} sections</span>
+                        <span className="text-gray-700">&middot;</span>
+                        <span>{totalPages.toLocaleString()} pages</span>
+                      </>
+                    )}
+                    {sections.length === 0 && (
+                      <span className="text-gray-600">Coming soon</span>
+                    )}
+                    {model.hasForum && (
+                      <>
+                        <span className="text-gray-700">&middot;</span>
+                        <span className="text-blue-400">Forum indexed</span>
+                      </>
+                    )}
+                  </div>
+                  <div className="mt-4 flex items-center gap-1 text-sm font-medium text-red-500 group-hover:text-red-400">
+                    Browse manual
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
 
           {/* Tech features */}
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 text-left">
+          <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 text-left">
             <div className="flex items-start gap-3">
               <svg className="w-5 h-5 mt-0.5 text-red-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714a2.25 2.25 0 00.659 1.591L19 14.5M14.25 3.104c.251.023.501.05.75.082M19 14.5l-1.47 4.41a2.25 2.25 0 01-2.133 1.59H8.603a2.25 2.25 0 01-2.134-1.59L5 14.5m14 0H5" />
@@ -94,70 +120,13 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ─── Section Grid ─── */}
-      <section className="bg-white">
-        <div className="max-w-6xl mx-auto px-6 py-16">
-          <div className="flex items-center gap-3 mb-8">
-            <div className="w-1 h-8 bg-red-600 rounded-full" />
-            <h2 className="text-2xl font-bold text-gray-900">Browse the Manual</h2>
-          </div>
-
-          {sections.length > 0 ? (
-            <SectionGrid sections={sections} />
-          ) : (
-            <div className="text-center py-16 text-gray-500">
-              <p className="text-lg mb-2">No content generated yet.</p>
-              <p className="text-sm">
-                Run{" "}
-                <code className="bg-gray-100 px-2 py-1 rounded font-mono text-xs">
-                  python scripts/generate_content.py --all
-                </code>{" "}
-                to generate website content.
-              </p>
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* ─── Community Forum CTA ─── */}
-      <section className="bg-gray-100">
-        <div className="max-w-6xl mx-auto px-6 py-16">
-          <div className="bg-gray-900 rounded-2xl p-8 sm:p-12 flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-12">
-            <div className="flex-1">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="inline-block px-2 py-0.5 text-[10px] font-bold uppercase bg-blue-500/20 text-blue-400 rounded tracking-wider">
-                  Forum
-                </span>
-              </div>
-              <h3 className="text-xl font-bold text-white mb-2">
-                Community Knowledge Base
-              </h3>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Search thousands of SupraForums threads — real-world diagnostics,
-                fixes, and part numbers from MK3 owners. Integrated alongside
-                the factory manual results.
-              </p>
-            </div>
-            <Link
-              href="/search"
-              className="shrink-0 inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/15 border border-white/10 text-white font-medium rounded-lg transition-colors"
-            >
-              Search Everything
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── Footer ─── */}
+      {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-600">
           <div className="flex items-center gap-2">
             <span className="font-mono font-bold text-red-600">TSRM</span>
             <span className="text-gray-700">|</span>
-            <span>Digitized from the 1990 MK3 Toyota Supra factory service manual</span>
+            <span>Toyota Supra factory service manuals — digitized</span>
           </div>
           <div className="text-gray-700">
             Not affiliated with Toyota Motor Corporation

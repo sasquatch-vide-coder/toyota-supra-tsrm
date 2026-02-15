@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-61",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "A.B.S. Actuator\nCOMPONENTS",
+  "ocr_text": "A.B.S. Actuator\nCOMPONENTS\n\nClamp\nRelay Cap\nActuator Assembly\n155 (11, 15)\nRelay Cap\nSolenoid Relay\nPump Motor Relay\n155 (11, 15)\n95 (48 in.-lb, 5.4)\n55 (48 in.-lb, 5.4)\nClamp\nActuator Bracket\n\nkg-cm (ft-lb, N·m) : Specified torque\nBR3165\n\nINSPECTION OF ACTUATOR OPERATION\n\n1. INSPECT BATTERY VOLTAGE\nBattery voltage: 10 — 14.5 V\n\n2. DISCONNECT CONNECTORS FROM ACTUATOR\nDisconnect the three connectors from the actuator.\n\nBR3167\n\n3. CONNECT ACTUATOR CHECKER (SST) TO ACTUATOR\n\n(a) Connect the actuator checker (SST) to the actuator and body side wire harness through the sub-wire harness (SST) as shown.\nSST 09990-00150\n\n(b) Connect the red cable of the checker to the battery positive (+) terminal and black to the negative (—) terminal. Connect the black cable of the sub-wire harness to the battery negative (—) terminal or body ground.\n\nSST\nActuator\nTo Body\nSub-Wire Harness (SST)\nBR3133"
+}

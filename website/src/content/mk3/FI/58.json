@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-58",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)",
+  "title": "",
+  "ocr_text": "FI-58\n\nEFI SYSTEM — Troubleshooting with Volt/Ohmmeter (7M-GTE)\n\n• VC — Body ground\n\n① There is no voltage between ECU terminals VC and body ground.\n(IG SW ON)\n\n② Check that there is voltage between ECU terminal +B (+B1) and\nbody ground. (IG SW ON)\n\nOK\n\nNO\nRefer to No. 1.\n(See page FI-54)\n\n③ Check wiring between ECU terminal E1 and body ground.\n\nOK\n\nBAD\nCheck wiring between ECU and air\nflow meter.\n\nRepair or replace.\n\nOK\n\nBAD\nTry another ECU.\n\nRepair or replace.\n\nF03724\n\nF02757\n\nF02756"
+}

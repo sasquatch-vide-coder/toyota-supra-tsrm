@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-62",
+  "section_header": "BRAKE SYSTEM — Anti-lock Brake System (A.B.S.)",
+  "title": "",
+  "ocr_text": "4. INSPECT ACTUATOR OPERATION\n(a) Start the engine, and run it at idle.\n(b) Turn the MAIN select switch of the actuator checker to \"FRONT RH\" position.\n(c) Push and hold in the SUB MOTOR switch for a few seconds.\n(d) Depress the brake pedal and hold it until the step (g) is completed.\n(e) Push the MAIN push switch. Check that the brake pedal does not go down.\nNOTICE: Do not keep the MAIN switch pushing more than 10 seconds.\n(f) Release the switch, and check that the pedal go down.\n(g) Push and hold in the SUB MOTOR switch for a few seconds, and check that the pedal returns.\n(h) Release the brake pedal.\n(i) Push and hold in the SUB MOTOR switch for a few seconds.\n(j) Depress the brake pedal and hold it for about 15 seconds. As you hold the pedal down, push the SUB MOTOR switch for a few seconds. Check that the brake pedal does not pulsate.\n\n5. INSPECT FOR OTHER WHEELS\n(a) Turn the MAIN switch to \"FRONT LH\" position.\n(b) Repeating (c) to (j) of the step 4, check the actuator operation similarly.\n(c) Similarly, inspect \"REAR\" position."
+}

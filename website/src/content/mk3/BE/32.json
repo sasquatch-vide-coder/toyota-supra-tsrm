@@ -1,0 +1,6 @@
+{
+  "page_id": "8E-32",
+  "section_header": "BODY ELECTRICAL SYSTEM — Wipers and Washers",
+  "title": "",
+  "ocr_text": "8E-32     BODY ELECTRICAL SYSTEM — Wipers and Washers\n\n(b) With terminals 7 and 8 connected, check that continuity between terminals 1 and 5 are as shown in the following diagram.\n\nCondition | Disconnect terminals 3 and 4 | Connect terminals 3 and 4\nTime (secs.)\nDuration of continuity | 0.8 ± 0.2 | 0.8 ± 0.2\nDuration of non-continuity | 10 ± 2.0 | 2.0 ± 0.4\n\nIf operation is not as specified, replace the relay.\n\n2. INSPECT WASHER CIRCUIT OF RELAY\n\n(a) Connect the positive (+) lead from the battery to terminal 5 and the negative (–) lead to terminal 7.\n\n(b) Inspect continuity between terminals 1 and 5 as follows.\n\nTime (seconds) | Between terminals 1 and 5 | Time (seconds) | Between terminals 1 and 5\nConnect terminals 6 and 7 | No Continuity | Disconnect terminals 6 and 7 | Continuity\n0.5 ± 0.1 | Continuity | 2.5 ± 0.5 | No Continuity\n\nIf continuity is not as specified, replace the relay.\n\nREPLACEMENT OF SWITCHES\n(See page BE-18, 19)\n\nREPLACE SWITCHES\n(a) Remove the terminals from the connector.\n(See pages BE-2, 3)\n(b) Remove the wiper and washer switch.\n(c) Install the wiper and washer switch.\n(d) Install the terminals to the connector.\n(See pages BE-3, 31)"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-88",
+  "section_header": "SRS AIRBAG — Disposal of Steering Wheel Pad (with Airbag)",
+  "title": "",
+  "ocr_text": "AB-88\n\nSRS AIRBAG — Disposal of Steering Wheel Pad (with Airbag)\n\n(a) Remove the steering wheel pad from the disc wheel.\n(b) Place the steering wheel pad in a vinyl bag, tie the end tightly and dispose of it the same way as other general parts.\n\nCONFIRM FUNCTIONING OF SST\n\nWhen deploying the airbag, always use the specified SST:\nSRS AIRBAG DEPLOYMENT TOOL,\nSST 09082-00700\n\n1. CONNECT SST TO BATTERY\n\nConnect the red clip of the SST to the battery positive (+) terminal and the black clip to the battery negative (-) terminal.\nHINT: Do not connect the yellow connector which connects with the airbag system.\n\n2. CONFIRM FUNCTIONING OF SST\n\nPress the SST activation switch, and confirm the LED of the SST activation switch lights up.\nCAUTION: If the LED does not light when the activation switch is not being pressed, SST malfunction is probable, so definitely do not use the SST."
+}

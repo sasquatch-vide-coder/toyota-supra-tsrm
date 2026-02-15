@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-103",
+  "section_header": "EFI SYSTEM — Air Induction System",
+  "title": "",
+  "ocr_text": "3. CHECK THROTTLE POSITION SENSOR\n(See step 2 on page FI-101)\n\n4. IF NECESSARY, ADJUST THROTTLE POSITION SENSOR\n(a) Loosen the two screws of the sensor.\n\n(b) Insert a thickness gauge 0.58 mm (0.0228 in.) (7M-GE) or 0.70 mm (0.0276 in.) (7M-GTE) between the throttle stop screw and lever, and connect the ohmmeter to terminals IDL and E2.\n\n(c) Gradually turn the sensor clockwise until the ohmmeter indicator deflects, and secure the sensor with two screws.\n\n(d) Using a thickness gauge, recheck the continuity between terminals IDL and E2.\n\nClearance between lever\nand stop screw                    Continuity (IDL — E2)\n7M-GE                    7M-GTE\n0.40 mm                  0.50 mm\n(0.0157 in.)             (0.0197 in.)         Continuity\n\n0.75 mm                  0.90 mm\n(0.0295 in.)             (0.0354 in.)         No continuity"
+}

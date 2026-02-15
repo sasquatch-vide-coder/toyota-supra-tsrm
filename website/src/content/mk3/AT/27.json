@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-27",
+  "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting (Electronic Control System)",
+  "title": "Trouble No. 4    No lock-up (After warm-up)",
+  "ocr_text": "Trouble No. 4    No lock-up (After warm-up)\n\nWarm up engine\n  Coolant temp.: 80°C (176°F)\n  ATF temp.:     50 — 80°C (122 — 176°F)\n\n|\nv\n\nRoad test\nConnect a voltmeter to check connector\nterminals T1 and E1.\nIs there 7, 5 or 3V in the lock-up range\nwhile driving?\n\n                                                    Yes ——> • Lock-up solenoid stuck\n                                                            • Faulty transmission\n                                                            • Faulty lock-up mechanism\n\n|\nNo\nv\n\nIs voltage between ECT ECU                          No ——> Faulty brake signal\n8K and GND terminals as follows?\nBrake pedal depressed: 12V\nBrake pedal released:   0V\n\n|\nYes\nv\n\n• Faulty ECU power source and ground\n• Faulty throttle position signal"
+}

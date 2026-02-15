@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-61",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "DIAGNOSTIC CHART",
+  "ocr_text": "DIAGNOSTIC CHART\n\n1\nPreparation.\n\n2\nCheck front airbag sensor circuit\n(Measure resistance between terminals\n+SL and -SL or +SR and -SR at center\nairbag sensor assembly connector).\nNG → Go to step 4\nOK ↓\n\n3\nCheck center airbag sensor assembly.\nNG → Replace center airbag sensor assembly.\nOK ↓\n\nFrom the results of the above inspection,\nthe malfunctioning part can now be con-\nfirmed. However, if there is any doubt,\nuse the simulation method to check.\n\n4\nCheck front airbag sensor.\nNG → Replace front airbag sensor.\nOK ↓\n\n5\nCheck harness between center airbag\nsensor assembly and front airbag sensor.\nNG → Repair or replace harness or\nconnector between center air-\nbag sensor assembly and front\nairbag sensor\n(See page AB-21).\nOK ↓\n\nReplace front airbag sensor connector\n(See page AB-21).\n\nWIRING DIAGRAM\n\nCenter Airbag Sensor Assembly\nFrom\nSquib\n|\n+SL\nFront Airbag Sensor LH\n[sensor diagram]\n-SL\nFront Airbag Sensor RH\n+SR\n[sensor diagram]\n-SR\n|\nAB0132"
+}

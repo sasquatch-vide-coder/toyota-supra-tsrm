@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-110",
+  "section_header": "BODY ELECTRICAL SYSTEM — Audio System",
+  "title": "Antenna Motor",
+  "ocr_text": "Antenna Motor\n\nINSPECTION OF ANTENNA MOTOR\n\nINSPECT LIMIT SWITCH OPERATION\n\n(a) If the motor stops with the antenna up, check that there is no continuity between terminals A-2 and B-3.\n\n(b) If the motor stops with the antenna down, check that there is no continuity between terminals A-3 and B-3.\n\n(CD Player)\nTroubleshooting\n\nHINT: Never attempt to disassemble or oil any part of the player unit. Do not insert any object other than a disc into the slot.\n\nRemember there are no user serviceable parts inside.\n\nNOTICE: Compact Disc players use invisible laser beam which could cause hazardous radiation exposure if directed. Be sure to operate the player correctly as instructed.\n\nCheck that the operation of other audio system (Radio, Cassette etc.) are normal.\n\nProblem | Section\n*CD can not be inserted | A\n*Does not play | B\nSound jumps | C\nBad sound quality | D\nCD will not eject | E\n\nHINT: For audio systems with anti-theft system, troubleshooting items marked (*) indicate that \"Troubleshooting for ANTI-THEFT SYSTEM\" should be carried out first."
+}

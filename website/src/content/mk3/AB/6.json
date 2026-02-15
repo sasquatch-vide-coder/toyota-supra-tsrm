@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-6",
+  "section_header": "SRS AIRBAG — Description",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "WIRING DIAGRAM\n\nECU-B\nCIG\nIgnition\nSwitch\nACC\nECU-IG\nBack-Up\nPower Source\nPower Source\nSafety Circuit\nSafting\nSensor\nSafting\nSensor\nSpiral Cable\nSquib\n(in Steering\nWheel Pad)\nBattery\nMemory\nCircuit\nDiagnosis\nCircuit\nFront Airbag\nSensors\nCenter Airbag\nSensor\nIgnition Control\n& Drive Circuit\nLH\nRH\nCenter Airbag Sensor Assembly\nAB0230\n\nCENTER AIRBAG SENSOR ASSEMBLY CONNECTOR\n\n[THIS IS DIAGRAM: Connector diagram showing pin layout with numbered terminals 1-14]\n\nAB0060\n\nNo.\tSymbol\tTerminal Name\tNo.\tSymbol\tTerminal Name\n1\tIG₁\tPower Source (ECU-IG Fuse)\t8\tE₂\tGround\n2\t-SR\tRH Front Airbag Sensor (–)\t9\tLA\tAirbag Warning Light\n3\t+SR\tRH Front Airbag Sensor (+)\t10\tD\tSquib (–)\n4\t+SL\tLH Front Airbag Sensor (+)\t11\tD⁺\tSquib (+)\n5\t-SL\tLH Front Airbag Sensor (–)\t12\tTc\tDiagnosis\n6\t+B\tBattery (ECU-B Fuse)\t13\tE₁\tGround\n7\tIG₂\tPower Source (IGN Fuse)\t14\tAcc\tPower Sourse (CIG Fuse)\nA\t—\tElectrical Connection Check Mechanism\tB\t—\tElectrical Connection Check Mechanism"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-94",
+  "section_header": "EFI SYSTEM — Air Induction System",
+  "title": "AIR INDUCTION SYSTEM\nAir Flow Meter (7M-GE)",
+  "ocr_text": "FI-94\n\nEFI SYSTEM — Air Induction System\n\nAIR INDUCTION SYSTEM\nAir Flow Meter (7M-GE)\n\nPOTENTIONMETER\n\nDamping Chamber\nCompensation Plate\n\nReturn Spring\nAir Temp.\nSensor\n\nFROM AIR\nCLEANER\n\nMeasuring Plate\n\nTO AIR\nINTAKE\nCHAMBER\n\nAIR\nCLEANER\nSIDE\n\nAir By-Pass\nPassage\n\nCompensation Plate\n\nAIR\nINTAKE\nCHAMBER\nSIDE\n\nMeasuring Plate\n\nAir By-Pass Passage\n\nFI12M-FI04431\n\nFC E1E2 VC E2 VS THA\n\nOhmmeter\n\nFI0432\n\nFC E1 E2 VC E2 VS THA\n\nFI0632\n\nON-VEHICLE INSPECTION\n\nINSPECT RESISTANCE OF AIR FLOW METER\n\n(a) Disconnect the air flow meter connector.\n\n(b) Using an ohmmeter, measure the resistance between each terminal.\n\nBetween terminals | Resistance (Ω) | Temp. °C (°F)\nE2 — VS | 200 - 600 | —\nE2 — VC | 200 - 400 | —\nE2 — THA | 10,000 - 20,000 | -20 (-4)\n | 4,000 - 7,000 | 0 (32)\n | 2,000 - 3,000 | 20 (68)\n | 900 - 1,300 | 40 (104)\n | 400 - 700 | 60 (140)\nE1 — FC | Infinity | —\n\nIf the resistance is not as specified, replace the air flow meter.\n\n(c) Reconnect the air flow meter connector."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-13",
+  "section_header": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays",
+  "title": "FUSE AND RELAY BLOCKS",
+  "ocr_text": "JUNCTION BLOCK NO. 1 AND RELAY BLOCK NO. 5 (LOCATION: Driver's Side Kick Panel)\n\n(No. 1)\n\n[Diagram showing fuse block layout with positions labeled 13, A, B, and numbered positions 1-12]\n\n(No. 5)\n\n[Diagram showing relay block layout with positions labeled C, D, 14, E]\n\nFuses\n1. GAUGE          7.5A\n2. STOP           20A\n3. TAIL           15A\n4. HAZ            15A\n5. RADIO          7.5A\n6. TURN           7.5A\n7. MIR·HTR        10A\n8. IG             —\n9. ENGINE         15A\n10. WIPER         20A\n11. ECU·IG        15A\n12. A/C           10A\n13. Circuit Breaker (Defogger)   30A\n14. Circuit Breaker (Power)      30A\n\nRelays\nA. Defogger Relay\nB. Taillight Relay\nC. Turn Signal Control Relay\nD. Dimmer Relay\nE. Horn Relay"
+}

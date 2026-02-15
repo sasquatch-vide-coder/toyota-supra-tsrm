@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-70",
+  "section_header": "EFI SYSTEM - Fuel System",
+  "title": "FUEL SYSTEM\nFuel Pump",
+  "ocr_text": "FI-70\n\nEFI SYSTEM - Fuel System\n\nFUEL SYSTEM\nFuel Pump\n\nCheck Valve\nRelief Valve\nBearing\nBrush\nArmature\n\nMagnet\nBearing\nImpeller\n\nFilter\nRubber Cushion\n\nOUTLET\nINLET\n\nCasing\n\nImpeller\n\nECU\nBATT\n+B1\n+B\nM-REL\n\nFusible\nLink\nAM2 30A\n\nFuse\nEFI 15A\n\nEFI Main Relay\n\nIG SW\n\nIgnition Switch\nAM2\nIG2\n\nFuse\nIGN 7.5A\n\nFusible Link\nAM1\nST1\n\nCheck\nConnector\n+B\nFp\n\nALT\nAM1 40A\n\nCircuit\nOpening\nRelay\nFP\n+B\nFC\nSTAR\nFp\n\nFuel Pump Relay\n\nFusible\nMAIN 2.0L\n\n+B\nFC\n\nFuel Pump\nResistor\n(7M-GTE)\n\n+B\nFC\n(7M-GTE)\n\nCircuit Opening\nSwitch\n(USA)\n\nSTART\nBA\n30\nSTA\nGT\nR-B/L\n\nFuel Pump Switch\n(Air Flow Meter)\n\nBattery\n\nStarter\nRelay\n\nFC\nE1\n\nFuel\nPump\n\nE1\n\nCanada\nA/T\n\nTo Theft Deterrent (USA)\nTo Body Ground (Canada)\n\nP0491-F0142B\n73J23"
+}

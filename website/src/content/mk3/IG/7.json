@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-7",
+  "section_header": "IGNITION SYSTEM — On-Vehicle Inspection (7M-GE)",
+  "title": "INSPECTION OF SPARK PLUGS",
+  "ocr_text": "INSPECTION OF SPARK PLUGS\n\nNOTICE:\n• Never use a wire brush for cleaning.\n• Never attempt to adjust the gap on a used plug.\n• Spark plugs should be replaced every 60,000 miles (100,000 km).\n\n1. INSPECT ELECTRODE\n\nIf using a megger (insulation resistance meter):\n\n(a) Remove the high-tension cords. (See page IG-6)\n\n(b) Measure the insulation resistance.\n\nCorrect insulation resistance: More than 10 MΩ\n\nIf less than 10 MΩ, proceed to step 2.\n\nIf not using a megger:\n\n(a) Quickly race the engine to 4,000 rpm five times.\n\n(b) Remove the spark plugs. (See procedure below)\n\n(c) Visually inspect the spark plugs.\n\nIf the electrode is dry.....Okay\n\nIf the electrode is wet.....Proceed to step 3\n\n2. REMOVE SPARK PLUGS\n\n(a) Remove the high-tension cords. (See page IG-6)\n\n(b) Using a plug wrench(16 mm), remove the spark plugs."
+}

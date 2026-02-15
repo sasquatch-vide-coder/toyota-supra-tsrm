@@ -8,27 +8,19 @@ import shutil
 import sys
 from pathlib import Path
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-RAW_DIR = DATA_DIR / "raw"
-PROCESSED_DIR = DATA_DIR / "processed"
-DIAGRAMS_DIR = DATA_DIR / "diagrams"
-SECTIONS_FILE = DATA_DIR / "sections.json"
-
+ROOT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 WEBSITE_DIR = Path(__file__).resolve().parent.parent / "website"
-CONTENT_DIR = WEBSITE_DIR / "src" / "content"
-PUBLIC_IMAGES = WEBSITE_DIR / "public" / "images"
-PUBLIC_ORIGINALS = WEBSITE_DIR / "public" / "originals"
 
 
-def load_sections() -> dict:
-    if SECTIONS_FILE.exists():
-        return json.loads(SECTIONS_FILE.read_text(encoding="utf-8"))
+def load_sections(sections_file: Path) -> dict:
+    if sections_file.exists():
+        return json.loads(sections_file.read_text(encoding="utf-8"))
     return {}
 
 
-def generate_section(code: str, sections: dict) -> int:
+def generate_section(code: str, sections: dict, processed_dir: Path, diagrams_dir: Path, raw_dir: Path, content_dir: Path, public_images: Path, public_originals: Path) -> int:
     """Generate content files for a section. Returns page count."""
-    section_dir = PROCESSED_DIR / code
+    section_dir = processed_dir / code
     if not section_dir.exists():
         print(f"  No processed data for section {code}")
         return 0
@@ -43,7 +35,7 @@ def generate_section(code: str, sections: dict) -> int:
         return 0
 
     # Create content directory
-    content_section = CONTENT_DIR / code
+    content_section = content_dir / code
     content_section.mkdir(parents=True, exist_ok=True)
 
     page_index = []
@@ -64,9 +56,9 @@ def generate_section(code: str, sections: dict) -> int:
         })
 
     # Copy diagrams (SVGs and fallback PNGs)
-    diagrams_section = DIAGRAMS_DIR / code
+    diagrams_section = diagrams_dir / code
     if diagrams_section.exists():
-        dest = PUBLIC_IMAGES / code
+        dest = public_images / code
         dest.mkdir(parents=True, exist_ok=True)
         for f in diagrams_section.glob("*.svg"):
             shutil.copy2(f, dest / f.name)
@@ -74,9 +66,9 @@ def generate_section(code: str, sections: dict) -> int:
             shutil.copy2(f, dest / f.name)
 
     # Copy original GIFs
-    raw_section = RAW_DIR / code
+    raw_section = raw_dir / code
     if raw_section.exists():
-        dest = PUBLIC_ORIGINALS / code
+        dest = public_originals / code
         dest.mkdir(parents=True, exist_ok=True)
         for gif in raw_section.glob("*.gif"):
             shutil.copy2(gif, dest / gif.name)
@@ -85,17 +77,17 @@ def generate_section(code: str, sections: dict) -> int:
     return len(page_index)
 
 
-def generate_sections_index(sections: dict) -> None:
+def generate_sections_index(sections: dict, content_dir: Path) -> None:
     """Generate the master sections.json for the website."""
-    CONTENT_DIR.mkdir(parents=True, exist_ok=True)
+    content_dir.mkdir(parents=True, exist_ok=True)
 
     index = []
     for code in sorted(sections.keys()):
         meta = sections[code]
-        content_dir = CONTENT_DIR / code
+        section_content_dir = content_dir / code
         pages = []
-        if content_dir.exists():
-            for f in sorted(content_dir.glob("*.json"), key=lambda p: int(p.stem)):
+        if section_content_dir.exists():
+            for f in sorted(section_content_dir.glob("*.json"), key=lambda p: int(p.stem)):
                 try:
                     data = json.loads(f.read_text(encoding="utf-8"))
                     pages.append({
@@ -113,15 +105,15 @@ def generate_sections_index(sections: dict) -> None:
             "page_index": pages,
         })
 
-    out = CONTENT_DIR / "sections.json"
+    out = content_dir / "sections.json"
     out.write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"  Wrote sections index ({len(index)} sections)")
 
 
-def build_search_index() -> None:
+def build_search_index(content_dir: Path) -> None:
     """Build a search index from all content files."""
     entries = []
-    for section_dir in sorted(CONTENT_DIR.iterdir()):
+    for section_dir in sorted(content_dir.iterdir()):
         if not section_dir.is_dir():
             continue
         code = section_dir.name
@@ -163,7 +155,7 @@ def build_search_index() -> None:
                 "text": " ".join(texts),
             })
 
-    out = CONTENT_DIR / "search-index.json"
+    out = content_dir / "search-index.json"
     out.write_text(json.dumps(entries, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"  Built search index ({len(entries)} entries)")
 
@@ -172,33 +164,43 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate Next.js content files")
     parser.add_argument("--section", help="Generate for one section")
     parser.add_argument("--all", action="store_true", help="Generate for all sections")
+    parser.add_argument("--model", default="mk3", help="Vehicle model (default: mk3)")
     args = parser.parse_args()
 
-    sections = load_sections()
+    data_dir = ROOT_DATA_DIR / args.model
+    raw_dir = data_dir / "raw"
+    processed_dir = data_dir / "processed"
+    diagrams_dir = data_dir / "diagrams"
+    sections_file = data_dir / "sections.json"
+    content_dir = WEBSITE_DIR / "src" / "content" / args.model
+    public_images = WEBSITE_DIR / "public" / "images" / args.model
+    public_originals = WEBSITE_DIR / "public" / "originals" / args.model
+
+    sections = load_sections(sections_file)
 
     if args.section:
-        generate_section(args.section, sections)
-        generate_sections_index(sections)
-        build_search_index()
+        generate_section(args.section, sections, processed_dir, diagrams_dir, raw_dir, content_dir, public_images, public_originals)
+        generate_sections_index(sections, content_dir)
+        build_search_index(content_dir)
         return
 
     if args.all:
         total = 0
         for code in sorted(sections.keys()):
-            total += generate_section(code, sections)
-        generate_sections_index(sections)
-        build_search_index()
+            total += generate_section(code, sections, processed_dir, diagrams_dir, raw_dir, content_dir, public_images, public_originals)
+        generate_sections_index(sections, content_dir)
+        build_search_index(content_dir)
         print(f"\nTotal: {total} pages generated")
         return
 
     # Default: generate for all sections that have processed data
     total = 0
-    for section_dir in sorted(PROCESSED_DIR.iterdir()):
+    for section_dir in sorted(processed_dir.iterdir()):
         if section_dir.is_dir():
             code = section_dir.name
-            total += generate_section(code, sections)
-    generate_sections_index(sections)
-    build_search_index()
+            total += generate_section(code, sections, processed_dir, diagrams_dir, raw_dir, content_dir, public_images, public_originals)
+    generate_sections_index(sections, content_dir)
+    build_search_index(content_dir)
     print(f"\nTotal: {total} pages generated")
 
 

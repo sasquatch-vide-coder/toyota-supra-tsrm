@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-81",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "",
+  "ocr_text": "SRS AIRBAG — Troubleshooting                                                                                          AB-81\n\nHINT: If the diagnostic code is continuously displayed, perform the following troubleshooting.\n\n1    Check resistance between terminal Tc of center airbag sensor assembly\n     and body ground.\n\n[DIAGRAM showing LOCK icon, Center Airbag Sensor Assembly with Tc terminal marked and ground symbol]\n\nP    (1) Turn ignition switch LOCK.\n     (2) Disconnect center airbag sensor assembly con-\n         nector.\n\nC    Check resistance between terminal Tc of center\n     airbag sensor assembly and body ground.\n\nOK   Resistance:   ∞ Ω\n\nNG\n\nOK   Replace center airbag sensor assembly.\n\nRepair or replace harness or connector."
+}

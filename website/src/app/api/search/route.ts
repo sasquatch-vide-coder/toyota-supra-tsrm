@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import type { SearchResult, FAQResult, ForumResult } from "@/types";
+import { getModel } from "@/lib/models";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
@@ -28,6 +29,7 @@ async function getQueryEmbedding(query: string): Promise<number[] | null> {
 export async function GET(request: NextRequest) {
   const query = request.nextUrl.searchParams.get("q")?.trim() ?? "";
   const source = request.nextUrl.searchParams.get("source");
+  const model = request.nextUrl.searchParams.get("model") ?? "mk3";
 
   if (query.length < 2) {
     return NextResponse.json(
@@ -36,6 +38,8 @@ export async function GET(request: NextRequest) {
     );
   }
 
+  const modelDef = getModel(model);
+
   try {
     // Generate embedding if OpenAI key is available
     const queryEmbedding = await getQueryEmbedding(query);
@@ -43,7 +47,7 @@ export async function GET(request: NextRequest) {
     // Run searches in parallel, conditionally based on source filter
     const searchManual = !source || source === "manual";
     const searchFaq = !source || source === "faq";
-    const searchForum = !source || source === "forum";
+    const searchForum = (!source || source === "forum") && (modelDef?.hasForum ?? false);
 
     const empty = { data: [] as unknown[], error: null };
 
@@ -53,6 +57,7 @@ export async function GET(request: NextRequest) {
             query_text: query,
             query_embedding: queryEmbedding,
             match_count: 20,
+            filter_model: model,
           })
         : empty,
       searchFaq
@@ -60,6 +65,7 @@ export async function GET(request: NextRequest) {
             query_text: query,
             query_embedding: queryEmbedding,
             match_count: 5,
+            filter_model: model,
           })
         : empty,
       searchForum

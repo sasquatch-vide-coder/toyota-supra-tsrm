@@ -1,0 +1,47 @@
+{
+  "thread_id": "1136590",
+  "title": "VAFM problems",
+  "url": "https://www.supraforums.com/threads/vafm-problems.1136590/",
+  "author": "Bjenkins1",
+  "date_posted": "2026-01-01T23:09:52-0500",
+  "reply_count": 26,
+  "view_count": 205,
+  "is_sticky": false,
+  "issue_summary": "1986.5-1992 Toyota Supra experiencing erratic idle surging between 700-900rpm when warmed up, with the condition improving when the VAFM (Vane Air Flow Meter) is disconnected.",
+  "symptoms": [
+    "Idle fluctuates between 700-900rpm when warmed up",
+    "Idle surges or hunts, especially after throttle input",
+    "Engine sometimes drops RPM like it will die then recovers",
+    "Runs better with VAFM disconnected",
+    "High cold start idle around 1800rpm",
+    "Code 71 (EGR) appeared during diagnostics",
+    "Coolant leak present"
+  ],
+  "fix_summary": "Air leak found at intake manifold/surge tank - ripped corner gasket discovered. Stripped bolt threads in intake manifold required helicoil repair. Solution involved replacing surge tank gasket and repairing stripped threads with properly installed helicoil using red Loctite.",
+  "related_systems": [
+    "Fuel System",
+    "Air Intake",
+    "Idle Control",
+    "EGR System",
+    "Cooling System"
+  ],
+  "parts_mentioned": [
+    "VAFM (Vane Air Flow Meter)",
+    "surge tank gasket",
+    "IAC motor (Idle Air Control valve)",
+    "TPS (Throttle Position Sensor)",
+    "cold start injector",
+    "fuel injector seals and O-rings",
+    "EGR valve",
+    "EGR gaskets",
+    "intake and plenum gaskets",
+    "air intake boot",
+    "power steering idle up lines",
+    "helicoil",
+    "throttle body gasket"
+  ],
+  "thread_type": "troubleshooting",
+  "is_resolved": true,
+  "key_takeaway": "Idle surge issues on MK3 Supra are commonly caused by air/vacuum leaks, and a thorough inspection of intake manifold gaskets and vacuum connections should be the first diagnostic step before replacing sensors or major components.",
+  "searchable_text": "VAFM problems 1986.5-1992 Toyota Supra experiencing erratic idle surging between 700-900rpm when warmed up, with the condition improving when the VAFM (Vane Air Flow Meter) is disconnected. Idle fluctuates between 700-900rpm when warmed up Idle surges or hunts, especially after throttle input Engine sometimes drops RPM like it will die then recovers Runs better with VAFM disconnected High cold start idle around 1800rpm Code 71 (EGR) appeared during diagnostics Coolant leak present Air leak found at intake manifold/surge tank - ripped corner gasket discovered. Stripped bolt threads in intake manifold required helicoil repair. Solution involved replacing surge tank gasket and repairing stripped threads with properly installed helicoil using red Loctite. Idle surge issues on MK3 Supra are commonly caused by air/vacuum leaks, and a thorough inspection of intake manifold gaskets and vacuum connections should be the first diagnostic step before replacing sensors or major components. VAFM (Vane Air Flow Meter) surge tank gasket IAC motor (Idle Air Control valve) TPS (Throttle Position Sensor) cold start injector fuel injector seals and O-rings EGR valve EGR gaskets intake and plenum gaskets air intake boot power steering idle up lines helicoil throttle body gasket"
+}

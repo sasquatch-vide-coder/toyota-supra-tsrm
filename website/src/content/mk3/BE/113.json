@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-113",
+  "section_header": "BODY ELECTRICAL SYSTEM — Audio System",
+  "title": "Sound jumps",
+  "ocr_text": "C     Sound jumps\n\nCheck that player is correct installed. → No → Player installation faulty.\n↓ Yes\nDoes sound jump only when is jolt? → Yes → Does sound jump every time there is jolt? → Yes → Player faulty.\n↓ No                                         ↓ No\n                                            Normal\n\nDoes sound jump always at same place on same song? → Yes → CD faulty.\n↓ No\nIs CD damaged or dirty? → Yes → CD faulty\n↓ No\nHas player been exposed to large temperature change? → No → Player faulty.\n↓ Yes\nOperate air conditioner for about 30 minutes.\n↓\nDoes sound still jump? → Yes → Player faulty.\n↓ No\nNormal (Dew formation because of temperature change.)"
+}

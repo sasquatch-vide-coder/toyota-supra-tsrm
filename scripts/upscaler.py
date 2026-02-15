@@ -15,11 +15,8 @@ from basicsr.archs.rrdbnet_arch import RRDBNet
 from PIL import Image
 from realesrgan import RealESRGANer
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-RAW_DIR = DATA_DIR / "raw"
-PROCESSED_DIR = DATA_DIR / "processed"
-DIAGRAMS_DIR = DATA_DIR / "diagrams"
-ERRORS_LOG = DATA_DIR / "errors.log"
+ROOT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+ERRORS_LOG = ROOT_DATA_DIR / "errors.log"
 
 
 _upsampler: RealESRGANer | None = None
@@ -173,10 +170,10 @@ def upscale_diagram(img: Image.Image) -> Image.Image:
     return Image.fromarray(binary, mode="L")
 
 
-def convert_page(image_path: Path, force: bool = False) -> int:
+def convert_page(image_path: Path, diagrams_dir: Path, force: bool = False) -> int:
     """Convert a GIF page to PNG (no crop, no upscale). Returns 1 on success."""
     code, page = parse_page_id(image_path)
-    png_path = DIAGRAMS_DIR / code / f"{code}_{page:03d}.png"
+    png_path = diagrams_dir / code / f"{code}_{page:03d}.png"
 
     if png_path.exists() and not force:
         print(f"  Skipping {code}-{page} (already exists)")
@@ -189,10 +186,10 @@ def convert_page(image_path: Path, force: bool = False) -> int:
     return 1
 
 
-def process_page(image_path: Path, force: bool = False) -> int:
+def process_page(image_path: Path, processed_dir: Path, diagrams_dir: Path, force: bool = False) -> int:
     """Process diagrams for a single page. Returns count of diagrams processed."""
     code, page = parse_page_id(image_path)
-    json_path = PROCESSED_DIR / code / f"{code}_{page:03d}.json"
+    json_path = processed_dir / code / f"{code}_{page:03d}.json"
 
     if not json_path.exists():
         print(f"  Skipping {code}-{page} (no processed JSON)")
@@ -211,8 +208,8 @@ def process_page(image_path: Path, force: bool = False) -> int:
         index = block.get("index", count + 1)
         bbox = block.get("bbox")
 
-        png_path = DIAGRAMS_DIR / code / f"{code}_{page:03d}_{index}.png"
-        svg_path = DIAGRAMS_DIR / code / f"{code}_{page:03d}_{index}.svg"
+        png_path = diagrams_dir / code / f"{code}_{page:03d}_{index}.png"
+        svg_path = diagrams_dir / code / f"{code}_{page:03d}_{index}.svg"
 
         if png_path.exists() and not force:
             print(f"  Skipping diagram {code}_{page:03d}_{index} (already exists)")
@@ -241,28 +238,37 @@ def process_page(image_path: Path, force: bool = False) -> int:
     return count
 
 
-def find_images(section: str | None = None) -> list[Path]:
+def find_images(raw_dir: Path, section: str | None = None) -> list[Path]:
     if section:
-        section_dir = RAW_DIR / section
+        section_dir = raw_dir / section
         if not section_dir.exists():
             return []
         return sorted(section_dir.glob("*.gif"))
-    return sorted(RAW_DIR.glob("*/*.gif"))
+    return sorted(raw_dir.glob("*/*.gif"))
 
 
-def process_batch(images: list[Path], force: bool = False, convert: bool = False) -> None:
+def process_batch(
+    images: list[Path],
+    processed_dir: Path,
+    diagrams_dir: Path,
+    force: bool = False,
+    convert: bool = False,
+) -> None:
     """Process diagrams from multiple pages."""
     total = 0
-    func = convert_page if convert else process_page
     label = "page(s) converted" if convert else "diagram(s) processed"
     for image_path in images:
-        count = func(image_path, force=force)
+        if convert:
+            count = convert_page(image_path, diagrams_dir, force=force)
+        else:
+            count = process_page(image_path, processed_dir, diagrams_dir, force=force)
         total += count
     print(f"\nBatch complete: {total} {label}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Upscale TSRM diagrams to high-resolution PNGs")
+    parser.add_argument("--model", default="mk3", help="Vehicle model (default: mk3)")
     parser.add_argument("--file", help="Process diagrams from a single GIF file")
     parser.add_argument("--section", help="Process all pages in a section")
     parser.add_argument("--all", action="store_true", help="Process all downloaded pages")
@@ -270,23 +276,28 @@ def main() -> None:
     parser.add_argument("--convert", action="store_true", help="Convert GIF to PNG (no crop/upscale)")
     args = parser.parse_args()
 
+    data_dir = ROOT_DATA_DIR / args.model
+    raw_dir = data_dir / "raw"
+    processed_dir = data_dir / "processed"
+    diagrams_dir = data_dir / "diagrams"
+
     if args.file:
         path = Path(args.file)
         if not path.exists():
             print(f"File not found: {path}", file=sys.stderr)
             sys.exit(1)
         if args.convert:
-            count = convert_page(path, force=args.force)
+            count = convert_page(path, diagrams_dir, force=args.force)
             print(f"Converted {count} page(s)")
         else:
-            count = process_page(path, force=args.force)
+            count = process_page(path, processed_dir, diagrams_dir, force=args.force)
             print(f"Processed {count} diagram(s)")
         return
 
     if args.section:
-        images = find_images(section=args.section)
+        images = find_images(raw_dir, section=args.section)
     elif args.all:
-        images = find_images()
+        images = find_images(raw_dir)
     else:
         parser.print_help()
         return
@@ -295,7 +306,7 @@ def main() -> None:
         print("No images found to process.")
         return
 
-    process_batch(images, force=args.force, convert=args.convert)
+    process_batch(images, processed_dir, diagrams_dir, force=args.force, convert=args.convert)
 
 
 if __name__ == "__main__":

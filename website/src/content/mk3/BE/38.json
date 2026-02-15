@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-38",
+  "section_header": "BODY ELECTRICAL SYSTEM — Combination Meter",
+  "title": "",
+  "ocr_text": "BE-38\t\t\tBODY ELECTRICAL SYSTEM — Combination Meter\n\nNo.\t\t\tWiring connector side\n\nA\n1\t\tRadiator Coolant Level Warning Switch\n2\t\tWater Temperature Sender Gauge\n3\t\tGround\n4\t\tTAIL Fuse\n5\t\tLight Control Rheostat\n6\t\tIgniter\n7\t\tO/D Main Switch\n8\t\tGround\n9\t\t—\n10\t\tGAUGE Fuse\n11\t\tCruise Control Main Switch\n12\t\tECT Select Switch (PWR)\n\nB\n1\t\tTAIL Fuse\n2\t\tTurn Signal Switch (Right)\n3\t\tTurn Signal Switch (Left)\n4\t\tHeadlight Dimmer Switch\n5\t\tGround\n6\t\tTCCS ECU, ECT CPU, TEMS CPU and Cruise Control CPU\n7\t\tIntegration Relay\n8\t\tPassenger Seatbelt\n9\t\tAirbag Warning Light\n10\t\tParking Brake Switch and Brake Fluid Level Warning Switch\n\nC\n1\t\tLight Control Rheostat\n2\t\tTEMS CPU\n3\t\tTEMS CPU\n4\t\tFuel Sender Gauge (Level Warning Switch)\n5\t\tFuel Sender Gauge\n6\t\tTCCS CPU\n7\t\tGround\n8\t\tA.B.S. Actuator and A.B.S. CPU\n9\t\tTaillight Failure Sensor\n10\t\tDoor Courtesy Switch\n11\t\tDOME Fuse\n12\t\tTEMS CPU\n\nD\n1\t\tAlternator\n2\t\tIGN Fuse\n3\t\tSecurity (Theft Deterrent) CPU\n4\t\tOil Pressure Sender Gauge\n\nE\n1\t\tTurbo Pressure Sensor\n2\t\t5V+\n3\t\tGround"
+}

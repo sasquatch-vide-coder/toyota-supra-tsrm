@@ -1,0 +1,6 @@
+{
+  "page_id": "AB-36",
+  "section_header": "SRS AIRBAG — Troubleshooting",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "AB-36\n\nSRS AIRBAG — Troubleshooting\n\nINSPECTION PROCEDURES\n\nP Preparation\nC Check\n\n1 Preparation.\n\nON\n\nCenter Airbag Sensor Assembly\n\nIG₁\nIG₂\nACC\n\nA80119\nA80209\n\nP (1) Turn ignition switch LOCK.\n(2) Disconnect center airbag sensor assembly connector.\n(3) Turn ignition switch ON. But do not start engine.\n(4) Measure voltage at IG₁, IG₂ or ACC on connector wire harness side of center airbag sensor assembly and operate electric system (deffoger, wiper, headlight, heater blower, etc.).\nVoltage: 6V — 11.5V at IG₁, IG₂ and ACC.\n(5) Turn electric system switch OFF.\n(6) Turn ignition switch LOCK.\n(7) Remove voltmeter and connect center airbag sensor assembly connector.\n\n2 Does airbag warning light turn off after approx. 10 seconds.\n\nON\n\nA80115\nA80121\n\nP Turn ignition switch ON.\n\nC Operate electric system checked in 1 (4) and check that airbag warning light goes off after approx. 10 seconds.\n\nYES\n\nNO\n\nCheck diagnostic code, and if a malfunction code is output, perform troubleshooting according to malfunction code. If a normal code is output, replace center airbag sensor assembly.\n\nCheck battery and charging system (See page CH-1)."
+}

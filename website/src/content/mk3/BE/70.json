@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-70",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "",
+  "ocr_text": "BE-70\t\t\tBODY ELECTRICAL SYSTEM — Cruise Control System\n\nCONTINUED FROM PREVIOUS PAGE\n\nCOMPUTER\n\nDisconnect connector from computer and\ninspect connector on wire harness side as\nfollows.\n\nINSPECT STOP LIGHT SWITCH CIRCUIT\nIs there continuity between terminals 2 and\n14 with stop light switch released?\n\nNo\nOpen circuit in wire harness between\nterminals 2 and 14 of computer.\n\nYes\n\nIs there continuity between terminals 2 and\n14 with stop light switch depressed?\n\nYes\nShort circuit in wire harness between\nterminals 2 and 14 of computer.\n\nNo\n\nIs there continuity between terminals 4 and\n14?\n\nNo\nOpen circuit in wire harness between\nterminals 4 and 14 of computer.\n\nYes\n\nReplace computer."
+}

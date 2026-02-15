@@ -1,0 +1,6 @@
+{
+  "page_id": "FI-111",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "Solenoid Resistor (7M-GTE)",
+  "ocr_text": "EFI SYSTEM — Electronic Control System                                                                                          FI-111\n\nSolenoid Resistor (7M-GTE)\n\n[DIAGRAM showing circuit with Ignition Switch, AM2, IG2, Fusible Link AM2 30A, Fusible Link MAIN 2.0L, Battery, Solenoid Resistor (No.30, No.20, No.10), Injector (6 injectors shown), ECU, IG SW IGN 7.5A Fuse, No. 10, No. 20, No. 30, E01, E02]\n\nFJ0458\n\nINSPECTION OF SOLENOID RESISTOR\n\nINSPECT RESISTANCE OF SOLENOID RESISTOR\nUsing an ohmmeter, measure the resistance between +B and other terminals.\nResistance:    3 Ω each\nIf the resistance is not as specified, replace the resistor.\n\n[DIAGRAM showing physical solenoid resistor component with terminals labeled +B, No. 20, No. 10, No. 30]\n\nFJ0463"
+}

@@ -13,18 +13,17 @@ from supabase import create_client, Client
 
 load_dotenv()
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-SECTIONS_FILE = DATA_DIR / "sections.json"
-CONTENT_DIR = Path(__file__).resolve().parent.parent / "website" / "src" / "content"
+ROOT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+WEBSITE_DIR = Path(__file__).resolve().parent.parent / "website"
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 
-def load_sections() -> dict:
-    if SECTIONS_FILE.exists():
-        return json.loads(SECTIONS_FILE.read_text(encoding="utf-8"))
+def load_sections(sections_file: Path) -> dict:
+    if sections_file.exists():
+        return json.loads(sections_file.read_text(encoding="utf-8"))
     return {}
 
 
@@ -57,10 +56,10 @@ def build_content_text(data: dict) -> str:
     return " ".join(texts)
 
 
-def collect_pages(sections: dict) -> list[dict]:
+def collect_pages(content_dir: Path, sections: dict, model: str) -> list[dict]:
     """Collect all page records from content files."""
     pages = []
-    for section_dir in sorted(CONTENT_DIR.iterdir()):
+    for section_dir in sorted(content_dir.iterdir()):
         if not section_dir.is_dir():
             continue
         code = section_dir.name
@@ -81,6 +80,7 @@ def collect_pages(sections: dict) -> list[dict]:
                 "section_header": data.get("section_header", ""),
                 "section_name": section_name,
                 "content_text": content_text,
+                "model": model,
             })
     return pages
 
@@ -102,14 +102,18 @@ def generate_embeddings(texts: list[str], batch_size: int = 100) -> list[list[fl
     return all_embeddings
 
 
-def ingest(with_embeddings: bool = False) -> None:
+def ingest(model: str = "mk3", with_embeddings: bool = False) -> None:
     if not SUPABASE_URL or not SUPABASE_SERVICE_ROLE_KEY:
         print("ERROR: SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY must be set.", file=sys.stderr)
         sys.exit(1)
 
+    data_dir = ROOT_DATA_DIR / model
+    sections_file = data_dir / "sections.json"
+    content_dir = WEBSITE_DIR / "src" / "content" / model
+
     supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
-    sections = load_sections()
-    pages = collect_pages(sections)
+    sections = load_sections(sections_file)
+    pages = collect_pages(content_dir, sections, model)
     print(f"Collected {len(pages)} pages from content files.")
 
     # Optionally generate embeddings
@@ -131,6 +135,7 @@ def ingest(with_embeddings: bool = False) -> None:
         records = []
         for j, page in enumerate(batch):
             record = {
+                "model": page["model"],
                 "section": page["section"],
                 "page": page["page"],
                 "title": page["title"],
@@ -143,7 +148,7 @@ def ingest(with_embeddings: bool = False) -> None:
             records.append(record)
 
         supabase.table("manual_pages").upsert(
-            records, on_conflict="section,page"
+            records, on_conflict="model,section,page"
         ).execute()
         print(f"  Upserted batch {i // batch_size + 1} ({len(records)} rows)")
 
@@ -152,13 +157,14 @@ def ingest(with_embeddings: bool = False) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Ingest manual pages into Supabase")
+    parser.add_argument("--model", default="mk3", help="Vehicle model (default: mk3)")
     parser.add_argument(
         "--with-embeddings",
         action="store_true",
         help="Generate OpenAI embeddings (requires OPENAI_API_KEY)",
     )
     args = parser.parse_args()
-    ingest(with_embeddings=args.with_embeddings)
+    ingest(model=args.model, with_embeddings=args.with_embeddings)
 
 
 if __name__ == "__main__":

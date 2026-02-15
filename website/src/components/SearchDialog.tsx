@@ -6,7 +6,7 @@ import type { SearchResult, FAQResult, ForumResult, SearchResponse } from "@/typ
 
 type SourceFilter = "all" | "manual" | "faq" | "forum";
 
-export default function SearchDialog() {
+export default function SearchDialog({ model }: { model: string }) {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -71,7 +71,7 @@ export default function SearchDialog() {
     setError(null);
 
     try {
-      let url = `/api/search?q=${encodeURIComponent(q)}`;
+      let url = `/api/search?q=${encodeURIComponent(q)}&model=${model}`;
       if (filter !== "all") {
         url += `&source=${filter}`;
       }
@@ -128,7 +128,7 @@ export default function SearchDialog() {
 
   const navigateToPage = (section: string, page: number) => {
     setIsOpen(false);
-    router.push(`/${section}/${page}`);
+    router.push(`/${model}/${section}/${page}`);
   };
 
   const handleSelect = (index: number) => {
@@ -418,7 +418,7 @@ export default function SearchDialog() {
               <button
                 onClick={() => {
                   setIsOpen(false);
-                  router.push(`/search?q=${encodeURIComponent(query)}`);
+                  router.push(`/${model}/search?q=${encodeURIComponent(query)}`);
                 }}
                 className="text-sm text-red-600 hover:text-red-700 font-medium"
               >

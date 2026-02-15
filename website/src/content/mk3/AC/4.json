@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-4",
+  "section_header": "AIR CONDITIONING SYSTEM — Air Conditioning System Circuit",
+  "title": "AIR CONDITIONING SYSTEM CIRCUIT",
+  "ocr_text": "AC-4\n\nAIR CONDITIONING SYSTEM — Air Conditioning System Circuit\n\nAIR CONDITIONING SYSTEM CIRCUIT\n\n7M-GTE Engine\n\n1 +Bv 2 To Ignition 3 Magnetic 4 Magnetic 5 Fan Relay 6 Hi/Lo 7 Fan Relay No.2\n   Switch C Clutch Clutch  No.1 Pressure (A/T Only)\n   (IG1)  (GEN) Switch\n\nFUSE 20A\n\nBattery\n  To ECU\n\nHeater Relay\n\nEvap. Temp.\n Sensor\n\nA/C Switch\n\nBlower Speed\n Control Switch\n\nA/C Amplifier\n\nThermistor\n\nBlower Motor\n\nBlower Resistor\n\nIdle-Up/C Control\n Servo Motor\n\n8 Charge 9 Water 10 A/F Mix 11 Air Vent Mode 12 EFI\n  Control Temp. Control Control Control\n  Motor Sensor Motor Servo Motor\n\n13 Water 14 A/F Mix 15 Air Vent Mode\n   Temp. Control Control\n   Sensor Servo Motor Servo Motor\n   No.1"
+}
