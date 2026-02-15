@@ -6,6 +6,7 @@
 data/raw/
 data/diagrams/
 data/processed/
+data/forum/
 
 # Python
 __pycache__/

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
-import type { SearchResult, FAQResult } from "@/types";
+import type { SearchResult, FAQResult, ForumResult } from "@/types";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
@@ -27,10 +27,11 @@ async function getQueryEmbedding(query: string): Promise<number[] | null> {
 
 export async function GET(request: NextRequest) {
   const query = request.nextUrl.searchParams.get("q")?.trim() ?? "";
+  const source = request.nextUrl.searchParams.get("source");
 
   if (query.length < 2) {
     return NextResponse.json(
-      { results: [], faqs: [], error: "Query must be at least 2 characters" },
+      { results: [], faqs: [], forum: [], error: "Query must be at least 2 characters" },
       { status: 400 }
     );
   }
@@ -39,19 +40,44 @@ export async function GET(request: NextRequest) {
     // Generate embedding if OpenAI key is available
     const queryEmbedding = await getQueryEmbedding(query);
 
-    // Run both searches in parallel
-    const [pagesResult, faqsResult] = await Promise.all([
-      supabase.rpc("hybrid_search", {
-        query_text: query,
-        query_embedding: queryEmbedding,
-        match_count: 20,
-      }),
-      supabase.rpc("search_faqs", {
-        query_text: query,
-        query_embedding: queryEmbedding,
-        match_count: 5,
-      }),
-    ]);
+    // Build parallel search calls based on source filter
+    const searches: Promise<{ data: unknown; error: unknown }>[] = [];
+
+    const searchManual = !source || source === "manual";
+    const searchFaq = !source || source === "faq";
+    const searchForum = !source || source === "forum";
+
+    searches.push(
+      searchManual
+        ? supabase.rpc("hybrid_search", {
+            query_text: query,
+            query_embedding: queryEmbedding,
+            match_count: 20,
+          })
+        : Promise.resolve({ data: [], error: null })
+    );
+
+    searches.push(
+      searchFaq
+        ? supabase.rpc("search_faqs", {
+            query_text: query,
+            query_embedding: queryEmbedding,
+            match_count: 5,
+          })
+        : Promise.resolve({ data: [], error: null })
+    );
+
+    searches.push(
+      searchForum
+        ? supabase.rpc("search_forum_threads", {
+            query_text: query,
+            query_embedding: queryEmbedding,
+            match_count: 10,
+          })
+        : Promise.resolve({ data: [], error: null })
+    );
+
+    const [pagesResult, faqsResult, forumResult] = await Promise.all(searches);
 
     if (pagesResult.error) {
       console.error("hybrid_search error:", pagesResult.error);
@@ -59,11 +85,15 @@ export async function GET(request: NextRequest) {
     if (faqsResult.error) {
       console.error("search_faqs error:", faqsResult.error);
     }
+    if (forumResult.error) {
+      console.error("search_forum_threads error:", forumResult.error);
+    }
 
-    const results: SearchResult[] = pagesResult.data ?? [];
-    const faqs: FAQResult[] = faqsResult.data ?? [];
+    const results: SearchResult[] = (pagesResult.data as SearchResult[]) ?? [];
+    const faqs: FAQResult[] = (faqsResult.data as FAQResult[]) ?? [];
+    const forum: ForumResult[] = (forumResult.data as ForumResult[]) ?? [];
 
-    const response = NextResponse.json({ results, faqs });
+    const response = NextResponse.json({ results, faqs, forum });
     response.headers.set(
       "Cache-Control",
       "public, s-maxage=3600, stale-while-revalidate=86400"
@@ -72,7 +102,7 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error("Search API error:", error);
     return NextResponse.json(
-      { results: [], faqs: [], error: "Search failed" },
+      { results: [], faqs: [], forum: [], error: "Search failed" },
       { status: 500 }
     );
   }
