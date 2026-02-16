@@ -2,41 +2,5 @@
   "page_id": "IG-3",
   "section_header": "IGNITION SYSTEM — Electronic Spark Advance (ESA)",
   "title": "ELECTRONIC SPARK ADVANCE (ESA)",
-  "content": [
-    {
-      "type": "text",
-      "text": "The ECU is programmed with data for optimum ignition timing under any and all operating conditions. Using data provided by sensors which monitor various engine functions (rpm, intake air volume, eng. temperature, etc.) the microcomputer (ECU) triggers the spark at precisely the right instant."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "ESA SYSTEM CIRCUIT"
-    },
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "ESA system circuit diagram showing the electrical connections between spark plugs, distributor, ignition coil with igniter, and ECU. The diagram shows multiple spark plug connections, a distributor with internal connections to a tachometer service connector, an ignition coil with igniter assembly connected to +B power, and connections to the ECU through terminals IGt, IGt, G, Ne, G-G, and E1. The circuit includes a ground connection.",
-      "labels": [
-        "Spark Plugs",
-        "To Tachometer Service Connector",
-        "Distributor",
-        "Ignition Coil w/Igniter",
-        "Igniter Assy",
-        "+B",
-        "ECU",
-        "IGt",
-        "IGt",
-        "G",
-        "Ne",
-        "G-G",
-        "E1"
-      ],
-      "bbox": {
-        "top": 42,
-        "left": 1,
-        "width": 98,
-        "height": 56
-      }
-    }
-  ]
+  "ocr_text": "ELECTRONIC SPARK ADVANCE (ESA)\n\nThe ECU is programmed with data for optimum ignition timing under any and all operating conditions. Using data provided by sensors which monitor various engine functions (rpm, intake air volume, eng. temperature, etc.) the microcomputer (ECU) triggers the spark at precisely the right instant.\n\nESA SYSTEM CIRCUIT\n\n+B\n\nIgnition Coil w/Igniter\n\nECU\n\nSpark Plugs\nTo Tachometer Service Connector\nIGt\nIgniter Assy\nIGt\n\nDistributor\nG\nNe\nG-G\nE1\n\nIG0263"
 }

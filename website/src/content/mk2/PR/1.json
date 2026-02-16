@@ -2,33 +2,5 @@
   "page_id": "PR-1",
   "section_header": "PROPELLER SHAFT",
   "title": "PROPELLER SHAFT",
-  "content": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "PROPELLER SHAFT"
-    },
-    {
-      "type": "table",
-      "caption": null,
-      "headers": [
-        "",
-        "Page"
-      ],
-      "rows": [
-        [
-          "PRECAUTIONS",
-          "PR-2"
-        ],
-        [
-          "TROUBLESHOOTING",
-          "PR-2"
-        ],
-        [
-          "PROPELLER SHAFT",
-          "PR-3"
-        ]
-      ]
-    }
-  ]
+  "ocr_text": "PROPELLER SHAFT\n\nPRECAUTIONS.......................... PR-2\nTROUBLESHOOTING ..................... PR-2\nPROPELLER SHAFT ..................... PR-3"
 }

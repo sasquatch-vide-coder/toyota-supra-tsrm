@@ -2,45 +2,5 @@
   "page_id": "CL-1",
   "section_header": "CLUTCH",
   "title": "CLUTCH",
-  "content": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "CLUTCH"
-    },
-    {
-      "type": "table",
-      "caption": "Table of Contents",
-      "headers": [
-        "Topic",
-        "Page"
-      ],
-      "rows": [
-        [
-          "TROUBLESHOOTING",
-          "CL-2"
-        ],
-        [
-          "CHECK AND ADJUSTMENT OF CLUTCH PEDAL",
-          "CL-3"
-        ],
-        [
-          "BLEEDING OF CLUTCH SYSTEM",
-          "CL-3"
-        ],
-        [
-          "CLUTCH MASTER CYLINDER",
-          "CL-4"
-        ],
-        [
-          "CLUTCH RELEASE CYLINDER",
-          "CL-5"
-        ],
-        [
-          "CLUTCH UNIT",
-          "CL-7"
-        ]
-      ]
-    }
-  ]
+  "ocr_text": "CLUTCH\n\nTROUBLESHOOTING ...................... CL-2\nCHECK AND ADJUSTMENT OF CLUTCH\n  PEDAL .................................. CL-3\nBLEEDING OF CLUTCH SYSTEM ............ CL-3\nCLUTCH MASTER CYLINDER ............... CL-4\nCLUTCH RELEASE CYLINDER .............. CL-5\nCLUTCH UNIT ........................... CL-7\n\nPage"
 }

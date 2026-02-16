@@ -2,36 +2,5 @@
   "page_id": "EM-4",
   "section_header": "ENGINE MECHANICAL — Troubleshooting",
   "title": "TROUBLESHOOTING (Cont'd)",
-  "content": [
-    {
-      "type": "table",
-      "caption": null,
-      "headers": [
-        "Problem",
-        "Possible cause",
-        "Remedy",
-        "Page"
-      ],
-      "rows": [
-        [
-          "Excessive oil consumption",
-          "Valve stem and guide worn\nValve stem seal worn",
-          "Check valves\nCheck seals",
-          "EM-18\nEM-19"
-        ],
-        [
-          "Poor gasoline mileage",
-          "Fuel leak\nAir cleaner clogged\nIncorrect ignition timing\nEFI system problems\n  • Injector faulty\n  • Deceleration fuel cut system faulty\nIdle speed too high\nSpark plugs faulty\nEGR system always on\nLow compression\nTires improperly inflated\nClutch slips\nBrakes drag",
-          "Repair as necessary\nCheck air cleaner\nReset timing\nRepair as necessary\n\nCheck ISC system\nInspect plugs\nCheck EGR system\nCheck compression\nInflate tires to proper pressure\nTroubleshoot clutch\nTroubleshoot brakes",
-          "\n\nIG-10\n\n\nFI-60\nIG-5\nEM-6"
-        ],
-        [
-          "Unpleasant odor",
-          "Incorrect idle speed\nIncorrect ignition timing\nVacuum leaks\n  • PCV hoses\n  • EGR valve\n  • Intake manifold\n  • Air intake chamber\n  • Throttle body\nEFI system problems",
-          "Check ISC system\nReset timing\nRepair as necessary\n\n\n\n\n\nRepair as necessary",
-          "FI-60\nIG-10"
-        ]
-      ]
-    }
-  ]
+  "ocr_text": "TROUBLESHOOTING (Cont'd)\n\nProblem | Possible cause | Remedy | Page\n\nExcessive oil consumption | Valve stem and guide worn | Check valves | EM-18\n | Valve stem seal worn | Check seals | EM-19\n\nPoor gasoline mileage | Fuel leak | Repair as necessary | \n | Air cleaner clogged | Check air cleaner | \n | Incorrect ignition timing | Reset timing | IG-10\n | EFI system problems | Repair as necessary | \n | • Injector faulty | | \n | • Deceleration fuel cut system faulty | | \n | Idle speed too high | Check ISC system | FI-60\n | Spark plugs faulty | Inspect plugs | IG-5\n | EGR system always on | Check EGR system | \n | Low compression | Check compression | EM-6\n | Tires improperly inflated | Inflate tires to proper pressure | \n | Clutch slips | Troubleshoot clutch | \n | Brakes drag | Troubleshoot brakes | \n\nUnpleasant odor | Incorrect idle speed | Check ISC system | FI-60\n | Incorrect ignition timing | Reset timing | IG-10\n | Vacuum leaks | Repair as necessary | \n | • PCV hoses | | \n | • EGR valve | | \n | • Intake manifold | | \n | • Air intake chamber | | \n | • Throttle body | | \n | EFI system problems | Repair as necessary |"
 }

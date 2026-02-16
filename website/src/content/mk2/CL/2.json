@@ -2,54 +2,5 @@
   "page_id": "CL-2",
   "section_header": "CLUTCH — Troubleshooting",
   "title": "TROUBLESHOOTING",
-  "content": [
-    {
-      "type": "table",
-      "caption": null,
-      "headers": [
-        "Problem",
-        "Possible cause",
-        "Remedy",
-        "Page"
-      ],
-      "rows": [
-        [
-          "Hard to shift or will not shift",
-          "Clutch pedal freeplay excessive\nAir in clutch lines\nClutch release cylinder faulty\nClutch master cylinder faulty\nClutch disc out of true, runout is excessive or lining broken\nClutch input shaft or clutch disc dirty or burred\nClutch pressure plate faulty",
-          "Adjust pedal freeplay\nBleed clutch system\nRepair release cylinder\nRepair master cylinder\nInspect clutch disc\nRepair as necessary\nReplace pressure plate",
-          "CL-3\nCL-3\nCL-5\nCL-4\nCL-7\nCL-7\nCL-7"
-        ],
-        [
-          "Transmission jumps out of gear",
-          "Clutch pilot bearing worn",
-          "Replace pilot bearing",
-          "CL-8"
-        ],
-        [
-          "Clutch slips",
-          "Clutch pedal freeplay insufficient\nClutch disc lining oily or worn out\nPressure plate faulty\nRelease fork binding",
-          "Adjust pedal freeplay\nInspect clutch disc\nReplace pressure plate\nInspect release fork",
-          "CL-3\nCL-7\nCL-7\nCL-7"
-        ],
-        [
-          "Clutch grabs/chatters",
-          "Clutch disc lining oily or worn out\nPressure plate faulty\nClutch diaphragm spring bent\nEngine mounts loose",
-          "Inspect clutch disc\nReplace pressure plate\nAlign clutch diaphragm\nRepair as necessary",
-          "CL-7\nCL-7\nCL-7"
-        ],
-        [
-          "Clutch pedal spongy",
-          "Air in clutch lines\nClutch release cylinder faulty\nClutch master cylinder faulty",
-          "Bleed clutch system\nRepair release cylinder\nRepair master cylinder",
-          "CL-3\nCL-5\nCL-4"
-        ],
-        [
-          "Clutch noisy",
-          "Loose part inside housing\nRelease bearing worn or dirty\nPilot bearing worn\nRelease fork or linkage sticks",
-          "Repair as necessary\nReplace release bearing\nReplace pilot bearing\nRepair as necessary",
-          "CL-7\nCL-8"
-        ]
-      ]
-    }
-  ]
+  "ocr_text": "TROUBLESHOOTING\n\nProblem | Possible cause | Remedy | Page\n\nHard to shift or will not shift | Clutch pedal freeplay excessive | Adjust pedal freeplay | CL 3\n | Air in clutch lines | Bleed clutch system | CL 3\n | Clutch release cylinder faulty | Repair release cylinder | CL 5\n | Clutch master cylinder faulty | Repair master cylinder | CL 4\n | Clutch disc out of true, runout is excessive or lining broken | Inspect clutch disc | CL 7\n | Clutch input shaft or clutch disc dirty or burred | Repair as necessary | CL 7\n | Clutch pressure plate faulty | Replace pressure plate | CL 7\n\nTransmission jumps out of gear | Clutch pilot bearing worn | Replace pilot bearing | CL 8\n\nClutch slips | Clutch pedal freeplay insufficient | Adjust pedal freeplay | CL 3\n | Clutch disc lining oily or worn out | Inspect clutch disc | CL 7\n | Pressure plate faulty | Replace pressure plate | CL 7\n | Release fork binding | Inspect release fork | CL 7\n\nClutch grabs/chatters | Clutch disc lining oily or worn out | Inspect clutch disc | CL 7\n | Pressure plate faulty | Replace pressure plate | CL 7\n | Clutch diaphragm spring bent | Align clutch diaphragm | CL 7\n | Engine mounts loose | Repair as necessary |\n\nClutch pedal spongy | Air in clutch lines | Bleed clutch system | CL 3\n | Clutch release cylinder faulty | Repair release cylinder | CL 5\n | Clutch master cylinder faulty | Repair master cylinder | CL 4\n\nClutch noisy | Loose part inside housing | Repair as necessary |\n | Release bearing worn or dirty | Replace release bearing | CL 7\n | Pilot bearing worn | Replace pilot bearing | CL 8\n | Release fork or linkage sticks | Repair as necessary |"
 }

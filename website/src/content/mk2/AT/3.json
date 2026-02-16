@@ -2,54 +2,5 @@
   "page_id": "AT-3",
   "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting",
   "title": "TROUBLESHOOTING (Cont'd)",
-  "content": [
-    {
-      "type": "table",
-      "caption": null,
-      "headers": [
-        "Problem",
-        "Possible cause",
-        "Remedy",
-        "Page"
-      ],
-      "rows": [
-        [
-          "Fluid discolored or smells burnt",
-          "Fluid contaminated\nTorque converter faulty\nTransmission faulty",
-          "Replace fluid\nReplace torque converter\nDisassemble and inspect transmission",
-          "MA-10\nAT-103\nAT-45"
-        ],
-        [
-          "Vehicle does not move in any forward range or reverse",
-          "Manual linkage out of adjustment\nValve body or primary regulator faulty\nPark lock pawl faulty\nTorque converter faulty\nConverter drive plate broken\nOil pump intake screen blocked\nTransmission faulty",
-          "Adjust linkage\nInspect valve body\nInspect park pawl\nReplace torque converter\nReplace drive plate\nClean screen\nDisassemble and inspect transmission",
-          "AT-5\nAT-83\nAT-37\nAT-103\nAT-44\nAT-28\nAT-45"
-        ],
-        [
-          "Shift lever position incorrect",
-          "Manual linkage out of adjustment\nManual valve and lever faulty\nTransmission faulty",
-          "Adjust linkage\nInspect valve body\nDisassemble and inspect transmission",
-          "AT-5\nAT-83\nAT-45"
-        ],
-        [
-          "Harsh engagement into any drive range",
-          "Throttle cable out of adjustment\nValve body or primary regulator faulty\nAccumulator pistons faulty\nTransmission faulty",
-          "Adjust throttle cable\nInspect valve body\nInspect accumulator pistons\nDisassemble and inspect transmission",
-          "AT-5\nAT-83\nAT-112\nAT-45"
-        ],
-        [
-          "Delayed 1-2, 2-3 or 3-OD up shift, or down-shifts from 4-3 or 3-2 then shifts back to 4 or 3",
-          "Electric control faulty\nValve body faulty\nSolenoid valve faulty",
-          "Inspect electric control\nInspect valve body\nInspect valve body",
-          "AT-6\nAT-83\nAT-83"
-        ],
-        [
-          "Slips on 1-2, 2-3 or 3-OD up shift, or slips or shudders on take-off",
-          "Manual linkage out of adjustment\nThrottle cable out of adjustment\nValve body faulty\nSolenoid valve faulty\nTransmission faulty",
-          "Adjust linkage\nAdjust throttle cable\nInspect valve body\nInspect valve body\nDisassemble and inspect transmission",
-          "AT-5\nAT-5\nAT-83\n\nAT-45"
-        ]
-      ]
-    }
-  ]
+  "ocr_text": "TROUBLESHOOTING (Cont'd)\n\nProblem | Possible cause | Remedy | Page\n\nFluid discolored or smells burnt | Fluid contaminated | Replace fluid | MA-10\n | Torque converter faulty | Replace torque converter | AT-103\n | Transmission faulty | Disassemble and inspect transmission | AT-45\n\nVehicle does not move in any forward range or reverse | Manual linkage out of adjustment | Adjust linkage | AT-5\n | Valve body or primary regulator faulty | Inspect valve body | AT-83\n | Park lock pawl faulty | Inspect park pawl | AT-37\n | Torque converter faulty | Replace torque converter | AT-103\n | Converter drive plate broken | Replace drive plate | AT-44\n | Oil pump intake screen blocked | Clean screen | AT-28\n | Transmission faulty | Disassemble and inspect transmission | AT-45\n\nShift lever position incorrect | Manual linkage out of adjustment | Adjust linkage | AT-5\n | Manual valve and lever faulty | Inspect valve body | AT-83\n | Transmission faulty | Disassemble and inspect transmission | AT-45\n\nHarsh engagement into any drive range | Throttle cable out of adjustment | Adjust throttle cable | AT-5\n | Valve body or primary regulator faulty | Inspect valve body | AT-83\n | Accumulator pistons faulty | Inspect accumulator pistons | AT-112\n | Transmission faulty | Disassemble and inspect transmission | AT-45\n\nDelayed 1-2, 2-3 or 3-OD up shift, or down-shifts from 4-3 or 3-2 then shifts back to 4 or 3 | Electric control faulty | Inspect electric control | AT-6\n | Valve body faulty | Inspect valve body | AT-83\n | Solenoid valve faulty | Inspect valve body | AT-83\n\nSlips on 1-2, 2-3 or 3-OD up shift, or slips or shudders on take-off | Manual linkage out of adjustment | Adjust linkage | AT-5\n | Throttle cable out of adjustment | Adjust throttle cable | AT-5\n | Valve body faulty | Inspect valve body | AT-83\n | Solenoid valve faulty | Inspect valve body | \n | Transmission faulty | Disassemble and inspect transmission | AT-45"
 }

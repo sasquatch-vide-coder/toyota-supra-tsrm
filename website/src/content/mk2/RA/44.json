@@ -1,62 +1,6 @@
 {
   "page_id": "RA-44",
-  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension",
+  "section_header": "REAR AXLE AND SUSPENSION - IRS Type Rear Suspension",
   "title": "IRS TYPE REAR SUSPENSION COMPONENTS",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Exploded view diagram of IRS Type Rear Suspension components showing the assembly of all parts including stabilizer bar, drive shaft, shock absorber, coil spring, suspension arm, rear axle shaft, and parking brake components with torque specifications",
-      "labels": [
-        "Upper Insulator",
-        "Stabilizer Bar",
-        "Shock Absorber",
-        "Coil Spring",
-        "Lower Insulator",
-        "Drive Shaft",
-        "Shaft Flange",
-        "Inner Bushing",
-        "Adjusting Bolt",
-        "Suspension Arm",
-        "Outer Bushing",
-        "Parking Brake Shoe",
-        "Rear Axle Shaft",
-        "Clip"
-      ],
-      "bbox": {
-        "top": 10,
-        "left": 5,
-        "width": 90,
-        "height": 85
-      }
-    },
-    {
-      "type": "torque_spec",
-      "component": "Stabilizer Bar",
-      "value": "180 (13, 18)",
-      "location": "Upper connection point"
-    },
-    {
-      "type": "torque_spec",
-      "component": "Drive Shaft Inner Bushing",
-      "value": "1,325 (96, 130)",
-      "location": "Inner mounting point"
-    },
-    {
-      "type": "torque_spec",
-      "component": "Coil Spring",
-      "value": "375 (27, 37)",
-      "location": "Spring mounting"
-    },
-    {
-      "type": "torque_spec",
-      "component": "Suspension Arm Outer Bushing",
-      "value": "1,175 (85, 115)",
-      "location": "Outer mounting point"
-    },
-    {
-      "type": "text",
-      "text": "kg·cm (ft·lb, N·m) : Specified torque"
-    }
-  ]
+  "ocr_text": "IRS TYPE REAR SUSPENSION\nCOMPONENTS\n\nUpper Insulator\n\nShock Absorber\n\nStabilizer Bar\n180 (13, 18)\n\nDrive Shaft\nShaft Flange\n\nCoil Spring\n375 (27, 37)\n\nLower\nInsulator\n\n1,325 (96, 130)\n\nInner Bushing\n\nAdjusting Bolt\n\nSuspension Arm\n1,175 (85, 115)\nOuter Bushing\n\nParking Brake Shoe\n\nRear Axle Shaft\n\nkg·cm (ft·lb, N·m) : Specified torque"
 }

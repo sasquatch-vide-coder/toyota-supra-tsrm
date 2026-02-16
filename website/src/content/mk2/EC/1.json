@@ -2,53 +2,5 @@
   "page_id": "EC-1",
   "section_header": "EMISSION CONTROL SYSTEMS",
   "title": "EMISSION CONTROL SYSTEMS",
-  "content": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "EMISSION CONTROL SYSTEMS"
-    },
-    {
-      "type": "table",
-      "caption": "Table of Contents",
-      "headers": [
-        "Topic",
-        "Page"
-      ],
-      "rows": [
-        [
-          "SYSTEM PURPOSE",
-          "EC-2"
-        ],
-        [
-          "COMPONENT LAYOUT AND SCHEMATIC DRAWING",
-          "EC-3"
-        ],
-        [
-          "POSITIVE CRANKCASE VENTILATION (PCV) SYSTEM",
-          "EC-4"
-        ],
-        [
-          "FUEL EVAPORATIVE EMISSION CONTROL (EVAP) SYSTEM",
-          "EC-5"
-        ],
-        [
-          "DASH POT (DP) SYSTEM",
-          "EC-7"
-        ],
-        [
-          "EXHAUST GAS RECIRCULATION (EGR) SYSTEM",
-          "EC-10"
-        ],
-        [
-          "THREE-WAY CATALYST (TWC) SYSTEM",
-          "EC-15"
-        ]
-      ]
-    },
-    {
-      "type": "notice",
-      "text": "NOTE: TROUBLESHOOTING See page EM-2"
-    }
-  ]
+  "ocr_text": "EMISSION CONTROL\nSYSTEMS\n\n                                                    Page\nSYSTEM PURPOSE............................................  EC-2\nCOMPONENT LAYOUT AND SCHEMATIC\n  DRAWING......................................................  EC-3\nPOSITIVE CRANKCASE VENTILATION (PCV)\n  SYSTEM ........................................................  EC-4\nFUEL EVAPORATIVE EMISSION CONTROL\n  (EVAP) SYSTEM ............................................  EC-5\nDASH POT (DP) SYSTEM...................................  EC-7\nEXHAUST GAS RECIRCULATION (EGR)\n  SYSTEM ........................................................  EC-10\nTHREE-WAY CATALYST (TWC) SYSTEM ..............  EC-15\n\n\n\nNOTE:  TROUBLESHOOTING\n        See page EM-2"
 }

@@ -1,51 +1,6 @@
 {
-  "page_id": "2",
+  "page_id": "EL-26",
   "section_header": "2 CELICA SUPRA (Cont'd)",
-  "title": "2 CELICA SUPRA (Cont'd)",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Electrical wiring diagram for Celica Supra fog lights system showing connections between fog light relay, fog light switch, A/C amplifier, heater relay, and fog lights with ground points and wire routing",
-      "labels": [
-        "Fog Lights",
-        "A",
-        "B",
-        "D",
-        "F",
-        "h",
-        "H",
-        "1",
-        "2",
-        "SW-9",
-        "W-B",
-        "W-R",
-        "FOG LIGHT RELAY",
-        "From HEAD fuse (15A IG2)",
-        "FOG LIGHT SW",
-        "10A A-C",
-        "A/C B-W",
-        "A/C SW",
-        "HEATER RELAY (MANUAL A/C W/O S-W MODEL S/W: *2)",
-        "Y",
-        "A-C AMPLIFIER",
-        "FOG LIGHT RH",
-        "FOG LIGHT LH",
-        "HEATER FAN MOTOR",
-        "FROM A/C (AUTO A/C-SW)",
-        "TO A/C COMPRESSOR RELAY",
-        "W-B",
-        "L-O",
-        "Ground points",
-        "d: Located under right front pillar",
-        "h: Located under left front pillar"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 5,
-        "width": 90,
-        "height": 90
-      }
-    }
-  ]
+  "title": "Fog Lights",
+  "ocr_text": "2 CELICA SUPRA (Cont'd)\n\nFog Lights\n\nA—\nB—\nD—\nE—\nF—\nH—\n\nFog\nLights\n\nFoot, \"HEAD Fuse\"\nA/C B-W\n\nFOG LIGHT RELAY\nW-B\nW-B\nW\nIGN\nB-R\n10A\nA/C\nB-R\nB-Y\nA/C B-W\nHEAT VENT\nMODEL SW\nB\nR-Y\nA/C AMPLIFIER\nLO\nH-1\nLO\nFRONT DEFOG. S/W\nFRONT DEFOGGER CONTROL\nDEFOGGER CONTROL\nMAGNETIC CLUTCH\n\nGround points\n① : Located under right front pillar\n② : Located under left front pillar"
 }

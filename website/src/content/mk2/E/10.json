@@ -1,53 +1,6 @@
 {
-  "page_id": "Unknown",
-  "section_header": "WIRING DIAGRAM",
-  "title": "Wiring Diagram - Cooling System and Related Components",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Electrical wiring diagram showing connections for cooling system components including water temperature sensors, fuel sender, volt meter, tach, rear window defogger, back-up lights, timer relay, and radiator fan relay. The diagram shows wire routing and connections from various components to the TCCS ECU (T-13), main relay (J-1), and other electrical components. Wire colors and connection points are indicated throughout.",
-      "labels": [
-        "Rear Window Defogger",
-        "Back-up Lights",
-        "To Rear Window Main Relay (J-1)",
-        "From TCCS ECU (T-13)",
-        "IDLE SPEED & MODE",
-        "WATER TEMP",
-        "WATER TEMP SENDER",
-        "FUEL",
-        "FUEL SENDER",
-        "VOLT",
-        "TACH",
-        "Analog Meter",
-        "TIMER",
-        "06 FOGGER S/W",
-        "BACK-UP LIGHT SWITCH",
-        "To A/T Indicator SW (G-17)",
-        "For Manual Antenna Circuit Relay (G-4)",
-        "RADIATOR FAN RELAY"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 5,
-        "width": 90,
-        "height": 90
-      }
-    },
-    {
-      "type": "text",
-      "text": "Wire color codes visible in diagram: W (White), Y-G (Yellow-Green), Y-R (Yellow-Red), BR (Brown), R (Red), B (Blue), G (Green), L (Light Blue), BL (Black)"
-    },
-    {
-      "type": "diagram",
-      "index": 2,
-      "description": "Small inset diagram showing a top-down view of what appears to be a relay or connector component with terminal positions marked",
-      "bbox": {
-        "top": 26,
-        "left": 50,
-        "width": 28,
-        "height": 8
-      }
-    }
-  ]
+  "page_id": "EL-24",
+  "section_header": "ELECTRICAL - Wiring Diagram",
+  "title": "",
+  "ocr_text": "Rear Window Defroster\nBack-up Lights\n\nB\nB\nD\nE\nF\nH\n\nW\n\nF\n\nTail/Marker Relay (3.1)\n\nMain Relay (3.1)\n\nTo Fusible Link (0.37)\n\nFrom TCCS ECU\n(14-3)\n\nTo A/T Indicator\nSw (6.17)\n\n(Analog Meter)\n\nV-G\nDIGITAL\nFUEL INJECTION SENSOR\n\nTo Power Antenna\nControl Relay (6-24)\n\nV-G\nWATER TEMP\nWATER TEMP SENSOR\n\nV-R,V-W,V-B\nFUEL\nFUEL SENDER\n\nV-W\nVOLT\n\nB\n\nOil Fogger Sw\n\nTACH\n\nBACK-UP LIGHT\nRELAY\n\nOil Fogger S/W\n\nTIMER\n\nMain Relay (3.1)\n\nTe Rear Window\nMain Relay (3.1)\n\nTo A/T SW\n\nBR\n\nG\nD\nB\n\nG"
 }

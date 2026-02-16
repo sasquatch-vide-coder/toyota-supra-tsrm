@@ -2,46 +2,5 @@
   "page_id": "AC-9",
   "section_header": "AIR CONDITIONING SYSTEM — Air Conditioning System Circuit",
   "title": "AIR CONDITIONING SYSTEM CIRCUIT",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Complete electrical wiring diagram for the air conditioning system showing connections between components including blower motor, compressor, sensors, switches, relays, and control units. The diagram uses solid lines for original equipment wiring and dotted lines for A/C main harness connections.",
-      "labels": [
-        "A/C CUT SENSOR",
-        "V/P (SUB-DAMPER)",
-        "WATER TEMP SWITCH (MAIN)",
-        "WATER TEMP SWITCH (1/2/3)",
-        "HEATER RELAY",
-        "CONDENSER MOTOR",
-        "BLY SW",
-        "BLO MOTOR",
-        "SERVO MOTOR",
-        "BLOWER SWITCH",
-        "M/T SWITCH",
-        "COOLING CONTROL",
-        "A/C CONTROL",
-        "SUB DAMPER RELAY No.1",
-        "SUB DAMPER RELAY No.2",
-        "SUB DAMPER RELAY No.3 (M/T ONLY)",
-        "MAIN RELAY No.1",
-        "MAIN RELAY No.2",
-        "POWER SOURCE",
-        "SOLAR SENSOR",
-        "THERMO CONTROL AMPLIFIER",
-        "PRESSURE SWITCH",
-        "VENT MODE SWITCH",
-        "HEAT MODE SWITCH",
-        "DEF MODE SWITCH",
-        "ORIGINAL EQUIPPED WIRE HARNESS",
-        "A/C MAIN HARNESS"
-      ],
-      "bbox": {
-        "top": 8,
-        "left": 3,
-        "width": 94,
-        "height": 90
-      }
-    }
-  ]
+  "ocr_text": "AIR CONDITIONING SYSTEM — Air Conditioning System Circuit     AC-9\n\nAIR CONDITIONING SYSTEM CIRCUIT\n\n[This page contains a detailed electrical wiring diagram for the air conditioning system. The diagram shows various components and their connections including:\n\n- 14 ACS SENSOR\n- WET BULB SENSOR\n- IN CAR SENSOR\n- SOLAR SENSOR\n- BLOWER MOTOR\n- BLOWER SWITCH\n- COMPRESSOR MOTOR\n- COOLING CONTROL\n- VOLTAGE CONTROL\n- RESISTOR\n- POWER SOURCE\n- BLOWER SWITCH\n- VENT MODE SWITCH\n- HEAT MODE SWITCH\n- WATER TEMP SWITCH (MTF)\n- WATER TEMP SWITCH (120°F)\n- HEATER VALVE\n- WATER VALVE\n- CONDENSER MOTOR\n- A/C FAN\n- SUB DAMPER RELAY [?]\n\nThe diagram uses dotted lines to indicate:\n- ORIGINAL EQUIPPED WIRE HARNESS\n- A.C. WIRE HARNESS]"
 }

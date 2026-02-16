@@ -1,44 +1,6 @@
 {
   "page_id": "BE-9",
   "section_header": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays",
-  "title": "PASSENGER COMPARTMENT SWITCHES AND RELAYS",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Upper diagram showing location of switches and relays in the passenger compartment dashboard and door area. Shows the installation positions of various electrical components including seat belt warning relay, defogger relay, turn signal flasher, door lock relay, power window relay, and interior light control relay.",
-      "labels": [
-        "Seat Belt Warning Relay",
-        "C/B (Defogger)",
-        "Defogger Relay",
-        "Turn Signal Flasher",
-        "Door Lock Relay",
-        "Power Window Relay",
-        "Interior Light Control Relay"
-      ],
-      "bbox": {
-        "top": 10,
-        "left": 5,
-        "width": 90,
-        "height": 45
-      }
-    },
-    {
-      "type": "diagram",
-      "index": 2,
-      "description": "Lower diagram showing location of switches and relays in the lower passenger compartment area. Shows the installation positions of rear wiper control relay, front wiper control relay, fog light relay, and heater relay.",
-      "labels": [
-        "Rear Wiper Control Relay",
-        "Front Wiper Control Relay",
-        "Fog Light Relay",
-        "Heater Relay"
-      ],
-      "bbox": {
-        "top": 55,
-        "left": 5,
-        "width": 90,
-        "height": 40
-      }
-    }
-  ]
+  "title": "PASSENGER COMPARTMENT SWITCHES\nAND RELAYS",
+  "ocr_text": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays\n\nPASSENGER COMPARTMENT SWITCHES\nAND RELAYS\n\nSeat Belt Warning Relay\nC/B (Defogger)\nDefogger Relay\nTurn Signal Flasher\nDoor Lock Relay\nPower Window\nRelay\nInterior Light\nControl Relay\n\nRear Wiper\nControl Relay\nFront Wiper\nControl Relay\nFog Light Relay\nHeater Relay\n\nBE01683"
 }

@@ -2,47 +2,5 @@
   "page_id": "CH-1",
   "section_header": "CHARGING SYSTEM",
   "title": "CHARGING SYSTEM",
-  "content": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "CHARGING SYSTEM"
-    },
-    {
-      "type": "table",
-      "caption": null,
-      "headers": [
-        "Topic",
-        "Page"
-      ],
-      "rows": [
-        [
-          "PRECAUTIONS",
-          "CH-2"
-        ],
-        [
-          "TROUBLESHOOTING",
-          "CH-2"
-        ],
-        [
-          "ON-VEHICLE INSPECTION",
-          "CH-2"
-        ],
-        [
-          "ALTERNATOR",
-          "CH-5"
-        ]
-      ]
-    },
-    {
-      "type": "text",
-      "text": "CH",
-      "bbox": {
-        "top": 85,
-        "left": 90,
-        "width": 10,
-        "height": 5
-      }
-    }
-  ]
+  "ocr_text": "CHARGING SYSTEM\n\n                                                Page\nPRECAUTIONS ............................  CH-2\nTROUBLESHOOTING .......................  CH-2\nON-VEHICLE INSPECTION ..................  CH-2\nALTERNATOR ............................  CH-5"
 }

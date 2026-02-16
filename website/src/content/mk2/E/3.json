@@ -1,47 +1,6 @@
 {
-  "page_id": "1",
+  "page_id": "EL-1",
   "section_header": "CELICA SUPRA ELECTRICAL WIRING DIAGRAM-1986 Model (Page 1 to Page",
-  "title": "CELICA SUPRA ELECTRICAL WIRING DIAGRAM-1986 Model (Page 1 to Page",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Electrical wiring diagram showing power source (battery), starting system, ignition switch, and connections to various components including starter motor, igniter, and associated wiring harnesses. The diagram shows wire routing from battery through ignition switch to starter motor and other electrical components.",
-      "labels": [
-        "Power Source",
-        "Starting",
-        "BATTERY",
-        "STARTER",
-        "IGNITION S/W",
-        "IGNITER",
-        "ST",
-        "AM1",
-        "IG S/W",
-        "Ground Point",
-        "B-W",
-        "W",
-        "B",
-        "E-R",
-        "To Combination Meter Pk 2",
-        "To Charge Lamp 40",
-        "To Power Source Relay Pk 2",
-        "To Power Source Relay Pk 2",
-        "To Combination Meter Pk 2"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 5,
-        "width": 90,
-        "height": 90
-      }
-    },
-    {
-      "type": "text",
-      "text": "Wire color codes visible: B-W (Black-White), W (White), B (Black), E-R (Earth-Red)"
-    },
-    {
-      "type": "text",
-      "text": "Connection references to other pages: 'To Combination Meter Pk 2', 'To Charge Lamp 40', 'To Power Source Relay Pk 2'"
-    }
-  ]
+  "title": "",
+  "ocr_text": "CELICA SUPRA ELECTRICAL WIRING DIAGRAM-1986 Model (Page 1 to Page\n\nPower Source\n\nStarting\n\n1\n2\n\nA\nB\nD\nE\nF\nG\nH\n\nIGNITION S/W\nW\nB-W\nB-Y\nACC\nIG\nST\n\nCOMBINATION METER\nTachometer -----> A4-1 b\n\nBattery Charge Light -----> A4-2 b\n\nR-B\nR-W\nB\nB-W\n\nB\n\nMAGNETIC CLUTCH\nOF A/C\n\nDISTRIBUTOR\n\nB-Y\nW\n\nNEUTRAL START SWITCH\nST\nSTARTS\n\nCOOLING FAN RELAY NO. 1\n\nCOOLING\nFAN\nRELAY\nNO. 2\n\nCOIL\n\nB\nH\n\nB-R\nB\n\nIGNITION COIL\n\nCHARGE FUSE\n30A\n\nCUT OFF\nFUSE\n(5)\n10A\n\nSTOP LIGHT\nFUSE\n(8)\n15A\n\nBATTERY\n\nSTARTER\n\nIGNITER\n\nGround Point"
 }

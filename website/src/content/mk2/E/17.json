@@ -1,49 +1,6 @@
 {
-  "page_id": "Unknown",
+  "page_id": "EL-6",
   "section_header": "INTERIOR LIGHTS",
-  "title": "INTERIOR LIGHTS WIRING DIAGRAM",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Interior lights electrical wiring diagram showing connections from gauge fuse, to clock, through fade-out relay, to various interior lights including door switches and courtesy lights. Diagram includes wire color codes and connection points.",
-      "labels": [
-        "Interior Lights",
-        "From 'GAUGE' Fuse (2.4)",
-        "To Clock (Signal) (E-1)",
-        "To Theft Warning ECU (B-6)",
-        "CLOCK (DIGITAL)",
-        "ROOM LIGHT",
-        "DOOR COURTESY LIGHT (LH)",
-        "DOOR COURTESY LIGHT",
-        "VANITY MIRROR LIGHT (LH)",
-        "VANITY MIRROR LIGHT (RH)",
-        "PERSONAL LIGHT",
-        "GLOVE COMPARTMENT LIGHT",
-        "TRUNK LIGHT",
-        "ROOM LIGHT SW",
-        "FADE OUT RELAY",
-        "DOOR COURTESY S/W",
-        "SEAT BELT WARNING SWITCH",
-        "From Light Dimmer Relay (E-3)",
-        "B/W",
-        "R/U",
-        "L/H"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 5,
-        "width": 90,
-        "height": 85
-      }
-    },
-    {
-      "type": "text",
-      "text": "e : Located on right side of air intake chamber."
-    },
-    {
-      "type": "text",
-      "text": "f : Located in back panel near door key cylinder."
-    }
-  ]
+  "title": "",
+  "ocr_text": "Interior Lights\n\nFrom \"GAUGE\" Fuse (7.5A)\n\nTo Clock (Digital) (6-1)\n\nTo Theft-Deterrent Warning Light System (EL-6)\n\nDOOR COURTESY LIGHT\n\nDOOR UNLOCK REMINDER LIGHT\n\nVANITY MIRROR LIGHT\n\nGLOVE BOX LIGHT\n\nWARNING BUZZER\n\nDOOR CONTROL SWITCH\n\nDOOR CONTROL RELAY\n\nINTERIOR LIGHT\n\nLUGGAGE ROOM LIGHT\n\nFADE-OUT RELAY\n\nB-W\n\nB-W\n\nB-W\n\nR-W\n\nLH\n\nRH\n\nDOOR COURTESY S/W\n\nFrom Light Control Relay (6-7)\n\nSEAT BELT WARNING\n\ne - Located on right side of left intake chamber.\nf - Located in back panel near door lock cylinder."
 }

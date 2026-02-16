@@ -2,55 +2,5 @@
   "page_id": "LU-1",
   "section_header": "LUBRICATION SYSTEM",
   "title": "LUBRICATION SYSTEM",
-  "content": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "LUBRICATION SYSTEM"
-    },
-    {
-      "type": "table",
-      "caption": "Table of Contents",
-      "headers": [
-        "Section",
-        "Page"
-      ],
-      "rows": [
-        [
-          "TROUBLESHOOTING",
-          "LU-2"
-        ],
-        [
-          "OIL PRESSURE CHECK",
-          "LU-2"
-        ],
-        [
-          "REPLACEMENT OF ENGINE OIL AND OIL FILTER",
-          "LU-3"
-        ],
-        [
-          "OIL PUMP",
-          "LU-4"
-        ],
-        [
-          "OIL PRESSURE REGULATOR",
-          ""
-        ],
-        [
-          "(For Lash Adjuster Valve)",
-          "LU-9"
-        ]
-      ]
-    },
-    {
-      "type": "text",
-      "text": "LU",
-      "bbox": {
-        "top": 50,
-        "left": 92,
-        "width": 8,
-        "height": 5
-      }
-    }
-  ]
+  "ocr_text": "LUBRICATION SYSTEM\n\nPage\nTROUBLESHOOTING ......................................... LU-2\nOIL PRESSURE CHECK ..................................... LU-2\nREPLACEMENT OF ENGINE OIL AND OIL FILTER.... LU-3\nOIL PUMP .................................................... LU-4\nOIL PRESSURE REGULATOR\n(For Lash Adjuster Valve).................................. LU-9"
 }

@@ -2,39 +2,5 @@
   "page_id": "AC-21",
   "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment",
   "title": "Condenser Motor",
-  "content": [
-    {
-      "type": "text",
-      "text": "(See page AC-9)"
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "ON-VEHICLE INSPECTION"
-    },
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Photograph showing location of A/C relay with labels pointing to components",
-      "labels": [
-        "A/C RELAY",
-        "WASHER RESERVOIR",
-        "FAN"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 3,
-        "width": 40,
-        "height": 30
-      }
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "CHECK CONDENSER MOTOR OPERATION\nNOTE: When the air conditioner is on, the condenser motor must rotate.",
-        "CHECK A/C RELAY OPERATION\nNOTE: When the air conditioner is on, the A/C relay must come on.\nIf a problem is found, replace defective part."
-      ]
-    }
-  ]
+  "ocr_text": "Condenser Motor\n\n(See page AC-9)\n\nON-VEHICLE INSPECTION\n\n1. CHECK CONDENSER MOTOR OPERATION\nNOTE: When the air conditioner is on, the condenser motor must rotate.\n\n2. CHECK A/C RELAY OPERATION\nNOTE: When the air conditioner is on, the A/C relay must come on.\nIf a problem is found, replace defective part."
 }

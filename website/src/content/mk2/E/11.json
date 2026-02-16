@@ -1,47 +1,6 @@
 {
-  "page_id": "CELICA SUPRA (Cont'd)",
-  "section_header": "CELICA SUPRA (Cont'd)",
-  "title": "Power Windows and Sun Roof Wiring Diagram",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Complete wiring diagram showing power windows and sun roof electrical circuits including power main relay, power window master switch, power window motors (driver and assistant), sun roof switch, and sun roof motor with ground points",
-      "labels": [
-        "Power Windows",
-        "Sun Roof",
-        "From 'GAUGE' Fuse (2-8)",
-        "POWER MAIN RELAY",
-        "POWER WINDOW MASTER S/W",
-        "SUN ROOF S/W",
-        "POWER WINDOW MOTOR",
-        "ASSISTANT",
-        "DRIVER",
-        "SUN ROOF MOTOR",
-        "To Door Lock Relay (S-1)",
-        "Sun Roof Cir",
-        "Ground points",
-        "d = Located under right front pillar",
-        "b = Located under left front pillar"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 5,
-        "width": 90,
-        "height": 90
-      }
-    },
-    {
-      "type": "text",
-      "text": "Ground points"
-    },
-    {
-      "type": "text",
-      "text": "d = Located under right front pillar"
-    },
-    {
-      "type": "text",
-      "text": "b = Located under left front pillar"
-    }
-  ]
+  "page_id": "EL-45",
+  "section_header": "ELECTRICAL - Power Window and Door Lock System",
+  "title": "CELICA SUPRA (Cont'd)",
+  "ocr_text": "CELICA SUPRA (Cont'd)\n\nPower Windows\n\nSun Roof\n\nFrom \"GAUGE\" Fuse (2-B)\n\n30A\nMain\nCB\n\nTo Door Lock Relay (S-1)\n\nPOWER\nMAIN RELAY\n\nV-B\n\nV-B\n\nPOWER R WINDOW MASTER R SW\n\nDOWN\n\nUP\n\nUP\n\nDOWN\n\nDRIVER\n\nASSISTANT\n\nSUN ROOF S/W\n\nSUN ROOF MOTOR\n\nDOWN\n\nUP\n\nPOWER R WINDOW MOTOR\n\nPOWER R WINDOW MOTOR\n\nGround points\n\nd = Located under right front pillar\n\nb = Located under left front pillar"
 }

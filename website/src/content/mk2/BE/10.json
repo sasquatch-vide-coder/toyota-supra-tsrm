@@ -1,34 +1,6 @@
 {
   "page_id": "BE-10",
   "section_header": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays",
-  "title": "PASSENGER AND LUGGAGE COMPARTMENT SWITCHES AND RELAYS",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Exploded view diagram showing the location of various switches, relays, and solenoids in the passenger and luggage compartment of a 1986 Toyota Supra. The diagram shows two main views: an upper view of the passenger compartment dashboard/door area and a lower view of the rear luggage compartment area.",
-      "labels": [
-        "Power Window Door Switch",
-        "Door Lock Key Switch",
-        "Stop Light Switch",
-        "Parking Brake Switch",
-        "Door Lock Switch",
-        "Power Window Master Switch",
-        "Door Lock Key Switch",
-        "Door Lock Solenoid",
-        "Courtesy Switch",
-        "Door Lock Control Relay",
-        "Door Lock Solenoid",
-        "Rear Wiper Control Relay",
-        "Courtesy Switch",
-        "Fuel Sender Gauge"
-      ],
-      "bbox": {
-        "top": 11,
-        "left": 4,
-        "width": 92,
-        "height": 88
-      }
-    }
-  ]
+  "title": "PASSENGER AND LUGGAGE COMPARTMENT\nSWITCHES AND RELAYS",
+  "ocr_text": "BE-10\n\nBODY ELECTRICAL SYSTEM — Location of Switches and Relays\n\nPASSENGER AND LUGGAGE COMPARTMENT\nSWITCHES AND RELAYS\n\nPower Window Door Switch\nDoor Lock Key Switch\nStop Light Switch\nParking Brake Switch\nDoor Lock Switch\nPower Window Master Switch\nDoor Lock Key Switch\nDoor Lock Solenoid\nCourtesy Switch\nDoor Lock Control Relay\nDoor Lock Solenoid\nRear Wiper Control Relay\nCourtesy Switch\nFuel Sender Gauge\n\nB8010"
 }

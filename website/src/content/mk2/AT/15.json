@@ -2,49 +2,5 @@
   "page_id": "AT-15",
   "section_header": "AUTOMATIC TRANSMISSION — Electric Control",
   "title": "Trouble No. 3    Shift point too high or too low",
-  "content": [
-    {
-      "type": "table",
-      "caption": "Warm up engine conditions",
-      "headers": [],
-      "rows": [
-        [
-          "Coolant temp:",
-          "80°C (176°F)"
-        ],
-        [
-          "ATF temp:",
-          "50 — 80°C (122 — 176°F)"
-        ]
-      ]
-    },
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Diagnostic flowchart for shift point diagnosis starting with output diagnostic code check, then voltage checks at DG terminal, ECT ECU terminals, and pattern select switch",
-      "labels": [
-        "Output diagnostic code (See page AT-8)",
-        "No indicate",
-        "Connect a voltmeter to the DG terminal and body. Does DG terminal voltage vary with changes in throttle opening?",
-        "Yes",
-        "No",
-        "Is voltage between ECT ECU terminals BR and GND as follows? 0V: Brake pedal released 12V: Brake pedal depressed",
-        "No - Brake signal faulty",
-        "Yes",
-        "Computer power source and earth faulty",
-        "Throttle position signal faulty",
-        "DG terminal wire open or short",
-        "Check voltage between ECT ECU terminals PWR and GND. Power Pattern: 12V Normal Pattern: 1V",
-        "OK - Faulty ECT ECU Faulty transmission",
-        "No - Faulty pattern select switch system",
-        "Diagnosis code - Proceed to trouble No. 1 (AT-12)"
-      ],
-      "bbox": {
-        "top": 15,
-        "left": 5,
-        "width": 90,
-        "height": 80
-      }
-    }
-  ]
+  "ocr_text": "AUTOMATIC TRANSMISSION — Electric Control                    AT-15\n\nTrouble No. 3    Shift point too high or too low\n\nWarm up engine\nCoolant temp:  80°C (176°F)\nATF temp:      50 — 80°C (122 — 176°F)\n\nOutput diagnostic code\n(See page AT-8)\n\nNo indicate\n\nConnect a voltmeter to the DG\nterminal and body.\nDoes DG terminal voltage vary with changes\nin throttle opening?\n\nYes                                  No\n\nIs voltage between ECT ECU terminals\nBR and GND as follows?\nOV: Brake pedal released\n12V: Brake pedal depressed\n\nNo  ——→  Brake signal faulty\n\nYes\n\n•  Computer power source and earth faulty\n•  Throttle position signal faulty\n•  DG terminal wire open or short\n\nCheck voltage between ECT ECU terminals\nPWR and GND.\n\nPower Pattern:  12V      OK  ——→  Faulty ECT ECU\nNormal Pattern:  1V             Faulty transmission\n                     No  ——→  Faulty pattern select switch system\n\nDiagnosis code  ——→  Proceed to trouble No. 1 (AT-12)"
 }

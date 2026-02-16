@@ -1,53 +1,6 @@
 {
   "page_id": "BE-87",
   "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
-  "title": "THEFT DETERRENT SYSTEM",
-  "content": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "THEFT DETERRENT SYSTEM"
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "WIRING DIAGRAM"
-    },
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Complete wiring diagram for the theft deterrent system showing connections between ignition switch, dome fuse, CIG fuse, HAZ fuse, taillight relay, headlight relay, theft deterrent horn, headlight retainer relay, door lock control switches, door lock solenoids, door key unlock switches, back door courtesy switch, and back door key unlock switch. The diagram includes multiple diodes, ground connections, and battery connections. The system shows both left-hand (LH) and right-hand (RH) door circuits with parallel solenoid configurations.",
-      "labels": [
-        "DOME Fuse",
-        "Ignition S/W",
-        "ACC",
-        "CIG Fuse",
-        "HAZ Fuse",
-        "TAIL",
-        "HEAD",
-        "Taillight Relay",
-        "Headlight Relay",
-        "Theft-Deterrent Horn",
-        "Headlight Retainer Relay",
-        "Diode",
-        "Battery",
-        "Door Lock S/W",
-        "Back Door Courtesy S/W",
-        "Back Door Key Unlock S/W",
-        "Door Lock Control S/W",
-        "RH Key Unlock S/W",
-        "LH Key Unlock S/W",
-        "RH Door Solenoid",
-        "LH Door Solenoid",
-        "Door Lock Control Switch",
-        "Theft Deterrent Computer"
-      ],
-      "bbox": {
-        "top": 12,
-        "left": 1,
-        "width": 98,
-        "height": 85
-      }
-    }
-  ]
+  "title": "THEFT DETERRENT SYSTEM\nWIRING DIAGRAM",
+  "ocr_text": "BODY ELECTRICAL SYSTEM — Theft Deterrent System                    BE-87\n\nTHEFT DETERRENT SYSTEM\nWIRING DIAGRAM\n\nDOME Fuse\n\nIgnition S/W\nACC    CIG Fuse\n\nBack Door Courtesy S/W\n\nBack Door Key Unlock S/W\n\nDoor Lock\nControl S/W\n\nHAZ Fuse\n\nDiode\nRH Key Unlock S/W\n\nTheft Deterrent Computer\n\nTheft Deterrent Horn\n\nHandlight Relay\n\nHandlight Relay\n\nTaillight Relay\n\nTaillight Relay\n\nLH Key Unlock\nS/W\n\nDoor Lock\nControl Switch\n\nRH Door Solenoid\n\nTAIL\nFuse\n\nHEAD\nFuse\n\nDiode\n\nLH Door Solenoid\n\nHeadlight Retractor Relay\n\nBattery\n\nDoor Lock S/W\n\nBE0092"
 }

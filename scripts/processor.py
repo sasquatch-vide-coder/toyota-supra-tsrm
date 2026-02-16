@@ -1,4 +1,4 @@
-"""Extract structured content from scanned TSRM pages using Claude Sonnet 4.5 vision."""
+"""Extract OCR text from scanned TSRM pages using Claude Sonnet 4.5 vision."""
 
 from __future__ import annotations
 
@@ -30,51 +30,7 @@ MODEL_YEAR = {
 MODEL = "claude-sonnet-4-5-20250929"
 MAX_TOKENS = 4096
 
-VISION_PROMPT = """You are analyzing a scanned page from a {year} Toyota Supra Technical Service Repair Manual.
-Extract ALL content from this page and output valid JSON.
-
-Rules:
-- Preserve the exact reading order of the page
-- Extract ALL text exactly as written (do not paraphrase)
-- For diagrams/illustrations, provide a description AND approximate bounding box
-  as percentage coordinates: {"top": 0-100, "left": 0-100, "width": 0-100, "height": 0-100}
-  where 0,0 is the top-left corner of the page
-- For tables, preserve all rows and columns
-- For cautions/warnings/notices, mark them with the appropriate type
-- For torque specs and part numbers, extract them as structured data
-
-Output format:
-{
-  "page_id": "CO-2",
-  "section_header": "COOLING SYSTEM — Description",
-  "title": "DESCRIPTION",
-  "content": [
-    {"type": "text", "text": "Full paragraph text here..."},
-    {"type": "heading", "level": 2, "text": "Section heading"},
-    {"type": "diagram", "index": 1,
-     "description": "Detailed description of what the diagram shows",
-     "labels": ["Label1", "Label2"],
-     "bbox": {"top": 10, "left": 5, "width": 90, "height": 40}},
-    {"type": "caution", "text": "Warning text..."},
-    {"type": "notice", "text": "Notice text..."},
-    {"type": "table", "caption": "Optional caption",
-     "headers": ["Col1", "Col2"],
-     "rows": [["val1", "val2"]]},
-    {"type": "list", "ordered": true,
-     "items": ["Step 1 text", "Step 2 text"]},
-    {"type": "torque_spec",
-     "component": "Component name",
-     "value": "350 kg-cm (25 ft-lb, 34 N·m)"},
-    {"type": "part_number",
-     "label": "Sealant",
-     "number": "08833-00070",
-     "description": "THREE BOND 1324 or equivalent"}
-  ]
-}
-
-Output ONLY the JSON, no markdown fences or explanation."""
-
-OCR_PROMPT = """You are reading a scanned page from a {year} Toyota Supra Technical Service Repair Manual.
+PROMPT = """You are reading a scanned page from a {year} Toyota Supra Technical Service Repair Manual.
 Extract ALL text from this page exactly as written, preserving reading order.
 
 Output valid JSON in this format:
@@ -130,8 +86,9 @@ def raw_output_path(code: str, page: int, processed_dir: Path) -> Path:
     return processed_dir / code / f"{code}_{page:03d}.raw.txt"
 
 
-def build_messages(image_path: Path, prompt: str = VISION_PROMPT) -> list[dict]:
+def build_messages(image_path: Path, year: str) -> list[dict]:
     b64 = image_to_base64(image_path)
+    prompt = PROMPT.replace("{year}", year)
     return [
         {
             "role": "user",
@@ -175,7 +132,7 @@ def process_response(text: str, code: str, page: int, processed_dir: Path) -> di
         return None
 
 
-def process_file_sync(image_path: Path, processed_dir: Path, force: bool = False, prompt: str = VISION_PROMPT) -> bool:
+def process_file_sync(image_path: Path, processed_dir: Path, force: bool = False, year: str = "1990") -> bool:
     """Process a single image file synchronously."""
     code, page = parse_page_id(image_path)
     out = output_path(code, page, processed_dir)
@@ -185,7 +142,7 @@ def process_file_sync(image_path: Path, processed_dir: Path, force: bool = False
         return True
 
     print(f"  Processing {code}-{page}...")
-    messages = build_messages(image_path, prompt=prompt)
+    messages = build_messages(image_path, year=year)
 
     client = ClaudeClient()
     try:
@@ -221,7 +178,7 @@ def process_file_sync(image_path: Path, processed_dir: Path, force: bool = False
 
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"  Saved {out.name} ({len(data.get('content', []))} content blocks)")
+        print(f"  Saved {out.name}")
         return True
     finally:
         client.close()
@@ -233,7 +190,7 @@ async def process_file_async(
     image_path: Path,
     processed_dir: Path,
     force: bool = False,
-    prompt: str = VISION_PROMPT,
+    year: str = "1990",
 ) -> bool:
     """Process a single image file asynchronously."""
     code, page = parse_page_id(image_path)
@@ -245,7 +202,7 @@ async def process_file_async(
 
     async with semaphore:
         print(f"  Processing {code}-{page}...")
-        messages = build_messages(image_path, prompt=prompt)
+        messages = build_messages(image_path, year=year)
 
         retries = 0
         max_retries = 3
@@ -278,7 +235,7 @@ async def process_file_async(
 
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"  Saved {out.name} ({len(data.get('content', []))} content blocks)")
+        print(f"  Saved {out.name}")
         return True
 
 
@@ -319,12 +276,12 @@ def find_failed(processed_dir: Path, raw_dir: Path) -> list[Path]:
     return sorted(set(failed))
 
 
-async def process_batch(images: list[Path], processed_dir: Path, force: bool = False, prompt: str = VISION_PROMPT) -> None:
+async def process_batch(images: list[Path], processed_dir: Path, force: bool = False, year: str = "1990") -> None:
     """Process multiple images concurrently."""
     semaphore = asyncio.Semaphore(3)
     async with AsyncClaudeClient() as client:
         tasks = [
-            process_file_async(client, semaphore, img, processed_dir, force=force, prompt=prompt)
+            process_file_async(client, semaphore, img, processed_dir, force=force, year=year)
             for img in images
         ]
         results = await asyncio.gather(*tasks, return_exceptions=True)
@@ -343,7 +300,6 @@ def main() -> None:
     parser.add_argument("--retry", action="store_true", help="Retry previously failed pages")
     parser.add_argument("--force", action="store_true", help="Reprocess existing output files")
     parser.add_argument("--model", choices=list(MODEL_YEAR.keys()), default="mk3", help="Vehicle model (default: mk3)")
-    parser.add_argument("--ocr", action="store_true", help="Use OCR prompt (full-page text extraction)")
     parser.add_argument("--validate", action="store_true", help="Run validation after processing")
     args = parser.parse_args()
 
@@ -353,14 +309,12 @@ def main() -> None:
     sections_file = data_dir / "sections.json"
     year = MODEL_YEAR[args.model]
 
-    prompt = (OCR_PROMPT if args.ocr else VISION_PROMPT).replace("{year}", year)
-
     if args.file:
         path = Path(args.file)
         if not path.exists():
             print(f"File not found: {path}", file=sys.stderr)
             sys.exit(1)
-        success = process_file_sync(path, processed_dir, force=args.force, prompt=prompt)
+        success = process_file_sync(path, processed_dir, force=args.force, year=year)
         if args.validate and success:
             code, page = parse_page_id(path)
             print(f"\nRunning validation for {code}-{page}...")
@@ -376,7 +330,7 @@ def main() -> None:
         if not gif.exists():
             print(f"File not found: {gif}", file=sys.stderr)
             sys.exit(1)
-        success = process_file_sync(gif, processed_dir, force=args.force, prompt=prompt)
+        success = process_file_sync(gif, processed_dir, force=args.force, year=year)
         sys.exit(0 if success else 1)
 
     if args.retry:
@@ -385,7 +339,7 @@ def main() -> None:
             print("No failed pages to retry.")
             return
         print(f"Retrying {len(images)} failed pages...")
-        asyncio.run(process_batch(images, processed_dir, force=True, prompt=prompt))
+        asyncio.run(process_batch(images, processed_dir, force=True, year=year))
         return
 
     if args.section:
@@ -401,7 +355,7 @@ def main() -> None:
         return
 
     print(f"Processing {len(images)} images...")
-    asyncio.run(process_batch(images, processed_dir, force=args.force, prompt=prompt))
+    asyncio.run(process_batch(images, processed_dir, force=args.force, year=year))
 
 
 if __name__ == "__main__":

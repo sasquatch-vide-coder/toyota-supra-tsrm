@@ -1,55 +1,6 @@
 {
   "page_id": "AT-28",
   "section_header": "AUTOMATIC TRANSMISSION — Road Test",
-  "title": "AUTOMATIC TRANSMISSION — Road Test",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Test 4: R Range Test diagram showing gear selector in R (Reverse) position with full throttle valve opening and slippage indication",
-      "labels": [
-        "R PRND21",
-        "Full Throttle Valve Opening",
-        "Slippage"
-      ],
-      "bbox": {
-        "top": 4,
-        "left": 4,
-        "width": 37,
-        "height": 18
-      }
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "start": 4,
-      "items": [
-        "\"R\" RANGE TEST\nShift into \"R\" range and, while starting at full throttle, check for slipping."
-      ]
-    },
-    {
-      "type": "diagram",
-      "index": 2,
-      "description": "Test 5: P Range Test diagram showing parking lock pawl acting, vehicle on gradient (more than 9% slope), and parking brake mechanism",
-      "labels": [
-        "P PRND21",
-        "Parking Lock Pawl Acting",
-        "Vehicle on Gradient"
-      ],
-      "bbox": {
-        "top": 24,
-        "left": 4,
-        "width": 37,
-        "height": 18
-      }
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "start": 5,
-      "items": [
-        "\"P\" RANGE TEST\nStop the vehicle on a gradient (more than 9 %) and after shifting into \"P\" range, release the parking brake. Then check to see that the parking lock pawl is functioning to prevent the vehicle from moving."
-      ]
-    }
-  ]
+  "title": "",
+  "ocr_text": "AT-28                    AUTOMATIC TRANSMISSION — Road Test\n\n4.    \"R\" RANGE TEST\nShift into \"R\" range and, while starting at full throttle, check for slipping.\n\n[DIAGRAM: Full Throttle Valve Opening gauge indicator marked 'R' and 'PRNDL', plus illustration showing slippage]\n\n5.    \"P\" RANGE TEST\nStop the vehicle on a gradient (more than 9 %) and after shifting into \"P\" range, release the parking brake. Then check to see that the parking lock pawl is functioning to prevent the vehicle from moving.\n\n[DIAGRAM: Parking Lock Pawl Acting indicator marked 'P' and 'PRNDL', plus illustrations showing vehicle on gradient]"
 }

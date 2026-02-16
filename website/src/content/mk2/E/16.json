@@ -1,60 +1,6 @@
 {
-  "page_id": "unknown",
-  "section_header": "HEADLIGHTS",
-  "title": "Headlights Wiring Diagram",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Complete headlight wiring diagram showing headlight assembly, relays, switches, and electrical connections. The diagram shows dual headlights (HEAD LH and HEAD RH) with associated retract relay, light retainer relay, switches (OFF, O, TAIL, HEAD), and various wire connections labeled with numbers and wire codes (B-Y, O-B, O-W, etc.). The diagram includes fusible links and connections to battery and junction blocks.",
-      "labels": [
-        "Headlights",
-        "HEAD LH",
-        "HEAD RH",
-        "LIGHT RETAINER RELAY",
-        "RETRACT RELAY",
-        "OFF",
-        "O",
-        "TAIL",
-        "HEAD",
-        "FLASH",
-        "PASS",
-        "HIGH",
-        "DIMMER S/W",
-        "LIGHT CONTROL S/W",
-        "B",
-        "A",
-        "D",
-        "B-Y",
-        "O-B",
-        "O-W"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 0,
-        "width": 100,
-        "height": 90
-      }
-    },
-    {
-      "type": "text",
-      "text": "c = Located in left front fender near battery",
-      "bbox": {
-        "top": 95,
-        "left": 5,
-        "width": 45,
-        "height": 3
-      }
-    },
-    {
-      "type": "text",
-      "text": "d = Located in left front fender apron near junction block No. 3",
-      "bbox": {
-        "top": 95,
-        "left": 55,
-        "width": 45,
-        "height": 3
-      }
-    }
-  ]
+  "page_id": "EL-6",
+  "section_header": "ELECTRICAL - Wiring Diagram",
+  "title": "",
+  "ocr_text": "Headlights\n\nD\n\nB\n\nA\n\nHEAD LH\n\nHEAD RH\n\n3\n\n3\n\n2\n\n2\n\nHEADLIGHT LH\n\nHEADLIGHT RH\n\nH-L\n\nH-L\n\nH-H\n\nH-H\n\n4\n\n4\n\nLIGHT RETAINER RELAY\n\nB-Y\n\nREDUM LIGHT RETAINER RELAY\n\nB-Y\n\nRETRACT RELAY\n\nREDUM RETRACT RELAY\n\nO-B\n\nO-W\n\nO-B\n\nRECTRACT RELAY\n\nREDUM RETRACT RELAY\n\nO-W\n\nO-W\n\nO-W\n\nO-B\n\nFLASH\n\nOFF\n\nHIGH\n\nTAIL\n\nDIMMER S/W\n\nHEAD\n\nLIGHT CONTROL S/W\n\nHORN S/W\n\nc = Located in left front fender near battery\n\nd = Located in left front fender near relay junction block No. 3"
 }

@@ -2,57 +2,5 @@
   "page_id": "FA-1",
   "section_header": "FRONT AXLE AND SUSPENSION",
   "title": "FRONT AXLE AND SUSPENSION",
-  "content": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "FRONT AXLE AND SUSPENSION"
-    },
-    {
-      "type": "table",
-      "caption": null,
-      "headers": [
-        "",
-        "Page"
-      ],
-      "rows": [
-        [
-          "TROUBLESHOOTING",
-          "FA-2"
-        ],
-        [
-          "FRONT WHEEL ALIGNMENT",
-          "FA-3"
-        ],
-        [
-          "FRONT AXLE HUB",
-          "FA-6"
-        ],
-        [
-          "FRONT AXLE SHOCK ABSORBER",
-          "FA-10"
-        ],
-        [
-          "FRONT SUSPENSION",
-          "FA-14"
-        ],
-        [
-          "Ball Joints",
-          "FA-14"
-        ],
-        [
-          "Lower Arm",
-          "FA-15"
-        ],
-        [
-          "Strut Bar",
-          "FA-18"
-        ],
-        [
-          "Stabilizer Bar",
-          "FA-19"
-        ]
-      ]
-    }
-  ]
+  "ocr_text": "FRONT AXLE AND\nSUSPENSION\n\n                                                Page\nTROUBLESHOOTING ........................  FA-2\nFRONT WHEEL ALIGNMENT ...............  FA-3\nFRONT AXLE HUB .........................  FA-6\nFRONT AXLE SHOCK ABSORBER ...........  FA-10\nFRONT SUSPENSION ......................  FA-14\n  Ball Joints ............................  FA-14\n  Lower Arm .............................  FA-15\n  Strut Bar .............................  FA-18\n  Stabilizer Bar ........................  FA-19"
 }

@@ -1,46 +1,6 @@
 {
   "page_id": "D-3",
-  "section_header": "WIRING DIAGRAM",
-  "title": "4-CYLINDER, FIRST GEAR CIRCUIT",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Comprehensive electrical wiring diagram showing the first gear circuit for a 4-cylinder engine. The diagram displays various electrical connections with red, yellow, and black wires connecting multiple components. The layout shows connections from a connector panel on the left side to various relays, switches, and control units throughout the vehicle system. The diagram uses color coding: red lines represent power circuits, yellow lines represent signal/control circuits, and black lines represent ground circuits.",
-      "labels": [
-        "4-CYLINDER",
-        "FIRST GEAR CIRCUIT",
-        "Car Heater",
-        "Dome Light",
-        "Courtesy Light",
-        "Luggage Comp. Lt."
-      ],
-      "bbox": {
-        "top": 7,
-        "left": 5,
-        "width": 90,
-        "height": 88
-      }
-    },
-    {
-      "type": "text",
-      "text": "Page identifier: D-3"
-    },
-    {
-      "type": "text",
-      "text": "Left side heading: 4-CYLINDER, FIRST GEAR CIRCUIT (vertical text orientation)"
-    },
-    {
-      "type": "diagram",
-      "index": 2,
-      "description": "Legend/key showing four indicator boxes on the left side of the diagram. These boxes appear to be color-coded indicators (red, yellow, and additional yellow) for the wiring diagram, along with connector pin configurations.",
-      "labels": [],
-      "bbox": {
-        "top": 13,
-        "left": 13,
-        "width": 8,
-        "height": 7
-      }
-    }
-  ]
+  "section_header": "AC/4CYL 12 RANGE FIRST GEAR CIRCUIT",
+  "title": "",
+  "ocr_text": "AC/4CYL 12 RANGE FIRST GEAR CIRCUIT\n\nD-3\n\nCool Position\nWarm Position\nCool Position\nWarm Position\n\nA/C Switch\nBlower Switch\nA/C Amplifier\nEngine Main Relay\nCircuit Opening Relay\nFuel Pump\nDrive Axle Sensor (LH)\nDrive Axle Sensor (RH)\nSpeed Sensor\nPattern Select Switch\nElectric Cooling Fan\nElectric Cooling Fan Relay No. 1\nElectric Cooling Fan Relay No. 2\nMagnetic Clutch\nMagnetic Clutch Relay\nA/C Amplifier\nEngine ECU\nThrottle Position Sensor\nEngine Coolant Temperature Sensor\nVacuum Switching Valve (VSV) for ACIS\nVacuum Switching Valve (VSV) for EGR\nVacuum Switching Valve (VSV) for Vapor Control\nFuel Injector\nFuel Injector\nFuel Injector\nFuel Injector\nIgnition Coil and Igniter\nCircuit Opening Relay\nDiagnostic Check Connector\nStop Light Switch\nNeutral Start Switch\nOverdrive Switch\nPark/Neutral Position Switch\nSolenoid No. 1\nSolenoid No. 2\nVehicle Speed Sensor\nECT ECU\nOverdrive Off Indicator Light\nPattern Select Switch"
 }

@@ -1,46 +1,6 @@
 {
-  "page_id": "CELICA_SUPRA_WIRING",
-  "section_header": "CELICA SUPRA (Cont'd)",
+  "page_id": "EL-13",
+  "section_header": "ELECTRICAL — Wiring Diagram",
   "title": "CELICA SUPRA (Cont'd)",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Electrical wiring diagram showing connections for various vehicle components including clock, cigarette lighter, auto antenna, radio and tape player. The diagram shows wire routing, ground points, and speaker connections.",
-      "labels": [
-        "Clock",
-        "Cigarette Lighter",
-        "Auto Antenna",
-        "Radio and Tape Player",
-        "DOOR CHIME CONTROL UNIT",
-        "DOOR AJAR SWITCH",
-        "POWER ANTENNA MOTOR",
-        "RADIO",
-        "REAR RH",
-        "REAR LH",
-        "FRONT RH",
-        "FRONT LH",
-        "WOOFER",
-        "From 'C/O', Fuse 14 (5)",
-        "Fuse 'DOME', Fuse 14 (11)",
-        "Fuse 'TAIL', Fuse 10 (4)",
-        "See 'MAZDA', Fuse 14 (1)",
-        "G-5 (ECU-Part 7)",
-        "See 'TAIL LIGHT', Fuse 13 (6)",
-        "Fuse 'POWER', Fuse 14 (4)",
-        "L.GR",
-        "L.O-G"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 5,
-        "width": 90,
-        "height": 90
-      }
-    },
-    {
-      "type": "text",
-      "text": "Ground points    d - Located under right front pillar    h - Located under left front pillar    d - Located at left front fender apron near junction block No. 3"
-    }
-  ]
+  "ocr_text": "CELICA SUPRA (Cont'd)\n\nClock    Cigarette Lighter    Auto Antenna    Radio and Tape Player\n1                                                                   2\n\nFrom \"C/O\" Fuse (4.5B)\nR-G    R-G\n\nDOOR COURTESY\nSWITCH (LH)\n\nFront\nDoor\nFuse\n\nCOURTESY LIGHTS\n\nCHARACTER ILLUMINATION LIGHT (R/C)\n(P/CK Paint R/T)\n\nRADIO\n\nFRONT SPEAKER FADER SWITCH\n\nRR RH\nF L\n\nREAR LH\nR-L    RR-L\n\nFRONT RH\nR-L    R-L\n\nFRONT LH\nR-L    R-L\n\nROOM LAMP FADER\n\nWOOFER\nL/O-B\nL/O-B\n\nGround points    d - Located under right front pillar    b - Located under left front pillar    d - Updated on left front fender apron near junction block No. 3"
 }

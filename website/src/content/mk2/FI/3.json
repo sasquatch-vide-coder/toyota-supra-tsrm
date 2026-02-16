@@ -1,52 +1,6 @@
 {
   "page_id": "FI-3",
   "section_header": "EFI SYSTEM — System Description",
-  "title": "System Description",
-  "content": [
-    {
-      "type": "text",
-      "text": "By means of the ECU, the TCCS controls the following functions:"
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        {
-          "number": "1",
-          "heading": "Electronic Fuel Injection (EFI)",
-          "content": "The ECU receives signals from various sensors indicating changing engine operating conditions such as:\nIntake air volume\nEngine rpm\nIntake air temperature\nCoolant temperature\nEngine rpm\nAcceleration/deceleration\nExhaust oxygen content etc.\n\nThese signals are utilized by the ECU to determine the injection duration necessary for an optimum air fuel ratio."
-        },
-        {
-          "number": "2",
-          "heading": "Electronic Spark Advance (ESA)",
-          "content": "The ECU is programmed with data for optimum ignition timing under any and all operating conditions. Using data provided by sensors which monitor various engine functions (rpm, intake air volume, coolant temperature, etc.), the microcomputer (ECU) triggers the spark at precisely the right instant.\n(See IG section)"
-        },
-        {
-          "number": "3",
-          "heading": "Idle Speed Control (ISC)",
-          "content": "The ECU is programmed with target engine speed values to respond to different engine conditions (coolant temperature, air conditioner/off, etc.). Sensors transmit signals to the ECU which controls the flow of air through the by-pass of the throttle valve and adjusts idle speed to the target value.\n(See pages FI-43,60)"
-        },
-        {
-          "number": "4",
-          "heading": "Exhaust Gas Recirculation (EGR)",
-          "content": "The ECU detects the coolant temp. and controls EGR function accordingly.\n(See page EC-10)"
-        },
-        {
-          "number": "5",
-          "heading": "Electronically Controlled Transmission (ECT) (Automatic Trans. only)",
-          "content": "A serial signal is transmitted to the ECT computer to prevent shift up to 3rd or overdrive during cold engine operation.\n(See AT section)"
-        },
-        {
-          "number": "6",
-          "heading": "Diagnostics",
-          "content": "The ECU detects any malfunctions or abnormalities in the sensor network and lights a \"CHECK ENGINE\" warning light on the instrument panel. At the same time, the trouble is identified and a diagnostic code is recorded by the ECU. The diagnostic code can be read by the number of blinks of the \"CHECK ENGINE\" warning light when check connector are short-circuited.\n(See page FI-22)"
-        },
-        {
-          "number": "7",
-          "heading": "Fail-Safe Function",
-          "content": "In the event of a computer malfunction, a back-up circuit will take over to provide minimal drivability. Simultaneously, the \"CHECK ENGINE\" warning light is activated."
-        }
-      ]
-    }
-  ]
+  "title": "",
+  "ocr_text": "EFI SYSTEM — System Description                                FI-3\n\nBy means of the ECU, the TCCS controls the fol-\nlowing functions:\n\n1. Electronic Fuel Injection (EFI)\n\nThe ECU receives signals from various sensors\nindicating changing engine operating condi-\ntions such as:\nIntake air volume\nEngine air temperature\nCoolant temperature\nEngine rpm\nAcceleration/deceleration\nExhaust oxygen content etc.\n\nThese signals are utilized by the ECU to de-\ntermine the injection duration necessary for an\noptimum air fuel ratio.\n\n2 Electronic Spark Advance (ESA)\n\nThe ECU is programmed with data for opti-\nmum ignition timing under any and all operat-\ning conditions. Using data provided by sensors\nwhich monitor various engine functions (rpm,\nintake air volume, coolant temperature, etc.),\nthe microcomputer (ECU) triggers the spark at\nprecisely the right instant.\n(See IG section)\n\n3. Idle Speed Control (ISC)\n\nThe ECU is programmed with target engine\nspeed values to respond to different engine\nconditions (coolant temperature, air condition-\ner on/off, etc.). Sensors transmit signals to the\nECU which controls the flow of air through the\nby-pass of the throttle valve and adjusts idle\nspeed to the target value.\n(See pages FI-43,60)\n\n4. Exhaust Gas Recirculation (EGR)\n\nThe ECU detects the coolant temp. and con-\ntrols EGR function accordingly.\n(See page EC-10)\n\n5. Electronically Controlled Transmission (ECT)\n(Automatic Trans. only)\n\nA serial signal is transmitted to the ECT com-\nputer to prevent shift up to 3rd or overdrive\nduring cold engine operation.\n(See AT section)\n\n6. Diagnostics\n\nThe ECU detects any malfunctions or abnor-\nmalities in the sensor network and lights a\n\"CHECK ENGINE\" warning light on the instru-\nment panel. At the same time, the trouble is\nidentified and a diagnostic code is recorded by\nthe ECU. The diagnostic code can be read by\nthe number of blinks of the \"CHECK ENGINE\"\nwarning light when check connector are short-\ncircuited.\n(See page FI-22)\n\n7. Fail-Safe Function\n\nIn the event of a computer malfunction, a\nback-up circuit will take over to provide\nminimal drivability. Simultaneously, the\n\"CHECK ENGINE\" warning light is activated."
 }

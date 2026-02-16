@@ -2,54 +2,5 @@
   "page_id": "BE-4",
   "section_header": "BODY ELECTRICAL SYSTEM — General Information",
   "title": "REPLACEMENT OF FUSES",
-  "content": [
-    {
-      "type": "text",
-      "text": "Install new fuses with correct amperage ratings."
-    },
-    {
-      "type": "caution",
-      "text": "CAUTION:"
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "Turn off all electrical components and the ignition switch before replacing a fuse. Do not exceed the fuse amp rating.",
-        "Always use a fuse puller for removing and inserting a fuse. Remove and insert straight in and out without twisting. Twisting could force open the terminals too much, resulting in a bad connection."
-      ]
-    },
-    {
-      "type": "text",
-      "text": "If a fuse continues to blow, the circuit is probably shorted. Have the system checked by a qualified technician."
-    },
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Illustration showing proper use of fuse puller tool to remove/install a fuse from a fuse block",
-      "labels": [
-        "BE012"
-      ],
-      "bbox": {
-        "top": 24,
-        "left": 3,
-        "width": 37,
-        "height": 17
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Precautions"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "TAKE CARE WHEN INSPECTING HEADLIGHT CIRCUIT"
-    },
-    {
-      "type": "caution",
-      "text": "WARNING: With the headlight switch OFF, disconnect the pink fusible link before beginning work."
-    }
-  ]
+  "ocr_text": "REPLACEMENT OF FUSES\n\nInstall new fuses with correct amperage ratings.\nCAUTION:\n1. Turn off all electrical components and the ignition switch before replacing a fuse. Do not exceed the fuse amp rating.\n2. Always use a fuse puller for removing and inserting a fuse. Remove and insert straight in and out without twisting. Twisting could force open the terminals too much, resulting in a bad connection.\n\nIf a fuse continues to blow, the circuit is probably shorted. Have the system checked by a qualified technician.\n\nPrecautions\n\nTAKE CARE WHEN INSPECTING HEADLIGHT CIRCUIT\n\nWARNING: With the headlight switch OFF, disconnect the pink fusible link before beginning work."
 }

@@ -2,53 +2,5 @@
   "page_id": "EC-3",
   "section_header": "EMISSION CONTROL SYSTEMS — Component Layout and Schematic Drawing",
   "title": "COMPONENT LAYOUT AND SCHEMATIC DRAWING",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "3D perspective view of emission control system components mounted on engine, showing physical layout and vacuum hose routing",
-      "labels": [
-        "VTV for DP",
-        "EGR Vacuum Modulator",
-        "Charcoal Canister",
-        "EGR Valve",
-        "Temp. Sensor",
-        "DP",
-        "VSV",
-        "BVSV"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 2,
-        "width": 96,
-        "height": 45
-      }
-    },
-    {
-      "type": "diagram",
-      "index": 2,
-      "description": "Schematic diagram showing emission control system vacuum and electrical connections, including oxygen sensor, TWC, EGR system, and ECU connections",
-      "labels": [
-        "To ECU",
-        "Oxygen Sensor",
-        "TWC",
-        "Temp. Sensor",
-        "BVSV",
-        "Charcoal Canister",
-        "EGR Cooler",
-        "DP",
-        "VTV",
-        "VSV",
-        "ECU",
-        "EGR Vacuum Modulator",
-        "EGR Valve"
-      ],
-      "bbox": {
-        "top": 53,
-        "left": 2,
-        "width": 96,
-        "height": 45
-      }
-    }
-  ]
+  "ocr_text": "EMISSION CONTROL SYSTEMS — Component Layout and Schematic Drawing                EC-3\n\nCOMPONENT LAYOUT AND SCHEMATIC DRAWING\n\n[TOP DIAGRAM LABELS:]\nVTV for DP\nEGR Vacuum Modulator\nCharcoal Canister\nEGR Valve\nTemp. Sensor\nDP\nVSV\nBVSV\nEC0089\n\n[BOTTOM DIAGRAM LABELS:]\nTo ECU\nOxygen Sensor\nTWC\nTemp. Sensor\nBVSV\nCharcoal Canister\nEGR Cooler\nDP\nVTV\nVSV\nECU\nEGR Vacuum Modulator\nEGR Valve\nEC0090"
 }

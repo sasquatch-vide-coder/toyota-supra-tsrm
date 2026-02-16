@@ -2,48 +2,5 @@
   "page_id": "BE-78",
   "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
   "title": "INSPECTION OF STOP LIGHT SWITCH CIRCUIT",
-  "content": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "D    INSPECTION OF STOP LIGHT SWITCH CIRCUIT"
-    },
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Flowchart for inspecting stop light switch circuit. The flowchart begins with 'Turn ignition switch on' and proceeds through multiple decision points checking stop fuse, release valve circuit, stop fuse circuit, and stop light switch circuit. Each decision point has Yes/No branches leading to either further tests or corrective actions.",
-      "labels": [
-        "Turn ignition switch on",
-        "Is stop fuse normal?",
-        "COMPUTER",
-        "Disconnect computer and inspect connector on wire harness side as follows.",
-        "INSPECT RELEASE VALVE CIRCUIT",
-        "Is there continuity between terminal 1 and 2 with brake pedal depressed?",
-        "INSPECT STOP FUSE CIRCUIT",
-        "Is there battery voltage between terminal 9 and body ground?",
-        "INSPECT STOP LIGHT SWITCH CIRCUIT",
-        "Is there battery voltage between terminal 8 and body ground with brake pedal depressed?",
-        "Replace computer.",
-        "Inspect stop light switch.",
-        "Short circuit in wire harness between terminal 8 of computer and fuse.",
-        "Short circuit in wire harness between terminal 9 of computer and fuse.",
-        "Open circuit in wire harness between terminal 9 of computer and STOP fuse.",
-        "Open or short circuit in wire harness between terminal 8 of computer and terminal 2 of stop light switch."
-      ],
-      "bbox": {
-        "top": 8,
-        "left": 4,
-        "width": 92,
-        "height": 85
-      }
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "Short circuit in wire harness between terminal 8 of computer and fuse.",
-        "Short circuit in wire harness between terminal 9 of computer and fuse."
-      ]
-    }
-  ]
+  "ocr_text": "BE-78\n\nBODY ELECTRICAL SYSTEM — Cruise Control System\n\nD\nINSPECTION OF STOP LIGHT SWITCH CIRCUIT\n\nTurn ignition switch on.\n\nIs stop fuse normal?\n\nNo\n• Short circuit in wire harness between terminal 8 of computer and fuse.\n• Short circuit in wire harness between terminal 9 of computer and fuse.\n\nYes\n\nCOMPUTER\n\nDisconnect computer and inspect connector on wire harness side as follows.\n\nINSPECT RELEASE VALVE CIRCUIT\nIs there continuity between terminal 1 and 2 with brake pedal depressed?\n\nYes\nInspect stop light switch.\n\nNo\n\nINSPECT STOP FUSE CIRCUIT\nIs there battery voltage between terminal 9 and body ground?\n\nNo\nOpen circuit in wire harness between terminal 9 of computer and STOP fuse.\n\nYes\n\nINSPECT STOP LIGHT SWITCH CIRCUIT\nIs there battery voltage between terminal 8 and body ground with brake pedal depressed?\n\nNo\nOpen or short circuit in wire harness between terminal 8 of computer and terminal 2 of stop light switch.\n\nYes\n\nReplace computer."
 }

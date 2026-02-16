@@ -1,31 +1,6 @@
 {
   "page_id": "D-2",
-  "section_header": "AA4DE HYDRAULIC CIRCUIT",
+  "section_header": "A4ODE HYDRAULIC CIRCUIT",
   "title": "\"R\" RANGE CIRCUIT",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Hydraulic circuit diagram showing the reverse (R) range configuration for the AA4DE automatic transmission. The diagram displays fluid flow paths marked in different colors (red, blue, yellow) representing different pressure circuits. It includes various hydraulic components such as valves, pistons, clutches, and accumulators with their interconnecting passages.",
-      "labels": [
-        "D-2",
-        "AA4DE HYDRAULIC CIRCUIT",
-        "\"R\" RANGE CIRCUIT",
-        "Line Pressure",
-        "Torque Converter Pressure",
-        "Governor Pressure",
-        "Lock-up signal pressure"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 5,
-        "width": 90,
-        "height": 90
-      }
-    },
-    {
-      "type": "text",
-      "text": "Color coding legend appears in upper left showing pressure types with colored squares - red, blue, and two yellow squares"
-    }
-  ]
+  "ocr_text": "D-2\n\nA4ODE HYDRAULIC CIRCUIT\n\"R\" RANGE CIRCUIT\n\n[This page contains a complex hydraulic circuit diagram with various lines in red, blue, yellow, and black showing fluid flow paths. The diagram shows hydraulic components and their connections for the A4ODE transmission in reverse (R) range. Due to the technical nature and complexity of the hydraulic schematic, specific component labels and flow paths are shown but are difficult to transcribe in linear text format while maintaining accuracy.]"
 }

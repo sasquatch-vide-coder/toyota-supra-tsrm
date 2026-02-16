@@ -1,36 +1,6 @@
 {
   "page_id": "D-9",
-  "section_header": "4A-GE 'L' - RANGE FIRST GEAR CIRCUIT",
-  "title": "4A-GE 'L' - RANGE FIRST GEAR CIRCUIT",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Complex wiring diagram showing the first gear circuit for 4A-GE engine in 'L' range. The diagram includes multiple components connected by red, yellow, and black wires. Key components visible include transmission sensors, solenoids, ECU connections, and various electrical connectors. The diagram uses red lines for primary power circuits, yellow lines for signal circuits, and black lines for ground circuits.",
-      "labels": [
-        "4A-GE",
-        "'L' - RANGE FIRST GEAR CIRCUIT",
-        "D-9",
-        "A-ground",
-        "E-ground",
-        "Various connector labels and component identifiers throughout the diagram"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 5,
-        "width": 90,
-        "height": 90
-      }
-    },
-    {
-      "type": "legend",
-      "description": "Color coding legend showing four colored squares - red, dark (possibly black), yellow, and light yellow, with numbers 1 and 2",
-      "bbox": {
-        "top": 8,
-        "left": 6,
-        "width": 8,
-        "height": 4
-      }
-    }
-  ]
+  "section_header": "4-AGZE 1-2 RANGE FIRST GEAR CIRCUIT",
+  "title": "",
+  "ocr_text": "D-9\n\n4-AGZE\n1-2 RANGE FIRST GEAR CIRCUIT\n\nLegend:\nRed\nPurple/Black\nYellow/Blue\nYellow/Green\n\nBattery\n\nStarting\n\nCharging\n\nIgnition\n\nHeadlights\n\nGauge\n\nA/C"
 }

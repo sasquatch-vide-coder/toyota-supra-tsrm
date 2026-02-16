@@ -1,25 +1,6 @@
 {
   "page_id": "AT-11",
   "section_header": "AUTOMATIC TRANSMISSION — Electric Control",
-  "title": null,
-  "content": [
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        {
-          "label": "(e)",
-          "text": "If voltage rises from 0V to 7V in the sequence shown, the control system is okay."
-        },
-        {
-          "label": "(f)",
-          "text": "The voltage could rise anywhere between 0V — 8V before the vehicle reaches 10 km/hr or 6 mph in first gear. The voltage jump depends on what percent the throttle valve is opened. This is a normal reading. Above 10 km/hr or 6 mph, the voltmeter indicates the current gear."
-        }
-      ]
-    },
-    {
-      "type": "notice",
-      "text": "NOTE: Determine the gear position by a light shock or change in engine rpm when shifting."
-    }
-  ]
+  "title": "",
+  "ocr_text": "(e) If voltage rises from 0V to 7V in the sequence shown, the control system is okay.\n(f) The voltage could rise anywhere between 0V — 8V before the vehicle reaches 10 km/hr or 6 mph in first gear. The voltage jump depends on what percent the throttle valve is opened. This is a normal reading.\nAbove 10 km/hr or 6 mph, the voltmeter indicates the current gear.\n\nNOTE: Determine the gear position by a light shock or change in engine rpm when shifting."
 }

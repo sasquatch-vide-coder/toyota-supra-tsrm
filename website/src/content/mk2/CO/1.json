@@ -2,41 +2,5 @@
   "page_id": "CO-1",
   "section_header": "COOLING SYSTEM",
   "title": "COOLING SYSTEM",
-  "content": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "COOLING SYSTEM"
-    },
-    {
-      "type": "table",
-      "caption": "Table of Contents",
-      "headers": [
-        "Section",
-        "Page"
-      ],
-      "rows": [
-        [
-          "TROUBLESHOOTING",
-          "CO-2"
-        ],
-        [
-          "CHECK AND REPLACE ENGINE COOLANT",
-          "CO-2"
-        ],
-        [
-          "WATER PUMP",
-          "CO-3"
-        ],
-        [
-          "THERMOSTAT",
-          "CO-6"
-        ],
-        [
-          "RADIATOR",
-          "CO-7"
-        ]
-      ]
-    }
-  ]
+  "ocr_text": "COOLING SYSTEM\n\nTROUBLESHOOTING ........................ CO-2\nCHECK AND REPLACE ENGINE COOLANT .... CO-2\nWATER PUMP ............................. CO-3\nTHERMOSTAT ............................. CO-6\nRADIATOR ............................... CO-7"
 }

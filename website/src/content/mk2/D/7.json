@@ -1,45 +1,6 @@
 {
   "page_id": "D-7",
-  "section_header": "A/C&DE '72 RANGE FIRST GE-ER CIRCUIT",
-  "title": "A/C&DE '72 RANGE FIRST GE-ER CIRCUIT",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Complex electrical wiring diagram showing the A/C and DE '72 Range First GE-ER Circuit. The diagram displays various electrical connections, relays, switches, and components with color-coded wiring (red, yellow, black, and white lines). The diagram includes multiple connectors, relays, and electrical components arranged in a technical schematic format showing the complete circuit layout.",
-      "labels": [
-        "Engine Pressure",
-        "Engine A/Power",
-        "Compressor Switch",
-        "Main Relay",
-        "Lock Relay",
-        "A/C Amplifier",
-        "Thermistor",
-        "Blower Motor",
-        "Blower Resistor",
-        "Blower Switch",
-        "A/C Switch",
-        "Magnetic Clutch",
-        "Pressure Switch",
-        "Condenser Fan Motor",
-        "Condenser Fan Relay"
-      ],
-      "bbox": {
-        "top": 8,
-        "left": 5,
-        "width": 90,
-        "height": 85
-      }
-    },
-    {
-      "type": "text",
-      "text": "D-7",
-      "bbox": {
-        "top": 1,
-        "left": 92,
-        "width": 6,
-        "height": 3
-      }
-    }
-  ]
+  "section_header": "A340E 22 RANGE FIRST GEAR CIRCUIT",
+  "title": "",
+  "ocr_text": "A340E\n22 RANGE FIRST GEAR CIRCUIT\n\nD-7\n\nLine Pressure\nTorque Converter Pressure\nCoast Modulator Pressure\nGov. Modulator Pressure"
 }

@@ -1,40 +1,6 @@
 {
   "page_id": "BO-26",
   "section_header": "BODY — Quarter Window Glass",
-  "title": "QUARTER WINDOW GLASS COMPONENTS",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Exploded view diagram showing quarter window glass assembly components and their installation positions in the vehicle body. The diagram is split into two main sections: the upper portion shows the window glass installation detail with roof area components, and the lower portion shows the interior trim and bracket assembly.",
-      "labels": [
-        "Roof Drip Moulding",
-        "Joint Cover",
-        "Belt Moulding",
-        "Corner Moulding",
-        "Glass Retainer",
-        "Quarter Glass",
-        "Glass Setting Nut",
-        "Dam",
-        "Cushion",
-        "Glass Retainer",
-        "Rear Speaker Grille",
-        "Side Garnish",
-        "Center Pillar Outside Garnish",
-        "Center Pillar Inner Garnish",
-        "Anchor Bolt",
-        "Belt Guide",
-        "Quarter Trim",
-        "Rear Speaker Bracket",
-        "Deck Side Trim",
-        "Lower Back Panel"
-      ],
-      "bbox": {
-        "top": 11,
-        "left": 4,
-        "width": 92,
-        "height": 85
-      }
-    }
-  ]
+  "title": "QUARTER WINDOW GLASS\nCOMPONENTS",
+  "ocr_text": "BO-26\n\nBODY — Quarter Window Glass\n\nQUARTER WINDOW GLASS\nCOMPONENTS\n\nRoof Drip Moulding\nJoint Cover\nBelt Moulding\n\nCorner Moulding\n\nGlass Retainer\nQuarter Glass\nGlass Setting Nut\n\nDam\nCushion\n\nGlass Retainer\n\nRear Speaker Grille\n\nSide Garnish\n\nCenter Pillar\nOutside\nGarnish\n\nCenter Pillar\nInner Garnish\n\nAnchor Bolt\n\nBelt Guide\n\nQuarter Trim\nRear Speaker Bracket\nDeck Side Trim\nLower Back Panel"
 }

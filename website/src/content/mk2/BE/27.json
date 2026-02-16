@@ -1,66 +1,6 @@
 {
   "page_id": "BE-27",
   "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
-  "title": "INSTRUMENTS AND SENDER GAUGES",
-  "content": [
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Troubleshooting"
-    },
-    {
-      "type": "table",
-      "caption": null,
-      "headers": [
-        "Problem",
-        "Possible cause",
-        "Remedy",
-        "Page"
-      ],
-      "rows": [
-        [
-          "Voltmeter does not work",
-          "Fuses blown\nFaulty\nWiring faulty",
-          "Replace in-line fuses and check for short\nCheck voltmeter\nRepair as necessary",
-          "BE-4\nBE-29"
-        ],
-        [
-          "Tachometer does not work",
-          "GAUGE fuse blown\nTachometer faulty\nWiring faulty",
-          "Replace fuse and check for short\nCheck tachometer\nRepair as necessary",
-          "BE-4\nBE-29"
-        ],
-        [
-          "Fuel receiver gauge does not work",
-          "GAUGE fuse blown\nFuel receiver gauge faulty\nFuel gauge faulty\nWiring or ground faulty",
-          "Replace fuse and check for short\nCheck receiver gauge\nCheck sender gauge\nRepair as necessary",
-          "BE-4\nBE-30\nBE-30"
-        ],
-        [
-          "Water temperature receiver gauge does not work",
-          "GAUGE fuse blown\nWater temperature receiver gauge faulty\nWater temperature sender gauge faulty\nWiring or ground faulty",
-          "Replace fuse and check for short\nCheck receiver gauge\nCheck sender gauge\nRepair as necessary",
-          "BE-4\nBE-31\nBE-31"
-        ],
-        [
-          "Oil pressure receiver gauge does not work",
-          "GAUGE fuse blown\nOil pressure receiver gauge faulty\nOil pressure sender gauge faulty\nWiring or ground faulty",
-          "Replace fuse and check for short\nCheck receiver gauge\nCheck sender gauge\nRepair as necessary",
-          "BE-4\nBE-32\nBE-32"
-        ],
-        [
-          "Brake warning light does not light",
-          "GAUGE fuse blown\nBulb burned out\nBrake fluid level warning switch faulty\nParking brake switch faulty\nWiring or ground faulty",
-          "Replace fuse and check for short\nReplace bulb\nCheck switch\nCheck switch\nRepair as necessary",
-          "BE-4\nBE-32\nBE-32"
-        ],
-        [
-          "Discharge warning light does not light",
-          "IGN fuse blown\nBulb burned out\nWiring faulty",
-          "Replace fuse and check for short\nReplace bulb\nRepair as necessary",
-          "BE-4"
-        ]
-      ]
-    }
-  ]
+  "title": "INSTRUMENTS AND SENDER GAUGES\nTroubleshooting",
+  "ocr_text": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges\nBE-27\n\nINSTRUMENTS AND SENDER GAUGES\nTroubleshooting\n\nProblem | Possible cause | Remedy | Page\n\nVoltmeter does not work | Fuses blown | Replace in-line fuses and check for short | BE-4\n | Faulty | Check voltmeter | BE-29\n | Wiring faulty | Repair as necessary |\n\nTachometer does not work | GAUGE fuse blown | Replace fuse and check for short | BE-4\n | Tachometer faulty | Check tachometer | BE-29\n | Wiring faulty | Repair as necessary |\n\nFuel receiver gauge does not work | GAUGE fuse blown | Replace fuse and check for short | BE-4\n | Fuel receiver gauge faulty | Check receiver gauge | BE-30\n | Fuel gauge faulty | Check sender gauge | BE-30\n | Wiring or ground faulty | Repair as necessary |\n\nWater temperature receiver gauge does not work | GAUGE fuse blown | Replace fuse and check for short | BE-4\n | Water temperature receiver gauge faulty | Check receiver gauge | BE-31\n | Water temperature sender gauge faulty | Check sender gauge | BE-31\n | Wiring or ground faulty | Repair as necessary |\n\nOil pressure receiver gauge does not work | GAUGE fuse blown | Replace fuse and check for short | BE-4\n | Oil pressure receiver gauge faulty | Check receiver gauge | BE-32\n | Oil pressure sender gauge faulty | Check sender gauge | BE-32\n | Wiring or ground faulty | Repair as necessary |\n\nBrake warning light does not light | GAUGE fuse blown | Replace fuse and check for short | BE-4\n | Bulb burned out | Replace bulb |\n | Brake fluid level warning switch faulty | Check switch | BE-32\n | Parking brake switch faulty | Check switch | BE-32\n | Wiring or ground faulty | Repair as necessary |\n\nDischarge warning light does not light | IGN fuse blown | Replace fuse and check for short | BE-4\n | Bulb burned out | Replace bulb |\n | Wiring faulty | Repair as necessary |"
 }

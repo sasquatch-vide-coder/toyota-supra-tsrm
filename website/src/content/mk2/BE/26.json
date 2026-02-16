@@ -1,65 +1,6 @@
 {
   "page_id": "BE-26",
   "section_header": "BODY ELECTRICAL SYSTEM — Wipers and Washers",
-  "title": "INSPECT THAT MOTOR OPERATES STOPPING AT STOP POSITION",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Wiper motor wiring diagram showing initial test configuration with battery connected to terminal 3 positive and motor body negative",
-      "labels": [
-        "Wiper Motor Body",
-        "Terminal connections",
-        "Battery connections (+/-)"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 3,
-        "width": 37,
-        "height": 28
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "2. INSPECT THAT MOTOR OPERATES STOPPING AT STOP POSITION"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "(a) Connect the positive (+) lead from the battery to terminal 3. Connect the negative (—) lead to the motor body. Operates the motor.",
-        "(b) Stop motor operation anywhere except stop position by disconnecting terminal 3."
-      ]
-    },
-    {
-      "type": "diagram",
-      "index": 2,
-      "description": "Wiper motor wiring diagram showing second test configuration with battery connected to terminal 1 positive and terminals 3 and 4 connected",
-      "labels": [
-        "Wiper Motor Body",
-        "Terminal connections",
-        "Battery connections (+/-)"
-      ],
-      "bbox": {
-        "top": 33,
-        "left": 3,
-        "width": 37,
-        "height": 28
-      }
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "(c) Connect terminals 3 and 4.",
-        "(d) Connect the positive (+) lead from the battery to terminal 1.",
-        "(e) Check that the motor stops running at stop position after the motor operates again."
-      ]
-    },
-    {
-      "type": "text",
-      "text": "If operation is not as specified, replace the motor."
-    }
-  ]
+  "title": "",
+  "ocr_text": "2. INSPECT THAT MOTOR OPERATES STOPPING AT STOP POSITION\n(a) Connect the positive (+) lead from the battery to terminal 3. Connect the negative (—) lead to the motor body. Operates the motor.\n(b) Stop motor operation anywhere except stop position by disconnecting terminal 3.\n(c) Connect terminals 3 and 4.\n(d) Connect the positive (+) lead from the battery to terminal 1.\n(e) Check that the motor stops running at stop position after the motor operates again.\nIf operation is not as specified, replace the motor."
 }

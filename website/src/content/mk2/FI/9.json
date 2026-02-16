@@ -1,58 +1,6 @@
 {
   "page_id": "FI-9",
   "section_header": "EFI SYSTEM — Troubleshooting",
-  "title": "Troubleshooting",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Illustration showing hands locking or securing a connector with a lock mechanism",
-      "labels": [
-        "Lock"
-      ],
-      "bbox": {
-        "top": 4,
-        "left": 2,
-        "width": 35,
-        "height": 25
-      }
-    },
-    {
-      "type": "diagram",
-      "index": 2,
-      "description": "Illustration showing hands disconnecting or separating a connector",
-      "labels": [],
-      "bbox": {
-        "top": 28,
-        "left": 2,
-        "width": 35,
-        "height": 25
-      }
-    },
-    {
-      "type": "diagram",
-      "index": 3,
-      "description": "Two types of meters shown - a digital type multimeter and an analog type multimeter with needle display",
-      "labels": [
-        "Digital Type",
-        "Analog Type"
-      ],
-      "bbox": {
-        "top": 55,
-        "left": 2,
-        "width": 35,
-        "height": 25
-      }
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "The most frequent cause of problems is simply a bad contact in wiring connectors. So always make sure that connections are secure.\nWhen inspecting the connector, pay particular attention to the following points:\n(a) Check to see that the terminals are not bent.\n(b) Check to see that the connector is pushed in completely and locked.",
-        "(c) Check to see that there is no signal change when the connector is slightly tapped or wiggled.",
-        "Sufficiently troubleshoot for other causes before replacing the computer. The computer is of high quality and it is expensive.",
-        "Use volt/ohmmeter with high-impedance (10 kΩ/V minimum)."
-      ]
-    }
-  ]
+  "title": "",
+  "ocr_text": "2. The most frequent cause of problems is simply a bad contact in wiring connectors. So always make sure that connections are secure.\nWhen inspecting the connector, pay particular attention to the following points:\n(a) Check to see that the terminals are not bent.\n(b) Check to see that the connector is pushed in completely and locked.\n\n(c) Check to see that there is no signal change when the connector is slightly tapped or wiggled.\n\n3. Sufficiently troubleshoot for other causes before replacing the computer. The computer is high quality and it is expensive.\n\n4. Use volt/ohmmeter with high-impedance (10 kΩ/V minimum)."
 }

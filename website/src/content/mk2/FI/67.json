@@ -2,49 +2,5 @@
   "page_id": "FI-67",
   "section_header": "EFI SYSTEM — Electronic Control System",
   "title": "ELECTRONIC CONTROL SYSTEM\nLocation of Electronic Control Parts",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Side cutaway view of a Toyota Supra showing the locations of 12 electronic control system components throughout the engine bay and vehicle body",
-      "labels": [
-        "1 - Air Flow Meter",
-        "2 - Oxygen Sensor",
-        "3 - ECU",
-        "4 - Throttle Position Sensor",
-        "5 - Cold Start Injector",
-        "6 - Fuel Pump",
-        "7 - Resistor",
-        "8 - ISC Valve",
-        "9 - Injector",
-        "10 - Water Temp. Sensor",
-        "11 - Cold Start Injector Time Switch",
-        "12 - Igniter w/Ignition Coil"
-      ],
-      "bbox": {
-        "top": 10,
-        "left": 3,
-        "width": 94,
-        "height": 75
-      }
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "Air Flow Meter",
-        "Oxygen Sensor",
-        "ECU",
-        "Throttle Position Sensor",
-        "Cold Start Injector",
-        "Fuel Pump",
-        "Resistor",
-        "ISC Valve",
-        "Injector",
-        "Water Temp. Sensor",
-        "Cold Start Injector Time Switch",
-        "Igniter w/Ignition Coil"
-      ]
-    }
-  ]
+  "ocr_text": "EFI SYSTEM — Electronic Control System                                FI-67\n\nELECTRONIC CONTROL SYSTEM\nLocation of Electronic Control Parts\n\n1. Air Flow Meter\n2. Oxygen Sensor\n3. ECU\n4. Throttle Position Sensor\n5. Cold Start Injector\n6. Fuel Pump\n7. Resistor\n8. ISC Valve\n9. Injector\n10. Water Temp. Sensor\n11. Cold Start Injector Time Switch\n12. Igniter w/Ignition Coil"
 }

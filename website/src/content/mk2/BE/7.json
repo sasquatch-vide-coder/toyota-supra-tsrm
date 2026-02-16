@@ -1,48 +1,6 @@
 {
   "page_id": "BE-7",
   "section_header": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays",
-  "title": "LOCATION OF SWITCHES AND RELAYS",
-  "content": [
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "ENGINE COMPARTMENT SWITCHES AND RELAYS"
-    },
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Engine compartment diagram showing the locations of various switches and relays including water temperature switch, water temperature sender gauge, neutral start switch, and back-up light switch mounted on or near the engine/transmission",
-      "labels": [
-        "Water Temperature Switch",
-        "Water Temperature Sender Gauge",
-        "Neutral Start Switch",
-        "Back-up Light Switch"
-      ],
-      "bbox": {
-        "top": 12,
-        "left": 5,
-        "width": 90,
-        "height": 38
-      }
-    },
-    {
-      "type": "diagram",
-      "index": 2,
-      "description": "Under-hood relay and component location diagram showing the positions of light retractor relay, courtesy switch, main relay, taillight relay, headlight relay, and ignition coil with igniter mounted in the front engine compartment area",
-      "labels": [
-        "Light Retractor Relay",
-        "Courtesy Switch",
-        "Main Relay",
-        "Taillight Relay",
-        "Headlight Relay",
-        "Ignition Coil with Igniter"
-      ],
-      "bbox": {
-        "top": 50,
-        "left": 5,
-        "width": 90,
-        "height": 48
-      }
-    }
-  ]
+  "title": "LOCATION OF SWITCHES AND RELAYS\nENGINE COMPARTMENT SWITCHES AND RELAYS",
+  "ocr_text": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays     BE-7\n\nLOCATION OF SWITCHES AND RELAYS\nENGINE COMPARTMENT SWITCHES AND RELAYS\n\nWater Temperature Switch\n\nWater Temperature Switch\n\nNeutral Start Switch\n\nWater Temperature\nSender Gauge\n\nBack-up Light Switch\n\nLight Retractor Relay\n\nCourtesy Switch\n\nMain Relay\n\nTaillight Relay\n\nHeadlight Relay\n\nIgnition Coil with Igniter"
 }

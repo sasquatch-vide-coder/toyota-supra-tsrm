@@ -1,49 +1,6 @@
 {
   "page_id": "BE-44",
   "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
-  "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
-  "content": [
-    {
-      "type": "table",
-      "caption": null,
-      "headers": [
-        "SECTION",
-        "TROUBLE"
-      ],
-      "rows": [
-        [
-          "E",
-          "Speedometer | Brightness does not change when rheostat is turned"
-        ]
-      ]
-    },
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Troubleshooting flowchart for speedometer brightness issue. Starts with checking if only speedometer and tachometer are affected, then branches through various diagnostic steps including voltage checks, sub-harness connections, and component replacements. The flowchart uses Yes/No decision points to guide technician through systematic diagnosis.",
-      "labels": [
-        "Only speedometer and tachometer?",
-        "Only tachometer?",
-        "Replace speedometer",
-        "Remove tachometer and connect sub-harness (SST)",
-        "Remove meter and connect sub-harness (SST)",
-        "1. With the ignition S/W at ON position, check that voltage between terminals 4 and 6 of tachometer connector is more than 3V with rheostat at MAX.",
-        "2. With the light S/W turned ON, does voltage between terminals 1 and 7 of sub-harness vary from 0 to 9V when rheostat is turned?",
-        "Replace tachometer",
-        "Replace speedometer",
-        "3. With the light S/W turned ON, does voltage between terminals TR and E of rheostat vary when rheostat is operated?",
-        "Check rheostat (See page BE-18)",
-        "Bad wiring between rheostat and meter",
-        "Remove other meters and check for brightness change of speedometer.",
-        "Connect other meters one by one to find bad meter.",
-        "Replace bad meter"
-      ],
-      "bbox": {
-        "top": 14,
-        "left": 3,
-        "width": 94,
-        "height": 75
-      }
-    }
-  ]
+  "title": "",
+  "ocr_text": "BE-44\t\tBODY ELECTRICAL SYSTEM — Instruments and Sender Gauges\n\nSECTION\t\t\tTROUBLE\n\nE\t\tSpeedometer\t\tBrightness does not change when rheostat is turned\n\nOnly speedometer and tachometer?\tYes\t\tReplace speedometer\nNo\n\nOnly tachometer?\tYes\t\tRemove tachometer and\n\t\t\t\t\tconnect sub-harness (SST)\nNo\n\nRemove meter and connect sub-\nharness (SST).\n\n①With the ignition S/W at ON position, check that\nvoltage between terminals 4 and 6 of tachometer\nconnector is more than 3V with rheostat at MAX.\n\nOK\n\n②With the light S/W turned ON,\ndoes voltage between terminals 1\nand 7 of sub-harness vary from 0\nto 9V when rheostat is turned?\n\nYes\t\t\t\tReplace tachometer\t\tReplace speedometer\n\nNo\n\n③With the light S/W turned ON,does\nvoltage between terminals TR and E of\nrheostat vary when rheostat is operated?\n\nNo\t\t\t\tYes\n\nCheck rheostat\t\t\tBad wiring between\n(See page BE-18)\t\t\trheostat and meter\n\nRemove other meters and check for\tNo\t\t\tReplace speedometer\nbrightness change of speedometer.\n\nYes\n\nConnect other meters one by one\nto find bad meter.\n\nReplace bad meter"
 }

@@ -1,58 +1,6 @@
 {
   "page_id": "IN-1",
-  "section_header": "INTRODUCTION",
+  "section_header": "",
   "title": "INTRODUCTION",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Header image showing what appears to be an automotive part or component, possibly engine-related",
-      "labels": [],
-      "bbox": {
-        "top": 0,
-        "left": 0,
-        "width": 100,
-        "height": 10
-      }
-    },
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "INTRODUCTION"
-    },
-    {
-      "type": "table",
-      "caption": "Table of Contents",
-      "headers": [
-        "Topic",
-        "Page"
-      ],
-      "rows": [
-        [
-          "HOW TO USE THIS MANUAL",
-          "IN-2"
-        ],
-        [
-          "IDENTIFICATION INFORMATION",
-          "IN-4"
-        ],
-        [
-          "GENERAL REPAIR INSTRUCTIONS",
-          "IN-4"
-        ],
-        [
-          "PRECAUTIONS FOR VEHICLES EQUIPPED WITH A CATALYTIC CONVERTER",
-          "IN-7"
-        ],
-        [
-          "VEHICLE LIFT AND SUPPORT LOCATIONS",
-          "IN-8"
-        ],
-        [
-          "ABBREVIATIONS USED IN THIS MANUAL",
-          "IN-9"
-        ]
-      ]
-    }
-  ]
+  "ocr_text": "INTRODUCTION\n\nPage\nHOW TO USE THIS MANUAL ........................... IN-2\nIDENTIFICATION INFORMATION ..................... IN-4\nGENERAL REPAIR INSTRUCTIONS .................. IN-4\nPRECAUTIONS FOR VEHICLES EQUIPPED WITH\nA CATALYTIC CONVERTER ......................... IN-7\nVEHICLE LIFT AND SUPPORT LOCATIONS ...... IN-8\nABBREVIATIONS USED IN THIS MANUAL ........ IN-9"
 }

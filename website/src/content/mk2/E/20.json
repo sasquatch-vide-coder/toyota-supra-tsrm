@@ -1,37 +1,6 @@
 {
-  "page_id": "Unknown",
-  "section_header": "Door Locks Wiring Diagram",
-  "title": "Door Locks",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Complete wiring diagram for door locks system showing door lock relay, door lock control relay, door lock control switch, key unlock warning switch, left front door lock motor, right front door lock motor, left rear door lock motor, right rear door lock motor, left and right door switches, and connections to unlock warning switch and theft deterrent system",
-      "labels": [
-        "Door Locks",
-        "DOOR LOCK RELAY",
-        "DOOR LOCK CONTROL RELAY",
-        "DOOR LOCK CONTROL SWITCH",
-        "KEY UNLOCK WARNING SWITCH",
-        "LEFT FRONT DOOR LOCK MOTOR",
-        "RIGHT FRONT DOOR LOCK MOTOR",
-        "LEFT REAR DOOR LOCK MOTOR",
-        "RIGHT REAR DOOR LOCK MOTOR",
-        "DOOR SW",
-        "DOOR SW",
-        "To Unlock Warning S/W (4-2)",
-        "To Theft Deterrent S/W",
-        "From DOOR For Key Illu.",
-        "From DOOR For Key Illu.",
-        "Wire colors: W-B (White-Black), V-Y (Violet-Yellow), G-Y (Green-Yellow), W (White), G (Green), B (Black)",
-        "Page numbers: 3, 4"
-      ],
-      "bbox": {
-        "top": 5,
-        "left": 2,
-        "width": 96,
-        "height": 90
-      }
-    }
-  ]
+  "page_id": "BE-18",
+  "section_header": "BODY ELECTRICAL — Power Door Lock Control System",
+  "title": "",
+  "ocr_text": "Door Locks\n\nTo Unlock Warning S/W (4-2)\n\nDOOR LOCK RELAY\n\nDOOR LOCK CONTROL RELAY\n\nDOOR LOCK CONTROL S/W\n\nKEY UNLOCK WARN S/W\n\nKEY UNLOCK WARN S/W\n\nDOOR L.\n\nDOOR R.\n\nRR MAIN UNLOCK S/W\n\nRR MAIN UNLOCK S/W\n\nRR MAIN LOCK S/W\n\nRR MAIN LOCK S/W"
 }

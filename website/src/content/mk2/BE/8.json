@@ -2,38 +2,5 @@
   "page_id": "BE-8",
   "section_header": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays",
   "title": "INSTRUMENT PANEL SWITCHES AND RELAYS",
-  "content": [
-    {
-      "type": "diagram",
-      "index": 1,
-      "description": "Exploded view diagram showing the location and arrangement of various switches and relays in the instrument panel area, including the steering column, dashboard, and center console components",
-      "labels": [
-        "Actuator",
-        "Cruise Control Main Switch",
-        "Rear Window Defogger Switch",
-        "Heater Blower Switch",
-        "Courtesy Switch",
-        "Cruise Control Computer",
-        "Light Control Rheostat",
-        "Clutch Switch",
-        "Cigarette Lighter",
-        "Outer Mirror Switch",
-        "A/C Switch",
-        "Fog Light Switch",
-        "Rear Wiper Switch",
-        "Ignition Switch",
-        "Turn Signal and Hazard Switch",
-        "Headlight Dimmer Switch",
-        "Light Control Switch",
-        "Wiper, Washer and Cruise Control Switch",
-        "Horn Contact"
-      ],
-      "bbox": {
-        "top": 10,
-        "left": 3,
-        "width": 94,
-        "height": 85
-      }
-    }
-  ]
+  "ocr_text": "INSTRUMENT PANEL SWITCHES AND RELAYS\n\nActuator\nCruise Control Main Switch\nRear Window Defogger Switch\nHeater Blower Switch\nCourtesy Switch\nCruise Control Computer\nLight Control Rheostat\nClutch Switch\nCigarette Lighter\nOuter Mirror Switch\nA/C Switch\nFog Light Switch\nRear Wiper Switch\nIgnition Switch\nTurn Signal and Hazard Switch\nHeadlight Dimmer Switch\nLight Control Switch\nWiper, Washer and Cruise Control Switch\nHorn Contact"
 }
