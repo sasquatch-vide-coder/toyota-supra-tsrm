@@ -1,0 +1,66 @@
+{
+  "page_id": "SR-1",
+  "section_header": "STEERING",
+  "title": "STEERING",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "STEERING"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Topic",
+        "Page"
+      ],
+      "rows": [
+        [
+          "PRECAUTIONS",
+          "SR-2"
+        ],
+        [
+          "TROUBLESHOOTING",
+          "SR-2"
+        ],
+        [
+          "ON-VEHICLE INSPECTION",
+          "SR-2"
+        ],
+        [
+          "STEERING COLUMN ASSEMBLY",
+          ""
+        ],
+        [
+          "WITH TILT STEERING",
+          "SR-3"
+        ],
+        [
+          "POWER STEERING",
+          "SR-13"
+        ],
+        [
+          "On-Vehicle Inspection",
+          "SR-13"
+        ],
+        [
+          "Bleeding of Power Steering System",
+          "SR-15"
+        ],
+        [
+          "Oil Pressure Check",
+          "SR-16"
+        ],
+        [
+          "Power Steering Pump",
+          "SR-18"
+        ],
+        [
+          "Gear Housing",
+          "SR-27"
+        ]
+      ]
+    }
+  ]
+}

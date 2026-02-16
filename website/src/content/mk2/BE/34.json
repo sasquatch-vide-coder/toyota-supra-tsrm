@@ -1,0 +1,175 @@
+{
+  "page_id": "BE-34",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "Wiring connector sides",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Wiring connector sides",
+      "headers": [
+        "No.",
+        "Wiring connector sides",
+        "No.",
+        "Wiring connector sides"
+      ],
+      "rows": [
+        [
+          "1",
+          "Ignition Switch (+)",
+          "33",
+          "Light Control Relay (EFI)"
+        ],
+        [
+          "2",
+          "Body Ground of Power Source",
+          "35",
+          "Trip Computer Terminal GND"
+        ],
+        [
+          "5",
+          "Remaining Fuel Quantity Signal",
+          "36",
+          "Trip Computer Terminal F"
+        ],
+        [
+          "6",
+          "Starting Signal",
+          "37",
+          "Trip Computer Terminal RST"
+        ],
+        [
+          "7",
+          "TEMP Signal",
+          "38",
+          "Trip Computer Terminal TAU"
+        ],
+        [
+          "8",
+          "Dim Signal",
+          "39",
+          "Trip Computer Terminal ACC"
+        ],
+        [
+          "9",
+          "RPM Signal",
+          "40",
+          "Trip Computer Terminal IG"
+        ],
+        [
+          "10",
+          "Signal Ground",
+          "41",
+          "Trip Computer Terminal"
+        ],
+        [
+          "11",
+          "Power Source of Fuel Sender Gauge",
+          "42",
+          "Trip Computer Terminal 12V"
+        ],
+        [
+          "12",
+          "4-pulse Signal",
+          "43",
+          "Trip Computer Terminal 5V"
+        ],
+        [
+          "17",
+          "Dim Restriction Signal",
+          "45",
+          "Trip Computer Terminal DIM (12V)"
+        ],
+        [
+          "18",
+          "Door (+)",
+          "46",
+          "Trip Computer Terminal VF (12V)"
+        ],
+        [
+          "19",
+          "Door (--)",
+          "47",
+          "Trip Computer Terminal CK"
+        ],
+        [
+          "20",
+          "Oil Pressure Sender Gauge",
+          "48",
+          "Trip Computer Terminal SET"
+        ],
+        [
+          "21",
+          "Fasten Belts Relay",
+          "49",
+          "Trip Computer Terminal FUL"
+        ],
+        [
+          "22",
+          "Ignition Switch (+)",
+          "50",
+          "Trip Computer Terminal CLK"
+        ],
+        [
+          "23",
+          "Battery Terminal (+)",
+          "51",
+          "Trip Computer Terminal KML"
+        ],
+        [
+          "24",
+          "Changing Regulator Terminal L",
+          "52",
+          "Trip Computer Terminal ARR"
+        ],
+        [
+          "25",
+          "Parking Brake Switch",
+          "53",
+          "Trip Computer Terminal JST"
+        ],
+        [
+          "26",
+          "OD Switch",
+          "54",
+          "Trip Computer Terminal DIM (12V)"
+        ],
+        [
+          "27",
+          "Ground",
+          "55",
+          "Trip Computer Terminal GND"
+        ],
+        [
+          "28",
+          "Turn Signal Switch Terminal TR",
+          "57",
+          "Pattern Select Switch 4"
+        ],
+        [
+          "29",
+          "Turn Signal Switch Terminal TL",
+          "58",
+          "Pattern Select Switch 3"
+        ],
+        [
+          "30",
+          "Ground",
+          "59",
+          "Ground"
+        ],
+        [
+          "31",
+          "Dimmer Switch Terminal HU",
+          "61",
+          "EFI Computer Terminal W"
+        ],
+        [
+          "32",
+          "Rheostat",
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

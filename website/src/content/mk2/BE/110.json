@@ -1,0 +1,45 @@
+{
+  "page_id": "BE.110",
+  "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna",
+  "title": "Antenna Motor",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Antenna Motor"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF ANTENNA MOTOR"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT LIMIT SWITCH OPERATION"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Two diagrams showing antenna motor testing configurations. Left diagram shows antenna in up position with meter connected to motor terminals. Right diagram shows antenna in down position with meter connected to different motor terminals. Both diagrams show the antenna motor unit with testing equipment (ammeter) and connection points.",
+      "labels": [
+        "Antenna up position - terminals 6 and 10",
+        "Antenna down position - terminals 6 and 9"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) If the motor stops with the antenna up, check that there is no continuity between terminals 6 and 10.",
+        "(b) If the motor stops with the antenna down, check that there is no continuity between terminals 6 and 9."
+      ]
+    }
+  ]
+}

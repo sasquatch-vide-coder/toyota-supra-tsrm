@@ -1,0 +1,154 @@
+{
+  "page_id": "BE-61",
+  "section_header": "BODY ELECTRICAL SYSTEM — Rear Window Defogger",
+  "title": "REAR WINDOW DEFOGGER Troubleshooting",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Rear Window Defogger Troubleshooting",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Rear window defogger does not work",
+          "Circuit breaker OFF\nDefogger relay faulty\nDefogger switch faulty\nDefogger wire broken\nWiring and ground faulty",
+          "Reset breaker and check for short\nCheck relay\nCheck switch\nCheck wires\nRepair as necessary",
+          "BE-4\nBE-61\nBE-61\nBE-62"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Rear window defogger switch wiring diagram showing terminals 1-8 with battery connection and switch position indicator",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "BE60A"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rear Window Defogger Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF REAR WINDOW DEFOGGER SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT SWITCH OPERATION"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the positive (+) lead from the battery to terminal 5. Connect the negative (−) lead to terminal 6.",
+        "(b) Connect an ohmmeter between terminals 2 and 6.",
+        "(c) Check that there is continuity between terminals for 10 − 20 minutes with the switch turned on."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the switch."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Two relay diagrams showing 'No continuity' and 'Continuity' states with terminal connections 1-4",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "BE60AE",
+        "No continuity",
+        "Continuity"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rear Window Defogger Relay"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF REAR WINDOW DEFOGGER RELAY"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. INSPECT RELAY CONTINUITY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that the there is continuity between terminals 1 and 3.",
+        "(b) Check that there is no continuity between terminals 2 and 4."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the relay."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. INSPECT RELAY OPERATION"
+    },
+    {
+      "type": "text",
+      "text": "Connect the positive (+) lead from the battery to terminal 1 and connect the negative (−) lead from the battery to terminal 3. Then, check that there is continuity between terminals 2 and 4."
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the relay."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing relay operation test setup with battery connections and continuity check",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Continuity",
+        "BE60A1"
+      ],
+      "bbox": {
+        "top": 73,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    }
+  ]
+}

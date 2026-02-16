@@ -1,0 +1,158 @@
+{
+  "page_id": "ST-4",
+  "section_header": "STARTING SYSTEM — Starter",
+  "title": "DISASSEMBLY OF STARTER",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page ST-3)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cross-sectional view of starter showing field frame with armature and magnetic switch",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      },
+      "reference": "ST0005"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE FIELD FRAME WITH ARMATURE FROM MAGNETIC SWITCH"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect the lead wire from the magnetic switch terminal.",
+        "(b) Remove the two bolts. Pull out the field frame with the armature from the magnetic switch.",
+        "(c) Remove the O-ring."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE STARTER HOUSING FROM MAGNETIC SWITCH ASSEMBLY"
+    },
+    {
+      "type": "text",
+      "text": "Remove the two screws and remove the starter housing."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand using screwdriver to remove screws from starter housing of magnetic switch assembly",
+      "labels": [],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      },
+      "reference": "ST0246"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE CLUTCH ASSEMBLY AND GEARS FROM MAGNETIC SWITCH ASSEMBLY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. REMOVE STEEL BALL"
+    },
+    {
+      "type": "text",
+      "text": "Using a magnet, remove the steel ball from the clutch shaft hole."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Using a magnet to remove steel ball from clutch assembly",
+      "labels": [
+        "Magnet"
+      ],
+      "bbox": {
+        "top": 48,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      },
+      "reference": "ST0606"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. REMOVE BRUSHES AND BRUSH HOLDER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the end cover from the field frame.",
+        "(b) Remove the O-ring",
+        "(c) Using a screwdriver, separate the brush and brush spring, and remove the brush from the brush holder.",
+        "(d) Pull the brush holder off the armature."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Removing brush holder and brushes from armature assembly",
+      "labels": [],
+      "bbox": {
+        "top": 68,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      },
+      "reference": "ST0273"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. REMOVE ARMATURE FROM FIELD FRAME"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF STARTER"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Armature Coil"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. CHECK THAT COMMUTATOR IS NOT GROUNDED"
+    },
+    {
+      "type": "text",
+      "text": "Using an ohmmeter, check that there is no continuity between the commutator and armature coil core."
+    },
+    {
+      "type": "text",
+      "text": "If there is continuity, replace the armature."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Using ohmmeter to check armature coil commutator for ground",
+      "labels": [],
+      "bbox": {
+        "top": 88,
+        "left": 3,
+        "width": 38,
+        "height": 12
+      },
+      "reference": "ST0011"
+    }
+  ]
+}

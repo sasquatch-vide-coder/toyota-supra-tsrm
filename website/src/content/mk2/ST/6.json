@@ -1,0 +1,163 @@
+{
+  "page_id": "ST-6",
+  "section_header": "STARTING SYSTEM — Starter",
+  "title": "STARTING SYSTEM — Starter",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands using an ohmmeter to check field coil grounding",
+      "labels": [
+        "ST0060"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CHECK THAT FIELD COIL IS NOT GROUNDED"
+    },
+    {
+      "type": "text",
+      "text": "Using an ohmmeter, check for continuity between the field coil end and field frame."
+    },
+    {
+      "type": "text",
+      "text": "If there is continuity, repair or replace the field frame."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Brushes"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "MEASURE BRUSH LENGTH"
+    },
+    {
+      "type": "text",
+      "text": "Standard length: 15.5 mm (0.610 in.)\nMinimum length: 10 mm (0.39 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If length is less than minimum, replace the brush or dress with emery cloth."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing measurement of starter motor brush with a measuring tool",
+      "labels": [
+        "ST0017-ST0018"
+      ],
+      "bbox": {
+        "top": 30,
+        "left": 3,
+        "width": 37,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Brush Springs"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "MEASURE BRUSH SPRING LOAD WITH A PULL SCALE"
+    },
+    {
+      "type": "text",
+      "text": "Tension: 1.785 — 2.415 g (3.9 — 5.3 lb)"
+    },
+    {
+      "type": "text",
+      "text": "If the reading is below standard, replace the brush spring."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Take the pull scale reading the instant the brush spring separates from the brush."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing pull scale being used to measure brush spring tension",
+      "labels": [
+        "ST0019"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 3,
+        "width": 37,
+        "height": 23
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Brush Holder"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CHECK INSULATION OF BRUSH HOLDER"
+    },
+    {
+      "type": "text",
+      "text": "Using an ohmmeter, check for continuity between the positive and negative brush holders."
+    },
+    {
+      "type": "text",
+      "text": "If there is continuity, repair or replace the brush holder."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing ohmmeter testing brush holder insulation",
+      "labels": [
+        "ST0062"
+      ],
+      "bbox": {
+        "top": 79,
+        "left": 3,
+        "width": 37,
+        "height": 23
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Clutch and Gears"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSPECT GEAR TEETH\n\nInspect the gear teeth on the pinion gear, idler gear and clutch assembly for wear or damage. Replace if damaged.\n\nIf damaged, also inspect the flywheel ring gear for wear or damage.",
+        "CHECK CLUTCH\n\nRotate the pinion clockwise and check that it turns freely. Try to rotate the pinion counterclockwise and check that it locks."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing clutch and gears with labels for Free and Lock rotation directions",
+      "labels": [
+        "Free",
+        "Lock",
+        "ST0020"
+      ],
+      "bbox": {
+        "top": 103,
+        "left": 3,
+        "width": 37,
+        "height": 23
+      }
+    }
+  ]
+}

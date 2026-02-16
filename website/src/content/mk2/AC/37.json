@@ -1,0 +1,120 @@
+{
+  "page_id": "AC-37",
+  "section_header": "AIR CONDITIONING SYSTEM — Receiver, Cooling Unit",
+  "title": "RECEIVER",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page AC-22)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CHECK SIGHT GLASS, FUSIBLE PLUG AND FITTINGS FOR LEAKAGE"
+    },
+    {
+      "type": "text",
+      "text": "Use a gas leak tester. Repair as necessary."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF RECEIVER"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing receiver assembly with sight glass at top and receiver body mounted in holder",
+      "labels": [
+        "Sight Glass",
+        "Receiver"
+      ],
+      "bbox": {
+        "top": 28,
+        "left": 2,
+        "width": 45,
+        "height": 42
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DISCHARGE REFRIGERATION SYSTEM\n(See page AC-12)",
+        "DISCONNECT TWO LIQUID LINE TUBES FROM RECEIVER\nNOTE: Cap the open fittings immediately to keep moisture out of the system.",
+        "REMOVE RECEIVER FROM RECEIVER HOLDER"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF RECEIVER"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL RECEIVER IN RECEIVER HOLDER\nNOTE: Do not remove blind plugs until ready for connection.",
+        "CONNECT TWO LIQUID LINE TUBES TO RECEIVER\nTorque: 135 kg-cm (10 ft-lb, 13 N·m)",
+        "IF RECEIVER IS REPLACED, ADD COMPRESSOR OIL TO COMPRESSOR\nAdd 10 — 20 cc (0.3 — 0.7 fl. oz.)",
+        "EVACUATE, CHARGE AND TEST REFRIGERATION SYSTEM (See page AC-12)"
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Do not remove blind plugs until ready for connection."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Liquid line tubes to receiver",
+      "value": "135 kg-cm (10 ft-lb, 13 N·m)"
+    },
+    {
+      "type": "notice",
+      "text": "Cap the open fittings immediately to keep moisture out of the system."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COOLING UNIT"
+    },
+    {
+      "type": "text",
+      "text": "(See page AC-22)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ON-VEHICLE INSPECTION OF EXPANSION VALVE"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CONNECT MANIFOLD GAUGE TO COMPRESSOR",
+        "CHECK EXPANSION VALVE OPERATION"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Run the engine at fast idle with the air conditioning on.",
+        "(b) Check that reading on the low pressure is between 0.5 — 5.0 kg/cm² (7 — 71 psi, 49 — 490 kPa)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If the reading is too low, check and replace the expansion valve and/or receiver."
+    },
+    {
+      "type": "text",
+      "text": "If the reading is too high, tighten the remote valve holders and/or replace the expansion valve."
+    }
+  ]
+}

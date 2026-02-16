@@ -1,0 +1,363 @@
+{
+  "page_id": "A-21",
+  "section_header": "SERVICE SPECIFICATIONS — Rear Axle and Suspension",
+  "title": "REAR AXLE AND SUSPENSION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Specifications"
+    },
+    {
+      "type": "table",
+      "caption": "Rear Axle and Suspension Specifications",
+      "headers": [
+        "Component",
+        "Specification Item",
+        "Measurement Type",
+        "Metric Value",
+        "Imperial Value"
+      ],
+      "rows": [
+        [
+          "Rear axle shaft",
+          "Oil seal drive in depth",
+          "Inner",
+          "31 mm",
+          "1.22 in."
+        ],
+        [
+          "",
+          "",
+          "Outer",
+          "6 mm",
+          "0.24 in."
+        ],
+        [
+          "",
+          "Flange runout",
+          "Max. limit",
+          "0.1 mm",
+          "0.004 in."
+        ],
+        [
+          "",
+          "Rear axle shaft bearing preload",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "at Starting",
+          "1 – 4 kg·cm",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "(0.9 – 3.5 in.·lb, 0.1 – 0.4 N·m)",
+          ""
+        ],
+        [
+          "Rear drive shaft (IRS type)",
+          "Inboard joint pack in grease",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Race",
+          "60 g",
+          "0.13 lb"
+        ],
+        [
+          "",
+          "",
+          "Boot",
+          "60 g",
+          "0.13 lb"
+        ],
+        [
+          "",
+          "Outboard joint pack in grease",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Race",
+          "60 g",
+          "0.13 lb"
+        ],
+        [
+          "",
+          "",
+          "Boot",
+          "60 g",
+          "0.13 lb"
+        ],
+        [
+          "",
+          "Installed length (between flange and flange)",
+          "",
+          "416.5 – 419.5 mm",
+          "16.398 – 16.516 in."
+        ],
+        [
+          "Differential",
+          "Drive pinion bearing preload",
+          "at Starting",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "New bearing",
+          "12 – 19 kg·cm",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "(10.4 – 16.5 in.·lb, 1.2 – 1.9 N·m)",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Reused bearing",
+          "6 – 10 kg·cm",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "(5.2 – 8.7 in.·lb, 0.6 – 1.0 N·m)",
+          ""
+        ],
+        [
+          "",
+          "Total preload",
+          "at Starting",
+          "Add drive pinion bearing preload",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "4 – 6 kg·cm",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "(3.5 – 5.2 in.·lb, 0.4 – 0.6 N·m)",
+          ""
+        ],
+        [
+          "",
+          "Drive pinion to ring gear backlash",
+          "",
+          "0.13 – 0.18 mm",
+          "0.0051 – 0.0071 in."
+        ],
+        [
+          "",
+          "Pinion gear to side gear backlash",
+          "",
+          "0.05 – 0.20 mm",
+          "0.0020 – 0.0079 in."
+        ],
+        [
+          "",
+          "Ring gear runout",
+          "Limit",
+          "0.07 mm",
+          "0.0028 in."
+        ],
+        [
+          "",
+          "Companion flange runout",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "Radial",
+          "0.10 mm",
+          "0.0039 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "Lateral",
+          "0.10 mm",
+          "0.0039 in."
+        ],
+        [
+          "",
+          "Ring gear installing temperature",
+          "",
+          "90 – 110°C",
+          "194 – 230°F"
+        ],
+        [
+          "",
+          "Drive pinion oil seal drive in depth",
+          "",
+          "1.5 mm",
+          "0.06 in."
+        ],
+        [
+          "",
+          "Side gear oil seal drive in depth",
+          "",
+          "Flush the carrier end surface",
+          ""
+        ],
+        [
+          "",
+          "Side gear shaft runout",
+          "Max. limit",
+          "0.2 mm",
+          "0.008 in."
+        ],
+        [
+          "",
+          "Drive pinion adjusting plate washer thickness",
+          "",
+          "2.23 – 2.25 mm",
+          "0.0878 – 0.0886 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.26 – 2.28 mm",
+          "0.0890 – 0.0898 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.29 – 2.31 mm",
+          "0.0902 – 0.0909 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.32 – 2.34 mm",
+          "0.0913 – 0.0921 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.35 – 2.37 mm",
+          "0.0925 – 0.0933 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.38 – 2.40 mm",
+          "0.0937 – 0.0945 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.41 – 2.43 mm",
+          "0.0949 – 0.0957 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.44 – 2.46 mm",
+          "0.0961 – 0.0969 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.47 – 2.49 mm",
+          "0.0972 – 0.0980 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.50 – 2.52 mm",
+          "0.0984 – 0.0992 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.53 – 2.55 mm",
+          "0.0996 – 0.1004 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.56 – 2.58 mm",
+          "0.1008 – 0.1016 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.59 – 2.61 mm",
+          "0.1020 – 0.1028 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.62 – 2.64 mm",
+          "0.1031 – 0.1039 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.65 – 2.67 mm",
+          "0.1043 – 0.1051 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.68 – 2.70 mm",
+          "0.1055 – 0.1063 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "2.71 – 2.73 mm",
+          "0.1067 – 0.1075 in."
+        ]
+      ]
+    }
+  ]
+}

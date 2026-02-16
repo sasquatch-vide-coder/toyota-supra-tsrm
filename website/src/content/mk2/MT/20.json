@@ -1,0 +1,170 @@
+{
+  "page_id": "MT-20",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "REPLACE OIL SEAL ON SPEEDOMETER DRIVEN GEAR / IF NECESSARY, REPLACE OIL SEAL AND BUSHING",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. REPLACE OIL SEAL ON SPEEDOMETER DRIVEN GEAR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, remove the oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09921-00010",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands using SST tool to remove oil seal from speedometer driven gear",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Using SST, install a new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09201-60011",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "Oil seal depth: 25 mm (0.98 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Cross-section diagram showing 25mm depth measurement for oil seal installation using SST",
+      "labels": [
+        "25mm",
+        "SST"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 4,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. IF NECESSARY, REPLACE OIL SEAL AND BUSHING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, remove the oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09308-00010",
+      "description": "or"
+    },
+    {
+      "type": "part_number",
+      "label": "",
+      "number": "09308-10010",
+      "description": "w/ output shaft installed"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing SST tool removing oil seal from transmission extension housing with output shaft",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 4,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Heat the extension to 80 — 100°C (176 — 212°F) in an oil bath."
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Using SST, remove the bushing and install a new bushing."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09307-30010",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing SST tool removing/installing bushing in extension housing",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 4,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Using SST, drive in a new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09325-20010",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing SST tool driving in new oil seal into extension housing",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 4,
+        "width": 38,
+        "height": 17
+      }
+    }
+  ]
+}

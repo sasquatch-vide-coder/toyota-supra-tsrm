@@ -1,0 +1,125 @@
+{
+  "page_id": "SR-35",
+  "section_header": "STEERING — Power Steering",
+  "title": "ASSEMBLY OF GEAR HOUSING",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page SR-27)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "COAT POWER STEERING FLUID ON FOLLOWING PARTS:"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view of gear housing assembly showing all components including steering rack, cylinder housing, seals, spacers, and various small parts. Arrows indicate where Molybdenum Disulphide Lithium Base Grease and Power Steering Fluid should be applied.",
+      "labels": [
+        "Molybdenum Disulphide Lithium Base Grease",
+        "Power Steering Fluid"
+      ],
+      "bbox": {
+        "top": 11,
+        "left": 5,
+        "width": 90,
+        "height": 45
+      }
+    },
+    {
+      "type": "text",
+      "text": "←: Molybdenum Disulphide Lithium Base Grease"
+    },
+    {
+      "type": "text",
+      "text": "⇐: Power Steering Fluid"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        "INSTALL SEAT AND SPACER"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        "INSTALL STEERING RACK ASSEMBLY"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Insert SST into a new teflon ring of the piston."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09630-24013 (09631-24030)",
+      "description": ""
+    },
+    {
+      "type": "notice",
+      "text": "Protect the teflon ring from damage."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing SST tool being inserted into teflon ring on piston assembly",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 5,
+        "width": 35,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Insert SST into a new oil seal of the cylinder housing.",
+        "• Install one SST into the other.",
+        "• Insert two SST into the oil seal.",
+        "• Remove one SST from the other."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09630-24013 (09631-24041, 09631-24050)",
+      "description": ""
+    },
+    {
+      "type": "notice",
+      "text": "Protect the oil lip from damage."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing multiple SST tools being used to install oil seal into cylinder housing, with detailed steps of inserting and removing tools",
+      "labels": [
+        "SST",
+        "SST",
+        "SST",
+        "SST"
+      ],
+      "bbox": {
+        "top": 74,
+        "left": 5,
+        "width": 35,
+        "height": 19
+      }
+    }
+  ]
+}

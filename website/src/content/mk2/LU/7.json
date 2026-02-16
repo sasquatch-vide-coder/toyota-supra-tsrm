@@ -1,0 +1,173 @@
+{
+  "page_id": "LU-7",
+  "section_header": "LUBRICATION SYSTEM — Oil Pump",
+  "title": "OPERATION CHECK OF OIL PUMP / INSTALLATION OF OIL PUMP ASSEMBLY",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "OPERATION CHECK OF OIL PUMP"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CHECK PUMP OPERATION"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hand turning oil pump shaft counterclockwise while suction end is immersed in engine oil",
+      "labels": [
+        "LU0720"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Immerse the suction end of the pump into clean engine oil and turn the shaft counterclockwise with your hand. Oil should come out of the discharge hole."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing thumb closing discharge hole while turning pump shaft",
+      "labels": [
+        "LU0721"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Close the discharge hole with your thumb, and turn the shaft as before. The shaft should be difficult to turn."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF OIL PUMP ASSEMBLY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL OIL PUMP ASSEMBLY"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing oil pump assembly installation with oil pipe and mounting bolt locations",
+      "labels": [
+        "RM1410"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the oil pump and mounting bolt. Torque the bolt."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Oil pump mounting bolt",
+      "value": "220 kg-cm (16 ft-lb, 22 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Install the oil pipe with gasket lock washer and union bolt. Tighten the oil pipe union bolt and nut."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Oil pipe union bolt and nut",
+      "value": "350 kg-cm (25 ft-lb, 34 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL OIL PAN"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing oil pan bolt tightening sequence with points labeled A, B, and C in a specific pattern",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "LU0003"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove any packing material and be careful not to drop the oil on the contacting surfaces of the oil pan and cylinder block.",
+        "• Using a razor blade and gasket scraper, remove all the packing (FIPG) material from the gasket surfaces.",
+        "• Thoroughly clean all components to remove all the loose material.",
+        "• Clean both sealing surface with a non-residue solvent."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Do not use a solvent which will affect the rubber parts."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Apply seal packing to the cylinder block installing surface of the oil pan."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "Seal packing",
+      "number": "08826-00080 or equivalent",
+      "description": ""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Install the oil pan over the studs on the block with the twenty four bolts and two nuts. Torque the bolts and nuts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Oil pan bolts and nuts",
+      "value": "80 kg-cm (69 in.-lb, 7.8 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL FLYWHEEL HOUSING UNDER COVER"
+    }
+  ]
+}

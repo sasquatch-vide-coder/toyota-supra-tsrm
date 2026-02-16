@@ -1,0 +1,132 @@
+{
+  "page_id": "EM-57",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": "ENGINE MECHANICAL — Cylinder Block",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Oil seal installation diagram showing cut position and tape placement for timing belt case on cylinder block",
+      "labels": [
+        "Cut Position",
+        "Tape"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 25
+      },
+      "reference_code": "EM0282 EM1100"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. IF TIMING BELT CASE IS INSTALLED ON CYLINDER BLOCK (Replacement of pump drive oil seal)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) As shown in the figure, use a knife to cut off the oil seal lip.",
+        "(b) Using a screwdriver, pry out the oil seal."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Be careful not to damage drive shaft. Tape the screwdriver tip."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installation diagram showing SST tool being used to install oil seal into timing belt case",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 30,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      },
+      "reference_code": "EM1120"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Check the drive pump shaft where it contacts the oil lip surface for cracks or damage.",
+        "(d) Apply MP grease to the oil seal.",
+        "(e) Using SST, install the new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09214-41010",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Oil seal installation diagram showing cut position for rear oil seal retainer on cylinder block",
+      "labels": [
+        "Cut Position"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 5,
+        "width": 45,
+        "height": 23
+      },
+      "reference_code": "EM0283 EM1121"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. IF REAR OIL SEAL RETAINER IS INSTALLED ON CYLINDER BLOCK (Replacement of rear oil seal)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) As shown in the figure, use a knife to cut off the oil seal lip.",
+        "(b) Using a screwdriver, pry out the oil seal."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Be careful not to damage the crankshaft. Tape the screwdriver tip."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installation diagram showing SST tool being used to install rear oil seal into cylinder block",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 77,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      },
+      "reference_code": "EM1122"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Check the crankshaft where it contacts the oil lip surface for cracks or damage.",
+        "(d) Apply MP grease to the oil seal.",
+        "(e) Using SST, install the new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09223-41020",
+      "description": ""
+    }
+  ]
+}

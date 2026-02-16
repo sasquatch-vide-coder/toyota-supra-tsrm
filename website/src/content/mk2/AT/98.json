@@ -1,0 +1,103 @@
+{
+  "page_id": "AT-98",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of rear clutch sequence valve and spring from valve body",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      },
+      "reference_number": "C4423"
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the rear clutch sequence valve and spring."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE 3-4 SHIFT VALVE"
+    },
+    {
+      "type": "text",
+      "text": "(a) Push the plug, remove the retainer with a magnetic finger."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing pushing plug and removing retainer from valve body",
+      "labels": [],
+      "bbox": {
+        "top": 23,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      },
+      "reference_number": "AT0815"
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the plug, valve and spring."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of plug, valve and spring from valve body",
+      "labels": [],
+      "bbox": {
+        "top": 41,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      },
+      "reference_number": "AT0816"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. REMOVE COVER AND GASKET"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of cover and gasket from valve body",
+      "labels": [],
+      "bbox": {
+        "top": 59,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      },
+      "reference_number": "C4426"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. REMOVE 1-2 SHIFT VALVE"
+    },
+    {
+      "type": "text",
+      "text": "Remove the 1-2 shift valve and spring."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing removal of 1-2 shift valve and spring from valve body",
+      "labels": [],
+      "bbox": {
+        "top": 77,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      },
+      "reference_number": "C4427"
+    }
+  ]
+}

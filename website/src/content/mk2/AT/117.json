@@ -1,0 +1,172 @@
+{
+  "page_id": "AT-117",
+  "section_header": "AUTOMATIC TRANSMISSION — Installation of Transmission",
+  "title": "Installation of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand pouring ATF fluid into torque converter",
+      "labels": [
+        "B1026"
+      ],
+      "bbox": {
+        "top": 2,
+        "left": 2,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. INSTALL TORQUE CONVERTER IN TRANSMISSION"
+    },
+    {
+      "type": "text",
+      "text": "If the torque converter has been drained and washed, refill with fresh ATF."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ATF capacity: 2.0 liters (2.1 US qts, 1.8 Imp. qts)",
+        "Fluid type: ATF DEXRON® II"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Measuring torque converter installation depth with calipers and straight edge from installed surface to front surface of transmission housing",
+      "labels": [
+        "AT01/89"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. CHECK TORQUE CONVERTER INSTALLATION"
+    },
+    {
+      "type": "text",
+      "text": "Using calipers and a straight edge, measure from the installed surface to the front surface of the transmission housing."
+    },
+    {
+      "type": "text",
+      "text": "Correct distance: 26 mm (1.02 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installing guide pin in torque converter with alignment diagram showing guide pin, drive plate holes, and converter housing",
+      "labels": [
+        "AT01/89"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. INSTALL GUIDE PIN IN TORQUE CONVERTER"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. ALIGN TRANSMISSION AT INSTALLATION POSITION"
+    },
+    {
+      "type": "caution",
+      "text": "Be careful not to tilt the transmission forward because the torque converter could slide out."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Align the guide pin with one of the drive plate holes.",
+        "(b) Align two sleeves on the block with the converter housing.",
+        "(c) Temporarily install one bolt."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Bottom view of engine showing locations of four transmission housing mounting bolts and starter installation position",
+      "labels": [
+        "AT01/83"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. INSTALL TRANSMISSION HOUSING MOUNTING BOLTS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the starter.",
+        "(b) Install the four transmission housing mounting bolts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Transmission housing mounting bolts",
+      "value": "650 kg-cm (47 ft-lb, 64 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Tightening torque converter bolts with socket wrench, showing access through crankshaft rotation",
+      "labels": [
+        "AT07/89"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. INSTALL SIX TORQUE CONVERTER BOLTS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the guide pin.",
+        "(b) Install the six bolts finger tight. Turn the crankshaft to gain access.",
+        "(c) Tighten the bolts evenly."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Torque converter bolts",
+      "value": "280 kg-cm (20 ft-lb, 27 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSTALL ENGINE UNDER COVER"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "page_id": "AT-92",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "title": "(Upper Front Valve Body)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of upper front valve body showing all components and their assembly relationships",
+      "labels": [
+        "Cut-back Valve",
+        "Plug",
+        "Throttle Cam",
+        "Retainer",
+        "Throttle Valve",
+        "Retainer",
+        "Sleeve",
+        "Adjusting Ring",
+        "Pin",
+        "Down-shift Plug",
+        "Cover",
+        "Secondary Regulator Valve"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 3,
+        "width": 94,
+        "height": 47
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DISASSEMBLY OF UPPER FRONT VALVE BODY"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands removing throttle valve retainer from valve body",
+      "labels": [],
+      "bbox": {
+        "top": 57,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE THROTTLE VALVE RETAINER"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands removing cut-back plug retainer from valve body",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE CUT-BACK PLUG RETAINER"
+      ]
+    }
+  ]
+}

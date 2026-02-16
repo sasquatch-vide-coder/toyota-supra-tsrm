@@ -1,0 +1,68 @@
+{
+  "page_id": "Unknown",
+  "section_header": "Electronic Control Transmission - Charging",
+  "title": "Charging System Wiring Diagram",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Electrical wiring diagram showing the charging system circuit including alternator, charging pattern select switch, charge warning light, and connections to the engine and gauge. The diagram shows wire routing from various fuse connections through pattern select switch to the alternator with charge warning light circuit.",
+      "labels": [
+        "Charging",
+        "PATTERN SELECT SW",
+        "CHARGE",
+        "ENGINE",
+        "ALTERNATOR (With IC Regulator)",
+        "From 'GAUGE' Fuse (2.5B)",
+        "From 'GAUGE' Fuse (2.0L)",
+        "From 'GAUGE' Fuse (2.5B)",
+        "B",
+        "IG",
+        "L",
+        "S",
+        "E",
+        "D",
+        "F",
+        "YG",
+        "W-B",
+        "1",
+        "2",
+        "3",
+        "IG1",
+        "IG2",
+        "BAT1",
+        "BAT2",
+        "e",
+        "f",
+        "i",
+        "d"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 0,
+        "width": 100,
+        "height": 90
+      }
+    },
+    {
+      "type": "text",
+      "text": "e = Located on right side of air intake chamber",
+      "bbox": {
+        "top": 92,
+        "left": 5,
+        "width": 45,
+        "height": 3
+      }
+    },
+    {
+      "type": "text",
+      "text": "f = Located in back center near kick bay cylinder",
+      "bbox": {
+        "top": 92,
+        "left": 50,
+        "width": 45,
+        "height": 3
+      }
+    }
+  ]
+}

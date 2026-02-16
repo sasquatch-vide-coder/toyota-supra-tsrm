@@ -4,6 +4,41 @@ import TorqueSpec from "./TorqueSpec";
 import CautionNotice from "./CautionNotice";
 import ManualTable from "./ManualTable";
 
+function renderListItem(item: unknown): string {
+  if (typeof item === "string") return item;
+  if (typeof item !== "object" || item === null) return String(item);
+  const obj = item as Record<string, unknown>;
+  const parts: string[] = [];
+  if (obj.number) parts.push(String(obj.number));
+  if (obj.heading) parts.push(String(obj.heading));
+  if (obj.title) parts.push(String(obj.title));
+  if (obj.text) parts.push(String(obj.text));
+  if (obj.label) parts.push(String(obj.label));
+  if (obj.description) parts.push(String(obj.description));
+  if (obj.conclusion) parts.push(String(obj.conclusion));
+  if (Array.isArray(obj.steps)) {
+    for (const s of obj.steps) {
+      parts.push(typeof s === "string" ? s : renderListItem(s));
+    }
+  }
+  if (Array.isArray(obj.subitems)) {
+    for (const sub of obj.subitems) {
+      parts.push(renderListItem(sub));
+    }
+  }
+  if (Array.isArray(obj.content)) {
+    for (const c of obj.content) {
+      parts.push(renderListItem(c));
+    }
+  }
+  if (Array.isArray(obj.items)) {
+    for (const i of obj.items) {
+      parts.push(renderListItem(i));
+    }
+  }
+  return parts.join(" — ") || JSON.stringify(item);
+}
+
 function renderBlock(block: ManualContentBlock, model: string, section: string, page: number, idx: number) {
   switch (block.type) {
     case "text":
@@ -66,16 +101,16 @@ function renderBlock(block: ManualContentBlock, model: string, section: string, 
       if (block.ordered) {
         return (
           <ol key={idx} className="my-2 ml-6 list-decimal text-gray-800 space-y-1">
-            {block.items.map((item, i) => (
-              <li key={i}>{item}</li>
+            {block.items.map((item: unknown, i: number) => (
+              <li key={i}>{renderListItem(item)}</li>
             ))}
           </ol>
         );
       }
       return (
         <ul key={idx} className="my-2 ml-6 list-disc text-gray-800 space-y-1">
-          {block.items.map((item, i) => (
-            <li key={i}>{item}</li>
+          {block.items.map((item: unknown, i: number) => (
+            <li key={i}>{renderListItem(item)}</li>
           ))}
         </ul>
       );

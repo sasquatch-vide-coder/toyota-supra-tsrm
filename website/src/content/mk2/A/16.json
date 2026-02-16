@@ -1,0 +1,373 @@
+{
+  "page_id": "A-16",
+  "section_header": "SERVICE SPECIFICATIONS — Automatic Transmission",
+  "title": "AUTOMATIC TRANSMISSION Specifications",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Line pressure (wheel locked)",
+      "headers": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "Line pressure (wheel locked)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Engine idling",
+          "D range",
+          "3.7 — 4.1 kg/cm²",
+          "53 — 58 psi",
+          "363 — 402 kPa"
+        ],
+        [
+          "",
+          "R range",
+          "5.1 — 5.7 kg/cm²",
+          "73 — 81 psi",
+          "500 — 559 kPa"
+        ],
+        [
+          "at stall",
+          "D range",
+          "10.6 — 13.0 kg/cm²",
+          "151 — 185 psi",
+          "1,040 — 1,275 kPa"
+        ],
+        [
+          "(Throttle valve fully opened)",
+          "R range",
+          "14.3 — 19.0 kg/cm²",
+          "203 — 270 psi",
+          "1,402 — 1,863 kPa"
+        ],
+        [
+          "Engine stall revolution",
+          "",
+          "2,100 ± 150 rpm",
+          "",
+          ""
+        ],
+        [
+          "Time lag",
+          "N range → D range",
+          "Less than 1.2 seconds",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N range → R range",
+          "Less than 1.5 seconds",
+          "",
+          ""
+        ],
+        [
+          "Engine idling speed (A/C OFF)",
+          "N range",
+          "650 rpm",
+          "",
+          ""
+        ],
+        [
+          "Throttle cable adjustment",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Throttle valve fully opened",
+          "",
+          "Between boot end face and inner cable stopper",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "0 — 1 mm",
+          "0 — 0.04 in.",
+          ""
+        ],
+        [
+          "Torque converter installing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Drive plate runout",
+          "Limit",
+          "0.20 mm",
+          "0.0079 in.",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Shift point schedule",
+      "headers": [
+        "",
+        "",
+        "",
+        "Throttle valve fully open [ ] Fully closed",
+        "",
+        "",
+        "",
+        "km/h (mph)"
+      ],
+      "rows": [
+        [
+          "Shift point schedule",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "km/h (mph)",
+          "",
+          "",
+          "1—2",
+          "2—3",
+          "3—OD",
+          "[3—OD]",
+          "[OD—3]",
+          "OD—3",
+          "3—2",
+          "2—1"
+        ],
+        [
+          "D range",
+          "NORM",
+          "47—52",
+          "92—101",
+          "135—144",
+          "[36—40]",
+          "[26—30]",
+          "130—138",
+          "88—96",
+          "42—47"
+        ],
+        [
+          "",
+          "",
+          "(29—32)",
+          "(57—63)",
+          "(84—89)",
+          "[(22—25)]",
+          "[(16—19)]",
+          "(81—86)",
+          "(55—60)",
+          "(26—29)"
+        ],
+        [
+          "",
+          "PWR",
+          "52—57",
+          "105—114",
+          "152—161",
+          "[42—46]",
+          "[28—32]",
+          "146—155",
+          "101—109",
+          "42—47"
+        ],
+        [
+          "",
+          "",
+          "(32—36)",
+          "(65—71)",
+          "(94—100)",
+          "[(26—29)]",
+          "[(17—20)]",
+          "(91—96)",
+          "(63—68)",
+          "(26—29)"
+        ],
+        [
+          "2 range",
+          "NORM",
+          "47—52",
+          "112—121",
+          "—",
+          "—",
+          "—",
+          "102—110",
+          "42—47"
+        ],
+        [
+          "",
+          "",
+          "(29—32)",
+          "(70—75)",
+          "",
+          "",
+          "",
+          "(63—68)",
+          "(26—29)"
+        ],
+        [
+          "",
+          "PWR",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "L range",
+          "NORM",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "51—55"
+        ],
+        [
+          "",
+          "PWR",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "(32—34)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Lock-up point schedule",
+      "headers": [
+        "",
+        "",
+        "Throttle valve opening 5%",
+        "",
+        "",
+        "km/h (mph)"
+      ],
+      "rows": [
+        [
+          "Lock-up point schedule",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "km/h (mph)",
+          "",
+          "",
+          "Lock-up ON",
+          "",
+          "Lock-up OFF"
+        ],
+        [
+          "",
+          "",
+          "",
+          "2nd",
+          "3rd(+)",
+          "OD",
+          "2nd",
+          "3rd(+)",
+          "OD"
+        ],
+        [
+          "D range",
+          "NORM",
+          "—",
+          "53—58",
+          "53—58",
+          "—",
+          "49—54",
+          "49—54"
+        ],
+        [
+          "",
+          "",
+          "",
+          "(33—36)",
+          "(33—36)",
+          "",
+          "(30—34)",
+          "(30—34)"
+        ],
+        [
+          "",
+          "PWR",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2 range",
+          "NORM",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "",
+          "PWR",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "L range",
+          "NORM",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "",
+          "PWR",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(+) OD Switch OFF"
+    }
+  ]
+}

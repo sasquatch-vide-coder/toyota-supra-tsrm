@@ -1,0 +1,60 @@
+{
+  "page_id": "unknown",
+  "section_header": "HEADLIGHTS",
+  "title": "Headlights Wiring Diagram",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Complete headlight wiring diagram showing headlight assembly, relays, switches, and electrical connections. The diagram shows dual headlights (HEAD LH and HEAD RH) with associated retract relay, light retainer relay, switches (OFF, O, TAIL, HEAD), and various wire connections labeled with numbers and wire codes (B-Y, O-B, O-W, etc.). The diagram includes fusible links and connections to battery and junction blocks.",
+      "labels": [
+        "Headlights",
+        "HEAD LH",
+        "HEAD RH",
+        "LIGHT RETAINER RELAY",
+        "RETRACT RELAY",
+        "OFF",
+        "O",
+        "TAIL",
+        "HEAD",
+        "FLASH",
+        "PASS",
+        "HIGH",
+        "DIMMER S/W",
+        "LIGHT CONTROL S/W",
+        "B",
+        "A",
+        "D",
+        "B-Y",
+        "O-B",
+        "O-W"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 0,
+        "width": 100,
+        "height": 90
+      }
+    },
+    {
+      "type": "text",
+      "text": "c = Located in left front fender near battery",
+      "bbox": {
+        "top": 95,
+        "left": 5,
+        "width": 45,
+        "height": 3
+      }
+    },
+    {
+      "type": "text",
+      "text": "d = Located in left front fender apron near junction block No. 3",
+      "bbox": {
+        "top": 95,
+        "left": 55,
+        "width": 45,
+        "height": 3
+      }
+    }
+  ]
+}

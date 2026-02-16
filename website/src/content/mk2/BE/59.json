@@ -1,0 +1,203 @@
+{
+  "page_id": "8E-59",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "Fuel Gauge",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF FUEL GAUGE"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "heading": "INSPECT RECEIVER GAUGE OPERATION",
+          "text": "Disconnect the connector from the fuel sender gauge."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing fuel sender gauge with FV terminal connected to voltmeter measuring voltage between FV terminal and body ground",
+      "labels": [
+        "FV",
+        "Fuel Sender Gauge"
+      ],
+      "bbox": {
+        "top": 16,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "2.",
+          "heading": "INSPECT POWER SOURCE LINE TO CONNECTOR",
+          "text": "Inspect the power source line between terminal FV and body ground of the sender gauge connector.",
+          "specs": "Voltage: 4.0 – 6.0V"
+        }
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Never short circuit terminal FV."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing fuel sender gauge with FR terminal connected to voltmeter measuring output signal voltage between FR terminal and body ground",
+      "labels": [
+        "FR",
+        "Fuel Sender Gauge"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "3.",
+          "heading": "INSPECT OUTPUT SIGNAL VOLTAGE",
+          "text": "Inspect the output signal voltage between terminal FR and body ground of the sender gauge connector."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Voltage",
+        "Fuel Level"
+      ],
+      "rows": [
+        [
+          "4.4 – 4.8V",
+          "at F level"
+        ],
+        [
+          "3.27V",
+          "at 1/2 level"
+        ],
+        [
+          "2.3 – 2.7V",
+          "at 1/4 level"
+        ],
+        [
+          "0.3 – 0.5V",
+          "at E level"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Technical diagram showing internal components and dimensions of fuel sender gauge with labeled terminals FR, FV, and E, including various measurement points",
+      "labels": [
+        "FR",
+        "FV",
+        "E",
+        "1/2 to 3/4 level float arm angle 34.5° (1.2 in.)",
+        "1/4 to 1/2 level float arm angle 60° (2.4 in.)",
+        "E to 1/4 level 83.0 mm (3.3 in.)",
+        "20.7 mm (0.81 in.)",
+        "52.3 mm (2.1 in.)"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 2,
+        "width": 38,
+        "height": 22
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "4.",
+          "heading": "INSPECT SENDER GAUGE OPERATION",
+          "text": "Inspect the resistance between terminals FR and E."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Resistance specifications at different float positions",
+      "headers": [
+        "Resistance",
+        "Float Position"
+      ],
+      "rows": [
+        [
+          "270 – 310 Ω",
+          "212 mm (8.35 in.)"
+        ],
+        [
+          "186 – 226 Ω",
+          "162.3 – 168.3 mm (6.390 – 6.626 in.)"
+        ],
+        [
+          "140 – 180 Ω",
+          "83.0 mm (3.3 in.) – 5.280 in.)"
+        ],
+        [
+          "17 – 33 Ω",
+          "5.8 – 11.8 mm (0.228 – 0.465 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Water Temperature Gauge"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF WATER TEMPERATURE GAUGE"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing water temperature gauge indicator with H (Hot) at top and C (Cold) at bottom, with a schematic of the temperature sensor",
+      "labels": [
+        "H",
+        "C"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 2,
+        "width": 38,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "heading": "INSPECT RECEIVER GAUGE OPERATION",
+          "substeps": [
+            "(a) Warm up the engine.",
+            "(b) Disconnect the connector from the sender gauge.",
+            "(c) Check that the indicator segment is at the lowest (dimmest) point with the ignition switch at ON position."
+          ]
+        }
+      ]
+    }
+  ]
+}

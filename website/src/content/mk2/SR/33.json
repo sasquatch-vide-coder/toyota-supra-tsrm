@@ -1,0 +1,153 @@
+{
+  "page_id": "SR-33",
+  "section_header": "STEERING — Power Steering",
+  "title": "TEFLON RING FOR CONTROL VALVE / OIL SEAL AND BEARING FOR VALVE CAP",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands removing teflon rings from control valve",
+      "labels": [],
+      "bbox": {
+        "top": 2,
+        "left": 1,
+        "width": 48,
+        "height": 20
+      },
+      "diagram_id": "87391"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. TEFLON RING FOR CONTROL VALVE"
+    },
+    {
+      "type": "text",
+      "text": "(a) Remove the teflon rings."
+    },
+    {
+      "type": "caution",
+      "text": "Be careful not to damage the control valve."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installing new teflon ring to SST and control valve",
+      "labels": [
+        "SST",
+        "SST"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 1,
+        "width": 48,
+        "height": 19
+      },
+      "diagram_id": "ZV647-95M02"
+    },
+    {
+      "type": "text",
+      "text": "(b) Install a new teflon ring to SST and install it to the control valve."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09630-24013 (09631-24020)",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "(c) Coat the teflon ring with power steering fluid and snug it down with your fingers."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Sliding tapered end of SST over teflon ring to seat the ring",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      },
+      "diagram_id": "9P0081"
+    },
+    {
+      "type": "text",
+      "text": "(d) Carefully slide the tapered end of the SST over the teflon ring to seat the ring."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09630-24013 (09631-24030)",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Using SST to press out oil seal and bearing from valve cap",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 1,
+        "width": 48,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. OIL SEAL AND BEARING FOR VALVE CAP"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using SST, press out the oil seal and bearing from the valve cap."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09620-30010 (09631-00020)",
+      "description": ""
+    },
+    {
+      "type": "part_number",
+      "label": "",
+      "number": "09630-24013 (09620-24010)",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Using SST to press oil seal into valve cap",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 79,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Using SST, press the oil seal into the valve cap."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09620-30010 (09631-00020)",
+      "description": ""
+    },
+    {
+      "type": "part_number",
+      "label": "",
+      "number": "09630-24013 (09620-24020)",
+      "description": ""
+    }
+  ]
+}

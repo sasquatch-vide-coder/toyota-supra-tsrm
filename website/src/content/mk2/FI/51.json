@@ -1,0 +1,115 @@
+{
+  "page_id": "FI-51",
+  "section_header": "EFI SYSTEM — Fuel System",
+  "title": "INSTALLATION OF COLD START INJECTOR",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF COLD START INJECTOR"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the installation of cold start injector onto the engine block with gasket placement",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 40,
+        "height": 23
+      },
+      "figure_number": "FJ0168"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL COLD START INJECTOR\nPlace the new gasket and install the cold start injector and two bolts.",
+        "INSTALL AIR INTAKE CHAMBER",
+        "CONNECT COLD START FUEL HOSE TO DELIVERY PIPE"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the air intake chamber assembly and vacuum pipe installation",
+      "labels": [],
+      "bbox": {
+        "top": 27,
+        "left": 3,
+        "width": 40,
+        "height": 29
+      },
+      "figure_number": "EM1424"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 4,
+      "items": [
+        "TIGHTEN EGR PIPE CONNECTING NUT",
+        "INSTALL VACUUM PIPE SUBASSEMBLY",
+        "INSTALL AIR INTAKE CHAMBER STAY"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Detailed illustration showing wire and sensor connections on the throttle body assembly",
+      "labels": [],
+      "bbox": {
+        "top": 57,
+        "left": 3,
+        "width": 40,
+        "height": 22
+      },
+      "figure_number": "FJ0167"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 7,
+      "items": [
+        "CONNECT FOLLOWING WIRES:\n(a) VSV wire connector\n(b) Two ISV valve connectors\n(c) Throttle position sensor wire\n(d) Cold start injector wire",
+        "CONNECT ACCELERATOR LINKAGE AND CABLE FROM THROTTLE BODY"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing various hose connections to the throttle body and air intake chamber",
+      "labels": [],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 40,
+        "height": 22
+      },
+      "figure_number": "FJ0671"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 9,
+      "items": [
+        "CONNECT FOLLOWING HOSES:\n(a) Connect the emission control hoses to the throttle body and air intake chamber, etc.\n(b) Actuator vacuum hose to the air intake chamber\n(c) Brake booster vacuum hose to the air intake chamber\n(d) PCV hose to the throttle body\n(e) Air valve hose to the ISC valve body\n(f) No. 1 water by-pass hose to the ISC valve body\n(g) No. 2 water by-pass hose to the throttle body",
+        "INSTALL AIR INTAKE CONNECTOR",
+        "FILL WITH COOLANT"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing the air intake connector installation",
+      "labels": [],
+      "bbox": {
+        "top": 104,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      },
+      "figure_number": "EM1433"
+    }
+  ]
+}

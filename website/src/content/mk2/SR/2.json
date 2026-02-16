@@ -1,0 +1,101 @@
+{
+  "page_id": "SR-2",
+  "section_header": "STEERING — Precautions, Troubleshooting, On-Vehicle Inspection",
+  "title": null,
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "type": "text",
+      "text": "Care must be taken to replace parts properly because they could affect the performance of the steering system and result in a driving hazard."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "TROUBLESHOOTING"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Hard steering",
+          "Tires improperly inflated\nPower steering belt loose\nOil level in reservoir low\nInsufficient lubricant\n\nExcessive caster\nLower arm ball joints worn\nPower steering unit faulty",
+          "Inflate tires to proper pressure\nTighten belt\nCheck reservoir\nLubricate suspension and steering linkage\n\nCheck front end alignment\nReplace lower arm ball joints\nCheck power steering unit",
+          "FA-3\nSR-26\nSR-13\n\n\nFA-3\nFA-15\nSR-13"
+        ],
+        [
+          "Poor return",
+          "Tires improperly inflated\nInsufficient lubricant\n\nWheel alignment incorrect",
+          "Inflate tires to proper pressure\nLubricate suspension and steering linkage\nCheck front end alignment",
+          "FA-3\n\n\nFA-3"
+        ],
+        [
+          "Excessive play",
+          "Steering gear loose\nMain shaft worn\nLower arm ball joints worn",
+          "Tighten gear bolts\nReplace main shaft\nReplace lower arm ball joints",
+          "\nSR-5\nFA-15"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. CHECK THAT STEERING WHEEL FREEPLAY IS CORRECT"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing steering wheel with arrows indicating freeplay movement and maximum play measurement of 30 mm",
+      "labels": [
+        "Freeplay",
+        "Maximum 30 mm"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 4,
+        "width": 37,
+        "height": 25
+      }
+    },
+    {
+      "type": "text",
+      "text": "With the vehicle stopped and pointed straight ahead, rock the steering wheel gently back and forth with light finger pressure. Freeplay should not exceed the maximum limit."
+    },
+    {
+      "type": "text",
+      "text": "Maximum play: 30 mm (1.18 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If incorrect, repair as required."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CHECK STEERING LINKAGE AND GEAR HOUSING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check the steering linkage for looseness or damage. Check that:\n\n• Tie rod ends do not have excessive play.\n\n• Boots are not damaged.\n\n• Boot clamps are not loose.",
+        "(b) Check the gear housing for grease leakage or oozing."
+      ]
+    }
+  ]
+}

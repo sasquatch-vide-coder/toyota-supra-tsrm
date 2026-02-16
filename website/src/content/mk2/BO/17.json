@@ -1,0 +1,148 @@
+{
+  "page_id": "BO-17",
+  "section_header": "BODY — Moulding",
+  "title": "REMOVAL OF QUARTER BELT MOULDING / INSTALLATION OF QUARTER BELT MOULDING / REMOVAL OF QUARTER CORNER MOULDING",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF QUARTER BELT MOULDING"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "APPLY ADHESIVE TAPE TO PROTECT BODY",
+        "REMOVE BELT MOULDING"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand using scraper tool to pry loose clips on quarter belt moulding near window",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Insert the scraper and pry loose the clips facing rearward."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hands pulling quarter belt moulding forward to remove it from vehicle",
+      "labels": [],
+      "bbox": {
+        "top": 19,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Pull the moulding forward and remove it."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF QUARTER BELT MOULDING"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL CLIPS ONTO STUDS"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Clip being installed onto body stud, with detail view of clip shown separately below",
+      "labels": [],
+      "bbox": {
+        "top": 36,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "text",
+      "text": "Install the clips onto the studs."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        "INSTALL BELT MOULDING"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hands installing quarter belt moulding by attaching upper edge to clips and pushing lower edge into place",
+      "labels": [],
+      "bbox": {
+        "top": 52,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Attach the upper edge of the moulding to the clips.",
+        "(b) Fit the lower edge of the moulding by pushing with your hands.",
+        "(c) Connect the belt moulding to the corner joint by sliding it rearward."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF QUARTER CORNER MOULDING"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE QUARTER TRIM AND GARNISH",
+        "REMOVE CORNER MOULDING"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Hand using screwdriver to remove set screw from quarter corner moulding",
+      "labels": [],
+      "bbox": {
+        "top": 68,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the set screw.",
+        "(b) Remove the moulding."
+      ]
+    }
+  ]
+}

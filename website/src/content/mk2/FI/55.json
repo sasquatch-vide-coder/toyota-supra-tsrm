@@ -1,0 +1,153 @@
+{
+  "page_id": "FI-55",
+  "section_header": "EFI SYSTEM — Fuel system",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Fuel injector testing setup showing SST (special service tool) connected to pressure regulator, fuel filter, battery, injector, vinyl hose, and graduated cylinder",
+      "labels": [
+        "Pressure Regulator",
+        "SST",
+        "Fuel Filter",
+        "SST",
+        "Battery",
+        "Injector",
+        "Vinyl Hose",
+        "Graduated Cylinder"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 45,
+        "height": 22
+      },
+      "diagram_number": "FI1002"
+    },
+    {
+      "type": "text",
+      "text": "(h) Connect the SST to the battery for 15 seconds and measure the injection volume with a graduated cylinder.\nTest each injector two or three times. If not within specified volume, clean or replace."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09842-30020",
+      "description": null
+    },
+    {
+      "type": "text",
+      "text": "Volume: 40 — 50 cc/15 sec. (2.4 — 3.1 cu in.)\nDifference between each injector: Less than 6 cc (0.37 cu in.)"
+    },
+    {
+      "type": "notice",
+      "text": "If not within specified volume, clean or replace the injector."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Alternative fuel injector testing setup showing pressure regulator, SST, battery, and suitable container",
+      "labels": [
+        "Pressure Regulator",
+        "SST",
+        "SST",
+        "Battery",
+        "Suitable Container"
+      ],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 45,
+        "height": 19
+      },
+      "diagram_number": "FI1008"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALL OF INJECTORS"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL INJECTORS INTO DELIVERY PIPE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the grommet and a new O-ring to the injector."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Exploded view of fuel injector assembly showing O-ring and grommet components",
+      "labels": [
+        "O-Ring",
+        "Grommet"
+      ],
+      "bbox": {
+        "top": 50,
+        "left": 3,
+        "width": 45,
+        "height": 14
+      },
+      "diagram_number": "FI0222"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Apply a thin coat of gasoline to the O-rings and install the injectors into the delivery pipe."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing correct and wrong orientation of injector installation into delivery pipe with O-ring and grommet",
+      "labels": [
+        "O-Ring",
+        "Delivery Pipe",
+        "CORRECT",
+        "Injector",
+        "Grommet",
+        "WRONG"
+      ],
+      "bbox": {
+        "top": 66,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      },
+      "diagram_number": "FI0029"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL DELIVERY PIPE WITH INJECTORS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the six insulators into the injector hole of the intake manifold."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Top view of intake manifold showing six insulator positions in injector holes",
+      "labels": [
+        "Insulator"
+      ],
+      "bbox": {
+        "top": 86,
+        "left": 3,
+        "width": 45,
+        "height": 14
+      },
+      "diagram_number": "FI1283"
+    }
+  ]
+}

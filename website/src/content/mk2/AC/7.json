@@ -1,0 +1,97 @@
+{
+  "page_id": "AC-7",
+  "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting",
+  "title": "AIR CONDITIONING SYSTEM — Troubleshooting",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Gauge set showing pressure readings at both low and high pressure sides with LO and HI gauges and three valves at bottom",
+      "labels": [
+        "LO",
+        "HI",
+        "AC0155"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. AIR PRESENT IN REFRIGERATION SYSTEM"
+    },
+    {
+      "type": "text",
+      "text": "Condition: Does not cool down sufficiently"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: These gauge indications are shown when the refrigeration system has been recharged with refrigerant charged without vacuum purging."
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Symptom seen in refrigeration system",
+        "Probable cause",
+        "Diagnosis",
+        "Remedy"
+      ],
+      "rows": [
+        [
+          "Pressure too high at both low and high pressure sides",
+          "Air entered in refrigeration system",
+          "Air present in refrigeration system\n↓\nInsufficient vacuum purging",
+          "(1) Replace receiver and drier\n(2) Check compressor oil to see if dirty or insufficient\n(3) Vacuum purge and charge new refrigerant"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Gauge set showing vacuum on low pressure side and very low pressure on high pressure side with LO and HI gauges and three valves at bottom",
+      "labels": [
+        "LO",
+        "HI",
+        "AC0156"
+      ],
+      "bbox": {
+        "top": 47,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. REFRIGERANT DOES NOT CIRCULATE"
+    },
+    {
+      "type": "text",
+      "text": "Condition: Does not cool (Cools from time to time in some cases)"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Symptom seen in refrigeration system",
+        "Probable cause",
+        "Diagnosis",
+        "Remedy"
+      ],
+      "rows": [
+        [
+          "Vacuum indicated at both pressure side, very low pressure indicated at high pressure side\n↓\nFrost or dew seen on piping before and after receiver and drier or expansion valve",
+          "Refrigerant flow obstructed by moisture or dirt in receiver/drier unit or on adhering to expansion valve screen\n↓\nRefrigerant flow obstructed by gas leakage from expansion valve heat sensing tube",
+          "Expansion valve orifice clogged\n↓\nRefrigerant does not flow",
+          "Allow to stand for some time and then restart operation to determine if trouble is caused by moisture or dirt\n↓\nIf caused by moisture refer to step 2 on page AC-4\n↓\nIf caused by dirt, remove expansion valve and clean off dirt by blowing with air. If unable to remove dirt, replace valve\n↓\nVacuum purge and charge with refrigerant to proper amount\n↓\nRemove leakage from heat sensing tube, replace expansion valve"
+        ]
+      ]
+    }
+  ]
+}

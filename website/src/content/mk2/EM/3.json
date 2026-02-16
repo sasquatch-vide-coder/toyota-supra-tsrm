@@ -1,0 +1,169 @@
+{
+  "page_id": "EM-3",
+  "section_header": "ENGINE MECHANICAL — Troubleshooting",
+  "title": "TROUBLESHOOTING (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": "TROUBLESHOOTING (Cont'd)",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Engine hesitates/\nPoor acceleration",
+          "Vacuum leaks\n• PCV hoses\n• EGR valve\n• Intake manifold\n• Air intake chamber\n• Throttle body\n• ISC valve",
+          "Repair as necessary",
+          ""
+        ],
+        [
+          "",
+          "Pulling in air between air flow meter and throttle body",
+          "Repair as necessary",
+          "FI-58, 63"
+        ],
+        [
+          "",
+          "Incorrect ignition timing",
+          "Reset timing",
+          "IG-10"
+        ],
+        [
+          "",
+          "Emission control system problem (cold engine)\n• EGR system always on",
+          "Check EGR system",
+          ""
+        ],
+        [
+          "",
+          "Ignition wiring faulty",
+          "Inspect wiring",
+          ""
+        ],
+        [
+          "",
+          "Fuel system clogged",
+          "Check fuel system",
+          "FI-44"
+        ],
+        [
+          "",
+          "Air cleaner clogged",
+          "Check air cleaner",
+          ""
+        ],
+        [
+          "",
+          "Air system problems",
+          "Repair as necessary",
+          ""
+        ],
+        [
+          "",
+          "Spark plugs faulty",
+          "Inspect plugs",
+          "IG-5"
+        ],
+        [
+          "",
+          "Engine overheats",
+          "Check cooling system",
+          "CO-2"
+        ],
+        [
+          "",
+          "Low compression",
+          "Check compression",
+          "EM-6"
+        ],
+        [
+          "Engine diesels\n(runs after ignition switch is turned off)",
+          "EFI system problems",
+          "Repair as necessary",
+          ""
+        ],
+        [
+          "Muffler explosion\n(after fire) on deceleration only",
+          "Deceleration fuel cut system always off",
+          "Check EFI (fuel cut) system",
+          "FI-79"
+        ],
+        [
+          "Muffler explosion\n(after fire) all the time",
+          "Air cleaner clogged",
+          "Check air cleaner",
+          ""
+        ],
+        [
+          "",
+          "EFI system problem",
+          "Repair as necessary",
+          ""
+        ],
+        [
+          "",
+          "Incorrect ignition timing",
+          "Reset timing",
+          "IG-10"
+        ],
+        [
+          "Engine backfires",
+          "Vacuum leak\n• PCV hoses\n• EGR valve\n• Intake manifold\n• Air intake chamber\n• Throttle body\n• ISC valve",
+          "Check hoses and repair as necessary",
+          ""
+        ],
+        [
+          "",
+          "Pulling in air between air flow meter and throttle body",
+          "Repair as necessary",
+          "FI-58, 63"
+        ],
+        [
+          "",
+          "EFI system problem",
+          "Repair as necessary",
+          ""
+        ],
+        [
+          "",
+          "Insufficient fuel flow",
+          "Troubleshoot fuel system",
+          ""
+        ],
+        [
+          "",
+          "Incorrect ignition timing",
+          "Reset timing",
+          "IG-10"
+        ],
+        [
+          "",
+          "Carbon deposits in combustion chambers",
+          "Inspect cylinder head",
+          "EM-18"
+        ],
+        [
+          "Excessive oil consumption",
+          "Oil leak",
+          "Repair as necessary",
+          "LU-4"
+        ],
+        [
+          "",
+          "PCV line clogged",
+          "Check PCV system",
+          "EC-4"
+        ],
+        [
+          "",
+          "Piston rings worn or damaged",
+          "Check rings",
+          "EM-38"
+        ]
+      ]
+    }
+  ]
+}

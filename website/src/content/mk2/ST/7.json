@@ -1,0 +1,156 @@
+{
+  "page_id": "ST-7",
+  "section_header": "STARTING SYSTEM — Starter",
+  "title": "STARTING SYSTEM — Starter",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bearings"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands checking bearings by turning them while applying inward force",
+      "labels": [
+        "ST0021 ST0041"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CHECK BEARINGS\nTurn each bearing by hand while applying inward force. If resistance is felt or if the bearing sticks, replace the bearing."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of bearing using SST tool",
+      "labels": [
+        "ST0052"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        "IF NECESSARY, REPLACE BEARINGS"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, remove the bearing from the armature shaft.",
+        "(b) Using SST, remove the other bearing from the opposite side."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09286-46011",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing SST tool and press being used to install bearings onto shaft",
+      "labels": [
+        "SST",
+        "ST0271 ST0051"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Using SST and press, tap the front bearing onto the shaft."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09201-41020",
+      "description": ""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Using a press, install the rear bearing onto the shaft."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Magnetic Switch"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing ohmmeter testing between Terminal 50 and Terminal C on magnetic switch",
+      "labels": [
+        "Terminal 50",
+        "Terminal C",
+        "ST0023"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "PERFORM PULL-IN COIL OPEN CIRCUIT TEST\nUsing an ohmmeter, check for continuity between terminal 50 and the terminal C.\nIf there is no continuity, replace the magnetic switch."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing ohmmeter testing between Terminal 50 and Switch Body on magnetic switch",
+      "labels": [
+        "Switch Body",
+        "Terminal 50",
+        "ST0024"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        "PERFORM HOLD-IN COIL OPEN CIRCUIT TEST\nUsing an ohmmeter, check for continuity between terminal 50 and switch body.\nIf there is no continuity, replace the magnetic switch."
+      ]
+    }
+  ]
+}

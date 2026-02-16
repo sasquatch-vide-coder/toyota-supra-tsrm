@@ -1,0 +1,217 @@
+{
+  "page_id": "BE-67",
+  "section_header": "BODY ELECTRICAL SYSTEM — Door Lock Control System",
+  "title": "DOOR LOCK CONTROL SYSTEM",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DOOR LOCK CONTROL SYSTEM"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Door Lock Control Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF DOOR LOCK CONTROL SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Door lock control switch terminal diagram showing 8-pin connector with pins numbered 1-8 in two rows",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "GA-82-A"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 45,
+        "height": 15
+      }
+    },
+    {
+      "type": "table",
+      "caption": "Switch continuity table",
+      "headers": [
+        "Switch position",
+        "Terminal",
+        "8",
+        "6",
+        "4"
+      ],
+      "rows": [
+        [
+          "LOCK",
+          "",
+          "○—",
+          "—○",
+          ""
+        ],
+        [
+          "OFF",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "UNLOCK",
+          "",
+          "",
+          "○—",
+          "—○"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Key Unlock Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF KEY UNLOCK SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT SWITCH OPERATION"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Key unlock switch diagram showing door handle assembly with key cylinder and continuity tester connection points labeled 1 and 2",
+      "labels": [
+        "1",
+        "2",
+        "BE4433"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 2,
+        "width": 45,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that there is continuity between terminals when the switch pin is pushed.",
+        "(b) Check that there is no continuity between terminals when the switch is free."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Door Lock Relay"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF DOOR LOCK RELAY"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. INSPECT RELAY CONTINUITY"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Door lock relay terminal diagram showing 6-pin relay connector with continuity tester attached",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "Continuity",
+        "BE4089"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that there is continuity between terminals 2, 3 and 4.",
+        "(b) Check that there is no continuity between terminals 1, 2 and 6."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the relay."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. INSPECT RELAY OPERATION"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Door lock relay operation test diagram showing battery connections to relay terminals with positive lead to terminal 2 and negative lead to terminals 3 and 4",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "Continuity",
+        "BE4090"
+      ],
+      "bbox": {
+        "top": 74,
+        "left": 2,
+        "width": 45,
+        "height": 21
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the positive (+) lead from the battery to terminal 2. Connect the negative (–) lead to terminals 3 and 4.",
+        "(b) Check that there is continuity between terminals 1 and 4.",
+        "(c) Check that there is continuity between terminals 3 and 6."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If there is no continuity, replace the relay."
+    }
+  ]
+}

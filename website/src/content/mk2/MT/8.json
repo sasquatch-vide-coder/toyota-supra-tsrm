@@ -1,0 +1,141 @@
+{
+  "page_id": "MT-8",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "MANUAL TRANSMISSION — W58 Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view of W58 transmission assembly showing internal components and housing",
+      "labels": [],
+      "diagram_id": "W&M019 W580016",
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. MOUNT INTERMEDIATE PLATE IN VISE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Use two long clutch housing bolts, plate washers and suitable nuts as shown."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Install the plate washers in reverse of normal. Increase or decrease plate washers so that the bolt tip and the front tip surface of the nut are aligned."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Mount the intermediate plate in a vise."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of four plugs using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "diagram_id": "W00016",
+      "bbox": {
+        "top": 30,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. REMOVE LOCKING BALL AND SPRING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, remove the four plugs."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09313-30021",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of springs and balls using magnetic finger",
+      "labels": [],
+      "diagram_id": "W00017",
+      "bbox": {
+        "top": 49,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Using a magnetic finger, remove the three springs and balls."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of shift fork set bolts",
+      "labels": [],
+      "diagram_id": "W00037",
+      "bbox": {
+        "top": 68,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. REMOVE SHIFT FORKS, SHIFT FORK SHAFTS AND REVERSE IDLER GEAR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Pry out the lock washers of No. 1 and No. 2 shift fork, and remove the two set bolts."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing use of screwdrivers and hammer to tap out snap rings",
+      "labels": [],
+      "diagram_id": "W&M010",
+      "bbox": {
+        "top": 87,
+        "left": 3,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Using two screwdrivers and a hammer, tap out the two snap rings of No. 1 and No. 2 fork shafts."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "page_id": "BE-83",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Main Switch, Control Switch, Clutch Switch, Neutral Start Switch, Parking Brake Switch, Speed Sensor",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Main switch connector diagram showing 6-pin configuration in 2 rows: pins 1,2,3 in top row and pins 4,5,6 in bottom row",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "F41A"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Main Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF MAIN SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "table",
+      "caption": "Switch Terminal continuity",
+      "headers": [
+        "Switch position",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "rows": [
+        [
+          "OFF",
+          "",
+          "",
+          "○—",
+          "",
+          "—○"
+        ],
+        [
+          "ON",
+          "○—",
+          "—○",
+          "○",
+          "",
+          "—○"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Control switch connector diagram showing multi-pin connector with terminals labeled: 19,18,22,21,20,8,18,18,13,12,11,10,8,7",
+      "labels": [
+        "30",
+        "29",
+        "28",
+        "BG211"
+      ],
+      "bbox": {
+        "top": 20,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Control Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF CONTROL SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "text",
+      "text": "Inspect the switch continuity between terminals."
+    },
+    {
+      "type": "table",
+      "caption": "Control switch continuity",
+      "headers": [
+        "Switch position",
+        "Terminal",
+        "28 SR",
+        "30 SS",
+        "14 EW"
+      ],
+      "rows": [
+        [
+          "SET/COAST",
+          "",
+          "",
+          "○—",
+          "—○"
+        ],
+        [
+          "OFF",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ACCEL/RESUME",
+          "",
+          "○—",
+          "",
+          "—○"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Clutch switch connector diagram showing 3-pin connector with terminals 1, 2, and 3",
+      "labels": [
+        "1",
+        "3",
+        "2",
+        "H-32"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 2,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Clutch Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF CLUTCH SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that there is continuity between terminals 2 and 3 with the clutch pedal depressed.",
+        "(b) Check that there is no continuity between terminals 2 and 3 with the clutch pedal returned."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Neutral Start Switch"
+    },
+    {
+      "type": "text",
+      "text": "(See page AT-104)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Parking Brake Switch"
+    },
+    {
+      "type": "text",
+      "text": "(See step 3 on page BE-30)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Analog meter diagram showing circular gauge with terminals labeled C-6 and C-7",
+      "labels": [
+        "Analog Meter",
+        "C-6",
+        "C-7"
+      ],
+      "bbox": {
+        "top": 68,
+        "left": 2,
+        "width": 38,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Speed Sensor"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF SPEED SENSOR"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSPECT SENSOR CONTINUITY (ANALOG METER)\nCheck that there is continuity between terminals C-6 and C-7 four times per each revolution of the shaft.\nIf continuity is not as specified, replace the sensor.",
+        "INSPECT SENSOR CONTINUITY (DIGITAL METER)\n(See page BE-42)"
+      ]
+    }
+  ]
+}

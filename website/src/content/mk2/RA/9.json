@@ -1,0 +1,175 @@
+{
+  "page_id": "RA-9",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft",
+  "title": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "10. INSTALL NEW OUTER BEARING AND NEW OUTER OIL SEAL"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the bearing."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cross-section diagram showing outer bearing installation with grease application points",
+      "labels": [
+        "Grease"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Cross-section diagram showing oil seal installation with SST tool positioned 6.0mm from edge",
+      "labels": [
+        "6.0 mm",
+        "SST"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Using SST, drive in a new oil seal to a depth of 6.0 mm [0.236 in.]."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09950-22011 (09550-00020, 09550-00050)",
+      "description": ""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Apply MP grease No. 2 to lips of oil seal."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF REAR AXLE SHAFT"
+    },
+    {
+      "type": "text",
+      "text": "(See page RA-5)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL REAR AXLE SHAFT AND FLANGE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the rear axle shaft into the housing.",
+        "(b) Install the flange with plate washer."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Before assembly, apply a thin coat of grease to the flange."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Exploded view showing rear axle shaft assembly with plate washer and flange components",
+      "labels": [
+        "Plate Washer"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) When installing the axle shaft and flange, use SST and tighten to the point where the flange and shaft deflector tip are aligned."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09557-22022",
+      "description": ""
+    },
+    {
+      "type": "notice",
+      "text": "Do not allow grease to get on the shaft threads."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installation diagram showing SST tool holding shaft while turning to tighten",
+      "labels": [
+        "Turn",
+        "Hold",
+        "SST"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. ADJUST PRELOAD"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the new axle shaft flange nut.",
+        "(b) Using a bar to hold the shaft, tighten and torque the nut."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Axle shaft flange nut",
+      "value": "400 kg-cm (29 ft-lb, 39 N·m)"
+    },
+    {
+      "type": "notice",
+      "text": "Check that the rear axle shaft has axial play."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing use of bar to hold shaft while tightening nut",
+      "labels": [],
+      "bbox": {
+        "top": 81,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    }
+  ]
+}

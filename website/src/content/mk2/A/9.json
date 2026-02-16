@@ -1,0 +1,107 @@
+{
+  "page_id": "A-9",
+  "section_header": "SERVICE SPECIFICATIONS — EFI System",
+  "title": "Specifications (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Specifications (Cont'd)",
+      "headers": [
+        "Terminals",
+        "Resistance (Ω)",
+        "Condition"
+      ],
+      "rows": [
+        [
+          "IDL — E₂",
+          "∞",
+          "Throttle valve open"
+        ],
+        [
+          "",
+          "0 — 100",
+          "Throttle valve fully closed"
+        ],
+        [
+          "VTA — E₂",
+          "3,300 — 10,000",
+          "Throttle valve fully opened"
+        ],
+        [
+          "",
+          "200 — 800",
+          "Throttle valve fully closed"
+        ],
+        [
+          "Vc — E₂",
+          "3,000 — 7,000",
+          "Disconnect air flow meter connector"
+        ],
+        [
+          "",
+          "200 — 400",
+          "Disconnect throttle position sensor connector"
+        ],
+        [
+          "Vs — E₁",
+          "20 — 400",
+          "Measuring plate fully closed"
+        ],
+        [
+          "",
+          "20 — 1,000",
+          "Measuring plate fully open"
+        ],
+        [
+          "THA — E₂",
+          "2,000 — 3,000",
+          "Intake air temperature 20°C (68°F)"
+        ],
+        [
+          "G — G⊖",
+          "—",
+          "—"
+        ],
+        [
+          "Ne — G⊖",
+          "140 — 180",
+          "—"
+        ],
+        [
+          "ISC₁, ISC₂, ISC₃, ISC₄ — +B",
+          "10 — 30",
+          "—"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Torque Specifications"
+    },
+    {
+      "type": "table",
+      "caption": "Torque Specifications",
+      "headers": [
+        "Part tightened",
+        "kg-cm",
+        "ft-lb",
+        "N·m"
+      ],
+      "rows": [
+        [
+          "Fuel tank and line",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Fuel tank band × Fuel tank bracket",
+          "220",
+          "16",
+          "22"
+        ]
+      ]
+    }
+  ]
+}

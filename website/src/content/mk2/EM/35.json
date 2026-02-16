@@ -1,0 +1,164 @@
+{
+  "page_id": "EM-35",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of power steering pump onto bracket, showing PS pump, pulley, and drive belt assembly",
+      "labels": [
+        "EM070"
+      ],
+      "bbox": {
+        "top": 2,
+        "left": 2,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. INSTALL POWER STEERING PUMP ONTO BRACKET"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the PS pump and stay.",
+        "(b) Install the PS pump pulley with the drive belt.",
+        "(c) Adjust the belt tension by prying until the specified belt tension is obtained. (See page MA-8)",
+        "(e) Tighten the idler pulley nut and adjusting bolt."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installation of intake manifold onto cylinder head with bolts and nuts",
+      "labels": [
+        "EM168"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 2,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. INSTALL INTAKE MANIFOLD"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Position a new gasket on the cylinder head.",
+        "(b) Install the intake manifold with eight bolts and two nuts. Torque the bolts and nuts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Intake manifold bolts and nuts",
+      "value": "180 kg-cm (13 ft-lb, 18 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. CONNECT EFI WIRE HARNESS TO ECU"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installation of water outlet housing with water by-pass hose and clamp",
+      "labels": [
+        "EM136"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 2,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSTALL WATER OUTLET HOUSING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the water outlet housing with two bolts.",
+        "(b) Connect the water by-pass hose and tighten the clamp."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. INSTALL NO. 1 FUEL PIPE AND PULSATION DAMPER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Finger tighten the pulsation damper and union bolt with new gaskets on the fuel pipe.",
+        "(b) Tighten the fuel pipe, being careful not to bend it."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installation of air intake chamber onto intake manifold with bolts, nuts, and EGR valve connecting pipe",
+      "labels": [
+        "EM143"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 2,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. INSTALL AIR INTAKE CHAMBER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Position a new gasket on the intake manifold.",
+        "(b) Install the air chamber with five bolts and two nuts. Torque the bolts and nuts.",
+        "(c) Tighten the nut of the EGR valve connecting pipe."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Connection of cold start injector fuel hose to delivery pipe with gaskets and union bolt",
+      "labels": [
+        "EM096"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 2,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "15. CONNECT COLD START INJECTOR FUEL HOSE TO DELIVERY PIPE"
+    },
+    {
+      "type": "text",
+      "text": "Install the new gasket, fuel hose, another gasket and union bolt to the delivery pipe."
+    }
+  ]
+}

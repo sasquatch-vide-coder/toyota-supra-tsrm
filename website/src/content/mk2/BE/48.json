@@ -1,0 +1,73 @@
+{
+  "page_id": "BE-48",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "Tachometer Troubleshooting - No display at all",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Trouble section",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "H",
+          "Tachometer",
+          "No display at all"
+        ]
+      ]
+    },
+    {
+      "type": "flowchart_start",
+      "text": "Only tachometer?"
+    },
+    {
+      "type": "decision",
+      "question": "Only tachometer?",
+      "no_path": "Refer to section A",
+      "yes_path": "Continue to next step"
+    },
+    {
+      "type": "instruction",
+      "text": "Remove meter and connect sub-harness (SST)"
+    },
+    {
+      "type": "test_step",
+      "number": 1,
+      "text": "With the ignition S/W at ON position, check that voltage between terminals of tachometer connector is as follows:",
+      "specifications": [
+        "Terminals 1 — 6    Battery voltage",
+        "Terminals 2 — 6    4.0 — 6.0V",
+        "Terminals 4 — 6    0 — 1.5V"
+      ]
+    },
+    {
+      "type": "decision",
+      "question": "Voltage OK?",
+      "no_path": "Replace speedometer",
+      "ok_path": "Replace tachometer"
+    },
+    {
+      "type": "instruction",
+      "text": "Replace tachometer"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Tachometer wiring diagram showing connector terminals. Shows tachometer unit at top left, connector in center with terminal numbering (includes terminals 1, 2, 3, 4, 21), and wire connections labeled IG, GND. Connector shows 6-pin layout with numbered positions.",
+      "labels": [
+        "Tachometer",
+        "GND",
+        "IG",
+        "Terminal numbers: 1, 2, 3, 4, 21"
+      ],
+      "bbox": {
+        "top": 51,
+        "left": 4,
+        "width": 49,
+        "height": 26
+      }
+    }
+  ]
+}

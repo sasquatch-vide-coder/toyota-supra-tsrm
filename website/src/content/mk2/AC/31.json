@@ -1,0 +1,152 @@
+{
+  "page_id": "AC-31",
+  "section_header": "AIR CONDITIONING SYSTEM — Compressor",
+  "title": "AIR CONDITIONING SYSTEM — Compressor",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Rear valve plate and discharge valve assembly showing pins and installation orientation",
+      "labels": [],
+      "bbox": {
+        "top": 2,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Install the rear valve plate together with the discharge valve over the pins on the rear cylinder."
+    },
+    {
+      "type": "notice",
+      "text": "The rear valve plate is marked \"R\"."
+    },
+    {
+      "type": "text",
+      "text": "(e) Lubricate the gasket with compressor oil. Install the gasket on the valve plate."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL REAR HOUSING ON REAR CYLINDER"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand installing rear housing onto rear cylinder assembly",
+      "labels": [],
+      "bbox": {
+        "top": 21,
+        "left": 2,
+        "width": 45,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL FRONT VALVE PLATE ON FRONT CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "(a) Install the two pins in the front cylinder."
+    },
+    {
+      "type": "text",
+      "text": "(b) Lubricate a new O-ring with compressor oil. Install the O-ring in the rear housing."
+    },
+    {
+      "type": "text",
+      "text": "(c) Install the front suction valve over the pins on the front cylinder."
+    },
+    {
+      "type": "text",
+      "text": "(d) Install the front valve plate together with the discharge valve over the pins on the front cylinder."
+    },
+    {
+      "type": "notice",
+      "text": "The front valve plate is marked with an \"F\"."
+    },
+    {
+      "type": "text",
+      "text": "(e) Lubricate gasket with compressor oil. Install the gasket on the valve plate."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Front valve plate and discharge valve assembly showing pins and installation orientation with 'F' marking",
+      "labels": [],
+      "bbox": {
+        "top": 38,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSTALL FRONT HOUSING ON FRONT CYLINDER AND TIGHTEN SIX THROUGH BOLTS"
+    },
+    {
+      "type": "text",
+      "text": "Using SST and a torque wrench, gradually tighten the six through bolts in two or three passes."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "07110-51050",
+      "description": ""
+    },
+    {
+      "type": "torque_spec",
+      "component": "Through bolts",
+      "value": "260 kg·cm (19 ft·lb, 25 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Front housing assembly with SST tool positioned for tightening six through bolts",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL SHAFT SEAL"
+    },
+    {
+      "type": "text",
+      "text": "(a) Fit the shaft seal to SST."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "07114-15010",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Shaft seal installation using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 74,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    }
+  ]
+}

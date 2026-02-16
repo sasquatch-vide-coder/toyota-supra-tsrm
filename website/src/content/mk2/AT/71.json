@@ -1,0 +1,130 @@
+{
+  "page_id": "AT-71",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands removing oil seal rings from center support assembly",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 1,
+        "width": 48,
+        "height": 20
+      },
+      "diagram_code": "C4794"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "15. REMOVE THREE OIL SEAL RINGS FROM CENTER SUPPORT"
+    },
+    {
+      "type": "caution",
+      "text": "Do not spread the ring ends too much."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hands removing one-way clutch assembly and oil seal rings from sun gear",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 1,
+        "width": 48,
+        "height": 20
+      },
+      "diagram_code": "AT02M AT-I063"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "16. REMOVE ONE-WAY CLUTCH ASSEMBLY AND OIL SEAL RINGS FROM SUN GEAR"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF CENTER SUPPORT ASSEMBLY"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Checking operation of one-way clutch showing lock and free directions with rotation arrows",
+      "labels": [
+        "Lock",
+        "Free"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 1,
+        "width": 48,
+        "height": 20
+      },
+      "diagram_code": "AT-I063"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. CHECK OPERATION OF ONE-WAY CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "Hold the No. 2 brake hub and turn the sun gear. The sun gear should turn freely counterclockwise and should lock clockwise."
+    },
+    {
+      "type": "text",
+      "text": "If the one-way clutch does not work properly, replace it."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Using screwdriver to pry off retainer from one-way clutch assembly",
+      "labels": [],
+      "bbox": {
+        "top": 58,
+        "left": 1,
+        "width": 48,
+        "height": 20
+      },
+      "diagram_code": "C4803"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. IF NECESSARY, REPLACE ONE-WAY CLUTCH"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Bend several tabs back with a tapered punch.",
+        "(b) Pry off the retainer with a screwdriver. Leave the other retainer on the hub.",
+        "(c) Remove the one-way clutch."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Installing one-way clutch into brake hub with front arrow indicator",
+      "labels": [
+        "Front"
+      ],
+      "bbox": {
+        "top": 77,
+        "left": 1,
+        "width": 48,
+        "height": 20
+      },
+      "diagram_code": "AT0028 C4812"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Install the one-way clutch into the brake hub, facing the spring cage toward the retainer."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "page_id": "CH-11",
+  "section_header": "CHARGING SYSTEM — Alternator",
+  "title": "INSTALL BRUSH HOLDER AND IC REGULATOR / INSTALLATION OF ALTERNATOR",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the installation of brush holder and IC regulator assembly onto the rear of the alternator, with hands positioning the components",
+      "labels": [
+        "CH0255"
+      ],
+      "bbox": {
+        "top": 2,
+        "left": 2,
+        "width": 46,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL BRUSH HOLDER AND IC REGULATOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place the brush holder cover to the brush holder.",
+        "(b) Install the IC regulator and brush holder to the rear end frame horizontally as shown in the figure."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Make sure the brush holder's cover doesn't slip to one side during installation."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Close-up view of the rear of the alternator showing the installed brush holder and IC regulator assembly with three mounting screws and the connector",
+      "labels": [
+        "CH0316 CH0209"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 46,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Install and tighten the three screws."
+    },
+    {
+      "type": "notice",
+      "text": "Make sure the gap between the brush holder and connector is at least 1 mm (0.04 in.)."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Detailed view showing installation of the rear end cover and terminal insulator onto the alternator assembly",
+      "labels": [
+        "CH0043"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 46,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. INSTALL REAR END COVER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the end cover with the nuts.",
+        "(b) Install the terminal insulator with the nut."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF ALTERNATOR"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing the alternator being mounted to the engine bracket using pivot and adjusting lock bolts, with drive belt and pulley visible",
+      "labels": [
+        "B8431"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 2,
+        "width": 46,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL ALTERNATOR"
+    },
+    {
+      "type": "text",
+      "text": "Mount the alternator on the engine bracket with the pivot and adjusting lock bolts."
+    },
+    {
+      "type": "text",
+      "text": "Do not tighten the bolts."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL DRIVE BELT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the drive belt.",
+        "(b) Using a belt tension gauge, check the drive belt tension. (See page CH-3)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "View of the alternator showing the electrical connections being made, including the wire connector and terminal nut installation",
+      "labels": [
+        "CH0128"
+      ],
+      "bbox": {
+        "top": 78,
+        "left": 2,
+        "width": 46,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. CONNECT WIRING TO ALTERNATOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the wire to the alternator and install the nut.",
+        "(b) Connect the connector to the alternator."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CONNECT NEGATIVE CABLE TO BATTERY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. PERFORM ON-VEHICLE INSPECTION"
+    },
+    {
+      "type": "text",
+      "text": "(See pages CH-2 to 4)"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "page_id": "D-5",
+  "section_header": "WIRING DIAGRAM",
+  "title": "MA70E RANGE THIRD GEAR CIRCUIT LOCK-UP OFF",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Comprehensive electrical wiring diagram showing the third gear circuit with lock-up off for MA70E range transmission system. The diagram includes multiple relays, solenoids, control units, and wiring connections shown in different colors (red, yellow, black, etc.). The diagram flows from left to right showing the complete circuit path from power source through various components to ground.",
+      "labels": [
+        "MA70E RANGE THIRD GEAR CIRCUIT LOCK-UP OFF",
+        "Idle Switch",
+        "Throttle Position Sensor",
+        "Combination Meter",
+        "Junction",
+        "SLN No.1 (Shift Lock Solenoid No.1)",
+        "SLN No.2 (Shift Lock Solenoid No.2)",
+        "SLT No.1 (Shift Lock Solenoid No.1)",
+        "SLT No.2 (Shift Lock Solenoid No.2)",
+        "ECT ECU",
+        "Lock-Up Relay",
+        "O/D Direct Clutch Speed Sensor",
+        "E/C Sensor",
+        "Throttle Position Sensor",
+        "Vehicle Speed Sensor"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 5,
+        "width": 95,
+        "height": 92
+      }
+    },
+    {
+      "type": "text",
+      "text": "Color legend indicators showing: Low Voltage (red square), Throttle Position (dark square), Combination Meter (yellow square), Junction (yellow square)"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "page_id": "AT-31",
+  "section_header": "AUTOMATIC TRANSMISSION — Automatic Shift Diagram",
+  "title": "Automatic Shift Diagram",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Automatic shift diagram showing throttle valve opening percentage vs output shaft rpm and vehicle speed for 'D' range 'PWR' pattern. Shows shift points for gears 1-2, 2-3, and 3-OD with both upshift (solid lines) and downshift (dashed lines). Differential gear ratio listed as 4.100.",
+      "labels": [
+        "THROTTLE VALVE OPENING",
+        "OUTPUT SHAFT rpm",
+        "km/h",
+        "Differential gear ratio 4.100",
+        "Up-shift",
+        "Down-shift",
+        "1→2",
+        "2→3",
+        "3→OD",
+        "\"D\" range \"PWR\" pattern"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 90,
+        "height": 28
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Automatic shift diagram showing throttle valve opening percentage vs output shaft rpm and vehicle speed for '2' range. Shows shift points for gears 1-2 with both upshift and downshift patterns. Differential gear ratio listed as 4.100.",
+      "labels": [
+        "THROTTLE VALVE OPENING",
+        "OUTPUT SHAFT rpm",
+        "km/h",
+        "Differential gear ratio 4.100",
+        "1→2",
+        "\"2\" range"
+      ],
+      "bbox": {
+        "top": 33,
+        "left": 5,
+        "width": 90,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Automatic shift diagram showing throttle valve opening percentage vs output shaft rpm and vehicle speed for 'L' range 'NORM' pattern and 'PWR' pattern. Shows shift point for gears 1-2. Differential gear ratio listed as 4.100.",
+      "labels": [
+        "THROTTLE VALVE OPENING",
+        "OUTPUT SHAFT rpm",
+        "km/h",
+        "Differential gear ratio 4.100",
+        "1→2",
+        "\"L\" range \"NORM\" pattern",
+        "\"PWR\" pattern"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 5,
+        "width": 90,
+        "height": 38
+      }
+    }
+  ]
+}

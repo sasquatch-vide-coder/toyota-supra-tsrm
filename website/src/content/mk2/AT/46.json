@@ -1,0 +1,142 @@
+{
+  "page_id": "AT-46",
+  "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+  "title": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands removing bolts from converter housing",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "C4145"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. REMOVE CONVERTER HOUSING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the two 12-mm bolts and four 10-mm bolts.",
+        "(b) Hold the input shaft while removing the converter housing."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. REMOVE EXTENSION HOUSING AND GASKET"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of speedometer drive gear with snap ring",
+      "labels": [],
+      "bbox": {
+        "top": 23,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "C4004"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. REMOVE SPEEDOMETER DRIVE GEAR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the snap ring.",
+        "(b) Remove the drive gear and the steel ball."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of sensor rotor, key and snap ring from output shaft",
+      "labels": [],
+      "bbox": {
+        "top": 41,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "C4157"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. REMOVE SENSOR ROTOR, KEY AND SNAP RING FROM OUTPUT SHAFT"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of pan and gasket from transmission case",
+      "labels": [],
+      "bbox": {
+        "top": 60,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "C4153"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. REMOVE PAN AND GASKET"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the fourteen bolts.",
+        "(b) Remove the pan by lifting the transmission case."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Do not turn the transmission over as this will contaminate the valve body with foreign materials in the bottom of the pan."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing hand using magnet to examine particles in transmission pan",
+      "labels": [],
+      "bbox": {
+        "top": 78,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "AT0163"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. EXAMINE PARTICLES IN PAN"
+    },
+    {
+      "type": "text",
+      "text": "Remove the magnet and use it to collect any steel chips. Look carefully at the chips and particles in the pan and on the magnet to anticipate what type of wear you will find in the transmission:"
+    },
+    {
+      "type": "text",
+      "text": "Steel (magnetic) = bearing, gear and clutch plate wear."
+    },
+    {
+      "type": "text",
+      "text": "Brass (nonmagnetic) = bushing wear."
+    }
+  ]
+}

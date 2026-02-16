@@ -1,0 +1,71 @@
+{
+  "page_id": "BR-1",
+  "section_header": "BRAKE SYSTEM",
+  "title": "BRAKE SYSTEM",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Table of Contents",
+      "headers": [
+        "Topic",
+        "Page"
+      ],
+      "rows": [
+        [
+          "PRECAUTIONS",
+          "BR-2"
+        ],
+        [
+          "TROUBLESHOOTING",
+          "BR-2"
+        ],
+        [
+          "CHECKS AND ADJUSTMENTS",
+          "BR-6"
+        ],
+        [
+          "MASTER CYLINDER",
+          "BR-9"
+        ],
+        [
+          "BRAKE BOOSTER",
+          "BR-12"
+        ],
+        [
+          "FRONT BRAKE",
+          "BR-14"
+        ],
+        [
+          "REAR BRAKE",
+          "BR-20"
+        ],
+        [
+          "BRAKE HOSES AND TUBES",
+          "BR-31"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "A simple curved line sketch or mark, possibly a pen test mark or artifact on the page",
+      "labels": [],
+      "bbox": {
+        "top": 50,
+        "left": 8,
+        "width": 10,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "BR",
+      "bbox": {
+        "top": 91,
+        "left": 92,
+        "width": 8,
+        "height": 4
+      }
+    }
+  ]
+}

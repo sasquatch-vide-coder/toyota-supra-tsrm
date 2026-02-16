@@ -1,0 +1,86 @@
+{
+  "page_id": "BO-1",
+  "section_header": "BODY",
+  "title": "BODY",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Simple curved line illustration in upper left corner, appears to be a generic body panel or contour line",
+      "labels": [],
+      "bbox": {
+        "top": 10,
+        "left": 5,
+        "width": 10,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "BODY"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Section",
+        "Page"
+      ],
+      "rows": [
+        [
+          "HOOD",
+          "BO-2"
+        ],
+        [
+          "FRONT DOOR",
+          "BO-3"
+        ],
+        [
+          "BACK DOOR",
+          "BO-11"
+        ],
+        [
+          "MOULDING",
+          "BO-12"
+        ],
+        [
+          "WINDSHIELD",
+          "BO-20"
+        ],
+        [
+          "QUARTER WINDOW GLASS",
+          "BO-26"
+        ],
+        [
+          "BACK DOOR GLASS",
+          "BO-31"
+        ],
+        [
+          "SUN ROOF",
+          "BO-35"
+        ],
+        [
+          "SAFETY PAD",
+          "BO-41"
+        ],
+        [
+          "FRONT SEAT",
+          "BO-45"
+        ],
+        [
+          "REAR SEAT",
+          "BO-46"
+        ],
+        [
+          "SEAT BELT",
+          "BO-47"
+        ],
+        [
+          "BODY DIMENSIONS",
+          "BO-49"
+        ]
+      ]
+    }
+  ]
+}

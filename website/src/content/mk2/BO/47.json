@@ -1,0 +1,89 @@
+{
+  "page_id": "BO-47",
+  "section_header": "BODY — Seat Belt",
+  "title": "SEAT BELT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "SEAT BELT"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing front and rear seat belt assembly components with mounting points, bolts, and belt routing. Shows Front Seat Belt (ELR type) and Rear Seat Belt (ALR type) with multiple mounting locations and torque specifications indicated by callout boxes.",
+      "labels": [
+        "Front Seat Belt (ELR type)",
+        "Rear Seat Belt (ALR type)",
+        "440 [32, 43]",
+        "66 [48 in.-lb, 5.4]",
+        "196 [14, 19]"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 2,
+        "width": 96,
+        "height": 55
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt mounting bolts (multiple locations)",
+      "value": "440 [32, 43]"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt mounting bolt",
+      "value": "66 [48 in.-lb, 5.4]"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt mounting bolt",
+      "value": "196 [14, 19]"
+    },
+    {
+      "type": "text",
+      "text": "kg-cm (ft-lb, N·m) : Specified torque"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "FRONT SEAT BELT [Emergency Locking Retractor (ELR) Type]"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Small illustration showing a person performing an emergency braking test in a vehicle with seat belt fastened",
+      "labels": [],
+      "bbox": {
+        "top": 68,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. RUNNING TEST (IN SAFE AREA)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Fasten the front seat belt.",
+        "(b) Drive the car at 10 mph (16 km/h) and make a very hard stop.",
+        "(c) Check that the belt is locked and cannot be extended at this time."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Perform this test in a safe area. If the belt does not lock, remove the belt mechanism assembly and conduct the following static check. Also, whenever installing a new belt assembly, verify the proper operation and conduct lation."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "page_id": "BE-73",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "CONTINUED FROM PREVIOUS PAGE",
+  "content": [
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for cruise control system troubleshooting, starting from previous page and continuing through multiple test points including control switch, accel/resume switch, stop light switch, release valve circuit, computer diagnostics, power source check, and ground connection",
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 90,
+        "height": 92
+      },
+      "steps": [
+        {
+          "type": "decision",
+          "text": "Is there continuity between terminal 30 and body ground with set/coast switch turned off?",
+          "yes": "Inspect control switch.",
+          "no": "Continue to next step"
+        },
+        {
+          "type": "section_header",
+          "text": "INSPECT ACCEL/RESUME SWITCH OPERATION"
+        },
+        {
+          "type": "decision",
+          "text": "Is there continuity between terminal 28 and body ground when accel/resume switch turned on?",
+          "yes": "Continue to STOP LIGHT S/W",
+          "no": "Inspect the control switch."
+        },
+        {
+          "type": "section_header",
+          "text": "STOP LIGHT S/W"
+        },
+        {
+          "type": "section_header",
+          "text": "INSPECT RELEASE VALVE CIRCUIT"
+        },
+        {
+          "type": "decision",
+          "text": "Disconnect connector from computer. Is resistance value about 68 Ω between terminal 1 and terminal 2 of computer with brake pedal returned?",
+          "yes": "Continue to next step",
+          "no": {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "Open or short circuit in wire harness between terminal 4 of stop light switch and terminal 3 of actuator.",
+              "Open circuit in wire harness between terminal 1 of actuator and terminal 2 of computer.",
+              "Inspect stop light switch.",
+              "Inspect actuator."
+            ]
+          }
+        },
+        {
+          "type": "section_header",
+          "text": "INSPECT STOP LIGHT SWITCH OPERATION"
+        },
+        {
+          "type": "decision",
+          "text": "Is there continuity between terminals 1 and 2 with brake pedal depressed?",
+          "yes": "Continue to COMPUTER",
+          "no": "Inspect stop light switch."
+        },
+        {
+          "type": "section_header",
+          "text": "COMPUTER"
+        },
+        {
+          "type": "instruction",
+          "text": "Disconnect computer and inspect connector on wire harness side as follows."
+        },
+        {
+          "type": "section_header",
+          "text": "INSPECT POWER SOURCE"
+        },
+        {
+          "type": "decision",
+          "text": "Is there battery voltage between terminal 7 and body ground with main switch turned on?",
+          "yes": "Continue to next step",
+          "no": "Open or short circuit in wire harness between terminal 7 of computer and terminal 3 of main switch."
+        },
+        {
+          "type": "section_header",
+          "text": "INSPECT GROUND CONNECTION"
+        },
+        {
+          "type": "decision",
+          "text": "Is there continuity between terminal 10 and body ground?",
+          "yes": "CONTINUED ON NEXT PAGE",
+          "no": {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "Open circuit in wire harness between terminal 10 and body ground.",
+              "Body ground faulty."
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

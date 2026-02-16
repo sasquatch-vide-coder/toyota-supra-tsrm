@@ -1,0 +1,137 @@
+{
+  "page_id": "RA-7",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft",
+  "title": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cross-section diagram showing outer race removal from axle housing using a brass bar",
+      "labels": [
+        "Outer Race",
+        "Outside"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. REMOVE OUTSIDE BEARING OUTER RACE"
+    },
+    {
+      "type": "text",
+      "text": "Using a brass bar, remove the axle shaft outer bearing race from the axle housing."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing use of chisel to open clearance between hub and bearing",
+      "labels": [
+        "25180"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. REMOVE OUTSIDE BEARING AND OIL SEAL"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using a chisel, open a clearance between the hub and bearing."
+    },
+    {
+      "type": "caution",
+      "text": "Be careful not to damage the bearing or shaft."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing SST tools being used to remove outer bearing from rear axle shaft",
+      "labels": [
+        "SST",
+        "SST",
+        "27646"
+      ],
+      "bbox": {
+        "top": 39,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Using SST, remove the outer bearing from the rear axle shaft."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09950-00020 and 09950-00030",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "(c) Remove the oil seal from axle shaft."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION AND REPLACEMENT OF REAR AXLE SHAFT COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing inspection of rear axle shaft and flange for wear, damage or runout",
+      "labels": [
+        "RA023A"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECT REAR AXLE SHAFT AND FLANGE FOR WEAR, DAMAGE OR RUNOUT"
+    },
+    {
+      "type": "text",
+      "text": "Maximum flange runout: 0.1 mm (0.004 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If the rear axle flange is damaged or worn, or if runout is greater than maximum, replace the rear axle shaft."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CLEAN AND INSPECT BEARINGS AND RACES"
+    },
+    {
+      "type": "text",
+      "text": "(a) Clean with solvent and dry with low-pressure compressed air."
+    },
+    {
+      "type": "text",
+      "text": "(b) Inspect inner and outer bearings and races for wear or damage."
+    },
+    {
+      "type": "text",
+      "text": "If a bearing or race requires replacement, it must be replaced as a set with the appropriate bearing or race."
+    }
+  ]
+}

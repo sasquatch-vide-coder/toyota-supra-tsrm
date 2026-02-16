@@ -1,0 +1,104 @@
+{
+  "page_id": "BR-20",
+  "section_header": "BRAKE SYSTEM — Rear Brake",
+  "title": "REAR BRAKE",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REAR BRAKE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of rear brake components showing cylinder with bracket, boot, seal, piston, set ring, pad guide plate, anti-rattle spring, pad, anti-squeal shim, pad support plate, and rotor disc. Also shows installation bolt with torque specification and sliding bushing.",
+      "labels": [
+        "Cylinder with Bracket",
+        "475 (34, 47)",
+        "Boot",
+        "Sliding Bushing",
+        "Boot",
+        "Cylinder",
+        "Seal",
+        "Piston",
+        "Set Ring",
+        "Installation Bolt",
+        "200 (14, 20)",
+        "Pad Guide Plate",
+        "Anti-Rattle Spring",
+        "Pad",
+        "Anti-Squeal Shim",
+        "Pad Support Plate",
+        "Rotor Disc",
+        "Pad Guide Plate",
+        "Anti-Rattle Spring",
+        "kg·cm (ft·lb, N·m) : Specified torque"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 3,
+        "width": 94,
+        "height": 47
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Installation Bolt",
+      "value": "200 (14, 20) kg·cm (ft·lb, N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Cylinder with Bracket",
+      "value": "475 (34, 47) kg·cm (ft·lb, N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REPLACEMENT OF BRAKE PADS"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: If a squealing noise occurs from the brakes while driving, check the brake wear indicator. If there are traces of the indicator contacting the rotor disc, the pads should be replaced."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing pad wear indicator location on rotor disc",
+      "labels": [
+        "Pad Wear Indicator",
+        "Rotor Disc"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DRAW OUT A SMALL AMOUNT OF BRAKE FLUID",
+        "UNSCREW CYLINDER INSTALLATION BOLT"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of cylinder installation bolt",
+      "labels": [],
+      "bbox": {
+        "top": 75,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    }
+  ]
+}

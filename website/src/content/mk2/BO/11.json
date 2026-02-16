@@ -1,0 +1,116 @@
+{
+  "page_id": "BO-11",
+  "section_header": "BODY — Back Door",
+  "title": "BACK DOOR",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing back door hinge area with bolts and washers for adjustment",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ADJUSTMENT OF BACK DOOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) For forward/rearward and left/right adjustments, loosen the bolts.",
+        "(b) For vertical adjustment of the front end of the lid, increase or decrease the number of washers."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing back door lock and striker mechanism with mounting bolts",
+      "labels": [],
+      "bbox": {
+        "top": 21,
+        "left": 2,
+        "width": 38,
+        "height": 36
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ADJUSTMENT OF LOCK AND STRIKER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the lower back panel cover.",
+        "(b) Adjust lock and striker by loosening mounting bolts."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Back Door Damper Stay"
+    },
+    {
+      "type": "caution",
+      "text": "Handling the damper."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Do not disassemble the damper because the cylinder is filled with gas.",
+        "(b) If the damper is damped, drill a 2.0 — 3.0 mm (0.079 — 0.118 in.) hole in the bottom of the removed damper cylinder to completely release the high-pressure gas.",
+        "(c) When drilling, chips may fly out so work carefully.",
+        "(d) The gas is colorless, odorless and not poisonous.",
+        "(e) When working, handle the damper carefully. Never score or scratch the exposed part of the piston rod, and never allow paint or oil to get on it.",
+        "(f) Do not turn the piston rod and cylinder with the damper fully extended."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing back door damper stay installation location and drilling point",
+      "labels": [],
+      "bbox": {
+        "top": 53,
+        "left": 2,
+        "width": 38,
+        "height": 23
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF DAMPER STAY"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE DAMPER STAY UPPER SIDE FROM BACK DOOR",
+        "REMOVE DAMPER STAY LOWER SIDE FROM REAR PILLAR"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF DAMPER STAY"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL DAMPER STAY UPPER SIDE TO BACK DOOR",
+        "CONNECT DAMPER STAY LOWER SIDE TO REAR PILLAR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "page_id": "CL-5",
+  "section_header": "CLUTCH — Clutch Master Cylinder, Clutch Release Cylinder",
+  "title": "INSTALLATION OF MASTER CYLINDER",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF MASTER CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "(See page CL-4)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1",
+          "title": "INSTALL MASTER CYLINDER",
+          "text": "Install the mounting nut and bolt and torque the nut and bolt.",
+          "torque": "250 kg-cm (18 ft-lb, 25 N·m)"
+        },
+        {
+          "number": "2",
+          "title": "CONNECT CLUTCH LINE UNION",
+          "text": "Using SST, connect the union.\nSST 09751-36011",
+          "torque": "155 kg-cm (11 ft-lb, 15 N·m)"
+        },
+        {
+          "number": "3",
+          "title": "CONNECT PUSH ROD AND INSTALL PIN",
+          "text": "Install a clip in the push rod pin."
+        },
+        {
+          "number": "4",
+          "title": "BLEED SYSTEM AND ADJUST CLUTCH PEDAL",
+          "text": "(See page CL-3)"
+        }
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Master cylinder mounting nut and bolt",
+      "value": "250 kg-cm (18 ft-lb, 25 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Clutch line union",
+      "value": "155 kg-cm (11 ft-lb, 15 N·m)"
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09751-36011",
+      "description": "Tool for connecting clutch line union"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "CLUTCH RELEASE CYLINDER"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of clutch release cylinder showing flexible hose, cylinder body, bleeder plug, spring, piston, boot, and push rod with assembly orientation and torque specifications",
+      "labels": [
+        "Flexible Hose",
+        "Cylinder",
+        "Bleeder Plug [110 (8, 11)]",
+        "Spring",
+        "Piston",
+        "Boot",
+        "Push Rod",
+        "235 (17, 23)",
+        "155 (11, 15)",
+        "kg-cm (ft-lb, N·m) : Specified torque"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 1,
+        "width": 98,
+        "height": 38
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF RELEASE CYLINDER"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1",
+          "title": "DISCONNECT FLEXIBLE HOSE",
+          "text": "Using SST, disconnect the union.\nSST 09751-36011"
+        },
+        {
+          "number": "2",
+          "title": "REMOVE RELEASE CYLINDER",
+          "substeps": [
+            "(a) Remove the two bolts.",
+            "(b) Pull out the release cylinder."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09751-36011",
+      "description": "Tool for disconnecting flexible hose union"
+    }
+  ]
+}

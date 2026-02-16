@@ -1,0 +1,123 @@
+{
+  "page_id": "RA-14",
+  "section_header": "REAR AXLE AND SUSPENSION - Rear Drive Shaft",
+  "title": "REAR AXLE AND SUSPENSION - Rear Drive Shaft",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the removal of outboard joint inner race from drive shaft using a socket wrench and SST tool with a press-like motion",
+      "labels": [
+        "Socket Wrench",
+        "SST"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Using snap ring pliers, remove the snap ring."
+    },
+    {
+      "type": "text",
+      "text": "(d) Using SST and a press, remove the outboard joint inner race from the drive shaft."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09726-10010 (09726-00030)",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands using snap ring pliers to remove a snap ring from a component",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(e) Using snap ring pliers, remove the snap ring."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. REMOVE OUTBOARD AND INBOARD JOINT BOOTS"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the removal of end plate from inboard joint using a screwdriver",
+      "labels": [],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. DISASSEMBLE INBOARD JOINT"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using a screwdriver, remove the end plate from the inboard joint."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing matchmarks being placed on the inboard joint housing and drive shaft components",
+      "labels": [],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Place matchmarks on the inboard joint and drive shaft."
+    },
+    {
+      "type": "text",
+      "text": "(c) Using snap ring pliers, remove the snap ring."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Front view of inboard joint assembly showing four mounting bolts and central bearing area, with SST tool, socket wrench setup for removing inboard joint from drive shaft",
+      "labels": [
+        "Socket Wrench",
+        "SST"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Using SST and a press, remove the inboard joint from the drive shaft."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09726-10010 (09726 00030)",
+      "description": ""
+    }
+  ]
+}

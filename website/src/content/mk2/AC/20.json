@@ -1,0 +1,165 @@
+{
+  "page_id": "AC-20",
+  "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment",
+  "title": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Solar sensor component diagram showing a top view of the sensor assembly with internal structure visible",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. SOLAR SENSOR"
+    },
+    {
+      "type": "text",
+      "text": "Check sensor voltage."
+    },
+    {
+      "type": "text",
+      "text": "0.3 — 0.5V (In Daylight)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Double Vacuum Valve (DVV)"
+    },
+    {
+      "type": "text",
+      "text": "(DVV is located on heater unit)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Photograph of the Double Vacuum Valve (DVV) mounted on the heater unit showing three connection terminals labeled A, B, and C",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 4,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF DVV"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "CHECK VACUUM CIRCUIT CONTINUITY BY BLOWING AIR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(a)",
+          "text": "OFF state\nAll circuit should be closed."
+        },
+        {
+          "label": "(b)",
+          "text": "Apply 12 volts to the positive (+) terminal and ground terminal T₁.\nThere should be continuity between B and C at this time."
+        },
+        {
+          "label": "(c)",
+          "text": "Apply 12 volts to the positive (+) terminal and ground terminal T₁. There should be continuity between A and B at this time."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If a problem is found, replace the DVV."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Photograph of the water temperature switch assembly showing two connectors labeled 'WATER TEMP. SWITCH A' at (30°C) and 'SWITCH B' at (60°C)",
+      "labels": [
+        "WATER TEMP. SWITCH A",
+        "(30°C)",
+        "SWITCH B",
+        "(60°C)"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 4,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Water Temperature Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF WATER TEMPERATURE SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "CHECK WATER TEMPERATURE SWITCH OPERATION"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(a)",
+          "text": "Disconnect the 1-pole connector from the water temp. switch."
+        },
+        {
+          "label": "(b)",
+          "text": "Check continuity between the water temp. switch and ground as follows."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Coolant temp.",
+        "A",
+        "B"
+      ],
+      "rows": [
+        [
+          "Less than 30°C (86°F)",
+          "CONTINUITY",
+          "CONTINUITY"
+        ],
+        [
+          "From 30°C (86°F) to 60°C (122°F)",
+          "NO CONTINUITY",
+          "NO CONTINUITY"
+        ],
+        [
+          "More than 60°C (122°F)",
+          "NO CONTINUITY",
+          "NO CONTINUITY"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If a problem is found, replace water valve."
+    }
+  ]
+}

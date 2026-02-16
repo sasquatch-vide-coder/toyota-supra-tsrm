@@ -1,0 +1,43 @@
+{
+  "page_id": "3",
+  "section_header": "WIPER AND WASHER",
+  "title": "WIPER AND WASHER WIRING DIAGRAM",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Comprehensive wiring diagram showing front wiper and washer system, rear wiper and washer system, and headlight cleaner electrical connections. The diagram includes various switches, motors, relays and connectors with their wire routing.",
+      "labels": [
+        "Front Wiper and Washer",
+        "Rear Wiper and Washer",
+        "Headlight Cleaner",
+        "WASHER S/W",
+        "REAR WIPER AND WASHER S/W",
+        "OFF",
+        "INT",
+        "WIPER",
+        "WASHER",
+        "WIPER MOTOR",
+        "HEADLIGHT CLEANER MOTOR",
+        "REAR WIPER MOTOR",
+        "L",
+        "LG-W",
+        "LG-R",
+        "B-G",
+        "L-W",
+        "W",
+        "B"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 90,
+        "height": 90
+      }
+    },
+    {
+      "type": "text",
+      "text": "Wire color codes visible in diagram: L, LG-W, LG-R, B-G, L-W, W, B, R-G, L-G, B-R, L-Y"
+    }
+  ]
+}

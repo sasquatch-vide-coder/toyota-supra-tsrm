@@ -1,0 +1,94 @@
+{
+  "page_id": "BE-103",
+  "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna",
+  "title": "Radio, Stereo Tape Player and Antenna Troubleshooting",
+  "content": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "(b) Tape player okay but no sound from AM and FM or either one."
+    },
+    {
+      "type": "text",
+      "text": "Possible causes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Antenna disconnected",
+        "Antenna plug not properly connected",
+        "Defective antenna",
+        "Defective antenna booster",
+        "Defective antenna cable",
+        "Defective radio or tape player",
+        "Blown HAZ-HORN fuse",
+        "Short circuit or broken wire in wire harness for back-up power source"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TEST 1"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Flowchart for Test 1 showing decision tree starting with 'Is radio electronic search type?' leading to either 'Is either AM or FM okay?' (if Yes) or 'Proceed to Test 3' (if No). If AM or FM is okay, proceed to Test 2, otherwise proceed to Test 3.",
+      "labels": [
+        "Is radio electronic search type?",
+        "Yes",
+        "No",
+        "Is either AM or FM okay?",
+        "Yes",
+        "No",
+        "Proceed to Test 2.",
+        "Proceed to Test 3."
+      ],
+      "bbox": {
+        "top": 37,
+        "left": 5,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TEST 2"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Flowchart for Test 2 starting with 'Check HAZ-HORN fuse'. If OK, check if there is back-up power to connectors behind radio. If Yes, proceed to Test 3. If No, inspect and repair back-up power wire harness. If fuse is blown, replace fuse. If OK after replacement, proceed. If it blows again, check for short circuit in back-up power source wire harness. If OK, replace radio. If Short, inspect and repair wire harness for back-up power source.",
+      "labels": [
+        "Check HAZ-HORN fuse",
+        "OK",
+        "Blown",
+        "Is there back-up power to connectors behind radio?",
+        "Yes",
+        "No",
+        "Proceed to Test 3.",
+        "Inspect and repair back-up power wire harness.",
+        "Replace fuse.",
+        "OK",
+        "Blows again",
+        "Check for short circuit in back-up power source wire harness.",
+        "OK",
+        "Short",
+        "Replace radio.",
+        "Inspect and repair wire harness for back-up power source."
+      ],
+      "bbox": {
+        "top": 50,
+        "left": 5,
+        "width": 90,
+        "height": 38
+      }
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Back-up power refers to the storage voltage for preset tuning. This is applied even when the ignition switch is OFF."
+    }
+  ]
+}

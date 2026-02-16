@@ -1,0 +1,157 @@
+{
+  "page_id": "SR-10",
+  "section_header": "STEERING — Steering Column Assembly with Tilt Steering",
+  "title": "STEERING — Steering Column Assembly with Tilt Steering",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing assembly of collar and tilt lever retainer on steering column",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 28
+      }
+    },
+    {
+      "type": "text",
+      "text": "(g) Assemble the collar and tilt lever retainer."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Collar and tilt lever retainer",
+      "value": "185 kg·cm (13 ft·lb, 18 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hand selecting and installing shim on steering column assembly",
+      "labels": [],
+      "bbox": {
+        "top": 30,
+        "left": 3,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSTALL SHIM, BOLT AND NUT"
+    },
+    {
+      "type": "text",
+      "text": "(a) Select a shim which fits snugly when pressed in by hand."
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Thickness",
+        "mm (in.)",
+        "Thickness",
+        "mm (in.)"
+      ],
+      "rows": [
+        [
+          "0.2",
+          "(0.008)",
+          "1.4",
+          "(0.055)"
+        ],
+        [
+          "0.5",
+          "(0.020)",
+          "1.8",
+          "(0.071)"
+        ],
+        [
+          "0.8",
+          "(0.031)",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of shim, bolt, washer and lock nut on steering column",
+      "labels": [],
+      "bbox": {
+        "top": 53,
+        "left": 3,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Install the shim, bolt, washer and a lock nut."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Shim bolt and lock nut",
+      "value": "185 kg·cm (13 ft·lb, 18 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of tilt steering support stopper bolt with bracket, washer and nut",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 3,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL TILT STEERING SUPPORT STOPPER BOLT"
+    },
+    {
+      "type": "text",
+      "text": "(a) Install the stopper bolt, bracket, washer and nut."
+    },
+    {
+      "type": "text",
+      "text": "(b) Tighten the nut by holding the bracket with your fingers as shown."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Tilt steering support stopper bolt",
+      "value": "100 kg·cm (7 ft·lb, 10 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing assembly of main shaft and upper bracket with collar and spring using soft jaw vise and snap ring pliers",
+      "labels": [
+        "Z9478"
+      ],
+      "bbox": {
+        "top": 99,
+        "left": 3,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. ASSEMBLE MAIN SHAFT AND UPPER BRACKET"
+    },
+    {
+      "type": "text",
+      "text": "(a) Assemble the collar, spring and main shaft, and insert them into the bracket."
+    },
+    {
+      "type": "text",
+      "text": "(b) Using a soft jaw vise and snap ring pliers, install a new snap ring by pressing the main shaft and upper bearing."
+    }
+  ]
+}

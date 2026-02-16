@@ -1,0 +1,74 @@
+{
+  "page_id": "EC-7",
+  "section_header": "EMISSION CONTROL SYSTEMS — Dash Pot (DP) System",
+  "title": "DASH POT (DP) SYSTEM",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Overview diagram showing the Dash Pot system installation with VTV (Vacuum Transmitting Valve), Air Filter, and Dash Pot components mounted on the throttle body",
+      "labels": [
+        "VTV",
+        "Air Filter",
+        "Dash Pot"
+      ],
+      "bbox": {
+        "top": 7,
+        "left": 4,
+        "width": 92,
+        "height": 46
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Two side-by-side schematic diagrams showing DP Diaphragm operation during Normal Driving and Deceleration conditions, with VTV valve positions illustrated",
+      "labels": [
+        "Normal Driving",
+        "Deceleration",
+        "DP Diaphragm",
+        "VTV"
+      ],
+      "bbox": {
+        "top": 54,
+        "left": 4,
+        "width": 92,
+        "height": 40
+      }
+    },
+    {
+      "type": "text",
+      "text": "To reduce HC and CO emissions, when decelerating the dash pot opens the throttle valve slightly more than at idle. This causes the air-fuel mixture to burn completely."
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Condition",
+        "Diaphragm",
+        "VTV",
+        "Throttle Valve"
+      ],
+      "rows": [
+        [
+          "Idling",
+          "Pushed in by return force of throttle valve",
+          "CLOSED",
+          "Idle speed position"
+        ],
+        [
+          "Normal driving",
+          "Pushed out by diaphragm spring",
+          "OPEN",
+          "High speed position"
+        ],
+        [
+          "Deceleration",
+          "Pushed in by return force of throttle valve",
+          "CLOSED",
+          "Slightly opens and then slowly closes to idle position"
+        ]
+      ]
+    }
+  ]
+}

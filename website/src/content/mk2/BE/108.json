@@ -1,0 +1,120 @@
+{
+  "page_id": "BE-108",
+  "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna",
+  "title": "Sound quality bad when tape player played - Troubleshooting",
+  "content": [
+    {
+      "type": "text",
+      "text": "(b) Sound quality bad when tape player played."
+    },
+    {
+      "type": "text",
+      "text": "Possible causes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bad tape",
+        "Dirty head",
+        "Incorrectly installed speaker",
+        "Vibration noise from around speaker",
+        "Defective speaker",
+        "Defective tape player"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TEST 1"
+    },
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart for tape player sound quality issues. Starts with checking if sound improves with another tape, then proceeds to cleaning head if needed.",
+      "steps": [
+        {
+          "step": 1,
+          "question": "Does sound improve with another tape?",
+          "yes": "Tape bad",
+          "no": "Continue to next step"
+        },
+        {
+          "step": 2,
+          "question": "Clean head. Does sound improve? (See note for cleaning procedure.)",
+          "yes": "OK",
+          "no": "Proceed to Test 2."
+        }
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 2,
+        "width": 96,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TEST 2"
+    },
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart for speaker and tape player issues. Checks speaker installation, vibration noise, and temporary speaker replacement.",
+      "steps": [
+        {
+          "step": 1,
+          "question": "Is speaker correctly installed (loose or too tight)?",
+          "yes": "Continue to next step",
+          "no": "Install correctly. If speaker frame bent, replace."
+        },
+        {
+          "step": 2,
+          "question": "Does vibration sound come from around speaker?",
+          "yes": "Repair",
+          "no": "Continue to next step"
+        },
+        {
+          "step": 3,
+          "question": "Temporarily install another speaker. Okay?",
+          "yes": "Replace speaker.",
+          "no": "Replace tape player."
+        }
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 96,
+        "height": 25
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing tape head assembly with labeled components: Pinch Roller, Head, and Capstan. The illustration shows a front view of the tape mechanism.",
+      "labels": [
+        "Pinch Roller",
+        "Head",
+        "Capstan"
+      ],
+      "bbox": {
+        "top": 73,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Head cleaning procedure."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Raise the cassette door with four finger. Next, using a pencil or like object, push in the guide.",
+        "Using a cleaning pin or cotton application soaked in alcohol, clean the head surface, pinch rollers and capstans.",
+        "Push in the eject button."
+      ]
+    }
+  ]
+}

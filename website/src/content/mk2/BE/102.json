@@ -1,0 +1,67 @@
+{
+  "page_id": "BE-102",
+  "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna",
+  "title": "TEST 2 and TEST 3",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TEST 2"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Flowchart for TEST 2 showing diagnostic steps for radio and tape player connections. The flowchart begins with checking if all connectors behind radio and tape player are properly connected, then checks for power to radio and player connectors, and finally verifies if radio and player are properly connected. Each decision point has Yes/No paths with corresponding actions (Connect properly, Inspect and repair power wire harness, Properly re-install, or Proceed to Test 3).",
+      "labels": [
+        "Are all connectors behind radio and tape player properly connected?",
+        "Yes",
+        "No",
+        "Connect properly.",
+        "Is there power to radio and player connectors?",
+        "Inspect and repair power wire harness to radio and player.",
+        "Are radio and player properly connected?",
+        "Properly re-install",
+        "Proceed to Test 3."
+      ],
+      "bbox": {
+        "top": 7,
+        "left": 4,
+        "width": 92,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TEST 3"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Flowchart for TEST 3 showing diagnostic steps for speaker connections. The flowchart begins with checking if speaker connectors are connected, then temporarily installing another speaker if Yes, or connecting properly if No. It then checks for continuity in speaker wire harness, with paths leading to either replacing the speaker (if OK), replacing radio and tape player (if continuity exists), or inspecting and repairing speaker wire harness (if no continuity). The replace radio and tape player path has a w/o Player notation that leads to 'Proceed to Test 1 of following item.'",
+      "labels": [
+        "Are speaker connectors connected?",
+        "Yes",
+        "No",
+        "Connect properly.",
+        "Temporarily install another speaker.",
+        "OK",
+        "No",
+        "Replace Speaker.",
+        "Is there continuity in speaker wire harness?",
+        "Yes",
+        "No",
+        "Replace radio and tape player.",
+        "w/o Player",
+        "Inspect and repair speaker wire harness.",
+        "Proceed to Test 1 of following item."
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 4,
+        "width": 92,
+        "height": 45
+      }
+    }
+  ]
+}

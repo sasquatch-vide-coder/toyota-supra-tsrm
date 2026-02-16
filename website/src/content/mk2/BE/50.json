@@ -1,0 +1,69 @@
+{
+  "page_id": "BE-50",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "SECTION J - Tachometer - Lights do not dim when light and rheostat S/W turned ON",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Trouble Section",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "J",
+          "Tachometer | Lights do not dim when light and rheostat S/W turned ON."
+        ]
+      ]
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for tachometer dimming issue",
+      "steps": [
+        {
+          "type": "decision",
+          "text": "Only tachometer?",
+          "yes_path": "Continue to next step",
+          "no_path": "Refer to section C"
+        },
+        {
+          "type": "action",
+          "text": "Remove meter and connect sub-harness (SST)"
+        },
+        {
+          "type": "decision",
+          "number": 1,
+          "text": "With the ignition S/W at ON position, light S/W turned ON and rheostat turned to MAX, is there 3 to 5V between terminals 4 and 6 of tachometer connector?",
+          "yes_path": "Replace tachometer",
+          "no_path": "Replace speedometer"
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE:\nConnector dimming is performed by the dim signal (Dim②) of the speedometer."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wiring diagram showing tachometer connections with light switch positions (MIN/Bright to OFF to ON to MAX/Fade) and connections to GND and Dim ② terminal. Shows terminals 4 and 6 on connector.",
+      "labels": [
+        "Tachometer",
+        "6 4",
+        "Dim ②",
+        "GND",
+        "ON",
+        "MAX (Fade)",
+        "MIN (Bright)",
+        "OFF"
+      ],
+      "bbox": {
+        "top": 64,
+        "left": 4,
+        "width": 48,
+        "height": 28
+      }
+    }
+  ]
+}

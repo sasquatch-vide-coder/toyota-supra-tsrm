@@ -1,0 +1,4349 @@
+[
+  {
+    "code": "A",
+    "name": "Service Specifications",
+    "pages": 29,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "SERVICE SPECIFICATIONS",
+        "section_header": "SERVICE SPECIFICATIONS"
+      },
+      {
+        "page": 2,
+        "title": "MAINTENANCE",
+        "section_header": "SERVICE SPECIFICATIONS — Maintenance"
+      },
+      {
+        "page": 3,
+        "title": "ENGINE MECHANICAL Specifications",
+        "section_header": "SERVICE SPECIFICATIONS — Engine Mechanical"
+      },
+      {
+        "page": 4,
+        "title": "Specifications (Cont'd)",
+        "section_header": "SERVICE SPECIFICATIONS — Engine Mechanical"
+      },
+      {
+        "page": 5,
+        "title": "Specifications (Cont'd)",
+        "section_header": "SERVICE SPECIFICATIONS -- Engine Mechanical"
+      },
+      {
+        "page": 6,
+        "title": "Torque Specifications",
+        "section_header": "SERVICE SPECIFICATIONS — Engine Mechanical"
+      },
+      {
+        "page": 7,
+        "title": "EFI SYSTEM",
+        "section_header": "SERVICE SPECIFICATIONS — EFI System"
+      },
+      {
+        "page": 8,
+        "title": "Specifications (Cont'd)",
+        "section_header": "SERVICE SPECIFICATIONS – EFI System"
+      },
+      {
+        "page": 9,
+        "title": "Specifications (Cont'd)",
+        "section_header": "SERVICE SPECIFICATIONS — EFI System"
+      },
+      {
+        "page": 10,
+        "title": "SERVICE SPECIFICATIONS",
+        "section_header": "SERVICE SPECIFICATIONS – Cooling System, Lubrication System, Ignition System"
+      },
+      {
+        "page": 11,
+        "title": "STARTING SYSTEM / CHARGING SYSTEM",
+        "section_header": "SERVICE SPECIFICATIONS — Starting System, Charging System"
+      },
+      {
+        "page": 12,
+        "title": "CLUTCH Specifications",
+        "section_header": "SERVICE SPECIFICATIONS - Clutch"
+      },
+      {
+        "page": 13,
+        "title": "MANUAL TRANSMISSION",
+        "section_header": "SERVICE SPECIFICATIONS — Manual Transmission"
+      },
+      {
+        "page": 14,
+        "title": "Specifications (Cont'd)",
+        "section_header": "SERVICE SPECIFICATIONS — Manual Transmission"
+      },
+      {
+        "page": 15,
+        "title": "Specifications (Cont'd)",
+        "section_header": "SERVICE SPECIFICATIONS — Manual Transmission"
+      },
+      {
+        "page": 16,
+        "title": "AUTOMATIC TRANSMISSION Specifications",
+        "section_header": "SERVICE SPECIFICATIONS — Automatic Transmission"
+      },
+      {
+        "page": 17,
+        "title": "Specifications (Cont'd)",
+        "section_header": "SERVICE SPECIFICATIONS – Automatic Transmission"
+      },
+      {
+        "page": 18,
+        "title": "Specifications (Cont'd)",
+        "section_header": "SERVICE SPECIFICATIONS - Automatic Transmission"
+      },
+      {
+        "page": 19,
+        "title": "Torque Specifications and Propeller Shaft Specifications",
+        "section_header": "SERVICE SPECIFICATIONS — Automatic Transmission, Propeller Shaft"
+      },
+      {
+        "page": 20,
+        "title": "FRONT AXLE AND SUSPENSION",
+        "section_header": "SERVICE SPECIFICATIONS - Front Axle and Suspension"
+      },
+      {
+        "page": 21,
+        "title": "REAR AXLE AND SUSPENSION",
+        "section_header": "SERVICE SPECIFICATIONS — Rear Axle and Suspension"
+      },
+      {
+        "page": 22,
+        "title": "Specifications (Cont'd)",
+        "section_header": "SERVICE SPECIFICATIONS — Rear Axle and Suspension"
+      },
+      {
+        "page": 23,
+        "title": "Torque Specifications",
+        "section_header": "SERVICE SPECIFICATIONS — Rear Axle and Suspension"
+      },
+      {
+        "page": 24,
+        "title": "BRAKE SYSTEM Specifications",
+        "section_header": "SERVICE SPECIFICATIONS — Brake System"
+      },
+      {
+        "page": 25,
+        "title": "Torque Specifications",
+        "section_header": "SERVICE SPECIFICATIONS – Brake System"
+      },
+      {
+        "page": 26,
+        "title": "STEERING Specifications",
+        "section_header": "SERVICE SPECIFICATIONS - Steering"
+      },
+      {
+        "page": 27,
+        "title": "Specifications (Cont'd) and Torque Specifications",
+        "section_header": "SERVICE SPECIFICATIONS — Steering"
+      },
+      {
+        "page": 28,
+        "title": "BODY\nTorque Specifications",
+        "section_header": "SERVICE SPECIFICATIONS — Body"
+      },
+      {
+        "page": 29,
+        "title": "LUBRICANT",
+        "section_header": "SERVICE SPECIFICATIONS — Lubricant"
+      }
+    ]
+  },
+  {
+    "code": "AC",
+    "name": "Air Conditioning System",
+    "pages": 42,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "AIR CONDITIONING SYSTEM",
+        "section_header": "AIR CONDITIONING SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "PRECAUTIONS",
+        "section_header": "AIR CONDITIONING SYSTEM — Precautions, Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "TROUBLESHOOTING (Cont'd)",
+        "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 4,
+        "title": "Checking of Refrigeration System with Manifold Gauge",
+        "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 5,
+        "title": "AIR CONDITIONING SYSTEM — Troubleshooting",
+        "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 6,
+        "title": "AIR CONDITIONING SYSTEM — Troubleshooting",
+        "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 7,
+        "title": "AIR CONDITIONING SYSTEM — Troubleshooting",
+        "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 8,
+        "title": "INSUFFICIENT COMPRESSION / SPECIAL TOOLS AND TEST EQUIPMENT",
+        "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting, Special Tools and Test Equipment"
+      },
+      {
+        "page": 9,
+        "title": "AIR CONDITIONING SYSTEM CIRCUIT",
+        "section_header": "AIR CONDITIONING SYSTEM — Air Conditioning System Circuit"
+      },
+      {
+        "page": 10,
+        "title": "ON-VEHICLE INSPECTION",
+        "section_header": "AIR CONDITIONING SYSTEM — On-Vehicle Inspection"
+      },
+      {
+        "page": 11,
+        "title": "REFRIGERATION SYSTEM",
+        "section_header": "AIR CONDITIONING SYSTEM — Refrigeration System"
+      },
+      {
+        "page": 12,
+        "title": "Discharging of Refrigeration System and Evacuating and Charging of Refrigeration System",
+        "section_header": "AIR CONDITIONING SYSTEM — Refrigeration System"
+      },
+      {
+        "page": 13,
+        "title": "AIR CONDITIONING SYSTEM — Refrigeration System",
+        "section_header": "AIR CONDITIONING SYSTEM — Refrigeration System"
+      },
+      {
+        "page": 14,
+        "title": "AIR CONDITIONING SYSTEM — Refrigeration System",
+        "section_header": "AIR CONDITIONING SYSTEM — Refrigeration System"
+      },
+      {
+        "page": 15,
+        "title": null,
+        "section_header": "AIR CONDITIONING SYSTEM — Refrigeration System"
+      },
+      {
+        "page": 16,
+        "title": "FUNCTIONAL TEST AND ADJUSTMENT",
+        "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment"
+      },
+      {
+        "page": 17,
+        "title": "Power Servo Unit Operation",
+        "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment"
+      },
+      {
+        "page": 18,
+        "title": "Automatic Temperature Control",
+        "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment"
+      },
+      {
+        "page": 19,
+        "title": "Air Mix Damper Linkage",
+        "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment"
+      },
+      {
+        "page": 20,
+        "title": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment",
+        "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment"
+      },
+      {
+        "page": 21,
+        "title": "Condenser Motor",
+        "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment"
+      },
+      {
+        "page": 22,
+        "title": "SYSTEM COMPONENTS",
+        "section_header": "AIR CONDITIONING SYSTEM — System Components"
+      },
+      {
+        "page": 23,
+        "title": "COMPRESSOR",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 24,
+        "title": "REMOVAL OF COMPRESSOR",
+        "section_header": "AIR CONDITIONING SYSTEM – Compressor"
+      },
+      {
+        "page": 25,
+        "title": "DISASSEMBLY OF MAGNETIC CLUTCH",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 26,
+        "title": "AIR CONDITIONING SYSTEM - Compressor",
+        "section_header": "AIR CONDITIONING SYSTEM - Compressor"
+      },
+      {
+        "page": 27,
+        "title": "INSPECT PRESSURE PLATE AND ROTOR / DISASSEMBLY OF COMPRESSOR",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 28,
+        "title": "Compressor Removal Steps",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 29,
+        "title": "AIR CONDITIONING SYSTEM — Compressor",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 30,
+        "title": "AIR CONDITIONING SYSTEM — Compressor",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 31,
+        "title": "AIR CONDITIONING SYSTEM — Compressor",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 32,
+        "title": "AIR CONDITIONING SYSTEM — Compressor",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 33,
+        "title": "AIR CONDITIONING SYSTEM — Compressor",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 34,
+        "title": "INSTALL PRESSURE PLATE / PERFORMANCE TEST OF COMPRESSOR",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 35,
+        "title": "INSTALLATION OF COMPRESSOR",
+        "section_header": "AIR CONDITIONING SYSTEM — Compressor"
+      },
+      {
+        "page": 36,
+        "title": "CONDENSER",
+        "section_header": "AIR CONDITIONING SYSTEM — Condenser"
+      },
+      {
+        "page": 37,
+        "title": "RECEIVER",
+        "section_header": "AIR CONDITIONING SYSTEM — Receiver, Cooling Unit"
+      },
+      {
+        "page": 38,
+        "title": "REMOVAL OF COOLING UNIT / DISASSEMBLY OF COOLING UNIT",
+        "section_header": "AIR CONDITIONING SYSTEM — Cooling Unit"
+      },
+      {
+        "page": 39,
+        "title": "Evaporator",
+        "section_header": "AIR CONDITIONING SYSTEM — Cooling Unit"
+      },
+      {
+        "page": 40,
+        "title": "INSTALLATION OF COOLING UNIT",
+        "section_header": "AIR CONDITIONING SYSTEM — Cooling Unit, Refrigerant Lines"
+      },
+      {
+        "page": 41,
+        "title": "REPLACEMENT OF REFRIGERANT LINES",
+        "section_header": "AIR CONDITIONING SYSTEM — Refrigerant Lines, Expansion Valve"
+      },
+      {
+        "page": 42,
+        "title": "VACUUM SWITCHING VALVE (VSV)",
+        "section_header": "AIR CONDITIONING SYSTEM — Vacuum Switching Valve (VSV)"
+      }
+    ]
+  },
+  {
+    "code": "AT",
+    "name": "Automatic Transmission",
+    "pages": 120,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "AUTOMATIC TRANSMISSION",
+        "section_header": "AUTOMATIC TRANSMISSION"
+      },
+      {
+        "page": 2,
+        "title": "TROUBLESHOOTING",
+        "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "TROUBLESHOOTING (Cont'd)",
+        "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting"
+      },
+      {
+        "page": 4,
+        "title": "TROUBLESHOOTING (Cont'd)",
+        "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting"
+      },
+      {
+        "page": 5,
+        "title": "ATF INSPECTION AND ADJUSTMENTS",
+        "section_header": "AUTOMATIC TRANSMISSION — ATF Inspection, Adjustments"
+      },
+      {
+        "page": 6,
+        "title": "ELECTRIC CONTROL",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 7,
+        "title": "TROUBLESHOOTING OF ELECTRICAL CONTROL CIRCUIT",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 8,
+        "title": "OUTPUT OF DIAGNOSTIC CODE",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 9,
+        "title": "AUTOMATIC TRANSMISSION — Electric Control",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 10,
+        "title": "INSPECT TERMINAL ECT VOLTAGE",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 11,
+        "title": null,
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 12,
+        "title": "TROUBLESHOOTING",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 13,
+        "title": "Trouble No. 2 - No shifting",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 14,
+        "title": "Continued from page AT-13",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 15,
+        "title": "Trouble No. 3    Shift point too high or too low",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 16,
+        "title": "Trouble No. 4     No up-shift to overdrive (After warm-up)",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 17,
+        "title": "Trouble No. 5 - No lock-up (After warm-up)",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 18,
+        "title": "INSPECTION OF ELECTRIC CONTROL COMPONENTS",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 19,
+        "title": null,
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 20,
+        "title": "AUTOMATIC TRANSMISSION — Electric Control",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 21,
+        "title": "INSPECTION OF MANUAL SHIFTING",
+        "section_header": "AUTOMATIC TRANSMISSION — Electric Control"
+      },
+      {
+        "page": 22,
+        "title": "STALL TEST",
+        "section_header": "AUTOMATIC TRANSMISSION — Stall Test"
+      },
+      {
+        "page": 23,
+        "title": "TIME LAG TEST",
+        "section_header": "AUTOMATIC TRANSMISSION — Time Lag Test"
+      },
+      {
+        "page": 24,
+        "title": "HYDRAULIC TEST",
+        "section_header": "AUTOMATIC TRANSMISSION — Hydraulic Test"
+      },
+      {
+        "page": 25,
+        "title": "ROAD TEST",
+        "section_header": "AUTOMATIC TRANSMISSION — Road Test"
+      },
+      {
+        "page": 26,
+        "title": "AUTOMATIC TRANSMISSION — Road Test",
+        "section_header": "AUTOMATIC TRANSMISSION — Road Test"
+      },
+      {
+        "page": 27,
+        "title": "AUTOMATIC TRANSMISSION — Road Test",
+        "section_header": "AUTOMATIC TRANSMISSION — Road Test"
+      },
+      {
+        "page": 28,
+        "title": "AUTOMATIC TRANSMISSION — Road Test",
+        "section_header": "AUTOMATIC TRANSMISSION — Road Test"
+      },
+      {
+        "page": 29,
+        "title": "OPERATING MECHANISM FOR EACH GEAR",
+        "section_header": "AUTOMATIC TRANSMISSION — Operating Mechanism for Each Gear"
+      },
+      {
+        "page": 30,
+        "title": "AUTOMATIC SHIFT DIAGRAM",
+        "section_header": "AUTOMATIC TRANSMISSION — Automatic Shift Diagram"
+      },
+      {
+        "page": 31,
+        "title": "Automatic Shift Diagram",
+        "section_header": "AUTOMATIC TRANSMISSION — Automatic Shift Diagram"
+      },
+      {
+        "page": 32,
+        "title": "ON-VEHICLE REPAIR",
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 33,
+        "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 34,
+        "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 35,
+        "title": null,
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 36,
+        "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 37,
+        "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 38,
+        "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 39,
+        "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 40,
+        "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 41,
+        "title": "INSTALLATION OF ROTOR SENSOR / REPLACEMENT OF REAR OIL SEAL",
+        "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair"
+      },
+      {
+        "page": 42,
+        "title": "REMOVAL OF TRANSMISSION",
+        "section_header": "AUTOMATIC TRANSMISSION — Removal of Transmission"
+      },
+      {
+        "page": 43,
+        "title": "AUTOMATIC TRANSMISSION — Removal of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Removal of Transmission"
+      },
+      {
+        "page": 44,
+        "title": "AUTOMATIC TRANSMISSION — Removal of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Removal of Transmission"
+      },
+      {
+        "page": 45,
+        "title": "DISASSEMBLY OF TRANSMISSION",
+        "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission"
+      },
+      {
+        "page": 46,
+        "title": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission"
+      },
+      {
+        "page": 47,
+        "title": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission"
+      },
+      {
+        "page": 48,
+        "title": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission"
+      },
+      {
+        "page": 49,
+        "title": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission"
+      },
+      {
+        "page": 50,
+        "title": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission"
+      },
+      {
+        "page": 51,
+        "title": "COMPONENT GROUP DISASSEMBLY, INSPECTION AND ASSEMBLY",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups"
+      },
+      {
+        "page": 52,
+        "title": "Oil Pump",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Oil Pump)"
+      },
+      {
+        "page": 53,
+        "title": "INSPECTION OF OIL PUMP",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Oil Pump)"
+      },
+      {
+        "page": 54,
+        "title": "ASSEMBLY OF OIL PUMP",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Oil Pump)"
+      },
+      {
+        "page": 55,
+        "title": "Overdrive Input Shaft and Clutch",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)"
+      },
+      {
+        "page": 56,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)"
+      },
+      {
+        "page": 57,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch) AT-57",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)"
+      },
+      {
+        "page": 58,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)"
+      },
+      {
+        "page": 59,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch) AT-59",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)"
+      },
+      {
+        "page": 60,
+        "title": "Overdrive Case and Brake",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Case and Brake)"
+      },
+      {
+        "page": 61,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Case and Brake)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Case and Brake)"
+      },
+      {
+        "page": 62,
+        "title": "ASSEMBLY OF OVERDRIVE CASE AND BRAKE",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Case and Brake)"
+      },
+      {
+        "page": 63,
+        "title": "Front Clutch",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Front Clutch)"
+      },
+      {
+        "page": 64,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Front Clutch)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Front Clutch)"
+      },
+      {
+        "page": 65,
+        "title": "INSPECT DISC, PALTE AND FLANGE / ASSEMBLY OF FRONT CLUTCH",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Front Clutch)"
+      },
+      {
+        "page": 66,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Front Clutch)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Front Clutch)"
+      },
+      {
+        "page": 67,
+        "title": "Rear Clutch",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Rear Clutch)"
+      },
+      {
+        "page": 68,
+        "title": "ASSEMBLY OF REAR CLUTCH",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Rear Clutch)"
+      },
+      {
+        "page": 69,
+        "title": "Center Support Assembly",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)"
+      },
+      {
+        "page": 70,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)"
+      },
+      {
+        "page": 71,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)"
+      },
+      {
+        "page": 72,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)"
+      },
+      {
+        "page": 73,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)"
+      },
+      {
+        "page": 74,
+        "title": "",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)"
+      },
+      {
+        "page": 75,
+        "title": "Planetary Gear Output Shaft",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)"
+      },
+      {
+        "page": 76,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)"
+      },
+      {
+        "page": 77,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)"
+      },
+      {
+        "page": 78,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)"
+      },
+      {
+        "page": 79,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)"
+      },
+      {
+        "page": 80,
+        "title": "Transmission Case and Rear Brake Pistons",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Transmission Case and Rear Brake Pistons)"
+      },
+      {
+        "page": 81,
+        "title": "REMOVE OUTER PISTON AND REACTION SLEEVE WITH COMPRESSED AIR / INSPECTION OF CASE COMPONENT GROUP",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Transmission Case and Rear Brake Pistons)"
+      },
+      {
+        "page": 82,
+        "title": "ASSEMBLY OF TRANSMISSION CASE AND REAR BRAKE PISTONS",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups"
+      },
+      {
+        "page": 83,
+        "title": "Valve Body",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 84,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 85,
+        "title": "(Lower Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 86,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 87,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 88,
+        "title": "INSPECTION OF LOWER VALVE BODY / ASSEMBLY OF LOWER VALVE BODY",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 89,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 90,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 91,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 92,
+        "title": "(Upper Front Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 93,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 94,
+        "title": "INSPECTION OF UPPER FRONT VALVE BODY / ASSEMBLY OF UPPER FRONT VALVE BODY",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 95,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 96,
+        "title": "INSTALL THROTTLE VALVE RETAINER",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 97,
+        "title": "(Upper Rear Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 98,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 99,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 100,
+        "title": "AUTOMATIC TRANSMISSION - Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 101,
+        "title": "(Assembly of Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 102,
+        "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)"
+      },
+      {
+        "page": 103,
+        "title": "Extension Housing / Torque Converter",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Extension Housing, Torque Converter)"
+      },
+      {
+        "page": 104,
+        "title": "Component Groups (Torque Converter, Electrical Parts)",
+        "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Torque Converter, Electrical Parts)"
+      },
+      {
+        "page": 105,
+        "title": "ASSEMBLY OF TRANSMISSION",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 106,
+        "title": "Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 107,
+        "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 108,
+        "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 109,
+        "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 110,
+        "title": "Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 111,
+        "title": "Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 112,
+        "title": "Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 113,
+        "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 114,
+        "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 115,
+        "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission"
+      },
+      {
+        "page": 116,
+        "title": "INSTALLATION OF TRANSMISSION",
+        "section_header": "AUTOMATIC TRANSMISSION — Installation of Transmission"
+      },
+      {
+        "page": 117,
+        "title": "Installation of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Installation of Transmission"
+      },
+      {
+        "page": 118,
+        "title": "Installation of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Installation of Transmission"
+      },
+      {
+        "page": 119,
+        "title": "Installation of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Installation of Transmission"
+      },
+      {
+        "page": 120,
+        "title": "Installation of Transmission",
+        "section_header": "AUTOMATIC TRANSMISSION — Installation of Transmission"
+      }
+    ]
+  },
+  {
+    "code": "B",
+    "name": "Standard Bolt Torque Specifications",
+    "pages": 3,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "STANDARD BOLT TORQUE SPECIFICATIONS",
+        "section_header": "STANDARD BOLT TORQUE SPECIFICATIONS"
+      },
+      {
+        "page": 2,
+        "title": "STANDARD BOLT TORQUE SPECIFICATIONS",
+        "section_header": "STANDARD BOLT TORQUE SPECIFICATIONS"
+      },
+      {
+        "page": 3,
+        "title": "SPECIFIED TORQUE FOR STANDARD BOLTS",
+        "section_header": "STANDARD BOLT TORQUE SPECIFICATIONS"
+      }
+    ]
+  },
+  {
+    "code": "BE",
+    "name": "Body Electrical System",
+    "pages": 121,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "BODY ELECTRICAL SYSTEM",
+        "section_header": "BODY ELECTRICAL SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "GENERAL INFORMATION",
+        "section_header": "BODY ELECTRICAL SYSTEM — General Information"
+      },
+      {
+        "page": 3,
+        "title": "BODY ELECTRICAL SYSTEM — General Information",
+        "section_header": "BODY ELECTRICAL SYSTEM — General Information"
+      },
+      {
+        "page": 4,
+        "title": "REPLACEMENT OF FUSES",
+        "section_header": "BODY ELECTRICAL SYSTEM — General Information"
+      },
+      {
+        "page": 5,
+        "title": "VOLTAGE CHECK / CONTINUITY AND RESISTANCE CHECK",
+        "section_header": "BODY ELECTRICAL SYSTEM — General Information"
+      },
+      {
+        "page": 6,
+        "title": "FINDING A SHORT CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — General Information"
+      },
+      {
+        "page": 7,
+        "title": "LOCATION OF SWITCHES AND RELAYS",
+        "section_header": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays"
+      },
+      {
+        "page": 8,
+        "title": "INSTRUMENT PANEL SWITCHES AND RELAYS",
+        "section_header": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays"
+      },
+      {
+        "page": 9,
+        "title": "PASSENGER COMPARTMENT SWITCHES AND RELAYS",
+        "section_header": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays"
+      },
+      {
+        "page": 10,
+        "title": "PASSENGER AND LUGGAGE COMPARTMENT SWITCHES AND RELAYS",
+        "section_header": "BODY ELECTRICAL SYSTEM — Location of Switches and Relays"
+      },
+      {
+        "page": 11,
+        "title": "IGNITION SWITCH",
+        "section_header": "BODY ELECTRICAL SYSTEM — Ignition Switch"
+      },
+      {
+        "page": 12,
+        "title": "LIGHTING Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Lighting"
+      },
+      {
+        "page": 13,
+        "title": "Light Control Switch and Headlight Dimmer Switch",
+        "section_header": "BODY ELECTRICAL SYSTEM — Lighting"
+      },
+      {
+        "page": 14,
+        "title": "Light Control Relays (Headlight and Taillight) and Light Retractor Relay",
+        "section_header": "BODY ELECTRICAL SYSTEM — Lighting"
+      },
+      {
+        "page": 15,
+        "title": "Light Retractor Control Relay and Motor Testing",
+        "section_header": "BODY ELECTRICAL SYSTEM — Lighting"
+      },
+      {
+        "page": 16,
+        "title": "Headlight Retainer Relay",
+        "section_header": "BODY ELECTRICAL SYSTEM — Lighting"
+      },
+      {
+        "page": 17,
+        "title": "BODY ELECTRICAL SYSTEM — Lighting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Lighting"
+      },
+      {
+        "page": 18,
+        "title": "BODY ELECTRICAL SYSTEM — Lighting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Lighting"
+      },
+      {
+        "page": 19,
+        "title": "REPLACEMENT OF TURN SIGNAL AND HAZARD WARNING SWITCH",
+        "section_header": "BODY ELECTRICAL SYSTEM — Lighting"
+      },
+      {
+        "page": 20,
+        "title": "Outside Handle Switch",
+        "section_header": "BODY ELECTRICAL SYSTEM - Lighting"
+      },
+      {
+        "page": 21,
+        "title": "HEADLIGHT CLEANER",
+        "section_header": "BODY ELECTRICAL SYSTEM — Headlight Cleaner"
+      },
+      {
+        "page": 22,
+        "title": "WIPERS AND WASHERS Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Wipers and Washers"
+      },
+      {
+        "page": 23,
+        "title": "REPLACEMENT OF FRONT WIPER AND WASHER SWITCH",
+        "section_header": "BODY ELECTRICAL SYSTEM — Wipers and Washers"
+      },
+      {
+        "page": 24,
+        "title": "Front Wiper Motor",
+        "section_header": "BODY ELECTRICAL SYSTEM — Wipers and Washers"
+      },
+      {
+        "page": 25,
+        "title": "Rear Wiper and Washer Switch",
+        "section_header": "BODY ELECTRICAL SYSTEM — Wipers and Washers"
+      },
+      {
+        "page": 26,
+        "title": "INSPECT THAT MOTOR OPERATES STOPPING AT STOP POSITION",
+        "section_header": "BODY ELECTRICAL SYSTEM — Wipers and Washers"
+      },
+      {
+        "page": 27,
+        "title": "INSTRUMENTS AND SENDER GAUGES",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 28,
+        "title": "Combination Meter and Gauge (Analog Type)",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 29,
+        "title": "Speedometer",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 30,
+        "title": "Fuel Gauge",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 31,
+        "title": "INSPECT LEVEL WARNING SWITCH OPERATION / WATER TEMPERATURE GAUGE",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 32,
+        "title": null,
+        "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges"
+      },
+      {
+        "page": 33,
+        "title": "Combination Meter and Gauge (Digital Type)",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 34,
+        "title": "Wiring connector sides",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 35,
+        "title": "Combination Meter (Digital Type)",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 36,
+        "title": "Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 37,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 38,
+        "title": "Instruments and Sender Gauges Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 39,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 40,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 41,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 42,
+        "title": "Lights do not dim when light and rheostat S/W turned ON",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 43,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 44,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 45,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 46,
+        "title": "Speedometer Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 47,
+        "title": "Speedometer Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 48,
+        "title": "Tachometer Troubleshooting - No display at all",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 49,
+        "title": "Instruments and Sender Gauges Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 50,
+        "title": "SECTION J - Tachometer - Lights do not dim when light and rheostat S/W turned ON",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 51,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 52,
+        "title": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges"
+      },
+      {
+        "page": 53,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 54,
+        "title": "",
+        "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges"
+      },
+      {
+        "page": 55,
+        "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 56,
+        "title": "Water temp. gauge - Defective indication",
+        "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges"
+      },
+      {
+        "page": 57,
+        "title": "ON-VEHICLE INSPECTION OF COMBINATION METER (Digital Type)",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 58,
+        "title": "Speedometer",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 59,
+        "title": "Fuel Gauge",
+        "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges"
+      },
+      {
+        "page": 60,
+        "title": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges",
+        "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges"
+      },
+      {
+        "page": 61,
+        "title": "REAR WINDOW DEFOGGER Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Rear Window Defogger"
+      },
+      {
+        "page": 62,
+        "title": "Rear Window Defogger Wires",
+        "section_header": "BODY ELECTRICAL SYSTEM — Rear Window Defogger"
+      },
+      {
+        "page": 63,
+        "title": "HEATER",
+        "section_header": "BODY ELECTRICAL SYSTEM — Heater"
+      },
+      {
+        "page": 64,
+        "title": "BODY ELECTRICAL SYSTEM — Heater",
+        "section_header": "BODY ELECTRICAL SYSTEM — Heater"
+      },
+      {
+        "page": 65,
+        "title": "POWER WINDOW",
+        "section_header": "BODY ELECTRICAL SYSTEM — Power Window"
+      },
+      {
+        "page": 66,
+        "title": "Power Main Relay and Power Window Motor",
+        "section_header": "BODY ELECTRICAL SYSTEM — Power Window"
+      },
+      {
+        "page": 67,
+        "title": "DOOR LOCK CONTROL SYSTEM",
+        "section_header": "BODY ELECTRICAL SYSTEM — Door Lock Control System"
+      },
+      {
+        "page": 68,
+        "title": "Door Lock Control Relay",
+        "section_header": "BODY ELECTRICAL SYSTEM — Door Lock Control System"
+      },
+      {
+        "page": 69,
+        "title": "SUN ROOF",
+        "section_header": "BODY ELECTRICAL SYSTEM — Sun Roof"
+      },
+      {
+        "page": 70,
+        "title": "CRUISE CONTROL SYSTEM Wiring Diagram",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 71,
+        "title": "Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 72,
+        "title": "INSPECTION OF SOURCE CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM - Cruise Control System"
+      },
+      {
+        "page": 73,
+        "title": "CONTINUED FROM PREVIOUS PAGE",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 74,
+        "title": "CONTINUED FROM PREVIOUS PAGE",
+        "section_header": "BODY ELECTRICAL SYSTEM - Cruise Control System"
+      },
+      {
+        "page": 75,
+        "title": "CONTINUED FROM PREVIOUS PAGE",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 76,
+        "title": "CONTINUED FROM PREVIOUS PAGE",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 77,
+        "title": "INSPECTION OF ACTUATOR CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 78,
+        "title": "INSPECTION OF STOP LIGHT SWITCH CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 79,
+        "title": "INSPECTION OF PARKING BRAKE SWITCH / INSPECTION OF CLUTCH SWITCH CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 80,
+        "title": "INSPECTION OF NEUTRAL START SWITCH CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 81,
+        "title": "INSPECTION OF SPEED SENSOR CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 82,
+        "title": "Cruise Control Computer Circuit INSPECTION OF COMPUTER CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 83,
+        "title": "Main Switch, Control Switch, Clutch Switch, Neutral Start Switch, Parking Brake Switch, Speed Sensor",
+        "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System"
+      },
+      {
+        "page": 84,
+        "title": "Stop Light Switch and Actuator",
+        "section_header": "BODY ELECTRICAL SYSTEM - Cruise Control System"
+      },
+      {
+        "page": 85,
+        "title": "REMOTE CONTROL MIRROR",
+        "section_header": "BODY ELECTRICAL SYSTEM — Remote Control Mirror"
+      },
+      {
+        "page": 86,
+        "title": "MIRROR HEATER",
+        "section_header": "BODY ELECTRICAL SYSTEM — Mirror Heater"
+      },
+      {
+        "page": 87,
+        "title": "THEFT DETERRENT SYSTEM",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 88,
+        "title": "Connectors",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 89,
+        "title": "Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 90,
+        "title": "INSPECTION OF SOURCE CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 91,
+        "title": "CONTINUED FROM PREVIOUS PAGE",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 92,
+        "title": "CONTINUED FROM PREVIOUS PAGE",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 93,
+        "title": "INSPECTION OF LH DOOR UNLOCK CIRCUIT / INSPECTION OF RH DOOR UNLOCK CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 94,
+        "title": "INSPECTION OF IGNITION SWITCH CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 95,
+        "title": "INSPECTION OF LH KEY UNLOCK SWITCH CIRCUIT / INSPECTION OF RH KEY UNLOCK SWITCH CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 96,
+        "title": "INSPECTION OF THEFT DETERRENT HORN CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 97,
+        "title": "INSPECTION OF LIGHT CONTROL RELAY CIRCUIT",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 98,
+        "title": "Theft Deterrent Computer",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 99,
+        "title": "Door Lock Switch, Back Door Courtesy Switch, Back Door Key Unlock Switch, Diode",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 100,
+        "title": "Theft Deterrent System",
+        "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System"
+      },
+      {
+        "page": 101,
+        "title": "RADIO, STEREO TAPE PLAYER AND ANTENNA",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 102,
+        "title": "TEST 2 and TEST 3",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 103,
+        "title": "Radio, Stereo Tape Player and Antenna Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 104,
+        "title": "Radio, Stereo Tape Player and Antenna Tests",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 105,
+        "title": "No sound from one speaker",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 106,
+        "title": "2. FAINT RECEPTION",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 107,
+        "title": "BAD SOUND QUALITY",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 108,
+        "title": "Sound quality bad when tape player played - Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 109,
+        "title": "DEFECTIVE AUTO-SEARCH MECHANISM",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 110,
+        "title": "Antenna Motor",
+        "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna"
+      },
+      {
+        "page": 111,
+        "title": "CLOCK",
+        "section_header": "BODY ELECTRICAL SYSTEM — Clock"
+      },
+      {
+        "page": 112,
+        "title": "BODY ELECTRICAL SYSTEM — Clock",
+        "section_header": "BODY ELECTRICAL SYSTEM — Clock"
+      },
+      {
+        "page": 113,
+        "title": "TRIP COMPUTER",
+        "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer"
+      },
+      {
+        "page": 114,
+        "title": "WIRING DIAGRAM",
+        "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer"
+      },
+      {
+        "page": 115,
+        "title": "Troubleshooting",
+        "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer"
+      },
+      {
+        "page": 116,
+        "title": "INSPECTION OF WIRING CONNECTOR LINE",
+        "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer"
+      },
+      {
+        "page": 117,
+        "title": null,
+        "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer"
+      },
+      {
+        "page": 118,
+        "title": "Trip Computer Diagnostics",
+        "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer"
+      },
+      {
+        "page": 119,
+        "title": "TEST B",
+        "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer"
+      },
+      {
+        "page": 120,
+        "title": "Trip Computer Troubleshooting Test C",
+        "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer"
+      },
+      {
+        "page": 121,
+        "title": "BODY ELECTRICAL SYSTEM — Trip Computer",
+        "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer"
+      }
+    ]
+  },
+  {
+    "code": "BO",
+    "name": "Body",
+    "pages": 52,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "BODY",
+        "section_header": "BODY"
+      },
+      {
+        "page": 2,
+        "title": "HOOD",
+        "section_header": "BODY — Hood"
+      },
+      {
+        "page": 3,
+        "title": "FRONT DOOR COMPONENTS",
+        "section_header": "BODY — Front Door"
+      },
+      {
+        "page": 4,
+        "title": "DISASSEMBLY OF FRONT DOOR",
+        "section_header": "BODY — Front Door"
+      },
+      {
+        "page": 5,
+        "title": "BODY — Front Door",
+        "section_header": "BODY — Front Door"
+      },
+      {
+        "page": 6,
+        "title": "INSTALLATION OF FRONT DOOR",
+        "section_header": "BODY — Front Door"
+      },
+      {
+        "page": 7,
+        "title": "Front Door Installation Procedures",
+        "section_header": "BODY — Front Door"
+      },
+      {
+        "page": 8,
+        "title": "BODY — Front Door",
+        "section_header": "BODY — Front Door"
+      },
+      {
+        "page": 9,
+        "title": null,
+        "section_header": "BODY — Front Door"
+      },
+      {
+        "page": 10,
+        "title": "ADJUSTMENT OF FRONT DOOR",
+        "section_header": "BODY — Front Door"
+      },
+      {
+        "page": 11,
+        "title": "BACK DOOR",
+        "section_header": "BODY — Back Door"
+      },
+      {
+        "page": 12,
+        "title": "MOULDING\nWindshield Outside Moulding",
+        "section_header": "BODY — Moulding"
+      },
+      {
+        "page": 13,
+        "title": null,
+        "section_header": "BODY — Moulding"
+      },
+      {
+        "page": 14,
+        "title": null,
+        "section_header": "BODY -- Moulding"
+      },
+      {
+        "page": 15,
+        "title": "BODY — Moulding",
+        "section_header": "BODY — Moulding"
+      },
+      {
+        "page": 16,
+        "title": "Side Moulding and Garnish",
+        "section_header": "BODY — Moulding"
+      },
+      {
+        "page": 17,
+        "title": "REMOVAL OF QUARTER BELT MOULDING / INSTALLATION OF QUARTER BELT MOULDING / REMOVAL OF QUARTER CORNER MOULDING",
+        "section_header": "BODY — Moulding"
+      },
+      {
+        "page": 18,
+        "title": "INSTALLATION OF QUARTER CORNER MOULDING / REMOVAL OF CENTER PILLAR GARNISH / INSTALLATION OF CENTER PILLAR GARNISH / REMOVAL OF DOOR BELT MOULDING",
+        "section_header": "BODY — Moulding"
+      },
+      {
+        "page": 19,
+        "title": "INSTALLATION OF DOOR BELT MOULDING / REMOVAL OF OUTSIDE MOULDING / INSTALLATION OF OUTSIDE MOULDING / REMOVAL OF ROCKER PANEL MOULDING / INSTALLATION OF ROCKER PANEL MOULDING",
+        "section_header": "BODY — Moulding"
+      },
+      {
+        "page": 20,
+        "title": "WINDSHIELD TOOLS AND SUPPLIES",
+        "section_header": "BODY — Windshield"
+      },
+      {
+        "page": 21,
+        "title": "COMPONENTS and REMOVAL OF WINDSHIELD",
+        "section_header": "BODY — Windshield"
+      },
+      {
+        "page": 22,
+        "title": "REMOVE CLIPS / REMOVE WINDSHIELD GLASS / INSPECTION AND CLEANING",
+        "section_header": "BODY — Windshield"
+      },
+      {
+        "page": 23,
+        "title": "BODY — Windshield",
+        "section_header": "BODY — Windshield"
+      },
+      {
+        "page": 24,
+        "title": "WINDSHIELD INSTALLATION PROCEDURE",
+        "section_header": "BODY — Windshield"
+      },
+      {
+        "page": 25,
+        "title": null,
+        "section_header": "BODY — Windshield"
+      },
+      {
+        "page": 26,
+        "title": "QUARTER WINDOW GLASS COMPONENTS",
+        "section_header": "BODY — Quarter Window Glass"
+      },
+      {
+        "page": 27,
+        "title": "REMOVAL OF QUARTER WINDOW GLASS",
+        "section_header": "BODY — Quarter Window Glass"
+      },
+      {
+        "page": 28,
+        "title": "REMOVE QUARTER WINDOW GLASS / INSTALLATION OF QUARTER WINDOW GLASS",
+        "section_header": "BODY — Quarter Window Glass"
+      },
+      {
+        "page": 29,
+        "title": "Quarter Window Glass Installation",
+        "section_header": "BODY — Quarter Window Glass"
+      },
+      {
+        "page": 30,
+        "title": null,
+        "section_header": "BODY — Quarter Window Glass"
+      },
+      {
+        "page": 31,
+        "title": "BACK DOOR GLASS",
+        "section_header": "BODY — Back Door Glass"
+      },
+      {
+        "page": 32,
+        "title": "Back Door Glass Removal",
+        "section_header": "BODY — Back Door Glass"
+      },
+      {
+        "page": 33,
+        "title": "INSTALLATION OF REAR WINDOW",
+        "section_header": "BODY — Back Door Glass"
+      },
+      {
+        "page": 34,
+        "title": "BODY — Back Door Glass",
+        "section_header": "BODY — Back Door Glass"
+      },
+      {
+        "page": 35,
+        "title": "SUN ROOF COMPONENTS",
+        "section_header": "BODY — Sun Roof"
+      },
+      {
+        "page": 36,
+        "title": "ON-VEHICLE INSPECTION and ADJUSTMENT OF SLIDING ROOF",
+        "section_header": "BODY — Sun Roof"
+      },
+      {
+        "page": 37,
+        "title": "Sun Roof Adjustment",
+        "section_header": "BODY — Sun Roof"
+      },
+      {
+        "page": 38,
+        "title": "REMOVAL OF SUN ROOF / DISASSEMBLY OF SUN ROOF",
+        "section_header": "BODY — Sun Roof"
+      },
+      {
+        "page": 39,
+        "title": "ASSEMBLY OF SUN ROOF / INSTALLATION OF SUN ROOF",
+        "section_header": "BODY — Sun Roof"
+      },
+      {
+        "page": 40,
+        "title": "BODY — Sun Roof",
+        "section_header": "BODY — Sun Roof"
+      },
+      {
+        "page": 41,
+        "title": "SAFETY PAD",
+        "section_header": "BODY — Safety Pad"
+      },
+      {
+        "page": 42,
+        "title": "REMOVAL OF SAFETY PAD",
+        "section_header": "BODY — Safety Pad"
+      },
+      {
+        "page": 43,
+        "title": null,
+        "section_header": "BODY - Safety Pad"
+      },
+      {
+        "page": 44,
+        "title": "REMOVE FRONT PILLAR GARNISH, DEFROSTER NOZZLE GARNISH, AND SAFETY PAD",
+        "section_header": "BODY — Safety Pad"
+      },
+      {
+        "page": 45,
+        "title": "FRONT SEAT COMPONENTS",
+        "section_header": "BODY — Front Seat"
+      },
+      {
+        "page": 46,
+        "title": "REAR SEAT COMPONENTS",
+        "section_header": "BODY — Rear Seat"
+      },
+      {
+        "page": 47,
+        "title": "SEAT BELT",
+        "section_header": "BODY — Seat Belt"
+      },
+      {
+        "page": 48,
+        "title": null,
+        "section_header": "BODY — Seat Belt"
+      },
+      {
+        "page": 49,
+        "title": "BODY DIMENSIONS",
+        "section_header": "BODY — Body Dimensions"
+      },
+      {
+        "page": 50,
+        "title": "Engine Compartment",
+        "section_header": "BODY — Body Dimensions"
+      },
+      {
+        "page": 51,
+        "title": "Body Dimensions - Under Body",
+        "section_header": "BODY — Body Dimensions"
+      },
+      {
+        "page": 52,
+        "title": "Luggage Compartment",
+        "section_header": "BODY — Body Dimensions"
+      }
+    ]
+  },
+  {
+    "code": "BR",
+    "name": "Brake System",
+    "pages": 31,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "BRAKE SYSTEM",
+        "section_header": "BRAKE SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "PRECAUTIONS",
+        "section_header": "BRAKE SYSTEM — Precautions, Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "TROUBLESHOOTING (Cont'd)",
+        "section_header": "BRAKE SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 4,
+        "title": "TROUBLESHOOTING (Cont'd)",
+        "section_header": "BRAKE SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 5,
+        "title": "TROUBLESHOOTING (Cont'd)",
+        "section_header": "BRAKE SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 6,
+        "title": "CHECKS AND ADJUSTMENTS",
+        "section_header": "BRAKE SYSTEM — Checks and Adjustments"
+      },
+      {
+        "page": 7,
+        "title": "OPERATIONAL TEST OF BRAKE BOOSTER",
+        "section_header": "BRAKE SYSTEM — Checks and Adjustments"
+      },
+      {
+        "page": 8,
+        "title": "BRAKE SYSTEM — Checks and Adjustments",
+        "section_header": "BRAKE SYSTEM — Checks and Adjustments"
+      },
+      {
+        "page": 9,
+        "title": "MASTER CYLINDER",
+        "section_header": "BRAKE SYSTEM — Master Cylinder"
+      },
+      {
+        "page": 10,
+        "title": "BRAKE SYSTEM — Master Cylinder",
+        "section_header": "BRAKE SYSTEM — Master Cylinder"
+      },
+      {
+        "page": 11,
+        "title": "INSTALLATION OF MASTER CYLINDER",
+        "section_header": "BRAKE SYSTEM — Master Cylinder"
+      },
+      {
+        "page": 12,
+        "title": "BRAKE BOOSTER",
+        "section_header": "BRAKE SYSTEM — Brake Booster"
+      },
+      {
+        "page": 13,
+        "title": null,
+        "section_header": "BRAKE SYSTEM — Brake Booster"
+      },
+      {
+        "page": 14,
+        "title": "FRONT BRAKE COMPONENTS",
+        "section_header": "BRAKE SYSTEM — Front Brake"
+      },
+      {
+        "page": 15,
+        "title": "BRAKE SYSTEM — Front Brake",
+        "section_header": "BRAKE SYSTEM — Front Brake"
+      },
+      {
+        "page": 16,
+        "title": "REMOVAL OF CYLINDER and DISASSEMBLY OF CYLINDER",
+        "section_header": "BRAKE SYSTEM — Front Brake"
+      },
+      {
+        "page": 17,
+        "title": "BRAKE SYSTEM — Front Brake",
+        "section_header": "BRAKE SYSTEM — Front Brake"
+      },
+      {
+        "page": 18,
+        "title": "BRAKE SYSTEM — Front Brake",
+        "section_header": "BRAKE SYSTEM — Front Brake"
+      },
+      {
+        "page": 19,
+        "title": null,
+        "section_header": "BRAKE SYSTEM — Front Brake"
+      },
+      {
+        "page": 20,
+        "title": "REAR BRAKE",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 21,
+        "title": "Rear Brake Service Procedure",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 22,
+        "title": "REMOVAL OF CYLINDER / DISASSEMBLY OF CYLINDER",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 23,
+        "title": "BRAKE SYSTEM — Rear Brake",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 24,
+        "title": "BRAKE SYSTEM — Rear Brake",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 25,
+        "title": "BRAKE SYSTEM — Rear Brake",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 26,
+        "title": "Rear Parking Brake",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 27,
+        "title": "REMOVE REAR SHOE / INSPECTION AND ADJUSTMENT OF PARKING BRAKE COMPONENTS",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 28,
+        "title": "ASSEMBLY OF PARKING BRAKE AND SHIM REPLACEMENT",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 29,
+        "title": "",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 30,
+        "title": "BRAKE SYSTEM — Rear Brake",
+        "section_header": "BRAKE SYSTEM — Rear Brake"
+      },
+      {
+        "page": 31,
+        "title": "BRAKE HOSES AND TUBES",
+        "section_header": "BRAKE SYSTEM — Brake Hoses and Tubes"
+      }
+    ]
+  },
+  {
+    "code": "C",
+    "name": "SST and SSM",
+    "pages": 10,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "SST AND SSM",
+        "section_header": "SST AND SSM"
+      },
+      {
+        "page": 2,
+        "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+        "section_header": "SST AND SSM — SST (Special Service Tools)"
+      },
+      {
+        "page": 3,
+        "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+        "section_header": "SST AND SSM - SST (Special Service Tools)"
+      },
+      {
+        "page": 4,
+        "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+        "section_header": "SST AND SSM — SST (Special Service Tools)"
+      },
+      {
+        "page": 5,
+        "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+        "section_header": "SST AND SSM — SST (Special Service Tools)"
+      },
+      {
+        "page": 6,
+        "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+        "section_header": "SST AND SSM — SST (Special Service Tools)"
+      },
+      {
+        "page": 7,
+        "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+        "section_header": "SST AND SSM — SST (Special Service Tools)"
+      },
+      {
+        "page": 8,
+        "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+        "section_header": "SST AND SSM — SST (Special Service Tools)"
+      },
+      {
+        "page": 9,
+        "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+        "section_header": "SST AND SSM — SST (Special Service Tools)"
+      },
+      {
+        "page": 10,
+        "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+        "section_header": "SST AND SSM — SST (Special Service Tools)"
+      }
+    ]
+  },
+  {
+    "code": "CH",
+    "name": "Charging System",
+    "pages": 11,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "CHARGING SYSTEM",
+        "section_header": "CHARGING SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "PRECAUTIONS",
+        "section_header": "CHARGING SYSTEM — Precautions, Troubleshooting, On-Vehicle Inspection"
+      },
+      {
+        "page": 3,
+        "title": "On-Vehicle Inspection",
+        "section_header": "CHARGING SYSTEM — On-Vehicle Inspection"
+      },
+      {
+        "page": 4,
+        "title": "CHECK CHARGING CIRCUIT WITHOUT LOAD / CHECK CHARGING CIRCUIT WITH LOAD",
+        "section_header": "CHARGING SYSTEM — On-Vehicle Inspection"
+      },
+      {
+        "page": 5,
+        "title": "ALTERNATOR",
+        "section_header": "CHARGING SYSTEM — Alternator"
+      },
+      {
+        "page": 6,
+        "title": "DISASSEMBLY OF ALTERNATOR",
+        "section_header": "CHARGING SYSTEM — Alternator"
+      },
+      {
+        "page": 7,
+        "title": "REMOVE REAR END FRAME / REMOVE ROTOR FROM DRIVE END FRAME / INSPECTION OF ALTERNATOR",
+        "section_header": "CHARGING SYSTEM - Alternator"
+      },
+      {
+        "page": 8,
+        "title": "CHARGING SYSTEM — Alternator",
+        "section_header": "CHARGING SYSTEM — Alternator"
+      },
+      {
+        "page": 9,
+        "title": "CHARGING SYSTEM - Alternator",
+        "section_header": "CHARGING SYSTEM — Alternator"
+      },
+      {
+        "page": 10,
+        "title": "ASSEMBLY OF ALTERNATOR",
+        "section_header": "CHARGING SYSTEM — Alternator"
+      },
+      {
+        "page": 11,
+        "title": "INSTALL BRUSH HOLDER AND IC REGULATOR / INSTALLATION OF ALTERNATOR",
+        "section_header": "CHARGING SYSTEM — Alternator"
+      }
+    ]
+  },
+  {
+    "code": "CL",
+    "name": "Clutch",
+    "pages": 11,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "CLUTCH",
+        "section_header": "CLUTCH"
+      },
+      {
+        "page": 2,
+        "title": "TROUBLESHOOTING",
+        "section_header": "CLUTCH — Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "CHECK AND ADJUSTMENT OF CLUTCH PEDAL",
+        "section_header": "CLUTCH — Check and Adjustment of Clutch Pedal, Bleeding of Clutch System"
+      },
+      {
+        "page": 4,
+        "title": "CLUTCH MASTER CYLINDER",
+        "section_header": "CLUTCH — Clutch Master Cylinder"
+      },
+      {
+        "page": 5,
+        "title": "INSTALLATION OF MASTER CYLINDER",
+        "section_header": "CLUTCH — Clutch Master Cylinder, Clutch Release Cylinder"
+      },
+      {
+        "page": 6,
+        "title": "DISASSEMBLY OF RELEASE CYLINDER / ASSEMBLY OF RELEASE CYLINDER / INSTALLATION OF RELEASE CYLINDER",
+        "section_header": "CLUTCH — Clutch Release Cylinder"
+      },
+      {
+        "page": 7,
+        "title": "CLUTCH UNIT",
+        "section_header": "CLUTCH — Clutch Unit"
+      },
+      {
+        "page": 8,
+        "title": "INSPECTION OF CLUTCH PARTS",
+        "section_header": "CLUTCH -- Clutch Unit"
+      },
+      {
+        "page": 9,
+        "title": null,
+        "section_header": "CLUTCH — Clutch Unit"
+      },
+      {
+        "page": 10,
+        "title": "CLUTCH — Clutch Unit",
+        "section_header": "CLUTCH — Clutch Unit"
+      },
+      {
+        "page": 11,
+        "title": "CL-11",
+        "section_header": "CLUTCH — Clutch Unit"
+      }
+    ]
+  },
+  {
+    "code": "CO",
+    "name": "Cooling System",
+    "pages": 7,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "COOLING SYSTEM",
+        "section_header": "COOLING SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "TROUBLESHOOTING",
+        "section_header": "COOLING SYSTEM — Troubleshooting, Check and Replace Engine Coolant"
+      },
+      {
+        "page": 3,
+        "title": "WATER PUMP",
+        "section_header": "COOLING SYSTEM — Water Pump"
+      },
+      {
+        "page": 4,
+        "title": "COOLING SYSTEM - Water Pump",
+        "section_header": "COOLING SYSTEM - Water Pump"
+      },
+      {
+        "page": 5,
+        "title": "INSTALLATION OF WATER PUMP",
+        "section_header": "COOLING SYSTEM — Water Pump"
+      },
+      {
+        "page": 6,
+        "title": "THERMOSTAT",
+        "section_header": "COOLING SYSTEM — Thermostat"
+      },
+      {
+        "page": 7,
+        "title": "RADIATOR",
+        "section_header": "COOLING SYSTEM — Radiator"
+      }
+    ]
+  },
+  {
+    "code": "D",
+    "name": "Automatic Transmission Hydraulic Circuit",
+    "pages": 10,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "AUTOMATIC TRANSMISSION HYDRAULIC CIRCUIT",
+        "section_header": "AUTOMATIC TRANSMISSION HYDRAULIC CIRCUIT"
+      },
+      {
+        "page": 2,
+        "title": "\"R\" RANGE CIRCUIT",
+        "section_header": "AA4DE HYDRAULIC CIRCUIT"
+      },
+      {
+        "page": 3,
+        "title": "4-CYLINDER, FIRST GEAR CIRCUIT",
+        "section_header": "WIRING DIAGRAM"
+      },
+      {
+        "page": 4,
+        "title": "AUTOMATIC TRANSMISSION SECOND GEAR CIRCUIT LOCK-UP OFF",
+        "section_header": "AUTOMATIC TRANSMISSION SECOND GEAR CIRCUIT LOCK-UP OFF"
+      },
+      {
+        "page": 5,
+        "title": "MA70E RANGE THIRD GEAR CIRCUIT LOCK-UP OFF",
+        "section_header": "WIRING DIAGRAM"
+      },
+      {
+        "page": 6,
+        "title": "A32E '70 RANGE 6D GEAR CIRCUIT LOCK-UP OFF",
+        "section_header": "A32E '70 RANGE 6D GEAR CIRCUIT LOCK-UP OFF"
+      },
+      {
+        "page": 7,
+        "title": "A/C&DE '72 RANGE FIRST GE-ER CIRCUIT",
+        "section_header": "A/C&DE '72 RANGE FIRST GE-ER CIRCUIT"
+      },
+      {
+        "page": 8,
+        "title": "A27 RANGE SECOND GEAR CIRCUIT LOCK-UP OFF",
+        "section_header": "A27 RANGE SECOND GEAR CIRCUIT LOCK-UP OFF"
+      },
+      {
+        "page": 9,
+        "title": "4A-GE 'L' - RANGE FIRST GEAR CIRCUIT",
+        "section_header": "4A-GE 'L' - RANGE FIRST GEAR CIRCUIT"
+      },
+      {
+        "page": 10,
+        "title": "LOCK-UP CIRCUIT",
+        "section_header": "LOCK-UP CIRCUIT"
+      }
+    ]
+  },
+  {
+    "code": "E",
+    "name": "Electrical Wiring Diagrams",
+    "pages": 21,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "ELECTRICAL WIRING DIAGRAMS",
+        "section_header": "ELECTRICAL WIRING DIAGRAMS"
+      },
+      {
+        "page": 2,
+        "title": "CELICA SUPRA - 1986 Model (Page 1 to Page 5)",
+        "section_header": "SYSTEM INDEX"
+      },
+      {
+        "page": 3,
+        "title": "CELICA SUPRA ELECTRICAL WIRING DIAGRAM-1986 Model (Page 1 to Page",
+        "section_header": "CELICA SUPRA ELECTRICAL WIRING DIAGRAM-1986 Model (Page 1 to Page"
+      },
+      {
+        "page": 4,
+        "title": "TCCS Wiring Diagram",
+        "section_header": "TCCS"
+      },
+      {
+        "page": 5,
+        "title": "WIRING DIAGRAM",
+        "section_header": "ECT (Electronic Controlled Transmission)"
+      },
+      {
+        "page": 6,
+        "title": "Charging System Wiring Diagram",
+        "section_header": "Electronic Control Transmission - Charging"
+      },
+      {
+        "page": 7,
+        "title": "2 CELICA SUPRA (Cont'd)",
+        "section_header": "2 CELICA SUPRA (Cont'd)"
+      },
+      {
+        "page": 8,
+        "title": "Wiring Diagram",
+        "section_header": "Air Conditioner, Cooler and Heater"
+      },
+      {
+        "page": 9,
+        "title": "Wiring Diagram - Combination Meter",
+        "section_header": "COMBINATION METER - Wiring Diagram"
+      },
+      {
+        "page": 10,
+        "title": "Wiring Diagram - Cooling System and Related Components",
+        "section_header": "WIRING DIAGRAM"
+      },
+      {
+        "page": 11,
+        "title": "Power Windows and Sun Roof Wiring Diagram",
+        "section_header": "CELICA SUPRA (Cont'd)"
+      },
+      {
+        "page": 12,
+        "title": "Cruise Control and Fog Lights Wiring Diagram",
+        "section_header": "ELECTRICAL - Wiring Diagrams"
+      },
+      {
+        "page": 13,
+        "title": "Turn Signal, Hazard, Horn, and Wiper System",
+        "section_header": "ELECTRICAL WIRING DIAGRAM"
+      },
+      {
+        "page": 14,
+        "title": "WIPER AND WASHER WIRING DIAGRAM",
+        "section_header": "WIPER AND WASHER"
+      },
+      {
+        "page": 15,
+        "title": "Taillights and Illumination",
+        "section_header": "4 CELICA SUPRA (Cont'd)"
+      },
+      {
+        "page": 16,
+        "title": "Headlights Wiring Diagram",
+        "section_header": "HEADLIGHTS"
+      },
+      {
+        "page": 17,
+        "title": "INTERIOR LIGHTS WIRING DIAGRAM",
+        "section_header": "INTERIOR LIGHTS"
+      },
+      {
+        "page": 18,
+        "title": "Remote Control Mirrors with Heater - Wiring Diagram",
+        "section_header": "ELECTRICAL"
+      },
+      {
+        "page": 19,
+        "title": "CELICA SUPRA (Cont'd)",
+        "section_header": "CELICA SUPRA (Cont'd)"
+      },
+      {
+        "page": 20,
+        "title": "Door Locks",
+        "section_header": "Door Locks Wiring Diagram"
+      },
+      {
+        "page": 21,
+        "title": "THEFT DETERRENT SYSTEM WIRING DIAGRAM",
+        "section_header": "Theft Deterrent System"
+      }
+    ]
+  },
+  {
+    "code": "EC",
+    "name": "Emission Control Systems",
+    "pages": 16,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "EMISSION CONTROL SYSTEMS",
+        "section_header": "EMISSION CONTROL SYSTEMS"
+      },
+      {
+        "page": 2,
+        "title": "SYSTEM PURPOSE",
+        "section_header": "EMISSION CONTROL SYSTEMS — System Purpose"
+      },
+      {
+        "page": 3,
+        "title": "COMPONENT LAYOUT AND SCHEMATIC DRAWING",
+        "section_header": "EMISSION CONTROL SYSTEMS — Component Layout and Schematic Drawing"
+      },
+      {
+        "page": 4,
+        "title": "POSITIVE CRANKCASE VENTILATION (PCV) SYSTEM",
+        "section_header": "EMISSION CONTROL SYSTEMS — Positive Crankcase Ventilation (PCV) System"
+      },
+      {
+        "page": 5,
+        "title": "FUEL EVAPORATIVE EMISSION CONTROL (EVAP) SYSTEM",
+        "section_header": "EMISSION CONTROL SYSTEMS — Fuel Evaporative Emission Control (EVAP) System"
+      },
+      {
+        "page": 6,
+        "title": "INSPECTION OF CHARCOAL CANISTER",
+        "section_header": "EMISSION CONTROL SYSTEMS — Fuel Evaporative Emission Control (EVAP) System"
+      },
+      {
+        "page": 7,
+        "title": "DASH POT (DP) SYSTEM",
+        "section_header": "EMISSION CONTROL SYSTEMS — Dash Pot (DP) System"
+      },
+      {
+        "page": 8,
+        "title": "INSPECTION OF DP SYSTEM",
+        "section_header": "EMISSION CONTROL SYSTEMS — Dash Pot (DP) System"
+      },
+      {
+        "page": 9,
+        "title": "INSPECTION OF VTV",
+        "section_header": "EMISSION CONTROL SYSTEMS — Dash Pot (DP) System"
+      },
+      {
+        "page": 10,
+        "title": "EXHAUST GAS RECIRCULATION (EGR) SYSTEM",
+        "section_header": "EMISSION CONTROL SYSTEMS — Exhaust Gas Recirculation (EGR) System"
+      },
+      {
+        "page": 11,
+        "title": "Exhaust Gas Recirculation (EGR) System",
+        "section_header": "EMISSION CONTROL SYSTEMS — Exhaust Gas Recirculation (EGR) System"
+      },
+      {
+        "page": 12,
+        "title": "INSPECTION OF EGR VALVE",
+        "section_header": "EMISSION CONTROL SYSTEMS — Exhaust Gas Recirculation (EGR) System"
+      },
+      {
+        "page": 13,
+        "title": "CHECK EGR VALVE / INSPECTION OF EGR VACUUM MODULATOR / INSPECTION OF VSV",
+        "section_header": "EMISSION CONTROL SYSTEMS — Exhaust Gas Recirculation (EGR) System"
+      },
+      {
+        "page": 14,
+        "title": "EMISSION CONTROL SYSTEMS — Exhaust Gas Recirculation (EGR) System",
+        "section_header": "EMISSION CONTROL SYSTEMS — Exhaust Gas Recirculation (EGR) System"
+      },
+      {
+        "page": 15,
+        "title": "THREE-WAY CATALYST (TWC) SYSTEM",
+        "section_header": "EMISSION CONTROL SYSTEMS — Three-Way Catalyst (TWC) System"
+      },
+      {
+        "page": 16,
+        "title": "INSPECTION OF HEAT INSULATOR and REPLACEMENT OF CATALYTIC CONVERTER",
+        "section_header": "EMISSION CONTROL SYSTEMS — Three-Way Catalyst (TWC) System"
+      }
+    ]
+  },
+  {
+    "code": "EM",
+    "name": "Engine Mechanical",
+    "pages": 64,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "ENGINE MECHANICAL",
+        "section_header": "ENGINE MECHANICAL"
+      },
+      {
+        "page": 2,
+        "title": "TROUBLESHOOTING",
+        "section_header": "ENGINE MECHANICAL — Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "TROUBLESHOOTING (Cont'd)",
+        "section_header": "ENGINE MECHANICAL — Troubleshooting"
+      },
+      {
+        "page": 4,
+        "title": "TROUBLESHOOTING (Cont'd)",
+        "section_header": "ENGINE MECHANICAL — Troubleshooting"
+      },
+      {
+        "page": 5,
+        "title": "IDLE HC/CO CONCENTRATION",
+        "section_header": "ENGINE MECHANICAL — Idle HC/CO Concentration"
+      },
+      {
+        "page": 6,
+        "title": "COMPRESSION CHECK",
+        "section_header": "ENGINE MECHANICAL — Compression Check"
+      },
+      {
+        "page": 7,
+        "title": "TIMING BELT",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 8,
+        "title": "TIMING BELT",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 9,
+        "title": "ENGINE MECHANICAL — Timing Belt",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 10,
+        "title": "ENGINE MECHANICAL — Timing Belt",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 11,
+        "title": "CHECK TIMING BELT TENSION / REMOVAL OF TIMING BELT",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 12,
+        "title": "ENGINE MECHANICAL — Timing Belt",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 13,
+        "title": "ENGINE MECHANICAL — Timing Belt",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 14,
+        "title": "ENGINE MECHANICAL — Timing Belt",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 15,
+        "title": "INSTALLATION OF TIMING BELT",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 16,
+        "title": "ENGINE MECHANICAL — Timing Belt",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 17,
+        "title": "",
+        "section_header": "ENGINE MECHANICAL — Timing Belt"
+      },
+      {
+        "page": 18,
+        "title": "CYLINDER HEAD",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 19,
+        "title": "CYLINDER HEAD REMOVAL",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 20,
+        "title": "",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 21,
+        "title": "ENGINE MECHANICAL — Cylinder Head",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 22,
+        "title": "REMOVE CYLINDER HEAD BOLTS / REMOVE CYLINDER HEAD / DISASSEMBLY OF CYLINDER HEAD",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 23,
+        "title": "ENGINE MECHANICAL — Cylinder Head",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 24,
+        "title": "ENGINE MECHANICAL — Cylinder Head",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 25,
+        "title": "INSPECT VALVE STEM GUIDE WEAR / REPLACE VALVE GUIDE",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 26,
+        "title": "ENGINE MECHANICAL — Cylinder Head",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 27,
+        "title": "ENGINE MECHANICAL — Cylinder Head",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 28,
+        "title": "ENGINE MECHANICAL — Cylinder Head",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 29,
+        "title": "ASSEMBLY OF CYLINDER HEAD",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 30,
+        "title": "REMOVE CAMSHAFTS FROM CAMSHAFT HOUSINGS AND INSPECT",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 31,
+        "title": "INSPECT CAMSHAFT HOUSINGS FOR FLATNESS / REPLACEMENT OF CAMSHAFT HOUSING OIL SEAL",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 32,
+        "title": "",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 33,
+        "title": "ENGINE MECHANICAL — Cylinder Head",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 34,
+        "title": "INSTALLATION OF CYLINDER HEAD",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 35,
+        "title": "",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 36,
+        "title": "ENGINE MECHANICAL — Cylinder Head",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 37,
+        "title": "Cylinder Head Installation Steps",
+        "section_header": "ENGINE MECHANICAL — Cylinder Head"
+      },
+      {
+        "page": 38,
+        "title": "CYLINDER BLOCK",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 39,
+        "title": "ENGINE MECHANICAL — Cylinder Block",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 40,
+        "title": "REMOVE COMPRESSOR WITH BRACKET FROM CYLINDER BLOCK (continued)",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 41,
+        "title": "ENGINE MECHANICAL — Cylinder Block",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 42,
+        "title": "DISASSEMBLY OF CYLINDER BLOCK",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 43,
+        "title": "REMOVE TIMING BELT CASE WITH WATER PUMP THROUGH MEASURE OIL CLEARANCE",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 44,
+        "title": null,
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 45,
+        "title": "PUSH OUT PISTON AND CONNECTING ROD ASSEMBLY",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 46,
+        "title": "ENGINE MECHANICAL — Cylinder Block",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 47,
+        "title": "ENGINE MECHANICAL — Cylinder Block",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 48,
+        "title": "INSPECTION OF CYLINDER BLOCK",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 49,
+        "title": "DISASSEMBLY OF PISTON AND CONNECTING ROD ASSEMBLY",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 50,
+        "title": "CYLINDER BLOCK",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 51,
+        "title": "INSPECT CONNECTING RODS / REPLACEMENT OF ROD BUSHING",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 52,
+        "title": "ENGINE MECHANICAL — Cylinder Block",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 53,
+        "title": "ASSEMBLY OF PISTON AND CONNECTING ROD ASSEMBLY",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 54,
+        "title": "GRIND CRANK PIN AND/OR MAIN JOURNAL IF NECESSARY, INSPECTION AND REPAIR OF OIL PUMP DRIVE SHAFT COMPONENTS",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 55,
+        "title": "No. 2 Bearing Replacement",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 56,
+        "title": "REPLACEMENT OF OIL SEALS",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 57,
+        "title": "ENGINE MECHANICAL — Cylinder Block",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 58,
+        "title": "ASSEMBLY OF CYLINDER BLOCK",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 59,
+        "title": "ENGINE MECHANICAL — Cylinder Block",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 60,
+        "title": "ENGINE MECHANICAL — Cylinder Block",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 61,
+        "title": "INSTALLATION OF ENGINE",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 62,
+        "title": "ENGINE MECHANICAL — Cylinder Block",
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 63,
+        "title": null,
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      },
+      {
+        "page": 64,
+        "title": null,
+        "section_header": "ENGINE MECHANICAL — Cylinder Block"
+      }
+    ]
+  },
+  {
+    "code": "FA",
+    "name": "Front Axle And Suspension",
+    "pages": 19,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "FRONT AXLE AND SUSPENSION",
+        "section_header": "FRONT AXLE AND SUSPENSION"
+      },
+      {
+        "page": 2,
+        "title": "TROUBLESHOOTING",
+        "section_header": "FRONT AXLE AND SUSPENSION — Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "FRONT WHEEL ALIGNMENT",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Wheel Alignment"
+      },
+      {
+        "page": 4,
+        "title": "FRONT AXLE AND SUSPENSION - Front Wheel Alignment",
+        "section_header": "FRONT AXLE AND SUSPENSION - Front Wheel Alignment"
+      },
+      {
+        "page": 5,
+        "title": "ADJUST TOE-IN / INSPECT SIDE SLIP WITH SIDE SLIP TESTER",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Wheel Alignment"
+      },
+      {
+        "page": 6,
+        "title": "FRONT AXLE HUB",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Hub"
+      },
+      {
+        "page": 7,
+        "title": "Front Axle Hub",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Hub"
+      },
+      {
+        "page": 8,
+        "title": "ASSEMBLY OF FRONT AXLE HUB",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Hub"
+      },
+      {
+        "page": 9,
+        "title": "Front Axle Hub",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Hub"
+      },
+      {
+        "page": 10,
+        "title": "FRONT AXLE SHOCK ABSORBER COMPONENTS",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Shock Absorber"
+      },
+      {
+        "page": 11,
+        "title": "REMOVAL OF FRONT SHOCK ABSORBER ASSEMBLY",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Shock Absorber"
+      },
+      {
+        "page": 12,
+        "title": "Front Axle Shock Absorber",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Shock Absorber"
+      },
+      {
+        "page": 13,
+        "title": "INSTALLATION OF FRONT SHOCK ABSORBER ASSEMBLY",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Shock Absorber"
+      },
+      {
+        "page": 14,
+        "title": "FRONT SUSPENSION COMPONENTS",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension"
+      },
+      {
+        "page": 15,
+        "title": "Lower Arm",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension"
+      },
+      {
+        "page": 16,
+        "title": "REPLACEMENT OF LOWER ARM DUST COVER and REPLACEMENT OF LOWER ARM BUSHING",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension"
+      },
+      {
+        "page": 17,
+        "title": "INSTALLATION OF LOWER ARM",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension"
+      },
+      {
+        "page": 18,
+        "title": "Strut Bar",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension"
+      },
+      {
+        "page": 19,
+        "title": "Stabilizer Bar",
+        "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension"
+      }
+    ]
+  },
+  {
+    "code": "FI",
+    "name": "EFI System",
+    "pages": 80,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "EFI SYSTEM",
+        "section_header": "EFI SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "SYSTEM DESCRIPTION",
+        "section_header": "EFI SYSTEM — System Description"
+      },
+      {
+        "page": 3,
+        "title": "System Description",
+        "section_header": "EFI SYSTEM — System Description"
+      },
+      {
+        "page": 4,
+        "title": "PRECAUTIONS",
+        "section_header": "EFI SYSTEM — Precautions, Inspection Precautions"
+      },
+      {
+        "page": 5,
+        "title": "WHEN CAR IS EQUIPPED WITH A MOBILE RADIO SYSTEM (HAM, CB, ETC.)",
+        "section_header": "EFI SYSTEM — Inspection Precautions"
+      },
+      {
+        "page": 6,
+        "title": "Inspection Precautions",
+        "section_header": "EFI SYSTEM — Inspection Precautions"
+      },
+      {
+        "page": 7,
+        "title": "FUEL SYSTEM",
+        "section_header": "EFI SYSTEM — Inspection Precautions"
+      },
+      {
+        "page": 8,
+        "title": "EFI SYSTEM — Inspection Precautions, Troubleshooting",
+        "section_header": "EFI SYSTEM — Inspection Precautions, Troubleshooting"
+      },
+      {
+        "page": 9,
+        "title": "Troubleshooting",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 10,
+        "title": "TROUBLESHOOTING PROCEDURES SYMPTOM — DIFFICULT TO START OR NO START (ENGINE WILL NOT CRANK OR CRANKS SLOWLY)",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 11,
+        "title": "SYMPTOM — DIFFICULT TO START OR NO START (CRANKS OK)",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 12,
+        "title": "OK CONTINUED FROM PAGE FI-11",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 13,
+        "title": "SYMPTOM — ENGINE OFTEN STALLS",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 14,
+        "title": "EFI SYSTEM — Troubleshooting",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 15,
+        "title": "SYMPTOM — ROUGH IDLING AND/OR MISSING",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 16,
+        "title": "EFI SYSTEM — Troubleshooting (continued)",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 17,
+        "title": "SYMPTOM — HIGH ENGINE IDLE SPEED (NO DROP)",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 18,
+        "title": "SYMPTOM — ENGINE BACKFIRES-Lean Fuel Mixture",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 19,
+        "title": "SYMPTOM — MUFFLER EXPLOSION (AFTER FIRE) -Rich Fuel Mixture-Misfire",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 20,
+        "title": "SYMPTOM — ENGINE HESITATES AND/OR POOR ACCELERATION",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 21,
+        "title": "QK CONTINUED FROM PAGE FI-20",
+        "section_header": "EFI SYSTEM — Troubleshooting"
+      },
+      {
+        "page": 22,
+        "title": "DIAGNOSIS SYSTEM",
+        "section_header": "EFI SYSTEM — Diagnosis System"
+      },
+      {
+        "page": 23,
+        "title": "CHECK ENGINE Light Diagnosis",
+        "section_header": "EFI SYSTEM — Diagnosis System"
+      },
+      {
+        "page": 24,
+        "title": "Cancelling out diagnostic code / DIAGNOSIS INDICATION",
+        "section_header": "EFI SYSTEM — Diagnosis System"
+      },
+      {
+        "page": 25,
+        "title": "EFI SYSTEM — Diagnosis System",
+        "section_header": "EFI SYSTEM — Diagnosis System"
+      },
+      {
+        "page": 26,
+        "title": "EFI SYSTEM — Diagnosis System",
+        "section_header": "EFI SYSTEM — Diagnosis System"
+      },
+      {
+        "page": 27,
+        "title": "INSPECTION OF DIAGNOSIS CIRCUIT",
+        "section_header": "EFI SYSTEM — Diagnosis System"
+      },
+      {
+        "page": 28,
+        "title": "TROUBLESHOOTING WITH VOLT/OHMMETER",
+        "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter"
+      },
+      {
+        "page": 29,
+        "title": "TROUBLESHOOTING FOR EFI ELECTRONIC CIRCUIT WITH VOLT/OHMMETER",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 30,
+        "title": "VOLTAGES AT ECU WIRING CONNECTORS",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 31,
+        "title": "INSPECTION OF WIRING CONNECTOR LINE",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 32,
+        "title": "Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 33,
+        "title": "Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 34,
+        "title": "Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 35,
+        "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 36,
+        "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 37,
+        "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 38,
+        "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 39,
+        "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 40,
+        "title": "Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 41,
+        "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 42,
+        "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 43,
+        "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+        "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter"
+      },
+      {
+        "page": 44,
+        "title": "FUEL SYSTEM - Fuel Pump",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 45,
+        "title": "ON-VEHICLE INSPECTION",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 46,
+        "title": "EFI SYSTEM — Fuel System",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 47,
+        "title": "REMOVAL OF FUEL PUMP",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 48,
+        "title": "INSTALLATION OF FUEL PUMP",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 49,
+        "title": "Cold Start Injector",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 50,
+        "title": "INSPECTION OF COLD START INJECTOR",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 51,
+        "title": "INSTALLATION OF COLD START INJECTOR",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 52,
+        "title": "Pressure Regulator",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 53,
+        "title": "Injector",
+        "section_header": "EFI SYSTEM — Fuel system"
+      },
+      {
+        "page": 54,
+        "title": "REMOVAL OF INJECTOR",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 55,
+        "title": null,
+        "section_header": "EFI SYSTEM — Fuel system"
+      },
+      {
+        "page": 56,
+        "title": "EFI SYSTEM — Fuel system",
+        "section_header": "EFI SYSTEM — Fuel system"
+      },
+      {
+        "page": 57,
+        "title": "Fuel Tank and Line",
+        "section_header": "EFI SYSTEM — Fuel System"
+      },
+      {
+        "page": 58,
+        "title": "AIR INDUCTION SYSTEM Air Flow Meter",
+        "section_header": "EFI SYSTEM — Air Induction System"
+      },
+      {
+        "page": 59,
+        "title": "INSPECTION OF AIR FLOW METER",
+        "section_header": "EFI SYSTEM — Air Induction System"
+      },
+      {
+        "page": 60,
+        "title": "Idle Speed Control (ISC) Valve",
+        "section_header": "EFI SYSTEM — Air Induction System"
+      },
+      {
+        "page": 61,
+        "title": "INSPECTION OF ISC VALVE",
+        "section_header": "EFI SYSTEM — Air Induction System"
+      },
+      {
+        "page": 62,
+        "title": "INSPECTION OF IDLE SPEED",
+        "section_header": "EFI SYSTEM — Air Induction System"
+      },
+      {
+        "page": 63,
+        "title": "Throttle Body",
+        "section_header": "EFI SYSTEM — Air Induction System"
+      },
+      {
+        "page": 64,
+        "title": "EFI SYSTEM — Air Induction System",
+        "section_header": "EFI SYSTEM — Air Induction System"
+      },
+      {
+        "page": 65,
+        "title": "ADJUST THROTTLE POSITION SENSOR / REPLACEMENT OF THROTTLE POSITION SENSOR",
+        "section_header": "EFI SYSTEM — Air Induction System"
+      },
+      {
+        "page": 66,
+        "title": "INSTALLATION OF THROTTLE BODY",
+        "section_header": "EFI SYSTEM — Air Induction System"
+      },
+      {
+        "page": 67,
+        "title": "ELECTRONIC CONTROL SYSTEM\nLocation of Electronic Control Parts",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 68,
+        "title": "Main Relay",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 69,
+        "title": "Circuit Opening Relay",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 70,
+        "title": "Solenoid Resistor",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 71,
+        "title": "Start Injector Time Switch",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 72,
+        "title": "Water Temp. Sensor",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 73,
+        "title": "Oxygen Sensor",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 74,
+        "title": "CONTINUED FROM PAGE FI-73",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 75,
+        "title": "Electronic Controlled Unit (ECU)",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 76,
+        "title": "EFI SYSTEM — Electronic Control System",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 77,
+        "title": null,
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 78,
+        "title": "MEASURE RESISTANCE OF ECU",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 79,
+        "title": "Fuel Cut RPM",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      },
+      {
+        "page": 80,
+        "title": "Start Injector Time Switch",
+        "section_header": "EFI SYSTEM — Electronic Control System"
+      }
+    ]
+  },
+  {
+    "code": "IG",
+    "name": "Ignition System",
+    "pages": 10,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "IGNITION SYSTEM",
+        "section_header": "IGNITION SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "PRECAUTIONS and TROUBLESHOOTING",
+        "section_header": "IGNITION SYSTEM — Precautions, Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "ELECTRONIC SPARK ADVANCE (ESA)",
+        "section_header": "IGNITION SYSTEM — Electronic Spark Advance (ESA)"
+      },
+      {
+        "page": 4,
+        "title": "ON-VEHICLE INSPECTION",
+        "section_header": "IGNITION SYSTEM — On-Vehicle Inspection"
+      },
+      {
+        "page": 5,
+        "title": "INSPECTION OF HIGH-TENSION CORD",
+        "section_header": "IGNITION SYSTEM — On-Vehicle Inspection"
+      },
+      {
+        "page": 6,
+        "title": "On-Vehicle Inspection",
+        "section_header": "IGNITION SYSTEM — On-Vehicle Inspection"
+      },
+      {
+        "page": 7,
+        "title": "INSPECTION OF IGNITION COIL / ON-VEHICLE INSPECTION OF DISTRIBUTOR",
+        "section_header": "IGNITION SYSTEM — On-Vehicle Inspection"
+      },
+      {
+        "page": 8,
+        "title": "DISTRIBUTOR",
+        "section_header": "IGNITION SYSTEM — Distributor"
+      },
+      {
+        "page": 9,
+        "title": "INSTALLATION OF DISTRIBUTOR",
+        "section_header": "IGNITION SYSTEM — Distributor"
+      },
+      {
+        "page": 10,
+        "title": "ADJUST IGNITION TIMING",
+        "section_header": "IGNITION SYSTEM — Distributor"
+      }
+    ]
+  },
+  {
+    "code": "IN",
+    "name": "Introduction",
+    "pages": 9,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "INTRODUCTION",
+        "section_header": "INTRODUCTION"
+      },
+      {
+        "page": 2,
+        "title": "HOW TO USE THIS MANUAL",
+        "section_header": "INTRODUCTION — How to Use This Manual"
+      },
+      {
+        "page": 3,
+        "title": "How to Use This Manual",
+        "section_header": "INTRODUCTION — How to Use This Manual"
+      },
+      {
+        "page": 4,
+        "title": "INTRODUCTION",
+        "section_header": "INTRODUCTION — Identification Information, General Repair Instructions"
+      },
+      {
+        "page": 6,
+        "title": "VEHICLE LIFT AND SUPPORT LOCATIONS",
+        "section_header": "INTRODUCTION — Vehicle Lift and Support Locations"
+      },
+      {
+        "page": 8,
+        "title": "VEHICLE LIFT AND SUPPORT LOCATIONS",
+        "section_header": "INTRODUCTION — Vehicle Lift and Support Locations"
+      },
+      {
+        "page": 9,
+        "title": "ABBREVIATIONS USED IN THIS MANUAL",
+        "section_header": "INTRODUCTION — Abbreviations Used in This Manual"
+      }
+    ]
+  },
+  {
+    "code": "LU",
+    "name": "Lubrication System",
+    "pages": 9,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "LUBRICATION SYSTEM",
+        "section_header": "LUBRICATION SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "TROUBLESHOOTING",
+        "section_header": "LUBRICATION SYSTEM — Troubleshooting, Oil Pressure Check"
+      },
+      {
+        "page": 3,
+        "title": "REPLACEMENT OF ENGINE OIL AND OIL FILTER",
+        "section_header": "LUBRICATION SYSTEM — Replacement of Engine Oil and Oil Filter"
+      },
+      {
+        "page": 4,
+        "title": "OIL PUMP",
+        "section_header": "LUBRICATION SYSTEM — Oil Pump"
+      },
+      {
+        "page": 5,
+        "title": null,
+        "section_header": "LUBRICATION SYSTEM — Oil Pump"
+      },
+      {
+        "page": 6,
+        "title": "INSPECTION OF OIL PUMP",
+        "section_header": "LUBRICATION SYSTEM — Oil Pump"
+      },
+      {
+        "page": 7,
+        "title": "OPERATION CHECK OF OIL PUMP / INSTALLATION OF OIL PUMP ASSEMBLY",
+        "section_header": "LUBRICATION SYSTEM — Oil Pump"
+      },
+      {
+        "page": 8,
+        "title": "LUBRICATION SYSTEM — Oil Pump",
+        "section_header": "LUBRICATION SYSTEM — Oil Pump"
+      },
+      {
+        "page": 9,
+        "title": "OIL PRESSURE REGULATOR (For Lash Adjuster Valve)",
+        "section_header": "LUBRICATION SYSTEM — Oil Pressure Regulator"
+      }
+    ]
+  },
+  {
+    "code": "MA",
+    "name": "Maintenance",
+    "pages": 13,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "MAINTENANCE",
+        "section_header": "MAINTENANCE"
+      },
+      {
+        "page": 2,
+        "title": "MAINTENANCE SCHEDULE",
+        "section_header": "MAINTENANCE — Maintenance Schedule"
+      },
+      {
+        "page": 3,
+        "title": "SEVERE CONDITION SCHEDULE",
+        "section_header": "MAINTENANCE — Maintenance Schedule"
+      },
+      {
+        "page": 4,
+        "title": "MAINTENANCE OPERATIONS",
+        "section_header": "MAINTENANCE — Maintenance Operations"
+      },
+      {
+        "page": 5,
+        "title": "MAINTENANCE OPERATIONS",
+        "section_header": "MAINTENANCE — Maintenance Operations"
+      },
+      {
+        "page": 6,
+        "title": "MAINTENANCE",
+        "section_header": "MAINTENANCE — Maintenance Operations"
+      },
+      {
+        "page": 7,
+        "title": "BRAKES",
+        "section_header": "MAINTENANCE — Maintenance Operations"
+      },
+      {
+        "page": 8,
+        "title": "MAINTENANCE OPERATIONS",
+        "section_header": "MAINTENANCE — Maintenance Operations"
+      },
+      {
+        "page": 9,
+        "title": "MAINTENANCE OPERATIONS",
+        "section_header": "MAINTENANCE — Maintenance Operations"
+      },
+      {
+        "page": 10,
+        "title": "MAINTENANCE OPERATIONS",
+        "section_header": "MAINTENANCE — Maintenance Operations"
+      },
+      {
+        "page": 11,
+        "title": "TIGHTEN BOLTS AND NUTS ON CHASSIS AND BODY / FINAL INSPECTION",
+        "section_header": "MAINTENANCE — Maintenance Operations"
+      },
+      {
+        "page": 12,
+        "title": "GENERAL MAINTENANCE",
+        "section_header": "MAINTENANCE — General Maintenance"
+      },
+      {
+        "page": 13,
+        "title": "MAINTENANCE — General Maintenance",
+        "section_header": "MAINTENANCE — General Maintenance"
+      }
+    ]
+  },
+  {
+    "code": "MT",
+    "name": "Manual Transmission",
+    "pages": 35,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "MANUAL TRANSMISSION",
+        "section_header": "MANUAL TRANSMISSION"
+      },
+      {
+        "page": 2,
+        "title": "TROUBLESHOOTING",
+        "section_header": "MANUAL TRANSMISSION — Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "W58 TRANSMISSION",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 4,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 5,
+        "title": "COMPONENTS",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 6,
+        "title": "COMPONENTS (Cont'd)",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 7,
+        "title": "DISASSEMBLY OF TRANSMISSION",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 8,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 9,
+        "title": null,
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 10,
+        "title": null,
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 11,
+        "title": null,
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 12,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 13,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 14,
+        "title": "INSPECTION OF TRANSMISSION COMPONENTS",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 15,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 16,
+        "title": null,
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 17,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 18,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 20,
+        "title": "REPLACE OIL SEAL ON SPEEDOMETER DRIVEN GEAR / IF NECESSARY, REPLACE OIL SEAL AND BUSHING",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 21,
+        "title": "ASSEMBLY OF TRANSMISSION",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 22,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 23,
+        "title": null,
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 24,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 25,
+        "title": "W58 Transmission Assembly Procedures",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 26,
+        "title": null,
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 27,
+        "title": "",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 28,
+        "title": "MANUAL TRANSMISSION — W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 29,
+        "title": "",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 30,
+        "title": "MANUAL TRANSMISSION - W58 Transmission",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 31,
+        "title": "INSTALL EXTENSION HOUSING",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 32,
+        "title": null,
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 33,
+        "title": null,
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 34,
+        "title": "INSTALLATION OF TRANSMISSION",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      },
+      {
+        "page": 35,
+        "title": "",
+        "section_header": "MANUAL TRANSMISSION — W58 Transmission"
+      }
+    ]
+  },
+  {
+    "code": "PR",
+    "name": "Propeller Shaft",
+    "pages": 8,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "PROPELLER SHAFT",
+        "section_header": "PROPELLER SHAFT"
+      },
+      {
+        "page": 2,
+        "title": "PRECAUTIONS",
+        "section_header": "PROPELLER SHAFT — Precautions, Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "PROPELLER SHAFT",
+        "section_header": "PROPELLER SHAFT — Propeller Shaft"
+      },
+      {
+        "page": 4,
+        "title": "DISASSEMBLY OF PROPELLER SHAFT",
+        "section_header": "PROPELLER SHAFT — Propeller Shaft"
+      },
+      {
+        "page": 5,
+        "title": "INSPECTION OF PROPELLER SHAFT COMPONENTS",
+        "section_header": "PROPELLER SHAFT — Propeller Shaft"
+      },
+      {
+        "page": 6,
+        "title": "ASSEMBLY OF PROPELLER SHAFT",
+        "section_header": "PROPELLER SHAFT — Propeller Shaft"
+      },
+      {
+        "page": 7,
+        "title": "PROPELLER SHAFT",
+        "section_header": "PROPELLER SHAFT — Propeller Shaft"
+      },
+      {
+        "page": 8,
+        "title": "INSTALLATION OF PROPELLER SHAFT",
+        "section_header": "PROPELLER SHAFT — Propeller Shaft"
+      }
+    ]
+  },
+  {
+    "code": "RA",
+    "name": "Rear Axle And Suspension",
+    "pages": 55,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "REAR AXLE AND SUSPENSION",
+        "section_header": "REAR AXLE AND SUSPENSION"
+      },
+      {
+        "page": 2,
+        "title": "TROUBLESHOOTING",
+        "section_header": "REAR AXLE AND SUSPENSION — Troubleshooting"
+      },
+      {
+        "page": 3,
+        "title": "REAR WHEEL ALIGNMENT",
+        "section_header": "REAR AXLE AND SUSPENSION — Rear Wheel Alignment"
+      },
+      {
+        "page": 4,
+        "title": "REAR AXLE AND SUSPENSION - Rear Wheel Alignment",
+        "section_header": "REAR AXLE AND SUSPENSION - Rear Wheel Alignment"
+      },
+      {
+        "page": 5,
+        "title": "IRS TYPE REAR AXLE SHAFT",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft"
+      },
+      {
+        "page": 6,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft"
+      },
+      {
+        "page": 7,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft"
+      },
+      {
+        "page": 8,
+        "title": "REAR AXLE AND SUSPENSION - IRS Type Rear Axle Shaft",
+        "section_header": "REAR AXLE AND SUSPENSION - IRS Type Rear Axle Shaft"
+      },
+      {
+        "page": 9,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft"
+      },
+      {
+        "page": 10,
+        "title": "REAR AXLE AND SUSPENSION – IRS Type Rear Axle Shaft",
+        "section_header": "REAR AXLE AND SUSPENSION – IRS Type Rear Axle Shaft"
+      },
+      {
+        "page": 11,
+        "title": "REAR AXLE AND SUSPENSION – IRS Type Rear Axle Shaft",
+        "section_header": "REAR AXLE AND SUSPENSION – IRS Type Rear Axle Shaft"
+      },
+      {
+        "page": 12,
+        "title": "REAR DRIVE SHAFT",
+        "section_header": "REAR AXLE AND SUSPENSION — Rear Drive Shaft"
+      },
+      {
+        "page": 13,
+        "title": "DISASSEMBLY OF REAR DRIVE SHAFT",
+        "section_header": "REAR AXLE AND SUSPENSION — Rear Drive Shaft"
+      },
+      {
+        "page": 14,
+        "title": "REAR AXLE AND SUSPENSION - Rear Drive Shaft",
+        "section_header": "REAR AXLE AND SUSPENSION - Rear Drive Shaft"
+      },
+      {
+        "page": 15,
+        "title": "INSPECTION OF REAR DRIVE SHAFT COMPONENTS / ASSEMBLY OF REAR DRIVE SHAFT",
+        "section_header": "REAR AXLE AND SUSPENSION — Rear Drive Shaft"
+      },
+      {
+        "page": 16,
+        "title": "REAR AXLE AND SUSPENSION — Rear Drive Shaft",
+        "section_header": "REAR AXLE AND SUSPENSION — Rear Drive Shaft"
+      },
+      {
+        "page": 17,
+        "title": "REAR AXLE AND SUSPENSION - Rear Drive Shaft",
+        "section_header": "REAR AXLE AND SUSPENSION — Rear Drive Shaft"
+      },
+      {
+        "page": 18,
+        "title": "IRS TYPE DIFFERENTIAL\nON-VEHICLE REPLACEMENT OF SIDE GEAR SHAFT OIL SEAL",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 19,
+        "title": "REPLACEMENT OF FRONT OIL SEAL COMPONENTS",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 20,
+        "title": "REMOVAL OF DIFFERENTIAL",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 21,
+        "title": "REMOVE DIFFERENTIAL",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 22,
+        "title": "COMPONENTS",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 23,
+        "title": "DISASSEMBLY OF DIFFERENTIAL",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 24,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 25,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 26,
+        "title": "INSPECTION AND REPLACEMENT OF DIFFERENTIAL",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 27,
+        "title": "REAR AXLE AND SUSPENSION - IRS Type Differential",
+        "section_header": "REAR AXLE AND SUSPENSION - IRS Type Differential"
+      },
+      {
+        "page": 28,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 29,
+        "title": "ASSEMBLY OF DIFFERENTIAL",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 30,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 31,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 32,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 33,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 34,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 35,
+        "title": "",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 36,
+        "title": "",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential"
+      },
+      {
+        "page": 37,
+        "title": "LIMITED SLIP DIFFERENTIAL",
+        "section_header": "REAR AXLE AND SUSPENSION — Limited Slip Differential"
+      },
+      {
+        "page": 38,
+        "title": "REAR AXLE AND SUSPENSION — Limited Slip Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — Limited Slip Differential"
+      },
+      {
+        "page": 39,
+        "title": "INSPECTION AND ADJUSTMENT OF DIFFERENTIAL CASE",
+        "section_header": "REAR AXLE AND SUSPENSION — Limited Slip Differential"
+      },
+      {
+        "page": 40,
+        "title": "Limited Slip Differential",
+        "section_header": "REAR AXLE AND SUSPENSION - Limited Slip Differential"
+      },
+      {
+        "page": 41,
+        "title": "REAR AXLE AND SUSPENSION — Limited Slip Differential",
+        "section_header": "REAR AXLE AND SUSPENSION — Limited Slip Differential"
+      },
+      {
+        "page": 42,
+        "title": "ASSEMBLY OF DIFFERENTIAL CASE",
+        "section_header": "REAR AXLE AND SUSPENSION — Limited Slip Differential"
+      },
+      {
+        "page": 43,
+        "title": "INSTALL CASE COVER BOLTS / CHECK SIDE GEAR THRUST CLEARANCE / INSTALLATION OF DIFFERENTIAL",
+        "section_header": "REAR AXLE AND SUSPENSION — Limited Slip Differential"
+      },
+      {
+        "page": 44,
+        "title": "IRS TYPE REAR SUSPENSION COMPONENTS",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension"
+      },
+      {
+        "page": 45,
+        "title": "Coil Spring and Rear Shock Absorber",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension"
+      },
+      {
+        "page": 46,
+        "title": "REAR AXLE AND SUSPENSION",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension"
+      },
+      {
+        "page": 47,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension"
+      },
+      {
+        "page": 48,
+        "title": "REAR AXLE AND SUSPENSION",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension"
+      },
+      {
+        "page": 49,
+        "title": "Rear Suspension Arm",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension"
+      },
+      {
+        "page": 50,
+        "title": "REPLACEMENT OF REAR SUSPENSION ARM BUSHING",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension"
+      },
+      {
+        "page": 51,
+        "title": "INSTALLATION OF REAR SUSPENSION ARM",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension"
+      },
+      {
+        "page": 52,
+        "title": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension",
+        "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension"
+      },
+      {
+        "page": 53,
+        "title": "DIFFERENTIAL SUPPORT MEMBER",
+        "section_header": "REAR AXLE AND SUSPENSION — Differential Support Member"
+      },
+      {
+        "page": 54,
+        "title": "REPLACEMENT OF DIFFERENTIAL SUPPORT MEMBER CUSHION AND INSTALLATION OF DIFFERENTIAL SUPPORT MEMBER",
+        "section_header": "REAR AXLE AND SUSPENSION - Differential Support Member"
+      },
+      {
+        "page": 55,
+        "title": "REAR AXLE AND SUSPENSION — Differential Support Member",
+        "section_header": "REAR AXLE AND SUSPENSION — Differential Support Member"
+      }
+    ]
+  },
+  {
+    "code": "SR",
+    "name": "Steering",
+    "pages": 40,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "STEERING",
+        "section_header": "STEERING"
+      },
+      {
+        "page": 2,
+        "title": null,
+        "section_header": "STEERING — Precautions, Troubleshooting, On-Vehicle Inspection"
+      },
+      {
+        "page": 3,
+        "title": "STEERING COLUMN ASSEMBLY WITH TILT STEERING\nREMOVAL OF STEERING COLUMN",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 4,
+        "title": "STEERING — Steering Column Assembly with Tilt Steering",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 5,
+        "title": "COMPONENTS",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 6,
+        "title": "DISASSEMBLY OF STEERING COLUMN ASSEMBLY AND TILT MECHANISM",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 7,
+        "title": "STEERING — Steering Column Assembly with Tilt Steering",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 8,
+        "title": "INSPECTION AND REPAIR OF STEERING COLUMN ASSEMBLY",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 9,
+        "title": "ASSEMBLY OF STEERING COLUMN ASSEMBLY AND TILT MECHANISM",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 10,
+        "title": "STEERING — Steering Column Assembly with Tilt Steering",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 11,
+        "title": "STEERING — Steering Column Assembly with Tilt Steering",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 12,
+        "title": "INSTALLATION OF STEERING COLUMN ASSEMBLY",
+        "section_header": "STEERING — Steering Column Assembly with Tilt Steering"
+      },
+      {
+        "page": 13,
+        "title": "POWER STEERING On-Vehicle Inspection",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 14,
+        "title": "REPLACEMENT OF POWER STEERING FLUID",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 15,
+        "title": "Bleeding of Power Steering System",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 16,
+        "title": "Oil Pressure Check",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 17,
+        "title": "STEERING — Power Steering",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 18,
+        "title": "Power Steering Pump\nREMOVAL OF POWER STEERING PUMP",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 19,
+        "title": "COMPONENTS",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 20,
+        "title": "STEERING — Power Steering",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 21,
+        "title": "INSPECTION OF POWER STEERING PUMP",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 22,
+        "title": "INSPECT FLOW CONTROL VALVE AND MEASURE SPRING / REPLACE UNION SEAT",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 23,
+        "title": "ASSEMBLY OF POWER STEERING PUMP",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 24,
+        "title": "STEERING — Power Steering",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 25,
+        "title": null,
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 26,
+        "title": "INSTALLATION OF POWER STEERING PUMP",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 27,
+        "title": "Gear Housing",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 28,
+        "title": "COMPONENTS",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 29,
+        "title": "DISASSEMBLY OF GEAR HOUSING",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 30,
+        "title": null,
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 31,
+        "title": "INSPECTION OF GEAR HOUSING / REPLACEMENT OF GEAR HOUSING",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 32,
+        "title": null,
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 33,
+        "title": "TEFLON RING FOR CONTROL VALVE / OIL SEAL AND BEARING FOR VALVE CAP",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 34,
+        "title": "STEERING — Power Steering",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 35,
+        "title": "ASSEMBLY OF GEAR HOUSING",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 36,
+        "title": "",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 37,
+        "title": "STEERING — Power Steering",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 38,
+        "title": "STEERING — Power Steering",
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 39,
+        "title": null,
+        "section_header": "STEERING — Power Steering"
+      },
+      {
+        "page": 40,
+        "title": "INSTALLATION OF GEAR HOUSING",
+        "section_header": "STEERING — Power Steering"
+      }
+    ]
+  },
+  {
+    "code": "ST",
+    "name": "Starting System",
+    "pages": 10,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "STARTING SYSTEM",
+        "section_header": "STARTING SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "TROUBLESHOOTING",
+        "section_header": "STARTING SYSTEM — Troubleshooting, Starting System Circuit"
+      },
+      {
+        "page": 3,
+        "title": "STARTER",
+        "section_header": "STARTING SYSTEM — Starter"
+      },
+      {
+        "page": 4,
+        "title": "DISASSEMBLY OF STARTER",
+        "section_header": "STARTING SYSTEM — Starter"
+      },
+      {
+        "page": 5,
+        "title": "STARTING SYSTEM — Starter",
+        "section_header": "STARTING SYSTEM — Starter"
+      },
+      {
+        "page": 6,
+        "title": "STARTING SYSTEM — Starter",
+        "section_header": "STARTING SYSTEM — Starter"
+      },
+      {
+        "page": 7,
+        "title": "STARTING SYSTEM — Starter",
+        "section_header": "STARTING SYSTEM — Starter"
+      },
+      {
+        "page": 8,
+        "title": "ASSEMBLY OF STARTER",
+        "section_header": "STARTING SYSTEM — Starter"
+      },
+      {
+        "page": 9,
+        "title": "INSTALL STARTING HOUSING / PERFORMANCE TEST OF REDUCTION TYPE STARTER",
+        "section_header": "STARTING SYSTEM — Starter"
+      },
+      {
+        "page": 10,
+        "title": "INSTALLATION OF STARTER",
+        "section_header": "STARTING SYSTEM — Starter"
+      }
+    ]
+  }
+]

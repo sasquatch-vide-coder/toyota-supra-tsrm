@@ -1,0 +1,113 @@
+{
+  "page_id": "MT-4",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "MANUAL TRANSMISSION — W58 Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the location and removal of speedometer cable and backup light switch connector in the engine compartment area",
+      "labels": [
+        "M70031",
+        "M70030"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 4,
+        "width": 36,
+        "height": 21
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE SPEEDOMETER CABLE",
+        "DISCONNECT BACK-UP LIGHT SWITCH CONNECTOR"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the clutch release cylinder and its mounting location",
+      "labels": [
+        "M70029"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 4,
+        "width": 36,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE CLUTCH RELEASE CYLINDER"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE STARTER"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing jacking up the transmission with a jack placed underneath",
+      "labels": [
+        "M70156"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "JACK UP TRANSMISSION SLIGHTLY"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Raise the transmission enough to remove the weight from the rear support."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE ENGINE REAR MOUNTING"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing the removal of the transmission assembly by pulling it down and toward the rear",
+      "labels": [],
+      "bbox": {
+        "top": 80,
+        "left": 3,
+        "width": 36,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE TRANSMISSION ASSEMBLY"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Pull out the transmission down and toward the rear."
+    }
+  ]
+}

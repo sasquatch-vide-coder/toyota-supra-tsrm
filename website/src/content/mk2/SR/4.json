@@ -1,0 +1,149 @@
+{
+  "page_id": "SR-4",
+  "section_header": "STEERING — Steering Column Assembly with Tilt Steering",
+  "title": "STEERING — Steering Column Assembly with Tilt Steering",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing the intermediate shaft assembly with labels (a), (b), and (c) pointing to different components. Shows a steering column shaft with universal joint connections at both ends.",
+      "labels": [
+        "(a)",
+        "(b)",
+        "(c)"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "Z5785"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE NEGATIVE CABLE FROM BATTERY",
+        "REMOVE INTERMEDIATE SHAFT"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "parent_step": "2",
+      "items": [
+        "(a) Remove the two set bolts.",
+        "(b) Remove the rack housing side first.",
+        "(c) Remove the column side."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing steering wheel with pad and retaining screw location at lower portion of steering wheel pad",
+      "labels": [],
+      "bbox": {
+        "top": 21,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "Z5078S"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        "REMOVE STEERING WHEEL"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "parent_step": "3",
+      "items": [
+        "(a) Remove the screw at the lower portion of the steering wheel pad and pull the pad out upward.",
+        "(b) Remove the steering wheel nut."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing steering wheel with SST (Special Service Tool) being used to remove steering wheel",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "Z5079S"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "parent_step": "3",
+      "items": [
+        "(c) Using SST, remove the steering wheel. SST 09609-20011"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 4,
+      "items": [
+        "REMOVE INSTRUMENT LOWER PANEL AND AIR DUCT",
+        "REMOVE COLUMN COVER AND COMBINATION SWITCH"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing column hole cover plate with two mounting bolts to be removed",
+      "labels": [],
+      "bbox": {
+        "top": 56,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        "REMOVE TWO MOUNTING BOLTS FROM COLUMN HOLE COVER PLATE",
+        "REMOVE TWO COLUMN BRACKET MOUNTING NUTS"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Diagram showing column tube and shaft assembly being pulled out with turning motion indicated",
+      "labels": [],
+      "bbox": {
+        "top": 73,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 8,
+      "items": [
+        "PULL OUT COLUMN TUBE AND SHAFT"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Turn the column tube as shown and pull out the shaft."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "page_id": "SR-40",
+  "section_header": "STEERING — Power Steering",
+  "title": "INSTALLATION OF GEAR HOUSING",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page SR-26)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing installation of gear housing assembly with boots and mounting bolts",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 38,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL GEAR HOUSING ASSEMBLY"
+    },
+    {
+      "type": "notice",
+      "text": "Be careful not to damage the boots. Install four bolts and torque them."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Gear housing assembly",
+      "value": "770 kg-cm (56 ft-lb, 76 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing connection of return and pressure lines using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 34,
+        "left": 4,
+        "width": 38,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CONNECT RETURN AND PRESSURE LINE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the union seat.",
+        "(b) Using SST, connect the pressure line and torque it."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09631-22020",
+      "description": ""
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pressure line",
+      "value": "390 kg-cm (28 ft-lb, 38 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of tie rod ends and cotter pin",
+      "labels": [],
+      "bbox": {
+        "top": 62,
+        "left": 4,
+        "width": 38,
+        "height": 24
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. CONNECT TIE ROD ENDS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the tie rod end set nut and torque it.",
+        "(b) Install the new cotter pin."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Tie rod end set nut",
+      "value": "600 kg-cm (43 ft-lb, 59 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of intermediate shaft with column side and rack housing side indicated",
+      "labels": [
+        "(c)",
+        "(a)",
+        "(b)"
+      ],
+      "bbox": {
+        "top": 89,
+        "left": 4,
+        "width": 38,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSTALL INTERMEDIATE SHAFT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the column side first.",
+        "(b) Install the rack housing side.",
+        "(c) Install the two bolts and torque them."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Intermediate shaft bolts",
+      "value": "350 kg-cm (26 ft-lb, 34 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. FILL WITH POWER STEERING FLUID"
+    },
+    {
+      "type": "text",
+      "text": "(See page SR-14)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. BLEED SYSTEM"
+    },
+    {
+      "type": "text",
+      "text": "(See page SR-15)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. CHECK FOR FLUID LEAKS"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. ADJUST TOE-IN"
+    },
+    {
+      "type": "text",
+      "text": "(See page FA-5)"
+    }
+  ]
+}

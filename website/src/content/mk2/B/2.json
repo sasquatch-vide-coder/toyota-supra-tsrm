@@ -1,0 +1,251 @@
+{
+  "page_id": "8-2",
+  "section_header": "STANDARD BOLT TORQUE SPECIFICATIONS",
+  "title": "STANDARD BOLT TORQUE SPECIFICATIONS",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "STANDARD BOLT TORQUE SPECIFICATIONS"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "HOW TO DETERMINE BOLT STRENGTH"
+    },
+    {
+      "type": "table",
+      "caption": "HOW TO DETERMINE BOLT STRENGTH",
+      "headers": [
+        "",
+        "Mark",
+        "Class",
+        "",
+        "Mark",
+        "Class"
+      ],
+      "column_headers": {
+        "left_section": [
+          "",
+          "Mark",
+          "Class"
+        ],
+        "right_section": [
+          "",
+          "Mark",
+          "Class"
+        ]
+      },
+      "rows": [
+        {
+          "type": "row",
+          "left": {
+            "bolt_type": "Hexagon head bolt",
+            "diagram": {
+              "type": "diagram",
+              "index": 1,
+              "description": "Hexagon bolt head showing bolt head number marking on top surface",
+              "labels": [
+                "Bolt head No."
+              ],
+              "bbox": {
+                "top": 17,
+                "left": 10,
+                "width": 12,
+                "height": 8
+              }
+            },
+            "marks": [
+              {
+                "mark": "4",
+                "class": "4T"
+              },
+              {
+                "mark": "5",
+                "class": "5T"
+              },
+              {
+                "mark": "6",
+                "class": "6T"
+              },
+              {
+                "mark": "7",
+                "class": "7T"
+              }
+            ]
+          },
+          "right": {
+            "bolt_type": "Stud bolt",
+            "diagram": {
+              "type": "diagram",
+              "index": 2,
+              "description": "Stud bolt with no visible markings",
+              "labels": [
+                "No mark"
+              ],
+              "bbox": {
+                "top": 17,
+                "left": 53,
+                "width": 12,
+                "height": 8
+              }
+            },
+            "mark": "No mark",
+            "class": "4T"
+          }
+        },
+        {
+          "type": "row",
+          "left": {
+            "bolt_type": "Hexagon head bolt",
+            "diagram": {
+              "type": "diagram",
+              "index": 3,
+              "description": "Hexagon bolt head with no marking",
+              "labels": [
+                "No mark"
+              ],
+              "bbox": {
+                "top": 31,
+                "left": 10,
+                "width": 12,
+                "height": 6
+              }
+            },
+            "mark": "No mark",
+            "class": "4T"
+          },
+          "right": null
+        },
+        {
+          "type": "row",
+          "left": {
+            "bolt_type": "Hexagon flange bolt w/washer hexagon bolt",
+            "diagram": {
+              "type": "diagram",
+              "index": 4,
+              "description": "Hexagon flange bolt with integrated washer, no marking",
+              "labels": [
+                "No mark"
+              ],
+              "bbox": {
+                "top": 41,
+                "left": 10,
+                "width": 12,
+                "height": 6
+              }
+            },
+            "mark": "No mark",
+            "class": "4T"
+          },
+          "right": null
+        },
+        {
+          "type": "row",
+          "left": {
+            "bolt_type": "Hexagon head bolt",
+            "diagram": {
+              "type": "diagram",
+              "index": 5,
+              "description": "Hexagon bolt head showing two protruding lines on top surface",
+              "labels": [
+                "Two protruding lines"
+              ],
+              "bbox": {
+                "top": 51,
+                "left": 10,
+                "width": 12,
+                "height": 6
+              }
+            },
+            "mark": "Two protruding lines",
+            "class": "5T"
+          },
+          "right": {
+            "bolt_type": "Stud bolt",
+            "diagram": {
+              "type": "diagram",
+              "index": 6,
+              "description": "Stud bolt with grooved marking on threaded portion",
+              "labels": [
+                "Grooved"
+              ],
+              "bbox": {
+                "top": 46,
+                "left": 53,
+                "width": 12,
+                "height": 12
+              }
+            },
+            "mark": "Grooved",
+            "class": "6T"
+          }
+        },
+        {
+          "type": "row",
+          "left": {
+            "bolt_type": "Hexagon flange bolt w/washer hexagon bolt",
+            "diagram": {
+              "type": "diagram",
+              "index": 7,
+              "description": "Hexagon flange bolt with integrated washer showing two protruding lines on top surface",
+              "labels": [
+                "Two protruding lines"
+              ],
+              "bbox": {
+                "top": 62,
+                "left": 10,
+                "width": 12,
+                "height": 7
+              }
+            },
+            "mark": "Two protruding lines",
+            "class": "6T"
+          },
+          "right": null
+        },
+        {
+          "type": "row",
+          "left": {
+            "bolt_type": "Hexagon head bolt",
+            "diagram": {
+              "type": "diagram",
+              "index": 8,
+              "description": "Hexagon bolt head showing three protruding lines on top surface",
+              "labels": [
+                "Three protruding lines"
+              ],
+              "bbox": {
+                "top": 73,
+                "left": 10,
+                "width": 12,
+                "height": 7
+              }
+            },
+            "mark": "Three protruding lines",
+            "class": "7T"
+          },
+          "right": {
+            "bolt_type": "Welded bolt",
+            "diagram": {
+              "type": "diagram",
+              "index": 9,
+              "description": "Welded bolt assembly showing two bolts welded to a flat plate",
+              "labels": [
+                "Welded bolt"
+              ],
+              "bbox": {
+                "top": 67,
+                "left": 53,
+                "width": 18,
+                "height": 12
+              }
+            },
+            "mark": "Welded bolt",
+            "class": "4T"
+          }
+        }
+      ]
+    }
+  ]
+}

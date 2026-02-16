@@ -1,0 +1,229 @@
+{
+  "page_id": "FI-50",
+  "section_header": "EFI SYSTEM — Fuel System",
+  "title": "INSPECTION OF COLD START INJECTOR",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing air intake chamber assembly with EGR pipe and various hoses and connections",
+      "labels": [
+        "EGR pipe",
+        "Cold start fuel hose",
+        "Air intake chamber"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 40,
+        "height": 25
+      },
+      "diagram_id": "EM149"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 8,
+      "items": [
+        "LOOSEN EGR PIPE CONNECTING NUT",
+        "DISCONNECT COLD START FUEL HOSE FROM DELIVERY PIPE",
+        "REMOVE AIR INTAKE CHAMBER",
+        "REMOVE COLD START INJECTOR FROM AIR INTAKE CHAMBER"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF COLD START INJECTOR"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. MEASURE RESISTANCE OF COLD START INJECTOR"
+    },
+    {
+      "type": "text",
+      "text": "Using an ohmmeter, check the resistance of the injector."
+    },
+    {
+      "type": "text",
+      "text": "Resistance: 3 — 5 Ω"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing ohmmeter connected to cold start injector terminals for resistance measurement",
+      "labels": [
+        "Ohmmeter",
+        "Cold start injector"
+      ],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 40,
+        "height": 19
+      },
+      "diagram_id": "FI050"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. CHECK INJECTION OF COLD START INJECTOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(a)",
+          "text": "Install the gasket, SST (two unions), another gaskets and two union bolts to the delivery pipe and injector."
+        },
+        {
+          "label": "(b)",
+          "text": "Connect the SST (hose) from the unions."
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09268-41045"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(c)",
+          "text": "Connect the SST (wire) to the injector."
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09842-30050"
+    },
+    {
+      "type": "notice",
+      "text": "Position the injector as far away from the battery as possible."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(d)",
+          "text": "Put a container under the injector."
+        },
+        {
+          "label": "(e)",
+          "text": "Turn on the ignition switch."
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Do not start the engine."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(f)",
+          "text": "Short both terminals of the fuel pump check connector with a service wire."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing SST hose connected from unions to container, with wire connection to battery and injector setup for testing fuel spray",
+      "labels": [
+        "SST",
+        "Container",
+        "Battery"
+      ],
+      "bbox": {
+        "top": 54,
+        "left": 3,
+        "width": 40,
+        "height": 23
+      },
+      "diagram_id": "FI049"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(g)",
+          "text": "Connect the test probes of the SST to the battery and check that the fuel spray is as shown."
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09842-20050"
+    },
+    {
+      "type": "notice",
+      "text": "Perform this check within the shortest possible time."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(h)",
+          "text": "Disconnect the test probes from the battery and check that fuel does not leak from the injector."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Fuel drop: Less than one drop of fuel per minute"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing SST disconnected from battery and injector setup to check for fuel leakage",
+      "labels": [
+        "SST",
+        "Disconnect",
+        "Container"
+      ],
+      "bbox": {
+        "top": 78,
+        "left": 3,
+        "width": 40,
+        "height": 23
+      },
+      "diagram_id": "FI040"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(i)",
+          "text": "After checking, restore the following to the previous state."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "•",
+      "items": [
+        "Fuel pump check connector",
+        "Ignition switch",
+        "SST",
+        "Cold start injector",
+        "Injector gasket"
+      ]
+    }
+  ]
+}

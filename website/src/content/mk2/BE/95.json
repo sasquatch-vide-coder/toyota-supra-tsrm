@@ -1,0 +1,77 @@
+{
+  "page_id": "BE-95",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF LH KEY UNLOCK SWITCH CIRCUIT / INSPECTION OF RH KEY UNLOCK SWITCH CIRCUIT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "E - INSPECTION OF LH KEY UNLOCK SWITCH CIRCUIT"
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for left-hand key unlock switch circuit inspection starting with turning ignition switch off, then checking diode continuity, then checking computer key unlock switch circuit",
+      "bbox": {
+        "top": 8,
+        "left": 3,
+        "width": 94,
+        "height": 35
+      },
+      "steps": [
+        {
+          "type": "instruction",
+          "text": "Turn ignition switch off."
+        },
+        {
+          "type": "test_section",
+          "label": "DIODE",
+          "test": "INSPECT DIODE CONTINUITY\nIs diode of key unlock switch normal ?\n(See page BE-67)",
+          "no_action": "Replace diode.",
+          "yes_action": "Continue to COMPUTER section"
+        },
+        {
+          "type": "test_section",
+          "label": "COMPUTER",
+          "test": "INSPECT KEY UNLOCK SWITCH CIRCUIT\nIs there continuity between terminal 9 and body ground with LH door opened with key ?",
+          "no_action": "Open circuit in wire harness between terminal 9 of computer and terminal 1 of LH key unlock switch side diode.",
+          "yes_action": "Replace computer."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "F - INSPECTION OF RH KEY UNLOCK SWITCH CIRCUIT"
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for right-hand key unlock switch circuit inspection starting with turning ignition switch off, then checking diode continuity, then checking computer key unlock switch circuit",
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 94,
+        "height": 35
+      },
+      "steps": [
+        {
+          "type": "instruction",
+          "text": "Turn ignition switch off."
+        },
+        {
+          "type": "test_section",
+          "label": "DIODE",
+          "test": "INSPECT DIODE CONTINUITY\nIs diode of key unlock switch normal ?\n(See page BE-67)",
+          "no_action": "Replace diode.",
+          "yes_action": "Continue to COMPUTER section"
+        },
+        {
+          "type": "test_section",
+          "label": "COMPUTER",
+          "test": "INSPECT KEY UNLOCK SWITCH CIRCUIT\nIs there continuity between terminal 9 and body ground with RH door opened with key ?",
+          "no_action": "Open circuit in wire harness between terminal 9 of computer and terminal 1 of RH key unlock switch side diode.",
+          "yes_action": "Replace computer."
+        }
+      ]
+    }
+  ]
+}

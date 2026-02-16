@@ -1,0 +1,259 @@
+{
+  "page_id": "SR-26",
+  "section_header": "STEERING — Power Steering",
+  "title": "INSTALLATION OF POWER STEERING PUMP",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page SR-18)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL POWER STEERING PUMP"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place the PS pump in position and torque the front mount bolt."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Front mount bolt",
+      "value": "375 kg-cm (27 ft-lb, 37 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Install the drive belt adjust bolt by hand."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Power steering pump assembly showing pump unit with mounting bracket and drive belt",
+      "labels": [
+        "Power steering pump",
+        "Drive belt"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL PULLEY AND DRIVE BELT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the woodruff key and pulley.",
+        "(b) Install the pulley set nut.",
+        "(c) Install the drive belt.",
+        "(d) Insert a bar under the PS pump and ply it upward until the belt tension is at specified value."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Belt tension gauge:"
+    },
+    {
+      "type": "table",
+      "caption": "Belt tension gauge specifications",
+      "headers": [
+        "Manufacturer",
+        "Part Number"
+      ],
+      "rows": [
+        [
+          "Nippondenso",
+          "BTG-20 (95606-00020) or"
+        ],
+        [
+          "Borroughs",
+          "No. BT-33-73F"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Drive belt tension:"
+    },
+    {
+      "type": "table",
+      "caption": "Drive belt tension specifications",
+      "headers": [
+        "Belt Condition",
+        "Tension"
+      ],
+      "rows": [
+        [
+          "New belt",
+          "125 ÷ 25 lb"
+        ],
+        [
+          "Used belt",
+          "80 ÷ 20 lb"
+        ]
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE:\n• \"New belt\" refers to a brand new belt which has never before been used.\n• \"Used belt\" refers to a belt which has been used on a running engine for 5 minutes or more."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(e) Torque the adjust bolt."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Adjust bolt",
+      "value": "375 kg-cm (27 ft-lb, 37 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(f) Push down on the drive belt to hold the pulley in place and torque the pulley set nut."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pulley set nut",
+      "value": "445 kg-cm (32 ft-lb, 44 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(g) Install and torque the PS pump rear mount bolt."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "PS pump rear mount bolt",
+      "value": "375 kg-cm (27 ft-lb, 37 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Power steering pump with pulley and drive belt installed, showing woodruff key and pulley assembly",
+      "labels": [
+        "Pulley",
+        "Drive belt",
+        "Woodruff key"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Belt tension measurement setup showing Nippondenso and Borroughs tension gauges positioned on drive belt between pulleys",
+      "labels": [
+        "Nippondenso",
+        "Borroughs"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. CONNECT PRESSURE TUBE TO POWER STEERING PUMP"
+    },
+    {
+      "type": "text",
+      "text": "Using SST, connect and torque the pressure tube."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09631-22020",
+      "description": ""
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pressure tube",
+      "value": "450 kg-cm (33 ft-lb, 44 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Connection of pressure tube to power steering pump using SST tool",
+      "labels": [
+        "SST",
+        "Pressure tube"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CONNECT RETURN HOSE TO RESERVOIR TANK"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. CONNECT AIR HOSES TO AIR CONTROL VALVE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. FILL RESERVOIR WITH FLUID"
+    },
+    {
+      "type": "text",
+      "text": "Fluid: ATF DEXRON® or DEXRON® II"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Filling power steering reservoir with fluid using funnel",
+      "labels": [
+        "Reservoir",
+        "Fluid"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. BLEED POWER STEERING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. CHECK FOR FLUID LEAKS"
+    }
+  ]
+}

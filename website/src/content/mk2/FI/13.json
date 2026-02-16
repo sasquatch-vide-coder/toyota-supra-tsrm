@@ -1,0 +1,99 @@
+{
+  "page_id": "FI-13",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "SYMPTOM — ENGINE OFTEN STALLS",
+  "content": [
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart for engine stalling issue with multiple decision points and diagnostic steps",
+      "bbox": {
+        "top": 8,
+        "left": 3,
+        "width": 94,
+        "height": 92
+      },
+      "steps": [
+        {
+          "type": "step",
+          "text": "CHECK DIAGNOSIS SYSTEM\nCheck for output of diagnostic code\n(See page FI-22)",
+          "outcome_normal": "Normal code",
+          "outcome_malfunction": "Malfunction code(s)",
+          "malfunction_action": "Diagnostic code(s) (See page FI-25)"
+        },
+        {
+          "type": "step",
+          "text": "CHECK FOR VACUUM LEAKS IN AIR INTAKE LINE",
+          "outcome_ok": "OK",
+          "outcome_bad": "BAD",
+          "bad_actions": [
+            "1. Oil filler cap",
+            "2. Oil level gauge",
+            "3. Hose connections",
+            "4. PCV valve",
+            "5. EGR system — EGR valve stays open"
+          ]
+        },
+        {
+          "type": "step",
+          "text": "CHECK FUEL SUPPLY TO INJECTOR\n1. Fuel in tank\n2. Fuel pressure in fuel line\n   (1) Short fuel pump check terminals.\n   (2) You can feel fuel pressure at fuel hose.\n(See page FI-45)",
+          "outcome_ok": "OK",
+          "outcome_bad": "BAD",
+          "bad_actions": [
+            "1. Fuel line — leakage — deformation",
+            "2. Fuse",
+            "3. Circuit opening relay (See page FI-69)",
+            "4. Fuel pump (See page FI-44)",
+            "5. Fuel filter",
+            "6. Fuel pressure regulator (See page FI-52)"
+          ]
+        },
+        {
+          "type": "step",
+          "text": "CHECK AIR FILTER ELEMENT",
+          "outcome_ok": "OK",
+          "outcome_bad": "BAD",
+          "bad_actions": "Element — clean or replace"
+        },
+        {
+          "type": "step",
+          "text": "CHECK IDLE SPEED\nSTD: 650 rpm",
+          "outcome_ok": "OK",
+          "outcome_bad": "BAD",
+          "bad_actions": [
+            "ISC system",
+            "(1) Wiring connection",
+            "(2) ISC valve",
+            "(3) ECU (test by substitution)"
+          ]
+        },
+        {
+          "type": "step",
+          "text": "CHECK IGNITION TIMING\n1. Short both terminals of the check connector.\n2. Check ignition timing.\n   STD: 10° BTDC\n       (w/short terminals of the check connector)",
+          "outcome_ok": "OK",
+          "outcome_no": "NO",
+          "no_action": "Adjust ignition timing"
+        },
+        {
+          "type": "step",
+          "text": "CHECK SPARK PLUGS\nMax. allowable gap: 1.4 mm (0.055 in.)\nPrecaution: Never attempt to adjust gap on used platinum tipped spark plug.\n— Note —\nCheck compression pressure if necessary.\n(See page EM-6)",
+          "outcome_ok": "OK",
+          "outcome_no": "NO",
+          "no_actions": [
+            "1. Spark plug",
+            "2. Compression pressure\n   Limit: 9.0 kg/cm² (128 psi, 883 kPa)\n         at 250 rpm"
+          ]
+        },
+        {
+          "type": "step",
+          "text": "CHECK COLD START INJECTOR\n(See page FI-48)",
+          "outcome_ok": "OK CONTINUED ON PAGE FI-14",
+          "outcome_bad": "BAD",
+          "bad_actions": [
+            "1. Cold start injector",
+            "2. Start injector time switch\n   (See page FI-71)"
+          ]
+        }
+      ]
+    }
+  ]
+}

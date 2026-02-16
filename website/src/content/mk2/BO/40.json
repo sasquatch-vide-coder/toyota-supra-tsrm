@@ -1,0 +1,72 @@
+{
+  "page_id": "BO-40",
+  "section_header": "BODY — Sun Roof",
+  "title": "BODY — Sun Roof",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation diagram showing drive motor location and clearance positions A and B between sliding roof and body",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL DRIVE MOTOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Move the sliding roof by hand so the clearance between the left and right of the sliding roof and body are equal.",
+        "(b) Install the drive motor into the roof.",
+        "(c) Install the center cover of control box."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. ADJUST SLIDING ROOF OPERATION"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF SLIDING ROOF PANEL"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "TO REMOVE ONLY SLIDING ROOF PANEL"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Pull loose the clips and slide the headlining rearward.",
+        "(b) Remove the front and rear shoe bolts.",
+        "(c) Remove the roof panel."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing removal of sliding roof panel with arrows indicating pull direction and bolt locations",
+      "labels": [],
+      "bbox": {
+        "top": 32,
+        "left": 3,
+        "width": 40,
+        "height": 28
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "page_id": "ST-10",
+  "section_header": "STARTING SYSTEM — Starter",
+  "title": "INSTALLATION OF STARTER",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing starter motor assembly with flywheel bellhousing. The diagram shows the starter motor unit and separate components including what appears to be mounting hardware and connector pieces.",
+      "labels": [
+        "ST00043"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF STARTER"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL STARTER MOTOR IN FLYWHEEL BELLHOUSING\nPlace the starter motor in the flywheel bellhousing. Install the two bolts.",
+        "CONNECT TWO WIRES TO STARTER\nConnect the connector to the terminal on the magnetic switch. Connect the cable from the battery to the terminal on the switch, and install the nut.",
+        "CONNECT CABLE TO NEGATIVE TERMINAL OF BATTERY\nCheck that the car starts."
+      ]
+    }
+  ]
+}

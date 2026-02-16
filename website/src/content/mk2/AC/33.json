@@ -1,0 +1,191 @@
+{
+  "page_id": "AC-33",
+  "section_header": "AIR CONDITIONING SYSTEM — Compressor",
+  "title": "AIR CONDITIONING SYSTEM — Compressor",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Photograph showing service valves installation on compressor with wrench being used",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. INSTALL SERVICE VALVES"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Lubricate new O-rings with compressor oil. Install the O-rings in the service valves.",
+        "(b) Install the service valves on the compressor. Using SST and a torque wrench, tighten the bolts."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "07110-61050",
+      "description": ""
+    },
+    {
+      "type": "torque_spec",
+      "component": "Service valves",
+      "value": "260 kg·cm (19 ft·lb, 25 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Photograph showing compressor with SST tool being used to check shaft torque",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. CHECK SHAFT STARTING TORQUE"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Shaft starting torque",
+      "value": "30 kg·cm (26 in.·lb, 2.9 N·m) or less"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY OF MAGNETIC CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "(See page AC-24)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Technical diagram showing cross-section of rotor with bearings, press, and SST tool placement",
+      "labels": [
+        "Press",
+        "SST"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 3,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL TWO BEARINGS IN ROTOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, press a shield ring and two new bearings into the rotor boss until fully seated."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "07110-77011",
+      "description": ""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Install the bearing snap ring into the rotor groove."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Photograph showing stator installation on compressor with SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 74,
+        "left": 3,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL STATOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the stator on the compressor.",
+        "(b) Using SST, install the snap ring."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "07114-84020",
+      "description": ""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Connect the stator lead wires to the compressor housing."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Photograph showing rotor installation on compressor shaft with SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 95,
+        "left": 3,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL ROTOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the rotor on the compressor shaft.",
+        "(b) Using SST, install the snap ring."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "07114-84020",
+      "description": ""
+    }
+  ]
+}

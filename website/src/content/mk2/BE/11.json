@@ -1,0 +1,118 @@
+{
+  "page_id": "BE-11",
+  "section_header": "BODY ELECTRICAL SYSTEM — Ignition Switch",
+  "title": "IGNITION SWITCH",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "IGNITION SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF IGNITION SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "text",
+      "text": "Inspect the switch continuity between terminals."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Ignition switch connector showing 6 terminals arranged in two rows. Top row has terminals 3, 2, 1 from left to right. Bottom row has terminals 6, 5, 4 from left to right.",
+      "labels": [
+        "3",
+        "2",
+        "1",
+        "6",
+        "5",
+        "4"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "table",
+      "caption": "INSPECT SWITCH CONTINUITY",
+      "headers": [
+        "Switch position",
+        "Terminal 1",
+        "Terminal 3",
+        "Terminal 6",
+        "Terminal 4",
+        "Terminal 2",
+        "Terminal 5"
+      ],
+      "rows": [
+        [
+          "LOCK",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ACC",
+          "○—○",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ON",
+          "○—○",
+          "○",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "START",
+          "○",
+          "",
+          "○—○",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Warning - Normal",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Warning - Push",
+          "",
+          "",
+          "",
+          "○—○",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    }
+  ]
+}

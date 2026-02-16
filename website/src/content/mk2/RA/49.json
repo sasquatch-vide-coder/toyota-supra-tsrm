@@ -1,0 +1,108 @@
+{
+  "page_id": "RA-49",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension",
+  "title": "Rear Suspension Arm",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand installing stabilizer bar bracket to differential support member",
+      "labels": [],
+      "bbox": {
+        "top": 2,
+        "left": 1,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "3. INSTALL STABILIZER BAR BRACKET TO DIFFERENTIAL SUPPORT MEMBER"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Rear suspension assembly showing suspension arm and related components",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 1,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rear Suspension Arm"
+    },
+    {
+      "type": "text",
+      "text": "(See page RA-44)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "REMOVAL OF REAR SUSPENSION ARM"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DISCONNECT STABILIZER BAR FROM LOWER ARM",
+        "DISCONNECT REAR DRIVE SHAFT",
+        "REMOVE REAR AXLE SHAFT FLANGE",
+        "REMOVE BRAKE DRUM OR DISC ROTOR",
+        "REMOVE REAR AXLE SHAFT",
+        "REMOVE BACKING PLATE OR DUST COVER",
+        "DISCONNECT BRAKE LINE",
+        "DISCONNECT SHOCK ABSORBER FROM LOWER ARM",
+        "REMOVE COIL SPRING"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. REMOVE REAR SUSPENSION ARM AND LOWER CONTROL ARM BUSHING"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Remember where the complete mark is when removing the suspension arm."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Lower control arm bushing showing mark location",
+      "labels": [
+        "Mark"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 1,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the two mounting bolts.",
+        "(b) Remove the camber adjusting cam.",
+        "(c) Remove the suspension arm."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Removing suspension arm mounting bolts and camber adjusting cam",
+      "labels": [],
+      "bbox": {
+        "top": 75,
+        "left": 1,
+        "width": 38,
+        "height": 18
+      }
+    }
+  ]
+}

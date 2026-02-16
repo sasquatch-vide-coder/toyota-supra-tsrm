@@ -1,0 +1,72 @@
+{
+  "page_id": "AC-15",
+  "section_header": "AIR CONDITIONING SYSTEM — Refrigeration System",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Manifold gauge set diagram showing two gauges (one marked 'Close', one marked 'Loosen Slightly'), two air hoses, and a position indicator marked 'Barely Open Position'",
+      "labels": [
+        "Close",
+        "Loosen Slightly",
+        "Air",
+        "Air",
+        "Barely Open Position",
+        "AC0166"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 35
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. IF NECESSARY, CHARGE SYSTEM WITH ANOTHER CONTAINER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) When the refrigerant container is empty, close the pressure valves.",
+        "(b) Remove the container tap valve from the container.",
+        "(c) Attach the container tap valve to a new refrigerant container.",
+        "(d) Purge the air from the center hose by barely opening the low pressure valve and loosening the valve disc.",
+        "(e) Make a hole in the sealed tap of the new container and charge the system."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Be careful not to overcharge the refrigerant as it may cause failure of the bearings and belt."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. WHEN SYSTEM IS FULLY CHARGED, DISCONNECT MANIFOLD GAUGE SET"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Close both low and high pressure valves.",
+        "(b) Close valve at refrigerant container. If using one pound containers of R-12, allow remaining refrigerant to escape by slowly removing the charge line.",
+        "(c) Turn off the engine.",
+        "(d) Using a shop rag, quickly remove both hoses from the compressor service valves."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "WARNING: Care must be taken to protect eyes and skin when removing the high pressure hose."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(e) Put the cap nuts on the service valve fittings."
+      ]
+    }
+  ]
+}

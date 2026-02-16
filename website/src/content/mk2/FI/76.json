@@ -1,0 +1,185 @@
+{
+  "page_id": "FI-76",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "EFI SYSTEM — Electronic Control System",
+  "content": [
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Terminals",
+        "STD Voltage",
+        "Condition"
+      ],
+      "rows": [
+        [
+          "BAT — E₁",
+          "",
+          "—"
+        ],
+        [
+          "+B — E₁",
+          "10 - 14",
+          "IG S/W ON",
+          "—"
+        ],
+        [
+          "IG S/W — E₁",
+          "10 - 14",
+          "IG S/W ON",
+          "—"
+        ],
+        [
+          "M.REL — E₁",
+          "",
+          "",
+          "—"
+        ],
+        [
+          "IDL — E₂",
+          "4 - 6",
+          "",
+          "Throttle valve open"
+        ],
+        [
+          "VTA — E₂",
+          "0.1 - 1.0",
+          "",
+          "Throttle valve fully closed"
+        ],
+        [
+          "",
+          "4 - 5",
+          "IG S/W ON",
+          "Throttle valve fully opened"
+        ],
+        [
+          "Vc — E₂",
+          "4 - 6",
+          "",
+          "—"
+        ],
+        [
+          "",
+          "4 - 5",
+          "",
+          "Measuring plate fully closed"
+        ],
+        [
+          "Vs — E₂",
+          "0.02 - 0.08",
+          "",
+          "Measuring plate fully open"
+        ],
+        [
+          "",
+          "2 - 4",
+          "",
+          "Idling"
+        ],
+        [
+          "",
+          "0.3 - 1.0",
+          "",
+          "3,000 rpm"
+        ],
+        [
+          "THA — E₂",
+          "1 - 2",
+          "IG S/W ON",
+          "Intake air temperature 20°C (68°F)"
+        ],
+        [
+          "THW — E₁",
+          "0.1 - 0.5",
+          "",
+          "Coolant temperature 80°C (176°F)"
+        ],
+        [
+          "STA — E₁",
+          "6 - 12",
+          "",
+          "IG S/W ST position"
+        ],
+        [
+          "No. 10\nNo. 20 — E₁",
+          "9 - 14",
+          "IG S/W ON",
+          "—"
+        ],
+        [
+          "IGt — E₁",
+          "0.7 - 1.0",
+          "",
+          "Cranking or idling"
+        ],
+        [
+          "ISC₁\n↕ — E₁",
+          "9 - 14",
+          "IG S/W ON",
+          "—"
+        ],
+        [
+          "ISC₂",
+          "9 - 14",
+          "",
+          "2 - 3 secs, after engine off"
+        ],
+        [
+          "+B — EGR",
+          "10 - 13",
+          "IG S/W ON",
+          "—"
+        ],
+        [
+          "",
+          "0",
+          "",
+          "Start engine and warm up oxygen sensor"
+        ],
+        [
+          "",
+          "0",
+          "",
+          "Shift position P or N range (for A/T)"
+        ],
+        [
+          "N/C — E₁",
+          "10 - 14",
+          "IG S/W ON",
+          "Ex. P or N range (for A/T)"
+        ],
+        [
+          "",
+          "0",
+          "",
+          "Clutch pedal not depressed (for M/T)"
+        ],
+        [
+          "",
+          "10 - 14",
+          "",
+          "Clutch pedal depressed (for M/T)"
+        ],
+        [
+          "",
+          "9 - 11",
+          "",
+          "Cranking"
+        ],
+        [
+          "T — E₁",
+          "4 - 6",
+          "IG S/W ON",
+          "Check connector not short"
+        ],
+        [
+          "",
+          "0",
+          "",
+          "Check connector short"
+        ]
+      ]
+    }
+  ]
+}

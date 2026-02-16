@@ -1,0 +1,73 @@
+{
+  "page_id": "Unknown",
+  "section_header": "COMBINATION METER - Wiring Diagram",
+  "title": "Wiring Diagram - Combination Meter",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Electrical wiring diagram showing the combination meter connections including fuel gauge, water temperature sensor, brake fluid level switch, parking brake switch, oil pressure switch, and connections to various lights and ECU. The diagram shows wire colors, connector pins, and ground points.",
+      "labels": [
+        "Combination Meter",
+        "To D/G Off Indicator Light (1-7)",
+        "To Seat Belt Warning Light & Relay (E4-6)",
+        "(Digital Meter)",
+        "From Igniter (1-2)",
+        "From Ignition SW 'ST' (1-1)",
+        "From Rheostat (E-5)",
+        "WATER TEMP SENSOR",
+        "(Analog Meter)",
+        "FUEL SENDER",
+        "BRAKE",
+        "BRAKE FLUID LEVEL S/W",
+        "PARKING BRAKE S/W",
+        "From TCCS ECU",
+        "OIL PRESSURE S/W",
+        "From Cruise Control Computer (3-1)",
+        "To 'CHARGE' Fuse (1-1)",
+        "FUEL",
+        "W-B",
+        "B-G",
+        "Y-R",
+        "Y-B",
+        "Y-L",
+        "BR",
+        "BR",
+        "W-B",
+        "W-R",
+        "V",
+        "C"
+      ],
+      "bbox": {
+        "top": 15,
+        "left": 5,
+        "width": 90,
+        "height": 75
+      }
+    },
+    {
+      "type": "text",
+      "text": "f = Located in back panel near door lock cylinder",
+      "bbox": {
+        "top": 92,
+        "left": 5,
+        "width": 50,
+        "height": 3
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Small checkered pattern box with arrows indicating wire connections, appears to be a junction or connector detail",
+      "labels": [
+        "Wire Select: S/W (1-7)"
+      ],
+      "bbox": {
+        "top": 18,
+        "left": 15,
+        "width": 10,
+        "height": 8
+      }
+    }
+  ]
+}

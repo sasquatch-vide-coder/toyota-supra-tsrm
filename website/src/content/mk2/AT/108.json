@@ -1,0 +1,145 @@
+{
+  "page_id": "AT-108",
+  "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+  "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cross-section view showing needle bearing race installation over splined end of rear clutch in case",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSTALL NEEDLE BEARING RACE OVER SPLINED END OF REAR CLUTCH IN CASE"
+    },
+    {
+      "type": "text",
+      "text": "Coat the parts with petroleum jelly to keep them in place. Position the lip of the race toward the rear clutch."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of thrust bearing and race on front clutch with hand holding the assembly",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. INSTALL THRUST BEARING AND RACE ON FRONT CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "Coat the parts with petroleum jelly to keep them in the place. Position the lip of the race toward."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Two views showing alignment of front clutch assembly with rear clutch discs and installation into case",
+      "labels": [],
+      "bbox": {
+        "top": 41,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. INSTALL FRONT CLUTCH ASSEMBLY IN CASE"
+    },
+    {
+      "type": "text",
+      "text": "Align the flukes of the rear clutch discs and mesh them with front clutch hub. Push the front clutch assembly into the case."
+    },
+    {
+      "type": "caution",
+      "text": "Be careful that the thrust bearing does not fall out."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Detail diagram showing SST tool placement on transmission case and measurement illustration",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "15. CHECK CORRECT INSTALLATION OF FRONT CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "Set SST on the transmission case as shown in the figure. Measure the distance between the top surface of the SST and front clutch assembly. If the distance corresponds to that during disassembly, the front clutch is installed correctly."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09370-12010)",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "Height: Measured value minus SST width = Approx. 2mm (0.08 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Top view of transmission case showing SST placement for thrust bearing installation on front clutch",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 4,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "16. INSTALL THRUST BEARING ON FRONT CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "Coat the thrust bearing with petroleum jelly and set it into place."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "17. INSTALL SST ON CASE"
+    },
+    {
+      "type": "text",
+      "text": "Finger tighten the SST on the transmission case."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09362-30011)",
+      "description": ""
+    }
+  ]
+}

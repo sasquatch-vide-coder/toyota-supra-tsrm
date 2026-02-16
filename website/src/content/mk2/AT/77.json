@@ -1,0 +1,112 @@
+{
+  "page_id": "AT-77",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the intermediate shaft with rear planetary ring gear and bearing race being removed, with a circular detail callout showing the set ring",
+      "labels": [
+        "C2DH"
+      ],
+      "bbox": {
+        "top": 2,
+        "left": 2,
+        "width": 45,
+        "height": 35
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INVERT INTERMEDIATE SHAFT AND REMOVE SET RING",
+        "REMOVE REAR PLANETARY RING GEAR AND BEARING RACE FROM INTERMEDIATE SHAFT\nNote the position of the race."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF PLANETARY GEAR OUTPUT SHAFT"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT DISK, PLATE AND FLANGE"
+    },
+    {
+      "type": "text",
+      "text": "Check that the sliding surface of disc is not worn or burnt.\nIf the disc is worn or burnt, replace all discs.\nThen check that the sliding surface of plate is not worn or burnt.\nIf necessary, replace them."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Do not allow the discs to dry out.\nPrepare new discs by soaking them at least two hours in ATF."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ASSEMBLY OF PLANETARY GEAR OUTPUT SHAFT"
+    },
+    {
+      "type": "text",
+      "text": "(See page AT-75)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of thrust bearing race and rear planetary ring gear on intermediate shaft with exterior splines up",
+      "labels": [
+        "C4DH"
+      ],
+      "bbox": {
+        "top": 41,
+        "left": 2,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL THRUST BEARING RACE AND REAR PLANETARY RING GEAR ON INTERMEDIATE SHAFT\nSlip the thrust bearing race and ring gear onto the shaft with the exterior splines up, as shown.",
+        "INSTALL SET RING ON INTERMEDIATE SHAFT\nPush down and wind the set ring into place. Check to make sure it is secure.",
+        "TURN OVER INTERMEDIATE SHAFT AND INSTALL THRUST BEARING AND RACE\nMake sure the flat side of the race is against the bearing.",
+        "INSTALL PINION GEAR ASSEMBLY AND STEEL THRUST WASHER ON REAR PLANETARY CARRIER\nInstall the washer with the lugs down, fitting into the rear planetary gear carrier."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of set ring on intermediate shaft, with hands pushing down and winding the ring into place",
+      "labels": [
+        "C4DH"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 2,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of pinion gear assembly and steel thrust washer on rear planetary carrier with washer lugs fitting into carrier",
+      "labels": [
+        "AT0873"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 2,
+        "width": 45,
+        "height": 24
+      }
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Make sure the different lug shapes match the openings on the plate."
+    }
+  ]
+}

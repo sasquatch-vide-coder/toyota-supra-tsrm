@@ -1,0 +1,56 @@
+{
+  "page_id": "RA-21",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "REMOVE DIFFERENTIAL",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "5. REMOVE DIFFERENTIAL"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing rear differential assembly with carrier bolts highlighted at the top, including suspension components and brake assembly",
+      "labels": [
+        "Carrier bolts"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 36,
+        "height": 30
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Jack up differential and remove the carrier bolts."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the differential carrier being lowered with a jack positioned underneath the differential housing, with vehicle suspension and exhaust system visible",
+      "labels": [],
+      "bbox": {
+        "top": 36,
+        "left": 2,
+        "width": 36,
+        "height": 30
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Lower the differential carrier with a jack."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: When lowering the carrier, be careful that the differential does not separate."
+    }
+  ]
+}

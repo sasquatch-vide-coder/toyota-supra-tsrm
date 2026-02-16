@@ -1,0 +1,103 @@
+{
+  "page_id": "AC-14",
+  "section_header": "AIR CONDITIONING SYSTEM — Refrigeration System",
+  "title": "AIR CONDITIONING SYSTEM — Refrigeration System",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Air conditioning system diagram showing refrigerant flow with two pressure gauges (HI and LO), valves marked as Open and Close, and refrigerant container connection. Dashed lines indicate refrigerant path through the system.",
+      "labels": [
+        "Open",
+        "Close",
+        "HI",
+        "LO"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "reference": "AC0163"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(a)",
+      "items": [
+        "Close both high and low pressure valves completely after the system is evacuated.",
+        "Install refrigerant container tap valve as described in step 2.",
+        "Open the high pressure valve fully, and keep the container upside down.",
+        "Charge the system with more than one container (400 g, 0.9 lb) than the specified amount. Then, close the high pressure valve."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Specified amount",
+      "value": "650 — 750 g (1.4 — 1.7 lb)"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE:\n• A fully charged system is indicated by the receiver sight glass being free of any bubbles.\n• If the low pressure gauge does not show a reading, the system is clogged and must be repaired."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. CHARGE EMPTY SYSTEM OR PARTIALLY CHARGED SYSTEM (VAPOR)"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE:\n• This step is to charge the system through the low pressure side with refrigerant in a vapor state. When the refrigerant container is placed rightside up, refrigerant will enter the system as a vapor.\n• Put the refrigerant container in a pan of warm water (maximum temperature 40°C or 104°F) to keep vapor pressure in the container slightly higher than vapor pressure in the system."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Air conditioning system diagram showing refrigerant flow configuration for vapor charging with two pressure gauges (HI and LO), valves marked as Open and Close, and refrigerant container in upright position. Dashed lines indicate refrigerant vapor path through the system.",
+      "labels": [
+        "Open",
+        "Close",
+        "HI",
+        "LO"
+      ],
+      "bbox": {
+        "top": 53,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "reference": "AC0163"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(a)",
+      "items": [
+        "Install refrigerant container tap valve as described in step 2.",
+        "Open the low pressure valve. Adjust the valve so that the low pressure gauge does not read over 4.2 kg/cm² (60 psi, 412 kPa).",
+        "Run the engine at fast idle, and operate the air conditioner."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Be sure to keep the container in the upright position to prevent liquid refrigerant being charged into the system through the suction side, resulting in possible damage to the compressor."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(d)",
+      "items": [
+        "Charge the system with more than one container (400 g, 0.9 lb) than the specified amount. Then, close the low pressure valve."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Specified amount",
+      "value": "650 — 750g (1.4 — 1.7 lb)"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: A fully charged system is indicated by the receiver sight glass being free of any bubbles."
+    }
+  ]
+}

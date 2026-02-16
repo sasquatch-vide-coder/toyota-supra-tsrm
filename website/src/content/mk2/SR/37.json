@@ -1,0 +1,203 @@
+{
+  "page_id": "SR-37",
+  "section_header": "STEERING — Power Steering",
+  "title": "STEERING — Power Steering",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. INSTALL CLAW WASHER AND RACK ENDS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the claw washer."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Align the claw of the claw washer with the rack groove."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Tighten the rack end and torque it with SST.",
+        "SST 09612-24012 (09617-22030, 09617-24010)"
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Rack end",
+      "value": "1,050 kg·cm (76 ft-lb, 103 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Stake the claw washer."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing installation of claw washer and rack ends using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. INSTALL CONTROL VALVE ASSEMBLY INTO CONTROL VALVE HOUSING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. INSTALL CONTROL VALVE SPRING SEAT"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. INSTALL COMPRESSION SPRING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSTALL O-RING AND CONTROL VALVE HOUSING TO RACK HOUSING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Align the marks on the control housing and rack housing.",
+        "(b) Coat liquid sealer onto the screw surface of the bolt.",
+        "(c) Install the three bolts and torque them."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Three bolts",
+      "value": "185 kg·cm (13 ft-lb, 18 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of O-ring and control valve housing to rack housing with SST tool and alignment marks",
+      "labels": [
+        "SST",
+        "10°"
+      ],
+      "bbox": {
+        "top": 28,
+        "left": 2,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. ADJUST CONTROL VALVE SHAFT PRELOAD"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Coat liquid sealer onto the screw surface of the bolt.",
+        "(b) Tighten the pinion adjusting screw and torque with SST.",
+        "SST (09612-24012 (09612-10021)"
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pinion adjusting screw",
+      "value": "150 kg·cm (11 ft-lb, 15 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Return the pinion adjusting screw 10°.",
+        "(d) Using SST, measure the preload.",
+        "SST 09616-00010"
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Preload (turning)",
+      "value": "4.5 — 6.5 kg·cm (3.9 — 5.6 in.-lb, 0.4 — 0.6 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "If incorrect, readjust."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing measurement of control valve shaft preload using SST tool",
+      "labels": [
+        "SST",
+        "SST 09616-00010"
+      ],
+      "bbox": {
+        "top": 50,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. INSTALL PINION ADJUSTING SCREW LOCK NUT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Coat liquid sealer onto the lock nut and gear housing contact surfaces.",
+        "(b) Install the pinion adjusting screw lock nut and torque it with SST.",
+        "SST 09612-24012 (09612-10021, 09617-24020)"
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pinion adjusting screw lock nut",
+      "value": "700 kg·cm (51 ft-lb, 69 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Recheck the control valve shaft preload."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Preload (turning)",
+      "value": "4.5 — 6.5 kg·cm (3.9 — 5.6 in.-lb, 0.4 — 0.6 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of pinion adjusting screw lock nut using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 73,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    }
+  ]
+}

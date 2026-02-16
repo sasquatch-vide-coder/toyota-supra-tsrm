@@ -1,0 +1,141 @@
+{
+  "page_id": "BO-6",
+  "section_header": "BODY — Front Door",
+  "title": "INSTALLATION OF FRONT DOOR",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page BO-3)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Window regulator mechanism showing gears, sliding surfaces, and mounting points",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "text": "BEFORE INSTALLING PARTS COAT THEM WITH MP GREASE",
+          "subitems": [
+            {
+              "letter": "(a)",
+              "text": "Coat the sliding surface and gears with MP grease."
+            },
+            {
+              "letter": "(b)",
+              "text": "Coat the sliding surface with MP grease."
+            }
+          ]
+        },
+        {
+          "number": "2.",
+          "text": "INSTALL DOOR LOCK AND SOLENOID WITH MOUNTING SCREWS"
+        },
+        {
+          "number": "3.",
+          "text": "INSTALL OUTSIDE HANDLE"
+        },
+        {
+          "number": "4.",
+          "text": "INSTALL INSIDE HANDLE"
+        },
+        {
+          "number": "5.",
+          "text": "CONNECT FOLLOWING LINKAGES:",
+          "subitems": [
+            {
+              "letter": "(a)",
+              "text": "Outside control link"
+            },
+            {
+              "letter": "(b)",
+              "text": "Door lock control link"
+            },
+            {
+              "letter": "(c)",
+              "text": "Door lock cylinder link"
+            },
+            {
+              "letter": "(d)",
+              "text": "Door open control link"
+            }
+          ]
+        },
+        {
+          "number": "6.",
+          "text": "ADJUST DOOR INSIDE HANDLE",
+          "subitems": [
+            {
+              "letter": "(a)",
+              "text": "Loosen the screws."
+            },
+            {
+              "letter": "(b)",
+              "text": "Push the door handle forward until strong resistance is felt. Move handle back 0.5 — 1.0 mm (0.020 — 0.039 in.) and tighten the mounting bolts."
+            }
+          ]
+        },
+        {
+          "number": "7.",
+          "text": "ADJUST DOOR INSIDE LOCK",
+          "subitems": [
+            {
+              "letter": "(a)",
+              "text": "Loosen the adjusting bolt."
+            },
+            {
+              "letter": "(b)",
+              "text": "Push the door lock adjusting bolt upward until strong resistance is felt. Move the bolt down 0.5 — 1.0 mm (0.020 — 0.039 in.) and tighten the bolt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Door lock and solenoid assembly with mounting screws",
+      "labels": [],
+      "bbox": {
+        "top": 29,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Inside door handle adjustment showing handle position and mounting bolts",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Inside door lock adjustment showing adjusting bolt position",
+      "labels": [],
+      "bbox": {
+        "top": 98,
+        "left": 3,
+        "width": 37,
+        "height": 21
+      }
+    }
+  ]
+}

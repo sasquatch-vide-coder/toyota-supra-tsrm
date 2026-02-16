@@ -1,0 +1,34 @@
+{
+  "page_id": "RA-11",
+  "section_header": "REAR AXLE AND SUSPENSION – IRS Type Rear Axle Shaft",
+  "title": "REAR AXLE AND SUSPENSION – IRS Type Rear Axle Shaft",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Technical illustration showing rear axle assembly with a wrench tool being used on the stake nut and drive shaft connection. The diagram depicts the circular hub assembly with internal brake components and the cylindrical drive shaft.",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 38,
+        "height": 30
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "STAKE NUT WITH PUNCH",
+        "INSTALL REAR BRAKE",
+        "CONNECT DRIVE SHAFT",
+        "INSTALL REAR WHEEL"
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "CONNECT DRIVE SHAFT",
+      "value": "700 kg-cm (51 ft-lb, 69 N·m)"
+    }
+  ]
+}

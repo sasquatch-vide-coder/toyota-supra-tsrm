@@ -1,0 +1,87 @@
+{
+  "page_id": "AC-40",
+  "section_header": "AIR CONDITIONING SYSTEM — Cooling Unit, Refrigerant Lines",
+  "title": "INSTALLATION OF COOLING UNIT",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Photograph showing cooling unit installation with wire harness connection",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF COOLING UNIT"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL A/C WIRE HARNESS TO COOLING UNIT",
+        "INSTALL COOLING UNIT\nInstall the cooling unit with the three nuts and four bolts.",
+        "INSTALL FOLLOWING COMPONENTS:\n(a) Side air duct\n(b) Glove box with undercover",
+        "INSTALL GROMMETS ON INLET AND OUTLET FITTINGS",
+        "CONNECT LIQUID LINE TUBE TO COOLING UNIT INLET FITTING",
+        "CONNECT SUCTION FLEXIBLE HOSE TO COOLING UNIT OUTLET FITTING",
+        "IF EVAPORATOR IS REPLACED, ADD COMPRESSOR OIL TO COMPRESSOR\nAdd 20 – 35 cc (0.7 – 1.2 fl. oz.)",
+        "CONNECT NEGATIVE CABLE TO BATTERY",
+        "EVACUATE, CHARGE AND TEST REFRIGERATION SYSTEM (See page AC-12)"
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Be careful not to pinch the wire harness while installing the cooling unit."
+    },
+    {
+      "type": "torque_spec",
+      "component": "LIQUID LINE TUBE TO COOLING UNIT INLET FITTING",
+      "value": "135 kg-cm (10 ft-lb, 13 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "SUCTION FLEXIBLE HOSE TO COOLING UNIT OUTLET FITTING",
+      "value": "325 kg-cm (24 ft-lb, 32 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Photograph showing cooling unit with grommets and line connections",
+      "labels": [],
+      "bbox": {
+        "top": 25,
+        "left": 3,
+        "width": 40,
+        "height": 32
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REFRIGERANT LINES"
+    },
+    {
+      "type": "text",
+      "text": "(See page AC-22)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSPECT HOSES AND TUBES FOR LEAKAGE\nUse a gas leak tester. Replace, if necessary.",
+        "CHECK THAT HOSE AND TUBE CLAMPS ARE NOT LOOSE\nTighten or replace, as necessary."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "PR-2",
+  "section_header": "PROPELLER SHAFT — Precautions, Troubleshooting",
+  "title": "PRECAUTIONS",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "As the universal joint is a non-disassembly type, the propeller shaft or intermediate shaft must be replaced as an assembly in event of universal joint trouble.",
+        "Be careful not to grip the propeller shaft tube too tightly in the vise as this will cause deformation."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "TROUBLESHOOTING"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Noise",
+          "Sleeve yoke spline worn",
+          "Replace intermediate shaft",
+          "PR-4"
+        ],
+        [
+          "",
+          "Center bearing worn",
+          "Replace center bearing",
+          "PR-4"
+        ],
+        [
+          "",
+          "Spider bearing worn or stuck",
+          "Replace intermediate shaft or propeller shaft",
+          "PR-4"
+        ],
+        [
+          "Vibration",
+          "Propeller shaft runout",
+          "Replace propeller shaft",
+          "PR-4"
+        ],
+        [
+          "",
+          "Propeller shaft unbalance",
+          "Balance propeller shaft",
+          "PR-4"
+        ],
+        [
+          "",
+          "Transmission extension housing rear bushing worn",
+          "Replace bushing",
+          "MT-15"
+        ],
+        [
+          "",
+          "Sleeve yoke spline stuck",
+          "Replace intermediate shaft",
+          "PR-4"
+        ]
+      ]
+    }
+  ]
+}

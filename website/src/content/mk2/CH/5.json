@@ -1,0 +1,106 @@
+{
+  "page_id": "CH-5",
+  "section_header": "CHARGING SYSTEM — Alternator",
+  "title": "ALTERNATOR",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ALTERNATOR"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of alternator components showing the disassembly of the alternator into its constituent parts",
+      "labels": [
+        "Pulley",
+        "Drive End Frame",
+        "Front Bearing",
+        "Bearing Cover",
+        "Rear Bearing",
+        "Rotor",
+        "Retainer",
+        "Terminal Insulator",
+        "Rear End Cover",
+        "Brush Holder and Cover",
+        "Spring",
+        "Brush",
+        "IC Regulator",
+        "Rectifier Holder",
+        "Rear End Frame",
+        "Terminal Insulator"
+      ],
+      "bbox": {
+        "top": 6,
+        "left": 2,
+        "width": 96,
+        "height": 44
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF ALTERNATOR"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "text": "DISCONNECT CABLE FROM NEGATIVE TERMINAL OF BATTERY"
+        },
+        {
+          "number": "2.",
+          "text": "DISCONNECT WIRING FROM ALTERNATOR",
+          "subitems": [
+            "(a) Disconnect the connector from the alternator.",
+            "(b) Remove the nut and wire from the alternator."
+          ]
+        },
+        {
+          "number": "3.",
+          "text": "REMOVE ALTERNATOR DRIVE BELT",
+          "details": "Loosen the alternator pivot, adjusting lock and adjusting bolts and remove the alternator drive belt."
+        },
+        {
+          "number": "4.",
+          "text": "REMOVE ALTERNATOR",
+          "subitems": [
+            "(a) Remove the pivot and adjusting lock bolts.",
+            "(b) Remove the alternator."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the alternator installed in the engine bay with wiring connected",
+      "bbox": {
+        "top": 52,
+        "left": 2,
+        "width": 36,
+        "height": 18
+      },
+      "reference": "CH0336"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the alternator with drive belt and removal of pivot and adjusting lock bolts",
+      "bbox": {
+        "top": 71,
+        "left": 2,
+        "width": 36,
+        "height": 26
+      },
+      "reference": "B4341"
+    }
+  ]
+}

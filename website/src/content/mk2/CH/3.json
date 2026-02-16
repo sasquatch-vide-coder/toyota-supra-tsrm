@@ -1,0 +1,187 @@
+{
+  "page_id": "CH-3",
+  "section_header": "CHARGING SYSTEM — On-Vehicle Inspection",
+  "title": "On-Vehicle Inspection",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSPECT DRIVE BELT"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing a drive belt and what appears to be belt ribs or teeth in cross-section",
+      "labels": [
+        "CH0006 CH0149"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 5,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Visually check the belt for separation of the adhesive rubber layer below the core, core separating from the belt side, severed cord, separation of the rib from the adhesive rubber, cracking or separation of the rib, torn or worn ribs or cracks in the inner ridges of the ribs."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If necessary, replace the drive belt."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing three types of belt tension gauges: Nippondenso and Borroughs brand gauges with different configurations",
+      "labels": [
+        "Nippondenso",
+        "Borroughs",
+        "EI0003 EI0006 LI0401"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 5,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Using a belt tension gauge, check the drive belt tension."
+    },
+    {
+      "type": "text",
+      "text": "Belt tension gauge:"
+    },
+    {
+      "type": "part_number",
+      "label": "Nippondenso",
+      "number": "BTG-20 (95506-00020)",
+      "description": ""
+    },
+    {
+      "type": "part_number",
+      "label": "Borroughs",
+      "number": "No. BT-33-73F",
+      "description": ""
+    },
+    {
+      "type": "table",
+      "caption": "Drive belt tension:",
+      "headers": [
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "New belt",
+          "170 ± 10 lb"
+        ],
+        [
+          "Used belt",
+          "135 ± 20 lb"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If necessary, adjust the drive belt tension."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "\"New belt\" refers to a belt which has been used less than 5 minutes on a running engine.",
+        "\"Used belt\" refers to a belt which has been used on a running engine for 5 minutes or more.",
+        "After installing the drive belt, check that it fits properly in the ribbed grooves.",
+        "Check by hand to confirm that the belt has not slipped out of the groove on the bottom of the crank pulley.",
+        "After installing the belt, run the engine for about 5 minutes and then recheck the tension."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing correct and wrong belt installation patterns in grooves, with three examples of belt alignment",
+      "labels": [
+        "CORRECT",
+        "WRONG",
+        "WRONG",
+        "CH0085"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 5,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CHECK FUSES FOR CONTINUITY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ENGINE fuse (15A)",
+        "CHARGE fuse (7.5A)",
+        "IGN fuse (7.5A)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing alternator wiring and connection details",
+      "labels": [
+        "CH0193"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 5,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. VISUALLY CHECK ALTERNATOR WIRING AND LISTEN FOR ABNORMAL NOISES"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that the wiring is in good condition.",
+        "(b) Check that there is no abnormal noise from the alternator while the engine is running."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. CHECK DISCHARGE WARNING LIGHT CIRCUIT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Warm up the engine and then turn it off.",
+        "(b) Turn off all accessories.",
+        "(c) Turn the ignition switch to ON. Check that the discharge warning light is lit.",
+        "(d) Start the engine. Check that the light goes out."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If the light does not come on and go off as specified, troubleshoot the warning light circuit."
+    }
+  ]
+}

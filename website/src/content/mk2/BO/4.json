@@ -1,0 +1,142 @@
+{
+  "page_id": "BO-4",
+  "section_header": "BODY — Front Door",
+  "title": "DISASSEMBLY OF FRONT DOOR",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page BO-3)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE DOOR TRIM"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand removing door trim components from front door",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the courtesy light.",
+        "(b) Remove the bolts holding the door trim to the front door.",
+        "(c) Insert a screwdriver between the retainers and the door panel to pry it loose.",
+        "(d) Disconnect the wiring connector and remove the door trim.",
+        "(e) Remove the upper door trim.",
+        "(f) Remove the upper front garnish."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE SERVICE HOLE COVER"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand peeling back service hole cover from door panel",
+      "labels": [],
+      "bbox": {
+        "top": 23,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE REAR VIEW MIRROR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the cover.",
+        "(b) Disconnect the wiring connector.",
+        "(c) Remove the three set screws and mirror."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. REMOVE BELT MOULDING"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Detail showing removal of belt moulding with adhesive tape, includes upward arrow indicator",
+      "labels": [
+        "Adhesive Tape"
+      ],
+      "bbox": {
+        "top": 41,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the top of the weatherstrip near the glass on both sides of the door.",
+        "(b) Remove the two set screws, and pry loose the retainers with a scraper to remove the belt moulding."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. REMOVE DOOR GLASS"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Interior view of door panel showing door glass mounting points with upper stopper, trim support and inner stabilizer",
+      "labels": [],
+      "bbox": {
+        "top": 59,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the upper stopper, trim support and inner stabilizer."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Lower door panel view showing guide set bolts and window positioning",
+      "labels": [],
+      "bbox": {
+        "top": 77,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Raise the window up 20 — 40 mm (0.79 — 1.57 in.).",
+        "(c) Remove the two guide set bolts."
+      ]
+    }
+  ]
+}

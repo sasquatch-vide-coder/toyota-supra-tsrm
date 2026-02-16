@@ -1,0 +1,176 @@
+{
+  "page_id": "BR-11",
+  "section_header": "BRAKE SYSTEM — Master Cylinder",
+  "title": "INSTALLATION OF MASTER CYLINDER",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of reservoir on master cylinder with torque wrench",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 1,
+        "width": 38,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. INSTALL RESERVOIR"
+    },
+    {
+      "type": "text",
+      "text": "(a) Install the reservoir on the master cylinder. Torque the bolt."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Reservoir bolt",
+      "value": "250 kg·cm (18 ft·lb, 25 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "(b) Install the strainer and cap."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. INSTALL ELBOW AND SNAP RING"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. CONNECT RESERVOIR HOSE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF MASTER CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "(See page BR-9)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Master cylinder boot with UP mark indicated",
+      "labels": [
+        "Mark"
+      ],
+      "bbox": {
+        "top": 32,
+        "left": 1,
+        "width": 38,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. CLEAN OUT GROOVE ON LOWER INSTALLATION SURFACE OF MASTER CYLINDER"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. CONFIRM THAT \"UP\" MARK OF MASTER CYLINDER BOOT IS IN CORRECT POSITION"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installation of master cylinder onto brake booster",
+      "labels": [],
+      "bbox": {
+        "top": 62,
+        "left": 1,
+        "width": 38,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. ADJUST LENGTH OF BRAKE BOOSTER PUSH ROD BEFORE INSTALLING MASTER CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "(See page BR-12)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. INSTALL MASTER CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "Install the master cylinder and gasket on the brake booster with four nuts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Master cylinder mounting nuts",
+      "value": "130 kg·cm (9 ft·lb, 13 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Connecting brake tubes to master cylinder with SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 92,
+        "left": 1,
+        "width": 38,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. CONNECT TWO BRAKE TUBES"
+    },
+    {
+      "type": "text",
+      "text": "Using SST, connect two brake tubes to the outlet plugs."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09751-36011",
+      "description": ""
+    },
+    {
+      "type": "torque_spec",
+      "component": "Brake tubes",
+      "value": "155 kg·cm (11 ft·lb, 15 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. CONNECT LEVEL WARNING SWITCH CONNECTOR"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Brake pedal and reservoir assembly",
+      "labels": [],
+      "bbox": {
+        "top": 122,
+        "left": 1,
+        "width": 38,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. ADJUST BRAKE PEDAL (See page BR-6)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. FILL BRAKE RESERVOIR WITH BRAKE FLUID AND BLEED BRAKE SYSTEM (See page BR-7)"
+    }
+  ]
+}

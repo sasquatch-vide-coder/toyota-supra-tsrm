@@ -1,0 +1,175 @@
+{
+  "page_id": "BE-109",
+  "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna",
+  "title": "DEFECTIVE AUTO-SEARCH MECHANISM",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "4. DEFECTIVE AUTO-SEARCH MECHANISM"
+    },
+    {
+      "type": "text",
+      "text": "Manual search possible but automatic search mechanism does not function or does not stop at all receivable stations."
+    },
+    {
+      "type": "text",
+      "text": "Possible causes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Poor search sensitivity (SENS button)",
+        "Defective radio"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TEST"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Flowchart for testing auto-search mechanism. First decision box asks if needle moves when search button is pushed. If No, replace radio. If Yes, asks if desired broadcast receivable when button is at DISTANT position. If Yes, OK. If No, check if desired broadcast can actually be received in the area. If receivable, replace radio.",
+      "labels": [
+        "Does needle move when search button is pushed?",
+        "Yes",
+        "No",
+        "Replace radio",
+        "Is desired broadcast receivable when button is at \"DISTANT\" position?",
+        "OK",
+        "Check if desired broadcast can actually be received in the area. If receivable, replace radio."
+      ],
+      "bbox": {
+        "top": 17,
+        "left": 8,
+        "width": 84,
+        "height": 35
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Antenna Motor Control Relay"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF ANTENNA MOTOR CONTROL RELAY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECT RELAY OPERATION (ANTENNA UP)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "(a) Connect the voltmeter positive (+) lead to terminal 1 and the negative (−) lead to terminal 4.",
+        "(b) Connect the positive (+) lead from the battery to terminals 7 and 8. Connect the negative (−) lead to terminal 3.",
+        "(c) Check that there is battery voltage."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Wiring diagram showing antenna motor control relay in UP position. Shows voltmeter connection to terminals 1 and 4, and battery connections to terminals 7, 8, and 3. Relay has 9 numbered terminals with internal switching mechanism illustrated.",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "bbox": {
+        "top": 48,
+        "left": 8,
+        "width": 35,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSPECT RELAY OPERATION (ANTENNA DOWN)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "(a) Connect the voltmeter positive (+) lead to terminal 4 and the negative (−) lead to terminal 1.",
+        "(b) Connect the positive (+) lead from the battery to terminal 7. Connect the negative (−) lead to terminal 2.",
+        "(c) Check that there is battery voltage."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Wiring diagram showing antenna motor control relay in DOWN position. Shows voltmeter connection to terminals 4 and 1, and battery connections to terminals 7 and 2. Relay has 9 numbered terminals with internal switching mechanism illustrated.",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "bbox": {
+        "top": 68,
+        "left": 8,
+        "width": 35,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSPECT RELAY OPERATION (ANTENNA STOP)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "(a) Connect the voltmeter positive (+) lead to terminal 1 and the negative (−) lead to terminal 4.",
+        "(b) Connect the positive (+) lead from the battery to terminals 7 and 9. Connect the negative (−) lead to terminal 2.",
+        "(c) Check that there is no battery voltage."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the relay."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Wiring diagram showing antenna motor control relay in STOP position. Shows voltmeter connection to terminals 1 and 4, and battery connections to terminals 7, 9, and 2. Relay has 9 numbered terminals with internal switching mechanism illustrated.",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "bbox": {
+        "top": 88,
+        "left": 8,
+        "width": 35,
+        "height": 18
+      }
+    }
+  ]
+}

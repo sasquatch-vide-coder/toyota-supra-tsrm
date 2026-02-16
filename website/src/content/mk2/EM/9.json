@@ -1,0 +1,173 @@
+{
+  "page_id": "EM-9",
+  "section_header": "ENGINE MECHANICAL — Timing Belt",
+  "title": "ENGINE MECHANICAL — Timing Belt",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Timing belt and pulley assembly showing points A and B for tension checking",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 25
+      },
+      "reference": "EM1704 EM-802"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(f) Loosen the idler pulley set bolt stretch the timing belt.",
+        "(g) Tighten the idler pulley set bolt."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Idler pulley set bolt",
+      "value": "500 kg-cm (36 ft-lb, 49 N·m)"
+    },
+    {
+      "type": "notice",
+      "text": "Make sure that the timing belt tension at A is equal to that at B. If not, retighten the idler pulley set bolt."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand turning crankshaft pulley with timing belt installed",
+      "labels": [],
+      "bbox": {
+        "top": 32,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      },
+      "reference": "EM853"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(h) Turn the crankshaft clockwise two times and set the No. 1 cylinder to TDC/compression."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Recheck the timing belt tension."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(i) Recheck the camshaft timing pulley marks."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Camshaft timing pulley showing EX and IN positions with arrows indicating cleaning",
+      "labels": [
+        "EX",
+        "IN"
+      ],
+      "bbox": {
+        "top": 54,
+        "left": 5,
+        "width": 45,
+        "height": 17
+      },
+      "reference": "EM1736"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. CHECK MATCH HOLE OF CAMSHAFT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Clean the camshaft match holes with compressed air."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing alignment of match holes on camshaft and camshaft housing for both EX and IN sides",
+      "labels": [
+        "EX",
+        "IN",
+        "Align Match Hole",
+        "Check Timing Mark"
+      ],
+      "bbox": {
+        "top": 73,
+        "left": 5,
+        "width": 45,
+        "height": 17
+      },
+      "reference": "EM1222"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Align the match hole of the camshaft with that of the camshaft housing by turning the crankshaft pulley.",
+        "(c) After alignment, make a note of the crankshaft pulley angle on the No. 1 timing belt cover."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Match hole alignment should be done separately for the IN and EX sides."
+    },
+    {
+      "type": "text",
+      "text": "If the camshaft pulley angle is within TDC ± 5°, it is correct."
+    },
+    {
+      "type": "text",
+      "text": "If it exceeds TDC ± 5°, proceed to step 9."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. ADJUSTMENT OF CAMSHAFT MATCH HOLES"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST to hold the camshaft timing pulley, remove the pulley set bolt."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09278-54012"
+    },
+    {
+      "type": "caution",
+      "text": "Do not make use of the timing belt tension when loosening the bolt."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Using SST tool to hold camshaft timing pulley while removing set bolt",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 88,
+        "left": 5,
+        "width": 45,
+        "height": 17
+      },
+      "reference": "EM1785"
+    }
+  ]
+}

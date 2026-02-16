@@ -1,0 +1,176 @@
+{
+  "page_id": "BE-62",
+  "section_header": "BODY ELECTRICAL SYSTEM — Rear Window Defogger",
+  "title": "Rear Window Defogger Wires",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing tester probe placement on rear window defogger with heat wire and tin foil",
+      "labels": [
+        "Tester Probe",
+        "Heat Wire",
+        "Tin Foil"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rear Window Defogger Wires"
+    },
+    {
+      "type": "caution",
+      "text": "• When cleaning the glass, use a soft, dry cloth, and wipe the glass in the direction of the wire. Take care not to damage the wires.\n• Do not use detergents or glass cleaners with abrasive ingredients.\n• When measuring voltage, wind a piece of tin foil around the tip of the negative probe and press the foil against the wire with your finger as shown."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF REAR WINDOW DEFOGGER WIRES"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing voltmeter connection at center of rear window defogger wire",
+      "labels": [
+        "At Center",
+        "V"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "heading": "INSPECT FOR WIRE BREAKAGE",
+          "substeps": [
+            "(a) Turn the defogger switch to ON.",
+            "(b) Inspect the voltage at the center of each heat wire."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Voltage",
+        "Criteria"
+      ],
+      "rows": [
+        [
+          "Approx. 5V",
+          "Okay (No break in wire)"
+        ],
+        [
+          "Approx. 10V or 0V",
+          "Broken wire"
+        ]
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "If there is 10V, the wire is broken between the center of the wire and positive (+) end. If there is no voltage, the wire is broken between the center of the wire and ground."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing voltmeter testing for wire breakage point with broken wire showing several volts and 0 volt regions",
+      "labels": [
+        "V",
+        "0 volt",
+        "Several Volts",
+        "Broken Wire"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "2.",
+          "heading": "INSPECT FOR WIRE BREAKAGE POINT",
+          "substeps": [
+            "(a) Place the voltmeter positive (+) lead against the defogger positive (+) terminal.",
+            "(b) Place the voltmeter negative (−) lead with the foil strip against the heat wire at the positive (+) terminal end and shift it toward the negative (−) terminal end.",
+            "(c) The point where the voltmeter reading deflects from zero to several volts is the place where the heat wire is broken."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "If the heat wire is not broken, the voltmeter will indicate 0V at the positive (+) end of the heat wire but gradually increase to about 12V as the meter probe is moved to the other end."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing repair agent application over broken wire with masking tape on both sides",
+      "labels": [
+        "Repair Agent",
+        "Broken Wire",
+        "Masking Tape"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REPAIR OF REAR WINDOW DEFOGGER WIRES"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "text": "CLEAN BROKEN WIRE TIPS WITH WHITE GASOLINE"
+        },
+        {
+          "number": "2.",
+          "heading": "PLACE MASKING TAPE ALONG BOTH SIDES OF WIRE TO BE REPAIRED",
+          "substeps": [
+            "(a) Thoroughly mix the repair agent (Dupont paste No. 4817).",
+            "(b) Using a fine tip brush, apply a small amount to the wire.",
+            "(c) After a couple of minutes, remove the masking tape.",
+            "(d) Allow to stand at least 24 hours."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Two illustrations showing brush application of repair agent to wire and cross-section view of repaired wire",
+      "labels": [],
+      "bbox": {
+        "top": 80,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    }
+  ]
+}

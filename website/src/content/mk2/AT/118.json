@@ -1,0 +1,168 @@
+{
+  "page_id": "AT-118",
+  "section_header": "AUTOMATIC TRANSMISSION — Installation of Transmission",
+  "title": "Installation of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Rear support member mounted on vehicle body showing bolt locations at each end",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      },
+      "image_id": "A70390"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. INSTALL REAR SUPPORT MEMBER ON BODY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the two bolts at each end of the support.",
+        "(b) Connect the ground strap."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. LOWER TRANSMISSION, AND INSTALL FOUR REMAINING MOUNTING BOLTS"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Underside view of transmission mounted to vehicle showing power steering gear housing and mounting configuration",
+      "labels": [],
+      "bbox": {
+        "top": 23,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      },
+      "image_id": "EN6708"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "15. INSTALL POWER STEERING GEAR HOUSING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the rubber cushions on the gear housing.",
+        "(b) Install the gear housing on the crossmember.",
+        "(c) Install the brackets and tighten the four bolts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Power steering gear housing brackets",
+      "value": "770 kg-cm (56 ft-lb, 76 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Install the clamps of fluid line.",
+        "(e) Connect the both tie rod ends to the knuckle arm."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Tie rod ends",
+      "value": "600 kg-cm (43 ft-lb, 59 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(f) Install the intermediate shaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Converter cover and exhaust pipe clamp installation area showing stiffener plates",
+      "labels": [],
+      "bbox": {
+        "top": 42,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      },
+      "image_id": "A70739"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "16. INSTALL CONVERTER COVER, EXHAUST PIPE CLAMP AND BOTH STIFFENER PLATES"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Speedometer cable connection showing felt dust cover and washer attachment at cable end with collar and pliers",
+      "labels": [],
+      "bbox": {
+        "top": 61,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      },
+      "image_id": "A70735 A71230"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "17. CONNECT SPEEDOMETER CABLE"
+    },
+    {
+      "type": "text",
+      "text": "Be sure the felt dust cover and washer are on the end of the cable. Tighten the collar with pliers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "18. CONNECT MANUAL SHIFT LINKAGE"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Oil cooler lines connection points on transmission",
+      "labels": [],
+      "bbox": {
+        "top": 80,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      },
+      "image_id": "A70764"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "19. CONNECT OIL COOLER LINES"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Oil cooler lines",
+      "value": "350 kg-cm (25 ft-lb, 34 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "20. CONNECT COOLING LINE BRACKET"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Cooling line bracket",
+      "value": "650 kg-cm (47 ft-lb, 64 N·m)"
+    }
+  ]
+}

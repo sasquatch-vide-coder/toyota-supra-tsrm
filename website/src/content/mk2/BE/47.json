@@ -1,0 +1,50 @@
+{
+  "page_id": "BE-47",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "Speedometer Troubleshooting",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Trouble Section",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "G",
+          "Speedometer | No speed unit conversion"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remove meter and connect sub-harness (SST)"
+    },
+    {
+      "type": "flowchart_step",
+      "step_number": 1,
+      "text": "With the ignition S/W at ON position, is there speed unit conversion when rear terminals are short-circuited?",
+      "branches": {
+        "No": "Replace speedometer",
+        "Yes": "Replace speed scale change S/W"
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing speedometer testing setup with SST sub-harness connection. Shows speedometer unit on left and connector detail on right with GND and KMSW terminals labeled.",
+      "labels": [
+        "Speedometer",
+        "GND",
+        "KMSW"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 46,
+        "height": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "page_id": "ST-9",
+  "section_header": "STARTING SYSTEM — Starter",
+  "title": "INSTALL STARTING HOUSING / PERFORMANCE TEST OF REDUCTION TYPE STARTER",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of starter housing on magnetic switch assembly",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. INSTALL STARTING HOUSING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place the starter housing on the magnetic switch and install two screws.",
+        "(b) Install two through bolts.",
+        "(c) Connect the coil lead to the terminal on the magnetic switch."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "PERFORMANCE TEST OF REDUCTION TYPE STARTER"
+    },
+    {
+      "type": "caution",
+      "text": "These tests must be performed within 3 to 5 seconds to avoid burning out the coil."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. PERFORM PULL-IN TEST"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect the field coil lead from terminal C.",
+        "(b) Connect the battery to the magnetic switch as shown. Check that the plunger moves outward."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If the plunger does not move, replace the magnetic switch."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Pull-in test setup showing battery connected to magnetic switch with Terminal 50 and Terminal C labeled",
+      "labels": [
+        "Terminal 50",
+        "Terminal C"
+      ],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 45,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. PERFORM HOLD-IN TEST"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) While connected as above with the plunger out, disconnect the negative lead from terminal C. Check that the plunger remains out."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If the plunger returns inward, replace the magnetic switch."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hold-in test setup showing battery connected to magnetic switch",
+      "labels": [],
+      "bbox": {
+        "top": 52,
+        "left": 3,
+        "width": 45,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. CHECK PLUNGER RETURN"
+    },
+    {
+      "type": "text",
+      "text": "Disconnect the negative lead from the switch body. Check that the plunger returns inward."
+    },
+    {
+      "type": "text",
+      "text": "If the plunger does not return, replace the magnetic switch."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Plunger return test setup showing battery connected to magnetic switch",
+      "labels": [],
+      "bbox": {
+        "top": 75,
+        "left": 3,
+        "width": 45,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. PERFORM NO-LOAD PERFORMANCE TEST"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the battery and ammeter to the starter as shown.",
+        "(b) Check that the starter rotates smoothly and steadily with the pinion moving out. Check that the ammeter reads the specified current."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Starter current",
+      "value": "Less than 90 A at 11.5 V"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "No-load performance test setup showing battery and ammeter connected to starter with Terminal 30 labeled",
+      "labels": [
+        "Terminal 30"
+      ],
+      "bbox": {
+        "top": 97,
+        "left": 3,
+        "width": 45,
+        "height": 25
+      }
+    }
+  ]
+}

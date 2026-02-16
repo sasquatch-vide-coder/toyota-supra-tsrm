@@ -1,0 +1,346 @@
+{
+  "page_id": "C-5",
+  "section_header": "SST AND SSM — SST (Special Service Tools)",
+  "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+      "headers": [
+        "Section",
+        "Classification",
+        "List Name",
+        "Part No.",
+        "Illustration",
+        "",
+        "EM",
+        "FU",
+        "LU",
+        "ST",
+        "CL",
+        "TC",
+        "AT",
+        "MT",
+        "PR",
+        "FA",
+        "RS",
+        "BR",
+        "SR",
+        "SF",
+        "BO"
+      ],
+      "rows": [
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Cylindrical cup-shaped tool",
+            "bbox": {
+              "top": 12,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09316-60070",
+          "description": "Replacer ''F'')",
+          "classification": "",
+          "marks": [
+            {
+              "column": "MT",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Cylindrical plug or fitting with splined end",
+            "bbox": {
+              "top": 16,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09325-20010",
+          "description": "Transmission Oil Plug",
+          "classification": "A",
+          "marks": [
+            {
+              "column": "AT",
+              "marked": true
+            },
+            {
+              "column": "PR",
+              "marked": true
+            },
+            {
+              "column": "FA",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Long shaft tool with flanged end",
+            "bbox": {
+              "top": 20,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09330-00021",
+          "description": "Companion Flange (Holding Tool)",
+          "classification": "A",
+          "marks": [
+            {
+              "column": "FU",
+              "marked": true
+            },
+            {
+              "column": "FA",
+              "marked": true
+            },
+            {
+              "column": "BR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Long shaft or rod tool",
+            "bbox": {
+              "top": 24,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09333-00012",
+          "description": "Clutch Diaphragm Spring Aligner",
+          "classification": "B",
+          "marks": [
+            {
+              "column": "CL",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Tool set with multiple components laid out",
+            "bbox": {
+              "top": 28,
+              "left": 2,
+              "width": 8,
+              "height": 5
+            }
+          },
+          "part_number": "09350-20013",
+          "description": "TOYOTA Automatic Transmission Tool Set",
+          "classification": "B",
+          "marks": [
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Serrated cylindrical tool or replacer",
+            "bbox": {
+              "top": 34,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09361-30011",
+          "description": "Manual Valve Lever Shaft Oil Seal Replacer",
+          "classification": "",
+          "marks": [
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Thin flat tool or guide bolt",
+            "bbox": {
+              "top": 38,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09362-30011",
+          "description": "(Guide Bolt)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Circular band or ring tool",
+            "bbox": {
+              "top": 42,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09363-20010",
+          "description": "Oil Pump Body Setting Band",
+          "classification": "",
+          "marks": [
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Small piston spring compressor components",
+            "bbox": {
+              "top": 46,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09369-20040",
+          "description": "Piston Spring Compressor Set",
+          "classification": "",
+          "marks": [
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Long flat gauge tool",
+            "bbox": {
+              "top": 50,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09370-12010",
+          "description": "Clutch Drum Thrust Play Gauge",
+          "classification": "",
+          "marks": [
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Threaded bolt or seal replacer tool",
+            "bbox": {
+              "top": 54,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09388-20010",
+          "description": "(Oil Seal Replacer)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Small test tool components",
+            "bbox": {
+              "top": 58,
+              "left": 2,
+              "width": 8,
+              "height": 4
+            }
+          },
+          "part_number": "09387-22020",
+          "description": "One-way Clutch Test Tool Set",
+          "classification": "",
+          "marks": [
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "Large housing or washer tool with multiple components",
+            "bbox": {
+              "top": 62,
+              "left": 2,
+              "width": 8,
+              "height": 5
+            }
+          },
+          "part_number": "09411-22011",
+          "description": "Side Gear Thrust Washer Adjust Tool",
+          "classification": "B",
+          "marks": [
+            {
+              "column": "RS",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "description": "T-handled removal tool",
+            "bbox": {
+              "top": 68,
+              "left": 2,
+              "width": 8,
+              "height": 5
+            }
+          },
+          "part_number": "09504-22010",
+          "description": "Differential Side Washer Remover & Replacer",
+          "classification": "B",
+          "marks": [
+            {
+              "column": "RS",
+              "marked": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "page_id": "BO-18",
+  "section_header": "BODY — Moulding",
+  "title": "INSTALLATION OF QUARTER CORNER MOULDING / REMOVAL OF CENTER PILLAR GARNISH / INSTALLATION OF CENTER PILLAR GARNISH / REMOVAL OF DOOR BELT MOULDING",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF QUARTER CORNER MOULDING"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation diagram showing quarter corner moulding with screw placement and cushion rubber positioning",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 26
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL CORNER MOULDING",
+        "INSTALL QUARTER TRIM AND GARNISH"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the moulding.",
+        "(b) Install the screw over the cushion rubber."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF CENTER PILLAR GARNISH"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing center pillar garnish removal with seat belt components and fasteners",
+      "labels": [],
+      "bbox": {
+        "top": 32,
+        "left": 3,
+        "width": 38,
+        "height": 26
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE FOLLOWING PARTS:",
+        "REMOVE OUTSIDE GARNISH"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Seat belt guide",
+        "(b) Seat belt shoulder another bolt",
+        "(c) Inner garnish"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remove the two set nuts and remove the garnish."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF CENTER PILLAR GARNISH"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing installation of center pillar garnish with fastener locations",
+      "labels": [],
+      "bbox": {
+        "top": 59,
+        "left": 3,
+        "width": 38,
+        "height": 26
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL OUTSIDE GARNISH",
+        "INSTALL FOLLOWING PARTS:"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Inner garnish",
+        "(b) Seat belt shoulder anchor bolt",
+        "(c) Seat belt guide"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF DOOR BELT MOULDING"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE FOLLOWING PARTS:"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Door trim panel (See page BO-4)",
+        "(b) Door weatherstrips on both ends"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing door belt moulding removal procedure with screw location and clip removal using scraper, adhesive tape labeled",
+      "labels": [
+        "Adhesive Tape"
+      ],
+      "bbox": {
+        "top": 85,
+        "left": 3,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE DOOR BELT MOULDING"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove two screws from the moulding.",
+        "(b) Pry loose the clips with a scraper and remove the belt moulding."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "page_id": "AT-59",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch) AT-59",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand installing thinner snap ring into overdrive clutch drum groove using fingers",
+      "labels": [
+        "AT0790"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. INSTALL THINNER SNAP RING IN OVERDRIVE CLUTCH DRUM"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the overdrive clutch outer snap ring and hub to allow installation of the thinner snap ring.",
+        "(b) Compress and lower the snap ring into the groove by hand. Check that the ends of the snap ring are not aligned with one of the cutouts."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand installing hub and outer snap ring into overdrive clutch drum",
+      "labels": [
+        "AT0788"
+      ],
+      "bbox": {
+        "top": 25,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. INSTALL HUB AND OUTER SNAP RING"
+    },
+    {
+      "type": "text",
+      "text": "Check that the ends of the snap ring are not aligned with one of the cutouts."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hands meshing overdrive clutch drum hub with planetary gear disc, showing twisting and jiggling motion",
+      "labels": [
+        "AT0787"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. ASSEMBLE OVERDRIVE CLUTCH DRUM AND OVERDRIVE PLANETARY GEAR"
+    },
+    {
+      "type": "text",
+      "text": "Mesh the hub with the disc, twisting and jiggling the hub as required."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hand checking one-way clutch operation by turning input shaft, showing Free (clockwise) and Lock (counterclockwise) directions",
+      "labels": [
+        "Free",
+        "Lock",
+        "AT0791"
+      ],
+      "bbox": {
+        "top": 65,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. CHECK OPERATION OF ONE-WAY CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "Hold the clutch drum and turn the input shaft. The input shaft should turn freely clockwise and should lock counterclockwise."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. KEEP THRUST WASHER, THRUST BEARINGS AND RACE TOGETHER"
+    }
+  ]
+}

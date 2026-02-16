@@ -1,0 +1,96 @@
+{
+  "page_id": "BE-101",
+  "section_header": "BODY ELECTRICAL SYSTEM — Radio, Stereo Tape Player and Antenna",
+  "title": "RADIO, STEREO TAPE PLAYER AND ANTENNA",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "RADIO, STEREO TAPE PLAYER AND ANTENNA"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Troubleshooting"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "DESCRIPTION SYMBOLS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Legend showing three symbols used in troubleshooting flowcharts: a rectangle for Inspection, a rounded rectangle for Check or replace part, and a circle with smiley face for Test by operating radio",
+      "labels": [
+        "Inspection",
+        "Check or replace part",
+        "Test by operating radio"
+      ],
+      "bbox": {
+        "top": 17,
+        "left": 25,
+        "width": 73,
+        "height": 13
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. DEAD RADIO AND TAPE PLAYER"
+    },
+    {
+      "type": "text",
+      "text": "(a) No power to radio or tape player, or power but no sound."
+    },
+    {
+      "type": "text",
+      "text": "Possible causes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Blown RADIO fuse",
+        "Short circuit or broken wire in power source wire harness",
+        "Loose connectors behind radio and tape player",
+        "Loose speaker connector",
+        "Defective speaker",
+        "Broken wire in speaker wire harness",
+        "Improperly installed radio or tape player",
+        "Defective radio or tape player"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "TEST 1"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Troubleshooting flowchart for Test 1, starting with checking RADIO fuse, then proceeding through various diagnostic steps including checking for shorts in power source wire harness, and ending with either proceeding to Test 2 or replacing radio and tape player or inspecting and repairing wire harness",
+      "labels": [
+        "Check RADIO fuse.",
+        "OK",
+        "Proceed to Test 2.",
+        "Blown",
+        "Replace fuse.",
+        "Does not blow",
+        "OK",
+        "Blows again",
+        "Check for short circuit in power source wire harness.",
+        "No short",
+        "Replace radio and tape player.",
+        "Short",
+        "Inspect and repair wire harness for radio and tape player."
+      ],
+      "bbox": {
+        "top": 64,
+        "left": 0,
+        "width": 100,
+        "height": 35
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "page_id": "MT-18",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "MANUAL TRANSMISSION — W58 Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand selecting a snap ring from a shaft, showing proper handling technique",
+      "labels": [
+        "WM0077"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(f) Select a snap ring that will allow minimum axial play and install it on the shaft."
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Mark",
+        "Thickness",
+        "mm (in.)"
+      ],
+      "rows": [
+        [
+          "1",
+          "2.05 — 2.10",
+          "(0.0807 — 0.0827)"
+        ],
+        [
+          "2",
+          "2.10 — 2.15",
+          "(0.0827 — 0.0846)"
+        ],
+        [
+          "3",
+          "2.15 — 2.20",
+          "(0.0846 — 0.0866)"
+        ],
+        [
+          "4",
+          "2.20 — 2.25",
+          "(0.0866 — 0.0886)"
+        ],
+        [
+          "5",
+          "2.25 — 2.30",
+          "(0.0886 — 0.0906)"
+        ],
+        [
+          "6",
+          "2.30 — 2.35",
+          "(0.0906 — 0.0925)"
+        ],
+        [
+          "7",
+          "2.35 — 2.40",
+          "(0.0925 — 0.0945)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. IF NECESSARY, REPLACE COUNTER GEAR CENTER BEARING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the bearing from the counter gear.",
+        "(b) Install a new bearing on the counter gear."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Engage the roller cages."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hands installing or removing bearing from counter gear assembly",
+      "labels": [
+        "WM0078"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 4,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Using SST, tap out the bearing outer race."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09608-35014 (09608-06020, 09608-06090)",
+      "description": ""
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: The outer race will be installed later as the transmission is assembled."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Using SST tool to tap out bearing outer race from transmission housing",
+      "labels": [
+        "SST",
+        "WM0079"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 4,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "11. IF NECESSARY, REPLACE REVERSE RESTRICT PIN"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using SST, remove the screw plug."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09313-30021",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Using SST to remove screw plug from transmission case",
+      "labels": [
+        "SST",
+        "WM0081"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 4,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Using a pin punch and hammer, drive out the slotted spring pin.",
+        "(c) Pull off the lever housing and slide out the shaft.",
+        "(d) Install the lever housing.",
+        "(e) Using a pin punch and hammer, drive in the slotted spring pin.",
+        "(f) Apply liquid sealer to the plug."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Installing components of reverse restrict mechanism into transmission case",
+      "labels": [
+        "WM0084"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 4,
+        "width": 37,
+        "height": 19
+      }
+    }
+  ]
+}

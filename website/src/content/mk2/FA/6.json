@@ -1,0 +1,131 @@
+{
+  "page_id": "FA-6",
+  "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Hub",
+  "title": "FRONT AXLE HUB",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "FRONT AXLE HUB"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of front axle hub components showing brake caliper assembly on left, axle hub with disc assembly on right, and various bearings, seals, and fasteners in between",
+      "labels": [
+        "930 (67, 91)",
+        "Oil Seal",
+        "Inner Bearing",
+        "Brake Caliper",
+        "Outer Bearing",
+        "Thrust Washer",
+        "Adjusting Nut",
+        "Cotter Pin",
+        "Hub Grease Cap",
+        "Axle Hub with Disc",
+        "Lock Cap",
+        "1,050 (76, 103)"
+      ],
+      "bbox": {
+        "top": 11,
+        "left": 3,
+        "width": 94,
+        "height": 48
+      }
+    },
+    {
+      "type": "text",
+      "text": "kg-cm (ft-lb, N·m) : Specified torque"
+    },
+    {
+      "type": "text",
+      "text": "◆ Non-reusable part"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Brake caliper mounting",
+      "value": "930 (67, 91)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Lock cap/adjusting nut",
+      "value": "1,050 (76, 103)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DISASSEMBLY OF FRONT AXLE HUB"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE DISC BRAKE CALIPER",
+        "REMOVE AXLE HUB WITH DISC"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. REMOVE DISC BRAKE CALIPER"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands removing brake caliper from knuckle assembly",
+      "labels": [],
+      "bbox": {
+        "top": 63,
+        "left": 3,
+        "width": 37,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the caliper mounting bolts and remove caliper from the knuckle.",
+        "(b) Suspend the caliper with a cord."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Do not disconnect the brake hose."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. REMOVE AXLE HUB WITH DISC"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands removing hub and disc assembly from axle, with grease cap, cotter pin, and lock cap visible",
+      "labels": [],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 37,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the hub grease cap, cotter pin, lock cap, nut and axle hub.",
+        "(b) Remove the hub and disc together with the outer bearing and thrust washer."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Be careful not to drop the outer bearing."
+    }
+  ]
+}

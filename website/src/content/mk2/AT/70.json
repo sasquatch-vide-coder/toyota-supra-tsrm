@@ -1,0 +1,165 @@
+{
+  "page_id": "AT-70",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing placement of SST (Special Service Tool) on spring retainer to compress piston return springs in center support assembly",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. COMPRESS PISTON RETURN SPRINGS AND REMOVE SNAP RING"
+    },
+    {
+      "type": "text",
+      "text": "Place SST on spring retainer and compress the springs with a shop press."
+    },
+    {
+      "type": "text",
+      "text": "Using a screwdriver, remove the snap ring."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09369-20040)",
+      "description": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. REMOVE SPRING RETAINER AND TWELVE SPRINGS"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of No. 1 brake piston using compressed air through center support oil hole",
+      "labels": [],
+      "bbox": {
+        "top": 20,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. REMOVE NO. 1 BRAKE PISTON"
+    },
+    {
+      "type": "text",
+      "text": "Blow compressed air through the center support oil hole to remove the No. 1 brake piston."
+    },
+    {
+      "type": "text",
+      "text": "If the piston does not pop out, lift it out with needle-nose pliers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. REMOVE NO. 1 BRAKE PISTON O-RINGS"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of rear snap ring (No. 2 brake) from center support assembly turned over",
+      "labels": [],
+      "bbox": {
+        "top": 37,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. TURN CENTER SUPPORT ASSEMBLY OVER AND REMOVE REAR SNAP RING (NO. 2 BRAKE)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. REMOVE CLUTCH FLANGE, DISCS AND PLATES (NO. 2 BRAKE)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing placement of SST on spring retainer to compress piston return springs for No. 2 brake",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 54,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. COMPRESS PISTON RETURN SPRINGS AND REMOVE SNAP RING"
+    },
+    {
+      "type": "text",
+      "text": "Place SST on spring retainer and compress the springs with a shop press."
+    },
+    {
+      "type": "text",
+      "text": "Using a screwdriver, remove the snap ring."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09369-20040)",
+      "description": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. REMOVE SPRING RETAINER AND TWENTY SPRINGS"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing removal of No. 2 brake piston using compressed air through center support oil hole",
+      "labels": [],
+      "bbox": {
+        "top": 71,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. REMOVE NO. 2 BRAKE PISTON"
+    },
+    {
+      "type": "text",
+      "text": "Blow compressed air through the center support oil hole to remove the No. 2 brake piston."
+    },
+    {
+      "type": "text",
+      "text": "If the piston does not pop out, lift it out with needle-nose pliers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. REMOVE NO. 2 BRAKE PISTON O-RINGS"
+    }
+  ]
+}

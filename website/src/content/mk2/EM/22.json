@@ -1,0 +1,203 @@
+{
+  "page_id": "EM-22",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "REMOVE CYLINDER HEAD BOLTS / REMOVE CYLINDER HEAD / DISASSEMBLY OF CYLINDER HEAD",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cylinder head bolt removal sequence diagram showing numbered positions 1-14 arranged in a specific pattern on the cylinder head. Numbers are arranged in two rows with positions marked.",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "SST"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "19. REMOVE CYLINDER HEAD BOLTS"
+    },
+    {
+      "type": "text",
+      "text": "Using SST, remove the fourteen head bolts gradually in two or three passes and in the numerical order shown."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09043-38100"
+    },
+    {
+      "type": "caution",
+      "text": "Head warpage or cracking could result from removing in incorrect order."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing cylinder head being lifted from cylinder block with dowels visible",
+      "labels": [],
+      "bbox": {
+        "top": 30,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "20. REMOVE CYLINDER HEAD"
+    },
+    {
+      "type": "text",
+      "text": "Lift the cylinder head from the dowels on the cylinder block and place the head on wooden blocks on a bench."
+    },
+    {
+      "type": "text",
+      "text": "If the cylinder head is difficult to lift off, pry with a screwdriver between the head and block saliences."
+    },
+    {
+      "type": "caution",
+      "text": "Be careful not to damage the cylinder head and block surfaces on the cylinder head gasket side."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "21. REMOVE EGR COOLER"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY OF CYLINDER HEAD"
+    },
+    {
+      "type": "text",
+      "text": "(See page EM-18)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Detailed diagram of cylinder head showing numbered positions (1s through 13s) for various components, with intake and exhaust sides labeled",
+      "labels": [
+        "1s",
+        "3s",
+        "5s",
+        "7s",
+        "9s",
+        "11s",
+        "13s",
+        "2s",
+        "4s",
+        "6s",
+        "8s",
+        "10s",
+        "12s"
+      ],
+      "bbox": {
+        "top": 50,
+        "left": 3,
+        "width": 37,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE CYLINDER HEAD COVERS"
+    },
+    {
+      "type": "text",
+      "text": "Remove the two cylinder head covers by loosening the screws."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE NO. 1 AND NO. 2 CAMSHAFT HOUSINGS WITH CAMSHAFT"
+    },
+    {
+      "type": "text",
+      "text": "Remove No. 1 and No. 2 camshaft housings by loosening the nuts from side end nut."
+    },
+    {
+      "type": "caution",
+      "text": "Loosen each camshaft housing nut and bolt a little at a time in the sequence shown in the figure."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing rocker arms and lash adjusters with labels pointing to specific components",
+      "labels": [
+        "Lash Adjuster",
+        "Rocker Arm"
+      ],
+      "bbox": {
+        "top": 79,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE ROCKER ARMS AND LASH ADJUSTERS"
+    },
+    {
+      "type": "text",
+      "text": "Remove the rocker arms and lash adjusters from the cylinder head."
+    },
+    {
+      "type": "notice",
+      "text": "Arrange the rocker arms and lash adjusters in order."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing valve spring compression using SST tool to remove valve keepers",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 97,
+        "left": 3,
+        "width": 37,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. REMOVE VALVES"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, compress the valve spring until the two keepers can be removed."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09202-43013"
+    }
+  ]
+}

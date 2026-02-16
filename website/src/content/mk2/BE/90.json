@@ -1,0 +1,66 @@
+{
+  "page_id": "BE-90",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF SOURCE CIRCUIT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "A    INSPECTION OF SOURCE CIRCUIT"
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for theft deterrent system source circuit inspection. Starts with turning ignition switch on, then checks DOME fuse, C/G fuse, and proceeds through various ground connection and switch operation tests for back door and key switches.",
+      "bbox": {
+        "top": 8,
+        "left": 4,
+        "width": 92,
+        "height": 85
+      },
+      "steps": [
+        {
+          "type": "action",
+          "text": "Turn ignition switch on."
+        },
+        {
+          "type": "decision",
+          "text": "Is DOME fuse normal?",
+          "yes": "Continue to next check",
+          "no": "Replace fuse. Is operation normal? → If No: Short circuit in wire harness between fuse and terminal 5 of computer. If Yes: Fuse faulty"
+        },
+        {
+          "type": "decision",
+          "text": "Is C/G fuse normal?",
+          "yes": "Continue to BACK DOOR S/W section",
+          "no": "Replace fuse. Is operation normal? → If No: Short circuit in wire harness between fuse and terminal 4 of computer. If Yes: Fuse faulty"
+        },
+        {
+          "type": "section_label",
+          "text": "BACK DOOR S/W"
+        },
+        {
+          "type": "inspection",
+          "text": "INSPECT GROUND CONNECTION\nIs there continuity between back door switch body and body ground?",
+          "yes": "Continue to next check",
+          "no": "Body ground faulty."
+        },
+        {
+          "type": "inspection",
+          "text": "INSPECT BACK DOOR SWITCH OPERATION\nIs there continuity between terminal 1 and body ground with back door switch turned on?",
+          "yes": "Continue to BACK DOOR KEY S/W section",
+          "no": "Inspect back door switch."
+        },
+        {
+          "type": "section_label",
+          "text": "BACK DOOR KEY S/W"
+        },
+        {
+          "type": "inspection",
+          "text": "INSPECT GROUND CONNECTION\nIs there continuity between terminal 3 and body ground?",
+          "yes": "CONTINUED ON NEXT PAGE",
+          "no": "• Open circuit in wire harness between terminal 3 and body ground.\n• Body ground faulty."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "page_id": "EC-5",
+  "section_header": "EMISSION CONTROL SYSTEMS — Fuel Evaporative Emission Control (EVAP) System",
+  "title": "FUEL EVAPORATIVE EMISSION CONTROL (EVAP) SYSTEM",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Schematic diagram of EVAP system showing fuel vapor flow path from fuel tank through charcoal canister to intake manifold",
+      "labels": [
+        "Purge Port",
+        "BVSV",
+        "Orifice",
+        "Fuel Filler Cap",
+        "Check Valve (1)",
+        "Check Valve (2)",
+        "Check Valve (3)",
+        "Charcoal Canister",
+        "Fuel Tank",
+        "Check Valve",
+        "Fuel Vapor",
+        "Fresh Air"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 90,
+        "height": 25
+      }
+    },
+    {
+      "type": "text",
+      "text": "To reduce HC emission, evaporated fuel from the fuel tank is routed through the charcoal canister to the intake manifold for combustion in the cylinders"
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Coolant Temp.",
+        "BVSV",
+        "Throttle Valve Opening",
+        "Canister Check Valve (1)",
+        "Canister Check Valve (2)",
+        "Canister Check Valve (3)",
+        "Check Valve in Cap",
+        "Evaporated Fuel (HC)"
+      ],
+      "rows": [
+        [
+          "Below 54°C (128°F)",
+          "CLOSED",
+          "",
+          "—",
+          "—",
+          "—",
+          "—",
+          "HC from tank is absorbed in the canister."
+        ],
+        [
+          "Above 54°C (128°F)",
+          "OPEN",
+          "Positioned below purge port",
+          "CLOSED",
+          "—",
+          "—",
+          "—",
+          "HC from tank is absorbed in the canister."
+        ],
+        [
+          "",
+          "",
+          "Positioned above purge port",
+          "OPEN",
+          "—",
+          "—",
+          "—",
+          "HC from canister is led into air intake chamber."
+        ],
+        [
+          "High pressure in tank",
+          "—",
+          "—",
+          "—",
+          "OPEN",
+          "CLOSED",
+          "CLOSED",
+          "HC from tank is absorbed in the canister."
+        ],
+        [
+          "High vacuum in tank",
+          "—",
+          "—",
+          "—",
+          "CLOSED",
+          "OPEN",
+          "OPEN",
+          "(Air is led into the fuel tank.)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF FUEL VAPOR LINES, FUEL TANK AND FILLER CAP"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing fuel vapor lines and connections routing from fuel tank to canister and purge port",
+      "labels": [],
+      "bbox": {
+        "top": 52,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "VISUALLY INSPECT LINES AND CONNECTIONS\nLook for loose connections, sharp bends or damage.",
+        "VISUALLY INSPECT FUEL TANK\nLook for deformation, cracks or fuel leakage."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Detailed illustration of fuel filler cap showing internal check valve (vacuum valve) and gasket",
+      "labels": [
+        "Gasket",
+        "Check Valve (Vacuum Valve)"
+      ],
+      "bbox": {
+        "top": 75,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        "VISUALLY INSPECT FUEL FILLER CAP\nCheck condition of gasket and cap.\nIf necessary, repair or replace the cap."
+      ]
+    }
+  ]
+}

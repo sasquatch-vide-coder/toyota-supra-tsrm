@@ -1,0 +1,114 @@
+{
+  "page_id": "RA-23",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "DISASSEMBLY OF DIFFERENTIAL",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY OF DIFFERENTIAL"
+    },
+    {
+      "type": "procedure_step",
+      "number": 1,
+      "heading": "REMOVE DIFFERENTIAL CARRIER COVER",
+      "text": "Remove the eight bolts, cover and gasket."
+    },
+    {
+      "type": "procedure_step",
+      "number": 2,
+      "heading": "REMOVE SIDE GEAR SHAFT",
+      "text": "Using SST, remove the side gear shaft from the differential carrier.",
+      "part_numbers": [
+        {
+          "label": "SST",
+          "number": "09520-22011"
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of side gear shaft from differential carrier using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 1,
+        "width": 24,
+        "height": 17
+      }
+    },
+    {
+      "type": "procedure_step",
+      "number": 3,
+      "heading": "REMOVE SIDE GEAR SHAFT OIL SEAL",
+      "text": "Using SST, remove the oil seal.",
+      "part_numbers": [
+        {
+          "label": "SST",
+          "number": "09308-00010"
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of side gear shaft oil seal using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 1,
+        "width": 24,
+        "height": 17
+      }
+    },
+    {
+      "type": "procedure_step",
+      "number": 4,
+      "heading": "CHECK RING GEAR RUNOUT",
+      "text": "If the runout is greater than maximum, install a new ring gear.",
+      "specification": {
+        "parameter": "Maximum runout",
+        "value": "0.07 mm (0.0028 in.)"
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing ring gear runout measurement on differential carrier",
+      "labels": [],
+      "bbox": {
+        "top": 61,
+        "left": 1,
+        "width": 24,
+        "height": 17
+      }
+    },
+    {
+      "type": "procedure_step",
+      "number": 5,
+      "heading": "CHECK RING GEAR BACKLASH",
+      "text": "If the backlash is not within specification, adjust the side bearing preload or repair as necessary. (See page RA-32)",
+      "specification": {
+        "parameter": "Backlash",
+        "value": "0.13 – 0.18 mm (0.0051 – 0.0071 in.)"
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing ring gear backlash measurement on differential carrier",
+      "labels": [],
+      "bbox": {
+        "top": 80,
+        "left": 1,
+        "width": 24,
+        "height": 17
+      }
+    }
+  ]
+}

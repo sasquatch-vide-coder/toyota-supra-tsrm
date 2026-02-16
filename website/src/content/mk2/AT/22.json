@@ -1,0 +1,126 @@
+{
+  "page_id": "AT-22",
+  "section_header": "AUTOMATIC TRANSMISSION — Stall Test",
+  "title": "STALL TEST",
+  "content": [
+    {
+      "type": "text",
+      "text": "The object of this test is to check the overall performance of the transmission and engine by measuring the maximum engine speeds at the \"D\" and \"R\" ranges."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CAUTION:"
+    },
+    {
+      "type": "caution",
+      "text": "(a) Perform the test at normal operation fluid temperature (50 — 80°C or 122 — 176°F).\n(b) Do not continuously run this test longer than 5 seconds."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MEASURE STALL SPEED"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "(a) Chock the four wheels.",
+        "(b) Mount an engine tachometer.",
+        "(c) Fully apply the parking brake.",
+        "(d) Step down strongly on the brake pedal with your left foot.",
+        "(e) Start the engine.",
+        "(f) Shift into \"D\" range. Step all the way down on the accelerator pedal with your right foot. Quickly read the highest engine rpm at this time."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Stall speed: 2,100 ± 150 rpm"
+    },
+    {
+      "type": "text",
+      "text": "(g) Perform the same test in \"R\" range."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "EVALUATION"
+    },
+    {
+      "type": "text",
+      "text": "(a) If the engine speed is the same for both ranges but lower than specified value:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "• Engine output is insufficient.",
+        "• Stator one-way clutch is not operating properly."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: If more than 600 rpm below the specified value, the torque converter could be at fault."
+    },
+    {
+      "type": "text",
+      "text": "(b) If the stall speed in \"D\" range is higher than specified:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "• Line pressure too low",
+        "• Front clutch slipping",
+        "• One-way clutch No. 2 not operating properly",
+        "• OD one-way clutch not operating properly"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(c) If the stall speed in \"R\" range is higher than specified:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "• Line pressure too low",
+        "• Rear clutch slipping",
+        "• Brake No. 3 slipping",
+        "• OD one-way clutch not operating properly"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(d) If the stall speed in \"R\" and \"D\" range is higher than specified:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "• Line pressure too low",
+        "• Improper fluid level",
+        "• OD one-way clutch not operating properly"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustrated procedure showing steps for stall test: chocking wheels, mounting tachometer, applying parking brake, person in driver's seat pressing pedals, and reading tachometer gauge showing engine RPM",
+      "labels": [
+        "Chock wheels",
+        "Mount tachometer",
+        "Apply parking brake",
+        "Step on brake with left foot",
+        "Shift to D or R",
+        "Read RPM gauge (2,100 ± 150 RPM)"
+      ],
+      "bbox": {
+        "top": 66,
+        "left": 4,
+        "width": 92,
+        "height": 32
+      }
+    }
+  ]
+}

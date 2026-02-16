@@ -1,0 +1,200 @@
+{
+  "page_id": "BE-18",
+  "section_header": "BODY ELECTRICAL SYSTEM — Lighting",
+  "title": "BODY ELECTRICAL SYSTEM — Lighting",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Light control rheostat (analog type) testing diagram showing OFF position with multimeter connected, indicating no continuity between terminals",
+      "labels": [
+        "OFF",
+        "No continuity"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Check that there is no continuity between terminals with the rheostat turned off."
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the rheostat."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Light Control Rheostat (Digital Type)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF LIGHT CONTROL RHEOSTAT"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT RHEOSTAT OPERATION"
+    },
+    {
+      "type": "text",
+      "text": "Connect the positive (+) lead from the battery to terminal 1. Connect the negative (–) lead to terminal 4."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) With the brightness at minimum, check that there is 9V between terminals 1 and 3.",
+        "(b) Gradually turn the rheostat toward the brighter side and check that the voltage between terminals 1 and 3 decreases from 9V to 0V.",
+        "(c) With the brightness at minimum, check that there is 0V between terminals 2 and 4 and 4 and 1 when brightness is at any other level."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the rheostat."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Light control rheostat (digital type) wiring diagram showing terminals 1, 2, 3, 4 with battery and voltmeter connections",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "V"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Physical installation diagram of light control rheostat (digital type) showing mounting position with voltmeter",
+      "labels": [
+        "V"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 3,
+        "width": 37,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Turn Signal and Hazard Warning Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF TURN SIGNAL AND HAZARD WARNING SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT TURN SIGNAL AND HAZARD WARNING SWITCH CONTINUITY"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Turn signal and hazard warning switch connector terminal layout diagram showing numbered terminal positions",
+      "labels": [
+        "G1/G",
+        "G1/O",
+        "L",
+        "S",
+        "Y",
+        "2",
+        "2B",
+        "L1",
+        "R",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "3",
+        "8",
+        "2",
+        "7",
+        "1"
+      ],
+      "bbox": {
+        "top": 63,
+        "left": 3,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Switch position",
+        "Terminal (Wire Color)",
+        "9 TL (G-B)",
+        "3 T8 (G-W)",
+        "8 TR (G-Y)",
+        "2 B+ (G-L)",
+        "7 F (G)",
+        "1 B2 (G-O)"
+      ],
+      "rows": [
+        [
+          "Turn Signal",
+          "L",
+          "○——○",
+          "",
+          "",
+          "○——○",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "",
+          "",
+          "",
+          "○——○",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "○——○",
+          "",
+          "○——○",
+          "",
+          ""
+        ],
+        [
+          "Hazard",
+          "ON",
+          "○——○——○",
+          "",
+          "",
+          "○——○",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    }
+  ]
+}

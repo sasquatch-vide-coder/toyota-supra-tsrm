@@ -1,0 +1,59 @@
+{
+  "page_id": "BE-91",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "CONTINUED FROM PREVIOUS PAGE",
+  "content": [
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for theft deterrent system inspection, showing decision trees for back door key unlock switch, computer power source, ground connection, and LH/RH key unlock switch circuits",
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 90,
+        "height": 92
+      },
+      "steps": [
+        {
+          "type": "decision",
+          "test": "INSPECT BACK DOOR KEY UNLOCK SWITCH OPERATION",
+          "question": "Is there continuity between terminal 1 and body ground with back door key unlock switch turned on?",
+          "yes_path": "Continue to COMPUTER",
+          "no_path": "Inspect back door key unlock switch."
+        },
+        {
+          "type": "action",
+          "text": "COMPUTER",
+          "instruction": "Disconnect computer and inspect connector on wire harness side as follows."
+        },
+        {
+          "type": "decision",
+          "test": "INSPECT POWER SOURCE",
+          "question": "Is there battery voltage between terminal 5 and body ground?",
+          "yes_path": "Continue to next test",
+          "no_path": "Open circuit in wire harness between fuse and terminal 5 of computer."
+        },
+        {
+          "type": "decision",
+          "test": "INSPECT GROUND CONNECTION",
+          "question": "Is there continuity between terminal 10 and body ground?",
+          "yes_path": "Continue to next test",
+          "no_path": "• Open circuit in wire harness between terminal 10 of computer and body ground.\n• Body ground faulty."
+        },
+        {
+          "type": "decision",
+          "test": "INSPECT LH KEY UNLOCK SWITCH CIRCUIT",
+          "question": "Is there continuity between terminal 9 and body ground with LH door locked with key?",
+          "yes_path": "Short circuit in wire harness between terminal 9 of computer and terminal 2 of LH key unlock switch.",
+          "no_path": "Continue to next test"
+        },
+        {
+          "type": "decision",
+          "test": "INSPECT RH KEY UNLOCK SWITCH CIRCUIT",
+          "question": "Is there continuity between terminal 9 and body ground with RH door locked with key?",
+          "yes_path": "Short circuit in wire harness between terminal 9 of computer and terminal 2 of RH key unlock switch.",
+          "no_path": "CONTINUED ON NEXT PAGE"
+        }
+      ]
+    }
+  ]
+}

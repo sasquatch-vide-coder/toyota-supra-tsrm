@@ -1,0 +1,142 @@
+{
+  "page_id": "LU-3",
+  "section_header": "LUBRICATION SYSTEM — Replacement of Engine Oil and Oil Filter",
+  "title": "REPLACEMENT OF ENGINE OIL AND OIL FILTER",
+  "content": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1",
+          "heading": "DRAIN ENGINE OIL",
+          "text": "Remove the oil drain plug and drain the oil into a container."
+        },
+        {
+          "number": "2",
+          "heading": "REPLACE OIL FILTER",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Using SST, remove the oil filter (located on right side of the engine block).",
+              "part_number": "SST 09228-44010"
+            },
+            {
+              "label": "(b)",
+              "text": "Inspect and clean the oil filter installation surface."
+            },
+            {
+              "label": "(c)",
+              "text": "Apply clean engine oil to the gasket of the new oil filter."
+            },
+            {
+              "label": "(d)",
+              "text": "Lightly screw in the oil filter to where you feel resistance."
+            },
+            {
+              "label": "(e)",
+              "text": "Then, using SST, tighten the oil filter an extra 3/4 turn.",
+              "part_number": "SST 09228-44010"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "heading": "FILL WITH ENGINE OIL",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Clean and install the oil drain plug with a new gasket."
+            },
+            {
+              "label": "(b)",
+              "text": "Fill the engine with new oil API grade SF or SF/CC, multigrade, fuel efficient and recommended viscosity oil."
+            }
+          ],
+          "oil_capacity": {
+            "type": "table",
+            "rows": [
+              {
+                "condition": "Dry fill",
+                "liters": "5.7 liters",
+                "us_quarts": "6.0 US qts, 5.0 Imp. qts"
+              },
+              {
+                "condition": "Drain and refill w/o Oil filter change",
+                "liters": "4.6 liters",
+                "us_quarts": "4.9 US qts, 4.0 Imp. qts"
+              },
+              {
+                "condition": "w/ Oil filter change",
+                "liters": "5.1 liters",
+                "us_quarts": "5.4 US qts, 4.5 Imp. qts"
+              }
+            ]
+          }
+        },
+        {
+          "number": "4",
+          "heading": "START ENGINE AND CHECK FOR LEAKS"
+        },
+        {
+          "number": "5",
+          "heading": "RECHECK ENGINE OIL LEVEL",
+          "text": "Recheck the engine oil level and refill as necessary.",
+          "note": {
+            "type": "notice",
+            "text": "NOTE: Insert the oil level gauge with the curved tip pointed toward the engine."
+          }
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Oil filter removal - showing hands using SST tool to remove oil filter from engine block",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 17,
+        "left": 1,
+        "width": 39,
+        "height": 20
+      },
+      "diagram_id": "LU0006 LU0005"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Oil filter tightening - showing hand using SST tool to tighten oil filter",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 1,
+        "width": 39,
+        "height": 17
+      },
+      "diagram_id": "LU0006 LU0007"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Oil level gauge showing proper orientation with curved tip",
+      "labels": [],
+      "bbox": {
+        "top": 70,
+        "left": 1,
+        "width": 39,
+        "height": 17
+      },
+      "diagram_id": "8M1740"
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09228-44010",
+      "description": "Special Service Tool for oil filter removal and installation"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "page_id": "BR-18",
+  "section_header": "BRAKE SYSTEM — Front Brake",
+  "title": "BRAKE SYSTEM — Front Brake",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Front brake caliper assembly showing measurement location for rotor disc runout",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. MEASURE ROTOR DISC RUNOUT"
+    },
+    {
+      "type": "text",
+      "text": "Measure the rotor disc runout at 10 mm (0.39 in.) from the outer edge of rotor disc."
+    },
+    {
+      "type": "text",
+      "text": "Maximum disc runout: 0.15 mm (0.0059 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If the runout is greater than the maximum, replace the disc."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Make sure the front bearing is adjusted correctly."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Front brake rotor disc and hub assembly showing disc removal",
+      "labels": [],
+      "bbox": {
+        "top": 31,
+        "left": 4,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. IF NECESSARY, REPLACE ROTOR DISC"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the torque rod from the knuckle.",
+        "(b) Remove the axle hub. (See page FA-6)",
+        "(c) Remove the disc from the axle hub.",
+        "(d) Install a new rotor disc. Torque four bolts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Rotor disc bolts",
+      "value": "650 kg-cm (47 ft-lb, 64 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "(e) Install the axle hub and adjust the front bearing preload. (See page FA-8)"
+    },
+    {
+      "type": "text",
+      "text": "(f) Install the torque plate onto the knuckle."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Torque plate",
+      "value": "925 kg-cm (67 ft-lb, 91 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Exploded view of brake cylinder components showing grease application points on main pin boot, sliding pin and boot, piston seal and piston, and dust boot",
+      "labels": [
+        "Grease",
+        "Grease"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 4,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY OF CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "(See page BR-14)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. APPLY LITHIUM SOAP BASE GLYCOL GREASE TO FOLLOWING PARTS:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Main pin boot",
+        "(b) Sliding pin and boot",
+        "(c) Piston seal and piston",
+        "(d) Dust boot"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installation of piston seal and piston into brake cylinder, showing three numbered steps",
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "bbox": {
+        "top": 87,
+        "left": 4,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL PISTON SEAL AND PISTON IN CYLINDER"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Installation of cylinder boot and setting ring in cylinder, showing two hand positions for the procedure",
+      "labels": [],
+      "bbox": {
+        "top": 115,
+        "left": 4,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL CYLINDER BOOT AND SET RING IN CYLINDER"
+    }
+  ]
+}

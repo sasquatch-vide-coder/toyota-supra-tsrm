@@ -1,0 +1,58 @@
+{
+  "page_id": "D-10",
+  "section_header": "LOCK-UP CIRCUIT",
+  "title": "LOCK-UP CIRCUIT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Lock-up ON"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hydraulic circuit diagram showing lock-up clutch engaged (ON state). Shows fluid flow from oil pump through solenoid No. 3 (ON), lock-up control valve, primary regulator valve, 1-2 shift valve to lock-up clutch and oil cooler. Yellow lines indicate pressurized fluid paths, red indicates high pressure areas.",
+      "labels": [
+        "Lock-up Clutch",
+        "From 1-2 Shift Valve",
+        "Solenoid No. 3 ON",
+        "Drain",
+        "From Oil Pump",
+        "From Primary Regulator Valve",
+        "To Oil Cooler",
+        "Lock-up Control Valve"
+      ],
+      "bbox": {
+        "top": 7,
+        "left": 2,
+        "width": 96,
+        "height": 45
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Lock-up OFF"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hydraulic circuit diagram showing lock-up clutch disengaged (OFF state). Shows fluid flow from oil pump through solenoid No. 3 (OFF), lock-up control valve, primary regulator valve, 1-2 shift valve to lock-up clutch and oil cooler. Yellow lines indicate pressurized fluid paths, red indicates high pressure areas. Flow paths differ from Lock-up ON state.",
+      "labels": [
+        "Lock-up Clutch",
+        "From 1-2 Shift Valve",
+        "Solenoid No. 3 OFF",
+        "From Oil Pump",
+        "From Primary Regulator Valve",
+        "To Oil Cooler",
+        "Lock-up Control Valve"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 2,
+        "width": 96,
+        "height": 45
+      }
+    }
+  ]
+}

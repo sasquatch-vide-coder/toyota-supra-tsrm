@@ -1,0 +1,93 @@
+{
+  "page_id": "AC-6",
+  "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting",
+  "title": "AIR CONDITIONING SYSTEM — Troubleshooting",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. REFRIGERANT OVERCHARGE OR INSUFFICIENT COOLING OF CONDENSER"
+    },
+    {
+      "type": "text",
+      "text": "Condition: Does not cool sufficiently"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Gauge manifold showing two pressure gauges (LO and HI) connected to an air conditioning system with three valves at the bottom",
+      "labels": [
+        "LO",
+        "HI",
+        "AC0615"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 4,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Symptom seen in refrigeration system",
+        "Probable cause",
+        "Diagnosis",
+        "Remedy"
+      ],
+      "rows": [
+        [
+          "Pressure too high at both low and high pressure sides",
+          "Unable to develop sufficient performance due to excessive refrigerant in system\n\nCondenser cooling insufficient",
+          "Excessive refrigerant in cycle → refrigerant overcharged\n\nCondenser cooling insufficient → condenser fins clogged or fan motor faulty",
+          "(1) Clean condenser\n(2) Check fan motor operation\n(3) If (1) and (2) are in normal state, check refrigerant amount\n\nNote: Vent out refrigerant through gauge manifold low pressure side by gradually opening valve."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. EXPANSION VALVE IMPROPERLY MOUNTED/HEAT SENSING TUBE DEFECTIVE (OPENS TOO WIDE)"
+    },
+    {
+      "type": "text",
+      "text": "Condition: Insufficient cooling"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Gauge manifold showing two pressure gauges (LO and HI) connected to an air conditioning system with three valves at the bottom",
+      "labels": [
+        "LO",
+        "HI",
+        "AC0616"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 4,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Symptom seen in refrigeration system",
+        "Probable cause",
+        "Diagnosis",
+        "Remedy"
+      ],
+      "rows": [
+        [
+          "Pressure too high at both low and high pressure sides\n\nFrost or large amount of dew on piping at low pressure side",
+          "Defective expansion valve or heat sensing tube not installed correctly\n\nRefrigerant flow out of adjustment",
+          "Excessive refrigerant in low pressure correctly\n\nExpansion valve opened too wide",
+          "(1) Check heat sensing tube installed condition\n(2) If (1) is normal, test expansion valve in unit form\n\nReplace if defective"
+        ]
+      ]
+    }
+  ]
+}

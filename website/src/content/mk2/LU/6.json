@@ -1,0 +1,167 @@
+{
+  "page_id": "LU-6",
+  "section_header": "LUBRICATION SYSTEM — Oil Pump",
+  "title": "INSPECTION OF OIL PUMP",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF OIL PUMP"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands inspecting the relief valve on an oil pump assembly",
+      "labels": [
+        "L00015"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "heading": "INSPECT RELIEF VALVE",
+          "text": "Check the relief valve for scoring or wear. If damaged, replace the valve or pump assembly."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands using a feeler gauge to measure body clearance on oil pump",
+      "labels": [
+        "L00016"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 4,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "2.",
+          "heading": "MEASURE BODY CLEARANCE",
+          "text": "Using a feeler gauge, measure the clearance between the driven gear and body.",
+          "standard_clearance": "0.03 — 0.06 mm (0.0012 — 0.0024 in.)",
+          "maximum_clearance": "0.2 mm (0.008 in.)",
+          "note": "If the clearance is greater than maximum, replace the gear and/or body."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands using a feeler gauge to measure gear backlash on oil pump",
+      "labels": [
+        "L00017"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 4,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "3.",
+          "heading": "MEASURE GEAR BACKLASH",
+          "text": "Using a feeler gauge, measure the backlash as shown.",
+          "standard_clearance": "0.5 — 0.6mm (0.020 — 0.024 in.)",
+          "maximum_backlash": "0.9 mm (0.035 in.)",
+          "note": "If the blaklash is greater than maximum, replace the shaft subassembly and/or driven gear."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing hands using a feeler gauge and flat block to measure side clearance on oil pump",
+      "labels": [
+        "L00018"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 4,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "4.",
+          "heading": "MEASURE SIDE CLEARANCE",
+          "text": "Using a feeler gauge and flat block, measure the side clearance as shown.",
+          "standard_clearance": "0.03 — 0.09 mm (0.0012 — 0.0035 in.)",
+          "maximum_clearance": "0.15 mm (0.0059 in.)",
+          "note": "If the clearance is greater than maximum, replace the gears and/or body."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY OF OIL PUMP"
+    },
+    {
+      "type": "text",
+      "text": "(See page LU-4)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ASSEMBLE OIL PUMP ASSEMBLY"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing hands assembling oil pump components with snap ring installation",
+      "labels": [
+        "L00019"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 4,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(a)",
+          "text": "Install the shaft subassembly, key, drive shaft gear, spacer and snap ring."
+        },
+        {
+          "label": "(b)",
+          "text": "Install the driven gear and pump cover with five bolts."
+        },
+        {
+          "label": "(c)",
+          "text": "Install the relief valve and spring in the cover and screw on the relief valve plug."
+        }
+      ]
+    }
+  ]
+}

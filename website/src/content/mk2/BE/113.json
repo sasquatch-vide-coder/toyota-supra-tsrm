@@ -1,0 +1,28 @@
+{
+  "page_id": "BE-113",
+  "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer",
+  "title": "TRIP COMPUTER",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Before beginning troubleshooting, check that the trip computer operation is correct.",
+        "First check the wiring connector lines (See page BE-112) and confirm that the input source is normal.",
+        "When checking voltage, resistance, etc., use a high-impedance type tester (it is impossible with a simple tester).",
+        "Do not attempt to disassemble or repair individual components.",
+        "Do not attempt to make checks with an external power (Battery, etc.) applied directly to the component.",
+        "In the flow chart, there is a high possibility that the replacement part will solve the problem, although it is not 100% guaranteed.",
+        "Do not touch circuit components as there is danger of circuit damage due to static electricity. Never reverse battery connections as it could result in instant damage to the interior of the components.",
+        "Do not disconnect the battery while the engine is running as this would cause an instant reverse charge (100V), resulting in damage to the interior of the components.",
+        "Always disconnect the battery terminals before pulling apart connectors or terminals.",
+        "To prevent damage, handle meters with care."
+      ]
+    }
+  ]
+}

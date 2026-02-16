@@ -1,0 +1,48 @@
+{
+  "page_id": "BE-52",
+  "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges",
+  "title": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Trouble Section Table",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "L",
+          "Fuel gauge | Fuel scale change display (magnifier) does not illuminate"
+        ]
+      ]
+    },
+    {
+      "type": "flowchart_step",
+      "text": "Remove meter and connect sub-harness (SST)"
+    },
+    {
+      "type": "decision_point",
+      "number": 1,
+      "question": "With the ignition S/W at ON position, does magnifier illuminate when rear terminals are short-circuited?",
+      "yes_action": "Replace FUEL SCALE CHANGE S/W",
+      "no_action": "Replace fuel and temp. gauges"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing fuel and temp gauges component with three wire connectors labeled EXP, GND, and connecting to the gauge unit",
+      "labels": [
+        "Fuel and Temp. Gauges",
+        "EXP",
+        "GND"
+      ],
+      "bbox": {
+        "top": 50,
+        "left": 3,
+        "width": 50,
+        "height": 30
+      }
+    }
+  ]
+}

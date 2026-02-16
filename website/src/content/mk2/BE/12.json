@@ -1,0 +1,79 @@
+{
+  "page_id": "BE-12",
+  "section_header": "BODY ELECTRICAL SYSTEM — Lighting",
+  "title": "LIGHTING Troubleshooting",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Lighting Troubleshooting",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Only one light does not light (all exterior)",
+          "Light bulb burned out\nSocket, wire or ground faulty",
+          "Replace bulb\nRepair as necessary",
+          ""
+        ],
+        [
+          "No headlights light",
+          "Fusible link blown\nHeadlight control relay faulty\nLight control switch faulty\nWiring or ground faulty",
+          "Replace fusible link\nCheck relay\nCheck switch\nRepair as necessary",
+          "BE-14\nBE-13"
+        ],
+        [
+          "High beam headlights or headlight flasher do not operate",
+          "Light control switch faulty\nWiring faulty",
+          "Check switch\nRepair as necessary",
+          "BE-13"
+        ],
+        [
+          "Tail, parking and license light do not light",
+          "TAIL fuse blown\nFusible link blown\nTaillight control relay faulty\nLight control switch faulty\nWiring or ground faulty",
+          "Replace fuse and check for short\nReplace fusible link\nCheck relay\nCheck switch\nRepair as necessary",
+          "BE-4\nBE-14\nBE-13"
+        ],
+        [
+          "Stop lights do not light",
+          "STOP fuse blown\nStop light switch faulty\nWiring or ground faulty",
+          "Replace fuse and check for short\nAdjust or replace switch\nRepair as necessary",
+          "BE-4"
+        ],
+        [
+          "Stop lights stay on",
+          "Stop light switch faulty",
+          "Adjust or replace switch",
+          ""
+        ],
+        [
+          "Instrument lights do not light (taillights light)",
+          "Light control rheostat faulty\nWiring or ground faulty",
+          "Check rheostat\nRepair as necessary",
+          "BE-17\nB"
+        ],
+        [
+          "Turn signal does not flash on one side",
+          "Turn signal switch faulty\nWiring or ground faulty",
+          "Check switch\nRepair as necessary",
+          "BE-18\nB"
+        ],
+        [
+          "Turn signals do not operate",
+          "TURN fuse blown\nTurn signal flasher faulty\nTurn signal/hazard switch faulty\nWiring or ground faulty",
+          "Replace fuse and check for short\nCheck flasher\nCheck switch\nRepair as necessary",
+          "BE-4\nBE-19\nBE-18"
+        ],
+        [
+          "Hazard warning lights do not operate",
+          "HAZ-HORN fuse blown\nTurn signal flasher faulty\nTurn signal/hazard switch faulty\nWiring or ground faulty",
+          "Replace fuse and check for short\nCheck flasher\nCheck switch\nRepair as necessary",
+          "BE-4\nBE-19\nBE-18"
+        ]
+      ]
+    }
+  ]
+}

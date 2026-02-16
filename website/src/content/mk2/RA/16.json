@@ -1,0 +1,202 @@
+{
+  "page_id": "RA-16",
+  "section_header": "REAR AXLE AND SUSPENSION — Rear Drive Shaft",
+  "title": "REAR AXLE AND SUSPENSION — Rear Drive Shaft",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the installation of inner race onto shaft using press and socket wrench, with matchmarks alignment indicated",
+      "labels": [
+        "RA0231",
+        "RA0230"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(b)",
+      "items": [
+        "Align the matchmarks and, using a press and socket wrench, install the inner race onto the shaft."
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(c)",
+      "items": [
+        "Using snap ring pliers, install the snap ring."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand holding and tapping balls into inner race with plastic hammer",
+      "labels": [
+        "RA0232"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(d)",
+      "items": [
+        "Lightly tap in the balls with a plastic hammer."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Coat the inner race, the cage and balls with the grease supplied in the boot kit."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. ASSEMBLE INBOARD JOINT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(a)",
+      "items": [
+        "Align the matchmarks placed before assembly."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installation of inboard joint onto drive shaft using press and socket wrench, showing alignment of matchmarks",
+      "labels": [
+        "Press",
+        "Socket Wrench",
+        "RA0206 Z4M93"
+      ],
+      "bbox": {
+        "top": 39,
+        "left": 4,
+        "width": 37,
+        "height": 22
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(b)",
+      "items": [
+        "Using a press and socket wrench, inboard joint onto drive shaft."
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(c)",
+      "items": [
+        "Using snap ring pliers, install new snap ring."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Cross-section diagram showing grease packing locations and seal packing around inboard joint flange",
+      "labels": [
+        "Grease",
+        "Seal Packing",
+        "RA0021"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(d)",
+      "items": [
+        "Pack 60g (0.13 lb) of grease into the flange side."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Use the grease supplied in the kit."
+    },
+    {
+      "type": "part_number",
+      "label": "(e) Apply seal packing",
+      "number": "THREE BOND 1344 (08833-00080) or LOCKTITE No. 242",
+      "description": "around inboard side of the end plate."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(f)",
+      "items": [
+        "Install it to the inboard joint."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Install the end plate by tapping around it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. APPLY GREASE OUTBOARD AND INBOARD"
+    },
+    {
+      "type": "notice",
+      "text": "Use the grease supplied in the boot kit."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Cross-section showing grease application points in outer race and boot of CV joint assembly",
+      "labels": [
+        "Grease",
+        "RA0066"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(a)",
+      "items": [
+        "Apply grease into the outer race and boot."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [],
+      "rows": [
+        [
+          "Outer race:",
+          "Pack in 60g (0.13 lb) of grease"
+        ],
+        [
+          "Outboard boot:",
+          "Pack in 80g (0.13 lb) of grease"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "page_id": "RA-5",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Axle Shaft",
+  "title": "IRS TYPE REAR AXLE SHAFT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "IRS TYPE REAR AXLE SHAFT"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of IRS Type Rear Axle Shaft showing components from drive shaft through rear brake assembly. Components are arranged from left to right showing: Drive Shaft, Rear Axle Shaft Flange, washers, Inner Oil Seal, Inner Bearing, Inside Bearing Outer Race, Spacer, Outer Bearing, Outer Oil Seal, Rear Axle Shaft, Outside Bearing Outer Race, Disc Rotor, and Rear Brake assembly.",
+      "labels": [
+        "Drive Shaft",
+        "Rear Axle Shaft Flange",
+        "700 (51, 69)",
+        "Washer",
+        "Plate Washer",
+        "Inner Oil Seal",
+        "Inside Bearing Outer Race",
+        "Spacer",
+        "Outer Bearing",
+        "Outer Oil Seal",
+        "Rear Axle Shaft",
+        "Inner Bearing",
+        "Outside Bearing Outer Race",
+        "Disc Rotor",
+        "Rear Brake",
+        "See page RA-9"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 2,
+        "width": 96,
+        "height": 55
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Rear Axle Shaft Flange",
+      "value": "700 (51, 69)",
+      "units": "kg·cm (ft·lb, N·m)"
+    },
+    {
+      "type": "text",
+      "text": "kg·cm (ft·lb, N·m) : Specified torque"
+    },
+    {
+      "type": "text",
+      "text": "◆ Non-reusable part"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF REAR AXLE SHAFT"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE REAR WHEEL",
+        "DISCONNECT DRIVE SHAFT\nNOTE: Disconnect the rear axle shaft side only.",
+        "REMOVE REAR BRAKE\nRemove the brake caliper and disc rotor."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Disconnect the rear axle shaft side only."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands working on the rear axle area during removal procedure.",
+      "labels": [],
+      "bbox": {
+        "top": 73,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    }
+  ]
+}

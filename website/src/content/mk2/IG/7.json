@@ -1,0 +1,158 @@
+{
+  "page_id": "IG-7",
+  "section_header": "IGNITION SYSTEM — On-Vehicle Inspection",
+  "title": "INSPECTION OF IGNITION COIL / ON-VEHICLE INSPECTION OF DISTRIBUTOR",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF IGNITION COIL"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands disconnecting high-tension cord from ignition coil",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hands disconnecting connectors from ignition coil",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 2,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DISCONNECT HIGH-TENSION CORD",
+        "MEASURE COIL RESISTANCE"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect ignition coil connectors.",
+        "(b) Measure primary coil resistance.\n    Using an ohmmeter, measure the resistance between\n    the positive (+) (brown side) and negative (−) (black\n    side) terminals."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Primary coil resistance (cold): 0.4 – 0.5 Ω"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Measure secondary coil resistance.\n    Using an ohmmeter, measure the resistance between\n    the positive (+) terminal (brown side) and the high\n    tension terminal."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Secondary coil resistance (cold): 8.5 – 11.5 kΩ"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CONNECT HIGH-TENSION CORD"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ON-VEHICLE INSPECTION OF DISTRIBUTOR"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSPECT DISTRIBUTOR CAP AND ROTOR"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Exploded view of distributor cap and rotor",
+      "labels": [
+        "Distributor Cap",
+        "Rotor"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check for cracks, carbon tracks, burnt or corroded terminals.",
+        "(b) Check the distributor center contact for wear.\n    If a problem is found, replace the component."
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CHECK PICKUP COIL"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Using an ohmmeter, check each resistance of the two pickup coils."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing pickup coil terminal connections: G(W), Ne(R), and G(Y)",
+      "labels": [
+        "G(W)",
+        "Ne(R)",
+        "G(Y)"
+      ],
+      "bbox": {
+        "top": 63,
+        "left": 2,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Measurement",
+        "Resistance"
+      ],
+      "rows": [
+        [
+          "G pickup coil resistance:\nG – G(−)",
+          "140 – 180 Ω"
+        ],
+        [
+          "Ne pickup coil resistance:\nNe – G(−)",
+          "140 – 180 Ω"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If the resistance is not correct, replace the distributor."
+    }
+  ]
+}

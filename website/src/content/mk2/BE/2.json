@@ -1,0 +1,178 @@
+{
+  "page_id": "BE-2",
+  "section_header": "BODY ELECTRICAL SYSTEM — General Information",
+  "title": "GENERAL INFORMATION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "GENERAL INFORMATION"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "WIRING COLOR CODE"
+    },
+    {
+      "type": "text",
+      "text": "Wire colors are indicated by an alphabetical code."
+    },
+    {
+      "type": "table",
+      "caption": "Wire Color Codes",
+      "headers": [],
+      "rows": [
+        [
+          "B = Black",
+          "L = Light Blue",
+          "R = Red"
+        ],
+        [
+          "BR = Brown",
+          "LG = Light Green",
+          "V = Violet"
+        ],
+        [
+          "G = Green",
+          "O = Orange",
+          "W = White"
+        ],
+        [
+          "GR = Gray",
+          "P = Pink",
+          "Y = Yellow"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "The first letter indicates the basic wire color and the second letter indicates the color of the stripe."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wire color coding examples showing solid red wire labeled 'R' and red wire with green stripe labeled 'R-G'",
+      "labels": [
+        "R",
+        "Red",
+        "R-G",
+        "Red",
+        "Green"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CONNECTOR"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "PIN NUMBER OF FEMALE CONNECTOR\nNumbered in order from upper left to lower right.",
+        "PIN NUMBER OF MALE CONNECTOR\nNumbered in order from upper right to lower left."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Female connector showing pins numbered 1-2-3 on top row and 4-5-6 on bottom row. Male connector showing pins numbered 3-2-1 on top row and 6-5-4 on bottom row",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "Female",
+        "3",
+        "2",
+        "1",
+        "6",
+        "5",
+        "4",
+        "Male"
+      ],
+      "bbox": {
+        "top": 26,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        "DISTINCTION OF MALE AND FEMALE CONNECTORS\nMale and female connectors are distinguished by shape of their internal pins.\n(a) All connectors are shown from the open end, and the lock is on top."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Female and male connector illustrations showing their different internal pin configurations from the open end",
+      "labels": [
+        "Female",
+        "Male"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) To pull apart the connectors, pull on the connector itself, not the wires."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing wrong and correct methods of disconnecting connectors. Wrong method shows pulling on wires. Correct method shows pulling on connector body",
+      "labels": [
+        "WRONG",
+        "CORRECT"
+      ],
+      "bbox": {
+        "top": 63,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REPLACEMENT OF COMBINATION SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "REMOVE TERMINALS FROM CONNECTOR"
+    },
+    {
+      "type": "text",
+      "text": "(a) From the open end, insert a miniature screwdriver between the locking lugs and terminal."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Detailed illustration showing a miniature screwdriver being inserted between locking lugs and terminal in a connector to remove terminal",
+      "labels": [],
+      "bbox": {
+        "top": 81,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    }
+  ]
+}

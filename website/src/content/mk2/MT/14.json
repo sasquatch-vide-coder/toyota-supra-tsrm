@@ -1,0 +1,135 @@
+{
+  "page_id": "MT-14",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "INSPECTION OF TRANSMISSION COMPONENTS",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF TRANSMISSION COMPONENTS"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECT OUTPUT SHAFT AND INNER RACE"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands using calipers to measure the output shaft flange thickness",
+      "labels": [
+        "WM0004"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(a) Using calipers, measure the output shaft flange thickness."
+    },
+    {
+      "type": "specification",
+      "label": "Minimum thickness:",
+      "value": "5.60 mm (0.2205 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hands using calipers to measure the inner race flange thickness",
+      "labels": [
+        "WM0057"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Using calipers, measure the inner race flange thickness."
+    },
+    {
+      "type": "specification",
+      "label": "Minimum thickness:",
+      "value": "4.70 mm (0.1850 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hands using a micrometer to measure the outer diameter of the output shaft journal",
+      "labels": [
+        "WM0005"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Using a micrometer, measure the outer diameter of the output shaft journal."
+    },
+    {
+      "type": "specification",
+      "label": "Minimum diameter:",
+      "items": [
+        "2nd gear  42.85 mm (1.6870 in.)",
+        "3rd gear  37.80 mm (1.4882 in.)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hands using a micrometer to measure the outer diameter of the inner race",
+      "labels": [
+        "WM0059"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Using a micrometer, measure the outer diameter of the inner race."
+    },
+    {
+      "type": "specification",
+      "label": "Minimum diameter:",
+      "value": "42.85 mm (1.6870 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Dial indicator mounted on stands checking shaft runout with shaft supported on V-blocks",
+      "labels": [
+        "WM0061"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(e) Using a dial indicator, check the shaft runout."
+    },
+    {
+      "type": "specification",
+      "label": "Maximum runout:",
+      "value": "0.06 mm (0.0024 in.)"
+    }
+  ]
+}

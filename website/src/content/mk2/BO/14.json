@@ -1,0 +1,159 @@
+{
+  "page_id": "BO-14",
+  "section_header": "BODY -- Moulding",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands sliding out moulding from vehicle body",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 36,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Slide the moulding out."
+    },
+    {
+      "type": "notice",
+      "text": "Do not bend the moulding."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. REMOVE LOWER MOULDING"
+    },
+    {
+      "type": "text",
+      "text": "Remove the two screws and the moulding."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand using knife to remove clip from vehicle body",
+      "labels": [
+        "Knife"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 4,
+        "width": 36,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REPLACEMENT OF FASTENER AND CLIP"
+    },
+    {
+      "type": "text",
+      "text": "If any fastener or clip is damaged, replace it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE DAMAGED CLIP"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CUT OLD ADHESIVE OFF AROUND CLIP INSTALLATION AREA"
+    },
+    {
+      "type": "text",
+      "text": "(a) Grind a notch into the clip so it latches onto the glass edge."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Two diagrams showing correct and wrong clip installation with clearance indicators",
+      "labels": [
+        "Correct",
+        "Wrong",
+        "Clearance"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 4,
+        "width": 36,
+        "height": 22
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Temporarily install the clip and confirm that the clip tip is not sunk below the surface."
+    },
+    {
+      "type": "text",
+      "text": "(c) If the tip of the clip is sunk below the surface, replace it."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hand installing fastener into moulding",
+      "labels": [],
+      "bbox": {
+        "top": 60,
+        "left": 4,
+        "width": 36,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE ANY DAMAGED FASTENER"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CUT OLD ADHESIVE OFF AROUND FASTENER INSTALLATION AREA"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL FASTENER"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Lower moulding assembly with clips shown separately below",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 4,
+        "width": 36,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF OUTSIDE MOULDING"
+    },
+    {
+      "type": "text",
+      "text": "(See page BO-12)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL LOWER MOULDING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL NEW CLIP INTO MOULDING"
+    },
+    {
+      "type": "text",
+      "text": "Install the moulding to the body so that the clips and fasteners are not in a position where they will contact each other."
+    }
+  ]
+}

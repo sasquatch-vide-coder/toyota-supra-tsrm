@@ -1,0 +1,173 @@
+{
+  "page_id": "EM-40",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": "REMOVE COMPRESSOR WITH BRACKET FROM CYLINDER BLOCK (continued)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of compressor with bracket from cylinder block",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 37,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "16. REMOVE COMPRESSOR WITH BRACKET FROM CYLINDER BLOCK"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the drive belt.",
+        "(b) Remove the compressor mounting bolts.",
+        "(c) Lay the compressor with bracket to one side without disconnecting the hoses."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing power steering pump removal from bracket",
+      "labels": [],
+      "bbox": {
+        "top": 32,
+        "left": 3,
+        "width": 37,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "17. REMOVE POWER STEERING PUMP FROM BRACKET"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the PS pump pulley with no. 1 drive belt.",
+        "(b) Remove the three pressure and return line brackets.",
+        "(c) Disconnect the pressure and return lines.",
+        "(d) Remove the PS pump with stay.",
+        "(e) Remove the PS pump from bracket."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "18. REMOVE ENGINE MOUNTING BOLTS ON EACH SIDE OF ENGINE AND GROUND STRAP"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "19. REMOVE SHIFT LEVER FROM INSIDE OF VEHICLE (M/T only)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "20. RAISE VEHICLE"
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Be sure the vehicle is securely supported."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "21. DRAIN ENGINE OIL"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "22. DISCONNECT EXHAUST PIPE FROM EXHAUST MANIFOLD"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing exhaust pipe clamp removal from transmission housing",
+      "labels": [],
+      "bbox": {
+        "top": 61,
+        "left": 3,
+        "width": 37,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "23. REMOVE EXHAUST PIPE CLAMP FROM TRANSMISSION HOUSING"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "24. REMOVE CLUTCH RELEASE CYLINDER (M/T only)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "25. REMOVE SPEEDOMETER CABLE"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "26. DISCONNECT SHIFT LINKAGE FROM SHIFT LEVER (A/T only)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing disconnection of wire from back-up light switch",
+      "labels": [],
+      "bbox": {
+        "top": 61,
+        "left": 42,
+        "width": 37,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "27. DISCONNECT WIRE FROM BACK-UP LIGHT SWITCH (M/T only)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing removal of stiffener plate with ground strap",
+      "labels": [],
+      "bbox": {
+        "top": 74,
+        "left": 3,
+        "width": 37,
+        "height": 26
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "28. REMOVE STIFFENER PLATE WITH GROUND STRAP"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "29. DISCONNECT FUEL TUBE AND HOSE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Main tube from the fuel filter.",
+        "(b) Return hose from the fuel hose support."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Catch leaking fuel in a container and plug the line."
+    }
+  ]
+}

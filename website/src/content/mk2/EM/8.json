@@ -1,0 +1,131 @@
+{
+  "page_id": "EM-8",
+  "section_header": "ENGINE MECHANICAL — Timing Belt",
+  "title": "TIMING BELT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. REMOVE NO. 3 TIMING BELT COVER"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. REMOVE OIL FILLER CAP AND CYLINDER HEAD COVER OF EXHAUST SIDE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. CHECK CAMSHAFT TIMING PULLEY MARKS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Turn the crankshaft clockwise and set the No. 1 cylinder to TDC/compression.",
+        "(b) Confirm the matchmarks of the camshaft timing pulleys are aligned with those of the No. 3 timing belt cover."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing camshaft timing pulleys with matchmarks indicated by arrows",
+      "labels": [
+        "EM175"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Two detailed views showing timing belt alignment - left side labeled 'Less than one tooth', right side labeled 'More than one tooth', with arrows pointing to the alignment differences",
+      "labels": [
+        "Less than one tooth",
+        "More than one tooth",
+        "EM421 EM422"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "notice",
+      "text": "• If there is more than timing pulley one tooth between the matchmarks, realign the matchmarks in accordance with step 7."
+    },
+    {
+      "type": "notice",
+      "text": "• If the matchmarks are aligned or the difference is less than one timing pulley tooth proceed to step 8."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. ADJUSTMENT OF CAMSHAFT TIMING PULLEY MARKS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Loosen the idler pulley set bolt a little and shift the idler pulley to the alternator side with a screwdriver and wrench.",
+        "(b) Finger tighten the idler pulley set bolt.",
+        "(c) Remove the timing belt from the camshaft timing pulleys."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the idler pulley location and adjustment with an arrow indicating the direction",
+      "labels": [
+        "EM162"
+      ],
+      "bbox": {
+        "top": 75,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Using SST, rotate the camshaft timing pulley with the camshaft and align the matchmarks."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09278-54012",
+      "description": ""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(e) Install the timing belt while the engine is cold."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing SST tool being used on camshaft timing pulleys to align matchmarks",
+      "labels": [
+        "SST",
+        "EM163"
+      ],
+      "bbox": {
+        "top": 93,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    }
+  ]
+}

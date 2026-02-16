@@ -1,0 +1,147 @@
+{
+  "page_id": "CH 4",
+  "section_header": "CHARGING SYSTEM — On-Vehicle Inspection",
+  "title": "CHECK CHARGING CIRCUIT WITHOUT LOAD / CHECK CHARGING CIRCUIT WITH LOAD",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wiring diagram showing battery, alternator, ammeter, and voltmeter connections for testing charging circuit without load. Shows wire disconnected from Terminal B.",
+      "labels": [
+        "Battery",
+        "Ammeter",
+        "Alternator",
+        "Voltmeter",
+        "Disconnect Wire from Terminal B"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. CHECK CHARGING CIRCUIT WITHOUT LOAD"
+    },
+    {
+      "type": "notice",
+      "text": "If a battery/alternator tester is available, connect the tester to the charging circuit according to the manufacturer's instructions."
+    },
+    {
+      "type": "text",
+      "text": "(a) If a tester is not available, connect a voltmeter and ammeter to the charging circuit as follows:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Disconnect the wire from terminal B of the alternator and connect it to the negative terminal of the ammeter.",
+        "Connect the test lead from the positive terminal of the ammeter to terminal B of the alternator.",
+        "Connect the positive lead of the voltmeter to terminal B of the alternator.",
+        "Connect the negative lead of the voltmeter to ground."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Two analog gauges showing ammeter and voltmeter readings",
+      "labels": [
+        "A",
+        "V"
+      ],
+      "bbox": {
+        "top": 32,
+        "left": 3,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Check the charging circuit as follows:"
+    },
+    {
+      "type": "text",
+      "text": "With the engine running from idling to 2,000 rpm, check the reading on the ammeter and voltmeter."
+    },
+    {
+      "type": "text",
+      "text": "Standard amperage: 10A or less"
+    },
+    {
+      "type": "text",
+      "text": "Standard voltage: 13.5 — 15.1V"
+    },
+    {
+      "type": "text",
+      "text": "(Regulator case 25°C or 77°F)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "If the voltage reading is greater than standard voltage, replace the IC regulator.",
+        "If the voltage reading is less than standard voltage, check the IC regulator and alternator as follows: With terminal F grounded, start the engine and check the voltage reading (terminal B.",
+        "If the voltage reading is greater than standard voltage, replace the IC regulator.",
+        "If the voltage reading is less than standard voltage, check the alternator."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing alternator with Terminal F labeled and grounding procedure",
+      "labels": [
+        "Terminal F"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. CHECK CHARGING CIRCUIT WITH LOAD"
+    },
+    {
+      "type": "text",
+      "text": "(a) With the engine running at 2,000 rpm, turn on the high beam headlights and place the heater fan control switch at HI."
+    },
+    {
+      "type": "text",
+      "text": "(b) Check the reading on the ammeter."
+    },
+    {
+      "type": "text",
+      "text": "Standard amperage: More than 30A"
+    },
+    {
+      "type": "text",
+      "text": "If the ammeter reading is less than 30A, repair the alternator. (See page CH 5)"
+    },
+    {
+      "type": "notice",
+      "text": "With the battery fully charged, sometimes the indication will be less than 30A."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Two analog gauges showing ammeter and voltmeter readings for load test",
+      "labels": [
+        "A",
+        "V"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    }
+  ]
+}

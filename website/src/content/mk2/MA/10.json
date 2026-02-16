@@ -1,0 +1,133 @@
+{
+  "page_id": "MA-10",
+  "section_header": "MAINTENANCE — Maintenance Operations",
+  "title": "MAINTENANCE OPERATIONS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the location of the automatic transmission drain plug underneath the vehicle",
+      "labels": [
+        "Drain Plug"
+      ],
+      "bbox": {
+        "top": 2,
+        "left": 3,
+        "width": 38,
+        "height": 28
+      },
+      "reference": "MA0173"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "20. REPLACE AUTOMATIC TRANSMISSION FLUID"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the drain plug and drain the fluid.",
+        "(b) Reinstall the drain plug securely.",
+        "(c) With the engine OFF, add new fluid through the dipstick tube."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Fluid: ATF DEXRON® II"
+    },
+    {
+      "type": "text",
+      "text": "Drain and refill capacity:\n2.4 liters (2.5 US qts, 2.1 Imp. qts)"
+    },
+    {
+      "type": "text",
+      "text": "Dry fill capacity:\n6.5 liters (6.9 US qts, 5.7 Imp. qts)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Start the engine and shift the selector into all positions from \"P\" through \"L\", and then shift into \"P\".",
+        "(e) With the engine idling, check the fluid level. Add fluid up to the \"COOL\" level on the dipstick."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Do not overfill."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the automatic transmission dipstick with markings for checking fluid level when hot or cool",
+      "labels": [
+        "OK if hot",
+        "OK if cool",
+        "Add if hot",
+        "Add if cool"
+      ],
+      "bbox": {
+        "top": 31,
+        "left": 3,
+        "width": 38,
+        "height": 28
+      },
+      "reference": "MA0099"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "21. REPACK FRONT AND REAR (IRS ONLY) WHEEL BEARINGS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Change the front wheel bearing grease.\n(See pages FA-6 to 9)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Grease grade: Multipurpose grease (NLGI No. 2) *"
+    },
+    {
+      "type": "text",
+      "text": "Front wheel bearing friction preload (while turning):\n0 – 1,050 g (0 – 2.3 lb, 0 – 10 N)\nIn addition to oil seal frictional force"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Reference box indicating to see pages FA-6 to 9 for front wheel bearing repacking procedure",
+      "labels": [
+        "SEE PAGES FA-6 to 9"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) IRS Type Rear Axle\nChange the rear wheel bearing grease.\n(See pages RA-5 to 11)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Reference box indicating to see pages RA-5 to 11 for rear wheel bearing repacking procedure",
+      "labels": [
+        "SEE PAGES RA-5 to 11"
+      ],
+      "bbox": {
+        "top": 79,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    }
+  ]
+}

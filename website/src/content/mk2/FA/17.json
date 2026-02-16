@@ -1,0 +1,167 @@
+{
+  "page_id": "FA-17",
+  "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension",
+  "title": "INSTALLATION OF LOWER ARM",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation diagram showing rack boot protector location during lower arm installation",
+      "labels": [
+        "Rack Boot Protector"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL LOWER ARM IN CROSSMEMBER"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing stabilizer bar and strut bar connection points to lower arm",
+      "labels": [
+        "FA0222"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CONNECT STABILIZER BAR AND STRUT BAR TO LOWER ARM"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the stabilizer bar to the lower arm with the bolt and nut. Torque the nut.",
+        "(b) Connect the strut bar to the lower arm with the two nuts. Torque the nuts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Stabilizer bar to lower arm",
+      "value": "180 kg-cm (13 ft-lb, 18 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Strut bar to lower arm",
+      "value": "670 kg-cm (48 ft-lb, 66 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing knuckle arm connection to ball joint and tie rod",
+      "labels": [
+        "FA0224",
+        "FA0225"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. CONNECT KNUCKLE ARM TO BALL JOINT AND TIE ROD"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the knuckle arm on the ball joint with a nut. Torque the nut and install a new cotter pin.",
+        "(b) Install the knuckle arm on the tie rod with a nut. Torque the nut and install a new cotter pin."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Knuckle arm on ball joint",
+      "value": "800 kg-cm (58 ft-lb, 78 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Knuckle arm on tie rod",
+      "value": "600 kg-cm (43 ft-lb, 59 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing knuckle arm connection to shock absorber assembly",
+      "labels": [],
+      "bbox": {
+        "top": 55,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CONNECT KNUCKLE ARM TO SHOCK ABSORBER"
+    },
+    {
+      "type": "text",
+      "text": "Place the shock absorber assembly in position and connect the knuckle and with the two bolts. Torque the bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Knuckle to shock absorber",
+      "value": "1,000 kg-cm (72 ft-lb, 98 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Diagram showing bolt location for lower arm to crossmember connection",
+      "labels": [],
+      "bbox": {
+        "top": 72,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL TIRE AND LOWER VEHICLE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. TORQUE BOLT HOLDING LOWER ARM TO CROSS-MEMBER"
+    },
+    {
+      "type": "text",
+      "text": "After bouncing the vehicle to settle the suspension, torque the bolt."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Lower arm to crossmember",
+      "value": "1,100 kg-cm (80 ft-lb, 108 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. CHECK FRONT WHEEL ALIGNMENT AND SIDE SLIP"
+    },
+    {
+      "type": "text",
+      "text": "(See page FA-3)"
+    }
+  ]
+}

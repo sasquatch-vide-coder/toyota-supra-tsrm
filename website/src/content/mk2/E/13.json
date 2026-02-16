@@ -1,0 +1,139 @@
+{
+  "page_id": "UNKNOWN",
+  "section_header": "ELECTRICAL WIRING DIAGRAM",
+  "title": "Turn Signal, Hazard, Horn, and Wiper System",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Comprehensive electrical wiring diagram showing the interconnections between turn signal system, hazard lights, horn, and wiper systems. The diagram includes component symbols, wire routing, connectors, switches, and ground points.",
+      "labels": [
+        "Turn Signal and Hazard",
+        "Horn",
+        "TURN SIGNAL AND HAZARD S/W (CODE R/H)",
+        "TURN",
+        "RIGHT",
+        "GREEN",
+        "LEFT",
+        "OFF",
+        "HAZARD",
+        "ON",
+        "TURN SIGNAL FLASHER",
+        "INDICATOR L/H (COMB. METER)",
+        "INDICATOR R/H (COMB. METER)",
+        "FRONT L/H",
+        "W-B",
+        "G-B",
+        "FRONT R/H (HR. COMB. LIGHT)",
+        "REAR L/H (HR. COMB. LIGHT)",
+        "REAR R/H",
+        "TURN SIGNAL LIGHTS",
+        "To Theft Deterrent Horn (5-5)",
+        "To Radio and Tape Player (5-7)",
+        "To Electric Cooling Fan (CH-4)",
+        "HORN S/W",
+        "H1",
+        "H1",
+        "WIPER",
+        "OFF",
+        "INT",
+        "LOW",
+        "HIGH",
+        "WASHER",
+        "INTERMITTENT TIME S/W",
+        "WIPER RELAY",
+        "P-W",
+        "P-R",
+        "L-B",
+        "L-W",
+        "L-Y",
+        "W-B",
+        "L-B"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 0,
+        "width": 100,
+        "height": 95
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Turn signal and hazard switch schematic showing switch positions and terminal connections in a tabular format",
+      "labels": [
+        "TURN SIGNAL AND HAZARD S/W (CODE R/H)",
+        "B1",
+        "B2",
+        "F",
+        "L3",
+        "L1",
+        "L2",
+        "RIGHT",
+        "GREEN",
+        "LEFT",
+        "OFF",
+        "HAZARD",
+        "ON"
+      ],
+      "bbox": {
+        "top": 37,
+        "left": 2,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Wiper switch schematic showing switch positions and terminal connections",
+      "labels": [
+        "WIPER",
+        "OFF",
+        "INT",
+        "LOW",
+        "HIGH",
+        "WASHER",
+        "B",
+        "I-M",
+        "I-2"
+      ],
+      "bbox": {
+        "top": 37,
+        "left": 85,
+        "width": 14,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Intermittent time switch relay showing terminal connections and wiring",
+      "labels": [
+        "INTERMITTENT TIME S/W",
+        "WIPER RELAY",
+        "P-W",
+        "P-R",
+        "L-B",
+        "L-W",
+        "L-Y",
+        "W-B",
+        "L-B"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 85,
+        "width": 14,
+        "height": 30
+      }
+    },
+    {
+      "type": "text",
+      "text": "5"
+    },
+    {
+      "type": "text",
+      "text": "6"
+    }
+  ]
+}

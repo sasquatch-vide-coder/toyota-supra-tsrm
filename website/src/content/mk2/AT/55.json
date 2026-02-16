@@ -1,0 +1,120 @@
+{
+  "page_id": "AT-55",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)",
+  "title": "Overdrive Input Shaft and Clutch",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing the complete assembly of the overdrive input shaft and clutch components in two main sections - upper section shows OD clutch drum assembly with multiple clutch plates and springs, lower section shows outer race assembly with thrust bearings and planetary gear",
+      "labels": [
+        "Race",
+        "OD Clutch Drum",
+        "OD Clutch Piston",
+        "Piston Return Spring",
+        "Spring Retainer",
+        "Snap Ring",
+        "Plate Disc",
+        "Cushion Plate",
+        "Thinner Snap Ring",
+        "Flange",
+        "OD Clutch Hub",
+        "Snap Ring",
+        "Outer Race",
+        "Thrust Washer",
+        "Bearing",
+        "Snap Ring",
+        "One-way Clutch",
+        "Thrust Washer",
+        "Plug",
+        "Thrust Washer",
+        "Planetary Gear"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 96,
+        "height": 55
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DISASSEMBLY OF OVERDRIVE INPUT SHAFT AND CLUTCH"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands sliding off thrust bearing and race from clutch side",
+      "labels": [],
+      "bbox": {
+        "top": 57,
+        "left": 2,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "title": "REMOVE THRUST BEARINGS AND RACES FROM OVERDRIVE INPUT SHAFT",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Slide off the thrust bearing and race from the clutch side by hand. Note the position of the races."
+            },
+            {
+              "label": "(b)",
+              "text": "Using a screwdriver, pry off the thrust washer from the planetary gear side."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands pulling overdrive clutch assembly from input shaft",
+      "labels": [],
+      "bbox": {
+        "top": 73,
+        "left": 2,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "2.",
+          "title": "PULL OVERDRIVE CLUTCH ASSEMBLY FROM INPUT SHAFT",
+          "substeps": []
+        }
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Be careful that the thrust bearing and race do not fall out."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "3.",
+          "title": "REMOVE THRUST BEARING AND RACE",
+          "substeps": [
+            {
+              "text": "Note the position of the race."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

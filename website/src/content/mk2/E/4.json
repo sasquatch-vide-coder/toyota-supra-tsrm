@@ -1,0 +1,67 @@
+{
+  "page_id": "TCCS",
+  "section_header": "TCCS",
+  "title": "TCCS Wiring Diagram",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Complete TCCS (Toyota Computer Control System) wiring diagram showing electrical connections between ECU, sensors, injectors, ignition system, air flow meter, O2 sensor, and various other engine control components. The diagram shows wire colors (B-Y, B-R, etc.) and routing between components.",
+      "labels": [
+        "TCCS",
+        "C",
+        "B",
+        "From Cold Start Injector (1-2)",
+        "B-Y",
+        "To Trip Computer (4-7)",
+        "B-R",
+        "MAIN RELAY",
+        "CIRCUIT OPENING RELAY",
+        "SERVICE CONNECTOR",
+        "EFI SERVICE CONNECTOR",
+        "IG SW",
+        "STA",
+        "IDL 1",
+        "IDL 2",
+        "ISC 1",
+        "ISC 2",
+        "ISC 3",
+        "ISC 4",
+        "EGI",
+        "OIL",
+        "A/C",
+        "RESISTOR",
+        "INJECTOR",
+        "AIR FLOW METER",
+        "L-R",
+        "Y-L",
+        "BR",
+        "MAIN EFI CONNECTOR",
+        "SUPER CHARGER RELAY",
+        "OX CHECK CONNECTOR",
+        "OX SENSOR",
+        "CHECK ENGINE LAMP",
+        "IGNITOR",
+        "Distributor (1-2)",
+        "VTA",
+        "To Trip Computer (4-7)",
+        "Located under left front pillar",
+        "Located under left front pillar"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 0,
+        "width": 100,
+        "height": 90
+      }
+    },
+    {
+      "type": "text",
+      "text": "a - Located under right front pillar"
+    },
+    {
+      "type": "text",
+      "text": "b - Located under left front pillar"
+    }
+  ]
+}

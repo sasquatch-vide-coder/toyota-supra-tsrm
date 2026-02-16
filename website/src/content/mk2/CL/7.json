@@ -1,0 +1,114 @@
+{
+  "page_id": "CL-7",
+  "section_header": "CLUTCH — Clutch Unit",
+  "title": "CLUTCH UNIT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of clutch unit assembly showing flywheel, clutch disc, clutch cover, release bearing, clutch release fork, clips, and clutch release bearing hub in disassembled order from left to right",
+      "labels": [
+        "Flywheel",
+        "Clutch Disc",
+        "Clutch Cover",
+        "Release Bearing",
+        "Clip",
+        "Clutch Release Bearing Hub",
+        "Clutch Release Fork",
+        "Clip"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 2,
+        "width": 96,
+        "height": 45
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Clutch cover bolts",
+      "value": "185 (13, 18)",
+      "units": "kgcm (ft·lb, N·m)"
+    },
+    {
+      "type": "text",
+      "text": "kgcm (ft·lb, N·m) : Specified torque"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF CLUTCH UNIT"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "title": "REMOVE TRANSMISSION (See pages MT-3, 4)",
+          "content": [
+            {
+              "type": "notice",
+              "text": "NOTE: Do not drain the transmission."
+            }
+          ]
+        },
+        {
+          "number": "2.",
+          "title": "REMOVE CLUTCH COVER AND DISC",
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "(a) Loosen the set bolts one turn at a time until spring tension is released.",
+                "(b) Remove the set bolts, and pull off the clutch assembly."
+              ]
+            }
+          ]
+        },
+        {
+          "number": "3.",
+          "title": "REMOVE BEARING, HUB AND FORK FROM TRANSMISSION",
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "(a) Remove the clips, and pull off the bearing and hub.",
+                "(b) Remove the fork and boot."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands loosening clutch cover bolts on installed clutch assembly",
+      "bbox": {
+        "top": 56,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands removing clips from clutch release bearing assembly",
+      "bbox": {
+        "top": 76,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "page_id": "AT-67",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Rear Clutch)",
+  "title": "Rear Clutch",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of rear clutch assembly showing all components in order of assembly from left to right: Snap Ring, Flange, Disc, Plate (multiple friction discs and plates), Snap Ring, Spring Retainer, Piston Return Spring, Piston with O-Ring, and Rear Clutch Drum with O-Ring. Diamond symbols indicate non-reusable parts.",
+      "labels": [
+        "Snap Ring",
+        "Flange",
+        "Disc",
+        "Plate",
+        "Snap Ring",
+        "Spring Retainer",
+        "Piston Return Spring",
+        "Piston",
+        "O-Ring",
+        "Rear Clutch Drum",
+        "O-Ring",
+        "Non-reusable part"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 2,
+        "width": 96,
+        "height": 45
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DISASSEMBLY OF REAR CLUTCH"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE OUTER CLUTCH PACK RETAINING SNAP RING FROM DRUM",
+        "REMOVE CLUTCH FLANGE, DISCS AND PLATES",
+        "COMPRESS PISTON RETURN SPRINGS AND REMOVE SNAP RING\nPlace SST on the spring retainer and compress the springs with a shop press.\nUsing a screwdriver, remove the snap ring.\nSST 09350-20013",
+        "REMOVE SPRING RETAINER, SNAP RING AND EIGHTEEN RETURN SPRINGS",
+        "ASSEMBLE REAR CLUTCH ON CENTER SUPPORT AND BLOW OUT PISTON\n(a) Slide rear clutch onto the center support.\n(b) Apply compressed air to center support to remove the piston. (If the piston does not come out, use pliers to remove it.)\n(c) Remove the front clutch from the center support.",
+        "REMOVE O-RINGS FROM REAR CLUTCH PISTON"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing SST (Special Service Tool) being used to compress piston return springs with a shop press for snap ring removal",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 2,
+        "width": 30,
+        "height": 18
+      }
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013",
+      "description": "Spring compression tool"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing assembly of rear clutch on center support with compressed air being used to blow out piston",
+      "labels": [],
+      "bbox": {
+        "top": 72,
+        "left": 2,
+        "width": 30,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Cross-section diagram showing the application of compressed air to remove piston, with air path indicated",
+      "labels": [
+        "Air"
+      ],
+      "bbox": {
+        "top": 92,
+        "left": 2,
+        "width": 30,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF REAR CLUTCH"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSPECT REAR CLUTCH PISTON\n(a) Check that check ball is free by shaking each piston.\n(b) Check that the valve is not leaking by applying low-pressure compressed air."
+      ]
+    }
+  ]
+}

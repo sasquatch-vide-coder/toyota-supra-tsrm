@@ -1,0 +1,117 @@
+{
+  "page_id": "RA-37",
+  "section_header": "REAR AXLE AND SUSPENSION — Limited Slip Differential",
+  "title": "LIMITED SLIP DIFFERENTIAL",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Preparation of disassembly"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE DIFFERENTIAL (See page RA-20)",
+        "DISASSEMBLE DIFFERENTIAL CASE FROM CARRIER (See page RA-25)",
+        "DISASSEMBLE SIDE BEARING (See page RA-26)"
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: If the side gear or clutch member has been replaced, be sure to replace the thrust washer contacting this part. Any disassembled part that is to be reused must be reassembled to its former location."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of limited slip differential components showing the assembly order from pinion gear through to case cover and lock plate. Components are arranged vertically showing the relationship between parts.",
+      "labels": [
+        "Adjusting Washer",
+        "Side Gear Pin",
+        "Pinion Gear",
+        "Clutch Member RH",
+        "Clutch Member LH",
+        "Thrust Washer No. 2",
+        "Thrust Washer No. 3",
+        "Clutch Member Thrust Washer",
+        "Thrust Washer No. 2",
+        "Clutch Member Spring",
+        "Ring Gear",
+        "Clutch Member Thrust Washer",
+        "Adjusting Washer",
+        "Thrust Washer No. 3",
+        "Case Cover",
+        "Lock Plate",
+        "Differential Case"
+      ],
+      "bbox": {
+        "top": 19,
+        "left": 5,
+        "width": 90,
+        "height": 42
+      }
+    },
+    {
+      "type": "legend",
+      "items": [
+        {
+          "symbol": "kg·cm (ft·lb, N·m)",
+          "meaning": "Specified torque"
+        },
+        {
+          "symbol": "♦",
+          "meaning": "Non-reusable part"
+        },
+        {
+          "symbol": "★",
+          "meaning": "Precoated part"
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "Lock Plate",
+      "number": "★[590 (47, 94)]",
+      "description": "Precoated part"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Lock Plate",
+      "value": "985 [71, 97]"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Cylindrical differential case showing MD Number, Matchmarks, and Clutch Member Set Number locations on the exterior of the case.",
+      "labels": [
+        "MD Number",
+        "Matchmarks",
+        "Clutch Member Set Number"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 5,
+        "width": 30,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY OF LIMITED SLIP DIFFERENTIAL"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "PUT MATCHMARKS ON CASE AND CASE COVER",
+        "CHECK CASE COVER MARKS AND CLUTCH MEMBER RH, LH SET NUMBER"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "page_id": "BR-8",
+  "section_header": "BRAKE SYSTEM — Checks and Adjustments",
+  "title": "BRAKE SYSTEM — Checks and Adjustments",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing brake bleeding procedure with vinyl tube connected to brake cylinder bleeder plug and container of brake fluid",
+      "labels": [
+        "Vinyl tube",
+        "Bleeder plug",
+        "Brake fluid container"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 23
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        "BEGIN BLEEDING AIR FROM BRAKE CYLINDER WITH LONGEST HYDRAULIC LINE",
+        "CONNECT VINYL TUBE TO BRAKE CYLINDER BLEEDER PLUG\nInsert other end of the tube in a half-full container of brake fluid.",
+        "BLEED BRAKE LINE\n(a) Slowly pump the brake pedal several times.\n(b) While having an assistant press on the pedal, loosen the bleeder plug until fluid starts to runout. Then close the bleeder plug.\n(c) Repeat this procedure until there are no more air bubbles in the fluid.\n\nBleeder plug tightening torque:\n85 kg·cm (74 in.-lb, 8.3 N·m)",
+        "REPEAT PROCEDURE FOR EACH WHEEL"
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Bleeder plug",
+      "value": "85 kg·cm (74 in.-lb, 8.3 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CHECK AND ADJUSTMENT OF PARKING BRAKE"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing person pulling parking brake lever upward to check travel",
+      "labels": [
+        "Parking brake lever"
+      ],
+      "bbox": {
+        "top": 44,
+        "left": 3,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CHECK THAT PARKING BRAKE LEVER TRAVEL IS CORRECT\nPull the parking brake lever all the way up, and count the notches of lever travel.\n\nParking brake lever travel at 20 kg (44.1 lb, 196 N):\n5 — 8 clicks\n\nIf incorrect, adjust the parking brake.",
+        "IF NECESSARY, ADJUST PARKING BRAKE"
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Before adjusting the parking brake, make sure that the rear brake shoe clearance has been adjusted.\nFor shoe clearance adjustment, see step 10 on page BR-30."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing location of parking brake adjustment lock nut under rear console",
+      "labels": [
+        "Lock nut",
+        "Adjusting screw"
+      ],
+      "bbox": {
+        "top": 82,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the rear console box.",
+        "(b) Loosen the lock nut and turn the adjusting screw until the travel is correct.",
+        "(c) Tighten the lock nut and install the console box."
+      ]
+    }
+  ]
+}

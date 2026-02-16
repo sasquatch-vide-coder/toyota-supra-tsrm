@@ -1,0 +1,113 @@
+{
+  "page_id": "MT-35",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing connection of back-up light switch connector and speedometer cable in the transmission area",
+      "labels": [
+        "MT0003-M72003"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CONNECT BACK-UP LIGHT SWITCH CONNECTOR",
+        "INSTALL SPEEDOMETER CABLE"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing marks on propeller shaft alignment and torquing of bolts",
+      "labels": [
+        "Marks",
+        "PM0001"
+      ],
+      "bbox": {
+        "top": 31,
+        "left": 3,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL PROPELLER SHAFT\nInstall and torque the bolts.",
+        "INSTALL STEERING GEAR HOUSING (w/PS)"
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Propeller shaft bolts",
+      "value": "430 kg-cm (31 ft-lb, 42 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "FILL WITH TRANSMISSION OIL"
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Oil grade:",
+        "Capacity:"
+      ],
+      "rows": [
+        [
+          "API service GL-4 or GL-5\nSAE 75W-80 or 80W-90",
+          "2.4 liters (2.5 US qts, 2.1 Imp. qts)"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL RADIATOR UPPER HOSE AND FILL COOLANT",
+        "CONNECT NEGATIVE BATTERY TERMINAL WIRE"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of shift lever",
+      "labels": [
+        "MT0001"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL SHIFT LEVER",
+        "INSTALL CONSOLE BOX"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "PERFORM ROAD TEST"
+    },
+    {
+      "type": "text",
+      "text": "Check for abnormal noise and smooth operation."
+    }
+  ]
+}

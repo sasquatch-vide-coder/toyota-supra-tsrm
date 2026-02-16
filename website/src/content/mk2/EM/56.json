@@ -1,0 +1,173 @@
+{
+  "page_id": "EM-66",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": "REPLACEMENT OF OIL SEALS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Front timing case area showing SST tool positions and front mark alignment",
+      "labels": [
+        "SST",
+        "SST",
+        "Front Mark"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 4,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Drive in the bushing from the inside of the block with a suitable tool."
+    },
+    {
+      "type": "notice",
+      "text": "The oil hole should be positioned toward the crankshaft side."
+    },
+    {
+      "type": "text",
+      "text": "(c) Make sure the front mark of the bushing is positioned toward the front of the block."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REPLACEMENT OF OIL SEALS"
+    },
+    {
+      "type": "notice",
+      "text": "There are two ways of oil seal replacement."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. IF TIMING BELT CASE IS REMOVED FROM CYLINDER BLOCK (Replacement of front oil seal and pump drive oil seal)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing SST tool removing and installing oil seal with timing belt case removed",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 4,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a screwdriver, remove the oil seal.",
+        "(b) Apply MP grease to the oil seal lip.",
+        "(c) Using SST, install the new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09214-41010 and 09506-35010",
+      "description": ""
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. IF REAR OIL SEAL RETAINER IS REMOVED FROM CYLINDER BLOCK (Replacement of rear oil seal)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing SST tool removing and installing rear oil seal",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 4,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a screwdriver, remove the oil seal.",
+        "(b) Apply MP grease to the oil seal lip.",
+        "(c) Using SST, install the new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09223-41020",
+      "description": ""
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. IF TIMING BELT CASE IS INSTALLED ON CYLINDER BLOCK (Replacement of front oil seal)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing SST tool removing front oil seal with timing belt case installed",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 77,
+        "left": 4,
+        "width": 40,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, remove the front oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09308-10010",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing SST tools installing front oil seal with timing belt case installed",
+      "labels": [
+        "SST",
+        "SST"
+      ],
+      "bbox": {
+        "top": 94,
+        "left": 4,
+        "width": 40,
+        "height": 23
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Apply MP grease to the oil seal lip.",
+        "(c) Using SST, install the new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09214-41010 and 09506-35010",
+      "description": ""
+    }
+  ]
+}

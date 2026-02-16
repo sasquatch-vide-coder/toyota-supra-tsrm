@@ -1,0 +1,27 @@
+{
+  "page_id": "BE-35",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "Combination Meter (Digital Type)",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "When checking voltage, resistance, etc., use a high-impedance type tester (It is impossible with a simple tester).",
+        "Do not attempt to disassemble or repair individual components.",
+        "Do not attempt to make checks with an external power (battery etc.) applied directly to the component.",
+        "When the ignition switch is turned ON, indications other than the speedometer will be slightly delayed but this is normal.",
+        "When the ignition switch is placed at ST, all meters will go out but this is normal.",
+        "Do not touch circuit components as there is danger of circuit damage due to static electricity. Never reverse battery connections as it could result in instant damage to the interior of the components.",
+        "Do not disconnect the battery while the engine is running as this would cause an instant reverse charge (100V), resulting in damage to the interior of the components.",
+        "Always disconnect the battery terminals before pulling apart connectors or terminals.",
+        "To prevent damage, handle meters with care."
+      ]
+    }
+  ]
+}

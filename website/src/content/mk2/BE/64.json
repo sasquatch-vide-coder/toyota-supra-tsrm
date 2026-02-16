@@ -1,0 +1,169 @@
+{
+  "page_id": "BE-64",
+  "section_header": "BODY ELECTRICAL SYSTEM — Heater",
+  "title": "BODY ELECTRICAL SYSTEM — Heater",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Relay diagram showing electrical connections with terminals numbered 1-5, depicting continuity and no continuity states",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Continuity",
+        "No continuity"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECT RELAY OPERATION"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Apply battery voltage across terminals 1 and 3.",
+        "(b) Check that there is continuity between terminals 4 and 5.",
+        "(c) Check that there is no continuity between terminals 2 and 4."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the relay."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Heater Blower Resistor"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF HEATER BLOWER RESISTOR"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Heater blower resistor terminal layout showing 6 terminals numbered 1-6 in a 2x3 grid configuration",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 3,
+        "width": 38,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT RESISTOR CONTINUITY"
+    },
+    {
+      "type": "text",
+      "text": "Check that there is continuity between terminals 1 and 3."
+    },
+    {
+      "type": "text",
+      "text": "If there is no continuity, replace the resistor."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Heater Control"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ADJUSTMENT OF HEATER CONTROL"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "SET AIR INLET DAMPER"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing air inlet damper control lever mechanism under dashboard",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "Set the air inlet damper and control lever to \"FRESH\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "SET MODE SELECTOR DAMPER"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing mode selector damper control lever mechanism",
+      "labels": [],
+      "bbox": {
+        "top": 59,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "Set the mode selector damper and control lever to \"VENT\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "SET BALANCE DAMPER"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing balance damper and control lever mechanism in center position",
+      "labels": [],
+      "bbox": {
+        "top": 77,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "Set the balance damper and control lever to the center position."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "TEST CONTROL CABLE OPERATION"
+    },
+    {
+      "type": "text",
+      "text": "Move the control levers left and right and check for stiffness and binding through full range of the levers."
+    }
+  ]
+}

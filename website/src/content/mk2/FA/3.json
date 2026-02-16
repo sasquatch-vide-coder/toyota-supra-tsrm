@@ -1,0 +1,121 @@
+{
+  "page_id": "FA-3",
+  "section_header": "FRONT AXLE AND SUSPENSION — Front Wheel Alignment",
+  "title": "FRONT WHEEL ALIGNMENT",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Front wheel alignment check showing a tire on what appears to be an alignment gauge or turntable",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 48,
+        "height": 35
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. MAKE FOLLOWING CHECKS AND CORRECT ANY PROBLEMS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check the tires for wear and proper inflation.\nCold tire inflation pressure: 1.9 kg/cm² (27 psi, 186 kPa)",
+        "(b) Check the wheel runout.\nLateral runout: Less than 1.0 mm (0.039 in.)",
+        "(c) Check the front wheel bearings for looseness.",
+        "(d) Check the front suspension for looseness.",
+        "(e) Check the steering linkage for looseness.",
+        "(f) Check that the front absorbers work properly by using the standard bounce test."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Front wheel measurement diagram showing dimension A from ground to a reference point on the vehicle",
+      "labels": [
+        "Front",
+        "A"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. MEASURE VEHICLE HEIGHT"
+    },
+    {
+      "type": "text",
+      "text": "Vehicle height"
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Tire size",
+        "Front A",
+        "Rear B"
+      ],
+      "rows": [
+        [
+          "",
+          "mm (in.)",
+          ""
+        ],
+        [
+          "225/60 HR14",
+          "223.0\n(8.780)",
+          "263.0\n(10.354)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If height of the vehicle is not as specified, try to level the vehicle by shaking it down. If the height is still not correct, check for bad springs and worn or loose suspension parts."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Rear wheel measurement diagram showing dimension B from ground to a reference point near the rear spring/suspension",
+      "labels": [
+        "Rear",
+        "B"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 2,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Wheel alignment equipment installation showing a wheel mounted on an alignment turntable or gauge",
+      "labels": [],
+      "bbox": {
+        "top": 82,
+        "left": 2,
+        "width": 48,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL WHEEL ALIGNMENT EQUIPMENT"
+    },
+    {
+      "type": "text",
+      "text": "Follow the specific instructions of the equipment manufacturer."
+    }
+  ]
+}

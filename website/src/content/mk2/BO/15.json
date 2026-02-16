@@ -1,0 +1,128 @@
+{
+  "page_id": "BO-15",
+  "section_header": "BODY — Moulding",
+  "title": "BODY — Moulding",
+  "content": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. APPLY ADHESIVE AT CLIP INSTALLATION AREA"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing application of adhesive at clip installation areas on body and moulding",
+      "labels": [
+        "Adhesive"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 4,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. INSTALL UPPER MOULDING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place the moulding onto the body.",
+        "(b) Pry up the clips on the body side and install to the moulding."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of upper moulding onto body with clips being installed",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 4,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Tap the moulding with your hand to fasten the clips at the glass edge."
+    },
+    {
+      "type": "text",
+      "text": "At the same time, install the fasteners by tapping them by hand."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing tapping of moulding by hand to fasten clips at glass edge and installation of fasteners",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 4,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) If the moulding is not at the same level as the body, insert a scraper between them and tap on the moulding while pushing on the fastener."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing use of scraper between moulding and body while tapping moulding and pushing on fastener to level moulding",
+      "labels": [],
+      "bbox": {
+        "top": 58,
+        "left": 4,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. INSTALL SIDE MOULDING IN SAME MANNER AS FOR UPPER MOULDING"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. INSTALL JOINT COVER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Slide the side moulding down.",
+        "(b) Install the joint cover to the upper moulding.",
+        "(c) Connect the side moulding into the joint cover."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing installation of joint cover by sliding side moulding down and connecting to upper moulding",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 4,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. INSTALL SCREW ON MOULDING"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. INSTALL WIPER ARM"
+    }
+  ]
+}

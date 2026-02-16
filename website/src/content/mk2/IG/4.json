@@ -1,0 +1,127 @@
+{
+  "page_id": "IG.4",
+  "section_header": "IGNITION SYSTEM — On-Vehicle Inspection",
+  "title": "ON-VEHICLE INSPECTION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "SPARK TEST"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CHECK THAT SPARK OCCURS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect high-tension cord from the distributor.",
+        "(b) Hold the end approx. 12.7 mm (0.50 in.) from body of car.",
+        "(c) See if spark occurs while engine is being cranked."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: To prevent gasoline from being injected from injector during this test, crank the engine for no more than 1-2 seconds at a time."
+    },
+    {
+      "type": "text",
+      "text": "If the spark does not occur, perform the test as follows:"
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for spark test troubleshooting with decision points and actions",
+      "bbox": {
+        "top": 44,
+        "left": 2,
+        "width": 96,
+        "height": 52
+      },
+      "steps": [
+        {
+          "step": "SPARK TEST",
+          "branches": [
+            {
+              "condition": "NO",
+              "next": "CHECK RESISTANCE OF HIGH-TENSION CORDS (See page IG-5)",
+              "results": [
+                {
+                  "condition": "BAD",
+                  "action": "Replace the cord."
+                },
+                {
+                  "condition": "OK",
+                  "next": "CHECK POWER SUPPLY TO IGNITION COIL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "step": "CHECK POWER SUPPLY TO IGNITION COIL",
+          "instructions": [
+            "1. Ignition switch turn to ON.",
+            "2. Check that there is battery voltage at ignition coil positive (+) terminal (brown side)."
+          ],
+          "results": [
+            {
+              "condition": "BAD",
+              "action": "Check wiring between ignition switch to ignition coil."
+            },
+            {
+              "condition": "OK",
+              "next": "CHECK RESISTANCE OF IGNITION COIL"
+            }
+          ]
+        },
+        {
+          "step": "CHECK RESISTANCE OF IGNITION COIL",
+          "specs": "Resistance (cold) Primary : 0.4 - 0.5 Ω Secondary: 8.5 - 11.5 kΩ",
+          "results": [
+            {
+              "condition": "BAD",
+              "action": "Replace the ignition coil."
+            },
+            {
+              "condition": "OK",
+              "next": "CHECK RESISTANCE OF DISTRIBUTOR PICK UP COIL"
+            }
+          ]
+        },
+        {
+          "step": "CHECK RESISTANCE OF DISTRIBUTOR PICK UP COIL",
+          "specs": "Resistance: Approx. 160 Ω",
+          "results": [
+            {
+              "condition": "BAD",
+              "action": "Replace the pick up coil."
+            },
+            {
+              "condition": "OK",
+              "next": "CHECK IGt SIGNAL FROM ECU"
+            }
+          ]
+        },
+        {
+          "step": "CHECK IGt SIGNAL FROM ECU",
+          "reference": "(See page FI-43)",
+          "results": [
+            {
+              "condition": "BAD",
+              "action": "Check wiring between ECU and distributor, only then try another ECU."
+            },
+            {
+              "condition": "OK",
+              "next": "TRY ANOTHER IGNITER"
+            }
+          ]
+        },
+        {
+          "step": "TRY ANOTHER IGNITER"
+        }
+      ]
+    }
+  ]
+}

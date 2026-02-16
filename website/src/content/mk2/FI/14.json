@@ -1,0 +1,105 @@
+{
+  "page_id": "FI-14",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "EFI SYSTEM — Troubleshooting",
+  "content": [
+    {
+      "type": "text",
+      "text": "OK CONTINUED FROM PAGE FI-13"
+    },
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart with multiple decision boxes and outcome paths",
+      "bbox": {
+        "top": 8,
+        "left": 3,
+        "width": 94,
+        "height": 58
+      },
+      "steps": [
+        {
+          "step": "CHECK FUEL PRESSURE",
+          "reference": "(See page FI-45)",
+          "outcomes": {
+            "OK": "Continue to next step",
+            "BAD": [
+              "1. Fuel pump (See page FI-44)",
+              "2. Fuel filter",
+              "3. Fuel pressure regulator (See page FI-62)"
+            ]
+          }
+        },
+        {
+          "step": "CHECK INJECTORS",
+          "reference": "(See page FI-53)",
+          "outcomes": {
+            "OK": "Continue to next step",
+            "BAD": "Injection condition"
+          }
+        },
+        {
+          "step": "CHECK EFI ELECTRONIC CIRCUIT USING VOLT/OHMMETER",
+          "outcomes": {
+            "BAD": [
+              "1. Wiring connection",
+              "2. Power to ECU",
+              "   (1) Fusible link",
+              "   (2) No. 1 and No. 2 main relay",
+              "3. Air flow meter",
+              "4. Water temp. sensor",
+              "5. Injection signal circuit",
+              "   (1) Injector wiring",
+              "   (2) Resistor",
+              "   (3) ECU"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "SYMPTOM — ENGINE SOMETIMES STALLS"
+    },
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart for engine stalling symptom",
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 94,
+        "height": 38
+      },
+      "steps": [
+        {
+          "step": "CHECK DIAGNOSIS SYSTEM",
+          "instruction": "Check for output of diagnostic code.",
+          "reference": "(See page FI-22)",
+          "outcomes": {
+            "Normal code": "Continue to next step",
+            "Malfunction code(s)": "Diagnostic code(s) (See page FI-25)"
+          }
+        },
+        {
+          "step": "CHECK AIR FLOW METER",
+          "reference": "(See page FI-58)",
+          "outcomes": {
+            "OK": "Continue to next step",
+            "BAD": "Air flow meter"
+          }
+        },
+        {
+          "step": "CHECK WIRING CONNECTORS AND RELAYS",
+          "instruction": "Check that there is a signal change when the connector or relay is slightly tapped or wiggled.",
+          "outcomes": {
+            "BAD": [
+              "1. Connector",
+              "2. No. 1 and No. 2 main relay (See page FI-68)",
+              "3. Circuit opening relay (See page FI-69)"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

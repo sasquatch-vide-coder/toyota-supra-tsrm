@@ -1,0 +1,41 @@
+{
+  "page_id": "AC-22",
+  "section_header": "AIR CONDITIONING SYSTEM — System Components",
+  "title": "SYSTEM COMPONENTS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing all air conditioning system components and their assembly relationships. The diagram is divided into four main sections showing the condenser/receiver assembly (top), compressor assembly (middle-top), control units and sensors (middle-bottom), and detailed views of heater unit and cooling unit (bottom).",
+      "labels": [
+        "VSV (Sub-Damper)",
+        "Condenser",
+        "EPH",
+        "VSV (Water Valve)",
+        "Water Valve",
+        "Condenser Motor",
+        "Vacuum Tank",
+        "Ambient Sensor",
+        "Receiver",
+        "Compressor",
+        "A/C Wire Harness",
+        "Rheostat",
+        "In-Car Sensor",
+        "A/C Switch",
+        "Heater Unit",
+        "Cooling Unit",
+        "Power Servo",
+        "DVV",
+        "Amplifier",
+        "Expansion Valve",
+        "Blower Resistor"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 5,
+        "width": 90,
+        "height": 85
+      }
+    }
+  ]
+}

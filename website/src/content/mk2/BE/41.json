@@ -1,0 +1,71 @@
+{
+  "page_id": "BE-41",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Speedometer testing diagram showing speedometer unit connected to multimeter with GND and VDD connections",
+      "labels": [
+        "Speedometer",
+        "GND",
+        "VDD"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Speedometer testing diagram showing speedometer unit connected to multimeter with GND and Si connections",
+      "labels": [
+        "Speedometer",
+        "GND",
+        "Si"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 52,
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Speedometer testing diagram showing disconnected speedometer unit and separate probe connections to GND and Si points",
+      "labels": [
+        "Speedometer",
+        "GND",
+        "Si"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 2,
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Speedometer testing diagram showing speedometer unit connected to multimeter with GND and VDD connections",
+      "labels": [
+        "Speedometer",
+        "GND",
+        "VDD"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 52,
+        "width": 48,
+        "height": 48
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "page_id": "RA-46",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension",
+  "title": "REAR AXLE AND SUSPENSION",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the removal of shock absorber upper mounting nut using a wrench",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) If replacing the shock absorber, remove the nut holding the shock absorber to the body, and remove the shock absorber."
+    },
+    {
+      "type": "notice",
+      "text": "Use a screwdriver to keep the shaft from turning."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hand removing coil spring from rear suspension with visible coil spring and suspension arm",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. REMOVE REAR COIL SPRING"
+    },
+    {
+      "type": "text",
+      "text": "(a) Start to lower the rear suspension arm."
+    },
+    {
+      "type": "notice",
+      "text": "Be careful not to pull the brake line and parking brake cable."
+    },
+    {
+      "type": "text",
+      "text": "(b) While lowering the rear suspension arm, remove the coil spring and upper and lower insulators."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF COIL SPRING AND SHOCK ABSORBER"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of lower insulator on rear suspension arm",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. PUT LOWER INSULATOR ON REAR SUSPENSION ARM"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing hand placing upper insulator on coil spring",
+      "labels": [],
+      "bbox": {
+        "top": 58,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. PUT UPPER INSULATOR ON COIL SPRING"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing standalone coil spring assembly",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL COIL SPRING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CHECK POSITION OF LOWER INSULATOR"
+    },
+    {
+      "type": "text",
+      "text": "(a) Jack up the rear suspension arm."
+    },
+    {
+      "type": "text",
+      "text": "(b) Check that the lower insulator is installed correctly. If the insulator is not in correct position, reinstall the coil spring."
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "page_id": "1-1 to 5-5",
+  "section_header": "SYSTEM INDEX",
+  "title": "CELICA SUPRA - 1986 Model (Page 1 to Page 5)",
+  "content": [
+    {
+      "type": "table",
+      "caption": "SYSTEM INDEX",
+      "headers": [
+        "SYSTEMS",
+        "LOCATION",
+        "SYSTEMS",
+        "LOCATION"
+      ],
+      "rows": [
+        [
+          {
+            "system": "Air Conditioner, Cooler and Heater",
+            "icon": true,
+            "location": "2-3"
+          },
+          {
+            "system": "Radio and Tape Player",
+            "icon": true,
+            "location": "5-2"
+          }
+        ],
+        [
+          {
+            "system": "Auto Antenna",
+            "icon": true,
+            "location": "5-1"
+          },
+          {
+            "system": "Rear Window Defoger",
+            "icon": true,
+            "location": "2-8"
+          }
+        ],
+        [
+          {
+            "system": "Back-up Lights",
+            "icon": true,
+            "location": "2-8"
+          },
+          {
+            "system": "Rear Wiper and Washer",
+            "icon": true,
+            "location": "3-7"
+          }
+        ],
+        [
+          {
+            "system": "Charging",
+            "icon": true,
+            "location": "1-8"
+          },
+          {
+            "system": "Remote Control Mirrors with Heater",
+            "icon": true,
+            "location": "4-8"
+          }
+        ],
+        [
+          {
+            "system": "Cigarette Lighter",
+            "icon": true,
+            "location": "5-1"
+          },
+          {
+            "system": "Starting",
+            "icon": true,
+            "location": "1-1"
+          }
+        ],
+        [
+          {
+            "system": "Clock",
+            "icon": true,
+            "location": "5-1"
+          },
+          {
+            "system": "Stop Lights",
+            "icon": true,
+            "location": "3-4"
+          }
+        ],
+        [
+          {
+            "system": "Combination Meter",
+            "icon": true,
+            "location": "2-6"
+          },
+          {
+            "system": "Sun Roof",
+            "icon": true,
+            "location": "3-2"
+          }
+        ],
+        [
+          {
+            "system": "Cruise Control",
+            "icon": true,
+            "location": "3-3"
+          },
+          {
+            "system": "Taillights and Illumination",
+            "icon": true,
+            "location": "4-2"
+          }
+        ],
+        [
+          {
+            "system": "Door Locks",
+            "icon": true,
+            "location": "5-3"
+          },
+          {
+            "system": "TCCS",
+            "icon": true,
+            "location": "1-4"
+          }
+        ],
+        [
+          {
+            "system": "ECT (Electronic Control Transmission)",
+            "icon": true,
+            "location": "1-6"
+          },
+          {
+            "system": "Theft Deterrent System",
+            "icon": true,
+            "location": "5-5"
+          }
+        ],
+        [
+          {
+            "system": "Fog Lights",
+            "icon": true,
+            "location": "2-1"
+          },
+          {
+            "system": "Trip Computer",
+            "icon": true,
+            "location": "4-7"
+          }
+        ],
+        [
+          {
+            "system": "Front Wiper and Washer",
+            "icon": true,
+            "location": "3-6"
+          },
+          {
+            "system": "Turn Signal and Hazard",
+            "icon": true,
+            "location": "1-3,5"
+          }
+        ],
+        [
+          {
+            "system": "Headlights",
+            "icon": true,
+            "location": "4-4"
+          },
+          {
+            "system": "Unlock and Seat Belt Warning",
+            "icon": true,
+            "location": "4-7"
+          }
+        ],
+        [
+          {
+            "system": "Headlight Cleaner",
+            "icon": true,
+            "location": "3-8"
+          },
+          {
+            "system": "",
+            "location": ""
+          }
+        ],
+        [
+          {
+            "system": "Horn",
+            "icon": true,
+            "location": "3-6"
+          },
+          {
+            "system": "",
+            "location": ""
+          }
+        ],
+        [
+          {
+            "system": "Interior Lights",
+            "icon": true,
+            "location": "4-5"
+          },
+          {
+            "system": "",
+            "location": ""
+          }
+        ],
+        [
+          {
+            "system": "Power Source",
+            "icon": true,
+            "location": "1-1"
+          },
+          {
+            "system": "",
+            "location": ""
+          }
+        ],
+        [
+          {
+            "system": "Power Windows",
+            "icon": true,
+            "location": "3-1"
+          },
+          {
+            "system": "",
+            "location": ""
+          }
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Icon for Air Conditioner, Cooler and Heater - shows a rectangular unit with vents",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Icon for Auto Antenna - shows a vertical antenna",
+      "labels": [],
+      "bbox": {
+        "top": 10,
+        "left": 37,
+        "width": 4,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Icon for Back-up Lights - shows a small vehicle in reverse",
+      "labels": [],
+      "bbox": {
+        "top": 15,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Icon for Charging - shows a circular gauge or alternator",
+      "labels": [],
+      "bbox": {
+        "top": 20,
+        "left": 36,
+        "width": 6,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Icon for Cigarette Lighter - shows a lighter element",
+      "labels": [],
+      "bbox": {
+        "top": 25,
+        "left": 36,
+        "width": 6,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 6,
+      "description": "Icon for Clock - shows an analog clock face",
+      "labels": [],
+      "bbox": {
+        "top": 30,
+        "left": 36,
+        "width": 6,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 7,
+      "description": "Icon for Combination Meter - shows an instrument cluster",
+      "labels": [],
+      "bbox": {
+        "top": 35,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 8,
+      "description": "Icon for Cruise Control - shows a cruise control switch",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 9,
+      "description": "Icon for Door Locks - shows a door lock mechanism",
+      "labels": [],
+      "bbox": {
+        "top": 45,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 10,
+      "description": "Icon for ECT - shows ECT control box",
+      "labels": [],
+      "bbox": {
+        "top": 50,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 11,
+      "description": "Icon for Fog Lights - shows a fog light assembly",
+      "labels": [],
+      "bbox": {
+        "top": 55,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 12,
+      "description": "Icon for Front Wiper and Washer - shows wiper assembly",
+      "labels": [],
+      "bbox": {
+        "top": 60,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 13,
+      "description": "Icon for Headlights - shows a headlight assembly",
+      "labels": [],
+      "bbox": {
+        "top": 65,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 14,
+      "description": "Icon for Headlight Cleaner - shows headlight washer nozzle",
+      "labels": [],
+      "bbox": {
+        "top": 70,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 15,
+      "description": "Icon for Horn - shows a horn",
+      "labels": [],
+      "bbox": {
+        "top": 75,
+        "left": 36,
+        "width": 6,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 16,
+      "description": "Icon for Interior Lights - shows interior light assembly",
+      "labels": [],
+      "bbox": {
+        "top": 80,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 17,
+      "description": "Icon for Power Source - shows a battery",
+      "labels": [],
+      "bbox": {
+        "top": 85,
+        "left": 36,
+        "width": 6,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 18,
+      "description": "Icon for Power Windows - shows power window switch",
+      "labels": [],
+      "bbox": {
+        "top": 90,
+        "left": 35,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 19,
+      "description": "Icon for Radio and Tape Player - shows radio/tape unit",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 20,
+      "description": "Icon for Rear Window Defoger - shows rear window grid",
+      "labels": [],
+      "bbox": {
+        "top": 10,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 21,
+      "description": "Icon for Rear Wiper and Washer - shows rear wiper assembly",
+      "labels": [],
+      "bbox": {
+        "top": 15,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 22,
+      "description": "Icon for Remote Control Mirrors with Heater - shows mirror control",
+      "labels": [],
+      "bbox": {
+        "top": 20,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 23,
+      "description": "Icon for Starting - shows starter motor",
+      "labels": [],
+      "bbox": {
+        "top": 25,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 24,
+      "description": "Icon for Stop Lights - shows brake light assembly",
+      "labels": [],
+      "bbox": {
+        "top": 30,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 25,
+      "description": "Icon for Sun Roof - shows sunroof panel",
+      "labels": [],
+      "bbox": {
+        "top": 35,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 26,
+      "description": "Icon for Taillights and Illumination - shows taillight assembly",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 27,
+      "description": "Icon for TCCS - shows TCCS control box with text 'TCCS'",
+      "labels": [
+        "TCCS"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 28,
+      "description": "Icon for Theft Deterrent System - shows lock or security device",
+      "labels": [],
+      "bbox": {
+        "top": 50,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 29,
+      "description": "Icon for Trip Computer - shows computer display unit",
+      "labels": [],
+      "bbox": {
+        "top": 55,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 30,
+      "description": "Icon for Turn Signal and Hazard - shows turn signal switch",
+      "labels": [],
+      "bbox": {
+        "top": 60,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 31,
+      "description": "Icon for Unlock and Seat Belt Warning - shows warning indicator",
+      "labels": [],
+      "bbox": {
+        "top": 65,
+        "left": 75,
+        "width": 8,
+        "height": 5
+      }
+    }
+  ]
+}

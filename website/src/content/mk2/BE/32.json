@@ -1,0 +1,162 @@
+{
+  "page_id": "BE-32",
+  "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges",
+  "title": null,
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Oil Pressure Gauge"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Electrical schematic showing Oil Pressure Gauge connected to Ignition Switch and ground, with Test Bulb 3.4W connection point shown",
+      "labels": [
+        "Oil Pressure Gauge",
+        "Ignition Switch",
+        "Test Bulb 3.4W",
+        "BG0416"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF OIL PRESSURE GAUGE"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "main": "INSPECT RECEIVER GAUGE OPERATION",
+          "subitems": [
+            "(a) Disconnect the connector from the sender gauge. Ground the terminal through a 3.4W bulb as shown.",
+            "(b) Turn the ignition switch on. Check that the bulb starts flashing and the gauge pointer deflects.",
+            "If indications are not as specified, remove and test the receiver gauge."
+          ]
+        },
+        {
+          "main": "INSPECT SENDER GAUGE OPERATION",
+          "subitems": [
+            "(a) Disconnect the connector from the sender gauge.",
+            "(b) Connect a 12V battery to the sender gauge terminal in series with a 3.4W bulb. Check that the bulb does not light when the engine is stopped, and flashes when the engine is running. The number of flashes should vary with engine speed.",
+            "If operation is not as specified, replace the sender gauge."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Test setup showing Test Bulb 3.4W connected between Battery and sender gauge connector for testing",
+      "labels": [
+        "Test Bulb (3.4W)",
+        "Battery",
+        "BG0416"
+      ],
+      "bbox": {
+        "top": 25,
+        "left": 2,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Brake Warning"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Electrical schematic showing Brake Warning Light connected to Battery and brake fluid level warning switch with body ground",
+      "labels": [
+        "Brake Warning Light",
+        "Battery",
+        "BE0044 M-27"
+      ],
+      "bbox": {
+        "top": 48,
+        "left": 2,
+        "width": 48,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF BRAKE WARNING"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "main": "INSPECT WARNING LIGHT OPERATION",
+          "subitems": [
+            "(a) Disconnect the connector from the brake fluid level warning switch. Connect the switch terminal 1 and body ground.",
+            "(b) Turn the ignition switch on. Check that the bulb lights.",
+            "If operation is not correct, remove and test the bulb."
+          ]
+        },
+        {
+          "main": "INSPECT OPERATION OF BRAKE FLUID LEVEL WARNING SWITCH",
+          "subitems": [
+            "Inspect the switch operation when the switch is OFF (float up) and when the switch is ON (float down).",
+            "If operation is not as specified, replace the switch."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing brake fluid level warning switch mounted on brake master cylinder",
+      "labels": [
+        "B1D002"
+      ],
+      "bbox": {
+        "top": 63,
+        "left": 2,
+        "width": 48,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "main": "INSPECT OPERATION OF PARKING BRAKE SWITCH",
+          "subitems": [
+            "Using an ohmmeter, inspect the continuity between the terminals 1 and 2.",
+            "(a) Check that there is continuity when the switch is free (parking brake lever up).",
+            "(b) Check that there is no continuity when the switch pin is pushed (parking brake lever down).",
+            "If operation is not as specified, replace the switch."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing parking brake switch with terminals 1 and 2 labeled, and its mounting location",
+      "labels": [
+        "BEG148"
+      ],
+      "bbox": {
+        "top": 78,
+        "left": 2,
+        "width": 48,
+        "height": 17
+      }
+    }
+  ]
+}

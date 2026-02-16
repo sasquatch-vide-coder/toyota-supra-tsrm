@@ -1,0 +1,30 @@
+{
+  "page_id": "C-1",
+  "section_header": "SST AND SSM",
+  "title": "SST AND SSM",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "SST AND SSM"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Section",
+        "Page"
+      ],
+      "rows": [
+        [
+          "SST (SPECIAL SERVICE TOOLS)",
+          "C-2"
+        ],
+        [
+          "SSM (SPECIAL SERVICE MATERIALS)",
+          "C-12"
+        ]
+      ]
+    }
+  ]
+}

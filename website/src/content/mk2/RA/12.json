@@ -1,0 +1,122 @@
+{
+  "page_id": "RA-12",
+  "section_header": "REAR AXLE AND SUSPENSION — Rear Drive Shaft",
+  "title": "REAR DRIVE SHAFT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REAR DRIVE SHAFT"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing rear drive shaft assembly with inboard and outboard joints, including main shaft installed in vehicle with control arms and differential housing visible",
+      "labels": [
+        "Inboard Joint",
+        "Outboard Joint",
+        "700 (51, 69)"
+      ],
+      "bbox": {
+        "top": 12,
+        "left": 3,
+        "width": 94,
+        "height": 35
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Drive shaft mounting",
+      "value": "700 (51, 69)",
+      "location": "Inboard Joint to differential"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Detailed exploded view of inboard joint components showing end cover, snap ring, clamp, inboard boot, and shaft assembly",
+      "labels": [
+        "Inboard Joint",
+        "Inboard Boot",
+        "End Cover",
+        "Snap Ring",
+        "Clamp",
+        "Clamp",
+        "Shaft"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 3,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Detailed exploded view of outboard joint components showing shaft, outboard boot, inner race with ball, snap ring, outboard bearing outer race, and clamps",
+      "labels": [
+        "Shaft",
+        "Outboard Boot",
+        "Outboard Joint Inner Race with Ball",
+        "Snap Ring",
+        "Outboard Bearing Outer Race",
+        "Snap Ring",
+        "Clamp",
+        "Clamp"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 48,
+        "width": 45,
+        "height": 35
+      }
+    },
+    {
+      "type": "text",
+      "text": "kg·cm (ft·lb, N·m) : Specified torque"
+    },
+    {
+      "type": "text",
+      "text": "◆ Non-reusable part"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF REAR DRIVE SHAFT"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "REMOVE DRIVE SHAFT"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Be careful not to damage the boots."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect the drive shaft from the differential.",
+        "(b) Disconnect the drive shaft from the axle shaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing hands removing drive shaft from differential assembly",
+      "labels": [],
+      "bbox": {
+        "top": 80,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    }
+  ]
+}

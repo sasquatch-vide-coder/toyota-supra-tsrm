@@ -1,0 +1,166 @@
+{
+  "page_id": "FL58",
+  "section_header": "EFI SYSTEM — Air Induction System",
+  "title": "AIR INDUCTION SYSTEM Air Flow Meter",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cutaway diagram showing air flow meter components and air flow path from air cleaner to air intake chamber",
+      "labels": [
+        "POTENTIOMETER",
+        "Damping Chamber",
+        "Compensation Plate",
+        "Return Spring",
+        "Air Thermo-Sensor",
+        "Measuring Plate",
+        "Air By-pass Passage",
+        "TO AIR INTAKE CHAMBER",
+        "AIR CLEANER SIDE",
+        "FROM AIR CLEANER",
+        "Compensation Plate",
+        "Measuring Plate",
+        "Air By-pass Passage",
+        "AIR INTAKE CHAMBER SIDE"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 4,
+        "width": 92,
+        "height": 35
+      },
+      "diagram_number": "F10483 F10484"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "MEASURE RESISTANCE OF AIR FLOW METER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Unplug the wiring connector from the air flow meter.",
+        "(b) Using an ohmmeter, measure the resistance between each terminal."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Ohmmeter connected to air flow meter connector showing terminals Fc, E1, E2, Vc, E2, Vs, THA",
+      "labels": [
+        "Ohmmeter",
+        "Fc E1 E2 Vc E2 Vs THA",
+        "Air Flow Meter"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "F10505"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Between Terminals",
+        "Resistance",
+        "Temperature"
+      ],
+      "rows": [
+        [
+          "E2 — Vs",
+          "20 — 400 Ω",
+          "—"
+        ],
+        [
+          "E2 — Vs",
+          "200 — 400 Ω",
+          "—"
+        ],
+        [
+          "E2 — THA",
+          "10 — 20 kΩ",
+          "−20°C (−4°F)"
+        ],
+        [
+          "",
+          "4 — 7 kΩ",
+          "0°C (32°F)"
+        ],
+        [
+          "",
+          "2 — 3 kΩ",
+          "20°C (68°F)"
+        ],
+        [
+          "",
+          "0.9 — 1.3 kΩ",
+          "40°C (104°F)"
+        ],
+        [
+          "",
+          "0.4 — 0.7 kΩ",
+          "60°C (140°F)"
+        ],
+        [
+          "E1 — Fc",
+          "Infinity",
+          "—"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If not within specification, replace the air flow meter."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Connector terminal identification diagram showing pin layout for Fc, E1, E2, Vc, E2, Vs, THA",
+      "labels": [
+        "Fc E1 E2 Vc E2 Vs THA"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "F10622"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF AIR FLOW METER"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DISCONNECT NO. 2 AND NO. 3 AIR CLEANER HOSES",
+        "DISCONNECT AIR FLOW METER CONNECTOR",
+        "REMOVE AIR FLOW METER\nRemove four nuts and one bolt and air flow meter."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing air flow meter assembly with mounting nuts and bolt locations",
+      "labels": [],
+      "bbox": {
+        "top": 72,
+        "left": 4,
+        "width": 38,
+        "height": 23
+      },
+      "diagram_number": "F10621"
+    }
+  ]
+}

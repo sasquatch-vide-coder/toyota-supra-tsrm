@@ -1,0 +1,56 @@
+{
+  "page_id": "BE-80",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "INSPECTION OF NEUTRAL START SWITCH CIRCUIT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "G INSPECTION OF NEUTRAL START SWITCH CIRCUIT"
+    },
+    {
+      "type": "text",
+      "text": "Turn ignition switch on."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "NEUTRAL START S/W"
+    },
+    {
+      "type": "flowchart_step",
+      "text": "INSPECT GROUND CONNECTION\nIs there continuity between terminal 2 and body ground?",
+      "decision": true,
+      "yes_path": "Continue to COMPUTER section",
+      "no_path": "Open circuit in wire harness between terminal 2 and body ground.",
+      "bbox": {
+        "top": 17,
+        "left": 4,
+        "width": 92,
+        "height": 10
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPUTER"
+    },
+    {
+      "type": "flowchart_step",
+      "text": "INSPECT NEUTRAL START SWITCH CIRCUIT\nDisconnect connector from computer.\nIs there continuity between terminal 11 of wire harness side connector and body ground when shifted to \"N\" range?",
+      "decision": true,
+      "yes_path": "Replace computer.",
+      "no_path": "• Open circuit in wire harness between terminal 11 of computer and terminal 3 of neutral start switch.\n• Inspect neutral switch.",
+      "bbox": {
+        "top": 34,
+        "left": 4,
+        "width": 92,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "Replace computer."
+    }
+  ]
+}

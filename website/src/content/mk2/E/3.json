@@ -1,0 +1,47 @@
+{
+  "page_id": "1",
+  "section_header": "CELICA SUPRA ELECTRICAL WIRING DIAGRAM-1986 Model (Page 1 to Page",
+  "title": "CELICA SUPRA ELECTRICAL WIRING DIAGRAM-1986 Model (Page 1 to Page",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Electrical wiring diagram showing power source (battery), starting system, ignition switch, and connections to various components including starter motor, igniter, and associated wiring harnesses. The diagram shows wire routing from battery through ignition switch to starter motor and other electrical components.",
+      "labels": [
+        "Power Source",
+        "Starting",
+        "BATTERY",
+        "STARTER",
+        "IGNITION S/W",
+        "IGNITER",
+        "ST",
+        "AM1",
+        "IG S/W",
+        "Ground Point",
+        "B-W",
+        "W",
+        "B",
+        "E-R",
+        "To Combination Meter Pk 2",
+        "To Charge Lamp 40",
+        "To Power Source Relay Pk 2",
+        "To Power Source Relay Pk 2",
+        "To Combination Meter Pk 2"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 90,
+        "height": 90
+      }
+    },
+    {
+      "type": "text",
+      "text": "Wire color codes visible: B-W (Black-White), W (White), B (Black), E-R (Earth-Red)"
+    },
+    {
+      "type": "text",
+      "text": "Connection references to other pages: 'To Combination Meter Pk 2', 'To Charge Lamp 40', 'To Power Source Relay Pk 2'"
+    }
+  ]
+}

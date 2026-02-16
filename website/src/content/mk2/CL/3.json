@@ -1,0 +1,126 @@
+{
+  "page_id": "CL-3",
+  "section_header": "CLUTCH — Check and Adjustment of Clutch Pedal, Bleeding of Clutch System",
+  "title": "CHECK AND ADJUSTMENT OF CLUTCH PEDAL",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Clutch pedal assembly diagram showing pedal play adjust point, pedal height adjust point, pedal freeplay, pedal height measurement, and asphalt sheet reference",
+      "labels": [
+        "Pedal Play Adjust Point",
+        "Pedal Height Adjust Point",
+        "Pedal Freeplay",
+        "Pedal Height",
+        "Asphalt Sheet"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 45
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "CHECK AND ADJUSTMENT OF CLUTCH PEDAL"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1",
+          "text": "CHECK THAT PEDAL HEIGHT IS CORRECT AS SPECIFIED",
+          "details": "Pedal height: 154 – 164 mm (6.06 – 6.46 in.)"
+        },
+        {
+          "number": "2",
+          "text": "IF NECESSARY, ADJUST PEDAL HEIGHT",
+          "steps": [
+            "(a) Loosen the lock nut and turn the adjusting bolt until the height is correct.",
+            "(b) Tighten the lock nut.",
+            "(c) After adjusting the pedal height, check the pedal freeplay."
+          ]
+        },
+        {
+          "number": "3",
+          "text": "CHECK THAT PEDAL FREEPLAY IS CORRECT AS SPECIFIED",
+          "details": [
+            "Push in on the pedal until initial clutch resistance is felt.",
+            "Pedal freeplay: 5 – 15 mm (0.20 – 0.59 in.)",
+            "[Push rod play at pedal: 1 – 5 mm (0.04 – 0.20 in.)]"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "IF NECESSARY, ADJUST PEDAL FREEPLAY",
+          "steps": [
+            "(a) Loosen the lock nut and turn the push rod until the freeplay is correct.",
+            "(b) Tighten the lock nut.",
+            "(c) After adjusting the pedal freeplay, check the pedal height."
+          ]
+        },
+        {
+          "number": "5",
+          "text": "CHECK PEDAL OPERATION",
+          "details": [
+            "While gently depressing and releasing the pedal, check that engagement and disengagement is smooth.",
+            "NOTE: With a pedal stroke of 125 – 135 mm (4.92 – 5.31 in.), the pedal should return in 3 – 4 seconds."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "BLEEDING OF CLUTCH SYSTEM"
+    },
+    {
+      "type": "text",
+      "text": "If any work is done on the clutch system or if air is suspected in the clutch lines, bleed the system of air."
+    },
+    {
+      "type": "caution",
+      "text": "Do not let brake fluid remain on a painted surface. Wash it off immediately."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1",
+          "text": "FILL CLUTCH RESERVOIR WITH BRAKE FLUID",
+          "details": "Check the reservoir frequently. Add fluid if necessary."
+        },
+        {
+          "number": "2",
+          "text": "CONNECT VINYL TUBE TO BLEEDER PLUG",
+          "details": "Insert the other end of the tube in a half-full container of brake fluid."
+        },
+        {
+          "number": "3",
+          "text": "BLEED CLUTCH LINE",
+          "steps": [
+            "(a) Slowly pump the clutch pedal several times.",
+            "(b) While pressing on the pedal, loosen the bleeder plug until the fluid starts to run out. Then close the bleeder plug.",
+            "(c) Repeat this procedure until there are no more air bubbles in the fluid."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing vinyl tube connected to bleeder plug with other end inserted into container of brake fluid",
+      "labels": [],
+      "bbox": {
+        "top": 73,
+        "left": 5,
+        "width": 35,
+        "height": 20
+      }
+    }
+  ]
+}

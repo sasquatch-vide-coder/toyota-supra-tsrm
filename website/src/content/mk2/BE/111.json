@@ -1,0 +1,104 @@
+{
+  "page_id": "BE-111",
+  "section_header": "BODY ELECTRICAL SYSTEM — Clock",
+  "title": "CLOCK",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "CLOCK"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Troubleshooting"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CLOCK WILL NOT OPERATE"
+    },
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart for clock will not operate condition",
+      "bbox": {
+        "top": 13,
+        "left": 7,
+        "width": 86,
+        "height": 65
+      },
+      "steps": [
+        {
+          "check": "Check to see if fuse is blown.",
+          "condition": "Blown fuse",
+          "action": "Locate trouble and repair or replace fuse as necessary.",
+          "ok_path": "OK"
+        },
+        {
+          "check": "Check to see if clock adjusting knob is binding in position and has failed to return.",
+          "condition": "Adjusting knob not returned",
+          "action": "Repair if necessary or replace clock.",
+          "ok_path": "OK"
+        },
+        {
+          "check": "Check to see if battery voltage is over 11V with no load.",
+          "condition": "Below 11V",
+          "action": "Recharge or replace battery.",
+          "ok_path": "OK"
+        },
+        {
+          "check": "Check to see if connector on clock side is loose or rusted.",
+          "condition": "Loose or rusted",
+          "action": "Repair",
+          "ok_path": "OK"
+        },
+        {
+          "check": "Check to see if there is voltage at terminal B or connector or clock side.",
+          "condition": "No voltage",
+          "action": "Locate cause and repair.",
+          "ok_path": "OK"
+        },
+        {
+          "check": "Check to see if clock ground wire is loose or rusted.",
+          "condition": "Loose or rusted",
+          "action": "Repair",
+          "ok_path": "OK"
+        },
+        {
+          "final_step": "Replace clock."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CLOCK LOSES OR GAINS TIME"
+    },
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart for clock loses or gains time condition",
+      "bbox": {
+        "top": 72,
+        "left": 7,
+        "width": 86,
+        "height": 18
+      },
+      "steps": [
+        {
+          "check": "Check amount of time the clock loses or gains per day or a week against the allowable error table.",
+          "condition": "Exceeds allowable error",
+          "action": null
+        },
+        {
+          "check": "Check to see if there is 11V–15V on terminal B of connector on clock side.",
+          "condition": "Below 11V",
+          "action": "Locate cause and repair, or recharge battery.",
+          "ok_path": "OK"
+        },
+        {
+          "final_step": "Adjust or replace clock."
+        }
+      ]
+    }
+  ]
+}

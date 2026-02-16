@@ -1,0 +1,102 @@
+{
+  "page_id": "IN-2",
+  "section_header": "INTRODUCTION — How to Use This Manual",
+  "title": "HOW TO USE THIS MANUAL",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "HOW TO USE THIS MANUAL"
+    },
+    {
+      "type": "text",
+      "text": "To assist in finding your way through the manual, the Section Title and major heading are given at the top of every page."
+    },
+    {
+      "type": "text",
+      "text": "An INDEX is provided on the first page of each section to guide you to the item to be repaired."
+    },
+    {
+      "type": "text",
+      "text": "At the beginning of each section SAFETY PRECAUTIONS are given that pertain to all repair operations contained in that section. Read these precautions before starting any repair task."
+    },
+    {
+      "type": "text",
+      "text": "TROUBLESHOOTING tables are included for each system to help you diagnose the system problem and find the cause. The repair for each possible cause is referenced in the remedy column to quickly lead you to the solution."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REPAIR PROCEDURES"
+    },
+    {
+      "type": "text",
+      "text": "Most repair operations begin with an overview illustration. It identifies the components and shows how the parts fit together."
+    },
+    {
+      "type": "text",
+      "text": "Example:"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing differential assembly components including ring gear, differential case, case cover, side bearing, clutch members, thrust washers, adjusting washers, pinion gear, side gear, and lock plate. The diagram shows how all parts fit together in proper assembly order.",
+      "labels": [
+        "Adjusting Washer",
+        "Side Gear",
+        "Pin",
+        "Pinion Gear",
+        "Clutch Member RH",
+        "Clutch Member LH",
+        "Thrust Washer No. 1",
+        "Thrust Washer No. 2",
+        "Clutch Member Thrust Washer",
+        "Clutch Member Spring",
+        "Side Bearing",
+        "Clutch Member Thrust Washer",
+        "Adjusting Washer",
+        "Thrust Washer No. 2",
+        "Ring Gear",
+        "Case Cover",
+        "Lock Plate",
+        "Differential Case"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 5,
+        "width": 90,
+        "height": 50
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Ring Gear to Differential Case",
+      "value": "kg·cm (ft·lb, N·m)",
+      "reference": "Specified torque"
+    },
+    {
+      "type": "notice",
+      "text": "◆ Non-reusable part"
+    },
+    {
+      "type": "notice",
+      "text": "★ Precoated part"
+    },
+    {
+      "type": "part_number",
+      "label": "Ring Gear Bolts",
+      "number": "550 (47, 64)",
+      "description": "Specified torque"
+    },
+    {
+      "type": "part_number",
+      "label": "Reference Number",
+      "number": "985 (71, 97)",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "RA089"
+    }
+  ]
+}

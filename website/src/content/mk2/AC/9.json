@@ -1,0 +1,47 @@
+{
+  "page_id": "AC-9",
+  "section_header": "AIR CONDITIONING SYSTEM — Air Conditioning System Circuit",
+  "title": "AIR CONDITIONING SYSTEM CIRCUIT",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Complete electrical wiring diagram for the air conditioning system showing connections between components including blower motor, compressor, sensors, switches, relays, and control units. The diagram uses solid lines for original equipment wiring and dotted lines for A/C main harness connections.",
+      "labels": [
+        "A/C CUT SENSOR",
+        "V/P (SUB-DAMPER)",
+        "WATER TEMP SWITCH (MAIN)",
+        "WATER TEMP SWITCH (1/2/3)",
+        "HEATER RELAY",
+        "CONDENSER MOTOR",
+        "BLY SW",
+        "BLO MOTOR",
+        "SERVO MOTOR",
+        "BLOWER SWITCH",
+        "M/T SWITCH",
+        "COOLING CONTROL",
+        "A/C CONTROL",
+        "SUB DAMPER RELAY No.1",
+        "SUB DAMPER RELAY No.2",
+        "SUB DAMPER RELAY No.3 (M/T ONLY)",
+        "MAIN RELAY No.1",
+        "MAIN RELAY No.2",
+        "POWER SOURCE",
+        "SOLAR SENSOR",
+        "THERMO CONTROL AMPLIFIER",
+        "PRESSURE SWITCH",
+        "VENT MODE SWITCH",
+        "HEAT MODE SWITCH",
+        "DEF MODE SWITCH",
+        "ORIGINAL EQUIPPED WIRE HARNESS",
+        "A/C MAIN HARNESS"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 3,
+        "width": 94,
+        "height": 90
+      }
+    }
+  ]
+}

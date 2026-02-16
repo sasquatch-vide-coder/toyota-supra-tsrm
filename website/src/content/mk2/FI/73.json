@@ -1,0 +1,146 @@
+{
+  "page_id": "FI-73",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "Oxygen Sensor",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing engine compartment with oxygen sensor location and voltmeter connection setup. Shows SST (Special Service Tool) voltmeter being connected to engine service connector.",
+      "labels": [
+        "V",
+        "F6173"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF FEEDBACK VOLTAGE (VF)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Warm up the engine.",
+        "Connect SST to the engine service connector. SST 09842-14010",
+        "Connect the voltmeter to the SST.",
+        "Warm up the Oxygen sensor with the engine at 2,500 rpm for about 2 minutes."
+      ]
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for oxygen sensor feedback voltage inspection",
+      "steps": [
+        {
+          "type": "instruction",
+          "text": "Warm up the Oxygen sensor with the engine at 2,500 rpm for approx. 90 seconds."
+        },
+        {
+          "type": "instruction",
+          "text": "Short terminals T and E1 of the service connector. And maintain engine speed at 2,500 rpm."
+        },
+        {
+          "type": "instruction",
+          "text": "Check the number of times the voltmeter needle fluctuates in 10 seconds."
+        },
+        {
+          "type": "decision",
+          "branches": [
+            {
+              "condition": "Less than 8 times",
+              "next_step": "Warm up the Oxygen sensor with the engine at 2,500 rpm for approx. 90 seconds, and maintain engine at 2,500 rpm."
+            },
+            {
+              "condition": "8 times or more",
+              "result": "Normal"
+            },
+            {
+              "condition": "Zero",
+              "result": "After replacing the oxygen sensor"
+            }
+          ]
+        },
+        {
+          "type": "instruction",
+          "text": "Check the number of times the voltmeter needle fluctuates in 10 seconds."
+        },
+        {
+          "type": "decision",
+          "branches": [
+            {
+              "condition": "8 times or more",
+              "result": "Zero"
+            },
+            {
+              "condition": "Less than 8 times",
+              "next_step": "Continue to next step"
+            }
+          ]
+        },
+        {
+          "type": "instruction",
+          "text": "Unshort terminals T and E1 of the service connector. And maintain engine speed at 2,500 rpm."
+        },
+        {
+          "type": "instruction",
+          "text": "Measure voltage between terminals VF and E1."
+        },
+        {
+          "type": "decision",
+          "branches": [
+            {
+              "condition": "0V",
+              "result": "Route to endpoint 3"
+            },
+            {
+              "condition": "More than 0V",
+              "action": "Read and record diagnostic codes",
+              "branches": [
+                {
+                  "condition": "Normal code and code 21",
+                  "result": "Endpoint 2"
+                },
+                {
+                  "condition": "Malfunction code(s) (ex. code 21)",
+                  "action": "Repair the relevant diagnostic code."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "endpoints": [
+        {
+          "number": "1",
+          "position": "bottom-left"
+        },
+        {
+          "number": "2",
+          "position": "bottom-center-left"
+        },
+        {
+          "number": "3",
+          "position": "bottom-center-right"
+        },
+        {
+          "number": "4",
+          "position": "bottom-right"
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Replace the ECU"
+    },
+    {
+      "type": "text",
+      "text": "CONTINUED ON PAGE FI-74"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "page_id": "MT-28",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "MANUAL TRANSMISSION — W58 Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installing No. 2 shift fork and fork shaft with interlock pin",
+      "labels": [
+        "WM0154"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(f) Install No. 2 shift fork and fork shaft."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Apply MP grease to No. 2 interlock pin and install the pin into the shaft hole."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Placing No. 2 shift fork into the groove of No. 2 hub sleeve",
+      "labels": [
+        "WM0032"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        "Place No. 2 shift fork into the groove of No. 2 hub sleeve.",
+        "Install No. 2 fork shaft to the shift fork through the intermediate plate."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installing the snap ring of No. 2 fork shaft",
+      "labels": [
+        "WM0155"
+      ],
+      "bbox": {
+        "top": 41,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(g) Install the snap ring of No. 2 fork shaft."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Applying MP grease to No. 1 interlock pin and installing into intermediate plate",
+      "labels": [
+        "WM0156"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(h) Apply MP grease to No. 1 interlock pin and install the pin into the intermediate plate."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Installing No. 1 shift fork and fork shaft into hub sleeve and through intermediate plate",
+      "labels": [
+        "WM0030"
+      ],
+      "bbox": {
+        "top": 77,
+        "left": 4,
+        "width": 37,
+        "height": 22
+      }
+    },
+    {
+      "type": "text",
+      "text": "(i) Install No. 1 shift fork and fork shaft."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Install the groove of No. 1 shift fork into the groove of No. 1 hub sleeve.",
+        "Insert No. 1 fork shaft to the shift fork through the intermediate plate."
+      ]
+    }
+  ]
+}

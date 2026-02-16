@@ -1,0 +1,184 @@
+{
+  "page_id": "CH-6",
+  "section_header": "CHARGING SYSTEM — Alternator",
+  "title": "DISASSEMBLY OF ALTERNATOR",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page CH-5)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE REAR END COVER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the nut and terminal insulator.",
+        "(b) Remove the three nuts and end cover."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Rear view of alternator showing removal of rear end cover and terminal insulator",
+      "labels": [
+        "Rear end cover",
+        "Terminal insulator",
+        "Nuts"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      },
+      "reference": "CH0421"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE BRUSH HOLDER AND IC REGULATOR"
+    },
+    {
+      "type": "text",
+      "text": "Remove the five screws, brush holder, brush holder cover and IC regulator."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Alternator showing removal of brush holder and IC regulator components secured by five screws",
+      "labels": [
+        "Screws",
+        "Brush holder",
+        "IC regulator"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      },
+      "reference": "CH0431"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE RECTIFIER HOLDER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the four screws and rectifier holder.",
+        "(b) Remove the four rubber terminal insulators."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Alternator showing removal of rectifier holder secured by four screws and four rubber terminal insulators",
+      "labels": [
+        "Screws",
+        "Rectifier holder",
+        "Rubber terminal insulators"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      },
+      "reference": "CH0191"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. REMOVE PULLEY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Hold SST A with a torque wrench and tighten SST B clockwise to the specified torque."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09820-63010",
+      "description": ""
+    },
+    {
+      "type": "torque_spec",
+      "component": "SST B",
+      "value": "400 kg-cm (29 ft-lb, 39 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Check that SST A is secured to the rotor shaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Close-up view showing SST A and SST B tools positioned on alternator pulley shaft for removal, with torque wrench application",
+      "labels": [
+        "SST A",
+        "SST B",
+        "Rotor shaft",
+        "Pulley"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      },
+      "reference": "CH0434"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) As shown in the figure, mount SST C in a vise and then install the alternator to SST C.",
+        "(d) To loosen the pulley nut, turn SST A in the direction shown in the figure."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: To prevent damage to the rotor shaft, do not loosen the pulley nut more than one-half of a turn."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(e) Remove the alternator from SST C.",
+        "(f) Turn SST B and remove SSTs A and B.",
+        "(g) Remove the pulley nut and pulley."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Two views showing SST C mounted in vise with alternator installed, demonstrating removal of pulley nut using SST A",
+      "labels": [
+        "SST C",
+        "Vise",
+        "Alternator",
+        "SST A"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 4,
+        "width": 37,
+        "height": 20
+      },
+      "reference": "CH0016 CH0215"
+    }
+  ]
+}

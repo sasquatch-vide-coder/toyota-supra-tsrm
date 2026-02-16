@@ -1,0 +1,97 @@
+{
+  "page_id": "IG-2",
+  "section_header": "IGNITION SYSTEM — Precautions, Troubleshooting",
+  "title": "PRECAUTIONS and TROUBLESHOOTING",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing ignition system components including a tachometer connected to a service connector and igniter",
+      "labels": [
+        "Tachometer",
+        "Service Connector"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Do not keep the ignition switch ON for more than 10 minutes if the engine will not start.",
+        "As some tachometers are not compatible with this ignition system, we recommended that you confirm the compatibility of your unit before using.",
+        "NEVER allow the ignition coil terminals to touch ground as it could result in damage to the igniter and/or ignition coil.",
+        "Do not disconnect the battery when the engine is running.",
+        "Make sure that the igniter is properly grounded to the body.",
+        "When a tachometer is connected to the system, connect the tachometer positive terminal to the service connector."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TROUBLESHOOTING"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Engine will not start/\nHard to start\n(cranks ok)",
+          "Ignition problems\n• Ignition coil\n• Igniter\n• Distributor\nSpark plugs faulty",
+          "Perform spark test\nInspect coil\n\nInspect distributor\nInspect plugs",
+          "IG-4\nIG-7\n\nIG-7\nIG-5"
+        ],
+        [
+          "Rough idle or stalls",
+          "Spark plugs faulty\nIncorrect ignition timing\nIgnition problems\n• Ignition coil\n• Igniter\n• Distributor",
+          "Inspect plugs\nReset timing\nPerform spark test\nInspect coil\n\nInspect distributor",
+          "IG-5\nIG-10\nIG-4\nIG-7\n\nIG-7"
+        ],
+        [
+          "Engine hesitates/\nPoor acceleration",
+          "Spark plugs faulty\nIncorrect ignition timing",
+          "Inspect plugs\nReset timing",
+          "IG-4\nIG-10"
+        ],
+        [
+          "Muffler explosion\n(after fire) all the time",
+          "Incorrect ignition timing",
+          "Reset timing",
+          "IG-10"
+        ],
+        [
+          "Engine backfires",
+          "Incorrect ignition timing",
+          "Reset timing",
+          "IG-10"
+        ],
+        [
+          "Poor gasoline mileage",
+          "Spark plugs faulty\nIncorrect ignition timing",
+          "Inspect plugs\nReset timing",
+          "IG-5\nIG-10"
+        ],
+        [
+          "Engine overheats",
+          "Incorrect ignition timing",
+          "Reset timing",
+          "IG-10"
+        ]
+      ]
+    }
+  ]
+}

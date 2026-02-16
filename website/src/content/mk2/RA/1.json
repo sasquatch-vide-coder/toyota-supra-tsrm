@@ -1,0 +1,54 @@
+{
+  "page_id": "RA-1",
+  "section_header": "REAR AXLE AND SUSPENSION",
+  "title": "REAR AXLE AND SUSPENSION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REAR AXLE AND SUSPENSION"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "",
+        "Page"
+      ],
+      "rows": [
+        [
+          "TROUBLESHOOTING",
+          "RA-2"
+        ],
+        [
+          "REAR WHEEL ALIGNMENT",
+          "RA-3"
+        ],
+        [
+          "IRS TYPE REAR AXLE SHAFT",
+          "RA-5"
+        ],
+        [
+          "REAR DRIVE SHAFT",
+          "RA-12"
+        ],
+        [
+          "IRS TYPE DIFFERENTIAL",
+          "RA-18"
+        ],
+        [
+          "LIMITED SLIP DIFFERENTIAL",
+          "RA-37"
+        ],
+        [
+          "IRS TYPE REAR SUSPENSION",
+          "RA-44"
+        ],
+        [
+          "DIFFERENTIAL SUPPORT MEMBER",
+          "RA-53"
+        ]
+      ]
+    }
+  ]
+}

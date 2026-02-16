@@ -1,0 +1,71 @@
+{
+  "page_id": "BE-43",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "D",
+          "Speedometer | Display disappears when rheostat is turned with light S/W ON"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Troubleshooting flowchart for speedometer display issue. Starts with question 'Only speedometer?' with Yes path leading to 'Replace speedometer' and No path leading to further diagnostic steps involving sub-harness SST testing and voltage checks.",
+      "labels": [
+        "Only speedometer?",
+        "Yes",
+        "No",
+        "Remove meter and connect sub harness (SST)",
+        "1) With the ignition S/W at ON position, does voltage between terminals 1 and 16 of sub-harness vary from 0 to 9 V when rheostat is turned?",
+        "2) With the light S/W turned ON, does voltage between terminals TR and E of rheostat vary when rheostat is operated?",
+        "Is speedometer normal with other meters disconnected?",
+        "Replace speedometer",
+        "Bad wiring between rheostat and meter",
+        "Check rheostat (See page BE-18)",
+        "Connect other meters one by one to find faulty one.",
+        "Replace bad meter"
+      ],
+      "bbox": {
+        "top": 13,
+        "left": 5,
+        "width": 90,
+        "height": 50
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Two testing configurations shown. Left diagram (labeled 1) shows sub-harness (SST) connected to meter with terminals TR(1) and E(2) indicated. Right diagram (labeled 2) shows rheostat connected to meter with terminals TR and E indicated, and rheostat positions marked as MIN (Bright), OFF, and MAX (Fade).",
+      "labels": [
+        "1",
+        "2",
+        "Sub-harness (SST)",
+        "TR 1",
+        "E 2",
+        "Rheostat",
+        "TR",
+        "E",
+        "ON",
+        "MIN (Bright)",
+        "OFF",
+        "MAX (Fade)"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 5,
+        "width": 90,
+        "height": 35
+      }
+    }
+  ]
+}

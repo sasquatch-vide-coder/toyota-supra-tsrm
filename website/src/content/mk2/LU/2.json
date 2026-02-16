@@ -1,0 +1,90 @@
+{
+  "page_id": "LU-2",
+  "section_header": "LUBRICATION SYSTEM — Troubleshooting, Oil Pressure Check",
+  "title": "TROUBLESHOOTING",
+  "content": [
+    {
+      "type": "table",
+      "caption": "TROUBLESHOOTING",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Oil leakage",
+          "Cylinder head cylinder block or oil pump body damaged or cracked\nOil seal faulty\nGasket faulty",
+          "Replace as necessary\nReplace oil seal\nReplace gasket",
+          "LU-4"
+        ],
+        [
+          "Low oil pressure",
+          "Oil leakage\nRelief valve faulty\nOil pump faulty\nEngine oil poor quality\nCrankshaft bearing faulty\nConnecting rod bearing faulty",
+          "Replace as necessary\nReplace relief valve\nReplace oil pump\nReplace engine oil\nReplace bearing\nReplace bearing",
+          "LU-4\nLU-4\nLU-3"
+        ],
+        [
+          "High oil pressure",
+          "Oil filter clogged\nRelief valve faulty",
+          "Replace oil filter\nReplace relief valve",
+          "LU-3\nLU-4"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "OIL PRESSURE CHECK"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Viscosity recommendation chart showing temperature ranges in both Fahrenheit and Celsius, with SAE viscosity grades. Chart shows temperature ranges from -20°F to 100°F (-30°C to 40°C) with recommended viscosity grades 5W-20, 5W-30, 10W-30, 10W-40, and 10W-50. Labeled LU0011.",
+      "labels": [
+        "Recommended Viscosity (SAE)",
+        "TEMPERATURE RANGE ANTICIPATED BEFORE NEXT OIL CHANGE",
+        "5W-20",
+        "5W-30",
+        "10W-30",
+        "10W-40",
+        "10W-50"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing an oil pressure gauge connected to an engine via a hose adapter. Labeled LU0601.",
+      "labels": [],
+      "bbox": {
+        "top": 63,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CHECK OIL QUALITY\nCheck the oil for deterioration, entry of water, discoloring or thinning.\nIf the quality is poor, change the oil.\nUse API grade SF or SF/CC multigrade, fuel-efficient and recommended viscosity oil.",
+        "CHECK OIL LEVEL\nThe oil level should be between the L and F marks on the oil level gauge. If low, check for leakage and add oil up to the F mark.",
+        "REMOVE OIL PRESSURE SWITCH OR SENDER GAUGE",
+        "INSTALL OIL PRESSURE GAUGE",
+        "START ENGINE\nStart engine and warm it up to normal operating temperature.",
+        "MEASURE OIL PRESSURE\nOil pressure:\nAt idle speed More than 0.3 kg/cm² (4.3 psi, 29 kPa)\nAt 3,000 rpm 2.5 — 5.0 kg/cm² (36 — 71 psi, 245 — 490 kPa)"
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Check for oil leakage after reinstalling the oil pressure switch or sender gauge."
+    }
+  ]
+}

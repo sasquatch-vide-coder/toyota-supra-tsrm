@@ -1,0 +1,34 @@
+{
+  "page_id": "ST-1",
+  "section_header": "STARTING SYSTEM",
+  "title": "STARTING SYSTEM",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "STARTING SYSTEM"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "",
+        "Page"
+      ],
+      "rows": [
+        [
+          "TROUBLESHOOTING",
+          "ST-2"
+        ],
+        [
+          "STARTING SYSTEM CIRCUIT",
+          "ST-2"
+        ],
+        [
+          "STARTER",
+          "ST-3"
+        ]
+      ]
+    }
+  ]
+}

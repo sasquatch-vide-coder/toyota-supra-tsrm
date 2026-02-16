@@ -1,0 +1,207 @@
+{
+  "page_id": "A-28",
+  "section_header": "SERVICE SPECIFICATIONS — Body",
+  "title": "BODY\nTorque Specifications",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "BODY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Torque Specifications"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Part tightened",
+        "kg·cm",
+        "ft·lb",
+        "N·m"
+      ],
+      "rows": [
+        [
+          "Front seat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Seat back × Seat adjuster",
+          "375",
+          "27",
+          "37"
+        ],
+        [
+          "Seat back × Seat truck",
+          "130",
+          "9",
+          "13"
+        ],
+        [
+          "Seat cushion × Seat adjuster",
+          "185",
+          "13",
+          "18"
+        ],
+        [
+          "Seat cushion × Seat truck",
+          "185",
+          "13",
+          "18"
+        ],
+        [
+          "Seat adjuster × Body",
+          "375",
+          "27",
+          "37"
+        ],
+        [
+          "Rear seat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Seat back center hinge × Body",
+          "80",
+          "69 in.·lb",
+          "7.8"
+        ],
+        [
+          "Seat belt (Front)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ELR × Body - Upper side",
+          "55",
+          "43 in.·lb",
+          "4.9"
+        ],
+        [
+          "ELR × Body - Lower side",
+          "440",
+          "32",
+          "43"
+        ],
+        [
+          "Belt shoulder anchor × Body",
+          "440",
+          "32",
+          "43"
+        ],
+        [
+          "Outer belt tower anchor × Body",
+          "440",
+          "32",
+          "43"
+        ],
+        [
+          "Inner belt anchor × Body - Front side",
+          "195",
+          "14",
+          "19"
+        ],
+        [
+          "Inner belt anchor × Body - Rear side",
+          "440",
+          "32",
+          "43"
+        ],
+        [
+          "Seat belt (Rear)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ALR × Body",
+          "440",
+          "32",
+          "43"
+        ],
+        [
+          "Belt anchor × Body",
+          "440",
+          "32",
+          "43"
+        ]
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Front seat - Seat back × Seat adjuster",
+      "value": "375 kg·cm (27 ft·lb, 37 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Front seat - Seat back × Seat truck",
+      "value": "130 kg·cm (9 ft·lb, 13 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Front seat - Seat cushion × Seat adjuster",
+      "value": "185 kg·cm (13 ft·lb, 18 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Front seat - Seat cushion × Seat truck",
+      "value": "185 kg·cm (13 ft·lb, 18 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Front seat - Seat adjuster × Body",
+      "value": "375 kg·cm (27 ft·lb, 37 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Rear seat - Seat back center hinge × Body",
+      "value": "80 kg·cm (69 in.·lb, 7.8 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt (Front) - ELR × Body - Upper side",
+      "value": "55 kg·cm (43 in.·lb, 4.9 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt (Front) - ELR × Body - Lower side",
+      "value": "440 kg·cm (32 ft·lb, 43 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt (Front) - Belt shoulder anchor × Body",
+      "value": "440 kg·cm (32 ft·lb, 43 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt (Front) - Outer belt tower anchor × Body",
+      "value": "440 kg·cm (32 ft·lb, 43 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt (Front) - Inner belt anchor × Body - Front side",
+      "value": "195 kg·cm (14 ft·lb, 19 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt (Front) - Inner belt anchor × Body - Rear side",
+      "value": "440 kg·cm (32 ft·lb, 43 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt (Rear) - ALR × Body",
+      "value": "440 kg·cm (32 ft·lb, 43 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Seat belt (Rear) - Belt anchor × Body",
+      "value": "440 kg·cm (32 ft·lb, 43 N·m)"
+    }
+  ]
+}

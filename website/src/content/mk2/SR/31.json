@@ -1,0 +1,175 @@
+{
+  "page_id": "SR-31",
+  "section_header": "STEERING — Power Steering",
+  "title": "INSPECTION OF GEAR HOUSING / REPLACEMENT OF GEAR HOUSING",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF GEAR HOUSING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECTION CONTROL VALVE"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Control valve with pinion showing threaded shaft and valve assembly components",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the control valve with pinion from the yoke housing.",
+        "(b) If necessary, replace the control valve assembly."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSPECT STEERING RACK RUNOUT"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Steering rack assembly showing measurement points for runout inspection with dial indicator",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "Runout: Limit 0.3 mm (0.012 in.)"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REPLACEMENT OF GEAR HOUSING"
+    },
+    {
+      "type": "text",
+      "text": "IF NECESSARY, REPLACE FOLLOWING PARTS:"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. OIL SEAL FOR RACK HOUSING"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Two detailed views showing removal and installation of rack housing oil seal using SST (Special Service Tool)",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 41,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the oil seal with a screwdriver.",
+        "(b) Using SST, install the new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09620-30010 (09631-00020)",
+      "description": ""
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09630-24013 (09631-24070)",
+      "description": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. OIL SEAL FOR CYLINDER HOUSING"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Two detailed views showing removal and installation of cylinder housing oil seal using SST and spacer, with hammer installation method",
+      "labels": [
+        "SST",
+        "SST",
+        "Spacer"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, drive out the seal.",
+        "(b) Using SST and a hammer, install a new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09620-30010 (09625-30010, 09631-00020)",
+      "description": ""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "• Install the new oil seal.",
+        "• Place the spacer on the oil seal.",
+        "• Drive in the oil seal over the spacer until the round surface of SST is flush with housing surface."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. OIL SEAL AND BEARING FOR CONTROL VALVE HOUSING"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Two detailed views showing removal of snap ring and removal of bearing and oil seal from control valve housing using brass bar",
+      "labels": [],
+      "bbox": {
+        "top": 79,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the snap ring.",
+        "(b) Remove the bearing and oil seal with brass bar."
+      ]
+    }
+  ]
+}

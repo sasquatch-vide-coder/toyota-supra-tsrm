@@ -1,0 +1,41 @@
+{
+  "page_id": "BE-94",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF IGNITION SWITCH CIRCUIT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "D"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF IGNITION SWITCH CIRCUIT"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Flowchart for inspecting ignition switch circuit. Starts with turning ignition switch to ON or ACC position, checks CIG fuse, tests for short circuit and open circuit conditions, and ends with either replacing fuse, replacing computer, or identifying wire harness issues.",
+      "labels": [
+        "Turn ignition switch to ON or ACC position.",
+        "Is CIG fuse normal?",
+        "Replace fuse. Is operation normal?",
+        "Short circuit in wire harness between fuse and terminal 4 of computer.",
+        "Fuse faulty.",
+        "COMPUTER",
+        "INSPECT IGNITION SWITCH CIRCUIT - Disconnect connector from computer. Is there battery voltage between terminal 4 of wire harness side connector and body ground?",
+        "Replace computer.",
+        "Open circuit in wire harness between fuse and terminal 4 of computer.",
+        "Yes",
+        "No"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 3,
+        "width": 94,
+        "height": 70
+      }
+    }
+  ]
+}

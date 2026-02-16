@@ -1,0 +1,151 @@
+{
+  "page_id": "A-25",
+  "section_header": "SERVICE SPECIFICATIONS – Brake System",
+  "title": "Torque Specifications",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Torque Specifications",
+      "headers": [
+        "Part tightened",
+        "kg-cm",
+        "ft-lb",
+        "N·m"
+      ],
+      "rows": [
+        [
+          "Brake booster clevis lock nut",
+          "250",
+          "18",
+          "25"
+        ],
+        [
+          "Brake booster × Pedal bracket",
+          "130",
+          "9",
+          "13"
+        ],
+        [
+          "Master cylinder × Brake booster",
+          "130",
+          "9",
+          "13"
+        ],
+        [
+          "Reservoir set bolt × Master cylinder",
+          "250",
+          "18",
+          "25"
+        ],
+        [
+          "Outlet plug × Master cylinder",
+          "450",
+          "33",
+          "44"
+        ],
+        [
+          "Piston stopper bolt × Master cylinder",
+          "100",
+          "7",
+          "10"
+        ],
+        [
+          "P & B valve × Spring Support",
+          "90",
+          "78 in.-lb",
+          "8.8"
+        ],
+        [
+          "Front disc brake caliper × Knuckle",
+          "925",
+          "67",
+          "91"
+        ],
+        [
+          "Front disc brake dust cover × Knuckle",
+          "185",
+          "13",
+          "18"
+        ],
+        [
+          "Front disc brake cylinder installation bolt",
+          "200",
+          "14",
+          "20"
+        ],
+        [
+          "Flexible hose",
+          "235",
+          "17",
+          "23"
+        ],
+        [
+          "Brake tube flare nut",
+          "155",
+          "11",
+          "15"
+        ],
+        [
+          "Bleeder plug - Front",
+          "85",
+          "74 in.-lb",
+          "8.3"
+        ],
+        [
+          "Bleeder plug - Rear",
+          "85",
+          "74 in.-lb",
+          "8.3"
+        ],
+        [
+          "Front disc × Front axle hub",
+          "650",
+          "47",
+          "64"
+        ],
+        [
+          "Parking brake lever × Floor",
+          "130",
+          "9",
+          "13"
+        ],
+        [
+          "Parking brake No. 1 cable lock nut",
+          "65",
+          "48 in.-lb",
+          "5.4"
+        ],
+        [
+          "Parking brake cable clamp × Side member or cable retainer",
+          "55",
+          "48 in.-lb",
+          "5.4"
+        ],
+        [
+          "Rear disc brake caliper × Rear suspension arm",
+          "475",
+          "34",
+          "47"
+        ],
+        [
+          "Rear disc brake cylinder installation bolt",
+          "200",
+          "14",
+          "20"
+        ],
+        [
+          "Rear suspension arm × Parking brake backing plate",
+          "185",
+          "13",
+          "18"
+        ],
+        [
+          "Rear suspension arm × Parking brake backing plate anchor pin",
+          "1,450",
+          "105",
+          "142"
+        ]
+      ]
+    }
+  ]
+}

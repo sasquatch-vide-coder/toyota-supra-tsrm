@@ -1,0 +1,127 @@
+{
+  "page_id": "BR-3",
+  "section_header": "BRAKE SYSTEM — Troubleshooting",
+  "title": "TROUBLESHOOTING (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Hard pedal but brakes inefficient",
+          "Oil or grease on pads",
+          "Check for cause/replace pads",
+          "BR-14,20"
+        ],
+        [
+          "",
+          "Brake pads distorted",
+          "Replace brake pads",
+          "BR-14,20"
+        ],
+        [
+          "",
+          "Piston frozen in caliper",
+          "Repair caliper",
+          "BR-16,22"
+        ],
+        [
+          "",
+          "Brake booster faulty",
+          "Repair booster",
+          "BR-12"
+        ],
+        [
+          "",
+          "Vacuum leaks",
+          "Repair as necessary",
+          ""
+        ],
+        [
+          "",
+          "Brake line restricted",
+          "Repair as necessary",
+          ""
+        ],
+        [
+          "Snapping or clicking noise when brakes are applied",
+          "Drum brakes in 3 places—brake shoes binding at backing plate ledges",
+          "Lubricate",
+          "BR-28"
+        ],
+        [
+          "",
+          "Drum brakes in 3 places—backing plate ledges worn",
+          "Replace and lubricate ledges",
+          "BR-28"
+        ],
+        [
+          "",
+          "Drum brakes—loose or missing hold-down spring",
+          "Replace",
+          "BR-26"
+        ],
+        [
+          "",
+          "Disc brakes—rust on front edge of inboard shoes",
+          "Inspect, lubricate, replace if necessary",
+          "BR-26"
+        ],
+        [
+          "",
+          "Disc brakes—loose or missing anti-rattle spring",
+          "Replace",
+          "BR-14,20"
+        ],
+        [
+          "",
+          "Disc brakes—loose installation bolt",
+          "Tighten",
+          "BR-14,20"
+        ],
+        [
+          "",
+          "Disc brakes—wear on slide bushing",
+          "Replace",
+          "BR-14,20"
+        ],
+        [
+          "Scraping or grinding noise when brakes are applied",
+          "Worn brake linings",
+          "Replace, Refinish rotors if heavily scored",
+          "BR-14,20"
+        ],
+        [
+          "",
+          "Caliper to wheel or rotor interference",
+          "Replace as required",
+          "BR-14,20"
+        ],
+        [
+          "",
+          "Dust cover to rotor interference",
+          "Correct or replace",
+          "BR-14,20"
+        ],
+        [
+          "",
+          "Other brake system components: Warped or bent brake backing plate or splash shield, cracked rotors",
+          "Inspect or service",
+          "BR-14,20"
+        ],
+        [
+          "",
+          "Tires rubbing against chassis and body",
+          "Inspect or service",
+          ""
+        ]
+      ]
+    }
+  ]
+}

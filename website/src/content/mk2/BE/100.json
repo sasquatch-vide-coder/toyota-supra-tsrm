@@ -1,0 +1,129 @@
+{
+  "page_id": "BE-100",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "Theft Deterrent System",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Diode (For RH Key Unlock Switch and Horn)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Three-terminal diode connector showing terminals numbered 1, 2, and 3 in a rectangular housing",
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF DIODE"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT DIODE CONTINUITY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the test leads of the ohmmeter to terminals 1 and 2, and check for continuity. Next, reverse the test leads and check, again, for continuity.",
+        "(b) Connect the test leads of the ohmmeter to terminals 2 and 3, and check for continuity. Next, reverse the test leads and check, again, for continuity."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If both of the test results are same condition, replace the diode."
+    },
+    {
+      "type": "text",
+      "text": "If both of the test results are same condition, replace the diode."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Headlight Control Relay"
+    },
+    {
+      "type": "text",
+      "text": "(See page BE-14)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Taillight Control Relay"
+    },
+    {
+      "type": "text",
+      "text": "(See page BE-14)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Key Unlock Switch"
+    },
+    {
+      "type": "text",
+      "text": "(See page BE-67)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Theft Deterrent Horn"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Horn with two wire connections shown, connected to a rectangular battery or power source",
+      "labels": [],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF THEFT DETERRENT HORN"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT HORN OPERATION"
+    },
+    {
+      "type": "text",
+      "text": "Connect the positive (+) lead from the battery to terminal 1. Connect the negative (−) lead to terminal 2."
+    },
+    {
+      "type": "text",
+      "text": "Check that the horn blows."
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the horn."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Door Lock Solenoid"
+    },
+    {
+      "type": "text",
+      "text": "(See page BE-68)"
+    }
+  ]
+}

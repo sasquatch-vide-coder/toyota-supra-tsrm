@@ -1,0 +1,187 @@
+{
+  "page_id": "AT-30",
+  "section_header": "AUTOMATIC TRANSMISSION — Automatic Shift Diagram",
+  "title": "AUTOMATIC SHIFT DIAGRAM",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Automatic Shift Diagram - Main Table",
+      "headers": [
+        "",
+        "",
+        "Throttle valve fully open",
+        "Fully closed",
+        "km/h (mph)"
+      ],
+      "subheaders": [
+        "",
+        "",
+        "1—2",
+        "2—3",
+        "3—[OD]",
+        "[3—OD]",
+        "[OD—3]",
+        "3—2",
+        "2—1"
+      ],
+      "rows": [
+        [
+          "D range",
+          "NORM",
+          "47—52 (29—32)",
+          "92—101 (57—63)",
+          "135—144 (84—89)",
+          "36—40 (22—25)",
+          "26—30 (16—19)",
+          "130—138 (81—88)",
+          "88—96 (55—60)",
+          "42—47 (26—29)"
+        ],
+        [
+          "",
+          "PWR",
+          "52—57 (32—35)",
+          "105—114 (65—71)",
+          "152—161 (94—100)",
+          "42—46 (26—29)",
+          "28—32 (17—20)",
+          "146—155 (91—96)",
+          "101—109 (63—68)",
+          "42—47 (26—29)"
+        ],
+        [
+          "2 range",
+          "NORM",
+          "47—52 (29—32)",
+          "105—114 (70—75)",
+          "—",
+          "—",
+          "—",
+          "—",
+          "102—110 (63—69)",
+          "42—47 (26—29)"
+        ],
+        [
+          "",
+          "PWR",
+          "(29—32)",
+          "(70—75)",
+          "—",
+          "—",
+          "—",
+          "—",
+          "(63—69)",
+          "(26—29)"
+        ],
+        [
+          "L range",
+          "NORM PWR",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "51—55 (32—34)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Throttle valve opening 5% - Lock-up ON/OFF",
+      "headers": [
+        "",
+        "",
+        "Throttle valve opening 5%",
+        "km/h (mph)"
+      ],
+      "subheaders": [
+        "",
+        "",
+        "Lock-up ON",
+        "Lock-up OFF"
+      ],
+      "subsubheaders": [
+        "",
+        "",
+        "2nd",
+        "3rd (*)",
+        "OD",
+        "2nd",
+        "3rd (*)",
+        "OD"
+      ],
+      "rows": [
+        [
+          "D range",
+          "NORM",
+          "—",
+          "53—58 (33—36)",
+          "53—58 (33—36)",
+          "—",
+          "49—54 (30—34)",
+          "49—54 (30—34)"
+        ],
+        [
+          "",
+          "PWR",
+          "—",
+          "53—58 (33—36)",
+          "53—58 (33—36)",
+          "—",
+          "49—54 (30—34)",
+          "49—54 (30—34)"
+        ],
+        [
+          "2 range",
+          "NORM PWR",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "L range",
+          "NORM PWR",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—"
+        ]
+      ],
+      "notes": "(*): OD switch OFF"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Graph showing throttle valve opening percentage (0-100%) versus output shaft rpm (0-5000) and vehicle speed (0-130+ km/h). Shows shift points for D range NORM pattern with solid lines for upshift and dashed lines for downshift. Vertical lines indicate gear changes (1-2, 2-3, 3-OD) at various rpm and speed points. Differential gear ratio of 4.100 is noted.",
+      "title": "\"D\" range \"NORM\" Pattern",
+      "labels": [
+        "THROTTLE VALVE OPENING",
+        "OUTPUT SHAFT rpm",
+        "km/h",
+        "Differential gear ratio 4.100",
+        "Up-shift",
+        "Down-shift",
+        "1—2",
+        "2—3",
+        "3—OD",
+        "1",
+        "2",
+        "3",
+        "OD"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 4,
+        "width": 92,
+        "height": 36
+      }
+    }
+  ]
+}

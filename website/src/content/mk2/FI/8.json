@@ -1,0 +1,152 @@
+{
+  "page_id": "FI-8",
+  "section_header": "EFI SYSTEM — Inspection Precautions, Troubleshooting",
+  "title": "EFI SYSTEM — Inspection Precautions, Troubleshooting",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Fuel pump check connector location diagram showing the fuel pump and check connector in the engine bay",
+      "labels": [
+        "Fuel Pump",
+        "Check Connector"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing fuel pressure regulator and return hose configuration",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "number": "5.",
+          "text": "Confirm that there are no fuel leaks after performing maintenance on the fuel system.",
+          "subitems": [
+            {
+              "letter": "(a)",
+              "text": "With engine stopped, turn the ignition switch on."
+            },
+            {
+              "letter": "(b)",
+              "text": "Short circuit terminals of the fuel pump check connector."
+            },
+            {
+              "letter": "(c)",
+              "text": "When the pressure regulator fuel return hose (shown in the figure at left), is pinched, the pressure within the high pressure line will rise to about 4 kg/cm² (57 psi, 392 kPa). In this state, check to see that there are no leaks from any part of the fuel system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Always pinch the hose. Avoid bending as it may cause the hose to crack."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "TROUBLESHOOTING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TROUBLESHOOTING HINTS"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "text": "Engine troubles are usually not caused by the EFI system. When troubleshooting, always first check the condition of the other systems.",
+          "subitems": [
+            {
+              "letter": "(a)",
+              "text": "Electronic source",
+              "bullets": [
+                "Battery",
+                "Fusible links",
+                "Fuses"
+              ]
+            },
+            {
+              "letter": "(b)",
+              "text": "Body ground"
+            },
+            {
+              "letter": "(c)",
+              "text": "Fuel supply",
+              "bullets": [
+                "Fuel leakage",
+                "Fuel filter",
+                "Fuel pump"
+              ]
+            },
+            {
+              "letter": "(d)",
+              "text": "Ignition system",
+              "bullets": [
+                "Spark plug",
+                "High-tension cord",
+                "Distributor",
+                "Igniter and ignition coil"
+              ]
+            },
+            {
+              "letter": "(e)",
+              "text": "Air intake system",
+              "bullets": [
+                "Vacuum leaks"
+              ]
+            },
+            {
+              "letter": "(f)",
+              "text": "Emission control system",
+              "bullets": [
+                "EGR system",
+                "PCV system"
+              ]
+            },
+            {
+              "letter": "(g)",
+              "text": "Others",
+              "bullets": [
+                "Ignition timing (ESA system)",
+                "Idle speed (ISC system)",
+                "etc."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Underside view of vehicle showing exhaust system and emission control components",
+      "labels": [],
+      "bbox": {
+        "top": 72,
+        "left": 5,
+        "width": 40,
+        "height": 23
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "page_id": "AT-54",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Oil Pump)",
+  "title": "ASSEMBLY OF OIL PUMP",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page AT-52)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view of oil pump assembly showing driven gear, drive gear, and pump body positioned on torque converter",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 23
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 1,
+          "heading": "INSTALL DRIVEN GEAR AND DRIVE GEAR AND SET PUMP BODY ON TORQUE CONVERTER",
+          "text": "Make sure the top of the gears is facing upward."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installation of pump cover with SST tool alignment, showing bolt holes and wave washers",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 26,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 2,
+          "heading": "LOOSELY INSTALL PUMP COVER",
+          "text": "Align the bolt holes and drop the pump cover into place. Install the six bolts with wave washers finger tight."
+        },
+        {
+          "step": 3,
+          "heading": "ALIGN PUMP AND PUMP COVER",
+          "text": "Install the SST around the pump and cover. Tighten SST to align the pump and cover."
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013",
+      "description": "09363-20010"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 4,
+          "heading": "TIGHTEN SIX PUMP COVER BOLTS"
+        }
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pump cover bolts",
+      "value": "75 kg-cm (65 in.-lb, 7.4 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installation of two oil seal rings on pump cover, showing rings being spread apart and slid into groove",
+      "labels": [],
+      "bbox": {
+        "top": 47,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 5,
+          "heading": "INSTALL TWO OIL SEAL RINGS ON PUMP COVER",
+          "text": "Spread the rings apart and slide them into the groove. Hook both ends by hand. Wipe off excess petroleum jelly."
+        },
+        {
+          "step": 6,
+          "heading": "INSTALL NEW O-RING ON PUMP COVER",
+          "text": "Make sure a new O-ring is not twisted and is fully seated in the groove."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Checking pump drive gear rotation with SST tool to ensure smooth rotation",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 67,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 7,
+          "heading": "CHECK PUMP DRIVE GEAR ROTATION",
+          "text": "Turn the drive gear with SST and make sure that it rotates smoothly."
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013",
+      "description": "09397-22020"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "page_id": "A-29",
+  "section_header": "SERVICE SPECIFICATIONS — Lubricant",
+  "title": "LUBRICANT",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Item",
+        "Capacity - Liters",
+        "Capacity - US qts",
+        "Capacity - Imp. qts",
+        "Classification"
+      ],
+      "rows": [
+        [
+          "Engine oil\nDry fill",
+          "5.7",
+          "6.0",
+          "5.0",
+          "API grade SF or SF/CC,\nmultigrade viscosity oil"
+        ],
+        [
+          "Drain and refill\nw/ Oil filter change",
+          "5.1",
+          "5.4",
+          "4.5",
+          ""
+        ],
+        [
+          "w/o Oil filter change",
+          "4.6",
+          "4.9",
+          "4.1",
+          ""
+        ],
+        [
+          "Manual transmission oil\nW58",
+          "2.4",
+          "2.5",
+          "2.1",
+          "API GL-4 or GL-5\nSAE 75W-90 or 80W-90"
+        ],
+        [
+          "Automatic transmission fluid\nDry fill",
+          "6.5",
+          "6.9",
+          "5.7",
+          "ATF DEXRON® II"
+        ],
+        [
+          "Drain and refill",
+          "2.4",
+          "2.5",
+          "2.1",
+          ""
+        ],
+        [
+          "Differential oil\nIRS type",
+          "1.2",
+          "1.3",
+          "1.1",
+          "API GL-5 hypoid gear oil\nw/LSD Use LSD oil only\nAbove −18°C (0°F)\nSAE 90\nBelow −18°C (0°F)\nSAE 80W-90 or 80W"
+        ],
+        [
+          "Power steering fluid\nPump",
+          "350 cc",
+          "21.4 cu in.",
+          "",
+          "ATF DEXRON® or DEXRON® II"
+        ],
+        [
+          "Total",
+          "800 cc",
+          "48.8 cu in.",
+          "",
+          ""
+        ],
+        [
+          "Ball joint grease",
+          "—",
+          "",
+          "",
+          "Molybdenum disulphide lithium base,\nNLGI No. 1 or No. 2"
+        ],
+        [
+          "Wheel bearing grease",
+          "—",
+          "",
+          "",
+          "Lithium base multipurpose, NLGI No. 2"
+        ],
+        [
+          "Brake fluid",
+          "—",
+          "",
+          "",
+          "SAE J1703, DOT 3"
+        ],
+        [
+          "Antifreeze",
+          "—",
+          "",
+          "",
+          "Anti-rust type ethylene-glycol base\ncoolant"
+        ]
+      ]
+    }
+  ]
+}

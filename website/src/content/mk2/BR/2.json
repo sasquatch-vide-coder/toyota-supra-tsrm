@@ -1,0 +1,54 @@
+{
+  "page_id": "BR-2",
+  "section_header": "BRAKE SYSTEM — Precautions, Troubleshooting",
+  "title": "PRECAUTIONS",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Care must be taken to replace each part properly as it could affect the performance of the brake system and result in a driving hazard. Replace the parts with parts of the same part number or equivalent.",
+        "It is very important to keep parts and area clean when repairing the brake system."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "TROUBLESHOOTING"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Low or spongy pedal",
+          "Brake pads worn\nLeak in brake system\nMaster cylinder faulty\nAir in brake system\nCylinder faulty\nBrake seals worn or damaged",
+          "Replace brake pads\nRepair leak\nRepair or replace master cylinder\nBleed brake system\nRepair cylinder\nRepair brake calipers",
+          "BR-14,20\n\nBR-9\n\nBR-7\nBR-14,20\nBR-16,22"
+        ],
+        [
+          "Brakes drag",
+          "Parking brake out of adjustment\nBinding parking brake wire\nBooster push rod out of adjustment\nReturn spring faulty\nBrake line restricted\nPads cracked or distorted\nCaliper piston sticking\nAdjuster broken\nMaster cylinder faulty",
+          "Adjust parking brake\nRepair as necessary\nAdjust push rod\nReplace spring\nRepair as necessary\nReplace brake pads\nRepair as necessary\nReplace adjuster\nRepair or replace master cylinder",
+          "BR-8, 30\n\n\nBR-12\nBR-26\n\nBR-14,20\n\nBR-26\nBR-9"
+        ],
+        [
+          "Brakes pull",
+          "Tires improperly inflated\nOil or grease on pads\nBrake pads distorted, worn or glazed\nDisc out of round\nReturn spring faulty\nCylinder faulty\nPiston frozen in caliper\nDisc brake pad sticking",
+          "Inflate tires to proper pressure\nCheck for cause/replace pads\nReplace brake pads or shoes\nReplace disc\nReplace spring\nRepair cylinder\nRepair caliper\nReplace pads",
+          "\nBR-14,20\nBR-14,20\nBR-14,20\nBR-26\nBR-14,20\nBR-16,22\nBR-14,20"
+        ]
+      ]
+    }
+  ]
+}

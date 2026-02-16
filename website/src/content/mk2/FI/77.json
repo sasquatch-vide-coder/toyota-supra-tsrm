@@ -1,0 +1,79 @@
+{
+  "page_id": "FI-77",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": null,
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "OIL — E1",
+          "4 — 6",
+          "",
+          "IG S/W ON (Warning light on)"
+        ],
+        [
+          "",
+          "0",
+          "",
+          "Start engine (Warning light out)"
+        ],
+        [
+          "A/C — E1",
+          "10 — 13",
+          "IG S/W ON",
+          "A/C S/W ON"
+        ],
+        [
+          "",
+          "0",
+          "",
+          "A/C S/W OFF"
+        ],
+        [
+          "Vr — E1",
+          "0 — 5",
+          "",
+          "Start engine (Throttle valve open)"
+        ],
+        [
+          "W — E1",
+          "0",
+          "IG S/W ON",
+          "—"
+        ],
+        [
+          "",
+          "10 — 13",
+          "",
+          "Start engine"
+        ],
+        [
+          "TCD — E1",
+          "2 — 3",
+          "",
+          "Coolant temperature Less than 35°C (95°F)"
+        ],
+        [
+          "",
+          "0",
+          "IG S/W ON",
+          "Coolant temperature 35 — 60°C (95 — 140°F)"
+        ],
+        [
+          "",
+          "4 — 6",
+          "",
+          "Coolant temperature More than 60°C (140°F)"
+        ]
+      ]
+    }
+  ]
+}

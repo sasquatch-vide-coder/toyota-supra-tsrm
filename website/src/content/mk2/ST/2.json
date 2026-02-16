@@ -1,0 +1,72 @@
+{
+  "page_id": "ST-2",
+  "section_header": "STARTING SYSTEM — Troubleshooting, Starting System Circuit",
+  "title": "TROUBLESHOOTING",
+  "content": [
+    {
+      "type": "table",
+      "caption": "TROUBLESHOOTING",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Engine will not crank",
+          "Battery charge low\n\nBattery cables loose, corroded or worn\nNeutral start switch faulty (A/T only)\nFusible link blown\nStarter faulty\nIgnition switch faulty",
+          "Check battery specific gravity\nCharge or replace battery\nRepair or replace cables\nReplace switch\nReplace fusible link\nRepair starter\nReplace ignition switch",
+          "CH-3\n\n\n\nST-3"
+        ],
+        [
+          "Engine cranks slowly",
+          "Battery charge low\n\nBattery cables loose, corroded or worn\nStarter faulty",
+          "Check battery specific gravity\nCharge or replace battery\nRepair or replace cables\nRepair starter",
+          "CH-3\n\nST-3"
+        ],
+        [
+          "Starter keeps running",
+          "Starter faulty\nIgnition switch faulty\nShort in wiring",
+          "Repair starter\nReplace ignition switch\nRepair wiring",
+          "ST-3"
+        ],
+        [
+          "Starter spins — engine will not crank",
+          "Pinion gear teeth broken or faulty starter\nFlywheel teeth broken",
+          "Repair starter\nReplace flywheel",
+          "ST-3"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "STARTING SYSTEM CIRCUIT"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Starting system electrical circuit diagram showing the connection from battery through fusible link, ignition switch, to starter motor components including brush, hold-in coil, pull-in coil, and neutral start switch. Circuit shows various terminals (Terminal C, Terminal 50, Terminal 30) and connections to start injection time switch, cold start injector and ECU Terminal STA.",
+      "labels": [
+        "Brush",
+        "Ignition Switch",
+        "Fusible Link",
+        "Terminal C",
+        "Hold-in Coil",
+        "Pull-in Coil",
+        "Terminal 50",
+        "Terminal 30",
+        "To Start Injection Time Switch, Cold Start Injector and ECU Terminal STA",
+        "Neutral Start Switch (for A/T)",
+        "Battery"
+      ],
+      "bbox": {
+        "top": 50,
+        "left": 3,
+        "width": 94,
+        "height": 47
+      }
+    }
+  ]
+}

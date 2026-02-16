@@ -1,0 +1,151 @@
+{
+  "page_id": "AT-102",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing placement of lower and upper rear valve body assembly on top of upper front valve body. The diagram shows hands positioning the valve body components together.",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 42,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        "PLACE LOWER AND UPPER REAR VALVE BODY ASSEMBLY ON TOP OF UPPER FRONT VALVE BODY"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the installation and finger tightening of set bolts in lower valve body to secure upper front valve body. The diagram shows hands positioning bolts with measurements indicated: 26, 26, and 45.",
+      "labels": [
+        "26",
+        "26",
+        "45"
+      ],
+      "bbox": {
+        "top": 33,
+        "left": 5,
+        "width": 42,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 7,
+      "items": [
+        "INSTALL AND FINGER TIGHTEN SET BOLTS IN LOWER VALVE BODY TO SECURE UPPER FRONT VALVE BODY"
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Each bolt length (mm) is indicated in the figure."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the assembly turned over with five bolts being finger tightened in upper front valve body. The diagram shows hands positioning bolts with measurements indicated: 18, 70, and 18.",
+      "labels": [
+        "18",
+        "18",
+        "70",
+        "18",
+        "18"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 5,
+        "width": 42,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 8,
+      "items": [
+        "TURN ASSEMBLY OVER AND FINGER TIGHTEN FIVE BOLTS IN UPPER FRONT VALVE BODY"
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Each bolt length (mm) is indicated in the figure."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing the tightening of bolts in upper front and rear valve bodies using a torque wrench.",
+      "labels": [],
+      "bbox": {
+        "top": 89,
+        "left": 5,
+        "width": 42,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 9,
+      "items": [
+        "TIGHTEN BOLTS IN UPPER FRONT AND REAR VALVE BODIES"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Recheck the alignment of the gaskets. Tighten the bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Upper front and rear valve bodies bolts",
+      "value": "55 kg-cm (48 in.-lb, 5.4 N-m)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing the assembly turned over and bolts being tightened in lower valve body using a torque wrench.",
+      "labels": [],
+      "bbox": {
+        "top": 117,
+        "left": 5,
+        "width": 42,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 10,
+      "items": [
+        "TURN ASSEMBLY OVER AND TIGHTEN BOLTS IN LOWER VALVE BODY"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Tighten the bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Lower valve body bolts",
+      "value": "55 kg-cm (48 in.-lb, 5.4 N-m)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 11,
+      "items": [
+        "INSTALL MANUAL VALVE INTO LOWER VALVE BODY"
+      ]
+    }
+  ]
+}

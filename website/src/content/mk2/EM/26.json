@@ -1,0 +1,164 @@
+{
+  "page_id": "EM-26",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "ENGINE MECHANICAL — Cylinder Head",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing measurement of valve guide bore using a caliper gauge on cylinder head",
+      "labels": [
+        "Caliper gauge"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(d)",
+      "items": [
+        "Using a caliper gauge, measure the valve guide bore of the cylinder head."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Both intake and exhaust",
+      "headers": [
+        "Guide bore mm (in.)",
+        "Guide size"
+      ],
+      "rows": [
+        [
+          "13.000-13.027\n(0.5118-0.5129)",
+          "Use STD"
+        ],
+        [
+          "Over 13.027\n(0.5129)",
+          "Use O/S 0.05"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(e)",
+      "items": [
+        "Select a new valve guide.\nIf the valve guide bore of the cylinder head is more than 13.027 mm (0.5129 in.), machine the bore to the following dimensions.\nRebored valve guide bushing bore dimension (cold):\n13.05-13.077 mm (0.5138-0.5148 in.)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing SST tool and hammer being used to drive valve guide until snap ring makes contact with cylinder head",
+      "labels": [
+        "SST",
+        "Snap Ring"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(f)",
+      "items": [
+        "Heat the cylinder head to about 90°C (194°F)."
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(g)",
+      "items": [
+        "Using SST and a hammer, drive in the new valve guide until the snap ring makes contact with the cylinder head."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09201-60011",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing use of 8-mm reamer to ream valve guide",
+      "labels": [
+        "8-mm reamer"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(h)",
+      "items": [
+        "Using a sharp 8-mm reamer, ream the valve guide to obtain specified clearance between the guide and new valve."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Standard oil clearance:"
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [],
+      "rows": [
+        [
+          "Intake:",
+          "0.025 — 0.060 mm\n(0.0010 — 0.0024 in.)"
+        ],
+        [
+          "Exhaust:",
+          "0.030 — 0.065 mm\n(0.0012 — 0.0026 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. INSPECT AND GRIND VALVES"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "marker": "(a)",
+      "items": [
+        "Grind valves only enough to remove pits and carbon. Make sure the valves are ground at the correct valve face angle."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Valve face angle:  44.5°"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing valve with 44.5 degree face angle measurement",
+      "labels": [
+        "44.5°"
+      ],
+      "bbox": {
+        "top": 84,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    }
+  ]
+}

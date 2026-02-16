@@ -1,0 +1,220 @@
+{
+  "page_id": "A-10",
+  "section_header": "SERVICE SPECIFICATIONS – Cooling System, Lubrication System, Ignition System",
+  "title": "SERVICE SPECIFICATIONS",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "COOLING SYSTEM"
+    },
+    {
+      "type": "table",
+      "caption": "Cooling System Specifications",
+      "headers": [
+        "Component",
+        "Specification",
+        "Unit",
+        "STD Values",
+        "Imperial Values",
+        "Metric Values"
+      ],
+      "rows": [
+        {
+          "component": "Radiator",
+          "specification": "Relief valve opening pressure",
+          "std": "0.75 – 1.05 kg/cm²",
+          "imperial": "10.7 – 14.9 psi",
+          "metric": "74 – 103 kPa"
+        },
+        {
+          "component": "",
+          "specification": "",
+          "limit": "0.6 kg/cm²",
+          "imperial": "8.5 psi",
+          "metric": "59 kPa"
+        },
+        {
+          "component": "Thermostat",
+          "specification": "Valve opening temperature",
+          "std": "",
+          "imperial": "",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "Start to open at",
+          "std": "86 – 90°C",
+          "imperial": "187 – 194°F",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "Fully opens at",
+          "std": "100°C",
+          "imperial": "212°F",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "Valve opening travel at 100°C (212°F)",
+          "std": "8 mm",
+          "imperial": "0.31 in.",
+          "metric": ""
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "LUBRICATION SYSTEM"
+    },
+    {
+      "type": "table",
+      "caption": "Lubrication System Specifications",
+      "headers": [
+        "Component",
+        "Specification",
+        "Unit",
+        "Metric Values",
+        "Imperial Values",
+        "kPa Values"
+      ],
+      "rows": [
+        {
+          "component": "Oil pressure",
+          "specification": "at Idle speed at 3,000 rpm",
+          "values": "More than 0.3 kg/cm² (4.3 psi, 29 kPa)\n2.5 – 5.0 kg/cm² 36 – 71 psi 245 – 490 kPa"
+        },
+        {
+          "component": "Oil pump",
+          "specification": "Body clearance",
+          "std": "0.03 – 0.06 mm",
+          "imperial": "0.0012 – 0.0024 in.",
+          "limit": ""
+        },
+        {
+          "component": "",
+          "specification": "",
+          "limit": "0.2 mm",
+          "imperial": "0.008 in.",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "Side clearance",
+          "std": "0.03 – 0.09 mm",
+          "imperial": "0.0012 – 0.0035 in.",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "",
+          "limit": "0.15 mm",
+          "imperial": "0.0059 in.",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "Gear backlash",
+          "std": "0.5 – 0.6 mm",
+          "imperial": "0.020 – 0.024 in.",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "",
+          "limit": "0.9 mm",
+          "imperial": "0.035 in.",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "Drive shaft diameter",
+          "std": "14.00 – 14.01 mm",
+          "imperial": "0.5512 – 0.5516 in.",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "",
+          "limit": "13.9 mm",
+          "imperial": "0.547 in.",
+          "metric": ""
+        },
+        {
+          "component": "",
+          "specification": "Relief valve operating pressure",
+          "values": "4.4 – 5.0 kg/cm² 63 – 71 psi 431 – 490 kPa"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "IGNITION SYSTEM"
+    },
+    {
+      "type": "table",
+      "caption": "Ignition System Specifications",
+      "headers": [
+        "Component",
+        "Specification",
+        "Unit",
+        "Values"
+      ],
+      "rows": [
+        {
+          "component": "Ignition timing",
+          "specification": "T/M in N range",
+          "values": "10° BTDC © (Check connector T and E₁ short)"
+        },
+        {
+          "component": "Spark plug",
+          "specification": "Type",
+          "nd": "ND",
+          "standard": "P16R"
+        },
+        {
+          "component": "",
+          "specification": "",
+          "ngk": "NGK",
+          "standard": "BPR 5E P11"
+        },
+        {
+          "component": "",
+          "specification": "Gap",
+          "limit": "1.4 mm",
+          "imperial": "0.055 in."
+        },
+        {
+          "component": "High-tension cord",
+          "specification": "Resistance",
+          "limit": "Less than 25 kΩ per cord"
+        },
+        {
+          "component": "Ignition coil",
+          "specification": "Primary coil resistance",
+          "values": "0.4 – 0.5 Ω"
+        },
+        {
+          "component": "",
+          "specification": "Secondary coil resistance",
+          "values": "8.5 – 11.5 kΩ"
+        },
+        {
+          "component": "Distributor",
+          "specification": "Pickup coil resistance",
+          "g_value": "G – G ⊖",
+          "values": "140 – 180 Ω"
+        },
+        {
+          "component": "",
+          "specification": "",
+          "ne_value": "Ne – G ⊖",
+          "values": ""
+        }
+      ]
+    }
+  ]
+}

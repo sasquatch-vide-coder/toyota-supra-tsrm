@@ -1,0 +1,166 @@
+{
+  "page_id": "EM-32",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of oil seal using SST tool on camshaft housing",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Install the oil seal in the camshaft housings."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Apply MP grease to the oil seal.",
+        "Using SST, install the new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09214-60010"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installing camshafts into camshaft housings with O-rings",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL CAMSHAFTS IN CAMSHAFT HOUSINGS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Insert the camshafts into each camshaft housing.",
+        "(b) Install the O-rings and rear end covers."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Lash adjuster components showing SST, plunger, and check ball",
+      "labels": [
+        "SST",
+        "Plunger",
+        "Check Ball"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. BLEED LASH ADJUSTER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Immerse the lash adjuster into light oil.",
+        "(b) Insert SST into the plunger hole and slide the plunger up and down several times while pushing down lightly on the check ball."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09276-70010"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Repeat steps (a) and (b) when the plunger stroke is beyond about 0.5 mm (0.020 in.).",
+        "(d) Replace the lash adjuster with a new one if the plunger stroke exceeds 0.5 mm (0.020 in.) even after repeating steps (a) and (b) several times."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Do not disassemble the lash adjuster."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Leak down test setup showing lash adjuster being tested with pressure gauge",
+      "labels": [],
+      "bbox": {
+        "top": 63,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. LASH ADJUSTER LEAK DOWN TEST"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Bleed the lash adjuster.",
+        "(b) Using a leak down tester, apply 20 kg (44.1 lb, 196 N) of pressure to the plunger and measure its slide down speed after it has slid down about 2 mm (0.08 in.)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Leak down time: 2 — 7 seconds per 1 mm (0.04 in.)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Make sure that the match hole on the No. 2 journal of the camshaft housing is aligned with that of the camshaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Alignment of match holes on camshaft housing and camshaft, showing EX and IN positions with Housing Side Match Hole and Camshaft Side Match Hole",
+      "labels": [
+        "EX",
+        "Housing Side Match Hole",
+        "IN",
+        "Camshaft Side Match Hole"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. CHECK OIL PRESSURE REGULATOR FOR LASH ADJUSTER (See page LU-9)"
+    }
+  ]
+}

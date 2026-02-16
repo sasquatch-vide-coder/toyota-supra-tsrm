@@ -1,0 +1,208 @@
+{
+  "page_id": "MA-3",
+  "section_header": "MAINTENANCE — Maintenance Schedule",
+  "title": "SEVERE CONDITION SCHEDULE",
+  "content": [
+    {
+      "type": "text",
+      "text": "Follow the severe condition schedule if vehicle is operated mainly under one or more of the following severe conditions:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Towing a trailer, using a camper or car top carrier.",
+        "Operating on dusty, rough, muddy or salt spread roads.",
+        "Repeat short trips less than 5 miles (8 km) and outside temperatures remain below freezing.",
+        "Extensive idling such as police, taxi or door-to-door delivery use."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "SEVERE CONDITION SCHEDULE"
+    },
+    {
+      "type": "table",
+      "caption": "SEVERE CONDITION SCHEDULE",
+      "headers": [
+        "System",
+        "Service interval (Odometer reading or months, whichever comes first)",
+        "Maintenance items",
+        "Maintenance services beyond 60,000 miles (96,000 km) should be performed at the same intervals shown in each maintenance schedule.",
+        "See page (Item No.)"
+      ],
+      "rows": [
+        [
+          "",
+          "Miles x 1,000",
+          "",
+          "5|10|15|20|25|30|35|40|45|50|55|60",
+          ""
+        ],
+        [
+          "",
+          "km x 1,000",
+          "Timing belt",
+          "8|16|24|32|40|48|56|64|72|80|88|96",
+          ""
+        ],
+        [
+          "",
+          "Months",
+          "",
+          "6|12|18|24|30|36|42|48|54|60|66|72",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "(1) R",
+          ""
+        ],
+        [
+          "Engine",
+          "",
+          "Drive belts (2)",
+          "I | | | | | I | | R | R | R | R",
+          "MA-4 (item 2)"
+        ],
+        [
+          "",
+          "",
+          "Engine oil and oil filter*",
+          "R | R | R | R | R | R | R | R | R | R | R | R",
+          "MA-5 (item 6)"
+        ],
+        [
+          "",
+          "",
+          "Engine coolant(3)",
+          "| | | | | | | | | R",
+          "MA-5 (item 7)"
+        ],
+        [
+          "",
+          "",
+          "Exhaust pipes and mounting",
+          "I | | | I | | | I",
+          "MA-5 (item 11)"
+        ],
+        [
+          "FUEL",
+          "",
+          "Air filter*(4)",
+          "R | I | I | I | R | I | I | I | R",
+          "MA-5 (item 4 or 5)"
+        ],
+        [
+          "",
+          "",
+          "Fuel line and connections",
+          "| | | I | | | I | | I",
+          "MA-6 (item 10)"
+        ],
+        [
+          "",
+          "",
+          "Fuel filler cap gasket",
+          "| | | | | | | R",
+          "MA-6 (item 9)"
+        ],
+        [
+          "IGNITION",
+          "",
+          "Spark plugs (Platinum tipped)",
+          "| | | | | | R",
+          "MA-5 (item 3)"
+        ],
+        [
+          "EVAP",
+          "",
+          "Charcoal canister",
+          "| | | | | | I",
+          "MA-6 (item 8)"
+        ],
+        [
+          "BRAKES",
+          "",
+          "Brake linings and drums",
+          "I | I | I | I | I | I",
+          "MA-8 (item 14)"
+        ],
+        [
+          "",
+          "",
+          "Brake pads and discs (Front and rear)",
+          "I | | I | | I | | I",
+          "MA-7 (item 13)"
+        ],
+        [
+          "",
+          "",
+          "Brake line pipes and hoses",
+          "I | | I | | I | | I",
+          "MA-7 (item 12)"
+        ],
+        [
+          "CHASSIS",
+          "",
+          "Steering linkage",
+          "I | I | I | I | I | I",
+          "MA-8 (item 15)"
+        ],
+        [
+          "",
+          "",
+          "Ball joints and dust covers",
+          "I | I | I | I | I | I",
+          "MA-9 (item 17)"
+        ],
+        [
+          "",
+          "",
+          "Automatic transmission, manual transmission, differential and steering gear housing oil (5)",
+          "| | R | | | | R | | | | R",
+          "MA-9 (item 19) MA-10 (item 20) MA-8 (item 16)"
+        ],
+        [
+          "",
+          "",
+          "Front and rear (IRS only) wheel bearings grease(6)",
+          "| | | | R | | | | R",
+          "MA-10 (item 21)"
+        ],
+        [
+          "",
+          "",
+          "Bolts and nuts on chassis and body(7)",
+          "I | I | I | I | I | I",
+          "MA-11 (item 22)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Maintenance services indicated by a star (*) is required under the terms of the Emission Control Systems Warranty. See Owner's Guide for complete warranty information."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "NOTE:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "For the vehicles frequently idled for extensive periods and/or driven for long distance at low speeds such as taxi, police and door-to-door delivery, it is recommended to change at 60,000 miles (96,000 km).",
+        "After 60,000 miles (96,000 km) or 72 months, inspect every 10,000 miles (16,000 km) or 12 months.",
+        "After 60,000 miles (96,000 km) or 72 months, replace every 30,000 miles (48,000 km) or 36 months.",
+        "Applicable when operating mainly on dusty roads. If not, follow the normal condition schedule.",
+        "Inspect the steering gear housing for oil leakage only.",
+        "Change every 40,000 miles (64,000 km) or 48 months.",
+        "Applicable when operating mainly on rough and/or muddy roads. If not, follow the normal condition schedule."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "page_id": "BO-34",
+  "section_header": "BODY — Back Door Glass",
+  "title": "BODY — Back Door Glass",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Back door glass with weatherstrip showing masking tape placement around the perimeter",
+      "labels": [
+        "Masking Tape"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. APPLY ADHESIVE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Put masking tape around the weatherstrip to protect the paint and glass."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Detail showing adhesive application points between weatherstrip and glass/body",
+      "labels": [
+        "Adhesive",
+        "Adhesive"
+      ],
+      "bbox": {
+        "top": 30,
+        "left": 3,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Apply adhesive between the weatherstrip and glass and between the weatherstrip and body."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "",
+      "number": "08833-00030",
+      "description": "or equivalent"
+    },
+    {
+      "type": "notice",
+      "text": "When adhesive is dry, remove the masking tape."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL FOLLOWING PARTS:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Window defogger wire connector",
+        "(b) Rear wiper arm"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Rear spoiler assembly showing four clips, mounting points, and connector wire",
+      "labels": [
+        "Connector"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. INSTALL REAR SPOILER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the four clips to the spoiler.",
+        "(b) Install the spoiler to the back door.",
+        "(c) Connect the high mount stop light wire connector.",
+        "(d) Tighten the eight nuts.",
+        "(e) Install the back door trim."
+      ]
+    }
+  ]
+}

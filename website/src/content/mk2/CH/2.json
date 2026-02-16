@@ -1,0 +1,92 @@
+{
+  "page_id": "CH-2",
+  "section_header": "CHARGING SYSTEM — Precautions, Troubleshooting, On-Vehicle Inspection",
+  "title": "PRECAUTIONS",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Check that the battery cables are connected to the correct terminals.",
+        "Disconnect the battery cables when the battery is given a quick charge.",
+        "Do not perform tests with a high voltage insulation resistance tester.",
+        "Never disconnect the battery when the engine is running."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "TROUBLESHOOTING"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Discharge warning light does not light with ignition ON and engine off",
+          "Fuse blown\nLight burned out\nWiring connection loose\nIC regulator faulty",
+          "Check \"CHARGE\" and \"IGN\" fuses\nReplace light\nTighten loose connections\nReplace IC regulator",
+          "CH-6"
+        ],
+        [
+          "Discharge warning light does not go out with engine running (battery requires frequent recharging)",
+          "Drive belt loose or worn\nBattery cables loose, corroded or worn\nFuse blown\nFusible link blown\nIC regulator or alternator faulty\nWiring faulty",
+          "Adjust or replace drive belt\nRepair or replace cables\nCheck \"ENGINE\" fuse\nReplace fusible link\nCheck charging system\nRepair wiring",
+          "CH-3\n\nCH-4"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Battery with hydrometer showing specific gravity check of upper, lower, and lower cells",
+      "labels": [
+        "1.26",
+        "Upper",
+        "Lower",
+        "Lower"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 5,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CHECK BATTERY SPECIFIC GRAVITY AND ELECTROLYTE LEVEL\n(a) Check the specific gravity of each cell.\nStandard specific gravity\nWhen fully charged at 20°C (68°F): 1.25 — 1.27\n(b) Check the electrolyte quantity of each cell.\nIf insufficient, refill with distilled water (or purified water).",
+        "CHECK BATTERY TERMINALS AND FUSIBLE LINK\n(a) Check that the battery terminals are not loose or corroded.\n(b) Check the fusible link for continuity."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Battery terminal and fusible link check illustration",
+      "labels": [],
+      "bbox": {
+        "top": 72,
+        "left": 5,
+        "width": 40,
+        "height": 25
+      }
+    }
+  ]
+}

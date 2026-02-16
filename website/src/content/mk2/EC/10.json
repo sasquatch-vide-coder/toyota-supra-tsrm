@@ -1,0 +1,48 @@
+{
+  "page_id": "EC-10",
+  "section_header": "EMISSION CONTROL SYSTEMS — Exhaust Gas Recirculation (EGR) System",
+  "title": "EXHAUST GAS RECIRCULATION (EGR) SYSTEM",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Overall view of EGR system components installed on engine, showing EGR valve, vacuum modulator, temperature sensor, VSV, and associated ports and connections",
+      "labels": [
+        "Temp. Sensor",
+        "EGR Port",
+        "R Port",
+        "EGR Vacuum Modulator",
+        "EGR Valve",
+        "VSV"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 5,
+        "width": 90,
+        "height": 42
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Schematic diagram of EGR system showing flow paths and component connections including EFI Computer, Temp. Sensor, VSV, EGR Vacuum Modulator, EGR Valve, Pressure Chamber, and EGR Cooler",
+      "labels": [
+        "EGR Port",
+        "R Port",
+        "Temp. Sensor",
+        "VSV",
+        "EGR Vacuum Modulator",
+        "EGR Valve",
+        "Pressure Chamber",
+        "EFI Computer",
+        "EGR Cooler"
+      ],
+      "bbox": {
+        "top": 53,
+        "left": 5,
+        "width": 90,
+        "height": 44
+      }
+    }
+  ]
+}

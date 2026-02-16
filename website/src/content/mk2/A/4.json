@@ -1,0 +1,265 @@
+{
+  "page_id": "A-4",
+  "section_header": "SERVICE SPECIFICATIONS — Engine Mechanical",
+  "title": "Specifications (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Engine Mechanical Specifications (Continued)",
+      "headers": [
+        "Component",
+        "Specification Type",
+        "Condition",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Camshaft - Thrust clearance",
+          "STD",
+          "",
+          "0.05 - 0.25 mm",
+          "0.0020 - 0.0098 in."
+        ],
+        [
+          "Camshaft - Thrust clearance",
+          "Limit",
+          "",
+          "0.30 mm",
+          "0.0118 in."
+        ],
+        [
+          "Camshaft - Journal oil clearance",
+          "STD",
+          "",
+          "0.025 - 0.066 mm",
+          "0.0010 - 0.0026 in."
+        ],
+        [
+          "Camshaft - Journal oil clearance",
+          "Limit",
+          "",
+          "0.1 mm",
+          "0.004 in."
+        ],
+        [
+          "Camshaft - Journal diameter",
+          "",
+          "No. 1",
+          "37.959 - 37.975 mm",
+          "1.4944 - 1.4951 in."
+        ],
+        [
+          "Camshaft - Journal diameter",
+          "",
+          "No. 2",
+          "42.959 - 42.975 mm",
+          "1.6913 - 1.6919 in."
+        ],
+        [
+          "Camshaft - Journal diameter",
+          "",
+          "No. 3",
+          "43.459 - 43.475 mm",
+          "1.7110 - 1.7116 in."
+        ],
+        [
+          "Camshaft - Journal diameter",
+          "",
+          "No. 4",
+          "43.959 - 43.975 mm",
+          "1.7307 - 1.7313 in."
+        ],
+        [
+          "Camshaft - Journal diameter",
+          "",
+          "No. 5",
+          "44.459 - 44.475 mm",
+          "1.7504 - 1.7510 in."
+        ],
+        [
+          "Camshaft - Journal diameter",
+          "",
+          "No. 6",
+          "44.959 - 44.975 mm",
+          "1.7700 - 1.7707 in."
+        ],
+        [
+          "Camshaft - Journal diameter",
+          "",
+          "No. 7",
+          "45.459 - 45.475 mm",
+          "1.7897 - 1.7904 in."
+        ],
+        [
+          "Camshaft - Circle runout",
+          "Limit",
+          "IN & EX",
+          "0.04 mm",
+          "0.0016 in."
+        ],
+        [
+          "Camshaft - Cam height",
+          "STD",
+          "Intake",
+          "35.860 - 35.870 mm",
+          "1.4039 - 1.4043 in."
+        ],
+        [
+          "Camshaft - Cam height",
+          "",
+          "Exhaust",
+          "35.662 - 35.672 mm",
+          "1.4040 - 1.4044 in."
+        ],
+        [
+          "Camshaft - Cam height",
+          "Limit",
+          "Intake",
+          "35.465 mm",
+          "1.3963 in."
+        ],
+        [
+          "Camshaft - Cam height",
+          "",
+          "Exhaust",
+          "35.467 mm",
+          "1.3963 in."
+        ],
+        [
+          "Camshaft housing - Cylinder head surface warpage",
+          "Limit",
+          "",
+          "0.10 mm",
+          "0.0039 in."
+        ],
+        [
+          "Intake and exhaust manifold - Manifold surface warpage",
+          "Limit",
+          "Intake",
+          "0.1 mm",
+          "0.004 in."
+        ],
+        [
+          "Intake and exhaust manifold - Manifold surface warpage",
+          "",
+          "Exhaust",
+          "0.75 mm",
+          "0.0295 in."
+        ],
+        [
+          "Air intake chamber - Intake manifold surface warpage",
+          "Limit",
+          "",
+          "0.1 mm",
+          "0.004 in."
+        ],
+        [
+          "Idler pulley tension spring - Free length",
+          "",
+          "",
+          "69 mm",
+          "2.72 in."
+        ],
+        [
+          "Pump drive shaft - Thrust clearance",
+          "STD",
+          "",
+          "0.05 - 0.13 mm",
+          "0.0024 - 0.0051 in."
+        ],
+        [
+          "Pump drive shaft - Thrust clearance",
+          "Limit",
+          "",
+          "0.3 mm",
+          "0.012 in."
+        ],
+        [
+          "Pump drive shaft - Oil clearance",
+          "STD",
+          "",
+          "0.025 - 0.066 mm",
+          "0.0010 - 0.0026 in."
+        ],
+        [
+          "Pump drive shaft - Oil clearance",
+          "Limit",
+          "",
+          "0.08 mm",
+          "0.0031 in."
+        ],
+        [
+          "Pump drive shaft - Journal diameter",
+          "",
+          "Front",
+          "40.959 - 40.975 mm",
+          "1.6126 - 1.6132 in."
+        ],
+        [
+          "Pump drive shaft - Journal diameter",
+          "",
+          "Rear",
+          "32.959 - 32.975 mm",
+          "1.2976 - 1.2982 in."
+        ],
+        [
+          "Cylinder block - Warpage",
+          "Limit",
+          "",
+          "0.05 mm",
+          "0.0020 in."
+        ],
+        [
+          "Cylinder block - Cylinder bore",
+          "STD",
+          "",
+          "82.99 - 83.04 mm",
+          "3.2673 - 3.2693 in."
+        ],
+        [
+          "Cylinder block - Cylinder bore wear - On standard sized piston",
+          "Limit",
+          "",
+          "83.25 mm",
+          "3.2776 in."
+        ],
+        [
+          "Cylinder block - Cylinder bore wear - On oversized piston (O/S 0.50)",
+          "Limit",
+          "",
+          "83.75 mm",
+          "3.2972 in."
+        ],
+        [
+          "Cylinder block - Cylinder bore wear - On oversized piston (O/S 0.75)",
+          "Limit",
+          "",
+          "84.00 mm",
+          "3.3071 in."
+        ],
+        [
+          "Cylinder block - Cylinder bore wear - On oversized piston (O/S 1.00)",
+          "Limit",
+          "",
+          "84.25 mm",
+          "3.3169 in."
+        ],
+        [
+          "Cylinder block - Difference of bore limit between cylinder",
+          "Limit",
+          "",
+          "Less than 0.05 mm (0.0020 in.)",
+          ""
+        ],
+        [
+          "Cylinder block - Taper and out-of-round",
+          "Limit",
+          "",
+          "0.02 mm",
+          "0.0008 in."
+        ]
+      ]
+    }
+  ]
+}

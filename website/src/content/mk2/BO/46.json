@@ -1,0 +1,35 @@
+{
+  "page_id": "BO-46",
+  "section_header": "BODY — Rear Seat",
+  "title": "REAR SEAT COMPONENTS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing rear seat components including left and right seat backs, center hinge, striker, lock assemblies, and seat cushion",
+      "labels": [
+        "Rear RH Seat Back",
+        "Striker",
+        "Rear LH Seat Back",
+        "Rear Seat Back Lock Assembly",
+        "Rear Seat Back Center Hinge",
+        "Rear Seat Cushion"
+      ],
+      "bbox": {
+        "top": 12,
+        "left": 4,
+        "width": 92,
+        "height": 88
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Rear Seat Back Center Hinge",
+      "value": "80 (69 in.-lb, 7.8)"
+    },
+    {
+      "type": "text",
+      "text": "kg-cm (ft-lb, N·m) : Specified torque"
+    }
+  ]
+}

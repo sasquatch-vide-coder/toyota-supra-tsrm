@@ -1,0 +1,97 @@
+{
+  "page_id": "MT-9",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of reverse idler gear stopper from transmission case",
+      "labels": [
+        "W4X273"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Remove the reverse idler gear stopper."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of reverse idler gear and shaft from transmission case",
+      "labels": [
+        "W4X074"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Remove the reverse idler gear and shaft."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of No. 1 shift fork and shaft from transmission case",
+      "labels": [
+        "W4X025"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(e) Remove No. 1 shift fork and shaft."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing use of magnetic finger to remove No. 1 and No. 2 interlock pins from transmission case",
+      "labels": [
+        "W4X021"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(f) Using a magnetic finger, remove No. 1 and No. 2 interlock pins."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing removal of No. 2 shift fork and shaft from transmission case",
+      "labels": [
+        "W4X023"
+      ],
+      "bbox": {
+        "top": 79,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(g) Remove No. 2 shift fork and shaft."
+    }
+  ]
+}

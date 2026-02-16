@@ -1,0 +1,157 @@
+{
+  "page_id": "RA-25",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing removal of companion flange using SST tool while holding the component",
+      "labels": [
+        "Hold",
+        "SST"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 1,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Using SST, remove the companion flange."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09557-22022",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing removal of oil seal and oil slinger using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 1,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. REMOVE OIL SEAL AND OIL SLINGER"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using SST, remove the oil seal from the housing."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09308-10010",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the oil slinger."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing removal of front bearing and bearing spacer using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 1,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. REMOVE FRONT BEARING AND BEARING SPACER"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using SST, remove the front bearing from the housing."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09556-30010",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the bearing spacer."
+    },
+    {
+      "type": "text",
+      "text": "If the front bearing is damaged or worn, replace the bearing."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing differential case and ring gear with matchmarks indicated on bearing cap and differential carrier",
+      "labels": [
+        "Matchmarks"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 1,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. REMOVE DIFFERENTIAL CASE AND RING GEAR"
+    },
+    {
+      "type": "text",
+      "text": "(a) Place matchmarks on the bearing cap and differential carrier."
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the two bearing caps."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Diagram showing removal of side bearing preload adjusting plate washers using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 1,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Remove the two side bearing preload adjusting plate washers with SST."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09504-22010",
+      "description": ""
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Measure the adjusting plate washer and note the thickness."
+    }
+  ]
+}

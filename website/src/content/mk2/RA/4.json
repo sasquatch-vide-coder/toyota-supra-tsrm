@@ -1,0 +1,154 @@
+{
+  "page_id": "RA-4",
+  "section_header": "REAR AXLE AND SUSPENSION - Rear Wheel Alignment",
+  "title": "REAR AXLE AND SUSPENSION - Rear Wheel Alignment",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Top-down view of rear axle showing two wheels and differential assembly with suspension members",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. ADJUST TOE-IN"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Measure the distance between each disc wheel and the differential carrier cover bolt of the suspension member and confirm that both are the same.",
+        "(b) If the distances are not the same but within 5 mm (0.20 in.), adjust with the toe-in adjusting bolt."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Side view of toe-in adjustment mechanism showing toe-out and toe-in positions with front and rear orientation markers and center line",
+      "labels": [
+        "Front",
+        "Rear",
+        "Toe-out",
+        "Toe-in",
+        "Center Line"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 5,
+        "width": 40,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Move the vehicle forward a few meters with the front wheels in the straight-ahead position on a level place.",
+        "(d) Mark on each center of rear tread and measure the distance between marks off the right and left tires.",
+        "(e) Advance the vehicle till the marks on the rear sides of the tires come to the measuring heights of the gauge on the front sides."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Toe-in should be measured at the same point on the tire and at the same level."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Top-down view of two rear wheels showing measurement points for toe-in alignment",
+      "labels": [
+        "Front",
+        "Rear"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 5,
+        "width": 40,
+        "height": 17
+      }
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "",
+        "Inspection standard",
+        "Adjustment standard"
+      ],
+      "rows": [
+        [
+          "Toe-in",
+          "0 ± 2 mm\n(0 ± 0.08 in.)",
+          "0 ± 1 mm\n(0 ± 0.04 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(f) If not within specification, turn the left and right adjusting bolts an equal amount to adjust."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: The toe-in will change about 1 mm (0.04 in.) with each graduation of the cam (one side)."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Side view of toe-in adjustment mechanism identical to diagram 2, showing toe-out and toe-in positions with front and rear orientation markers and center line",
+      "labels": [
+        "Front",
+        "Rear",
+        "Toe-out",
+        "Toe-in",
+        "Center Line"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 5,
+        "width": 40,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "(g) Tighten the bolts after adjustment the toe-in."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Toe-in adjustment bolt",
+      "value": "1,325 kg-cm (96 ft-lb, 130 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. INSPECT SIDE SLIP WITH SIDE SLIP TESTER"
+    },
+    {
+      "type": "text",
+      "text": "Side slip limit: Less than 3.0 mm per meter (0.118 in. per 3.3 ft)"
+    },
+    {
+      "type": "text",
+      "text": "If the side slip exceeds this limit, the toe-in or camber may not be correct."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Side view of a wheel on a side slip tester platform showing measurement setup",
+      "labels": [],
+      "bbox": {
+        "top": 80,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      }
+    }
+  ]
+}

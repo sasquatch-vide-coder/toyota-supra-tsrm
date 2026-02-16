@@ -1,0 +1,130 @@
+{
+  "page_id": "AT-34",
+  "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the installation of valve body assembly into the transmission case, with accumulator piston retaining plate visible",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      },
+      "diagram_id": "ON0012"
+    },
+    {
+      "type": "text",
+      "text": "(c) Lower valve body slightly, and install the accumulator piston retaining plate. Hold in place with two pan bolts, finger tight."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the disconnection of throttle cable from cam",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      },
+      "diagram_id": "AT0013"
+    },
+    {
+      "type": "text",
+      "text": "(d) Disconnect the throttle cable from the cam and remove the valve body."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DISASSEMBLY, INSPECTION AND ASSEMBLY OF VALVE BODY"
+    },
+    {
+      "type": "text",
+      "text": "(See page AT-83)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF VALVE BODY"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "heading": "CONNECT THROTTLE CABLE TO CAM",
+          "text": "Push the cable fitting into the cam."
+        },
+        {
+          "number": "2.",
+          "heading": "REMOVE ACCUMULATOR RETAINING PLATE",
+          "text": "Remove the two pan bolts, and slide out the plate."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the accumulator retaining plate removal from valve body",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      },
+      "diagram_id": "AT0781"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "3.",
+          "heading": "INSTALL VALVE BODY",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Align the manual valve lever with the manual valve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing alignment of manual valve lever during valve body installation",
+      "labels": [],
+      "bbox": {
+        "top": 58,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      },
+      "diagram_id": "AT0783"
+    },
+    {
+      "type": "text",
+      "text": "(b) Install the B2 and C2 accumulator piston springs."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing installation of B2 and C2 accumulator piston springs",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      },
+      "diagram_id": "AT0736"
+    }
+  ]
+}

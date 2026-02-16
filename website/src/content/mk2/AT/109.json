@@ -1,0 +1,148 @@
+{
+  "page_id": "AT-109",
+  "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+  "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands installing thrust washer on overdrive case end, with arrows pointing to relevant components",
+      "labels": [
+        "AT0675"
+      ],
+      "bbox": {
+        "top": 6,
+        "left": 2,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "18. INSTALL THRUST WASHER ON OVERDRIVE CASE END"
+    },
+    {
+      "type": "text",
+      "text": "Coat the thrust washer with petroleum jelly and set it into place facing the lip side toward the overdrive case."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing overdrive case being inserted into transmission case through two guide bolts (SST), with circled part and directional arrow",
+      "labels": [
+        "C4475"
+      ],
+      "bbox": {
+        "top": 26,
+        "left": 2,
+        "width": 48,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "19. INSERT OVERDRIVE CASE INTO TRANSMISSION CASE"
+    },
+    {
+      "type": "text",
+      "text": "Insert the overdrive case gently through the two guide bolts (SST) with the circled part in the figure facing in the direction indicated."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Two illustrations showing installation of thrust washers on overdrive case and overdrive clutch, with petroleum jelly coating",
+      "labels": [
+        "AT0676",
+        "AT0677"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 2,
+        "width": 48,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "20. INSTALL TWO THRUST WASHERS"
+    },
+    {
+      "type": "text",
+      "text": "Coat the thrust washers with petroleum jelly. Install one thrust washer on the overdrive case and the other one on the overdrive clutch."
+    },
+    {
+      "type": "notice",
+      "text": "The washer lugs should be inserted in the holes."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Two illustrations showing alignment of discs flukes with overdrive clutch slots and pressing overdrive clutch into case",
+      "labels": [
+        "C4862",
+        "C4473"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 2,
+        "width": 48,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "21. INSTALL OVERDRIVE CLUTCH IN CASE"
+    },
+    {
+      "type": "text",
+      "text": "Align the flukes of the discs in the overdrive case. Align the flukes with the slots of the overdrive clutch and press the overdrive clutch into the overdrive case."
+    },
+    {
+      "type": "caution",
+      "text": "Be careful that the thrust washer does not fall out."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing SST tool positioned on overdrive case to measure distance between SST top surface and overdrive clutch",
+      "labels": [
+        "SST",
+        "C4208",
+        "C4469"
+      ],
+      "bbox": {
+        "top": 77,
+        "left": 2,
+        "width": 48,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "22. CHECK CORRECT INSTALLATION OF OVERDRIVE CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "Set SST on the overdrive case as shown in the figure. Measure the distance between the top surface of SST and the overdrive clutch. If the distance corresponds to that during disassembly, the overdrive clutch is installed correctly."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09370-12010)",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "Height:"
+    },
+    {
+      "type": "text",
+      "text": "Measure value minus SST width = Approx. 3.5 mm (0.138 in.)"
+    }
+  ]
+}

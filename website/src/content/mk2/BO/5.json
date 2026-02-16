@@ -1,0 +1,129 @@
+{
+  "page_id": "BO-5",
+  "section_header": "BODY — Front Door",
+  "title": "BODY — Front Door",
+  "content": [
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Remove the door glass by pulling it upward.",
+        "(e) Remove the glass guide and front lower frame."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands removing door glass by pulling upward from the door frame",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. REMOVE REGULATOR WITH POWER WINDOW MOTOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect the wiring connector.",
+        "(b) Remove the regulator mounting bolts.",
+        "(c) Remove the regulator with the power window motor through the service hole."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of window regulator and power window motor assembly through service hole in door",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. DISCONNECT FOLLOWING LINKAGES:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Door opening control link",
+        "(b) Door lock control link",
+        "(c) Door lock cylinder link",
+        "(d) Outside control link"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. REMOVE INSIDE HANDLE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. REMOVE OUTSIDE HANDLE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. REMOVE DOOR LOCK AND SOLENOID"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REPLACEMENT OF GLASS"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE FOLLOWING PARTS:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Plate",
+        "(b) Stopper",
+        "(c) Bolt",
+        "(d) Stabilizer",
+        "(e) Bracket"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Exploded diagram showing glass mounting components including Bolt, Stopper, Stopper, Stabilizer, Stabilizer, Plate, and Bracket with their positions marked",
+      "labels": [
+        "Bolt",
+        "Stopper",
+        "Stopper",
+        "Stabilizer",
+        "Stabilizer",
+        "Plate",
+        "Bracket"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL EACH PART TO GLASS"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "page_id": "AT-48",
+  "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+  "title": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing accumulator pistons being removed using compressed air through holes in the transmission case",
+      "labels": [
+        "AT0855"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "18. COVER PISTON WITH A RAG AND REMOVE ACCUMULATOR PISTONS AND SPRINGS"
+    },
+    {
+      "type": "warning",
+      "text": "WARNING: Keep your hand away. Position a rag to catch each piston. Using low-pressure compressed air (1 kg/cm², 14 psi or 98 kPa; max.), pop each piston into the rag. Force air into the holes shown, and remove the pistons and springs."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of parking lock rod from transmission case",
+      "labels": [
+        "AT0854"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "19. REMOVE PARKING LOCK ROD"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "20. REMOVE SPRING, PIVOT PIN AND PARKING LOCK PAWL"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of manual lever shaft using hammer and punch to drive out pin and slide shaft from detent plate",
+      "labels": [
+        "AT0852",
+        "AT0853"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "21. IF NECESSARY, REMOVE MANUAL LEVER SHAFT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a hammer and screwdriver, pry and shift the collar.",
+        "(b) Using a hammer and punch, drive out the pin.",
+        "(c) Slide the shaft out case and remove the detent plate."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing transmission case being placed on a cylindrical stand",
+      "labels": [
+        "AT0856"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "22. PLACE TRANSMISSION CASE ON CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "Place the transmission on a cylindrical stand for more efficient work."
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Place shop rags between the case and stand to avoid damaging the case."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing SST tool placement on transmission case to measure distance between top of case and clutch drum. Includes detail view of SST positioning",
+      "labels": [
+        "SST",
+        "SST",
+        "C4208",
+        "C4163"
+      ],
+      "bbox": {
+        "top": 78,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "23. MEASURE DISTANCE BETWEEN TOP OF CASE AND CLUTCH DRUM"
+    },
+    {
+      "type": "text",
+      "text": "Set SST on the case as shown in the figure."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09370-12010)",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "Make a note of the finding for reassembly."
+    }
+  ]
+}

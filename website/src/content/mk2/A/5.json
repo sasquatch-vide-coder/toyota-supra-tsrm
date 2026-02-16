@@ -1,0 +1,351 @@
+{
+  "page_id": "A-5",
+  "section_header": "SERVICE SPECIFICATIONS -- Engine Mechanical",
+  "title": "Specifications (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Engine Mechanical Specifications (Continued)",
+      "headers": [
+        "Component",
+        "Measurement",
+        "Type/Condition",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Piston and piston ring",
+          "Piston diameter",
+          "STD",
+          "82.93 - 82.98 mm",
+          "3.2650 - 3.2669 in."
+        ],
+        [
+          "",
+          "",
+          "O/S type 0.50",
+          "83.43 - 83.48 mm",
+          "3.2846 - 3.2866 in."
+        ],
+        [
+          "",
+          "",
+          "O/S type 0.75",
+          "83.68 - 83.73 mm",
+          "3.2945 - 3.2965 in."
+        ],
+        [
+          "",
+          "",
+          "O/S type 1.00",
+          "83.93 - 83.98 mm",
+          "3.3043 - 3.3063 in."
+        ],
+        [
+          "",
+          "Piston to cylinder clearance",
+          "STD",
+          "0.08 - 0.08 mm",
+          "0.0024 - 0.0031 in."
+        ],
+        [
+          "",
+          "Piston ring end gap",
+          "No. 1",
+          "STD",
+          "0.29 - 0.47 mm",
+          "0.0114 - 0.0185 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "Limit",
+          "0.71 mm",
+          "0.0280 in."
+        ],
+        [
+          "",
+          "",
+          "No. 2",
+          "STD",
+          "0.25 - 0.55 mm",
+          "0.0098 - 0.0217 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "Limit",
+          "1.15 mm",
+          "0.0453 in."
+        ],
+        [
+          "",
+          "",
+          "Oil",
+          "STD",
+          "0.17 - 0.85 mm",
+          "0.0067 - 0.0335 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "Limit",
+          "1.45 mm",
+          "0.0571 in."
+        ],
+        [
+          "",
+          "Ring groove clearance",
+          "No. 1",
+          "",
+          "0.03 - 0.07 mm",
+          "0.0012 - 0.0028 in."
+        ],
+        [
+          "",
+          "",
+          "No. 2",
+          "",
+          "0.02 - 0.06 mm",
+          "0.0008 - 0.0024 in."
+        ],
+        [
+          "",
+          "Piston pin installing temperature",
+          "",
+          "",
+          "60°C",
+          "140°F"
+        ],
+        [
+          "Connecting rod and bearing",
+          "Thrust clearance",
+          "STD",
+          "",
+          "0.160 - 0.296 mm",
+          "0.0063 - 0.0117 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "",
+          "0.3 mm",
+          "0.012 in."
+        ],
+        [
+          "",
+          "Bearing oil clearance",
+          "STD",
+          "",
+          "0.021 - 0.053 mm",
+          "0.0008 - 0.0021 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "",
+          "0.08 mm",
+          "0.0031 in."
+        ],
+        [
+          "",
+          "Pin to bushing oil clearance",
+          "STD",
+          "",
+          "0.005 - 0.011 mm",
+          "0.0002 - 0.0004 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "",
+          "0.015 mm",
+          "0.0006 in."
+        ],
+        [
+          "",
+          "Piston pin diameter",
+          "",
+          "",
+          "21.997 - 22.009 mm",
+          "0.8660 - 0.8665 in."
+        ],
+        [
+          "",
+          "Rod bend",
+          "Limit",
+          "per 100 mm (3.94 in.)",
+          "0.05 mm",
+          "0.0020 in."
+        ],
+        [
+          "",
+          "Rod twist",
+          "Limit",
+          "per 100 mm (3.94 in.)",
+          "0.15 mm",
+          "0.0059 in."
+        ],
+        [
+          "Crankshaft",
+          "Thrust clearance",
+          "STD",
+          "",
+          "0.05 - 0.25 mm",
+          "0.0020 - 0.0098 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "",
+          "0.3 mm",
+          "0.012 in."
+        ],
+        [
+          "",
+          "Thrust washer thickness",
+          "STD",
+          "",
+          "2.925 - 2.975 mm",
+          "0.1152 - 0.1171 in."
+        ],
+        [
+          "",
+          "",
+          "O/S type 0.125",
+          "",
+          "2.988 - 3.038 mm",
+          "0.1176 - 0.1196 in."
+        ],
+        [
+          "",
+          "",
+          "O/S type 0.250",
+          "",
+          "3.050 - 3.100 mm",
+          "0.1201 - 0.1220 in."
+        ],
+        [
+          "",
+          "Main journal oil clearance",
+          "STD",
+          "",
+          "0.034 - 0.058 mm",
+          "0.0013 - 0.0023 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "",
+          "0.08 mm",
+          "0.0031 in."
+        ],
+        [
+          "",
+          "Main journal diameter",
+          "STD",
+          "",
+          "59.988 - 60.012 mm",
+          "2.3617 - 2.3627 in."
+        ],
+        [
+          "",
+          "Main journal finished diameter",
+          "U/S 0.25",
+          "",
+          "59.730 - 59.740 mm",
+          "2.3516 - 2.3520 in."
+        ],
+        [
+          "",
+          "",
+          "U/S 0.50",
+          "",
+          "59.480 - 59.490 mm",
+          "2.3417 - 2.3421 in."
+        ],
+        [
+          "",
+          "Bearing U/S type",
+          "",
+          "",
+          "0.25, 0.50",
+          ""
+        ],
+        [
+          "",
+          "Crank pin diameter",
+          "STD",
+          "",
+          "51.976 - 52.000 mm",
+          "2.0463 - 2.0472 in."
+        ],
+        [
+          "",
+          "Crank pin finished diameter",
+          "U/S 0.25",
+          "",
+          "51.725 - 51.735 mm",
+          "2.0364 - 2.0368 in."
+        ],
+        [
+          "",
+          "",
+          "U/S 0.50",
+          "",
+          "51.475 - 51.485 mm",
+          "2.0266 - 2.0270 in."
+        ],
+        [
+          "",
+          "Bearing U/S type",
+          "",
+          "",
+          "0.25, 0.50",
+          ""
+        ],
+        [
+          "",
+          "Circle runout",
+          "Limit",
+          "",
+          "0.06 mm",
+          "0.0024 in."
+        ],
+        [
+          "",
+          "Main journal taper and out-of-round",
+          "Limit",
+          "",
+          "0.02 mm",
+          "0.0008 in."
+        ],
+        [
+          "",
+          "Check pin journal taper and out-of-round",
+          "Limit",
+          "",
+          "0.02 mm",
+          "0.0008 in."
+        ],
+        [
+          "Flywheel",
+          "Runout",
+          "Limit",
+          "",
+          "0.1 mm",
+          "0.004 in."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "page_id": "5",
+  "section_header": "Theft Deterrent System",
+  "title": "THEFT DETERRENT SYSTEM WIRING DIAGRAM",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wiring diagram showing the theft deterrent system connections including relay, theft deterrent computer, door switches, horn relay, and various electrical connections. The diagram shows power distribution from the shock warning switch through the theft deterrent computer to various outputs including front speakers, horn relay, door lock actuators, and dome light switch.",
+      "labels": [
+        "Shock Warning S/W (4, 7)",
+        "RELAY",
+        "THEFT DETERRENT COMPUTER",
+        "From IG SW (J-21)",
+        "From IG2 SW (4-8)",
+        "THEFT DETERRENT HORN",
+        "Front RH Speaker (4, 7)",
+        "Front LH Speaker (4, 7)",
+        "From Tail LT SW (J-2)",
+        "FL",
+        "Rear Combi Lamp",
+        "To Stop LT (D-0)",
+        "From Battery (C-1)",
+        "Door Lock Switch RH",
+        "Door Lock Switch LH",
+        "Dome LT Switch (D-2)",
+        "V-L",
+        "V-W",
+        "Y-W"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 15,
+        "width": 75,
+        "height": 92
+      }
+    },
+    {
+      "type": "text",
+      "text": "Wire color codes: V-L, V-W, Y-W, W-B"
+    },
+    {
+      "type": "text",
+      "text": "Connection points labeled: 4, 5, 4-7, J-21, 4-8, J-2, D-0, C-1, D-2"
+    }
+  ]
+}

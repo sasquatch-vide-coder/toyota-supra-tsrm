@@ -1,0 +1,134 @@
+{
+  "page_id": "FI-20",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "SYMPTOM — ENGINE HESITATES AND/OR POOR ACCELERATION",
+  "content": [
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart for engine hesitation and/or poor acceleration symptoms",
+      "bbox": {
+        "top": 12,
+        "left": 5,
+        "width": 90,
+        "height": 85
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "CHECK CLUTCH AND BRAKE",
+          "outcomes": [
+            {
+              "result": "BAD",
+              "causes": [
+                "1. Clutch — slips",
+                "2. Brakes — drag"
+              ]
+            },
+            {
+              "result": "OK",
+              "next_step": 2
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "action": "CHECK FOR VACUUM LEAKS IN AIR INTAKE LINE",
+          "outcomes": [
+            {
+              "result": "BAD",
+              "causes": [
+                "1. Oil filler cap",
+                "2. Oil level gauge",
+                "3. Hose connections",
+                "4. PCV hoses",
+                "5. EGR system — EGR valve stays open"
+              ]
+            },
+            {
+              "result": "OK",
+              "next_step": 3
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "action": "CHECK AIR FILTER ELEMENT",
+          "outcomes": [
+            {
+              "result": "BAD",
+              "causes": [
+                "Clean or replace"
+              ]
+            },
+            {
+              "result": "OK",
+              "next_step": 4
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "action": "CHECK DIAGNOSIS SYSTEM",
+          "details": "Check for output of diagnostic code. (See page FI-22)",
+          "outcomes": [
+            {
+              "result": "Malfunction code(s)",
+              "causes": [
+                "Diagnostic code(s) (See page FI-2B)"
+              ]
+            },
+            {
+              "result": "Normal code",
+              "next_step": 5
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "action": "CHECK IGNITION SPARK",
+          "details": [
+            "1. Unplug connectors of injector resistor and start injection time switch.",
+            "2. Check by holding spark plug wire 8 — 10 mm (0.31 — 0.39 in.) away from engine block while engine cranking. A strong spark should be noted."
+          ],
+          "outcomes": [
+            {
+              "result": "BAD",
+              "causes": [
+                "1. Plug wires",
+                "2. High-tension cords",
+                "3. Distributor",
+                "4. Ignition coil, igniter"
+              ]
+            },
+            {
+              "result": "OK",
+              "next_step": 6
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "action": "CHECK IGNITION TIMING",
+          "details": [
+            "1. Short both terminals of the check connector.",
+            "2. Check ignition timing.",
+            "STD: 10° BTDC",
+            "(w/short terminals of the check connector)"
+          ],
+          "outcomes": [
+            {
+              "result": "NO",
+              "causes": [
+                "Ignition system (See page IG-2)"
+              ]
+            },
+            {
+              "result": "OK",
+              "next_step": "CONTINUED ON PAGE FI-21"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

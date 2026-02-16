@@ -1,0 +1,207 @@
+{
+  "page_id": "BO-51",
+  "section_header": "BODY — Body Dimensions",
+  "title": "Body Dimensions - Under Body",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Under Body"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Technical engineering drawing showing underbody dimensions from bottom view (plan view) and side view (elevation view). The drawing shows the chassis/frame structure with cross-bracing members, suspension mounting points, and various measurement reference points labeled with letters (K, L, M, N, O, P, Q, R, U, V, etc.). Directional arrows indicate FR (Front), RH (Right Hand), and LH (Left Hand) orientations.",
+      "labels": [
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "U",
+        "V",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "u",
+        "v",
+        "FR",
+        "RH",
+        "LH",
+        "Lower Surface of Rocker Panel"
+      ],
+      "bbox": {
+        "top": 6,
+        "left": 3,
+        "width": 65,
+        "height": 88
+      }
+    },
+    {
+      "type": "table",
+      "caption": "Under Body Dimensions",
+      "headers": [
+        "Point symbol",
+        "Reference length mm (in.)"
+      ],
+      "rows": [
+        [
+          "K – L\nk – l",
+          "338 (13.31)"
+        ],
+        [
+          "L – I",
+          "818 (32.20)"
+        ],
+        [
+          "L – o\nl – O",
+          "1,285 (50.59)"
+        ],
+        [
+          "M – m",
+          "789 (31.06)"
+        ],
+        [
+          "M – o",
+          "774 (30.47)"
+        ],
+        [
+          "N – o\nN – O",
+          "1,081 (42.56)"
+        ],
+        [
+          "N – O",
+          "740 (29.13)"
+        ],
+        [
+          "O – o",
+          "802 (31.57)"
+        ],
+        [
+          "O – p",
+          "1,168 (45.98)"
+        ],
+        [
+          "o – P",
+          "821 (32.32)"
+        ],
+        [
+          "P – p",
+          "860 (33.86)"
+        ],
+        [
+          "P – Q",
+          "331 (13.03)"
+        ],
+        [
+          "P – q\nP – Q",
+          "803 (31.61)"
+        ],
+        [
+          "P – r",
+          "1,105 (43.50)"
+        ],
+        [
+          "Q – q",
+          "622 (24.49)"
+        ],
+        [
+          "Q – V",
+          "1,352 (53.23)"
+        ],
+        [
+          "q – v",
+          "1,359 (53.50)"
+        ],
+        [
+          "Q – U",
+          "1,367 (53.82)"
+        ],
+        [
+          "q – U",
+          "1,329 (52.32)"
+        ],
+        [
+          "Q – v",
+          "1,596 (62.83)"
+        ],
+        [
+          "q – V",
+          "1,583 (62.32)"
+        ],
+        [
+          "R – r",
+          "1,072 (42.20)"
+        ],
+        [
+          "U – u",
+          "625 (24.61)"
+        ],
+        [
+          "U – u",
+          "971 (38.23)"
+        ],
+        [
+          "V – v",
+          "1,109 (43.66)"
+        ],
+        [
+          "K,k",
+          "64 (2.52)"
+        ],
+        [
+          "L,l",
+          "93 (3.66)"
+        ],
+        [
+          "M,m",
+          "85 (3.35)"
+        ],
+        [
+          "N,n",
+          "85 (3.35)"
+        ],
+        [
+          "O,o",
+          "36 (1.42)"
+        ],
+        [
+          "P,p",
+          "37 (1.46)"
+        ],
+        [
+          "Q,q",
+          "7 (0.28)"
+        ],
+        [
+          "R,r",
+          "72 (2.83)"
+        ],
+        [
+          "T,t",
+          "242 (9.53)"
+        ],
+        [
+          "U,u",
+          "207 (8.15)"
+        ],
+        [
+          "u,v",
+          "226 (8.90)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Lower Surface of Rocker Panel"
+    }
+  ]
+}

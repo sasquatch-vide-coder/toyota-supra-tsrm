@@ -1,0 +1,161 @@
+{
+  "page_id": "BE-58",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "Speedometer",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Speedometer"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ON-VEHICLE INSPECTION OF SPEEDOMETER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a speedometer tester, inspect the speedometer for allowable indicating error and check operation of the odometer."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Tire wear and tire over or under inflation will increase indication error."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Check the speedometer for pointer vibration and abnormal noises."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Pointer vibration can be caused by a loose speedometer cable."
+    },
+    {
+      "type": "table",
+      "caption": "(km/h)",
+      "headers": [
+        "Standard indication",
+        "Allowable range"
+      ],
+      "rows": [
+        [
+          "20",
+          "18 — 22"
+        ],
+        [
+          "40",
+          "38 — 42"
+        ],
+        [
+          "60",
+          "58 — 62"
+        ],
+        [
+          "80",
+          "78 — 82"
+        ],
+        [
+          "100",
+          "97 — 103"
+        ],
+        [
+          "120",
+          "117 — 123"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "(mph)",
+      "headers": [
+        "Standard indication",
+        "Allowable range"
+      ],
+      "rows": [
+        [
+          "20",
+          "19 — 21"
+        ],
+        [
+          "40",
+          "39 — 41"
+        ],
+        [
+          "60",
+          "59 — 61"
+        ],
+        [
+          "80",
+          "78 — 82"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Tachometer"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ON-VEHICLE INSPECTION OF TACHOMETER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect a tune-up test tachometer and start the engine.",
+        "(b) Compare the tester and tachometer indications."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If the error is excessive, replace the tachometer."
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION:\n• Reversing the connection of the tachometer will damage the transistors and diodes inside.\n• When removing or installing the tachometer, be careful not to drop it or subject it to heavy shocks."
+    },
+    {
+      "type": "table",
+      "caption": "(rpm)",
+      "headers": [
+        "Standard indication",
+        "Allowable range",
+        "Standard indication",
+        "Allowable range"
+      ],
+      "rows": [
+        [
+          "1,000",
+          "950 ± 30",
+          "5,000",
+          "4,900 ± 150"
+        ],
+        [
+          "2,000",
+          "1,950 ± 60",
+          "6,000",
+          "5,900 ± 180"
+        ],
+        [
+          "3,000",
+          "2,900 ± 90",
+          "7,000",
+          "6,900 ± 210"
+        ],
+        [
+          "4,000",
+          "3,900 ± 120",
+          "8,000",
+          "7,900 ± 240"
+        ]
+      ]
+    }
+  ]
+}

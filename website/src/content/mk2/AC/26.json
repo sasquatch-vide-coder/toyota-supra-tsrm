@@ -1,0 +1,151 @@
+{
+  "page_id": "AC-26",
+  "section_header": "AIR CONDITIONING SYSTEM - Compressor",
+  "title": "AIR CONDITIONING SYSTEM - Compressor",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE ROTOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, remove the snap ring."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "07114-84020",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing snap ring removal from rotor using special service tool (SST)",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Using a plastic hammer, tap the rotor off the shaft."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Be careful not to damage the pulley when tapping on the rotor."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing rotor being tapped off shaft with plastic hammer",
+      "labels": [],
+      "bbox": {
+        "top": 23,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE STATOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect the stator lead wires from the compressor housing."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing stator with lead wires being disconnected from compressor housing",
+      "labels": [],
+      "bbox": {
+        "top": 42,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Using SST, remove the snap ring. Remove the stator."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "07114-84020",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing snap ring removal from stator using special service tool (SST)",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. REMOVE ROTOR BEARINGS"
+    },
+    {
+      "type": "notice",
+      "text": "Press the bearings out only if they are to be replaced."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the bearing snap ring from the rotor.",
+        "(b) Using SST, press out the two bearings."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "07110-77011",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Technical diagram showing bearing removal process using special service tool (SST) with press operation",
+      "labels": [
+        "SST",
+        "A26011"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    }
+  ]
+}

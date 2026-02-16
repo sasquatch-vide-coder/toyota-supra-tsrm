@@ -1,0 +1,49 @@
+{
+  "page_id": "RA-2",
+  "section_header": "REAR AXLE AND SUSPENSION — Troubleshooting",
+  "title": "TROUBLESHOOTING",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Oil leak at rear axle",
+          "Oil seals worn or damaged\nRing retainer loose\nRear axle housing cracked",
+          "Replace oil seal\nReplace retainer\nRepair as necessary",
+          "RA-5"
+        ],
+        [
+          "Oil leak at pinion shaft",
+          "Oil level too high or wrong grade\nOil seal worn or damaged\nCompanion flange loose or damaged",
+          "Drain and replace oil\nReplace oil seal\nTighten or replace flange",
+          "RA-19\nRA-19"
+        ],
+        [
+          "Oil leak at side gear shaft",
+          "Oil level too high or wrong grade\nOil seal worn or damaged\nSide gear shaft loose or damaged",
+          "Drain and replace oil\nReplace oil seal\nTighten or replace shaft",
+          "RA-18\nRA-18"
+        ],
+        [
+          "Noises in rear axle",
+          "Oil level low or wrong grade\nExcessive backlash between pinion and ring or side gear\nRing, pinion or side gears worn or chipped\nPinion shaft bearing worn\nAxle shaft bearing worn\nDifferential bearing loose or worn",
+          "Drain and replace oil\nCheck backlash\nInspect gears\nReplace bearing\nReplace bearing\nTighten or replace bearings",
+          "RA-23\nRA-24\nRA-26\nRA-5\nRA-26"
+        ],
+        [
+          "Bottoming",
+          "Vehicle overloaded\nShock absorber worn out\nSprings weak",
+          "Check loading\nReplace shock absorber\nReplace spring",
+          "RA-45\nRA-45"
+        ]
+      ]
+    }
+  ]
+}

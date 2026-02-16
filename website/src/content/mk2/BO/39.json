@@ -1,0 +1,135 @@
+{
+  "page_id": "BO-39",
+  "section_header": "BODY — Sun Roof",
+  "title": "ASSEMBLY OF SUN ROOF / INSTALLATION OF SUN ROOF",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY OF SUN ROOF"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "APPLY MP GREASE TO DRIVE CABLE",
+        "PLACE DRIVE CABLES INTO GUIDE CASING",
+        "INSTALL FRONT AND REAR SHOES ONTO ROOF PANEL"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand applying grease to drive cable mechanism, with shim labeled",
+      "labels": [
+        "Shim"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 4,
+      "items": [
+        {
+          "main": "INSTALL GUIDE RAILS ON BOTH SIDES",
+          "sub_items": [
+            "(a) Install both side guide rails through the rear and front shoes.",
+            "(b) Install the guide rail and guide casing with the screws.",
+            "(c) Use butyl tape to cover the cut portion of the weatherstrip at the connection between the guide case and guide rail."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Sun roof panel with guide rails being installed on both sides",
+      "labels": [],
+      "bbox": {
+        "top": 21,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Close-up detail of butyl tape application at weatherstrip connection point, with inset showing detail",
+      "labels": [],
+      "bbox": {
+        "top": 38,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 5,
+      "items": [
+        {
+          "main": "ASSEMBLE SLIDING ROOF HEADLINING",
+          "sub_items": [
+            "(a) Run the headlining through the guide rail.",
+            "(b) Do not clip the headlining."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Secure the headlining for adjustment after assembly."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Headlining being threaded through guide rail of sun roof assembly",
+      "labels": [],
+      "bbox": {
+        "top": 55,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF SUN ROOF"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "main": "INSTALL SLIDING ROOF WITH GUIDE RAIL ONTO ROOF",
+          "sub_items": [
+            "(a) Install the sliding roof assembly onto the roof.",
+            "(b) Tighten the guide rail and cover with the screws."
+          ]
+        },
+        "INSTALL WIND DEFLECTOR"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Complete sun roof assembly being installed onto vehicle roof, showing sliding roof with guide rails",
+      "labels": [],
+      "bbox": {
+        "top": 72,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    }
+  ]
+}

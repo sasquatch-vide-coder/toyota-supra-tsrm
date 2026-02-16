@@ -1,0 +1,47 @@
+{
+  "page_id": "AT-96",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "title": "INSTALL THROTTLE VALVE RETAINER",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing installation of throttle valve retainer into valve body assembly",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 4,
+        "width": 37,
+        "height": 27
+      },
+      "reference": "C4419"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. INSTALL THROTTLE VALVE RETAINER"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Cross-sectional view showing the relationship between the pin, retainer, and sleeve components, with labels pointing to each part",
+      "labels": [
+        "Pin",
+        "Retainer",
+        "Retainer"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 4,
+        "width": 37,
+        "height": 28
+      },
+      "reference": "C4378"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "11. MAKE SURE THAT SLEEVE IS HELD BY PIN"
+    }
+  ]
+}

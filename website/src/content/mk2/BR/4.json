@@ -1,0 +1,31 @@
+{
+  "page_id": "BR-4",
+  "section_header": "BRAKE SYSTEM — Troubleshooting",
+  "title": "TROUBLESHOOTING (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Squealing, groaning or chattering noise when brakes are applied\n\nNote: Brake friction materials inherently generate noise and heat in order to dissipate energy. As a result, occasional squeal is normal and is aggravated by severe environmental conditions such as cold, heat, wetness, snow, salt, mud, etc. This occasional squeal is not a functional problem and does not indicate any loss of brake effectiveness",
+          "Rotors and pads worn or scored\n\nDisc brakes—missing or damaged brake pad anti-squeal shim\n\nDisc brakes—burred or rusted calipers\n\nDirty, greased, contaminated or glazed linings\n\nImproper lining parts\n\nMal-adjustment of brake pedal or booster push-rod\n\nLoose or damaged shoe retaining pins, springs and clips and grooved backing plate ledges\n\nPad wear and pad wear indicator making contact with the rotor",
+          "Inspect, service or replace\n\nReplace\n\nClean or deburr\n\nClean or replace\n\nInspect for correct usage, replace\n\nInspect and adjust\n\nInspect, service or replace\n\nReplace",
+          "BR-14,20\n\nBR-14,20\n\nBR-16,22\n\nBR-14,20\n\nBR-14,20\n\nBR-6,12\n\nBR-26\n\nBR-14,20"
+        ],
+        [
+          "Squealing noise when brakes are not applied",
+          "Bent or warped backing plate causing interference with drum\n\nImproper machining of drum causing interference with backing plate or shoe\n\nMal-adjustment of brake pedal or booster push-rod\n\nPoor return of brake booster or master cylinder\n\nDisc brake—rusted, stuck\n\nOther brake system components:\n  Loose or extra parts in brakes\n  Rear drum adjustment too tight\n  causing lining to glaze\n  Worn, damaged or insufficiently\n  lubricated wheel bearings\n\nDrum brakes—weak, damaged or incorrect shoe hold-down springs\n\nDrum brakes—grooved backing plate ledges\n\nImproper positioning of pad in caliper\n\nOutside diameter of rotor rubbing caliper housing\n\nHousing installation of disc brake pad support plate\n\nPad wear and pad wear indicator making contact with the rotor",
+          "Service or replace\n\nReplace drum\n\nInspect and adjust\n\nInspect, service or replace\n\nInspect, lubricate as necessary\n\nInspect, service, replace as required",
+          "BR-26\n\nBR-26\n\nBR-6,12\n\nBR-9,12\n14,20\n\nBR-14,20\n\nBR-26\n\nBR-26\n\nBR-26\n\nBR-14,20\n\nBR-14,20\n\nBR-14,20"
+        ]
+      ]
+    }
+  ]
+}

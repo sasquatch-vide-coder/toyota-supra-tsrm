@@ -1,0 +1,222 @@
+{
+  "page_id": "A-20",
+  "section_header": "SERVICE SPECIFICATIONS - Front Axle and Suspension",
+  "title": "FRONT AXLE AND SUSPENSION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Specifications"
+    },
+    {
+      "type": "table",
+      "caption": "Cold tire inflation pressure and Front wheel alignment specifications",
+      "headers": [
+        "Specification",
+        "Metric",
+        "Imperial",
+        "Alternate"
+      ],
+      "rows": [
+        [
+          "Cold tire inflation pressure",
+          "1.9 kg/cm²",
+          "27 psi",
+          "186 kPa"
+        ]
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "For continuous high-speed driving in excess of 120 km/h (75 mph), inflate the tires to 0.3 kg/cm² (4.3 psi, 29 kPa) higher than the recommended cold tire inflation pressure."
+    },
+    {
+      "type": "table",
+      "caption": "Front wheel alignment",
+      "headers": [
+        "Parameter",
+        "Inspection STD",
+        "Adjustment STD"
+      ],
+      "rows": [
+        [
+          "Toe-in",
+          "3 ± 2 mm (0.12 ± 0.08 in.)",
+          "3 ± 1 mm (0.12 ± 0.04 in.)"
+        ],
+        [
+          "Camber",
+          "50' ± 45'",
+          "—"
+        ],
+        [
+          "Camber - Left-right error",
+          "30'",
+          "—"
+        ],
+        [
+          "Steering axis inclination",
+          "10' 10' ± 45'",
+          "—"
+        ],
+        [
+          "Steering axis inclination - Left-right error",
+          "30'",
+          "—"
+        ],
+        [
+          "Caster",
+          "4° 10' ± 45'",
+          "4° 10' ± 30'"
+        ],
+        [
+          "Caster - Left-right error",
+          "30'",
+          "30'"
+        ],
+        [
+          "Side slip",
+          "Less than 3.0 mm/m (0.118 in./3.3 ft)",
+          ""
+        ],
+        [
+          "Wheel angle - Inside wheel",
+          "37° 36' ± 2°",
+          ""
+        ],
+        [
+          "Wheel angle - Outside wheel",
+          "30° 45' (Reference)",
+          ""
+        ],
+        [
+          "Disc wheel lateral runout - Max. limit",
+          "1.0 mm",
+          "0.039 in."
+        ],
+        [
+          "Wheel bearing preload (turning load at hub in addition to rotation friction force of the oil seal)",
+          "0 - 1,050 g    0 - 2.3 lb    0 - 10 N",
+          ""
+        ],
+        [
+          "Hub axial play - Max. limit",
+          "0.05 mm",
+          "0.0020 in."
+        ],
+        [
+          "Ball joint vertical play - Max. limit",
+          "2.5 mm",
+          "0.098 in."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Torque Specifications"
+    },
+    {
+      "type": "table",
+      "caption": "Torque Specifications",
+      "headers": [
+        "Part tightened",
+        "kg-cm",
+        "ft-lb",
+        "N·m"
+      ],
+      "rows": [
+        [
+          "Shock absorber piston rod × Suspension support",
+          "475",
+          "34",
+          "47"
+        ],
+        [
+          "Shock absorber shell × Ring nut",
+          "1,250",
+          "90",
+          "123"
+        ],
+        [
+          "Lower arm × Suspension member",
+          "1,100",
+          "80",
+          "108"
+        ],
+        [
+          "Lower ball joint × Steering knuckle arm",
+          "800",
+          "58",
+          "78"
+        ],
+        [
+          "Strut bar × Strut bar bracket",
+          "1,050",
+          "76",
+          "103"
+        ],
+        [
+          "Steering knuckle arm × Tie rod",
+          "600",
+          "43",
+          "59"
+        ],
+        [
+          "Strut bar × Lower arm",
+          "670",
+          "48",
+          "66"
+        ],
+        [
+          "Strut bar bracket × Body",
+          "475",
+          "34",
+          "47"
+        ],
+        [
+          "Stabilizer bar × Lower arm",
+          "180",
+          "13",
+          "18"
+        ],
+        [
+          "Stabilizer bar bracket × Strut bar bracket",
+          "130",
+          "9",
+          "13"
+        ],
+        [
+          "Suspension support × Fender apron",
+          "375",
+          "27",
+          "37"
+        ],
+        [
+          "Shock absorber × Knuckle arm",
+          "1,000",
+          "72",
+          "98"
+        ],
+        [
+          "Suspension member × Body",
+          "1,100",
+          "80",
+          "108"
+        ],
+        [
+          "Wheel nut × Front wheel hub",
+          "1,050",
+          "76",
+          "103"
+        ],
+        [
+          "Disc brake assembly × Shock absorber",
+          "930",
+          "67",
+          "91"
+        ]
+      ]
+    }
+  ]
+}

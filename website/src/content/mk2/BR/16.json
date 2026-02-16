@@ -1,0 +1,150 @@
+{
+  "page_id": "BR-16",
+  "section_header": "BRAKE SYSTEM — Front Brake",
+  "title": "REMOVAL OF CYLINDER and DISASSEMBLY OF CYLINDER",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "(See page BR-14)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Brake hose disconnection from brake tube and cylinder using SST tool and spanner",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "label": "1.",
+          "heading": "DISCONNECT BRAKE HOSE FROM BRAKE TUBE AND CYLINDER",
+          "steps": [
+            "(a) Using SST and a spanner, disconnect the brake tube from the hose.",
+            {
+              "type": "part_number",
+              "label": "SST",
+              "number": "09751-36011"
+            },
+            "(b) Use a container to catch the brake fluid.",
+            "(c) Remove the clip from brake hose.",
+            "(d) Disconnect the brake hose from the cylinder."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Brake cylinder assembly mounted on brake disc and torque plate",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 3,
+        "width": 38,
+        "height": 37
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "label": "2.",
+          "heading": "REMOVE CYLINDER",
+          "steps": [
+            "(a) Hold the sliding bushing and remove the cylinder installation bolt.",
+            "(b) Lift up and push out the cylinder from the torque plate pin."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hands removing cylinder installation bolt from brake assembly",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Exploded view of brake cylinder components including anti-squeal shim, brake pads, anti-rattle springs, pad guide plates, and pad support plate",
+      "labels": [],
+      "bbox": {
+        "top": 58,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "label": "3.",
+          "heading": "REMOVE FOLLOWING PARTS:",
+          "steps": [
+            "(a) Anti-squeal shim",
+            "(b) Brake pads",
+            "(c) Anti-rattle springs",
+            "(d) Pad guide plates",
+            "(e) Pad support plate"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY OF CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "(See page BR-14)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Hands removing sliding bushing and boot from brake cylinder",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 3,
+        "width": 38,
+        "height": 21
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "label": "1.",
+          "heading": "REMOVE SLIDING BUSHING AND BOOT",
+          "steps": []
+        }
+      ]
+    }
+  ]
+}

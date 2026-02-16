@@ -1,0 +1,139 @@
+{
+  "page_id": "FA-11",
+  "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Shock Absorber",
+  "title": "REMOVAL OF FRONT SHOCK ABSORBER ASSEMBLY",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing disconnection of brake tube from flexible hose using SST (Special Service Tool)",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 1,
+          "heading": "DISCONNECT BRAKE TUBE",
+          "text": "Using SST and an open end wrench, disconnect the brake tube from the flexible hose. Drain the brake fluid into a container.",
+          "part_number": "SST 09751-36011"
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing three nuts on top of shock absorber mount",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 2,
+          "heading": "REMOVE THREE NUTS",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of two bolts mounting shock absorber assembly to steering knuckle arm",
+      "labels": [],
+      "bbox": {
+        "top": 43,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 3,
+          "heading": "REMOVE TWO BOLTS",
+          "text": "Remove the two bolts mounting the shock absorber assembly to the steering knuckle arm."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of front shock absorber, front axle hub and brake caliper, with 5mm measurement indicated for collar depth in steering knuckle bolt holes",
+      "labels": [
+        "5mm"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 4,
+          "heading": "REMOVE FRONT SHOCK ABSORBER, FRONT AXLE HUB AND BRAKE CALIPER",
+          "text": "Push the suspension lower arm down and remove the front shock absorber, front axle hub and brake caliper."
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Collars in steering knuckle bolt holes about 5 mm (0.20 in.) deep."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing front shock absorber mounted in vise or locking plate (SST)",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 5,
+          "heading": "MOUNT FRONT SHOCK ABSORBER IN VISE OR LOCKING PLATE (SST)",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09720-00011 (09721-00080)",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "page_id": "FI-28",
+  "section_header": "EFI SYSTEM — Troubleshooting with Volt/Ohmmeter",
+  "title": "TROUBLESHOOTING WITH VOLT/OHMMETER",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PREPARATION FOR TROUBLESHOOTING"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Remove the glove box door and glove box.",
+        "Remove the ECU with wire harness."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "ECU wiring connector diagram showing voltmeter connection points. Shows ECU unit with connectors labeled B and E1, with a voltmeter connected to test terminals.",
+      "labels": [
+        "Voltmeter",
+        "ECU",
+        "B",
+        "E1",
+        "V"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "EFI SYSTEM CHECK PROCEDURE"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE:\n1. The EFI circuit can be checked by measuring the resistance and voltage at the wiring connectors of the ECU.\n2. Perform all voltage measurement with the connectors connected.\n3. Verify that the battery voltage is 11V or above when the ignition switch is ON."
+    },
+    {
+      "type": "text",
+      "text": "Using a voltmeter, measure the voltage at each terminal of the wiring connector."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: If there is any problem, see TROUBLESHOOTING FOR EFI ELECTRONIC CIRCUIT WITH VOLT/ OHMMETER."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Connectors of ECU"
+    },
+    {
+      "type": "table",
+      "caption": "Connectors of ECU",
+      "headers": [
+        "Symbol",
+        "Terminal Name",
+        "Symbol",
+        "Terminal Name",
+        "Symbol",
+        "Terminal Name"
+      ],
+      "rows": [
+        [
+          "E01",
+          "ENGINE GROUND",
+          "G⊖",
+          "ENGINE REVOLUTION SENSOR",
+          "A/C",
+          "A/C MAGNET SWITCH"
+        ],
+        [
+          "E02",
+          "ENGINE GROUND",
+          "V+",
+          "CHECK CONNECTOR",
+          "SPD",
+          "SPEEDMETER"
+        ],
+        [
+          "No.10",
+          "INJECTOR",
+          "S",
+          "ENGINE REVOLUTION SENSOR",
+          "W",
+          "WARNING LIGHT"
+        ],
+        [
+          "No.20",
+          "INJECTOR",
+          "T",
+          "CHECK CONNECTOR",
+          "THA",
+          "AIR TEMP. SENSOR"
+        ],
+        [
+          "STA",
+          "STARTER SWITCH",
+          "VTA",
+          "THROTTLE SWITCH",
+          "Vs",
+          "AIR FLOW METER"
+        ],
+        [
+          "+B1",
+          "IGNITER",
+          "NE",
+          "ENGINE REVOLUTION SENSOR",
+          "VC",
+          "AIR FLOW METER"
+        ],
+        [
+          "EGR",
+          "EGR VSV",
+          "IDL",
+          "THROTTLE SWITCH",
+          "BAT",
+          "BATTERY +B"
+        ],
+        [
+          "E1",
+          "ENGINE GROUND",
+          "KNK",
+          "KNOCK SENSOR",
+          "IG S/W",
+          "IGNITION SWITCH"
+        ],
+        [
+          "N/C",
+          "NEUTRAL START SWITCH (A/T)",
+          "IGf",
+          "IGNITER",
+          "+B",
+          "MAIN RELAY"
+        ],
+        [
+          "",
+          "CLUTCH SWITCH (M/T)",
+          "Ox",
+          "OXYGEN SENSOR",
+          "TCD",
+          "ECT COMPUTER"
+        ],
+        [
+          "ISC1",
+          "ISC MOTOR NO.1 COIL",
+          "THW",
+          "WATER TEMP. SENSOR",
+          "OIL",
+          "OIL PRESSURE SWITCH"
+        ],
+        [
+          "ISC2",
+          "ISC MOTOR NO.2 COIL",
+          "E2",
+          "SENSOR EARTH",
+          "L1",
+          "ECT COMPUTER"
+        ],
+        [
+          "ISC3",
+          "ISC MOTOR NO.3 COIL",
+          "E3",
+          "ENGINE GROUND",
+          "L2",
+          "ECT COMPUTER"
+        ],
+        [
+          "ISC4",
+          "ISC MOTOR NO.4 COIL",
+          "M-REL",
+          "MAIN RELAY COIL",
+          "L3",
+          "ECT COMPUTER"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "ECU connector terminal layout diagram showing two connector blocks with labeled terminal positions",
+      "labels": [
+        "E01",
+        "No.10",
+        "STA",
+        "EGR",
+        "N/C",
+        "ISC1",
+        "ISC2",
+        "G⊖",
+        "G",
+        "IGf",
+        "ICI",
+        "THW",
+        "L1",
+        "L2",
+        "L3",
+        "M-REL",
+        "SPD",
+        "THA",
+        "Vs",
+        "VC",
+        "BAT",
+        "IG S/W",
+        "E02",
+        "No.20",
+        "IGf",
+        "E1",
+        "ISC3",
+        "ISC4",
+        "V+",
+        "T",
+        "VTA",
+        "IDL",
+        "KNK",
+        "Ox",
+        "E2",
+        "E3",
+        "NE",
+        "TCD",
+        "A/C",
+        "W",
+        "OIL",
+        "+B",
+        "+B"
+      ],
+      "bbox": {
+        "top": 79,
+        "left": 3,
+        "width": 94,
+        "height": 10
+      }
+    },
+    {
+      "type": "text",
+      "text": "FI0638",
+      "bbox": {
+        "top": 95,
+        "left": 92,
+        "width": 5,
+        "height": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "page_id": "D-3",
+  "section_header": "WIRING DIAGRAM",
+  "title": "4-CYLINDER, FIRST GEAR CIRCUIT",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Comprehensive electrical wiring diagram showing the first gear circuit for a 4-cylinder engine. The diagram displays various electrical connections with red, yellow, and black wires connecting multiple components. The layout shows connections from a connector panel on the left side to various relays, switches, and control units throughout the vehicle system. The diagram uses color coding: red lines represent power circuits, yellow lines represent signal/control circuits, and black lines represent ground circuits.",
+      "labels": [
+        "4-CYLINDER",
+        "FIRST GEAR CIRCUIT",
+        "Car Heater",
+        "Dome Light",
+        "Courtesy Light",
+        "Luggage Comp. Lt."
+      ],
+      "bbox": {
+        "top": 7,
+        "left": 5,
+        "width": 90,
+        "height": 88
+      }
+    },
+    {
+      "type": "text",
+      "text": "Page identifier: D-3"
+    },
+    {
+      "type": "text",
+      "text": "Left side heading: 4-CYLINDER, FIRST GEAR CIRCUIT (vertical text orientation)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Legend/key showing four indicator boxes on the left side of the diagram. These boxes appear to be color-coded indicators (red, yellow, and additional yellow) for the wiring diagram, along with connector pin configurations.",
+      "labels": [],
+      "bbox": {
+        "top": 13,
+        "left": 13,
+        "width": 8,
+        "height": 7
+      }
+    }
+  ]
+}

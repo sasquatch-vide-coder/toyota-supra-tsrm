@@ -1,0 +1,147 @@
+{
+  "page_id": "EM-63",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": null,
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "21. FILL WITH ENGINE OIL"
+    },
+    {
+      "type": "text",
+      "text": "Close the engine drain plug and fill with engine oil of API grade SF, fuel-efficient, multi-grade oil."
+    },
+    {
+      "type": "text",
+      "text": "Capacity:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Dry (w/)",
+        "6.7 liters (6.0 US qts, 5.0 Imp. qts)",
+        "Drain and refill (w/ Oil filter change)",
+        "5.1 liters (5.4 US qts, 4.5 Imp. qts)",
+        "Drain and refill (w/o Oil filter change)",
+        "4.6 liters (4.9 US qts, 4.0 Imp. qts)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing a hand working on an engine component, appears to be in the area of the shift linkage or similar mechanical connection",
+      "labels": [],
+      "bbox": {
+        "top": 19,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "22. CONNECT WIRE TO BACK-UP LIGHT SWITCH (M/T only)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "23. CONNECT SPEEDOMETER CABLE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "24. INSTALL CLUTCH RELEASE CYLINDER (M/T only)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "25. CONNECT SHIFT LINKAGE TO SHIFT LEVER (A/T only)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing exhaust pipe and clamp installation to transmission housing area",
+      "labels": [],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "26. CONNECT EXHAUST PIPE TO EXHAUST MANIFOLD"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "27. INSTALL EXHAUST PIPE CLAMP TO TRANSMISSION HOUSING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "28. LOWER VEHICLE"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing power steering pump, pulley, and alternator assembly with drive belt",
+      "labels": [],
+      "bbox": {
+        "top": 63,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "29. INSTALL POWER STEERING PUMP ONTO BRACKET"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the PS pump and stay.",
+        "(b) Install the PS pump pulley with the drive belt.",
+        "(c) Pry on the alternator to obtain the specified belt tension. (See page MA-4)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing compressor with bracket installation and idler pulley with adjusting belt mechanism",
+      "labels": [],
+      "bbox": {
+        "top": 83,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "30. INSTALL COMPRESSOR WITH BRACKET ONTO BLOCK"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the compressor with the bracket onto the block.",
+        "(b) Turn the adjusting bolt on the idler pulley until the specified belt tension is obtained. (See page MA-4)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "31. INSTALL ENGINE UNDERCOVER"
+    }
+  ]
+}

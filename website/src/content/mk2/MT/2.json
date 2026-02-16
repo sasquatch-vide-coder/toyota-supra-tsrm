@@ -1,0 +1,31 @@
+{
+  "page_id": "MT-2",
+  "section_header": "MANUAL TRANSMISSION — Troubleshooting",
+  "title": "TROUBLESHOOTING",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Hard to shift or will not shift",
+          "Splines on input shaft dirty or burred\nTransmission faulty",
+          "Repair as necessary\nDisassemble and inspect transmission",
+          "MT-3\nMT-3"
+        ],
+        [
+          "Transmission jumps out of gear",
+          "Transmission faulty",
+          "Disassemble and inspect transmission",
+          "MT-3"
+        ]
+      ]
+    }
+  ]
+}

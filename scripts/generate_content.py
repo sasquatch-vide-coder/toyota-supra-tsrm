@@ -145,7 +145,8 @@ def build_search_index(content_dir: Path) -> None:
                     for row in block.get("rows", []):
                         texts.extend(str(c) for c in row)
                 elif block.get("type") == "list":
-                    texts.extend(block.get("items", []))
+                    for item in block.get("items", []):
+                        texts.append(str(item) if not isinstance(item, str) else item)
 
             entries.append({
                 "section": code,

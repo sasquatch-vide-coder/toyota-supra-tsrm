@@ -1,0 +1,161 @@
+{
+  "page_id": "AT-56",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Input Shaft and Clutch)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of snap ring and hub from overdrive clutch assembly, with hands using tools to remove components",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 5,
+        "width": 36,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE SNAP RING AND HUB FROM OVERDRIVE CLUTCH ASSEMBLY",
+        "REMOVE THINNER SNAP RING, FLANGE, DISC AND PLATE"
+      ],
+      "start_number": 4
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing compression of piston return springs using SST tool and removal of snap ring",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 5,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "COMPRESS PISTON RETURN SPRINGS AND REMOVE SNAP RING"
+      ],
+      "start_number": 6
+    },
+    {
+      "type": "text",
+      "text": "Using SST on the spring retainer and compress the springs with a shop press. Using a screwdriver, remove the snap ring."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09369-20040)",
+      "description": ""
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE SPRING RETAINER AND EIGHTEEN SPRINGS"
+      ],
+      "start_number": 7
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing assembly of overdrive clutch on oil pump and piston removal process",
+      "labels": [],
+      "bbox": {
+        "top": 42,
+        "left": 5,
+        "width": 36,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "ASSEMBLE OVERDRIVE CLUTCH ON OIL PUMP AND BLOW OUT PISTON"
+      ],
+      "start_number": 8
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Slide the overdrive clutch onto the oil pump.",
+        "(b) Apply compressed air to an oil pump to remove the piston. (If the piston does not come out completely, use needle-nose pliers to remove it.)",
+        "(c) Remove the overdrive clutch from the oil pump."
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE CLUTCH PISTON O-RINGS"
+      ],
+      "start_number": 9
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of snap ring from overdrive planetary gear assembly",
+      "labels": [],
+      "bbox": {
+        "top": 59,
+        "left": 5,
+        "width": 36,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE SNAP RING FROM OVERDRIVE PLANETARY GEAR ASSEMBLY"
+      ],
+      "start_number": 10
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE THRUST WASHERS AND ONE-WAY CLUTCH FROM PLANETARY GEAR ASSEMBLY"
+      ],
+      "start_number": 11
+    },
+    {
+      "type": "caution",
+      "text": "Be careful not to lose the four plugs."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing removal of four plugs from planetary gear assembly using magnetic finger tool",
+      "labels": [],
+      "bbox": {
+        "top": 78,
+        "left": 5,
+        "width": 36,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE FOUR PLUGS WITH MAGNETIC FINGER"
+      ],
+      "start_number": 12
+    },
+    {
+      "type": "caution",
+      "text": "Keep the four plugs together to prevent losing them."
+    }
+  ]
+}

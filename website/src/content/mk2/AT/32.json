@@ -1,0 +1,150 @@
+{
+  "page_id": "AT-32",
+  "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "title": "ON-VEHICLE REPAIR",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ON-VEHICLE REPAIR"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF SOLENOID OR VALVE BODY"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Technical drawing showing dimensions of a plate with bolt hole locations. Shows overall dimensions of 115 mm (4.53 in.) width, 68 mm (2.68 in.) and 20 mm (0.79 in.) spacing between holes, 6.5 DIA 0.55 (0.26 in.) hole size, and 65 mm (2.56 in.) height.",
+      "labels": [
+        "115 mm (4.53 in.)",
+        "6.5 DIA 0.55 (0.26 in.)",
+        "68 mm (2.68 in.)",
+        "20 mm (0.79 in.)",
+        "65 mm (2.56 in.)",
+        "1.5 mm (0.059 in.)"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "MAKE PLATE TO RETAIN ACCUMULATOR PISTONS\nA retainer is helpful for holding accumulator pistons in the case during removal and installation of the valve body. The plate may be made from aluminum or plastic.",
+        "CLEAN TRANSMISSION EXTERIOR\nTo help prevent contamination, clean the exterior of the transmission.",
+        "DRAIN TRANSMISSION FLUID\nRemove the drain plug and drain fluid into a suitable container."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands working on transmission case with drain plug location",
+      "labels": [
+        "OP0260"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE OIL PAN, FILLER TUBE AND GASKET"
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Some fluid will remain in the oil pan. Be careful not to damage the filler tube and O-ring."
+    },
+    {
+      "type": "text",
+      "text": "Remove all pan bolts, and carefully remove the pan assembly. Discard the gasket."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of oil pan from transmission case",
+      "labels": [
+        "OP0006"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE OIL TUBES"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the four tubes in the numerical order shown.",
+        "(b) Pry up both tube ends with a large screwdriver and remove the tubes."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing location of four oil tubes numbered (1), (2), (3), (4) to be removed from valve body",
+      "labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "AT0731"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DISCONNECT TWO CONNECTORS FROM SOLENOID"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect the solenoid wire from clamp.",
+        "(b) Disconnect the two connectors."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing disconnection of solenoid wire connectors from valve body",
+      "labels": [
+        "AT0732"
+      ],
+      "bbox": {
+        "top": 82,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    }
+  ]
+}

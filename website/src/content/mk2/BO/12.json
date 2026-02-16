@@ -1,0 +1,82 @@
+{
+  "page_id": "BO-12",
+  "section_header": "BODY — Moulding",
+  "title": "MOULDING\nWindshield Outside Moulding",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "MOULDING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Windshield Outside Moulding"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing the components of windshield outside moulding including upper moulding, joint cover, side moulding, lower moulding, and wiper arm with their installation positions on the windshield",
+      "labels": [
+        "Upper Moulding",
+        "Joint Cover",
+        "Side Moulding",
+        "Lower Moulding",
+        "Wiper Arm"
+      ],
+      "bbox": {
+        "top": 13,
+        "left": 3,
+        "width": 94,
+        "height": 48
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Detail diagram showing the two types of clips and fasteners for upper moulding installation - Clip (O Mark) and Fastener (X Mark), with side moulding attachment points indicated",
+      "labels": [
+        "Upper Moulding",
+        "Side Moulding",
+        "Clip (O Mark)",
+        "Fastener (X Mark)"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "REMOVAL OF OUTSIDE MOULDING"
+    },
+    {
+      "type": "text",
+      "text": "There are two types of clips for moulding installation. Locations of these clips and fasteners are as shown in the figure."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands applying adhesive tape to protect the body during moulding removal",
+      "labels": [],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "Carefully apply adhesive tape to protect the body."
+    }
+  ]
+}

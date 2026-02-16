@@ -1,0 +1,74 @@
+{
+  "page_id": "FI-21",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "QK CONTINUED FROM PAGE FI-20",
+  "content": [
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart with four main diagnostic steps connected by OK/BAD/NO decision points",
+      "bbox": {
+        "top": 8,
+        "left": 2,
+        "width": 96,
+        "height": 90
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "step_number": 1,
+      "action": "CHECK FUEL PRESSURE",
+      "reference": "(See page FI-45)",
+      "result_if_bad": {
+        "possible_causes": [
+          "Fuel pump (See page FI-44)",
+          "Fuel filter",
+          "Fuel pressure regulator (See page FI-52)"
+        ]
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "step_number": 2,
+      "action": "CHECK INJECTORS",
+      "reference": "(See page FI-53)",
+      "result_if_bad": {
+        "possible_causes": [
+          "Injection condition"
+        ]
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "step_number": 3,
+      "action": "CHECK SPARK PLUGS",
+      "specifications": {
+        "max_allowable_gap": "1.4 mm (0.055 in.)"
+      },
+      "precaution": "Never attempt to adjust gap on used platinum tipped spark plug.",
+      "note": "Check compression pressure if necessary.",
+      "reference": "See page EM-6",
+      "result_if_no": {
+        "possible_causes": [
+          "Spark plug",
+          "Compression pressure\nLimit: 9.0 kg/cm² (128 psi, 883 kPa)\nat 250 rpm"
+        ]
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "step_number": 4,
+      "action": "CHECK EFI ELECTRONIC CIRCUIT USING VOLT/OHMMETER",
+      "result_if_bad": {
+        "possible_causes": [
+          "Wiring connection",
+          "Power to ECU\n(1) Fusible link\n(2) No. 1 and No. 2 main relay",
+          "Air flow meter",
+          "Water temp. sensor",
+          "Air temp. sensor",
+          "Throttle position sensor",
+          "Injection signal circuit\n(1) Injector wirings\n(2) Resistor\n(3) ECU"
+        ]
+      }
+    }
+  ]
+}

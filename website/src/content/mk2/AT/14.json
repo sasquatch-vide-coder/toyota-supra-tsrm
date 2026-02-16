@@ -1,0 +1,37 @@
+{
+  "page_id": "AT-14",
+  "section_header": "AUTOMATIC TRANSMISSION — Electric Control",
+  "title": "Continued from page AT-13",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Flowchart for ECT ECU diagnostic procedure showing voltage tests and fault paths",
+      "labels": [
+        "Connect ECT ECU connector and while driving does DG terminal voltage rise from 0V to 7V in sequence?",
+        "0 → 7V",
+        "Transmission faulty",
+        "Solenoid faulty",
+        "0 → 5V",
+        "Proceed to trouble 4 (AT-16)",
+        "0V",
+        "0 → 3V",
+        "There is 12V between ECT ECU terminals 2 - GND when D range.",
+        "Yes",
+        "No",
+        "There is 12V between ECT ECU terminals L - GND when D range.",
+        "No",
+        "Yes",
+        "Neutral start switch circuit faulty",
+        "Neutral start switch faulty",
+        "Try another ECT ECU"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 5,
+        "width": 90,
+        "height": 85
+      }
+    }
+  ]
+}

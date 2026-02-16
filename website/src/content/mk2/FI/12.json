@@ -1,0 +1,142 @@
+{
+  "page_id": "FI-12",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "OK CONTINUED FROM PAGE FI-11",
+  "content": [
+    {
+      "type": "flowchart",
+      "description": "EFI troubleshooting flowchart continuation showing two main diagnostic paths - checking spark plugs and checking EFI electronic circuit",
+      "bbox": {
+        "top": 8,
+        "left": 5,
+        "width": 90,
+        "height": 70
+      }
+    },
+    {
+      "type": "flowchart_box",
+      "title": "CHECK SPARK PLUGS",
+      "content": [
+        {
+          "type": "text",
+          "text": "Max. allowable gap: 1.4 mm (0.055 in.)"
+        },
+        {
+          "type": "text",
+          "text": "Correct insulation resistance:"
+        },
+        {
+          "type": "text",
+          "text": "10 MΩ or more"
+        },
+        {
+          "type": "text",
+          "text": "Precaution: Never attempt to adjust gap on used platinum tipped spark plug."
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "— Note —\nCheck compression pressure if necessary.\n(See page EM-6)"
+    },
+    {
+      "type": "flowchart_decision",
+      "paths": [
+        {
+          "condition": "NO",
+          "actions": [
+            {
+              "number": 1,
+              "text": "Spark plug"
+            },
+            {
+              "number": 2,
+              "text": "Compression pressure\nLimit: 9.0 kg/cm² (128 psi, 883 kPa)\nat 250 rpm"
+            }
+          ]
+        },
+        {
+          "condition": "All Plugs WET",
+          "actions": [
+            {
+              "number": 1,
+              "text": "Injector(s) — shorted or leaking"
+            },
+            {
+              "number": 2,
+              "text": "Injector wiring(s) between resistor and ECU shorted"
+            },
+            {
+              "number": 3,
+              "text": "Cold start injector — leakage\n(See page FI-49)"
+            },
+            {
+              "number": 4,
+              "text": "Start injector time switch\n(See page FI-71)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flowchart_box",
+      "title": "CHECK EFI ELECTRONIC CIRCUIT USING VOLT/OHMMETER",
+      "position": "below spark plugs check",
+      "result": "OK"
+    },
+    {
+      "type": "flowchart_decision",
+      "condition": "NO",
+      "actions": [
+        {
+          "number": 1,
+          "text": "Wiring connection"
+        },
+        {
+          "number": 2,
+          "text": "Power to ECU",
+          "subitems": [
+            {
+              "number": 1,
+              "text": "Fusible link"
+            },
+            {
+              "number": 2,
+              "text": "Fuse"
+            },
+            {
+              "number": 3,
+              "text": "No. 1 and No. 2 main relay"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Air flow meter"
+        },
+        {
+          "number": 4,
+          "text": "Water temp. sensor"
+        },
+        {
+          "number": 5,
+          "text": "Injection signal circuit",
+          "subitems": [
+            {
+              "number": 1,
+              "text": "Injector wiring"
+            },
+            {
+              "number": 2,
+              "text": "Resistor"
+            },
+            {
+              "number": 3,
+              "text": "ECU"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

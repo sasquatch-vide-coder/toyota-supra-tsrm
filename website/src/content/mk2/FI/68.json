@@ -1,0 +1,126 @@
+{
+  "page_id": "FI-68",
+  "section_header": "EFI SYSTEM — Electronic Control System",
+  "title": "Main Relay",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Main relay circuit diagram showing EFI fuse (15A), fusible link, ignition switch, No. 1 Main Relay, No. 2 Main Relay, ECU connections (ECU +B and ECU M-REL), IGNITION Fuse 7.5A, and resistor. Ground symbols are shown at multiple points.",
+      "labels": [
+        "EFI Fuse (15A)",
+        "Fusible Link",
+        "Ignition Switch",
+        "No. 1 Main Relay",
+        "No. 2 Main Relay",
+        "ECU +B",
+        "ECU M-REL",
+        "IGNITION Fuse 7.5A",
+        "Fusible Link",
+        "Resistor"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 90,
+        "height": 35
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF MAIN RELAYS"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Location diagram showing No. 1 Main Relay and No. 2 Main Relay positions in the vehicle, appears to be near the engine bay area",
+      "labels": [
+        "No. 2 Main Relay",
+        "No. 1 Main Relay"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 5,
+        "width": 35,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. CHECK MAIN RELAYS OPERATION"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Turn on the ignition switch.",
+        "(b) At this time an operation noise will occur from the relay."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. MEASURE RESISTANCE OF MAIN RELAYS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the No. 1 main relay from the relay block. Unplug the connector from the No. 2 main relay.",
+        "(b) Measure the resistance between each terminal."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Terminal diagrams showing pin layouts for No. 1 Main Relay and No. 2 Main Relay, both showing 4 terminals numbered 1-4 in specific configurations",
+      "labels": [
+        "No. 1 Main Relay",
+        "No. 2 Main Relay",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bbox": {
+        "top": 65,
+        "left": 5,
+        "width": 35,
+        "height": 15
+      }
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "",
+        "Between terminals",
+        "Resistance Ω"
+      ],
+      "rows": [
+        [
+          "No. 1 Main Relay",
+          "1 — 2",
+          "40 — 60"
+        ],
+        [
+          "",
+          "3 — 4",
+          "infinity"
+        ],
+        [
+          "No. 2 Main Relay",
+          "1 — 2",
+          "60 — 120"
+        ],
+        [
+          "",
+          "3 — 4",
+          "infinity"
+        ]
+      ]
+    }
+  ]
+}

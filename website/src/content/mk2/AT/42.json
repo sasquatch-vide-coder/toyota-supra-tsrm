@@ -1,0 +1,154 @@
+{
+  "page_id": "AT-42",
+  "section_header": "AUTOMATIC TRANSMISSION — Removal of Transmission",
+  "title": "REMOVAL OF TRANSMISSION",
+  "content": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 1,
+          "text": "DISCONNECT BATTERY CABLE FROM NEGATIVE TERMINAL"
+        },
+        {
+          "step": 2,
+          "heading": "DRAIN COOLANT",
+          "text": "Open the radiator drain cock and drain coolant into a suitable container."
+        },
+        {
+          "step": 3,
+          "text": "DISCONNECT UPPER RADIATOR HOSE"
+        },
+        {
+          "step": 4,
+          "text": "DISCONNECT AIR INTAKE CONNECTOR"
+        },
+        {
+          "step": 5,
+          "heading": "DISCONNECT TRANSMISSION THROTTLE CABLE",
+          "substeps": [
+            {
+              "substep": "a",
+              "text": "Loosen the adjusting nuts, and disconnect the cable housing from the bracket."
+            },
+            {
+              "substep": "b",
+              "text": "Disconnect the cable from the throttle linkage."
+            },
+            {
+              "substep": "c",
+              "text": "Disconnect the throttle cable from the engine rear end."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "heading": "RAISE VEHICLE AND DRAIN TRANSMISSION",
+          "caution": "Be sure the vehicle is securely supported."
+        },
+        {
+          "step": 7,
+          "heading": "DISCONNECT THREE WIRING CONNECTORS",
+          "text": "Disconnect the three connectors located near the starter."
+        },
+        {
+          "step": 8,
+          "heading": "REMOVE INTERMEDIATE PROPELLER SHAFT TOGETHER WITH CENTER BEARING",
+          "substeps": [
+            {
+              "substep": "a",
+              "text": "Disconnect the propeller shaft from the intermediate shaft."
+            },
+            {
+              "substep": "b",
+              "text": "Remove the center bearing."
+            },
+            {
+              "substep": "c",
+              "text": "Remove the intermediate shaft."
+            }
+          ]
+        },
+        {
+          "step": 9,
+          "heading": "DISCONNECT EXHAUST PIPE FROM TAIL PIPE",
+          "substeps": [
+            {
+              "substep": "a",
+              "text": "Disconnect the pipe at the rear side of the converter."
+            },
+            {
+              "substep": "b",
+              "text": "Remove the two rubber hangers."
+            },
+            {
+              "substep": "c",
+              "text": "Remove the pipe clamp from the transmission case."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing disconnection of battery cable from negative terminal, located near engine compartment",
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      },
+      "label": "AT0903"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing disconnection of transmission throttle cable with adjusting nuts and cable housing",
+      "bbox": {
+        "top": 31,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      },
+      "label": "AT0861"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing location of three wiring connectors near the starter motor",
+      "bbox": {
+        "top": 58,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      },
+      "label": "AT0864"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of intermediate propeller shaft and center bearing",
+      "bbox": {
+        "top": 79,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      },
+      "label": "AT1199"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing disconnection of exhaust pipe from tail pipe with rubber hangers and pipe clamp",
+      "bbox": {
+        "top": 104,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      },
+      "label": "AT0943"
+    }
+  ]
+}

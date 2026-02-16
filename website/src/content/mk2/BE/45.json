@@ -1,0 +1,66 @@
+{
+  "page_id": "BE-45",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Tachometer wiring diagram showing tachometer unit connected to a connector with numbered terminals (1-6), including GND and Dim connections",
+      "labels": [
+        "Tachometer",
+        "GND",
+        "Dim ②",
+        "①",
+        "②",
+        "③"
+      ],
+      "bbox": {
+        "top": 6,
+        "left": 3,
+        "width": 45,
+        "height": 36
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Sub-harness (SS1) connection diagram showing wiring to a multimeter with TR and E terminals, connected to TB connector",
+      "labels": [
+        "Sub harness (SS1)",
+        "TR ①",
+        "E ①",
+        "②",
+        "③"
+      ],
+      "bbox": {
+        "top": 6,
+        "left": 52,
+        "width": 45,
+        "height": 36
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Rheostat testing diagram showing MIN (Bright), ON, MAX (Fade), and OFF positions with multimeter connections to E and TR terminals",
+      "labels": [
+        "MIN (Bright)",
+        "ON",
+        "MAX (Fade)",
+        "OFF",
+        "Rheostat",
+        "E",
+        "TR",
+        "②",
+        "③"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 45,
+        "height": 42
+      }
+    }
+  ]
+}

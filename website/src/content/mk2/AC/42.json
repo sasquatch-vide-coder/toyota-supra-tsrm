@@ -1,0 +1,133 @@
+{
+  "page_id": "AC-42",
+  "section_header": "AIR CONDITIONING SYSTEM — Vacuum Switching Valve (VSV)",
+  "title": "VACUUM SWITCHING VALVE (VSV)",
+  "subtitle": "(See page AC-22)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "VSV connected to battery terminals showing pipes labeled G, F, and E with air flow direction",
+      "labels": [
+        "G",
+        "F",
+        "E",
+        "Battery terminals"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "VSV connected to battery terminals showing different pipe configuration with labeled connections",
+      "labels": [
+        "G",
+        "F",
+        "E",
+        "Battery terminals"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Ohmmeter connected to VSV terminals to check for short circuit",
+      "labels": [
+        "Ohmmeter",
+        "VSV terminals"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Ohmmeter connected to VSV terminals to measure resistance for open circuit check",
+      "labels": [
+        "Ohmmeter",
+        "VSV terminals"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF VSV"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "title": "CHECK VACUUM CIRCUIT CONTINUITY IN VSV BY BLOWING AIR INTO PIPES",
+          "steps": [
+            {
+              "label": "(a)",
+              "text": "Connect the VSV terminals to the battery terminals as illustrated."
+            },
+            {
+              "label": "(b)",
+              "text": "Blow into pipe \"F\" and check that air comes out of pipe \"E\"."
+            },
+            {
+              "label": "(c)",
+              "text": "Disconnect the battery."
+            },
+            {
+              "label": "(d)",
+              "text": "Blow into pipe \"F\" and check that air comes out of the filter \"G\"."
+            }
+          ],
+          "action": "If a problem is found, repair or replace the VSV."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        {
+          "title": "CHECK FOR SHORT CIRCUIT",
+          "text": "Using an ohmmeter, check that there is no continuity between each terminal and the VSV body.",
+          "action": "If there is continuity, replace the VSV."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        {
+          "title": "CHECK FOR OPEN CIRCUIT",
+          "text": "Using an ohmmeter, measure the resistance between the two terminals.",
+          "specification": {
+            "parameter": "Resistance:",
+            "value": "38 — 43 Ω (cold)"
+          },
+          "action": "If resistance is not within specification, replace the VSV."
+        }
+      ]
+    }
+  ]
+}

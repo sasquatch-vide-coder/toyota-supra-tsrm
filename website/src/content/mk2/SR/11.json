@@ -1,0 +1,152 @@
+{
+  "page_id": "SR-11",
+  "section_header": "STEERING — Steering Column Assembly with Tilt Steering",
+  "title": "STEERING — Steering Column Assembly with Tilt Steering",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Upper bracket assembly showing wiring clamp installation with two bolts",
+      "labels": [
+        "Wiring Clamp"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. ASSEMBLE UPPER BRACKET AND SUPPORT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Apply anaerobic adhesive and sealant (THREE BOND 1324 (Part No. 08833-00070) or equivalent) to 1 or 2 threads of the bolt end."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "anaerobic adhesive and sealant",
+      "number": "08833-00070",
+      "description": "THREE BOND 1324 or equivalent"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: This adhesive will not harden while exposed to air. It will act as a sealer or binding agent only when applied between of threads, etc. and air is cut off."
+    },
+    {
+      "type": "text",
+      "text": "(b) Install the two bolts; one with a wiring clamp."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Upper bracket bolts",
+      "value": "75 kg-cm (65 in.-lb, 7.4 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "(c) Install the support reinforcement."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Column bracket installation showing bracket attachment to column tube",
+      "labels": [],
+      "bbox": {
+        "top": 21,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. ASSEMBLE COLUMN BRACKET TO COLUMN TUBE"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Column bracket to column tube",
+      "value": "185 kg-cm (13 ft-lb, 18 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. CONNECT MAIN SHAFT AND INTERMEDIATE SHAFT"
+    },
+    {
+      "type": "text",
+      "text": "Align the marks on the joint flange and intermediate shaft and tighten the bolt."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Main shaft to intermediate shaft",
+      "value": "250 kg-cm (18 ft-lb, 25 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installation of tension springs and cords showing connection points to hanger, support and cord guides",
+      "labels": [],
+      "bbox": {
+        "top": 39,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. INSTALL TWO SPRINGS AND TWO CORDS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the tension spring and cord, and hook the spring to the hanger.",
+        "(b) Pry the spring end and hook the cord end to the support.",
+        "(c) Hook the cords to the cord guides."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. CHECK OPERATION OF TILT STEERING LEVER AND SUPPORT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that there is no axial or horizontal play at the end of the main shaft.",
+        "(b) Check that the main shaft lock securely in all six positions."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Ignition switch installation showing key cylinder being inserted into upper bracket with key turned to ACC position",
+      "labels": [],
+      "bbox": {
+        "top": 69,
+        "left": 1,
+        "width": 48,
+        "height": 24
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSTALL IGNITION SWITCH"
+    },
+    {
+      "type": "text",
+      "text": "Turn the ignition key plate to the ACC position, and install the key cylinder into the upper bracket."
+    }
+  ]
+}

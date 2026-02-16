@@ -1,0 +1,139 @@
+{
+  "page_id": "RA-45",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension",
+  "title": "Coil Spring and Rear Shock Absorber",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF COIL SPRING AND SHOCK ABSORBER"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Vehicle jacked up showing differential carrier assembly and rear suspension member supported with jack stands",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      },
+      "reference": "SH0073"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 1,
+          "heading": "JACK UP VEHICLE",
+          "text": "Jack up the differential carrier assembly and support the rear suspension member with stands."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Rear suspension showing brake hose clips and stabilizer bar end connection points",
+      "labels": [],
+      "bbox": {
+        "top": 23,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      },
+      "reference": "RA0080"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 2,
+          "heading": "REMOVE BRAKE HOSE CLIPS",
+          "text": ""
+        },
+        {
+          "step": 3,
+          "heading": "REMOVE STABILIZER BAR END",
+          "text": "Disconnect the nut, cushion and retainer from suspension arm."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Removal of drive shaft nut from rear hub assembly",
+      "labels": [],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      },
+      "reference": "RA0065"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 4,
+          "heading": "REMOVE DRIVE SHAFT",
+          "text": "Remove the nut holding the rear drive shaft."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Suspension arm with jack placement point indicated",
+      "labels": [
+        "Jack Up Point"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      },
+      "reference": "RA0362"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 5,
+          "heading": "LEAVE A JACK UNDER SUSPENSION ARM",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Bolt holding shock absorber to suspension arm with shock absorber connection detail",
+      "labels": [],
+      "bbox": {
+        "top": 80,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      },
+      "reference": "RA0134"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 6,
+          "heading": "REMOVE REAR SHOCK ABSORBER",
+          "text": "(a) Remove the bolt holding the shock absorber to the rear suspension arm and disconnect the shock absorber."
+        }
+      ]
+    }
+  ]
+}

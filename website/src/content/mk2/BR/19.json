@@ -1,0 +1,200 @@
+{
+  "page_id": "BR-19",
+  "section_header": "BRAKE SYSTEM — Front Brake",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing installation of main pin boot on brake caliper assembly",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "4. INSTALL MAIN PIN BOOT"
+    },
+    {
+      "type": "text",
+      "text": "Using a 21-mm socket wrench, press in the boot."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of dust boot and sliding bushing onto brake caliper",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "5. INSTALL DUST BOOT AND SLIDING BUSHING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the dust boot."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Be careful that the seal does not fold under."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Install the bushing into the boot facing the flange toward the inside."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Reference box indicating to see front brake replacement of brake pads section",
+      "labels": [
+        "SEE FRONT BRAKE REPLACEMENT OF BRAKE PADS BR-14"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF CYLINDER"
+    },
+    {
+      "type": "text",
+      "text": "(See page BR-14)"
+    },
+    {
+      "type": "text",
+      "text": "1. INSTALL FOLLOWING PARTS:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Pad support plate",
+        "(b) Pad guide plates",
+        "(c) Anti-rattle springs",
+        "(d) Brake pads",
+        "(e) Anti-squeal shim"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing cylinder installation onto main pin and over brake pads",
+      "labels": [],
+      "bbox": {
+        "top": 66,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "2. INSTALL CYLINDER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the cylinder onto the main pin."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Make sure that the boot end is installed into the groove of the main pin."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Install the cylinder over the brake pads."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "3. INSTALL CYLINDER INSTALLATION BOLTS"
+    },
+    {
+      "type": "text",
+      "text": "Install the cylinder installation bolts, torque one bolt."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Cylinder installation bolts",
+      "value": "200 kg-cm (14 ft-lb, 20 N·m)"
+    },
+    {
+      "type": "notice",
+      "text": "Insert the installation bolt into the cylinder carefully so as not to wedge the boot."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing brake hose connection to cylinder on brake assembly",
+      "labels": [],
+      "bbox": {
+        "top": 87,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "4. CONNECT BRAKE LINE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the brake hose to the cylinder."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Brake hose to cylinder",
+      "value": "235 kg-cm (17 ft-lb, 23 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Using SST, connect brake hose to the brake tube."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09751-36011",
+      "description": null
+    },
+    {
+      "type": "torque_spec",
+      "component": "Brake hose to brake tube",
+      "value": "155 kg-cm (11 ft-lb, 15 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "5. FILL BRAKE RESERVOIR WITH BRAKE FLUID AND BLEED BRAKE (See page BR-7)"
+    }
+  ]
+}

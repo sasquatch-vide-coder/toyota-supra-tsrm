@@ -1,0 +1,57 @@
+{
+  "page_id": "AT-105",
+  "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+  "title": "ASSEMBLY OF TRANSMISSION",
+  "content": [
+    {
+      "type": "text",
+      "text": "Disassembly, inspection and assembly of each component group have been indicated in the preceding chapter. This chapter deals with assembly of A43DE transmission."
+    },
+    {
+      "type": "text",
+      "text": "Before assembly, make sure again that all component groups are assembled correctly. If something wrong is found in a certain component group during assembly, inspect and repair this group immediately."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "GENERAL ASSEMBLY NOTE:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The automatic transmission is composed of highly precision-finished parts, necessitating careful inspection before assembly because even a small nick could cause fluid leakage or affect performance.",
+        "Do not use adhesive cements on gaskets and similar parts.",
+        "Before assembling new clutch discs, soak them in automatic transmission fluid for at least two hours.",
+        "When assembling the transmission, be sure to use new gaskets and O-rings.",
+        "Apply automatic transmission fluid on sliding or rotating surfaces of the parts before assembly.",
+        "Dry all parts by blowing with compressed air. Never use shop rags.",
+        "Use petroleum jelly to keep the small parts in their places.",
+        "Be sure to install the thrust bearings and races in the correct direction and position."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cross-sectional view of automatic transmission showing internal components labeled A through I from front to rear. The diagram shows the transmission housing with various internal mechanisms including clutch packs, planetary gears, and shafts. Below the cross-section are individual component illustrations showing the detailed views of components A through I.",
+      "labels": [
+        "Front",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "bbox": {
+        "top": 48,
+        "left": 5,
+        "width": 90,
+        "height": 48
+      }
+    }
+  ]
+}

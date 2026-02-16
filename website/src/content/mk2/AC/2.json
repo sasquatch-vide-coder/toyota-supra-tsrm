@@ -1,0 +1,178 @@
+{
+  "page_id": "AC-2",
+  "section_header": "AIR CONDITIONING SYSTEM — Precautions, Troubleshooting",
+  "title": "PRECAUTIONS",
+  "content": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1",
+          "title": "When handling refrigerant (R-12), the following precautions should be observed:",
+          "subitems": [
+            {
+              "label": "(a)",
+              "text": "Always wear eye protection."
+            },
+            {
+              "label": "(b)",
+              "text": "Keep the refrigerant container (service drum) below 40°C (104°F)."
+            },
+            {
+              "label": "(c)",
+              "text": "Do not handle refrigerant in an enclosed area where there is an open flame."
+            },
+            {
+              "label": "(d)",
+              "text": "Discharge refrigerant slowly when purging the system."
+            },
+            {
+              "label": "(e)",
+              "text": "Be careful that the liquid refrigerant does not get on your skin."
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "title": "If liquid refrigerant gets in the eyes or on the skin:",
+          "subitems": [
+            {
+              "label": "(a)",
+              "text": "Do not rub the eye or skin."
+            },
+            {
+              "label": "(b)",
+              "text": "Wash the area with a lot of cool water."
+            },
+            {
+              "label": "(c)",
+              "text": "Apply clean petroleum jelly to the skin."
+            },
+            {
+              "label": "(d)",
+              "text": "Rush to a physician or hospital for immediate professional treatment."
+            },
+            {
+              "label": "(e)",
+              "text": "Do not attempt to treat yourself."
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "title": "When tubing:",
+          "subitems": [
+            {
+              "label": "(a)",
+              "text": "Apply a few drops of compressor oil to the seats of the O-ring fittings."
+            },
+            {
+              "label": "(b)",
+              "text": "Tighten the nut using two wrenches to avoid twisting the tube."
+            },
+            {
+              "label": "(c)",
+              "text": "Tighten the O-ring fitting to the specified torque."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Tightening torque for O-ring fittings",
+      "headers": [
+        "Fitting size",
+        "Torque"
+      ],
+      "rows": [
+        [
+          "0.31 in. Tube",
+          "135 kg-cm  (10 ft-lb, 13 N·m)"
+        ],
+        [
+          "0.50 in. Tube",
+          "225 kg-cm  (16 ft-lb, 22 N·m)"
+        ],
+        [
+          "0.62 in. Tube",
+          "325 kg-cm  (24 ft-lb, 32 N·m)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "TROUBLESHOOTING"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Symptom",
+        "Possible causes",
+        "Checks and corrections",
+        "Page"
+      ],
+      "rows": [
+        {
+          "symptom": "No blower operation",
+          "possible_causes": [
+            "Blown circuit breaker",
+            "Defective blower motor",
+            "Defective heater relay",
+            "Defective A/C cut-off relay",
+            "Defective blower switch",
+            "Defective wiring connection"
+          ],
+          "checks_and_corrections": [
+            "Replace",
+            "Check and repair",
+            "Check operation",
+            "Check operation",
+            "Check for short or open",
+            "Check and repair"
+          ],
+          "page": [
+            "AC-9",
+            "AC-9",
+            "AC-9",
+            "AC-9",
+            "AC-9",
+            "AC-9"
+          ]
+        },
+        {
+          "symptom": "No blower control",
+          "possible_causes": [
+            "Blown blower resistor",
+            "Defective blower switch",
+            "Defective temperature sensors (in-car sensor, ambient sensor)",
+            "Defective rheostat",
+            "Defective power servo unit",
+            "Defective DVV",
+            "Defective amplifier"
+          ],
+          "checks_and_corrections": [
+            "Replace",
+            "Check for short or open",
+            "Check for short or open",
+            "Check for short or open",
+            "Check operation",
+            "Check operation",
+            "Check operation"
+          ],
+          "page": [
+            "AC-9",
+            "AC-9",
+            "AC-19",
+            "AC-9",
+            "AC-17",
+            "AC-20",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

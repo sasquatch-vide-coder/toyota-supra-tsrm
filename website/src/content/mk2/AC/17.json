@@ -1,0 +1,155 @@
+{
+  "page_id": "AC-17",
+  "section_header": "AIR CONDITIONING SYSTEM — Functional Test and Adjustment",
+  "title": "Power Servo Unit Operation",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Power Servo Unit Operation"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "title": "REMOVE COMPONENTS FROM VEHICLE",
+          "subitems": [
+            "(a) Undercover",
+            "(b) Center cluster"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Image showing check connector location on normal condition relay",
+      "labels": [
+        "CHECK CONNECTOR",
+        "NORMAL CONDITION RELAY"
+      ],
+      "bbox": {
+        "top": 20,
+        "left": 2,
+        "width": 28,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        {
+          "number": "2.",
+          "text": "RECONNECT TO CHECK CONNECTOR"
+        },
+        {
+          "number": "3.",
+          "text": "RUN ENGINE AT IDLING"
+        },
+        {
+          "number": "4.",
+          "text": "PLACE BLOWER CONTROL LEVER AT AUTO AIR FLOW CONTROL LEVER AT VENT TEMPERATURE CONTROL LEVER AT 77"
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Control panel diagram showing Temperature Control Lever, Air Flow Control Lever, Blower Control Lever, and Air Intake Control Lever positions",
+      "labels": [
+        "Temperature Control Lever",
+        "Air Flow Control Lever",
+        "Blower Control Lever",
+        "Air Intake Control Lever"
+      ],
+      "bbox": {
+        "top": 37,
+        "left": 2,
+        "width": 28,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 5,
+      "items": [
+        {
+          "number": "5.",
+          "title": "CHECK BLOWER SPEED CONTROL BY SLIDING TEMPERATURE CONTROL LEVER",
+          "subitems": [
+            "(a) When sliding the lever to 70, the blower speed will change in five steps.",
+            "(b) When sliding the lever to 85, the blower speed will change in four steps."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Close-up photograph of water valve component",
+      "labels": [
+        "WATER VALVE"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 2,
+        "width": 28,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        {
+          "number": "6.",
+          "title": "CHECK WATER VALVE OPERATION BY SLIDING TEMPERATURE CONTROL LEVER",
+          "subitems": [
+            "(a) When placing the lever at the left side fully, the water valve will close.",
+            "(b) When placing the lever at 75 or more, the water valve will open."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Photograph showing power servo stem component",
+      "labels": [
+        "POWER SERVO STEM"
+      ],
+      "bbox": {
+        "top": 78,
+        "left": 2,
+        "width": 28,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 7,
+      "items": [
+        {
+          "number": "7.",
+          "text": "CHECK POWER SERVO STEM FOR A SMOOTH OPERATION BY SLIDING TEMPERATURE CONTROL LEVER"
+        },
+        {
+          "number": "8.",
+          "text": "REINSTALL UNDERCOVER AND CENTER CLUSTER"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "page_id": "ST-8",
+  "section_header": "STARTING SYSTEM — Starter",
+  "title": "ASSEMBLY OF STARTER",
+  "content": [
+    {
+      "type": "reference",
+      "text": "(See page ST-3)"
+    },
+    {
+      "type": "notice",
+      "text": "Use high-temperature grease to lubricate the bearings and gears when assembling the starter."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. PLACE ARMATURE INTO FIELD FRAME"
+    },
+    {
+      "type": "text",
+      "text": "Apply grease to the armature bearings and insert the armature into the field frame."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing installation of brush holder and brushes into starter assembly, with hands holding screwdriver to compress brush spring",
+      "labels": [
+        "ST0313"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL BRUSH HOLDER AND BRUSHES"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a screwdriver, hold the brush spring back and install the brush into the brush holder. Install four brushes."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Make sure that the positive lead wires are not grounded."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Place the O-ring on the field frame.",
+        "(c) Install the end cover to the field frame."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL FIELD FRAME WITH ARMATURE IN MAGNETIC SWITCH"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place the O-ring on the field frame.",
+        "(b) Match the protrusion of the field frame with the magnetic switch."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Exploded view showing field frame assembly and magnetic switch being aligned and assembled",
+      "labels": [
+        "87637"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSERT STEEL BALL AND SPRING INTO CLUTCH SHAFT HOLE"
+    },
+    {
+      "type": "text",
+      "text": "Apply grease to the ball and insert it into the clutch shaft hole."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hands inserting steel ball and spring into clutch shaft hole",
+      "labels": [
+        "ST0084"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL GEARS AND CLUTCH ASSEMBLY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Apply grease to the gear and clutch assembly.",
+        "(b) Place the clutch assembly and idler gear in the starter housing.",
+        "(c) Install the pinion gear onto the armature shaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Exploded view showing idler gear, bearing, and clutch assembly components and their assembly orientation",
+      "labels": [
+        "Bearing",
+        "Idler Gear",
+        "Clutch Assembly",
+        "ST0282"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    }
+  ]
+}

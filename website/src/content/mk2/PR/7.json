@@ -1,0 +1,56 @@
+{
+  "page_id": "PR-7",
+  "section_header": "PROPELLER SHAFT — Propeller Shaft",
+  "title": "PROPELLER SHAFT",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand using a hammer and punch to stake a nut on propeller shaft component",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 39,
+        "height": 30
+      }
+    },
+    {
+      "type": "text",
+      "text": "(f) Using a hammer and punch, stake the nut.",
+      "step_label": "f"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Top view of propeller shaft showing alignment marks on flanges with four bolt locations",
+      "labels": [
+        "Marks"
+      ],
+      "bbox": {
+        "top": 33,
+        "left": 2,
+        "width": 39,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL PROPELLER SHAFT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Align the marks on the flanges and connect the flanges with four bolts and nuts.",
+        "(b) Torque the bolts and nuts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Propeller shaft flange bolts and nuts",
+      "value": "430 kg-cm (31 ft-lb, 42 N·m)"
+    }
+  ]
+}

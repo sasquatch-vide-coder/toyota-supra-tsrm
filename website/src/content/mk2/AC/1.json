@@ -1,0 +1,148 @@
+{
+  "page_id": "AC-1",
+  "section_header": "AIR CONDITIONING SYSTEM",
+  "title": "AIR CONDITIONING SYSTEM",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "AIR CONDITIONING SYSTEM"
+    },
+    {
+      "type": "table",
+      "caption": "Table of Contents",
+      "headers": [
+        "Topic",
+        "Page"
+      ],
+      "rows": [
+        [
+          "PRECAUTIONS",
+          "AC-2"
+        ],
+        [
+          "TROUBLESHOOTING",
+          "AC-2"
+        ],
+        [
+          "Checking of Refrigeration System with Manifold Gauge",
+          "AC-4"
+        ],
+        [
+          "SPECIAL TOOLS AND TEST EQUIPMENT",
+          "AC-8"
+        ],
+        [
+          "AIR CONDITIONING SYSTEM CIRCUIT",
+          "AC-9"
+        ],
+        [
+          "ON-VEHICLE INSPECTION",
+          "AC-10"
+        ],
+        [
+          "REFRIGERATION SYSTEM",
+          "AC-11"
+        ],
+        [
+          "Checking of Refrigerant Charge",
+          "AC-11"
+        ],
+        [
+          "Installation of Manifold Gauge Set",
+          "AC-11"
+        ],
+        [
+          "Discharging of Refrigeration System",
+          "AC-12"
+        ],
+        [
+          "Evacuating and Charging of Refrigeration System",
+          "AC-12"
+        ],
+        [
+          "FUNCTIONAL TEST AND ADJUSTMENT",
+          "AC-16"
+        ],
+        [
+          "Vacuum Circuit",
+          "AC-16"
+        ],
+        [
+          "Power Servo Unit Operation",
+          "AC-17"
+        ],
+        [
+          "Automatic Temperature Control",
+          "AC-18"
+        ],
+        [
+          "Air Mix Damper Linkage",
+          "AC-19"
+        ],
+        [
+          "Sensor Circuit",
+          "AC-19"
+        ],
+        [
+          "Double Vacuum Valve (DVV)",
+          "AC-20"
+        ],
+        [
+          "Water Temperature Switch",
+          "AC-20"
+        ],
+        [
+          "Condenser Motor",
+          "AC-21"
+        ],
+        [
+          "SYSTEM COMPONENTS",
+          "AC-22"
+        ],
+        [
+          "COMPRESSOR",
+          "AC-23"
+        ],
+        [
+          "CONDENSER",
+          "AC-36"
+        ],
+        [
+          "RECEIVER",
+          "AC-37"
+        ],
+        [
+          "COOLING UNIT",
+          "AC-37"
+        ],
+        [
+          "Evaporator",
+          "AC-39"
+        ],
+        [
+          "REFRIGERANT LINES",
+          "AC-40"
+        ],
+        [
+          "EXPANSION VALVE",
+          "AC-41"
+        ],
+        [
+          "VACUUM SWITCHING VALVE (VSV)",
+          "AC-42"
+        ]
+      ]
+    },
+    {
+      "type": "section_marker",
+      "text": "AC",
+      "bbox": {
+        "top": 92,
+        "left": 88,
+        "width": 8,
+        "height": 4
+      }
+    }
+  ]
+}

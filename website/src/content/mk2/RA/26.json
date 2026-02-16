@@ -1,0 +1,163 @@
+{
+  "page_id": "RA-26",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "INSPECTION AND REPLACEMENT OF DIFFERENTIAL",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Two bearing outer races labeled L.H. (left hand) and R.H. (right hand)",
+      "labels": [
+        "L.H.",
+        "R.H."
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 26
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Remove the differential case bearing outer race from the carrier."
+    },
+    {
+      "type": "notice",
+      "text": "Tag the bearing outer races to show the location for reassembly."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. REMOVE DRIVE PINION FROM DIFFERENTIAL CARRIER"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION AND REPLACEMENT OF DIFFERENTIAL"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. REPLACE DRIVE PINION REAR BEARING"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using SST and a press, pull out the rear bearing from the drive pinion."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09950-00020",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Drive pinion with SST tool being used to remove rear bearing",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 30,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "notice",
+      "text": "If the drive pinion or ring gear are damaged, replace them as a set."
+    },
+    {
+      "type": "text",
+      "text": "(b) Install the washer on the drive pinion with the chamfered end facing the pinion gear."
+    },
+    {
+      "type": "text",
+      "text": "(c) Using SST and a press, press the reused washer and rear bearing onto the drive pinion."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09506-30011",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Drive pinion with SST tool being used to install washer and bearing",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 50,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. REPLACE DRIVE PINION FRONT AND REAR BEARING OUTER RACE"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using a hammer and brass bar, drive out the outer race."
+    },
+    {
+      "type": "text",
+      "text": "(b) Using SST, drive in a new outer race."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09608-35014",
+      "description": "(09608-06020, 09608-06110, 09608-06120)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Two illustrations showing the process of driving out old outer race and driving in new outer race using SST",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 71,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. REMOVE SIDE BEARINGS FROM DIFFERENTIAL CASE"
+    },
+    {
+      "type": "text",
+      "text": "Using SST, pull the side bearing from the differential case."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09950-20016",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing SST being used to pull side bearing from differential case, with detail circle showing bearing removal",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 89,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    }
+  ]
+}

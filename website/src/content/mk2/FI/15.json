@@ -1,0 +1,160 @@
+{
+  "page_id": "FI-15",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "SYMPTOM — ROUGH IDLING AND/OR MISSING",
+  "content": [
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart for rough idling and/or missing symptoms in EFI system. The flowchart shows a decision tree starting with checking diagnosis system, followed by various diagnostic steps including vacuum leaks, air filter, idle speed, ignition timing, spark plugs, and cold start injector. Each step has OK, BAD, or NO outcomes leading to either next step or corrective actions.",
+      "bbox": {
+        "top": 15,
+        "left": 5,
+        "width": 90,
+        "height": 82
+      },
+      "steps": [
+        {
+          "type": "diagnostic_step",
+          "step_number": 1,
+          "action": "CHECK DIAGNOSIS SYSTEM\nCheck for output of diagnostic code.\n(See page FI-22)",
+          "outcomes": [
+            {
+              "result": "Normal code",
+              "next_action": "Continue to next step"
+            },
+            {
+              "result": "Malfunction code(s)",
+              "action": "Diagnostic code(s)\n(See page FI-25)"
+            }
+          ]
+        },
+        {
+          "type": "diagnostic_step",
+          "step_number": 2,
+          "action": "CHECK FOR VACUUM LEAKS IN AIR INTAKE LINE",
+          "outcomes": [
+            {
+              "result": "OK",
+              "next_action": "Continue to next step"
+            },
+            {
+              "result": "BAD",
+              "action": "1. Oil filler cap\n2. Oil level gauge\n3. Hose connections\n4. PCV hoses\n5. EGR system — EGR valve stays open"
+            }
+          ]
+        },
+        {
+          "type": "diagnostic_step",
+          "step_number": 3,
+          "action": "CHECK AIR FILTER ELEMENT",
+          "outcomes": [
+            {
+              "result": "OK",
+              "next_action": "Continue to next step"
+            },
+            {
+              "result": "BAD",
+              "action": "Element — clean or replace"
+            }
+          ]
+        },
+        {
+          "type": "diagnostic_step",
+          "step_number": 4,
+          "action": "CHECK IDLE SPEED\nSTD: 650 rpm",
+          "outcomes": [
+            {
+              "result": "OK",
+              "next_action": "Continue to next step"
+            },
+            {
+              "result": "BAD",
+              "action": "ISC system\n(1) Wiring connection\n(2) ISC valve\n(3) ECU (test by substitution)"
+            }
+          ]
+        },
+        {
+          "type": "diagnostic_step",
+          "step_number": 5,
+          "action": "CHECK IGNITION TIMING\n1. Short both terminals of the check connector.\n2. Check ignition timing.\n    STD: 10° BTDC\n    (w/short terminals of the check connector)",
+          "outcomes": [
+            {
+              "result": "OK",
+              "next_action": "Continue to next step"
+            },
+            {
+              "result": "NO",
+              "action": "Ignition system"
+            }
+          ]
+        },
+        {
+          "type": "diagnostic_step",
+          "step_number": 6,
+          "action": "CHECK SPARK PLUGS\nMax. allowable gap: 1.4 mm (0.055 in.)",
+          "precaution": "Never attempt to adjust gap on used platinum tipped spark plug.",
+          "note": "Check compression pressure if necessary.\n(See page EM-6)",
+          "outcomes": [
+            {
+              "result": "OK",
+              "next_action": "Continue to next step"
+            },
+            {
+              "result": "NO",
+              "action": "1. Spark plug\n2. Compression pressure\n    Limit: 9.0 kg/cm² (128 psi, 883 kPa)\n    at 250 rpm"
+            }
+          ]
+        },
+        {
+          "type": "diagnostic_step",
+          "step_number": 7,
+          "action": "CHECK COLD START INJECTOR\n(See page FI-43)",
+          "outcomes": [
+            {
+              "result": "OK CONTINUED ON PAGE FI-16",
+              "next_action": "Continue on page FI-16"
+            },
+            {
+              "result": "BAD",
+              "action": "1. Cold start injector\n2. Start injector time switch\n(See page FI-71)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Precaution: Never attempt to adjust gap on used platinum tipped spark plug."
+    },
+    {
+      "type": "notice",
+      "text": "— Note —\nCheck compression pressure if necessary.\n(See page EM-6)"
+    },
+    {
+      "type": "specification",
+      "component": "Idle Speed",
+      "value": "650 rpm",
+      "designation": "STD"
+    },
+    {
+      "type": "specification",
+      "component": "Ignition Timing",
+      "value": "10° BTDC",
+      "designation": "STD",
+      "condition": "w/short terminals of the check connector"
+    },
+    {
+      "type": "specification",
+      "component": "Spark Plug Gap",
+      "value": "1.4 mm (0.055 in.)",
+      "designation": "Max. allowable gap"
+    },
+    {
+      "type": "specification",
+      "component": "Compression Pressure",
+      "value": "9.0 kg/cm² (128 psi, 883 kPa)",
+      "designation": "Limit",
+      "condition": "at 250 rpm"
+    }
+  ]
+}

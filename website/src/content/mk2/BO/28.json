@@ -1,0 +1,107 @@
+{
+  "page_id": "BO-28",
+  "section_header": "BODY — Quarter Window Glass",
+  "title": "REMOVE QUARTER WINDOW GLASS / INSTALLATION OF QUARTER WINDOW GLASS",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. REMOVE FOLLOWING PARTS:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Joint cover",
+        "(b) Roof drip moulding",
+        "(c) Quarter window belt moulding",
+        "(d) Corner moulding",
+        "(e) Center pillar garnish"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing quarter window glass with arrows pointing to glass retainers and screws locations",
+      "labels": [
+        "Glass retainers",
+        "Screws"
+      ],
+      "bbox": {
+        "top": 27,
+        "left": 4,
+        "width": 36,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. REMOVE QUARTER WINDOW GLASS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the glass retainers.",
+        "(b) Remove the glass set screws.",
+        "(c) Push piano wire through from the interior.",
+        "(d) Tie both wire ends to a wooden block.",
+        "(e) Separate the glass by pulling the piano wire around it. Remove the glass."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF QUARTER WINDOW GLASS"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. PREPARE ITEMS LISTED"
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Part Name and Part No.",
+        "Content of Set"
+      ],
+      "rows": [
+        [
+          "Butyl tape set\n(08850 — 00065)",
+          "Butyl tape 9 mm dia. x 150 mm (0.35 x 5.91 in.)\nPrimer 5 cc (0.17 fl. oz.)\nSponge (for applying primer)\nPiano wire 1 mm dia. x 600 mm (0.04 x 23.62 in.) (for slicing off glass)"
+        ],
+        [
+          "Dam kit\n(08581 — 12010)",
+          "Dam\nDouble-stick tape (for sticking on dam)"
+        ],
+        [
+          "Materials required",
+          "Solvent (Alcohol, unleaded gasoline) (for cleaning adhering surfaces)"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Two illustrations showing hands wiping/cleaning the quarter window glass and body area with cloth",
+      "labels": [],
+      "bbox": {
+        "top": 82,
+        "left": 4,
+        "width": 36,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CLEAN BODY AND GLASS"
+    },
+    {
+      "type": "text",
+      "text": "Wipe off any adhesive left on body and glass with alcohol or unleaded gasoline."
+    }
+  ]
+}

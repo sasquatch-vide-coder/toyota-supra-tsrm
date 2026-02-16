@@ -1,0 +1,63 @@
+{
+  "page_id": "BE-120",
+  "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer",
+  "title": "Trip Computer Troubleshooting Test C",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Test C Header",
+      "headers": [
+        "TEST",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "C",
+          "MPG indication always 70 miles/gal or trip reading does not change."
+        ]
+      ]
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart starting with MPG reading check",
+      "bbox": {
+        "top": 15,
+        "left": 2,
+        "width": 96,
+        "height": 30
+      },
+      "steps": [
+        {
+          "question": "Does MPG always indicate 70 or trip reading not change?",
+          "yes": "Replace DISPLAY CLUSTER.",
+          "no": "Continue to next step"
+        },
+        {
+          "question": "Does voltage change from 0 to 5V between terminals r and GND of 14-terminal connector in accordance with fuel consumption?",
+          "no": "Replace Keyboard.",
+          "yes": "Replace DISPLAY CLUSTER."
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "If tester indication can be verified, this check is okay.\nAnalog Type: Needle fluctuation\nDigital Type: Number change"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "14-terminal Connector of DISPLAY CLUSTER showing connector with terminals r and GND highlighted, connected to what appears to be a trip computer or keyboard unit",
+      "labels": [
+        "14-terminal Connector of DISPLAY CLUSTER",
+        "GND",
+        "r"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 3,
+        "width": 54,
+        "height": 36
+      }
+    }
+  ]
+}

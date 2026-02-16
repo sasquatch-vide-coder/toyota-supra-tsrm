@@ -1,0 +1,149 @@
+{
+  "page_id": "EM-21",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "ENGINE MECHANICAL — Cylinder Head",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of pulsation damper and No. 1 fuel pipe from engine",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. REMOVE PULSATION DAMPER AND NO. 1 FUEL PIPE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. REMOVE WATER OUTLET HOUSING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Loosen the clamp and disconnect the water by-pass hose.",
+        "(b) Remove the two bolts and remove the outlet housing."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of intake manifold with eight bolts and two nuts locations",
+      "labels": [],
+      "bbox": {
+        "top": 27,
+        "left": 5,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. REMOVE INTAKE MANIFOLD"
+    },
+    {
+      "type": "text",
+      "text": "Remove the eight bolts and two nuts holding the intake manifold and remove the intake manifold and gasket."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing power steering pump removal from bracket",
+      "labels": [],
+      "bbox": {
+        "top": 45,
+        "left": 5,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. REMOVE POWER STEERING PUMP FROM BRACKET"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the PS pump pulley with the drive belt.",
+        "(b) Remove the PS pump stay.",
+        "(c) Remove the PS pump from the bracket.",
+        "(d) Lay the PS pump to one side without disconnecting the hoses."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing exhaust manifold with five nuts and two heat insulators marked",
+      "labels": [],
+      "bbox": {
+        "top": 63,
+        "left": 5,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "15. REMOVE EXHAUST MANIFOLD"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the five nuts and the two heat insulators.",
+        "(b) Remove seven nuts and the exhaust manifold."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "16. REMOVE TIMING BELT AND CAMSHAFT TIMING PULLEYS (See steps 9 to 13 on page EM-12)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing oil pressure regulator and timing belt cover stay removal",
+      "labels": [],
+      "bbox": {
+        "top": 81,
+        "left": 5,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "17. REMOVE OIL PRESSURE REGULATOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the two bolts and the timing belt cover stay.",
+        "(b) Remove the three bolts and the oil pressure regulator and gasket."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "18. REMOVE NO. 2 TIMING BELT COVER"
+    },
+    {
+      "type": "text",
+      "text": "Remove the three bolts and two nuts and the No. 2 timing belt cover and gasket."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "page_id": "AC-10",
+  "section_header": "AIR CONDITIONING SYSTEM — On-Vehicle Inspection",
+  "title": "ON-VEHICLE INSPECTION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. CHECK CONDENSER FINS FOR BLOCKAGE OR DAMAGE"
+    },
+    {
+      "type": "text",
+      "text": "If the fins are clogged, clean them with pressurized water."
+    },
+    {
+      "type": "caution",
+      "text": "Be careful not to damage the fins."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Belt tension measurement diagram showing gauge placement between Nippondenso and Borroughs components, with measurement setup on engine components",
+      "labels": [
+        "Nippondenso",
+        "Borroughs",
+        "EG0603 EG0604 EG0601"
+      ],
+      "bbox": {
+        "top": 25,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CHECK DRIVE BELT TENSION"
+    },
+    {
+      "type": "text",
+      "text": "Using a belt tension gauge, check the drive belt tension."
+    },
+    {
+      "type": "text",
+      "text": "Belt tension gauge:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Manufacturer",
+        "Part Number"
+      ],
+      "rows": [
+        [
+          "Nippondenso",
+          "BTG-20 (95506-00020) or"
+        ],
+        [
+          "Borroughs",
+          "No. BT-33-73F"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Drive belt tension:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Belt Type",
+        "Tension"
+      ],
+      "rows": [
+        [
+          "New belt",
+          "160 ± 20 lb"
+        ],
+        [
+          "Used belt",
+          "105 ± 10 lb"
+        ]
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "\"New belt\" refers to a belt which has been used less than 5 minutes on a running engine.",
+        "\"Used belt\" refers to a belt which has been used on a running engine for 5 minutes or more."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. START ENGINE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. TURN ON A/C SWITCH"
+    },
+    {
+      "type": "text",
+      "text": "Check that the A/C operates at each position of the blower switch."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. CHECK MAGNETIC CLUTCH OPERATION"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. CHECK THAT IDLE INCREASES"
+    },
+    {
+      "type": "text",
+      "text": "When the magnetic clutch engages, engine revolution should increase."
+    },
+    {
+      "type": "text",
+      "text": "Standard idle up rpm: 900 — 1,000 rpm"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. CHECK AMOUNT OF REFRIGERANT"
+    },
+    {
+      "type": "text",
+      "text": "If you can see bubbles in the sight glass, additional refrigerant is needed. (See page AC-11)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. IF NO OR INSUFFICIENT COOLING, INSPECT FOR LEAKAGE"
+    },
+    {
+      "type": "text",
+      "text": "Using a gas leak tester, inspect each component of the refrigeration system. (See page AC-11)"
+    }
+  ]
+}

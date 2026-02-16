@@ -1,0 +1,140 @@
+{
+  "page_id": "BO-7",
+  "section_header": "BODY — Front Door",
+  "title": "Front Door Installation Procedures",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the door outside handle mechanism and control link assembly in the door panel",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. ADJUST DOOR OUTSIDE HANDLE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect the control link.",
+        "(b) Raise the handle 0.5 — 1.0 mm (0.020 — 0.039 in.) from the rest position.",
+        "(c) Fit the pin into the hole."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the door lock striker adjustment with a hand holding a wrench and arrows indicating adjustment direction",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. ADJUST DOOR LOCK STRIKER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that the door fit and door lock linkages are adjusted correctly.",
+        "(b) Adjust the striker by loosening the striker mounting screws."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of regulator motor through the door panel service hole",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. INSTALL REGULATOR MOTOR"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Place the wire connector through the outside of the door panel."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the regulator motor through the service hole.",
+        "(b) Tighten the mounting bolts."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing hands installing door glass into the door panel frame",
+      "labels": [],
+      "bbox": {
+        "top": 58,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. INSTALL DOOR GLASS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the front lower frame.",
+        "(b) Install the glass guide into the door panel.",
+        "(c) Install the glass into the door panel.",
+        "(d) Install the glass to the lift arm bracket of the regulator."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing the inside of a door panel with various mounting points for trim support, upper stopper, and inner stabilizer",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSTALL FOLLOWING PARTS:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Trim support",
+        "(b) Upper stopper",
+        "(c) Inner stabilizer"
+      ]
+    }
+  ]
+}

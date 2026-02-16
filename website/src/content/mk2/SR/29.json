@@ -1,0 +1,186 @@
+{
+  "page_id": "SR-29",
+  "section_header": "STEERING — Power Steering",
+  "title": "DISASSEMBLY OF GEAR HOUSING",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page SR-27)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Gear housing clamped in vise showing internal gears and rack mechanism with reference number 25633",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. CLAMP GEAR HOUSING IN VISE"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The rack housing is made of aluminum, so always use soft jaws on the vise and clamp onto the part shown in the figure.",
+        "If clamping onto the center tube, wrap a piece of cloth around it and be careful not to damage the tube."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Rack and pinion assembly showing SST tool locations for removing turn pressure tubes",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 27,
+        "left": 5,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE TURN PRESSURE RIGHT AND LEFT TUBES AND UNION SEATS"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using SST, remove the turn pressure tubes."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09633-22020",
+      "description": ""
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the union seats."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Tie rod end assembly showing matchmarks for alignment, with reference number 25710",
+      "labels": [
+        "Marks"
+      ],
+      "bbox": {
+        "top": 48,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE TIE ROD ENDS"
+    },
+    {
+      "type": "text",
+      "text": "(a) Place matchmarks on the tie rod end and rack end."
+    },
+    {
+      "type": "text",
+      "text": "(b) Loosen the clamp and remove the tie rod end from the rack end."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. REMOVE RACK BOOTS"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Rack assembly showing SST tool positions for removing rack guide spring cap lock nut, with reference number 25508",
+      "labels": [
+        "SST",
+        "SST"
+      ],
+      "bbox": {
+        "top": 70,
+        "left": 5,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. REMOVE RACK GUIDE SPRING CAP LOCK NUT"
+    },
+    {
+      "type": "text",
+      "text": "Using SST, remove the rack guide spring cap lock nut."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09612-24012",
+      "description": "09617-24020"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. REMOVE RACK GUIDE SPRING CAP"
+    },
+    {
+      "type": "text",
+      "text": "Using SST, remove the rack guide spring cap."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09612-24012",
+      "description": "09612-10021"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. REMOVE RACK GUIDE SPRING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. REMOVE RACK GUIDE AND SEAT"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. REMOVE DUST COVER"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. REMOVE CONTROL VALVE HOUSING"
+    },
+    {
+      "type": "text",
+      "text": "(a) Place matchmarks on the control valve housing and rack housing."
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the three bolts."
+    },
+    {
+      "type": "text",
+      "text": "(c) Remove the control valve housing."
+    },
+    {
+      "type": "text",
+      "text": "(d) Remove the O-ring."
+    }
+  ]
+}

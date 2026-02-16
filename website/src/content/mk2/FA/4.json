@@ -1,0 +1,218 @@
+{
+  "page_id": "FA-4",
+  "section_header": "FRONT AXLE AND SUSPENSION - Front Wheel Alignment",
+  "title": "FRONT AXLE AND SUSPENSION - Front Wheel Alignment",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Top view diagram showing wheel angle measurement positions. Shows left and right wheels with positions A (Inside) and B (Outside) marked, with an arrow indicating front direction.",
+      "labels": [
+        "A",
+        "B",
+        "Front",
+        "A : Inside",
+        "B : Outside"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 57,
+        "height": 15
+      },
+      "figure_id": "FA0018"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. ADJUST WHEEL ANGLE"
+    },
+    {
+      "type": "text",
+      "text": "Remove the caps of the knuckle stopper bolts and check the steering angles."
+    },
+    {
+      "type": "text",
+      "text": "Wheel angle:"
+    },
+    {
+      "type": "table",
+      "headers": [],
+      "rows": [
+        [
+          "Inside wheel",
+          "37°35' ± 2°"
+        ],
+        [
+          "Outside wheel",
+          "30°45' (Reference)"
+        ]
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "When the steering wheel is fully turned, make sure that the wheel is not touching the body or brake flexible hose."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Detailed illustration of knuckle stopper bolt area showing bolt location and adjustment mechanism on wheel assembly",
+      "labels": [],
+      "bbox": {
+        "top": 19,
+        "left": 3,
+        "width": 57,
+        "height": 21
+      },
+      "figure_id": "FA0017"
+    },
+    {
+      "type": "text",
+      "text": "If steering angles differ from standard value, adjust the wheel angle with the knuckle stopper bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Knuckle stopper bolts",
+      "value": "350 kg-cm (25 ft-lb, 34 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "If the wheel angle still cannot be adjusted within limits, inspect and replace any damaged or worn steering parts."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. ADJUST CAMBER AND STEERING AXIS INCLINATION"
+    },
+    {
+      "type": "text",
+      "text": "Camber:"
+    },
+    {
+      "type": "table",
+      "headers": [],
+      "rows": [
+        [
+          "Inspection standard",
+          "50' ± 45'"
+        ],
+        [
+          "Left-right error",
+          "30'"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Steering axis inclination:"
+    },
+    {
+      "type": "table",
+      "headers": [],
+      "rows": [
+        [
+          "Inspection standard",
+          "10°10' ± 45'"
+        ],
+        [
+          "Left-right error",
+          "30'"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Side view diagram showing axis inclination and camber angle measurement at 90 degrees on front suspension strut assembly",
+      "labels": [
+        "Axis Inclination",
+        "Camber",
+        "90°"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 3,
+        "width": 57,
+        "height": 21
+      },
+      "figure_id": "FA0274"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. ADJUST CASTER"
+    },
+    {
+      "type": "text",
+      "text": "Caster:"
+    },
+    {
+      "type": "table",
+      "headers": [],
+      "rows": [
+        [
+          "Inspection standard",
+          "4°10' ± 45'"
+        ],
+        [
+          "Adjustment standard",
+          "4°10' ± 30'"
+        ],
+        [
+          "Left-right error",
+          "30'"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Side view diagram showing caster angle measurement at 90 degrees from vertical on wheel and suspension assembly, viewed from front",
+      "labels": [
+        "Front",
+        "Caster",
+        "90°"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 3,
+        "width": 57,
+        "height": 21
+      },
+      "figure_id": "FA0286"
+    },
+    {
+      "type": "text",
+      "text": "If caster is out of tolerance, adjust it at the staked nut of the strut bar."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Strut bar staked nut",
+      "value": "1,050 kg-cm (76 ft-lb, 103 N·m)"
+    },
+    {
+      "type": "notice",
+      "text": "Decrease caster by lengthening the strut bar."
+    },
+    {
+      "type": "notice",
+      "text": "Increase caster by shortening the strut bar. One turn of the nut changes caster by 8'."
+    },
+    {
+      "type": "text",
+      "text": "If caster still cannot be adjusted within limits, inspect and replace damaged or worn front suspension parts."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Detailed illustration showing strut bar adjustment nut location and tool positioning for caster adjustment",
+      "labels": [],
+      "bbox": {
+        "top": 82,
+        "left": 3,
+        "width": 57,
+        "height": 21
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "page_id": "BR-12",
+  "section_header": "BRAKE SYSTEM — Brake Booster",
+  "title": "BRAKE BOOSTER",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "BRAKE BOOSTER"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF BRAKE BOOSTER"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing brake booster assembly components including master cylinder with reservoir, brake booster, gaskets, clip, clevis pin, and hose. Non-reusable parts are marked with diamond symbols.",
+      "labels": [
+        "Gasket",
+        "Brake Booster",
+        "Clip",
+        "Clevis Pin",
+        "Master Cylinder",
+        "Hose"
+      ],
+      "bbox": {
+        "top": 11,
+        "left": 3,
+        "width": 94,
+        "height": 50
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Clevis Pin",
+      "value": "130 (9, 13)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Master Cylinder",
+      "value": "155 (11, 18)"
+    },
+    {
+      "type": "notice",
+      "text": "kg-cm (ft-lb, N·m) : Specified torque"
+    },
+    {
+      "type": "notice",
+      "text": "◆ Non-reusable part"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE MASTER CYLINDER (See page BR-9)",
+        "REMOVE CLEVIS PIN FROM BRAKE PEDAL\nRemove the clip and clevis pin.",
+        "DISCONNECT HOSE FROM BRAKE BOOSTER",
+        "REMOVE BRAKE BOOSTER\nRemove the four nuts, and pull out the brake booster."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Detail illustration showing the clevis pin and clip connection at the brake pedal",
+      "labels": [],
+      "bbox": {
+        "top": 56,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF BRAKE BOOSTER"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "ADJUST LENGTH OF BOOSTER PUSH ROD\nAdjust the length of the booster push rod to provide the specified clearance between the push rod and the master cylinder piston.\nStandard clearance:    0.1 — 0.5 mm\n                       (0.004 — 0.020 in.)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Cross-section diagram showing the clearance measurement between booster push rod and master cylinder piston",
+      "labels": [
+        "Clearance"
+      ],
+      "bbox": {
+        "top": 73,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    }
+  ]
+}

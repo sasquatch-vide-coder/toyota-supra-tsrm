@@ -1,0 +1,204 @@
+{
+  "page_id": "BO-20",
+  "section_header": "BODY — Windshield",
+  "title": "WINDSHIELD TOOLS AND SUPPLIES",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "WINDSHIELD"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TOOLS AND SUPPLIES"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Part Name and Part No.",
+        "Content of Set",
+        "Quantity"
+      ],
+      "rows": [
+        [
+          "Adhesive set\n08850-00070",
+          "Main agent 500 g (17.64 oz.)",
+          "1 can"
+        ],
+        [
+          "[0 – 15°C (32 – 59°F)]",
+          "Hardening agent 75 g (2.65 oz.)",
+          "1 ea."
+        ],
+        [
+          "08850-00080",
+          "Primer G (for glass) 20 g (0.71 oz.)",
+          "1 ea."
+        ],
+        [
+          "",
+          "Primer M (for body) 20 g (0.71 oz.)",
+          "1 ea."
+        ],
+        [
+          "[15 – 35°C (59 – 95°F)]",
+          "Sponge for applying primer",
+          "2 ea."
+        ],
+        [
+          "08850-00090",
+          "Piano wire 0.6 mm dia. × 1 m (0.024 in. dia. × 39.37 in.)",
+          "1 ea."
+        ],
+        [
+          "[36 – 45°C (95 – 113°F)]",
+          "Cartridge",
+          "1 ea."
+        ],
+        [
+          "Dam kit",
+          "Dam",
+          ""
+        ],
+        [
+          "04562-14010",
+          "Double-stick tape (for sticking on dam)",
+          "1 set"
+        ],
+        [
+          "",
+          "Sealant gun (for applying adhesive)",
+          ""
+        ],
+        [
+          "",
+          "Glass or steel sheet (for mixing adhesive)",
+          ""
+        ],
+        [
+          "",
+          "Putty spatula (for mixing adhesive and correcting adhered parts)",
+          ""
+        ],
+        [
+          "",
+          "Solvent (Alcohol, lead-free gasoline — for cleaning adhering surfaces)",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Ambient temperature",
+        "Part No.",
+        "Part name"
+      ],
+      "rows": [
+        [
+          "0 – 15°C\n(32 – 59°F)",
+          "08850-00070",
+          "Windshield glass adhesive set No. 15"
+        ],
+        [
+          "15 – 35°C\n(59 – 95°F)",
+          "08850-00080",
+          "Windshield glass adhesive set No. 35"
+        ],
+        [
+          "36 – 45°C\n(95 – 113°F)",
+          "08850-00090",
+          "Windshield glass adhesive set No. 45"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. CHOOSE AN ADHESIVE SET"
+    },
+    {
+      "type": "text",
+      "text": "Use a proper adhesive set depending upon the ambient temperature."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Graph showing Usable Time (minutes) vs Ambient Temperature (°C) for three windshield glass adhesive types (No. 15, No. 35, No. 45). The graph shows decreasing usable time as temperature increases, with each adhesive having different temperature ranges.",
+      "labels": [
+        "Windshield Glass",
+        "Adhesive",
+        "No. 15",
+        "No. 35",
+        "No. 45",
+        "Ambient Temperature",
+        "Usable Time"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 3,
+        "width": 36,
+        "height": 23
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CHECK ADHESIVE USABLE TIME"
+    },
+    {
+      "type": "text",
+      "text": "After mixing the main and hardening agents, finish glass installation within the specified time as shown."
+    },
+    {
+      "type": "text",
+      "text": "Example:"
+    },
+    {
+      "type": "text",
+      "text": "For glass installation in ambient temperature of 25°C (77°F), apply adhesive set No. 35 within 45 minutes."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Graph showing Hardening Time (minutes) vs Ambient Temperature (°C) for three adhesive types (No. 15, No. 35, No. 45). The graph shows decreasing hardening time as temperature increases.",
+      "labels": [
+        "No. 15",
+        "No. 35",
+        "No. 45",
+        "Ambient Temperature",
+        "Hardening Time"
+      ],
+      "bbox": {
+        "top": 72,
+        "left": 3,
+        "width": 36,
+        "height": 23
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. CHECK ADHESIVE HARDENING TIME"
+    },
+    {
+      "type": "text",
+      "text": "When the main and hardening agents are mixed, leak tests should be made only after the hardening time has elapsed."
+    },
+    {
+      "type": "text",
+      "text": "Example:"
+    },
+    {
+      "type": "text",
+      "text": "Hardening time for adhesive set No. 35 with ambient temperature of 25°C (77°F) is 150 minutes."
+    },
+    {
+      "type": "caution",
+      "text": "Do not drive the vehicle until at least double the hardening time has elapsed."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "page_id": "RA-19",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "REPLACEMENT OF FRONT OIL SEAL COMPONENTS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view of front oil seal components showing companion flange, oil seal, oil slinger, front bearing, spacer, and differential housing assembly",
+      "labels": [
+        "Companion Flange (See page RA-34)",
+        "Oil Seal",
+        "Oil Slinger",
+        "Front Bearing",
+        "Spacer",
+        "Non-reusable part"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 2,
+        "width": 96,
+        "height": 30
+      },
+      "reference": "RA035"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing SST tool being used to remove oil seal from differential housing",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 2,
+        "width": 35,
+        "height": 20
+      },
+      "reference": "RA037A"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 1,
+          "text": "REMOVE DIFFERENTIAL (See page RA-20)"
+        },
+        {
+          "step": 2,
+          "text": "REMOVE COMPANION FLANGE (See step 10 on page RA-24)"
+        },
+        {
+          "step": 3,
+          "text": "REMOVE OIL SEAL",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Using SST, remove the oil seal from the housing.",
+              "part_number": {
+                "tool": "SST",
+                "number": "09308-10010"
+              }
+            },
+            {
+              "label": "(b)",
+              "text": "Remove the oil slinger."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "text": "REMOVE FRONT BEARING AND BEARING SPACER (See step 12 on page RA-25)"
+        },
+        {
+          "step": 5,
+          "text": "INSTALL NEW BEARING SPACER AND FRONT BEARING",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Install a new bearing spacer on the shaft."
+            },
+            {
+              "label": "(b)",
+              "text": "Install the front bearing on the shaft."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of new bearing spacer on differential shaft",
+      "labels": [
+        "New Spacer"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 2,
+        "width": 35,
+        "height": 20
+      },
+      "reference": "RA033A"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        {
+          "step": 6,
+          "text": "INSTALL OIL SLINGER AND NEW OIL SEAL",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Install the oil slinger facing as shown."
+            },
+            {
+              "label": "(b)",
+              "text": "Using SST, drive in a new oil seal.",
+              "part_number": {
+                "tool": "SST",
+                "number": "09316-60010"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Oil seal drive in depth",
+      "value": "1.5 mm (0.059 in.)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(c)",
+          "text": "Apply MP grease to the oil seal lip."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing SST tool driving in new oil seal with oil slinger positioned correctly",
+      "labels": [
+        "SST",
+        "Oil Slinger"
+      ],
+      "bbox": {
+        "top": 75,
+        "left": 2,
+        "width": 35,
+        "height": 30
+      },
+      "reference": "RA038A"
+    }
+  ]
+}

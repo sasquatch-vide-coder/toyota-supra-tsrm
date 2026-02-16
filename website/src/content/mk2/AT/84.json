@@ -1,0 +1,91 @@
+{
+  "page_id": "AT-84",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "content": [
+    {
+      "type": "procedure_step",
+      "number": 4,
+      "text": "TURN ASSEMBLY OVER AND REMOVE SET BOLTS FROM LOWER VALVE BODY"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing a hand turning over the valve body assembly to access bolts on the lower valve body",
+      "labels": [
+        "AT0880"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "procedure_step",
+      "number": 5,
+      "text": "LIFT OFF LOWER VALVE BODY AND PLATE AS SINGLE UNIT"
+    },
+    {
+      "type": "text",
+      "text": "Hold valve body plate to lower valve body."
+    },
+    {
+      "type": "notice",
+      "text": "Be careful that the check valve and balls do not fall out."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands lifting the lower valve body and plate assembly as a single unit",
+      "labels": [
+        "CA378"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "procedure_step",
+      "number": 6,
+      "text": "WATCH FOR STEEL BALLS, RETAINERS AND PINS IN VALVE BODY"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Cross-sectional view of valve body showing locations of pins and retainers in internal passages",
+      "labels": [
+        "Pin",
+        "Retainer",
+        "Retainer"
+      ],
+      "bbox": {
+        "top": 41,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Top-down view of valve body plate showing internal passages with steel balls, retainers, and pins labeled",
+      "labels": [
+        "Pin",
+        "Steel Ball",
+        "Retainer",
+        "CA380"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    }
+  ]
+}

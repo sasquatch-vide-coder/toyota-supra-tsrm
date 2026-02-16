@@ -1,0 +1,127 @@
+{
+  "page_id": "RA-48",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Rear Suspension",
+  "title": "REAR AXLE AND SUSPENSION",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Rear view of car showing bounce direction for stabilizing suspension",
+      "labels": [
+        "Bounce"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. REMOVE STAND"
+    },
+    {
+      "type": "text",
+      "text": "Remove the stands and bounce the car to stabilize the suspension."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Rear Stabilizer Bar"
+    },
+    {
+      "type": "text",
+      "text": "(See page RA-44)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF REAR STABILIZER BAR"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE STABILIZER BAR BRACKETS"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand removing stabilizer bar bracket from underside of vehicle",
+      "labels": [
+        "RA04475"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE STABILIZER BAR FROM ARMS"
+    },
+    {
+      "type": "text",
+      "text": "Remove the nuts, cushions, and links holding both sides of the stabilizer bar from suspension arms, and disconnect the stabilizer bar."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hand using wrench to remove stabilizer bar attachment nuts from suspension arm",
+      "labels": [],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF REAR STABILIZER BAR"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. ASSEMBLE STABILIZER LINK SUBASSEMBLY AND INSTALL LINK TO ARM"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Exploded view of stabilizer link subassembly showing link, bushings, and washers",
+      "labels": [],
+      "bbox": {
+        "top": 63,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL STABILIZER BAR TO LINK"
+    },
+    {
+      "type": "text",
+      "text": "Connect the stabilizer bar on both sides of the link with bolts, collars, cushions and nut."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Exploded view showing stabilizer bar connection to link with bolts, collars, cushions, and nuts",
+      "labels": [],
+      "bbox": {
+        "top": 82,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    }
+  ]
+}

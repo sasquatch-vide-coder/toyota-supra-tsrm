@@ -1,0 +1,82 @@
+{
+  "page_id": "AT-85",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "title": "(Lower Valve Body)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of lower valve body showing all components and their assembly relationships",
+      "labels": [
+        "Pressure Relief Valve",
+        "Cooler By-pass Valve",
+        "Damping Check Ball",
+        "Low Coast Modulator Valve",
+        "Gasket",
+        "Solenoid No. 3",
+        "O-Ring",
+        "Valve Body Cover",
+        "Gasket",
+        "Solenoid No. 1 and No. 2",
+        "Intermediate Modulator Valve",
+        "Cooler Return Check Ball",
+        "Primary Regulator Valve",
+        "Gasket",
+        "Lock-up Relay Valve",
+        "Sleeve",
+        "Retainer",
+        "Plunger",
+        "Valve Body Cover",
+        "Pin",
+        "Sleeve"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 1,
+        "width": 98,
+        "height": 50
+      }
+    },
+    {
+      "type": "notice",
+      "text": "◆ Non-reusable part"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DISASSEMBLY OF LOWER VALVE BODY"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE LOWER VALVE BODY PLATE AND GASKETS",
+        "REMOVE DAMPING CHECK BALL, COOLER RETURN CHECK BALL, COOLER BY-PASS VALVE AND SPRINGS"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands removing the lower valve body plate and gaskets from the valve body assembly",
+      "labels": [],
+      "bbox": {
+        "top": 56,
+        "left": 1,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of damping check ball, cooler return check ball, cooler by-pass valve and springs from the valve body plate",
+      "labels": [],
+      "bbox": {
+        "top": 73,
+        "left": 1,
+        "width": 38,
+        "height": 19
+      }
+    }
+  ]
+}

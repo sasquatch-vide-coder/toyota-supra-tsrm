@@ -1,0 +1,119 @@
+{
+  "page_id": "SR-18",
+  "section_header": "STEERING — Power Steering",
+  "title": "Power Steering Pump\nREMOVAL OF POWER STEERING PUMP",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Overall view of power steering pump assembly showing drive belt and pulley, pressure tube, air control hose, return hose, and power steering pump mounted on engine",
+      "labels": [
+        "Pressure Tube",
+        "Air Control Hose",
+        "Drive Belt and Pulley",
+        "Power Steering Pump",
+        "Return Hose"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 5,
+        "width": 90,
+        "height": 45
+      },
+      "torque_specs": [
+        "450 [33, 44]",
+        "445 [32, 44]",
+        "375 [27, 37]",
+        "375 [27, 37]"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "kg·cm (ft·lb, N·m) : Specified torque"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DISCONNECT AIR HOSES FROM AIR CONTROL VALVE",
+        "DRAIN FLUID FROM RESERVOIR TANK",
+        "DISCONNECT RETURN HOSE FROM RESERVOIR TANK",
+        "DISCONNECT PRESSURE TUBE FROM POWER STEERING PUMP\nUsing SST, loosen and disconnect the pressure tube.\nSST 09631-20020"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing SST tool being used to disconnect pressure tube from power steering pump",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 53,
+        "left": 3,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09631-20020",
+      "description": "Tool for disconnecting pressure tube"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 5,
+      "items": [
+        "REMOVE DRIVE BELT AND PULLEY"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Push on the drive belt to hold the pulley in place and remove the pulley set nut.",
+        "(b) Remove the drive belt adjust bolt.",
+        "(c) Remove the PS pump rear mount bolt.",
+        "(d) Remove the drive belt.",
+        "(e) Remove the pulley and woodruff key."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration of power steering pump with drive belt and pulley",
+      "labels": [],
+      "bbox": {
+        "top": 69,
+        "left": 3,
+        "width": 37,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        "REMOVE POWER STEERING PUMP\nRemove the PS pump front mount bolt, and remove the PS pump."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pressure Tube",
+      "value": "450 [33, 44] kg·cm (ft·lb, N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Drive Belt and Pulley mounting",
+      "value": "445 [32, 44] kg·cm (ft·lb, N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Return Hose",
+      "value": "375 [27, 37] kg·cm (ft·lb, N·m)"
+    }
+  ]
+}

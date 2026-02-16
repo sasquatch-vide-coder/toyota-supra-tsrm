@@ -1,0 +1,176 @@
+{
+  "page_id": "BO-27",
+  "section_header": "BODY — Quarter Window Glass",
+  "title": "REMOVAL OF QUARTER WINDOW GLASS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the interior of a vehicle with seat belt shoulder belt anchor location indicated",
+      "labels": [
+        "Seat belt shoulder belt anchor"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 1,
+        "width": 40,
+        "height": 30
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": 1,
+          "heading": "REMOVE SEAT BELT SHOULDER BELT ANCHOR",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Remove the anchor cover."
+            },
+            {
+              "label": "(b)",
+              "text": "Remove the anchor bolt."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "heading": "REMOVE BELT GUIDE",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Remove the screw."
+            },
+            {
+              "label": "(b)",
+              "text": "Pry loose one clip with a screwdriver and remove the belt guide."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "heading": "REMOVE CENTER PILLAR INNER GARNISH",
+          "text": "Pry loose two clips with a screwdriver and remove the garnish."
+        },
+        {
+          "number": 4,
+          "heading": "REMOVE LOWER BACK PANEL COVER"
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the rear speaker grille area with removal tools",
+      "labels": [
+        "Rear speaker grille"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 1,
+        "width": 39,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 5,
+      "items": [
+        {
+          "number": 5,
+          "heading": "REMOVE REAR SPEAKER GRILLE",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Remove the screws."
+            },
+            {
+              "label": "(b)",
+              "text": "Pry loose two clips with a screwdriver and remove the grille."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the deck side trim and side garnish removal area",
+      "labels": [
+        "Deck side trim",
+        "Side garnish"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 1,
+        "width": 39,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        {
+          "number": 6,
+          "heading": "REMOVE DECK SIDE TRIM AND SIDE GARNISH",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Remove the deck side trim."
+            },
+            {
+              "label": "(b)",
+              "text": "Pry loose three clips with a screwdriver and remove the side garnish."
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "heading": "REMOVE REAR SPEAKER AND BRACKET"
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing the quarter trim removal with clips and retainers",
+      "labels": [
+        "Quarter trim",
+        "Clips",
+        "Retainers"
+      ],
+      "bbox": {
+        "top": 74,
+        "left": 1,
+        "width": 39,
+        "height": 22
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 8,
+      "items": [
+        {
+          "number": 8,
+          "heading": "REMOVE QUARTER TRIM",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Pry loose three clips with a screwdriver."
+            },
+            {
+              "label": "(b)",
+              "text": "Pull loose two retainers and remove the quarter trim."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

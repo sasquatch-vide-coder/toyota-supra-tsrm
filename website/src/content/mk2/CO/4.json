@@ -1,0 +1,130 @@
+{
+  "page_id": "CO-4",
+  "section_header": "COOLING SYSTEM - Water Pump",
+  "title": "COOLING SYSTEM - Water Pump",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. REMOVE FLUID COUPLING, FAN, FAN BELT GUIDE AND WATER PUMP PULLEY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the four nuts from the fluid coupling flange.",
+        "(b) Pull out the fluid coupling with the fan shroud.",
+        "(c) Remove the fan belt guide, water pump pulley and fan belts.",
+        "(d) Remove the fan from the fluid coupling."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of fluid coupling and fan assembly from engine",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 38,
+        "height": 28
+      },
+      "code": "CO0231"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. REMOVE WATER PUMP"
+    },
+    {
+      "type": "text",
+      "text": "Remove the eight bolts and one nut, and remove the water pump and gasket."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing water pump with eight bolt locations and one nut marked around the perimeter",
+      "labels": [
+        "Nut"
+      ],
+      "bbox": {
+        "top": 31,
+        "left": 2,
+        "width": 38,
+        "height": 28
+      },
+      "code": "CO0222"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF WATER PUMP"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECT WATER PUMP BODY AND TIMING BELT CASE"
+    },
+    {
+      "type": "text",
+      "text": "Check the water pump body and timing belt case for cracks and damaged gasket surfaces. Replace if necessary."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Cutaway view of water pump body and timing belt case showing internal impeller and pump housing",
+      "labels": [],
+      "bbox": {
+        "top": 57,
+        "left": 2,
+        "width": 38,
+        "height": 28
+      },
+      "code": "CO0224"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSPECT WATER PUMP BEARING"
+    },
+    {
+      "type": "text",
+      "text": "Check that the water pump bearing operation is not rough or noisy."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing hand checking water pump bearing by rotating the pump shaft",
+      "labels": [],
+      "bbox": {
+        "top": 83,
+        "left": 2,
+        "width": 38,
+        "height": 28
+      },
+      "code": "CO0225"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSPECT FLUID COUPLING"
+    },
+    {
+      "type": "text",
+      "text": "Check the fluid coupling for damage and silicone oil leakage."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing inspection of fluid coupling with ribbed fan clutch assembly",
+      "labels": [],
+      "bbox": {
+        "top": 109,
+        "left": 2,
+        "width": 38,
+        "height": 28
+      },
+      "code": "CO0226"
+    }
+  ]
+}

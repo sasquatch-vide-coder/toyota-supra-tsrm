@@ -1,0 +1,73 @@
+{
+  "page_id": "BE-93",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF LH DOOR UNLOCK CIRCUIT / INSPECTION OF RH DOOR UNLOCK CIRCUIT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "B INSPECTION OF LH DOOR UNLOCK CIRCUIT"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "LH DOOR LOCK S/W"
+    },
+    {
+      "type": "flowchart",
+      "description": "Flowchart showing inspection steps for LH door unlock circuit, starting with inspection of door lock switch operation, then proceeding to computer circuit inspection",
+      "bbox": {
+        "top": 13,
+        "left": 2,
+        "width": 96,
+        "height": 37
+      },
+      "steps": [
+        {
+          "condition": "INSPECT DOOR LOCK SWITCH OPERATION\nIs LH door lock switch normal?\n(See page BE-99)",
+          "if_no": "Replace LH door lock switch.",
+          "if_yes": "Continue to COMPUTER inspection"
+        },
+        {
+          "section": "COMPUTER",
+          "condition": "INSPECT DOOR LOCK SWITCH CIRCUIT\nDisconnect connector from computer.\nIs there continuity between terminal 6 of connector side and body ground with LH door closed?",
+          "if_yes": "Short circuit in wire harness between terminal 6 of computer and terminal 1 of LH door lock switch.",
+          "if_no": "Replace computer."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "C INSPECTION OF RH DOOR UNLOCK CIRCUIT"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "RH DOOR LOCK S/W"
+    },
+    {
+      "type": "flowchart",
+      "description": "Flowchart showing inspection steps for RH door unlock circuit, starting with inspection of door lock switch operation, then proceeding to computer circuit inspection",
+      "bbox": {
+        "top": 51,
+        "left": 2,
+        "width": 96,
+        "height": 37
+      },
+      "steps": [
+        {
+          "condition": "INSPECT DOOR LOCK SWITCH OPERATION\nIs RH door lock switch normal?\n(See page BE-99)",
+          "if_no": "Replace RH door switch.",
+          "if_yes": "Continue to COMPUTER inspection"
+        },
+        {
+          "section": "COMPUTER",
+          "condition": "INSPECT DOOR LOCK SWITCH CIRCUIT\nDisconnect connector from computer.\nIs there continuity between terminal 6 of connector side and body ground with RH door closed?",
+          "if_yes": "Short circuit in wire harness between terminal 6 of computer and terminal 1 of RH door lock switch.",
+          "if_no": "Replace computer."
+        }
+      ]
+    }
+  ]
+}

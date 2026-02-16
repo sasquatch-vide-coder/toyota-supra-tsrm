@@ -1,0 +1,95 @@
+{
+  "page_id": "AT-115",
+  "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+  "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of speed sensor in extension housing, showing the sensor being installed into the housing with directional arrow",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 48,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "49. INSTALL SPEED SENSOR IN EXTENSION HOUSING"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installation of speedometer driven gear assembly in extension housing, showing the gear assembly, lock plate, bolt and lock washer",
+      "labels": [],
+      "bbox": {
+        "top": 27,
+        "left": 2,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "50. INSTALL NEW O-RINGS, BUSHING AND SPEEDOMETER DRIVEN GEAR TO SHAFT SLEEVE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "51. INSTALL SPEEDOMETER DRIVEN GEAR ASSEMBLY IN EXTENSION HOUSING"
+    },
+    {
+      "type": "text",
+      "text": "Insert the shaft sleeve assembly into the housing. Install the lock plate with the bolt and lock washer."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Neutral start switch installation diagram showing the switch with labels for Neutral Basic Line, Bolt, and Groove, with directional arrows",
+      "labels": [
+        "Neutral Basic Line",
+        "Bolt",
+        "Groove"
+      ],
+      "bbox": {
+        "top": 49,
+        "left": 2,
+        "width": 48,
+        "height": 21
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "52. INSTALL NEUTRAL START SWITCH"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Slide the neutral start switch onto the control shaft.",
+        "(b) Install the grommet facing the groove toward the switch body and then install the washer and nut.",
+        "(c) Move the switch so that the slit in the switch and neutral basic line match up. Tighten the bolt and nut."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Bolt",
+      "value": "55 kg-cm (48 in.lb, 5.4 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Nut",
+      "value": "70 kg-cm (61 in.lb, 6.9 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "53. INSTALL SHIFT HANDLE"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "page_id": "FI-5",
+  "section_header": "EFI SYSTEM — Inspection Precautions",
+  "title": "WHEN CAR IS EQUIPPED WITH A MOBILE RADIO SYSTEM (HAM, CB, ETC.)",
+  "content": [
+    {
+      "type": "text",
+      "text": "The ECU has been designed so that it will not be affected by outside interference."
+    },
+    {
+      "type": "text",
+      "text": "However, if your vehicle is equipped with an amateur radio transceiver, etc."
+    },
+    {
+      "type": "text",
+      "text": "You must be observe the following precautions."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Install the antenna as far as possible from the ECU. The ECU is located behind the glove box so the antenna should be installed at the rear, left side of the vehicle. If installing in the bumper, do so on the left side, if possible.",
+        "Keep the antenna feeder as far away as possible from the ECU wires — at least 20 cm (7.87 in.) — and, especially, do not wind them together.",
+        "Insure that the feeder and antenna are properly adjusted.",
+        "Do not equip your vehicle with a powerful mobile radio system."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "AIR INDUCTION SYSTEM"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view of air induction system components including air filter housing, hose connections, and intake manifold",
+      "labels": [],
+      "bbox": {
+        "top": 37,
+        "left": 2,
+        "width": 33,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Separation of the engine oil level gauge, oil filler cap, PCV hose, etc. may cause the engine to run out of tune.",
+        "Any distortion, looseness or cracks in the parts of the air intake system between the air flow meter and cylinder head will allow air suction and cause bad engine tune."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ELECTRONIC CONTROL SYSTEM"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Battery with terminals being connected",
+      "labels": [],
+      "bbox": {
+        "top": 60,
+        "left": 2,
+        "width": 33,
+        "height": 13
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "ECU unit location diagram showing placement in vehicle",
+      "labels": [
+        "ECU"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 2,
+        "width": 33,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Before removing EFI wiring connectors, terminals, etc., first disconnect power by either turning OFF the ignition switch or disconnecting the battery terminals.",
+        "When installing a battery, be especially careful not to incorrectly connect the positive and negative cables.",
+        "Do not permit parts to receive a severe impact during removal or installation. Handle all EFI parts carefully and, in particular, the ECU.",
+        "Do not be careless during troubleshooting as there are numerous transistor circuits and even slight terminal contact can cause further troubles.",
+        "Do not open the ECU cover.",
+        "When inspecting during rainy weather, take care to prevent entry of water. Also, when washing the engine compartment, prevent water from getting on the EFI parts and wiring connectors.",
+        "Parts should be replaced as an assembly."
+      ]
+    }
+  ]
+}

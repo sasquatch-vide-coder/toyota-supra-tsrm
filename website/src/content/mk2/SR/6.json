@@ -1,0 +1,126 @@
+{
+  "page_id": "SR-6",
+  "section_header": "STEERING — Steering Column Assembly with Tilt Steering",
+  "title": "DISASSEMBLY OF STEERING COLUMN ASSEMBLY AND TILT MECHANISM",
+  "subtitle": "(See page SR-5)",
+  "content": [
+    {
+      "type": "procedure_step",
+      "number": 1,
+      "heading": "REMOVE IGNITION KEY CYLINDER",
+      "substeps": [
+        {
+          "label": "(a)",
+          "text": "Place the ignition key at the ACC position."
+        },
+        {
+          "label": "(b)",
+          "text": "Push down the stop key with a thin rod, and pull out the key cylinder."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the removal of ignition key cylinder from the steering column, with hand manipulating the cylinder mechanism",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 37,
+        "height": 28
+      },
+      "diagram_id": "SR0193"
+    },
+    {
+      "type": "procedure_step",
+      "number": 2,
+      "heading": "REMOVE TENSION SPRINGS AND CORDS",
+      "substeps": [
+        {
+          "label": "(a)",
+          "text": "Fully tilt the main shaft upward."
+        },
+        {
+          "label": "(b)",
+          "text": "Pry the spring and remove the cord and spring."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands removing tension springs and cords from the steering column assembly, with prying action depicted",
+      "labels": [],
+      "bbox": {
+        "top": 32,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      },
+      "diagram_id": "B8448"
+    },
+    {
+      "type": "procedure_step",
+      "number": 3,
+      "heading": "DISCONNECT INTERMEDIATE SHAFT AND MAIN SHAFT",
+      "substeps": [
+        {
+          "label": "(a)",
+          "text": "Place matchmarks on the intermediate shaft and universal joint."
+        },
+        {
+          "label": "(b)",
+          "text": "Remove the joint bolt."
+        },
+        {
+          "label": "(c)",
+          "text": "Remove the four bracket bolts."
+        },
+        {
+          "label": "(d)",
+          "text": "Separate the tilt mechanism from the column tube."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the disconnection of intermediate shaft and main shaft, with hands working on the universal joint and bracket bolts",
+      "labels": [],
+      "bbox": {
+        "top": 52,
+        "left": 4,
+        "width": 37,
+        "height": 28
+      }
+    },
+    {
+      "type": "procedure_step",
+      "number": 4,
+      "heading": "DISCONNECT UPPER BRACKET FROM TILT STEERING SUPPORT",
+      "substeps": [
+        {
+          "label": "(a)",
+          "text": "Remove the support reinforcement."
+        },
+        {
+          "label": "(b)",
+          "text": "Remove the three bolts and disconnect the bracket from the support."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing hands removing bolts from the upper bracket and tilt steering support assembly",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 4,
+        "width": 37,
+        "height": 24
+      }
+    }
+  ]
+}

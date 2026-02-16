@@ -1,0 +1,194 @@
+{
+  "page_id": "FI-42",
+  "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+  "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Troubleshooting table header",
+      "headers": [
+        "No.",
+        "Terminals",
+        "Trouble",
+        "Condition",
+        "STD Voltage"
+      ],
+      "rows": [
+        [
+          "7",
+          "IGt — E1",
+          "No voltage",
+          "Cranking or idling",
+          "0.7 — 1.0V"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Electrical circuit diagram showing battery connected through fusible links and fuses to an igniter with ignition coil and tachometer, then to ECU terminals IGt, IG, IG S/W, and E1. Circuit includes ground connection.",
+      "labels": [
+        "Fusible Link",
+        "Fuse",
+        "IG/SW",
+        "Battery",
+        "Igniter w/ Ignition Coil",
+        "Tachometer",
+        "ECU",
+        "IGt",
+        "IG",
+        "IG S/W",
+        "E1"
+      ],
+      "bbox": {
+        "top": 13,
+        "left": 3,
+        "width": 94,
+        "height": 28
+      }
+    },
+    {
+      "type": "text",
+      "text": "F.02740"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing voltmeter connected to ECU terminals IGt and E1, with probe placement on connector.",
+      "labels": [
+        "Voltmeter",
+        "ECU",
+        "IGt",
+        "E1",
+        "V"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 35,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "F.02741"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "There is no voltage between ECU terminal IGt and E1. (idling)",
+        "Check that there is voltage between ECU terminal IG S/W and body ground. (idling)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing voltmeter connected to ECU terminals IG S/W and body ground, with probe placement.",
+      "labels": [
+        "Voltmeter",
+        "ECU",
+        "IG S/W",
+        "V"
+      ],
+      "bbox": {
+        "top": 63,
+        "left": 3,
+        "width": 35,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "F.02746"
+    },
+    {
+      "type": "text",
+      "text": "OK"
+    },
+    {
+      "type": "text",
+      "text": "Check wiring between ECU terminal E1 and body ground."
+    },
+    {
+      "type": "text",
+      "text": "BAD → Repair or replace"
+    },
+    {
+      "type": "text",
+      "text": "Refer to No. 1."
+    },
+    {
+      "type": "text",
+      "text": "BAD → Repair or replace"
+    },
+    {
+      "type": "text",
+      "text": "OK"
+    },
+    {
+      "type": "text",
+      "text": "Check fuse and wiring harness."
+    },
+    {
+      "type": "text",
+      "text": "BAD → Repair or replace"
+    },
+    {
+      "type": "text",
+      "text": "OK"
+    },
+    {
+      "type": "text",
+      "text": "Check wiring between ECU and distributor."
+    },
+    {
+      "type": "text",
+      "text": "BAD → Repair or replace"
+    },
+    {
+      "type": "text",
+      "text": "OK"
+    },
+    {
+      "type": "text",
+      "text": "Check distributor."
+    },
+    {
+      "type": "text",
+      "text": "BAD → Replace"
+    },
+    {
+      "type": "text",
+      "text": "OK"
+    },
+    {
+      "type": "text",
+      "text": "Check wiring between ECU and igniter."
+    },
+    {
+      "type": "text",
+      "text": "BAD → Repair or replace"
+    },
+    {
+      "type": "text",
+      "text": "OK"
+    },
+    {
+      "type": "text",
+      "text": "Check igniter."
+    },
+    {
+      "type": "text",
+      "text": "BAD → Repair or replace"
+    },
+    {
+      "type": "text",
+      "text": "OK"
+    },
+    {
+      "type": "text",
+      "text": "Try another ECU."
+    }
+  ]
+}

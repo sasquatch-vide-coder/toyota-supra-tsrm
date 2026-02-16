@@ -1,0 +1,62 @@
+{
+  "page_id": "FI-44",
+  "section_header": "EFI SYSTEM — Fuel System",
+  "title": "FUEL SYSTEM - Fuel Pump",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cross-sectional diagram of fuel pump assembly showing internal components and fuel flow path from inlet to outlet",
+      "labels": [
+        "OUTLET",
+        "Check Valve",
+        "Relief Valve",
+        "Bearing",
+        "Armature",
+        "Magnet",
+        "Bearing",
+        "Impeller",
+        "INLET"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 4,
+        "width": 92,
+        "height": 52
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Electrical wiring diagram showing fuel pump circuit including EFI fuse, ECU, relays, air flow meter, fuel pump switch, and connections to battery",
+      "labels": [
+        "EFI Fuse (15A)",
+        "Circuit Opening Relay",
+        "Fuel Pump",
+        "+B",
+        "Fp",
+        "No. 1 Main Relay",
+        "ECU IG",
+        "ECU IG",
+        "M",
+        "ECU M-REL",
+        "STA",
+        "E1",
+        "Fc",
+        "ECU STA",
+        "Air Flow Meter",
+        "Fuel Pump Switch",
+        "Fuel Pump Check Connector",
+        "E1",
+        "Fp",
+        "Battery"
+      ],
+      "bbox": {
+        "top": 54,
+        "left": 4,
+        "width": 92,
+        "height": 46
+      }
+    }
+  ]
+}

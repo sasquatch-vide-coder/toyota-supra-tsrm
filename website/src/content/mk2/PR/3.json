@@ -1,0 +1,117 @@
+{
+  "page_id": "PR-3",
+  "section_header": "PROPELLER SHAFT — Propeller Shaft",
+  "title": "PROPELLER SHAFT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "PROPELLER SHAFT"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of propeller shaft assembly showing the complete shaft with universal joints, center bearing assembly, intermediate shaft, sleeve yoke, flange, and spacer components",
+      "labels": [
+        "430 [31, 42]",
+        "410 [30, 40]",
+        "Spacer",
+        "430 [31, 42]",
+        "See page PR-6",
+        "Center Bearing",
+        "Flange",
+        "Sleeve Yoke",
+        "Intermediate Shaft",
+        "Propeller Shaft"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 2,
+        "width": 96,
+        "height": 45
+      }
+    },
+    {
+      "type": "text",
+      "text": "kg·cm (ft·lb, N·m) : Specified torque"
+    },
+    {
+      "type": "text",
+      "text": "◆ Non-reusable part"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF PROPELLER SHAFT"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DISCONNECT PROPELLER SHAFT FLANGE FROM FLANGE ON DIFFERENTIAL",
+        "REMOVE CENTER SUPPORT BEARING FROM BODY",
+        "REMOVE PROPELLER SHAFT"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing matchmarks being placed on the propeller shaft flanges with curved arrows indicating alignment marks",
+      "labels": [
+        "Marks"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 2,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(a) Place matchmarks on the flanges."
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the four bolts and nuts."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of center support bearing and insertion of SST tool into transmission",
+      "labels": [
+        "SST",
+        "P90104 P90003"
+      ],
+      "bbox": {
+        "top": 75,
+        "left": 2,
+        "width": 36,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(a) Remove the center bearing mounting bolts."
+    },
+    {
+      "type": "text",
+      "text": "(b) Pull out the propeller shaft from the transmission."
+    },
+    {
+      "type": "text",
+      "text": "(c) Insert SST in the transmission to prevent oil leakage."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09325-20010",
+      "description": ""
+    }
+  ]
+}

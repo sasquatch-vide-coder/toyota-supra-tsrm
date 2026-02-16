@@ -1,0 +1,104 @@
+{
+  "page_id": "LU-9",
+  "section_header": "LUBRICATION SYSTEM — Oil Pressure Regulator",
+  "title": "OIL PRESSURE REGULATOR (For Lash Adjuster Valve)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the oil pressure regulator assembly installed on engine with timing belt cover area",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 25
+      },
+      "reference": "EM7381"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL AND DISASSEMBLY OF OIL PRESSURE REGULATOR"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE NO. 3 TIMING BELT COVER",
+        "REMOVE TIMING BELT COVER STAY",
+        "REMOVE OIL PRESSURE REGULATOR AND GASKET",
+        "DISASSEMBLE OIL PRESSURE REGULATOR ASSEMBLY\nUnscrew the relief valve plug, and remove the spring and relief valve."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Exploded view diagram showing components of oil pressure regulator assembly including Relief Valve, Spring, Gasket, and Plug",
+      "labels": [
+        "Plug",
+        "Gasket",
+        "Spring",
+        "Relief Valve"
+      ],
+      "bbox": {
+        "top": 31,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      },
+      "reference": "F2689"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF OIL PRESSURE REGULATOR"
+    },
+    {
+      "type": "text",
+      "text": "Check the relief valve for scoring or wear.\nIf damaged, replace the valve or regulator assembly."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands inspecting the relief valve component",
+      "labels": [],
+      "bbox": {
+        "top": 52,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      },
+      "reference": "LU9227"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ASSEMBLY AND INSTALLATION OF OIL PRESSURE REGULATOR"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "ASSEMBLE OIL PRESSURE REGULATOR ASSEMBLY\nInstall the relief valve and spring in the body, and screw on the relief valve plug",
+        "INSTALL OIL PRESSURE REGULATOR OVER NEW GASKET",
+        "INSTALL TIMING BELT COVER STAY",
+        "INSTALL NO. 3 TIMING BELT COVER",
+        "START ENGINE AND CHECK FOR LEAKS"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of oil pressure regulator assembly near timing belt cover",
+      "labels": [],
+      "bbox": {
+        "top": 73,
+        "left": 2,
+        "width": 38,
+        "height": 22
+      },
+      "reference": "LU9223"
+    }
+  ]
+}

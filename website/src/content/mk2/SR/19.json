@@ -1,0 +1,159 @@
+{
+  "page_id": "SR-19",
+  "section_header": "STEERING — Power Steering",
+  "title": "COMPONENTS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of power steering pump components showing assembly order from oil seal on left through reservoir tank on right",
+      "labels": [
+        "Reservoir Tank",
+        "Air Control Valve",
+        "O-Ring",
+        "Front Housing",
+        "Rotor",
+        "Cam Ring",
+        "Snap Ring",
+        "Rotor Shaft",
+        "Oil Seal",
+        "Bearing",
+        "Vane Plate",
+        "Pin",
+        "Spring",
+        "Rear Plate",
+        "Rear Housing",
+        "Union Seat",
+        "O-Ring",
+        "Pressure Port Union",
+        "Flow Control Valve",
+        "Flow Control Spring Seat",
+        "Spring",
+        "Snap Ring"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 2,
+        "width": 96,
+        "height": 50
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Air Control Valve",
+      "value": "370 [37, 36]",
+      "units": "kg·cm [ft·lb, N·m]"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Front Housing Set Bolts",
+      "value": "475 [34, 47]",
+      "units": "kg·cm [ft·lb, N·m]"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pressure Port Union",
+      "value": "700 [51, 69]",
+      "units": "kg·cm [ft·lb, N·m]"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Reservoir Tank",
+      "value": "130 [9, 13]",
+      "units": "kg·cm [ft·lb, N·m]"
+    },
+    {
+      "type": "notice",
+      "text": "kg·cm [ft·lb, N·m] : Specified torque"
+    },
+    {
+      "type": "notice",
+      "text": "◆ Non-reusable part"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DISASSEMBLY OF POWER STEERING PUMP"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing power steering pump clamped in vise",
+      "labels": [],
+      "bbox": {
+        "top": 56,
+        "left": 2,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": "1",
+          "title": "CLAMP POWER STEERING PUMP IN VISE",
+          "text": "CAUTION: Do not tighten the vise too tight."
+        }
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Do not tighten the vise too tight."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": "2",
+          "title": "REMOVE FRONT HOUSING SET BOLTS",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of front housing using plastic hammer",
+      "labels": [],
+      "bbox": {
+        "top": 74,
+        "left": 2,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": "3",
+          "title": "REMOVE RESERVOIR TANK AND O-RING",
+          "text": "Remove the two reservoir tank set bolts, reservoir tank and O-ring."
+        },
+        {
+          "step": "4",
+          "title": "REMOVE AIR CONTROL VALVE",
+          "text": ""
+        },
+        {
+          "step": "5",
+          "title": "MARK FRONT AND REAR HOUSING",
+          "text": "Mark these parts to ensure correct reassembly."
+        },
+        {
+          "step": "6",
+          "title": "REMOVE FRONT HOUSING",
+          "text": "Using a plastic hammer, tap off the front housing.\nCAUTION: Be careful that the vane plates, rotor and cam ring do not fall out."
+        }
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Be careful that the vane plates, rotor and cam ring do not fall out."
+    }
+  ]
+}

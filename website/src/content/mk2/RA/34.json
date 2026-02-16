@@ -1,0 +1,218 @@
+{
+  "page_id": "RA-34",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing SST (Special Service Tool) being used on a differential component with a washer thickness measurement setup",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "text",
+      "text": "If the teeth are not contacting properly, use the following chart to select a proper washer for correction."
+    },
+    {
+      "type": "table",
+      "caption": "Washer thickness mm (in.)",
+      "headers": [
+        "Thickness",
+        "Thickness"
+      ],
+      "rows": [
+        [
+          "2.24 (0.0882)",
+          "2.51 (0.0988)"
+        ],
+        [
+          "2.27 (0.0894)",
+          "2.54 (0.1000)"
+        ],
+        [
+          "2.30 (0.0906)",
+          "2.57 (0.0112)"
+        ],
+        [
+          "2.33 (0.0917)",
+          "2.60 (0.1024)"
+        ],
+        [
+          "2.36 (0.0929)",
+          "2.63 (0.1035)"
+        ],
+        [
+          "2.39 (0.0941)",
+          "2.66 (0.1047)"
+        ],
+        [
+          "2.42 (0.0953)",
+          "2.69 (0.1059)"
+        ],
+        [
+          "2.49 (0.0965)",
+          "2.72 (0.1071)"
+        ],
+        [
+          "2.48 (0.0978)",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration of rear differential assembly showing location where new spacer is to be installed",
+      "labels": [
+        "New Spacer"
+      ],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 8,
+      "items": [
+        "REMOVE COMPANION FLANGE (See step 10 on page RA-24)",
+        "REMOVE FRONT BEARING AND BEARING SPACER (See step 12 on page RA-25)",
+        "INSTALL NEW BEARING SPACER AND FRONT BEARING"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "parent_step": 10,
+      "items": [
+        "(a) Install a new bearing spacer on the shaft.",
+        "(b) Install the front bearing on the shaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Detailed illustration showing SST tool being used to install oil slinger and oil seal on shaft",
+      "labels": [
+        "SST",
+        "Oil Slinger"
+      ],
+      "bbox": {
+        "top": 50,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 11,
+      "items": [
+        "INSTALL OIL SLINGER AND NEW OIL SEAL"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "parent_step": 11,
+      "items": [
+        "(a) Install the oil slinger facing as shown.",
+        "(b) Using SST, drive in a new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09316-60010"
+    },
+    {
+      "type": "text",
+      "text": "Oil seal drive in depth: 1.5 mm (0.059 in.)"
+    },
+    {
+      "type": "text",
+      "text": "(c) Apply MP grease to the oil seal lip."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of companion flange using SST tool with Hold position indicated",
+      "labels": [
+        "Hold",
+        "SST"
+      ],
+      "bbox": {
+        "top": 71,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 12,
+      "items": [
+        "INSTALL COMPANION FLANGE"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "parent_step": 12,
+      "items": [
+        "(a) Using SST, install the companion flange on the shaft."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09557-22022"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing tightening of companion flange nut using SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 92,
+        "left": 3,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "parent_step": 12,
+      "items": [
+        "(b) Coat the threads of a new nut with MP grease.",
+        "(c) Using SST to hold the flange, tighten the nut."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09330-00021"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Companion flange nut",
+      "value": "1,100 kg·cm (80 ft·lb, 108 N·m)"
+    }
+  ]
+}

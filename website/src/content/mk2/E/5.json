@@ -1,0 +1,83 @@
+{
+  "page_id": "Unknown",
+  "section_header": "ECT (Electronic Controlled Transmission)",
+  "title": "WIRING DIAGRAM",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Electronic Controlled Transmission (ECT) wiring diagram showing connections between various sensors, ECT ECU, throttle position sensor, and related components. The diagram shows wire routing from multiple sensors and components to the ECT ECU with pin connections labeled.",
+      "labels": [
+        "ECT",
+        "ECT (Electronic Controlled Transmission)",
+        "From \"STOP\" Fuse (3-4)",
+        "From \"ECU-IG\" Fuse (3-2)",
+        "EGR VSV",
+        "ISC VALVE",
+        "X-1 INDICATOR",
+        "To Oil Pressure S/W (2-5)",
+        "To Oil Pressure Sensor (2-7)",
+        "To Magnum Clutch (2-1)",
+        "To Speed Sensor (3-3)",
+        "To Cruise Control Clutch S/W (3-3)",
+        "WATER THERMO SENSOR",
+        "THROTTLE POSITION SENSOR",
+        "From Igniter (1-2)",
+        "CHECK ENGINE (OD/OFF) METER",
+        "ECT ECU",
+        "C* Located in left front fender near battery",
+        "d - Located on left front fender apron near Injection Relay No. 3"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 5,
+        "width": 90,
+        "height": 80
+      }
+    },
+    {
+      "type": "text",
+      "text": "Wire connections shown with pin numbers and routing paths between components"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Small X-1 indicator diagram showing a 4-pin connector with numbered pins (1, 2, R1, S1) and corresponding switch positions",
+      "labels": [
+        "X-1 INDICATOR",
+        "1",
+        "2",
+        "R1",
+        "S1"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 70,
+        "width": 15,
+        "height": 8
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Throttle position sensor diagram showing internal resistor configuration and connection points",
+      "labels": [
+        "THROTTLE POSITION SENSOR"
+      ],
+      "bbox": {
+        "top": 65,
+        "left": 25,
+        "width": 15,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "C* Located in left front fender near battery"
+    },
+    {
+      "type": "text",
+      "text": "d - Located on left front fender apron near Injection Relay No. 3"
+    }
+  ]
+}

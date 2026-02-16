@@ -1,0 +1,73 @@
+{
+  "page_id": "CO-3",
+  "section_header": "COOLING SYSTEM — Water Pump",
+  "title": "WATER PUMP",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of water pump assembly showing all components in their disassembly order from left to right",
+      "labels": [
+        "Fluid Coupling",
+        "Fan Belt Guide",
+        "Water Pump Pulley",
+        "Water Pump Assembly",
+        "Gasket"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 2,
+        "width": 96,
+        "height": 45
+      }
+    },
+    {
+      "type": "notice",
+      "text": "◆ Non-reusable part"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF WATER PUMP"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DRAIN COOLANT",
+        {
+          "type": "text",
+          "text": "LOOSEN FAN BELTS"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "(a) Loosen the belt adjusting bolt, and nut of the PS pump and alternator.",
+            "(b) Remove the alternator pivot nut and adjusting bar."
+          ]
+        },
+        "REMOVE AIR CLEANER CASE",
+        "DISCONNECT UPPER RADIATOR HOSE",
+        "REMOVE FOUR FAN SHROUD BOLTS"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the location and removal of fan shroud bolts with a wrench/tool highlighted",
+      "labels": [],
+      "bbox": {
+        "top": 73,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    }
+  ]
+}

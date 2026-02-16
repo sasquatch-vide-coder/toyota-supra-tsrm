@@ -1,0 +1,182 @@
+{
+  "page_id": "AT-62",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Overdrive Case and Brake)",
+  "title": "ASSEMBLY OF OVERDRIVE CASE AND BRAKE",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page AT-60)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of two oil seal rings on overdrive case showing circular case with rings in groove",
+      "labels": [
+        "Oil seal rings",
+        "Overdrive case"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      },
+      "reference": "CA783"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 1,
+          "heading": "INSTALL TWO OIL SEAL RINGS ON OVERDRIVE CASE",
+          "text": "Spread the rings apart and slide them into the groove. Hook both ends by hand."
+        },
+        {
+          "step": 2,
+          "heading": "INSTALL NEW O-RING ON PISTON",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installation of brake piston in overdrive case showing hands installing piston with cup side up",
+      "labels": [
+        "Brake piston",
+        "Overdrive case"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      },
+      "reference": "CA744"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 3,
+          "heading": "INSTALL BRAKE PISTON IN OVERDRIVE CASE",
+          "text": "Install the piston with cup side up, being careful not to damage the O-rings."
+        },
+        {
+          "step": 4,
+          "heading": "INSTALL TWELVE RETURN SPRINGS AND SET RETAINER AND SNAP RING IN PLACE",
+          "text": "Check that the ends of snap ring are not aligned with one of the cutouts."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installation of thrust bearing and races showing ring gear assembly",
+      "labels": [
+        "Thrust bearing",
+        "Races",
+        "Ring gear"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      },
+      "reference": "AT0601"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 5,
+          "heading": "INSTALL THRUST BEARING AND RACES TO RING GEAR AND SET RING GEAR IN OVERDRIVE CASE",
+          "text": "",
+          "note": "Make sure that the races are installed in correct direction."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Exploded view showing assembly order of cushion plate, discs, plates and flange",
+      "labels": [
+        "Flange",
+        "Plate",
+        "Disc",
+        "Cushion Plate"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      },
+      "reference": "CA294"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 6,
+          "heading": "INSTALL CUSHION PLATE, DISCS, PLATES AND FLANGE",
+          "text": "Using low pressure compressed air, blow all excess ATF from the discs.",
+          "caution": "High-pressure air will damage the discs.",
+          "installation_order": "Cushion plate (rounded end down)-plate-disc-plate-disc-plate-disc-flange (flat side down)"
+        },
+        {
+          "step": 7,
+          "heading": "INSTALL SNAP RING",
+          "text": "Check that the ends of the snap ring are not aligned with one of the cutouts."
+        }
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "High-pressure air will damage the discs."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Measuring brake clearance between snap ring and flange using feeler gauge",
+      "labels": [
+        "Snap ring",
+        "Flange",
+        "Feeler gauge"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      },
+      "reference": "CA740"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 8,
+          "heading": "MEASURE BRAKE CLEARANCE",
+          "text": "Measure the distance between the snap ring and flange.",
+          "specification": {
+            "description": "Standard clearance",
+            "value_mm": "0.40 — 1.38 mm",
+            "value_in": "(0.0157 — 0.0543 in.)"
+          }
+        },
+        {
+          "step": 9,
+          "heading": "KEEP THRUST WASHER FOR ASSEMBLY",
+          "text": "The thrust washer left over will be installed later, as the transmission is assembled."
+        }
+      ]
+    }
+  ]
+}

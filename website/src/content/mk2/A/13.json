@@ -1,0 +1,255 @@
+{
+  "page_id": "A-13",
+  "section_header": "SERVICE SPECIFICATIONS — Manual Transmission",
+  "title": "MANUAL TRANSMISSION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Specifications"
+    },
+    {
+      "type": "table",
+      "caption": "Manual transmission (W58) Specifications",
+      "headers": [
+        "Manual transmission (W58)",
+        "Output shaft",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "2nd gear journal diameter",
+          "Limit",
+          "42.85 mm",
+          "1.6870 in."
+        ],
+        [
+          "",
+          "3rd gear journal diameter",
+          "Limit",
+          "37.80 mm",
+          "1.4882 in."
+        ],
+        [
+          "",
+          "Flange thickness",
+          "Limit",
+          "5.60 mm",
+          "0.2205 in."
+        ],
+        [
+          "",
+          "Runout",
+          "Limit",
+          "0.06 mm",
+          "0.0024 in."
+        ],
+        [
+          "",
+          "1st gear inner race flange thickness",
+          "Limit",
+          "4.70 mm",
+          "0.1850 in."
+        ],
+        [
+          "",
+          "1st gear inner race outer diameter",
+          "Limit",
+          "42.85 mm",
+          "1.6870 in."
+        ],
+        [
+          "Counter gear",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Center bearing journal outer diameter",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "29.90 mm",
+          "1.1772 in."
+        ],
+        [
+          "",
+          "5th gear journal outer diameter",
+          "Limit",
+          "26.85 mm",
+          "1.0571 in."
+        ],
+        [
+          "Gear thrust clearance",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1st, 2nd & 3rd",
+          "STD",
+          "0.10 – 0.25 mm",
+          "0.0039 – 0.0098 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "0.30 mm",
+          "0.0118 in."
+        ],
+        [
+          "",
+          "Counter 5th",
+          "STD",
+          "0.10 – 0.41 mm",
+          "0.0039 – 0.0161 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "0.46 mm",
+          "0.0181 in."
+        ],
+        [
+          "Gear oil clearance 1st & 2nd",
+          "",
+          "STD",
+          "0.009 – 0.060 mm",
+          "0.0004 – 0.0024 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "0.15 mm",
+          "0.0059 in."
+        ],
+        [
+          "3rd",
+          "",
+          "STD",
+          "0.060 – 0.103 mm",
+          "0.0024 – 0.0041 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "0.20 mm",
+          "0.0079 in."
+        ],
+        [
+          "Counter 5th",
+          "",
+          "STD",
+          "0.009 – 0.062 mm",
+          "0.0004 – 0.0024 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "0.15 mm",
+          "0.0059 in."
+        ],
+        [
+          "Shift fork to hub sleeve clearance",
+          "",
+          "Limit",
+          "1.0 mm",
+          "0.039 in."
+        ],
+        [
+          "Synchronizer ring to gear clearance",
+          "",
+          "STD",
+          "0.7 – 1.7 mm",
+          "0.028 – 0.067 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "0.5 mm",
+          "0.020 in."
+        ],
+        [
+          "Input shaft snap ring thickness",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Mark",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1",
+          "",
+          "2.05 – 2.10 mm",
+          "0.0807 – 0.0827 in."
+        ],
+        [
+          "",
+          "2",
+          "",
+          "2.10 – 2.15 mm",
+          "0.0827 – 0.0846 in."
+        ],
+        [
+          "",
+          "3",
+          "",
+          "2.15 – 2.20 mm",
+          "0.0846 – 0.0866 in."
+        ],
+        [
+          "",
+          "4",
+          "",
+          "2.20 – 2.25 mm",
+          "0.0866 – 0.0886 in."
+        ],
+        [
+          "",
+          "5",
+          "",
+          "2.25 – 2.30 mm",
+          "0.0886 – 0.0906 in."
+        ],
+        [
+          "",
+          "11",
+          "",
+          "2.30 – 2.35 mm",
+          "0.0906 – 0.0925 in."
+        ],
+        [
+          "",
+          "12",
+          "",
+          "2.35 – 2.40 mm",
+          "0.0925 – 0.0945 in."
+        ]
+      ]
+    }
+  ]
+}

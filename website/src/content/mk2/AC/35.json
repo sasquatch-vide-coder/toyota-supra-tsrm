@@ -1,0 +1,124 @@
+{
+  "page_id": "AC-35",
+  "section_header": "AIR CONDITIONING SYSTEM — Compressor",
+  "title": "INSTALLATION OF COMPRESSOR",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Three types of air conditioning compressors shown side by side: Nippondenso (left), middle unit (center), and Borroughs (right). Each compressor is shown in detailed cross-section with mounting hardware.",
+      "labels": [
+        "Nippondenso",
+        "Borroughs",
+        "E00003 E00004 E00041"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF COMPRESSOR"
+    },
+    {
+      "type": "text",
+      "text": "(See page AC-24)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL COMPRESSOR WITH MOUNTING BOLTS",
+        "INSTALL DRIVE BELT",
+        "CONNECT TWO FLEXIBLE HOSES TO COMPRESSOR SERVICE VALVES",
+        "CONNECT CLUTCH LEAD WIRE TO WIRING HARNESS",
+        "CONNECT NEGATIVE CABLE TO BATTERY",
+        "EVACUATE AND CHARGE REFRIGERATION SYSTEM (See page AC-12)"
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "INSTALL COMPRESSOR WITH MOUNTING BOLTS",
+      "value": "280 kg-cm (20 ft-lb, 29 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSTALL DRIVE BELT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the drive belt to the pulley.",
+        "(b) Adjust the belt with the adjusting bolts.",
+        "(c) Using a belt tension gauge, check the drive belt tension."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Belt tension gauge:"
+    },
+    {
+      "type": "part_number",
+      "label": "Nippondenso",
+      "number": "BTG-20 (95506-00020) or",
+      "description": ""
+    },
+    {
+      "type": "part_number",
+      "label": "Borroughs",
+      "number": "No. BT-33-73F",
+      "description": ""
+    },
+    {
+      "type": "table",
+      "caption": "Drive belt tension",
+      "headers": [
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "New belt",
+          "125 ± 25 lb"
+        ],
+        [
+          "Used belt",
+          "80 ± 20 lb"
+        ]
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE:"
+    },
+    {
+      "type": "text",
+      "text": "• \"New belt\" refers to a belt which has been used less than 5 minutes on a running engine."
+    },
+    {
+      "type": "text",
+      "text": "• \"Used belt\" refers to a belt which has been used on a running engine for 5 minutes or more."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CONNECT TWO FLEXIBLE HOSES TO COMPRESSOR SERVICE VALVES"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Discharge line",
+      "value": "225 kg-cm (16 ft-lb, 22 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Suction line",
+      "value": "325 kg-cm (24 ft-lb, 32 N·m)"
+    }
+  ]
+}

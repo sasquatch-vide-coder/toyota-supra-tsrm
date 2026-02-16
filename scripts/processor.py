@@ -353,7 +353,7 @@ def main() -> None:
     sections_file = data_dir / "sections.json"
     year = MODEL_YEAR[args.model]
 
-    prompt = (OCR_PROMPT if args.ocr else VISION_PROMPT).format(year=year)
+    prompt = (OCR_PROMPT if args.ocr else VISION_PROMPT).replace("{year}", year)
 
     if args.file:
         path = Path(args.file)

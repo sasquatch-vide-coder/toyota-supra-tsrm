@@ -1,0 +1,76 @@
+{
+  "page_id": "BE-49",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "Instruments and Sender Gauges Troubleshooting",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Trouble Section",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "I",
+          "Tachometer",
+          "Zero indication even with engine running"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remove meter and connect sub harness (SST)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": "1",
+          "test": "With the ignition S/W at ON position, does voltage between terminals 16 and 17 of sub-harness fluctuate with variations in engine rpm?",
+          "yes_action": "Continue to step 2",
+          "no_action": "Bad wiring between igniter and meter"
+        },
+        {
+          "step": "2",
+          "test": "With the ignition S/W at ON position, does voltage between terminals 3 and 6 of tachometer connector fluctuate between 0 and 1.5V when engine speed increases from 2,000 to 3,000 rpm?",
+          "yes_action": "Replace tachometer",
+          "no_action": "Replace speedometer"
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wiring diagram showing connection between sub-harness (SST) and tachometer connector. Shows connector with terminals and wire labeled 'IG' and 'E'.",
+      "labels": [
+        "Sub-harness (SST)",
+        "IG",
+        "E"
+      ],
+      "bbox": {
+        "top": 70,
+        "left": 3,
+        "width": 47,
+        "height": 30
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Wiring diagram showing tachometer connection with GND terminal and TACHO SI terminal connections.",
+      "labels": [
+        "Tachometer",
+        "GND",
+        "TACHO SI"
+      ],
+      "bbox": {
+        "top": 70,
+        "left": 52,
+        "width": 47,
+        "height": 30
+      }
+    }
+  ]
+}

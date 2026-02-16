@@ -1,0 +1,133 @@
+{
+  "page_id": "RA-28",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing installation of straight pin through differential case and pinion shaft using a hammer and punch",
+      "labels": [
+        "84D75.84D76"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Install straight pin."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Using a hammer and punch, drive the straight pin through the case and hole in the pinion shaft.",
+        "Stake the pin and differential case."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing SST (special service tool) being used to press side bearing into differential case",
+      "labels": [
+        "SST",
+        "SST",
+        "24D3"
+      ],
+      "bbox": {
+        "top": 31,
+        "left": 3,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. INSTALL NEW SIDE BEARING"
+    },
+    {
+      "type": "text",
+      "text": "Using SST and a press, drive a new side bearing into the differential case."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09550-10012",
+      "description": "(09252-10010, 09557-10010, 09558-10010)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. INSTALL RING GEAR ON DIFFERENTIAL CASE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Clean the contact surface of the differential case.",
+        "(b) Heat the ring gear to about 100°C (212°F) in an oil bath.",
+        "(c) Clean the contact surface of the ring gear with cleaning solvent.",
+        "(d) Then quickly install the ring gear on the differential case.",
+        "(e) Align the marks on the ring gear and differential case."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Do not heat the ring gear more than 110°C (230°F)."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(f) Coat the ring gear set bolts with gear oil.",
+        "(g) Install the lock plates and set bolts. Tighten the set bolts uniformly, a little at a time. Torque the bolts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Ring gear set bolts",
+      "value": "985 kg-cm (71 ft-lb, 97 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation and torquing of ring gear bolts onto differential case",
+      "labels": [
+        "84D78"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 3,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Detailed view showing how to stake lock plates using hammer and drift punch",
+      "labels": [
+        "84D79.97-003"
+      ],
+      "bbox": {
+        "top": 84,
+        "left": 3,
+        "width": 40,
+        "height": 16
+      }
+    },
+    {
+      "type": "text",
+      "text": "(h) Using a hammer and drift punch, stake the lock plates."
+    },
+    {
+      "type": "notice",
+      "text": "Stake one claw flush with the flat surface of the nut. For the claw contacting the protruding portion of the nut, stake only the half on the right-hand side."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "page_id": "BE-65",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Trouble Section",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "P",
+          "Fuel gauge\nWater temp. gauge | Lights do not dim when light and rheostat S/W turned ON."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "For Fuel Gauge"
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for fuel and temperature gauges that do not dim. Starts with two parallel checks - one for fuel gauge and one for temp gauge, then converges to a common diagnostic path involving speedometer check and voltage tests.",
+      "bbox": {
+        "top": 15,
+        "left": 5,
+        "width": 90,
+        "height": 55
+      }
+    },
+    {
+      "type": "decision_box",
+      "text": "Only fuel gauge?\n(Does temp. gauge dim?)",
+      "branch": "Yes",
+      "next": "Replace fuel and temp. gauges"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "For Temp. Gauge"
+    },
+    {
+      "type": "decision_box",
+      "text": "Only temp. gauge?\n(Does temp. gauge dim?)",
+      "branch": "Yes",
+      "next": "Replace fuel and temp. gauges"
+    },
+    {
+      "type": "decision_box",
+      "text": "Only fuel and temp. gauges do not dim?\n(Speedometer OK?)",
+      "branches": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "type": "procedure_box",
+      "text": "Remove meter and connect sub-harness (SST)"
+    },
+    {
+      "type": "decision_box",
+      "text": "No",
+      "next": "Refer to Section C"
+    },
+    {
+      "type": "procedure_box",
+      "text": "① With the ignition S/W at ON position and connector of fuel and temp. gauges disconnected, check that there is voltage between terminals of the connector as follows:\n3 — 5  Light S/W ON                    4.0 — 6.0V\n       Light S/W OFF                    0 — 1.0V\n4 — 5  Light S/W turned ON              OK\n       Rheostat turned OFF\n       (Rheostat operate (MIN — MAX)  3.0 — 6.0V\n                                       0 — 3.8V",
+      "branches": [
+        "No",
+        "OK"
+      ]
+    },
+    {
+      "type": "result_box",
+      "text": "Replace speedometer",
+      "condition": "No"
+    },
+    {
+      "type": "result_box",
+      "text": "Replace fuel and temp. gauges",
+      "condition": "OK"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wiring diagram showing fuel and temp gauges connected to a voltmeter. The diagram shows a gauge unit on the left, a connector harness in the center with terminals labeled GND, TC②, and TR②, and a voltmeter at the bottom for testing.",
+      "labels": [
+        "Fuel and Temp. Gauges",
+        "GND",
+        "TC②",
+        "TR②"
+      ],
+      "bbox": {
+        "top": 73,
+        "left": 5,
+        "width": 45,
+        "height": 25
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "page_id": "MT-30",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "MANUAL TRANSMISSION - W58 Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing installation of reverse idler gear shaft stopper using a wrench",
+      "labels": [
+        "WM0075"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "25. INSTALL REVERSE IDLER GEAR SHAFT STOPPER"
+    },
+    {
+      "type": "text",
+      "text": "Install the reverse idler gear shaft stopper and tighten the bolt."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Reverse idler gear shaft stopper bolt",
+      "value": "250 kg-cm (18 ft-lb, 25 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of intermediate plate from vise with arrows pointing to bolts and plate",
+      "labels": [
+        "WM0165"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 38,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "26. DISMOUNT INTERMEDIATE PLATE FROM VISE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Dismount the intermediate plate from the vise.",
+        "(b) Remove the bolts, nuts, plate washers and gasket."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of transmission case to intermediate plate using a plastic hammer",
+      "labels": [
+        "WM0165"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "27. INSTALL TRANSMISSION CASE TO INTERMEDIATE PLATE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Align each bearing outer race and each shift fork shaft with the case holes.",
+        "(b) Using a plastic hammer, tap on the case to install it."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of bearing snap rings using snap ring pliers",
+      "labels": [
+        "WM0166"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "28. INSTALL BEARING SNAP RINGS"
+    },
+    {
+      "type": "text",
+      "text": "Using snap ring pliers, install the two snap rings."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing installation of front bearing retainer with gasket and application of liquid sealer to bolts",
+      "labels": [
+        "WM0167"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "29. INSTALL FRONT BEARING RETAINER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the bearing retainer with a new gasket.",
+        "(b) Apply liquid sealer to the bolts.",
+        "(c) Install and torque the bolts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Front bearing retainer bolts",
+      "value": "250 kg-cm (18 ft-lb, 25 N·m)"
+    }
+  ]
+}

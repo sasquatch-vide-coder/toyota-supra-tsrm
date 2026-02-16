@@ -1,0 +1,71 @@
+{
+  "page_id": "RA-55",
+  "section_header": "REAR AXLE AND SUSPENSION — Differential Support Member",
+  "title": "REAR AXLE AND SUSPENSION — Differential Support Member",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of differential support member mounting bolt No. 1, showing the bolt location and nut attachment on the support member assembly",
+      "labels": [
+        "RA0472"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 35
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. INSTALL DIFFERENTIAL SUPPORT MEMBER MOUNTING BOLT NO. 1"
+    },
+    {
+      "type": "text",
+      "text": "Install the No. 1 mounting bolts to the support member with nuts. Torque the nuts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Differential Support Member Mounting Bolt No. 1",
+      "value": "850 kg·cm (61 ft·lb, 83 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Tightening of support member nuts using a wrench, shown with circular motion indicator around the nut",
+      "labels": [],
+      "bbox": {
+        "top": 42,
+        "left": 5,
+        "width": 45,
+        "height": 35
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. TIGHTEN SUPPORT MEMBER NUTS"
+    },
+    {
+      "type": "text",
+      "text": "Torque the nuts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Support Member Nuts",
+      "value": "1,200 kg·cm (87 ft·lb, 118 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. CONNECT DRIVE SHAFT"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. INSTALL STABILIZER BAR BRACKET (See page RA-49)"
+    }
+  ]
+}

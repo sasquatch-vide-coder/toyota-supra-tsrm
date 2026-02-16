@@ -1,0 +1,164 @@
+{
+  "page_id": "SR-9",
+  "section_header": "STEERING — Steering Column Assembly with Tilt Steering",
+  "title": "ASSEMBLY OF STEERING COLUMN ASSEMBLY AND TILT MECHANISM",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page SR-5)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands coating rubber parts with grease on steering column assembly",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "COAT ALL RUBBING PARTS WITH MP GREASE",
+        "ASSEMBLE PAWL SET BOLT"
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pawl Set Bolt",
+      "value": "185 kg-cm (13 ft-lb, 18 N-m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Tilt lever being assembled to support with collar installation",
+      "labels": [],
+      "bbox": {
+        "top": 21,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        "ASSEMBLE TILT LEVER TO SUPPORT"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(a) Select a collar No. 1 which will eliminate all play."
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Outer diameter",
+        "mm (in.)"
+      ],
+      "rows": [
+        [
+          "17.989 — 17.996",
+          "(0.7082 — 0.7085)"
+        ],
+        [
+          "17.996 — 18.003",
+          "(0.7085 — 0.7088)"
+        ],
+        [
+          "18.003 — 18.010",
+          "(0.7088 — 0.7091)"
+        ],
+        [
+          "18.010 — 18.017",
+          "(0.7091 — 0.7093)"
+        ],
+        [
+          "18.017 — 18.024",
+          "(0.7093 — 0.7096)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(b) Install tilt lever and collar No. 1 to the support."
+    },
+    {
+      "type": "text",
+      "text": "(c) Select a collar No. 2 which will eliminate all play."
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Outer diameter",
+        "mm (in.)"
+      ],
+      "rows": [
+        [
+          "17.982 — 18.000",
+          "(0.7080 — 0.7087)"
+        ],
+        [
+          "18.000 — 18.018",
+          "(0.7087 — 0.7094)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(d) Install collar No. 2 to the support."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Collar being installed onto support mechanism",
+      "labels": [],
+      "bbox": {
+        "top": 39,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hand driving serration bolt into support with tool",
+      "labels": [],
+      "bbox": {
+        "top": 57,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(e) Drive the serration bolt into the support."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Installation of tilt pawl, tension spring and release pin assembly",
+      "labels": [],
+      "bbox": {
+        "top": 75,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(f) Install the tilt pawl, tension spring and the release pin."
+    }
+  ]
+}

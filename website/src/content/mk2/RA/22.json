@@ -1,0 +1,81 @@
+{
+  "page_id": "RA-22",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "COMPONENTS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of IRS Type Differential assembly showing all components including pinion gear assembly, differential case, ring gear, bearings, seals, cover, and side gear shaft with their relative positions and assembly order",
+      "labels": [
+        "Pinion Gear",
+        "Pinion Shaft",
+        "Plate Washer",
+        "Side Bearing",
+        "Thrust Washer",
+        "Side Gear",
+        "Thrust Washer",
+        "Lock Plate",
+        "Straight Pin",
+        "Drive Pinion",
+        "Plate Washer",
+        "Rear Bearing",
+        "Oil Seal",
+        "Front Bearing",
+        "Oil Slinger",
+        "Companion Flange",
+        "Spacer",
+        "Ring Gear",
+        "Differential Carrier",
+        "Differential Case",
+        "Side Bearing Cap",
+        "Gasket",
+        "Cover",
+        "Side Gear Shaft",
+        "Oil Seal"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 5,
+        "width": 90,
+        "height": 82
+      }
+    },
+    {
+      "type": "part_number",
+      "label": "",
+      "number": "985 [71, 97]",
+      "description": ""
+    },
+    {
+      "type": "part_number",
+      "label": "",
+      "number": "220 [16, 22]",
+      "description": ""
+    },
+    {
+      "type": "part_number",
+      "label": "",
+      "number": "410 [30, 40]",
+      "description": ""
+    },
+    {
+      "type": "part_number",
+      "label": "",
+      "number": "800 [58, 78]",
+      "description": ""
+    },
+    {
+      "type": "notice",
+      "text": "See page RA 34"
+    },
+    {
+      "type": "text",
+      "text": "kg·cm [ft·lb, N·m] : Specified torque"
+    },
+    {
+      "type": "text",
+      "text": "◆ Non-reusable part"
+    }
+  ]
+}

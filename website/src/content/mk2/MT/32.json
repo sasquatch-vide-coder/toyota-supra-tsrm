@@ -1,0 +1,152 @@
+{
+  "page_id": "MT-32",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": null,
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "32. AFTER INSTALLING EXTENSION HOUSING, CHECK FOLLOWING ITEMS:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check to see that input shaft and output shaft rotate smoothly.",
+        "(b) Check to see that shifting can be made smoothly to all positions."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands installing restrict pins into transmission housing with gasket",
+      "labels": [
+        "WM0173"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "33. INSTALL RESTRICT PINS"
+    },
+    {
+      "type": "text",
+      "text": "(a) Install the restrict pins together with a gasket."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Install the black pin on the reverse gear and 5th gear side."
+    },
+    {
+      "type": "text",
+      "text": "(b) Torque the restrict pins."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Restrict pins",
+      "value": "410 kg-cm (30 ft-lb, 40 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of clutch housing with bolts being torqued",
+      "labels": [
+        "WM0171"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "34. INSTALL CLUTCH HOUSING"
+    },
+    {
+      "type": "text",
+      "text": "(a) Install the clutch housing."
+    },
+    {
+      "type": "text",
+      "text": "(b) Install and torque the bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Clutch housing bolts",
+      "value": "375 kg-cm (27 ft-lb, 37 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing application of grease to release fork and bearing components",
+      "labels": [
+        "WM0175, WM0090"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "35. INSTALL RELEASE FORK AND BEARING"
+    },
+    {
+      "type": "text",
+      "text": "Apply molybdenum disulphide lithium base grease to the following parts:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Release bearing hub inside groove",
+        "Input shaft spline",
+        "Release fork contact surface"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of shift lever retainer with six bolts",
+      "labels": [
+        "WM0090"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 4,
+        "width": 37,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "36. INSTALL SHIFT LEVER RETAINER"
+    },
+    {
+      "type": "text",
+      "text": "(a) Install the shift lever retainer with a new gasket."
+    },
+    {
+      "type": "text",
+      "text": "(b) Install and torque the six bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Shift lever retainer bolts",
+      "value": "185 kg-cm (13 ft-lb, 18 N·m)"
+    }
+  ]
+}

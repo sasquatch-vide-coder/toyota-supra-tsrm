@@ -1,0 +1,185 @@
+{
+  "page_id": "AT-73",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing SST (Special Service Tool) being used to compress return springs on spring retainer, with a snap ring shown separately",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 5,
+      "items": [
+        "INSTALL TWELVE PISTON RETURN SPRINGS AND SET RETAINER WITH SNAP RING IN PLACE",
+        "COMPRESS RETURN SPRINGS AND INSTALL SNAP RING IN GROOVE"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place SST on the spring retainer, and compress the springs on a shop press.",
+        "(b) Install the snap ring using a screwdriver."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09369-20040)",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing center support assembly with O-rings installed on piston",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 5,
+        "width": 40,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 7,
+      "items": [
+        "INSTALL NEW O-RINGS ON PISTON AND CENTER SUPPORT",
+        "TURN CENTER SUPPORT OVER AND INSTALL NO. 2 BRAKE PISTON"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Press the No. 2 brake piston into the center support with the cup side up, being careful not to damage the O-rings."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing SST compressing return springs with snap ring shown separately, similar to first diagram",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 9,
+      "items": [
+        "INSTALL TWENTY PISTON RETURN SPRINGS AND SET RETAINER WITH SNAP RING IN PLACE",
+        "COMPRESS RETURN SPRINGS AND INSTALL SNAP RING IN GROOVE"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place SST on the spring retainer, and compress the springs on a shop press.",
+        "(b) Install the snap ring with a screwdriver."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09369-20040)",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing brake plate installation with arrows indicating downward direction and rounded edge orientation",
+      "labels": [
+        "Downward",
+        "Rounded Edge"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 5,
+        "width": 40,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 11,
+      "items": [
+        "TURN CENTER SUPPORT OVER AND INSTALL NO. 1 BRAKE PISTON PLATE, DISC AND FLANGE"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Using the low-pressure compressed air, blow all excess ATF from the disc."
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: High-pressure air will damage the disc."
+    },
+    {
+      "type": "text",
+      "text": "Install in order: Plate-disc-plate-plate-disc-flange (rounded edge down)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 12,
+      "items": [
+        "INSTALL SNAP RING IN CENTER SUPPORT"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Check that snap ring ends are not aligned with one of the cutouts."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing measurement of piston stroke using a dial indicator on the center support assembly",
+      "labels": [],
+      "bbox": {
+        "top": 79,
+        "left": 5,
+        "width": 40,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 13,
+      "items": [
+        "CHECK PISTON STROKE OF NO. 1 BRAKE"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "With a dial indicator, measure the stroke applying and releasing the compressed air (4 — 8 kg/cm², 57 — 114 psi or 392 — 785 kPa)."
+    },
+    {
+      "type": "text",
+      "text": "Standard piston stroke: 0.80 — 1.73 mm (0.0315 — 0.068 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If the stroke exceeds the limit, the clutch pack is probably worn. If the stroke is less than the limit, parts may be mis-assembled or there may be excess ATF on the discs."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "page_id": "CL-9",
+  "section_header": "CLUTCH — Clutch Unit",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Using SST (Special Service Tool) to install pilot bearing into clutch assembly",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 2,
+        "left": 2,
+        "width": 38,
+        "height": 32
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Using SST, install the pilot bearing."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09304-30012",
+      "description": null
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Using calipers to measure diaphragm spring depth and width of wear",
+      "labels": [],
+      "bbox": {
+        "top": 34,
+        "left": 2,
+        "width": 38,
+        "height": 32
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. INSPECT DIAPHRAGM SPRING FOR WEAR"
+    },
+    {
+      "type": "text",
+      "text": "Using calipers, measure the diaphragm spring for depth and width of wear."
+    },
+    {
+      "type": "table",
+      "caption": "Limit:",
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Depth",
+          "0.6 mm (0.024 in.)"
+        ],
+        [
+          "Width",
+          "5.0 mm (0.197 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Drilling out rivet heads from pressure plate using drill press",
+      "labels": [],
+      "bbox": {
+        "top": 66,
+        "left": 2,
+        "width": 38,
+        "height": 32
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. IF NECESSARY, REPLACE PRESSURE PLATE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Drill out the rivet heads.",
+        "(b) Using a punch, drive out the rivets."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installing and torquing pressure plate bolts",
+      "labels": [
+        "CL0041"
+      ],
+      "bbox": {
+        "top": 87,
+        "left": 2,
+        "width": 38,
+        "height": 32
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Install a new pressure plate with special pressure plate bolts and nuts. Torque the nuts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pressure plate bolts",
+      "value": "250 kg·cm (18 ft·lb, 25 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "(d) Stake the nuts."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Inspecting release bearing by turning it by hand while applying axial force",
+      "labels": [
+        "Z2227"
+      ],
+      "bbox": {
+        "top": 120,
+        "left": 2,
+        "width": 38,
+        "height": 32
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. INSPECT RELEASE BEARING"
+    },
+    {
+      "type": "text",
+      "text": "Turn the bearing by hand while applying force in the axial direction."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: The bearing is permanently lubricated and requires no cleaning or lubrication."
+    }
+  ]
+}

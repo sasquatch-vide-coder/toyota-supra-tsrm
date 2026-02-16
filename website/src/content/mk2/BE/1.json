@@ -1,0 +1,98 @@
+{
+  "page_id": "BE-1",
+  "section_header": "BODY ELECTRICAL SYSTEM",
+  "title": "BODY ELECTRICAL SYSTEM",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "BODY ELECTRICAL SYSTEM"
+    },
+    {
+      "type": "table",
+      "caption": "Table of Contents",
+      "headers": [
+        "Topic",
+        "Page"
+      ],
+      "rows": [
+        [
+          "GENERAL INFORMATION",
+          "BE-2"
+        ],
+        [
+          "LOCATION OF SWITCHES AND RELAYS",
+          "BE-7"
+        ],
+        [
+          "IGNITION SWITCH",
+          "BE-11"
+        ],
+        [
+          "LIGHTING",
+          "BE-12"
+        ],
+        [
+          "HEADLIGHT CLEANER",
+          "BE-21"
+        ],
+        [
+          "WIPERS AND WASHERS",
+          "BE-22"
+        ],
+        [
+          "INSTRUMENTS AND SENDER GAUGES",
+          "BE-27"
+        ],
+        [
+          "REAR WINDOW DEFOGGER",
+          "BE-61"
+        ],
+        [
+          "HEATER",
+          "BE-63"
+        ],
+        [
+          "POWER WINDOW",
+          "BE-65"
+        ],
+        [
+          "DOOR LOCK CONTROL SYSTEM",
+          "BE-67"
+        ],
+        [
+          "SUN ROOF",
+          "BE-69"
+        ],
+        [
+          "CRUISE CONTROL SYSTEM",
+          "BE-70"
+        ],
+        [
+          "REMOTE CONTROL MIRROR",
+          "BE-85"
+        ],
+        [
+          "MIRROR HEATER",
+          "BE-86"
+        ],
+        [
+          "THEFT DETERRENT SYSTEM",
+          "BE-87"
+        ],
+        [
+          "RADIO, STEREO TAPE PLAYER AND ANTENNA",
+          "BE-101"
+        ],
+        [
+          "CLOCK",
+          "BE-111"
+        ],
+        [
+          "TRIP COMPUTER",
+          "BE-113"
+        ]
+      ]
+    }
+  ]
+}

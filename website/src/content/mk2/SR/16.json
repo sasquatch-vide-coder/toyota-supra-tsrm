@@ -1,0 +1,156 @@
+{
+  "page_id": "SR-16",
+  "section_header": "STEERING — Power Steering",
+  "title": "Oil Pressure Check",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Oil Pressure Check"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. CONNECT PRESSURE GAUGE"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing pressure gauge connection to power steering pump with looped hoses",
+      "labels": [
+        "Pressure gauge",
+        "PS pump",
+        "Hoses with valve"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "(a) Using SST, remove the pressure line from the PS pump.",
+        "(b) Connect the gauge side of the pressure gauge to the PS pump.",
+        "(c) Connect the valve side of the pressure gauge to the pressure line.",
+        "(d) Bleed the system. Start the engine and turn the wheel fully in both directions two or three times.",
+        "(e) Check that the fluid level is correct."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09631-22020",
+      "description": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CHECK THAT FLUID TEMPERATURE IS AT LEAST 80°C (176°F)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing oil temperature gauge reading 80°C and a hand holding thermometer near steering component",
+      "labels": [
+        "Oil Temp",
+        "80",
+        "C"
+      ],
+      "bbox": {
+        "top": 39,
+        "left": 3,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. START ENGINE AND RUN IT AT IDLE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CHECK FLUID PRESSURE READING WITH VALVE CLOSED"
+    },
+    {
+      "type": "text",
+      "text": "Close the pressure gauge valve and observe the reading on the gauge."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Minimum pressure",
+      "value": "65 kg/cm² (924 psi, 6,374 kPa)"
+    },
+    {
+      "type": "notice",
+      "text": "Do not keep the valve closed for more than 10 seconds."
+    },
+    {
+      "type": "text",
+      "text": "If pressure is low, repair or replace the PS pump."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing pressure gauge with valve in closed position and idle rpm indicator",
+      "labels": [
+        "Min. 65 kg/cm²",
+        "Closed",
+        "Lock Position",
+        "rpm",
+        "Second"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. OPEN VALVE FULLY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. CHECK AND RECORD PRESSURE READING AT 1,000 RPM"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. CHECK AND RECORD PRESSURE READING AT 3,000 RPM"
+    },
+    {
+      "type": "text",
+      "text": "Check that there is less than 5 kg/cm² (71 psi, 490 kPa) difference in pressure between the 1,000 rpm and 3,000 rpm checks."
+    },
+    {
+      "type": "text",
+      "text": "If the difference is greater, repair or replace the PS pump."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing pressure gauge with valve open and rpm gauge showing 1,000-3,000 range",
+      "labels": [
+        "Pressure Differential Less than 5 kg/cm²",
+        "Open",
+        "1,000 3,000",
+        "rpm"
+      ],
+      "bbox": {
+        "top": 82,
+        "left": 3,
+        "width": 38,
+        "height": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "page_id": "A-2",
+  "section_header": "SERVICE SPECIFICATIONS — Maintenance",
+  "title": "MAINTENANCE",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Engine"
+    },
+    {
+      "type": "table",
+      "caption": "Drive belt tension",
+      "headers": [
+        "Component",
+        "Condition",
+        "Specification (metric)",
+        "Specification (imperial)"
+      ],
+      "rows": [
+        [
+          "w/Borroughs drive belt tension gauge No. BT-33-73F or Nippondenso BTG-20 (95506-00020)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Alternator",
+          "New belt",
+          "170 ± 10 lb",
+          ""
+        ],
+        [
+          "",
+          "Used belt",
+          "135 ± 20 lb",
+          ""
+        ],
+        [
+          "PS pump and A/C compressor",
+          "New belt",
+          "125 ± 25 lb",
+          ""
+        ],
+        [
+          "",
+          "Used belt",
+          "80 ± 20 lb",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Coolant capacity",
+      "headers": [
+        "",
+        "M/T A/T",
+        "Liters",
+        "US qts",
+        "Imp. qts"
+      ],
+      "rows": [
+        [
+          "",
+          "M/T A/T",
+          "8.0 liters 7.9 liters",
+          "8.5 US qts 8.3 US qts",
+          "7.0 Imp. qts 7.0 Imp. qts"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Engine oil capacity",
+      "headers": [
+        "Operation",
+        "w/Filter",
+        "Liters",
+        "US qts",
+        "Imp. qts"
+      ],
+      "rows": [
+        [
+          "Drain and refill",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "w/Oil filter change",
+          "",
+          "5.1 liters",
+          "5.4 US qts",
+          "4.5 Imp. qts"
+        ],
+        [
+          "w/o Oil filter change",
+          "",
+          "4.6 liters",
+          "4.9 US qts",
+          "4.1 Imp. qts"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Spark plug",
+      "headers": [
+        "Parameter",
+        "Specification (metric)",
+        "Specification (imperial)"
+      ],
+      "rows": [
+        [
+          "Type",
+          "ND NGK",
+          "P16R BPR5EP11"
+        ],
+        [
+          "Gap",
+          "1.1 mm",
+          "0.043 in."
+        ],
+        [
+          "Firing order",
+          "1-5-3-6-2-4",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Chassis"
+    },
+    {
+      "type": "table",
+      "caption": "Front and rear brake",
+      "headers": [
+        "Component",
+        "Type",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Pad thickness",
+          "Limit",
+          "1 mm",
+          "0.04 in."
+        ],
+        [
+          "Disc thickness",
+          "Limit Front",
+          "21 mm",
+          "0.83 in."
+        ],
+        [
+          "",
+          "Rear",
+          "17 mm",
+          "0.67 in."
+        ],
+        [
+          "Disc runout",
+          "Limit",
+          "0.15 mm",
+          "0.0059 in."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Parking brake",
+      "headers": [
+        "Component",
+        "Type",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Lining thickness",
+          "Limit",
+          "1 mm",
+          "0.04 in."
+        ],
+        [
+          "Drum inner diameter",
+          "Limit",
+          "168 mm",
+          "6.61 in."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Front and suspension",
+      "headers": [
+        "Component",
+        "Type",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Ball joint vertical play",
+          "Limit",
+          "2.5 mm",
+          "0.098 in."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Wheel bearing friction preload",
+      "headers": [
+        "Component",
+        "Metric",
+        "Imperial 1",
+        "Imperial 2"
+      ],
+      "rows": [
+        [
+          "In addition rotation friction force of the oil seal",
+          "0 - 1,050 g",
+          "0 - 2.3 lb",
+          "0 - 10 N"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Steering wheel freeplay",
+      "headers": [
+        "Type",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "",
+          "Max. 30 mm",
+          "1.18 in."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Chassis and body tightening torque:",
+      "headers": [
+        "Component",
+        "kg-cm",
+        "ft-lb",
+        "N·m"
+      ],
+      "rows": [
+        [
+          "Front seat mounting bolt",
+          "375 kg-cm",
+          "27 ft-lb",
+          "37 N·m"
+        ],
+        [
+          "Front suspension member x Body",
+          "1,300 kg-cm",
+          "94 ft-lb",
+          "127 N·m"
+        ],
+        [
+          "Strut bar bracket x Body",
+          "440 kg-cm",
+          "32 ft-lb",
+          "43 N·m"
+        ],
+        [
+          "Rear suspension member x Body (Front & Rear)",
+          "1,320 kg-cm",
+          "95 ft-lb",
+          "129 N·m"
+        ]
+      ]
+    }
+  ]
+}

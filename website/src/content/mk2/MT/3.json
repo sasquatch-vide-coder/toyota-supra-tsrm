@@ -1,0 +1,138 @@
+{
+  "page_id": "MT-3",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "W58 TRANSMISSION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF TRANSMISSION"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE NEGATIVE BATTERY TERMINAL WIRE",
+        "DRAIN COOLANT FROM RADIATOR UPPER TANK",
+        "REMOVE UPPER HOSE FROM RADIATOR"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of shift lever from inside the vehicle, with shift boot and console area visible",
+      "labels": [
+        "MT0003"
+      ],
+      "bbox": {
+        "top": 17,
+        "left": 1,
+        "width": 26,
+        "height": 13
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 4,
+      "items": [
+        "REMOVE CONSOLE BOX",
+        "REMOVE SHIFT LEVER FROM INSIDE OF VEHICLE"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing vehicle raised and supported, with jack stands positioned under the vehicle for draining transmission oil",
+      "labels": [
+        "EM0708"
+      ],
+      "bbox": {
+        "top": 37,
+        "left": 1,
+        "width": 26,
+        "height": 13
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        "RAISE VEHICLE AND DRAIN TRANSMISSION OIL"
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Be sure the vehicle is securely supported."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 7,
+      "items": [
+        "REMOVE STEERING GEAR HOUSING"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remove the steering gear housing without disconnecting return and pressure tube, then suspend it."
+    },
+    {
+      "type": "text",
+      "text": "(See page SR-27)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of propeller shaft and SST (Special Service Tool) being inserted into the extension housing",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 1,
+        "width": 26,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 8,
+      "items": [
+        "REMOVE PROPELLER SHAFT"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remove the propeller shaft and insert SST into the extension housing."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09325-20010",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of exhaust pipe clamp bolt from stiffener plate at the rear of the transmission",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 1,
+        "width": 26,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 9,
+      "items": [
+        "REMOVE EXHAUST PIPE CLAMP BOLT FROM STIFFENER PLATE"
+      ]
+    }
+  ]
+}

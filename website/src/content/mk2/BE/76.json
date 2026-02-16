@@ -1,0 +1,115 @@
+{
+  "page_id": "BE-76",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "CONTINUED FROM PREVIOUS PAGE",
+  "content": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ACTUATOR"
+    },
+    {
+      "type": "flowchart",
+      "description": "Flowchart showing actuator inspection steps with Yes/No decision paths",
+      "steps": [
+        {
+          "step": "INSPECT ACTUATOR OPERATION",
+          "question": "Is actuator operation normal? (See page BE-84)",
+          "yes_action": "Replace computer.",
+          "no_action": "Replace actuator."
+        }
+      ],
+      "bbox": {
+        "top": 2,
+        "left": 5,
+        "width": 90,
+        "height": 23
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "B | INSPECTION OF CONTROL SWITCH CIRCUIT",
+      "style": "boxed"
+    },
+    {
+      "type": "instruction",
+      "text": "Turn ignition switch off."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CONTROL S/W"
+    },
+    {
+      "type": "flowchart",
+      "description": "Flowchart showing control switch inspection steps",
+      "steps": [
+        {
+          "step": "INSPECT SWITCH OPERATION",
+          "question": "Is there continuity between terminal 28 and body ground with accel/resume switch turned on?",
+          "yes_action": "Continue to next check",
+          "no_action": "Inspect control switch."
+        },
+        {
+          "step": "INSPECT SWITCH OPERATION",
+          "question": "Is there continuity between terminal 28 and body ground with accel/resume switch turned off?",
+          "yes_action": "Inspect control switch.",
+          "no_action": "Continue to computer check"
+        }
+      ],
+      "bbox": {
+        "top": 32,
+        "left": 5,
+        "width": 90,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "COMPUTER"
+    },
+    {
+      "type": "flowchart",
+      "description": "Flowchart showing computer inspection step",
+      "steps": [
+        {
+          "step": "INSPECT ACCEL/RESUME SWITCH CIRCUIT",
+          "question": "Is there continuity between terminal 13 and body ground with accel/resume switch turned on?",
+          "yes_action": "Continue to actuator check",
+          "no_action": "Open circuit in wire harness between terminal 13 of computer and terminal 28 of control switch."
+        }
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 5,
+        "width": 90,
+        "height": 13
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ACTUATOR"
+    },
+    {
+      "type": "flowchart",
+      "description": "Flowchart showing actuator inspection steps with Yes/No decision paths",
+      "steps": [
+        {
+          "step": "INSPECT ACTUATOR OPERATION",
+          "question": "Is actuator operation normal? (See page BE-84)",
+          "yes_action": "Replace computer.",
+          "no_action": "Replace actuator."
+        }
+      ],
+      "bbox": {
+        "top": 70,
+        "left": 5,
+        "width": 90,
+        "height": 25
+      }
+    }
+  ]
+}

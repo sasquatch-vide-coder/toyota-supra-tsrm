@@ -1,0 +1,181 @@
+{
+  "page_id": "A-24",
+  "section_header": "SERVICE SPECIFICATIONS — Brake System",
+  "title": "BRAKE SYSTEM Specifications",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Brake System Specifications",
+      "headers": [
+        "Brake",
+        "Component/Measurement",
+        "Type",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Brake",
+          "Pedal height (from asphalt sheet)",
+          "",
+          "154 — 164 mm",
+          "6.06 — 6.46 in."
+        ],
+        [
+          "",
+          "Pedal freeplay",
+          "",
+          "3 — 6 mm",
+          "0.12 — 0.24 in."
+        ],
+        [
+          "",
+          "Pedal reserve distance at 50 kg (110.2 lb, 490 N)",
+          "",
+          "More than 75 mm (2.95 in.)",
+          ""
+        ],
+        [
+          "Brake booster",
+          "Booster push rod to piston clearance",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "at Idling vacuum",
+          "",
+          "0.1 — 0.5 mm",
+          "0.004 — 0.020 in."
+        ],
+        [
+          "",
+          "at No vacuum",
+          "",
+          "0.60 — 0.65 mm",
+          "0.0236 — 0.0256 in."
+        ],
+        [
+          "",
+          "w/ SST",
+          "",
+          "0 mm",
+          "0 in."
+        ],
+        [
+          "Front brake",
+          "Disc thickness",
+          "STD",
+          "20 mm",
+          "0.79 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "19 mm",
+          "0.75 in."
+        ],
+        [
+          "",
+          "Disc runout",
+          "Limit",
+          "0.15 mm",
+          "0.0059 in."
+        ],
+        [
+          "",
+          "Pad thickness",
+          "STD",
+          "10.5 mm",
+          "0.413 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "3.0 mm",
+          "0.118 in."
+        ],
+        [
+          "Rear brake",
+          "Disc thickness",
+          "STD",
+          "18 mm",
+          "0.71 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "17 mm",
+          "0.67 in."
+        ],
+        [
+          "",
+          "Disc runout",
+          "Limit",
+          "0.15 mm",
+          "0.0059 in."
+        ],
+        [
+          "",
+          "Pad thickness",
+          "STD",
+          "10.5 mm",
+          "0.413 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "3.0 mm",
+          "0.118 in."
+        ],
+        [
+          "Parking brake",
+          "Rear drum inner diameter",
+          "STD",
+          "167 mm",
+          "6.57 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "168 mm",
+          "6.61 in."
+        ],
+        [
+          "",
+          "Lining thickness",
+          "STD",
+          "2.0 mm",
+          "0.079 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "1.0 mm",
+          "0.039 in."
+        ],
+        [
+          "",
+          "Lever travel at 20 kg (44.1 lb, 196 N)",
+          "",
+          "5 — 8clicks",
+          ""
+        ],
+        [
+          "",
+          "Clearance between rear shoe and lever",
+          "",
+          "0 — 0.35 mm",
+          "0 — 0.0138 in."
+        ]
+      ]
+    }
+  ]
+}

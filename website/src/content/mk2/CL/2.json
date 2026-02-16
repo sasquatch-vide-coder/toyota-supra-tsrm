@@ -1,0 +1,55 @@
+{
+  "page_id": "CL-2",
+  "section_header": "CLUTCH — Troubleshooting",
+  "title": "TROUBLESHOOTING",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Hard to shift or will not shift",
+          "Clutch pedal freeplay excessive\nAir in clutch lines\nClutch release cylinder faulty\nClutch master cylinder faulty\nClutch disc out of true, runout is excessive or lining broken\nClutch input shaft or clutch disc dirty or burred\nClutch pressure plate faulty",
+          "Adjust pedal freeplay\nBleed clutch system\nRepair release cylinder\nRepair master cylinder\nInspect clutch disc\nRepair as necessary\nReplace pressure plate",
+          "CL-3\nCL-3\nCL-5\nCL-4\nCL-7\nCL-7\nCL-7"
+        ],
+        [
+          "Transmission jumps out of gear",
+          "Clutch pilot bearing worn",
+          "Replace pilot bearing",
+          "CL-8"
+        ],
+        [
+          "Clutch slips",
+          "Clutch pedal freeplay insufficient\nClutch disc lining oily or worn out\nPressure plate faulty\nRelease fork binding",
+          "Adjust pedal freeplay\nInspect clutch disc\nReplace pressure plate\nInspect release fork",
+          "CL-3\nCL-7\nCL-7\nCL-7"
+        ],
+        [
+          "Clutch grabs/chatters",
+          "Clutch disc lining oily or worn out\nPressure plate faulty\nClutch diaphragm spring bent\nEngine mounts loose",
+          "Inspect clutch disc\nReplace pressure plate\nAlign clutch diaphragm\nRepair as necessary",
+          "CL-7\nCL-7\nCL-7"
+        ],
+        [
+          "Clutch pedal spongy",
+          "Air in clutch lines\nClutch release cylinder faulty\nClutch master cylinder faulty",
+          "Bleed clutch system\nRepair release cylinder\nRepair master cylinder",
+          "CL-3\nCL-5\nCL-4"
+        ],
+        [
+          "Clutch noisy",
+          "Loose part inside housing\nRelease bearing worn or dirty\nPilot bearing worn\nRelease fork or linkage sticks",
+          "Repair as necessary\nReplace release bearing\nReplace pilot bearing\nRepair as necessary",
+          "CL-7\nCL-8"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "page_id": "CH-8",
+  "section_header": "CHARGING SYSTEM — Alternator",
+  "title": "CHARGING SYSTEM — Alternator",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration of alternator stator showing coil leads and drive end frame",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 38,
+        "height": 26
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSPECT THAT STATOR IS NOT GROUNDED"
+    },
+    {
+      "type": "text",
+      "text": "Using an ohmmeter, check that there is no continuity between the coil leads and drive end frame. If there is continuity, replace the drive end frame assembly."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Brush and Brush Holder"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. MEASURE EXPOSED BRUSH LENGTH"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing measurement of exposed brush length with a scale",
+      "labels": [],
+      "bbox": {
+        "top": 29,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "Using a scale, measure the exposed brush length."
+    },
+    {
+      "type": "text",
+      "text": "Standard exposed length: 10.5 mm (0.413 in.)"
+    },
+    {
+      "type": "text",
+      "text": "Minimum exposed length: 4.5 mm (0.177 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If the exposed length is less than minimum, replace the brush."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. IF NECESSARY REPLACE BRUSHES"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of brush and spring from brush holder",
+      "labels": [],
+      "bbox": {
+        "top": 50,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Unsolder and remove the brush and the spring.",
+        "(b) Run the wire of the brush through the hole in the brush holder, and insert the spring and brush into the brush holder."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing soldering of brush wire to brush holder at exposed length of 10.5 mm",
+      "labels": [
+        "10.5 mm"
+      ],
+      "bbox": {
+        "top": 71,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Solder the brush wire to the brush holder at the exposed length.",
+        "(d) Check that the brush moves smoothly in the brush holder.",
+        "(e) Cut off the excess wire.",
+        "(f) Apply insulation paint to the soldered point."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Standard exposed length: 10.5 mm (0.413 in.)"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Bearings"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECT FRONT BEARING"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing inspection of front bearing in alternator",
+      "labels": [],
+      "bbox": {
+        "top": 81,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "Check that the front bearing is not rough or worn. Replace if necessary."
+    }
+  ]
+}

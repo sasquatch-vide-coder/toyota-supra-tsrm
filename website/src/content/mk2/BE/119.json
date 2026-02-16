@@ -1,0 +1,67 @@
+{
+  "page_id": "BE-119",
+  "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer",
+  "title": "TEST B",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Test B Trouble Description",
+      "headers": [
+        "TEST",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "B",
+          "MPG indication always Zero.\nTrip reading increases or \"ARRIVE\" mode indicates \"..........\" always."
+        ]
+      ]
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart starting with MPG indication check",
+      "steps": [
+        {
+          "type": "decision",
+          "text": "Is MPG indication always zero?",
+          "yes": "Disconnect 14-terminal connector.",
+          "no": "Replace DISPLAY CLUSTER."
+        },
+        {
+          "type": "test",
+          "number": 1,
+          "text": "With the ignition switch at ON position, does voltage between terminals f and GND of the 14-terminal connector fluctuate between 0 to 5V when vehicle is moved about 1 meter? (engine not running)",
+          "yes": "Replace DISPLAY CLUSTER.",
+          "no": {
+            "type": "decision",
+            "text": "Is there continuity speed sensor and wire harness?",
+            "yes": "Replace Keyboard.",
+            "no": "Repair and replace speed sensor and wire harness."
+          }
+        }
+      ],
+      "bbox": {
+        "top": 12,
+        "left": 2,
+        "width": 96,
+        "height": 48
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "14-terminal Connector of COMPUTER showing connection to display device with GND and positive terminals marked",
+      "labels": [
+        "14-terminal Connector of COMPUTER",
+        "GND",
+        "TOYOTA ELECTRICAL TESTER"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 2,
+        "width": 52,
+        "height": 40
+      }
+    }
+  ]
+}

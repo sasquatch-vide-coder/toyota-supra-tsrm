@@ -1,0 +1,150 @@
+{
+  "page_id": "MA-7",
+  "section_header": "MAINTENANCE — Maintenance Operations",
+  "title": "BRAKES",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands inspecting a brake line or hose with a mirror",
+      "labels": [
+        "MA0068"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSPECT BRAKE LINE PIPES AND HOSES"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Inspect in a well lighted area. Inspect the entire circumference and length of the brake hoses using a mirror as required. Turn the front wheels fully right or left before inspecting the front brake."
+    },
+    {
+      "type": "text",
+      "text": "(a) Check all brake lines and hoses for:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Damage",
+        "Corrosion",
+        "Wear",
+        "Leaks",
+        "Deformation",
+        "Bends",
+        "Cracks",
+        "Twists"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(b) Check all clamps for tightness and connections for leakage."
+    },
+    {
+      "type": "text",
+      "text": "(c) Check that the hoses and lines are clear of sharp edges, moving parts and the exhaust system."
+    },
+    {
+      "type": "text",
+      "text": "(d) Check that the lines installed in grommets, pass through the center of the grommets."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing underside view of brake system components with hoses and lines",
+      "labels": [
+        "MA0168"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 2,
+        "width": 38,
+        "height": 12
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. INSPECT FRONT AND REAR BRAKE PADS AND DISCS"
+    },
+    {
+      "type": "text",
+      "text": "(Front: See page BR-14, Rear: See page BR-20)"
+    },
+    {
+      "type": "text",
+      "text": "(a) Check the thickness of the disc brake pads and check for irregular wear."
+    },
+    {
+      "type": "text",
+      "text": "Minimum pad thickness: 3.0 mm (0.118 in.)"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: If a squealing or scraping noise occurs from the front or rear brakes during driving, check the pad wear indicator. If there are traces of the indicator contacting the disc rotor, the disc pad should be replaced."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing brake pad and disc with wear indicator labeled",
+      "labels": [
+        "Wear Indicator",
+        "MA0068 MA0009"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 2,
+        "width": 38,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Check the disc for wear or runout."
+    },
+    {
+      "type": "text",
+      "text": "Minimum disc thickness:"
+    },
+    {
+      "type": "table",
+      "headers": [],
+      "rows": [
+        [
+          "Front",
+          "19.0 mm (0.748 in.)"
+        ],
+        [
+          "Rear",
+          "17.0 mm (0.669 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Maximum disc runout: 0.15 mm (0.0059 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing measurement of brake disc runout with dial indicator",
+      "labels": [
+        "SBW034"
+      ],
+      "bbox": {
+        "top": 51,
+        "left": 2,
+        "width": 38,
+        "height": 19
+      }
+    }
+  ]
+}

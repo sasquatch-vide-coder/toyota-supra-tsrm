@@ -1,0 +1,111 @@
+{
+  "page_id": "SR-28",
+  "section_header": "STEERING — Power Steering",
+  "title": "COMPONENTS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of power steering components showing control valve assembly at top, steering rack assembly in middle, and tie rod assembly at bottom with all related parts and fasteners",
+      "labels": [
+        "Dust Cover",
+        "Snap Ring",
+        "Valve Cap",
+        "O-Ring",
+        "Oil Seal",
+        "Bearing",
+        "Snap Ring",
+        "Spring",
+        "Teflon Ring",
+        "Control Valve",
+        "Cylinder End Stopper Nut",
+        "Boot",
+        "Clip",
+        "Clamp",
+        "Cylinder End Stopper",
+        "Control Valve Housing",
+        "Turn Pressure Tube",
+        "O-Ring",
+        "Wave Washer",
+        "Union Seat",
+        "Rack Guide Spring Cap",
+        "Oil Seal",
+        "O-Ring",
+        "Lock Nut",
+        "Spacer",
+        "Rack Guide and Seat",
+        "Rack End Guide",
+        "Cylinder Housing",
+        "Oil Seal",
+        "O-Ring",
+        "Rack Housing",
+        "Rack Guide Spring",
+        "Bearing",
+        "Pinion Adjusting Screw",
+        "Lock Nut",
+        "Rack",
+        "O-Ring",
+        "Teflon Ring",
+        "Tie Rod",
+        "Claw Washer",
+        "Rack End"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 4,
+        "width": 92,
+        "height": 88
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Cylinder End Stopper Nut",
+      "value": "1,750 [127, 172]",
+      "marked_precoated": true
+    },
+    {
+      "type": "torque_spec",
+      "component": "Control Valve Housing (to Turn Pressure Tube)",
+      "value": "185 [13, 18]"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Rack Guide and Seat (Spacer)",
+      "value": "186 [13, 18]"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Lock Nut (Rack Guide Spring Cap)",
+      "value": "700 [51, 69]",
+      "marked_precoated": true
+    },
+    {
+      "type": "torque_spec",
+      "component": "Lock Nut (Pinion Adjusting Screw)",
+      "value": "700 [51, 69]",
+      "marked_precoated": true
+    },
+    {
+      "type": "torque_spec",
+      "component": "Claw Washer (Rack End)",
+      "value": "175 [13, 17]"
+    },
+    {
+      "type": "legend",
+      "items": [
+        {
+          "symbol": "kg-cm (ft-lb, N-m)",
+          "description": "Specified torque"
+        },
+        {
+          "symbol": "◆",
+          "description": "Non-reusable part"
+        },
+        {
+          "symbol": "★",
+          "description": "Precoated part"
+        }
+      ]
+    }
+  ]
+}

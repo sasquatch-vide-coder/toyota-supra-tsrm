@@ -1,0 +1,134 @@
+{
+  "page_id": "AT-66",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Front Clutch)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Front Clutch)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installing thinner snap ring in clutch drum, showing hands compressing snap ring into groove",
+      "labels": [
+        "C4762"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 38,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "7.",
+          "heading": "INSTALL THINNER SNAP RING IN CLUTCH DRUM",
+          "substeps": [
+            "(a) Remove the outer snap ring, rear clutch hub and disc to allow installation of the thinner snap ring.",
+            "(b) Compress and lower the snap ring into the groove by hand. Check that the ends of the snap ring are not aligned with one of the cutouts."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installing disc and inner thrust bearing, showing cross-section view with front direction indicated and inner/outer center markings",
+      "labels": [
+        "Front",
+        "Inner center",
+        "Outer center"
+      ],
+      "bbox": {
+        "top": 31,
+        "left": 3,
+        "width": 38,
+        "height": 26
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "8.",
+          "heading": "INSTALL DISC"
+        },
+        {
+          "number": "9.",
+          "heading": "INSTALL INNER THRUST BEARING AND RACES",
+          "content": [
+            {
+              "type": "notice",
+              "text": "IMPORTANT: Coat parts with petroleum jelly to hold them."
+            },
+            "Install the inner race, needle bearing and outer race. Press them into place.",
+            {
+              "type": "notice",
+              "text": "NOTE: Face the lip of race toward the front of the clutch body."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installing front clutch hub, showing hub being aligned with clutch drum",
+      "labels": [
+        "AT66B3"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "10.",
+          "heading": "INSTALL FRONT CLUTCH HUB",
+          "text": "Align the disc lugs with the hub teeth. Make sure the hub meshes with all discs and is fully inserted."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installing rear clutch hub and outer snap ring, showing snap ring being installed with cutouts visible",
+      "labels": [
+        "C4763"
+      ],
+      "bbox": {
+        "top": 84,
+        "left": 3,
+        "width": 38,
+        "height": 26
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "11.",
+          "heading": "INSTALL REAR CLUTCH HUB AND OUTER SNAP RING",
+          "text": "Check that the snap ring ends are not aligned with one of the cutouts.",
+          "note": {
+            "type": "notice",
+            "text": "NOTE: Note the position of the inner thrust bearing and races, and keep them together until assembly."
+          }
+        },
+        {
+          "number": "12.",
+          "heading": "KEEP THRUST BEARINGS AND RACES TOGETHER"
+        }
+      ]
+    }
+  ]
+}

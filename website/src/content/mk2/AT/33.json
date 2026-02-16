@@ -1,0 +1,134 @@
+{
+  "page_id": "AT-33",
+  "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the location and removal of solenoid No. 3, with an arrow pointing to the solenoid assembly mounted on the valve body",
+      "labels": [
+        "A10733"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. WHEN REPLACING SOLENOID"
+    },
+    {
+      "type": "text",
+      "text": "(a) For the No. 3 solenoid,"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Remove the two bolts.",
+        "Remove the solenoid."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(b) For the No. 1 and 2 solenoids,"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Remove the three bolts.",
+        "Remove the solenoid with gasket."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Be careful not to remove the two valve springs."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the oil strainer location on the valve body with six bolts to be removed",
+      "labels": [
+        "A10734"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. REMOVE OIL STRAINER"
+    },
+    {
+      "type": "text",
+      "text": "Remove the six bolts, and the oil strainer."
+    },
+    {
+      "type": "caution",
+      "text": "Be careful as some oil will come out with the oil strainer."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the valve body with fifteen bolts marked with torque specifications (30, 26, 60, and 47 values indicated at various bolt locations)",
+      "labels": [
+        "30",
+        "26",
+        "30",
+        "60",
+        "30",
+        "30",
+        "30",
+        "47",
+        "47",
+        "30",
+        "30",
+        "30",
+        "A10735"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. REMOVE VALVE BODY"
+    },
+    {
+      "type": "text",
+      "text": "(a) Remove the fifteen bolts."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing hands removing B2 and C2 accumulator piston springs from the valve body",
+      "labels": [
+        "A10736"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the B2 and C2 accumulator piston springs."
+    }
+  ]
+}

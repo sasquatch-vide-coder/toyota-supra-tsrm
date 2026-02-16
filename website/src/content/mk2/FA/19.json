@@ -1,0 +1,177 @@
+{
+  "page_id": "FA-19",
+  "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension",
+  "title": "Stabilizer Bar",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page FA-14)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF STABILIZER BAR"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the removal of stabilizer bar from strut bar brackets, with hands using tools to disconnect components",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 1,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE ENGINE UNDER COVER",
+        "DISCONNECT STABILIZER BAR FROM LOWER ARMS",
+        "REMOVE BOTH STABILIZER BAR BRACKETS FROM STRUT BAR BRACKETS",
+        "REMOVE STRUT BAR WITH STRUT BAR BRACKET ON ONE SIDE"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the two nuts, and disconnect the strut bar from the lower arm.",
+        "(b) Remove the four strut bar bracket bolts."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Close-up illustration of strut bar bracket showing bolt locations and removal points",
+      "labels": [],
+      "bbox": {
+        "top": 23,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "5. REMOVE STABILIZER BAR"
+    },
+    {
+      "type": "text",
+      "text": "Pull out the stabilizer bar through the strut bar bracket hole."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF STABILIZER BAR"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing insertion of stabilizer bar through strut bar bracket hole with directional arrow",
+      "labels": [],
+      "bbox": {
+        "top": 42,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "1. INSERT STABILIZER BAR THROUGH STRUT BAR BRACKET HOLE"
+    },
+    {
+      "type": "text",
+      "text": "2. INSTALL STRUT BAR BRACKET"
+    },
+    {
+      "type": "text",
+      "text": "Install the strut bar bracket and torque the bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Strut bar bracket bolts",
+      "value": "475 kg-cm (34 ft-lb, 47 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "3. INSTALL STRUT BAR TO LOWER ARM"
+    },
+    {
+      "type": "text",
+      "text": "Install the strut bar and torque the nuts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Strut bar to lower arm nuts",
+      "value": "670 kg-cm (48 ft-lb, 66 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of stabilizer bar on brackets with torque wrench application",
+      "labels": [],
+      "bbox": {
+        "top": 61,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "4. INSTALL STABILIZER BAR ON BRACKETS"
+    },
+    {
+      "type": "text",
+      "text": "Place the stabilizer bar in position and install both stabilizer bushing and brackets on the strut bar brackets. Torque the bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Stabilizer bar bracket bolts",
+      "value": "130 kg-cm (9 ft-lb, 13 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing connection of stabilizer bar to lower arms with bolts, cushions and nuts, with reference number A92027",
+      "labels": [
+        "A92027"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 1,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "5. CONNECT STABILIZER BAR TO LOWER ARMS"
+    },
+    {
+      "type": "text",
+      "text": "Connect the stabilizer bar on both sides to the lower arms with bolts, cushions and nuts as shown. Torque the nuts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Stabilizer bar to lower arm connection",
+      "value": "180 kg-cm (13 ft-lb, 18 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "6. INSTALL ENGINE UNDER COVER"
+    },
+    {
+      "type": "text",
+      "text": "7. CHECK FRONT WHEEL ALIGNMENT"
+    },
+    {
+      "type": "text",
+      "text": "(See page FA-3)"
+    }
+  ]
+}

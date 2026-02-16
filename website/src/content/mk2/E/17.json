@@ -1,0 +1,49 @@
+{
+  "page_id": "Unknown",
+  "section_header": "INTERIOR LIGHTS",
+  "title": "INTERIOR LIGHTS WIRING DIAGRAM",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Interior lights electrical wiring diagram showing connections from gauge fuse, to clock, through fade-out relay, to various interior lights including door switches and courtesy lights. Diagram includes wire color codes and connection points.",
+      "labels": [
+        "Interior Lights",
+        "From 'GAUGE' Fuse (2.4)",
+        "To Clock (Signal) (E-1)",
+        "To Theft Warning ECU (B-6)",
+        "CLOCK (DIGITAL)",
+        "ROOM LIGHT",
+        "DOOR COURTESY LIGHT (LH)",
+        "DOOR COURTESY LIGHT",
+        "VANITY MIRROR LIGHT (LH)",
+        "VANITY MIRROR LIGHT (RH)",
+        "PERSONAL LIGHT",
+        "GLOVE COMPARTMENT LIGHT",
+        "TRUNK LIGHT",
+        "ROOM LIGHT SW",
+        "FADE OUT RELAY",
+        "DOOR COURTESY S/W",
+        "SEAT BELT WARNING SWITCH",
+        "From Light Dimmer Relay (E-3)",
+        "B/W",
+        "R/U",
+        "L/H"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 90,
+        "height": 85
+      }
+    },
+    {
+      "type": "text",
+      "text": "e : Located on right side of air intake chamber."
+    },
+    {
+      "type": "text",
+      "text": "f : Located in back panel near door key cylinder."
+    }
+  ]
+}

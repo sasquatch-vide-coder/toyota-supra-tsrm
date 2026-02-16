@@ -1,0 +1,75 @@
+{
+  "page_id": "FI-29",
+  "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+  "title": "TROUBLESHOOTING FOR EFI ELECTRONIC CIRCUIT WITH VOLT/OHMMETER",
+  "content": [
+    {
+      "type": "notice",
+      "text": "NOTE: Because the following troubleshooting procedures are designed for inspection of each separate system, the actual troubleshooting procedure may vary somewhat. However, please refer to these procedures and perform actual troubleshooting, conforming to the inspection methods described in this manual. For example, it is better to first make a simple check of the fuses, fusible links and connecting condition of the connectors before making your inspection according to the procedures listed."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Overall vehicle diagram showing locations of three fuse/fusible link points on a Toyota Supra",
+      "labels": [
+        "No.2 J/B",
+        "No.3 J/B",
+        "Fusible Link FL 2.0L",
+        "Fusible Link FL 1.0Y FL 0.3P",
+        "Fuse 7.5A IGN",
+        "Fuse 15A EFI"
+      ],
+      "bbox": {
+        "top": 37,
+        "left": 3,
+        "width": 94,
+        "height": 63
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Detail of No.2 J/B (Junction Box) showing ignition fuse location",
+      "labels": [
+        "No.2 J/B",
+        "Fuse 7.5A IGN"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 60,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Detail of fusible link FL 2.0L",
+      "labels": [
+        "Fusible Link FL 2.0L"
+      ],
+      "bbox": {
+        "top": 82,
+        "left": 6,
+        "width": 26,
+        "height": 17
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Detail of No.3 J/B (Junction Box) showing EFI fuse and fusible links",
+      "labels": [
+        "No.3 J/B",
+        "Fusible Link FL 1.0Y FL 0.3P",
+        "Fuse 15A EFI"
+      ],
+      "bbox": {
+        "top": 78,
+        "left": 59,
+        "width": 38,
+        "height": 22
+      }
+    }
+  ]
+}

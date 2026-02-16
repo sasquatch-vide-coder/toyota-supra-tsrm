@@ -1,0 +1,106 @@
+{
+  "IN": {
+    "name": "Introduction",
+    "pages": 9
+  },
+  "MA": {
+    "name": "Maintenance",
+    "pages": 13
+  },
+  "EM": {
+    "name": "Engine Mechanical",
+    "pages": 64
+  },
+  "EC": {
+    "name": "Emission Control Systems",
+    "pages": 16
+  },
+  "FI": {
+    "name": "EFI System",
+    "pages": 80
+  },
+  "CO": {
+    "name": "Cooling System",
+    "pages": 7
+  },
+  "LU": {
+    "name": "Lubrication System",
+    "pages": 9
+  },
+  "IG": {
+    "name": "Ignition System",
+    "pages": 10
+  },
+  "ST": {
+    "name": "Starting System",
+    "pages": 10
+  },
+  "CH": {
+    "name": "Charging System",
+    "pages": 11
+  },
+  "CL": {
+    "name": "Clutch",
+    "pages": 11
+  },
+  "MT": {
+    "name": "Manual Transmission",
+    "pages": 35
+  },
+  "AT": {
+    "name": "Automatic Transmission",
+    "pages": 120
+  },
+  "PR": {
+    "name": "Propeller Shaft",
+    "pages": 8
+  },
+  "FA": {
+    "name": "Front Axle And Suspension",
+    "pages": 19
+  },
+  "RA": {
+    "name": "Rear Axle And Suspension",
+    "pages": 55
+  },
+  "BR": {
+    "name": "Brake System",
+    "pages": 31
+  },
+  "SR": {
+    "name": "Steering",
+    "pages": 40
+  },
+  "BE": {
+    "name": "Body Electrical System",
+    "pages": 121
+  },
+  "BO": {
+    "name": "Body",
+    "pages": 52
+  },
+  "AC": {
+    "name": "Air Conditioning System",
+    "pages": 42
+  },
+  "A": {
+    "name": "Service Specifications",
+    "pages": 29
+  },
+  "B": {
+    "name": "Standard Bolt Torque Specifications",
+    "pages": 3
+  },
+  "C": {
+    "name": "SST and SSM",
+    "pages": 10
+  },
+  "D": {
+    "name": "Automatic Transmission Hydraulic Circuit",
+    "pages": 10
+  },
+  "E": {
+    "name": "Electrical Wiring Diagrams",
+    "pages": 21
+  }
+}

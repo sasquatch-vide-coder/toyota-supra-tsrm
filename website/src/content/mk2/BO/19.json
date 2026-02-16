@@ -1,0 +1,207 @@
+{
+  "page_id": "BO-19",
+  "section_header": "BODY — Moulding",
+  "title": "INSTALLATION OF DOOR BELT MOULDING / REMOVAL OF OUTSIDE MOULDING / INSTALLATION OF OUTSIDE MOULDING / REMOVAL OF ROCKER PANEL MOULDING / INSTALLATION OF ROCKER PANEL MOULDING",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands installing door belt moulding onto clips on a car door frame",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 45,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF DOOR BELT MOULDING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL BELT MOULDING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Tap the moulding onto the clips by hand,",
+        "(b) Install the moulding with the two screws."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL FOLLOWING PARTS:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Door weatherstrip on both ends",
+        "(b) Door trim (See page BO-9)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of moulding mounting nut from rear side of door using a wrench",
+      "labels": [
+        "BO0198"
+      ],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 45,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF OUTSIDE MOULDING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE MOULDING MOUNTING NUT"
+    },
+    {
+      "type": "text",
+      "text": "Remove the moulding mounting nut from the rear side of the door."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE MOULDING"
+    },
+    {
+      "type": "text",
+      "text": "Using a scraper, pry loose the clips and remove the moulding."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands installing outside moulding onto clips on vehicle body panel",
+      "labels": [
+        "BO0010"
+      ],
+      "bbox": {
+        "top": 51,
+        "left": 3,
+        "width": 45,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF OUTSIDE MOULDING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. BEFORE INSTALLING MOULDING, REPLACE CAPS"
+    },
+    {
+      "type": "text",
+      "text": "Remove the remaining caps on the clip installation hole of the body, and install new caps."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL MOULDING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the clips to the moulding.",
+        "(b) Install the moulding onto the panel by hand."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL MOULDING MOUNTING NUT"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of rocker panel moulding by prying with scraper after removing screws",
+      "labels": [
+        "BO0046"
+      ],
+      "bbox": {
+        "top": 68,
+        "left": 3,
+        "width": 45,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF ROCKER PANEL MOULDING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVE MOULDING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the three screws.",
+        "(b) Pry loose the clips with a scraper and remove the moulding."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing hands installing rocker panel moulding onto clips by hand",
+      "labels": [
+        "BO0010"
+      ],
+      "bbox": {
+        "top": 85,
+        "left": 3,
+        "width": 45,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF ROCKER PANEL MOULDING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. BEFORE INSTALLING MOULDING, REPLACE CAPS"
+    },
+    {
+      "type": "text",
+      "text": "Remove the remaining caps on the clip installation hole of the body, and install new caps."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL MOULDING BY HAND"
+    },
+    {
+      "type": "text",
+      "text": "Tap the moulding onto the clips by hand."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL THREE SCREWS"
+    }
+  ]
+}

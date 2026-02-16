@@ -1,0 +1,124 @@
+{
+  "page_id": "EM-2",
+  "section_header": "ENGINE MECHANICAL — Troubleshooting",
+  "title": "TROUBLESHOOTING",
+  "content": [
+    {
+      "type": "table",
+      "caption": "TROUBLESHOOTING",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        {
+          "problem": "Engine overheats",
+          "possible_causes": [
+            "Cooling system faulty",
+            "Incorrect ignition timing"
+          ],
+          "remedies": [
+            "Troubleshoot cooling system",
+            "Reset timing"
+          ],
+          "pages": [
+            "CO-2",
+            "IG-10"
+          ]
+        },
+        {
+          "problem": "Engine will not crank or cranks slowly",
+          "possible_causes": [
+            "Starting system faulty"
+          ],
+          "remedies": [
+            "Troubleshoot starting system"
+          ],
+          "pages": [
+            "ST-2"
+          ]
+        },
+        {
+          "problem": "Engine will not start/ Hard to start (cranks OK)",
+          "possible_causes": [
+            "Vacuum leaks: PCV hoses, EGR valve, Intake manifold, Air intake chamber, Throttle body, ISC valve",
+            "Pulling in air between air flow meter and throttle body",
+            "Ignition problems: Ignition coil, Igniter, Distributor",
+            "Ignition wiring disconnected or broken",
+            "No fuel supply to injector: No fuel in tank, Fuel pump not working, Fuel filter clogged, Fuel line ruptured or leaking",
+            "EFI system problems",
+            "ISC system problem",
+            "Spark plugs faulty",
+            "Low compression"
+          ],
+          "remedies": [
+            "Repair as necessary",
+            "Repair as necessary",
+            "Perform spark test",
+            "Inspect wiring",
+            "Troubleshoot EFI system",
+            "Repair as necessary",
+            "Check ISC system",
+            "Inspect plugs",
+            "Check compression"
+          ],
+          "pages": [
+            "",
+            "FI-58, 63",
+            "IG-4",
+            "FI-8",
+            "",
+            "FI-60",
+            "IG-6",
+            "EM-6"
+          ]
+        },
+        {
+          "problem": "Rough idle, stalls or misses",
+          "possible_causes": [
+            "Vacuum leaks: PCV hoses, EGR valve, Intake manifold, Air intake chamber, Throttle body, ISC valve",
+            "Pulling in air between air flow meter and throttle body",
+            "Incorrect idle speed",
+            "Incorrect ignition timing",
+            "Ignition problems: Ignition coil, Igniter, Distributor",
+            "Ignition wiring faulty",
+            "EFI system problems",
+            "Spark plugs faulty",
+            "Engine overheats",
+            "Low compression"
+          ],
+          "remedies": [
+            "Repair as necessary",
+            "",
+            "Check ISC system",
+            "Reset timing",
+            "Perform spark test",
+            "Inspect coil",
+            "Inspect distributor",
+            "Inspect wiring",
+            "Repair as necessary",
+            "Inspect plugs",
+            "Check cooling system",
+            "Check compression"
+          ],
+          "pages": [
+            "",
+            "FI-58, 63",
+            "FI-60",
+            "IG-10",
+            "IG-4",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "CO-2",
+            "EM-6"
+          ]
+        }
+      ]
+    }
+  ]
+}

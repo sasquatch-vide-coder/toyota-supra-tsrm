@@ -1,0 +1,51 @@
+{
+  "page_id": "BE-117",
+  "section_header": "BODY ELECTRICAL SYSTEM — Trip Computer",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "7-terminal Connector (of Wiring) showing connection points for testing battery voltage. Shows a connector with terminals labeled, including GND and + terminals, with test probes attached.",
+      "labels": [
+        "7-terminal Connector (of Wiring)",
+        "GND",
+        "+"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(e) Inspect the battery voltage between terminal + and body ground of wiring connector with the ignition switch at ON position."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "7-terminal Connector (of Wiring) showing connection points for testing speed sensor line. Shows a connector with terminals labeled, including GND terminal, with test probes attached.",
+      "labels": [
+        "7-terminal Connector (of Wiring)",
+        "GND"
+      ],
+      "bbox": {
+        "top": 25,
+        "left": 2,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. INSPECT SPEED SENSOR LINE TO CONNECTOR"
+    },
+    {
+      "type": "text",
+      "text": "With the ignition switch at ON position, check that there is continuity between terminals f and GND of wiring connector four times per each revolution of the magnet shaft."
+    }
+  ]
+}

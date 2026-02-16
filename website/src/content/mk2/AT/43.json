@@ -1,0 +1,145 @@
+{
+  "page_id": "AT-43",
+  "section_header": "AUTOMATIC TRANSMISSION — Removal of Transmission",
+  "title": "AUTOMATIC TRANSMISSION — Removal of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of oil cooler pipe clamp and disconnection of oil cooler pipes from transmission case",
+      "labels": [
+        "A10754"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. DISCONNECT TWO OIL COOLER LINES"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the oil cooler pipe clamp from the transmission case.",
+        "(b) Disconnect the two oil cooler pipes from the transmission case."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing disconnection of manual shift linkage at rear connection and speedometer cable",
+      "labels": [
+        "A10796",
+        "AT1220"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. DISCONNECT MANUAL SHIFT LINKAGE"
+    },
+    {
+      "type": "text",
+      "text": "Disconnect the shift linkage at the rear connection."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. DISCONNECT SPEEDOMETER CABLE"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of exhaust pipe bracket and converter cover with stiffener plates from transmission housing and cylinder block",
+      "labels": [
+        "A10755"
+      ],
+      "bbox": {
+        "top": 41,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. REMOVE EXHAUST PIPE BRACKET AND CONVERTER COVER BOTH STIFFENER PLATES FROM TRANSMISSION HOUSING AND CYLINDER BLOCK"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of power steering gear housing from crossmember, including sliding yoke, tie rod ends, fluid line clamps, bolts, and brackets",
+      "labels": [
+        "EM0758"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. REMOVE POWER STEERING GEAR HOUSING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the sliding yoke from gear housing.",
+        "(b) Disconnect both tie rod ends with SST. SST 09611-22012",
+        "(c) Remove the fluid line clamps.",
+        "(d) Remove the four bolts and remove the two brackets and rubber insulator.",
+        "(e) Remove the gear housing from the crossmember and suspend it with strings."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09611-22012",
+      "description": "Special Service Tool for disconnecting tie rod ends"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing jacking up transmission with wooden block placed between jack and transmission pan, with transmission raised to remove weight from rear support member",
+      "labels": [
+        "A10743"
+      ],
+      "bbox": {
+        "top": 77,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "15. JACK UP TRANSMISSION SLIGHTLY"
+    },
+    {
+      "type": "text",
+      "text": "If a transmission jack is not available, be sure to put a wooden block between the jack and the transmission pan to prevent damage."
+    },
+    {
+      "type": "text",
+      "text": "Raise the transmission enough to remove the weight from the rear support member."
+    }
+  ]
+}

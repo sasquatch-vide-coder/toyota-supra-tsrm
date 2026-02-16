@@ -1,0 +1,67 @@
+{
+  "page_id": "AT-4",
+  "section_header": "AUTOMATIC TRANSMISSION — Troubleshooting",
+  "title": "TROUBLESHOOTING (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Drag, binding or tie-up on 1-2, 2-3 or 3-OD up-shift",
+          "Manual linkage out of adjustment\nValve body faulty\nTransmission faulty",
+          "Adjust linkage\nInspect valve body\nDisassemble and inspect transmission",
+          "AT-5\nAT-83\nAT-45"
+        ],
+        [
+          "No Lock-up in 2nd, 3rd or OD",
+          "Electric control faulty\nValve body faulty\nSolenoid valve faulty\nTransmission faulty",
+          "Inspect electric control\nInspect valve body\nInspect valve body\nDisassemble and inspect transmission",
+          "AT-6\nAT-83\nAT-83\nAT-45"
+        ],
+        [
+          "Harsh down-shift",
+          "Throttle cable out of adjustment\nThrottle cable and cam faulty\nAccumulator pistons faulty\nValve body faulty\nTransmission faulty",
+          "Adjust throttle cable\nInspect throttle cable and cam\nInspect accumulator pistons\nInspect valve body\nDisassemble and inspect transmission",
+          "AT-5\nAT-37\nAT-112\nAT-83\nAT-45"
+        ],
+        [
+          "No down-shift when coasting",
+          "Valve body faulty\nSolenoid valve faulty\nElectric control faulty",
+          "Inspect valve body\nInspect solenoid valve\nInspect electric control",
+          "AT-83\nAT-19\nAT-6"
+        ],
+        [
+          "Down-shift occurs too quickly or late while coasting",
+          "Throttle cable faulty\nValve body faulty\nTransmission faulty\nSolenoid valve faulty\nElectric control faulty",
+          "Inspect throttle cable\nInspect valve body\nDisassemble and inspect transmission\nInspect solenoid valve\nInspect electric control",
+          "AT-37\nAT-83\nAT-45\nAT-19\nAT-6"
+        ],
+        [
+          "No, OD-3, 3-2 or 2-1 kickdown",
+          "Solenoid valve faulty\nElectric control faulty\nValve body faulty",
+          "Inspect solenoid valve\nInspect electric control\nInspect valve body",
+          "AT-19\nAT-6\nAT-83"
+        ],
+        [
+          "No engine braking in \"2\" or \"L\" range",
+          "Solenoid valve faulty\nElectric control faulty\nValve body faulty\nTransmission faulty",
+          "Inspect solenoid valve\nInspect electric control\nInspect valve body\nDisassemble and inspect transmission",
+          "AT-19\nAT-6\nAT-83\nAT-45"
+        ],
+        [
+          "Vehicle does not hold in \"P\"",
+          "Manual linkage out of adjustment\nParking lock pawl cam and spring faulty",
+          "Adjust linkage\nInspect cam and spring",
+          "AT-5\nAT-37"
+        ]
+      ]
+    }
+  ]
+}

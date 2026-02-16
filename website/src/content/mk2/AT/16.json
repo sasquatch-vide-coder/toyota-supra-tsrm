@@ -1,0 +1,53 @@
+{
+  "page_id": "AT-16",
+  "section_header": "AUTOMATIC TRANSMISSION — Electric Control",
+  "title": "Trouble No. 4     No up-shift to overdrive (After warm-up)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagnostic flowchart for troubleshooting no up-shift to overdrive condition after warm-up in automatic transmission with electric control",
+      "labels": [
+        "Road test while shifting manually with ECT ECU connector pulled out. Is there overdrive up-shift in D range when shifting from L to 2 to D?",
+        "No",
+        "Yes",
+        "Faulty transmission",
+        "Connect ECT ECU connector, and while driving does OG terminal voltage rise from OV to 7V in sequence?",
+        "0 → 7V",
+        "• Faulty transmission\n• Faulty solenoid",
+        "0 → 5V",
+        "OV",
+        "0 → 3V",
+        "There is 12V between ECT ECU terminals 2 and GND when D range.",
+        "Yes",
+        "No",
+        "There is 12V between ECT ECU terminals L and GND when D range.",
+        "No",
+        "Yes",
+        "• Faulty neutral start switch circuit\n• Faulty neutral start switch",
+        "Try another ECT ECU",
+        "Is voltage between terminals OD₃ and GND as follows?\nOD switch turn ON:   12V (Aisin) or 5V (Denso)\nOD switch turn OFF:  OV",
+        "No",
+        "• Faulty OD switch harness\n• Faulty OD switch\n• OD off light open",
+        "Yes",
+        "(Check OD cutout signal)",
+        "Is voltage between terminals OD and GND as follows?\nApprox.    5V (Denso) or 12V (Aisin)\n(coolant temp. above 70°C or 158°F)",
+        "Yes",
+        "Try another ECT ECU",
+        "No",
+        "(Check OD cutout signal)",
+        "Is voltage between ECU terminals OD₁ and GND normal with the cruise control computer connector pulled out?",
+        "Yes",
+        "Faulty cruise control computer",
+        "No",
+        "Faulty engine ECU\n(Short circuit in ECT wire harness\nor EFI water temp. sensor bad)"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 3,
+        "width": 94,
+        "height": 88
+      }
+    }
+  ]
+}

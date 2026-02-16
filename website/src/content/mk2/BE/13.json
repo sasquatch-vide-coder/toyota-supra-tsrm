@@ -1,0 +1,221 @@
+{
+  "page_id": "BE-13",
+  "section_header": "BODY ELECTRICAL SYSTEM — Lighting",
+  "title": "Light Control Switch and Headlight Dimmer Switch",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Light Control Switch and Headlight Dimmer Switch"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF LIGHT CONTROL SWITCH AND HEADLIGHT DIMMER SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT CONTINUITY OF LIGHT CONTROL SWITCH AND HEADLIGHT DIMMER SWITCH"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Connector pin layout showing numbered terminals arranged in two rows. Top row shows pins labeled from left to right with numbers, bottom row shows additional pin numbers. Connector has rectangular shape with terminals inside.",
+      "labels": [
+        "PIN",
+        "20",
+        "21",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 2,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Relay or fuse box diagram showing rectangular box with 5 numbered sections: 24 and 23 on top row, 27, 26, and 25 on bottom row",
+      "labels": [
+        "24",
+        "23",
+        "27",
+        "26",
+        "25",
+        "BE0311-093"
+      ],
+      "bbox": {
+        "top": 25,
+        "left": 5,
+        "width": 35,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "Light control switch"
+    },
+    {
+      "type": "table",
+      "caption": "Light control switch",
+      "headers": [
+        "Switch position",
+        "Terminal (Wire color)",
+        "10 EL (W)",
+        "11 T (Y)",
+        "4 H (R)",
+        "26 U (LG-B)"
+      ],
+      "rows": [
+        [
+          "OFF",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "UP",
+          "",
+          "○",
+          "",
+          "",
+          "○"
+        ],
+        [
+          "TAIL",
+          "",
+          "○",
+          "○",
+          "",
+          "○"
+        ],
+        [
+          "HEAD",
+          "",
+          "○",
+          "○",
+          "○",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Headlight dimmer switch"
+    },
+    {
+      "type": "table",
+      "caption": "Headlight dimmer switch",
+      "headers": [
+        "Switch position",
+        "Terminal (Wire color)",
+        "13 ED (W-B)",
+        "6 HL (R-G)",
+        "5 HU (R-Y)",
+        "12 HG (R-W)"
+      ],
+      "rows": [
+        [
+          "Flash",
+          "",
+          "○",
+          "",
+          "○",
+          "○"
+        ],
+        [
+          "Low Beam",
+          "",
+          "○",
+          "○",
+          "",
+          ""
+        ],
+        [
+          "High Beam",
+          "",
+          "○",
+          "",
+          "○",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REPLACEMENT OF LIGHT CONTROL SWITCH AND HEADLIGHT DIMMER SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "REPLACE LIGHT CONTROL SWITCH AND HEADLIGHT DIMMER SWITCH"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands removing terminals from a connector, with detailed view of connector and terminal removal process",
+      "labels": [
+        "BE0001"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Remove the terminals from the connector. (See page BE-2)",
+        "Remove the light control switch.",
+        "Remove the headlight dimmer switch.",
+        "Install the headlight dimmer switch.",
+        "Insert the spring into the lever and install the lever with the pin and E-ring."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Detailed illustration showing the installation of headlight dimmer switch lever with spring, pin and E-ring components. Shows hand installing lever assembly onto switch mechanism.",
+      "labels": [
+        "BE0092 BE0093"
+      ],
+      "bbox": {
+        "top": 73,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    }
+  ]
+}

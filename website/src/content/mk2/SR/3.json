@@ -1,0 +1,85 @@
+{
+  "page_id": "SR-3",
+  "section_header": "STEERING — Steering Column Assembly with Tilt Steering",
+  "title": "STEERING COLUMN ASSEMBLY WITH TILT STEERING\nREMOVAL OF STEERING COLUMN",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing the removal and disassembly of steering column components with tilt steering, including steering wheel, combination switch, column tube and shaft, intermediate shaft, and various covers",
+      "labels": [
+        "Steering Wheel",
+        "Wheel Pad",
+        "Combination Switch",
+        "Column Cover",
+        "Column Tube and Shaft",
+        "Intermediate Shaft",
+        "Column Cover"
+      ],
+      "bbox": {
+        "top": 13,
+        "left": 2,
+        "width": 96,
+        "height": 85
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Steering Wheel",
+      "value": "350 [25, 34]",
+      "location": "top right of diagram",
+      "bbox": {
+        "top": 18,
+        "left": 73,
+        "width": 10,
+        "height": 3
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Column Tube and Shaft connection",
+      "value": "350 [25, 34]",
+      "location": "middle left of diagram",
+      "bbox": {
+        "top": 61,
+        "left": 17,
+        "width": 10,
+        "height": 3
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Column assembly",
+      "value": "130 [9, 13]",
+      "location": "middle center of diagram",
+      "bbox": {
+        "top": 72,
+        "left": 37,
+        "width": 10,
+        "height": 3
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Intermediate Shaft",
+      "value": "350 [25, 34]",
+      "location": "bottom left of diagram",
+      "bbox": {
+        "top": 75,
+        "left": 2,
+        "width": 10,
+        "height": 3
+      }
+    },
+    {
+      "type": "text",
+      "text": "kg·cm [(ft·lb, N·m)] : Specified torque",
+      "bbox": {
+        "top": 88,
+        "left": 2,
+        "width": 50,
+        "height": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "page_id": "FI-11",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "SYMPTOM — DIFFICULT TO START OR NO START (CRANKS OK)",
+  "content": [
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for difficult to start or no start condition when engine cranks. Shows decision tree with checks and outcomes.",
+      "bbox": {
+        "top": 7,
+        "left": 3,
+        "width": 94,
+        "height": 90
+      },
+      "steps": [
+        {
+          "type": "decision",
+          "text": "CHECK DIAGNOSIS SYSTEM\nCheck for output of diagnostic code.\n(See page FI-22)",
+          "outcomes": [
+            {
+              "condition": "Normal code",
+              "next_step": "DOES ENGINE START WITH ACCELERATOR PEDAL DEPRESSED?"
+            },
+            {
+              "condition": "Malfunction code(s)",
+              "result": "Diagnostic code(s)\n(See page FI-25)"
+            }
+          ]
+        },
+        {
+          "type": "decision",
+          "text": "DOES ENGINE START WITH ACCELERATOR PEDAL DEPRESSED?",
+          "outcomes": [
+            {
+              "condition": "OK",
+              "result": "ISC system\n(1) ISC valve\n(2) Wiring connection (+B ISC valve ECU)"
+            },
+            {
+              "condition": "NO",
+              "next_step": "CHECK FOR VACUUM LEAKS IN AIR INTAKE LINE"
+            }
+          ]
+        },
+        {
+          "type": "decision",
+          "text": "CHECK FOR VACUUM LEAKS IN AIR INTAKE LINE",
+          "outcomes": [
+            {
+              "condition": "BAD",
+              "result": "1. Oil filler cap\n2. Oil level gauge\n3. Hose connections\n4. PCV hoses\n5. EGR system — EGR valve stays open"
+            },
+            {
+              "condition": "OK",
+              "next_step": "CHECK IGNITION SPARK"
+            }
+          ]
+        },
+        {
+          "type": "procedure",
+          "text": "CHECK IGNITION SPARK\n1. Unplug connector of injector resistor and start injector time switch.\n2. Check by holding spark plug wire 8 — 10 mm (0.31 — 0.39 in.) away from engine block while engine is cranking. A strong spark should be noted.",
+          "outcomes": [
+            {
+              "condition": "BAD",
+              "result": "1. Plug wires\n2. High-tension cords\n3. Distributor\n4. Ignition coil, igniter"
+            },
+            {
+              "condition": "OK",
+              "next_step": "CHECK IGNITION TIMING"
+            }
+          ]
+        },
+        {
+          "type": "procedure",
+          "text": "CHECK IGNITION TIMING\n1. Short point terminals of the check connector.\n2. Check ignition timing.\nSTD: 10° BTDC\n(w/o terminals of the check connector)",
+          "outcomes": [
+            {
+              "condition": "NO",
+              "result": "Adjust ignition timing. (See page IG-9)"
+            },
+            {
+              "condition": "OK",
+              "next_step": "CHECK FUEL SUPPLY TO INJECTOR"
+            }
+          ]
+        },
+        {
+          "type": "procedure",
+          "text": "CHECK FUEL SUPPLY TO INJECTOR\n1. Fuel in tank bad\n2. Fuel pressure in fuel line\n(1) Short fuel pump check terminals.\n(2) Fuel pressure at fuel hose of fuel filter can be felt.\nSee page FI-45)",
+          "outcomes": [
+            {
+              "condition": "BAD",
+              "result": "1. Fuel line — leakage — deformation\n2. Fuse\n3. Circuit opening relay (See page FI-69)\n4. Fuel pump (See page FI-44)\n5. Fuel filter\n6. Fuel pressure regulator\n(See page FI-52)"
+            },
+            {
+              "condition": "OK",
+              "next_step": "CHECK FUEL PUMP SWITCH IN AIR FLOW METER"
+            }
+          ]
+        },
+        {
+          "type": "procedure",
+          "text": "CHECK FUEL PUMP SWITCH IN AIR FLOW METER\nCheck continuity between terminals Fc and E while measuring plate of air flow meter is open.",
+          "outcomes": [
+            {
+              "condition": "BAD",
+              "result": "Air flow meter (See page FI-58)"
+            },
+            {
+              "condition": "OK CONTINUED ON PAGE FI-12",
+              "result": "Continue to next page"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

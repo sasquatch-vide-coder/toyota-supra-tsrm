@@ -1,0 +1,49 @@
+{
+  "page_id": "AC-3",
+  "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting",
+  "title": "TROUBLESHOOTING (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": "TROUBLESHOOTING (Cont'd)",
+      "headers": [
+        "Symptom",
+        "Possible causes",
+        "Checks and corrections",
+        "Page"
+      ],
+      "rows": [
+        [
+          "No blower control",
+          "Defective water temperature relay\nDefective heat mode switch\nDefective water temperature switch\nDefective Hi-speed relay\nDefective wiring connection\nDefective vacuum circuit",
+          "Check for open\nCheck for short\nCheck for short\nCheck for short\nCheck and repair\nCheck for leak and repair",
+          "AC-9\nAC-9\nAC-20\nAC-9\nAC-9\nAC-16"
+        ],
+        [
+          "Interior temperature does not lower",
+          "Blown fuse or circuit breaker\nDefective magnetic clutch\nDefective compressor\nDefective pressure switch\nDefective expansion valve\nDefective EPR\nInsufficient refrigerant in system\nDefective A/C switch\nDefective temperature sensors\n(in-car sensor, ambient sensor)\nDefective rheostat\nDefective power servo unit\nDefective DVV\nDefective amplifier\nDefective condenser motor\nDefective A/C relay\nDefective wiring connection\nDefective vacuum circuit",
+          "Replace\nCheck and repair\nCheck and repair\nReplace\nReplace\nReplace\nCheck discharge refrigeration system\nCheck for short or open\nCheck for short\n\nCheck for short\nCheck operation\nCheck operation\nCheck operation\nCheck operation\nCheck operation\nCheck and repair\nCheck for leak and repair",
+          "AC-9\nAC-23\nAC-23\nAC-9\nAC-4\nAC-4\nAC-11\nAC-9\nAC-19\n\nAC-9\nAC-17\nAC-20\n\nAC-21\nAC-9\nAC-9\nAC-16"
+        ],
+        [
+          "Interior temperature does not rise",
+          "Defective water valve\nDefective temperature sensors\n(in-car sensor, ambient sensor)\nDefective rheostat\nDefective power servo unit\nDefective DVV\nDefective amplifier\nDefective wiring connection\nDefective vacuum circuit",
+          "Check operation\nCheck for open\n\nCheck for open\nCheck operation\nCheck operation\nCheck operation\nCheck and repair\nCheck for leak and repair",
+          "AC-19\n\nAC-9\nAC-17\nAC-20\n\nAC-9\nAC-16"
+        ],
+        [
+          "Unstable operation\n(hunting)",
+          "Defective vacuum circuit\nPoor connection of rheostat\nDefective power servo unit\nDefective DVV\nDefective amplifier\nPoor connection in wire",
+          "Check for leak and repair\nCheck and repair\nCheck operation\nCheck operation\nCheck operation\nCheck and repair",
+          "AC-16\nAC-9\nAC-17\nAC-20\n\nAC-9"
+        ],
+        [
+          "Improper shifting\nof dampers",
+          "Misadjusted control lever or rod\nDisconnected control wire\nDefective dampers",
+          "Check and repair\nCheck and repair\nCheck and repair",
+          "AC-9\nAC-19"
+        ]
+      ]
+    }
+  ]
+}

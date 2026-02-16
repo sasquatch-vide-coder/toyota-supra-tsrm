@@ -1,0 +1,109 @@
+{
+  "page_id": "BE-56",
+  "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges",
+  "title": "Water temp. gauge - Defective indication",
+  "content": [
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "Q",
+          "Water temp. gauge | Defective indication"
+        ]
+      ]
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for water temperature gauge defective indication",
+      "steps": [
+        {
+          "step": 1,
+          "text": "With the ignition S/W at ON position, is indicator segment at lowest point when connector of water temp. sender gauge disconnected?",
+          "branches": [
+            {
+              "condition": "No",
+              "action": "Check short circuit in wire harness",
+              "next_check": {
+                "text": "OK",
+                "if_no": "Bad wiring (short-circuit) between sensor and meter"
+              }
+            },
+            {
+              "condition": "Yes",
+              "next_step": 2
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "text": "With the ignition S/W at ON position and connector of water temp. sender gauge disconnected, does top segment flash when connector is grounded?",
+          "branches": [
+            {
+              "condition": "Yes",
+              "action": "Is water temp. sender gauge OK? (See page BE-55)",
+              "next_check": {
+                "text": "Yes/No",
+                "if_yes": "OK",
+                "if_no": "Replace water temp. sensor"
+              }
+            },
+            {
+              "condition": "No",
+              "action": "Check open circuit in wire harness between sensor and meter",
+              "next_check": {
+                "text": "OK",
+                "result": "Replace fuel and temp. gauges"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing disconnected water temp sensor connector and gauge display with lowest segment (C) illuminated",
+      "labels": [
+        "H",
+        "C"
+      ],
+      "components": [
+        "Connector with wire",
+        "Temperature sensor",
+        "Gauge display"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 3,
+        "width": 48,
+        "height": 30
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing grounded water temp sensor connector with gauge display flashing at top segment (H)",
+      "labels": [
+        "H",
+        "C",
+        "Flashing"
+      ],
+      "components": [
+        "Connector with wire grounded",
+        "Temperature sensor",
+        "Gauge display with top segment flashing"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 52,
+        "width": 48,
+        "height": 30
+      }
+    }
+  ]
+}

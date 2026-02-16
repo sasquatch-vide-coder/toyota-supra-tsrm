@@ -1,0 +1,136 @@
+{
+  "page_id": "EM-54",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": "GRIND CRANK PIN AND/OR MAIN JOURNAL IF NECESSARY, INSPECTION AND REPAIR OF OIL PUMP DRIVE SHAFT COMPONENTS",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. GRIND CRANK PIN AND/OR MAIN JOURNAL IF NECESSARY"
+    },
+    {
+      "type": "text",
+      "text": "Grind the crank pins and/or main journals to the undersized finished diameter."
+    },
+    {
+      "type": "text",
+      "text": "Install a new pin and/or main undersize bearings."
+    },
+    {
+      "type": "text",
+      "text": "Bearing size (U/S 0.25, 0.50)"
+    },
+    {
+      "type": "text",
+      "text": "Main journal finished diameter:"
+    },
+    {
+      "type": "text",
+      "text": "U/S 0.25 59.730 — 59.740 mm (2.3516 — 2.3520 in.)"
+    },
+    {
+      "type": "text",
+      "text": "U/S 0.50 59.480 — 59.490 mm (2.3417 — 2.3421 in.)"
+    },
+    {
+      "type": "text",
+      "text": "Crank pin finished diameter:"
+    },
+    {
+      "type": "text",
+      "text": "U/S 0.25 51.725 — 51.735 mm (2.0364 — 2.0368 in.)"
+    },
+    {
+      "type": "text",
+      "text": "U/S 0.50 51.475 — 51.485 mm (2.0266 — 2.0270 in.)"
+    },
+    {
+      "type": "text",
+      "text": "Taper and out-of-round limit: 0.02 mm (0.008 in.)"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION AND REPAIR OF OIL PUMP DRIVE SHAFT COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands using a micrometer to measure the oil pump drive shaft journal diameter",
+      "labels": [
+        "EM7156"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECT OIL PUMP DRIVE SHAFT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a micrometer, measure the journal diameter.\nStandard journal diameter:\nFront 40.959 — 40.975 mm\n(1.6126 — 1.6132 in.)\nRear 32.959 — 32.975 mm\n(1.2976 — 1.2992 in.)",
+        "(b) Using a cylinder micrometer, measure the bearing bore.",
+        "(c) Subtract the journal diameter measurement from the bearing bore measurement.\nStandard oil clearance: 0.025 — 0.066 mm\n(0.0010 — 0.0026 in.)\nMaximum oil clearance: 0.08 mm (0.0031 in.)\nIf the clearance is greater than maximum, replace the bearing and/or drive shaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing cylinder block with micrometer measuring bearing bore",
+      "labels": [
+        "EM7144"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Cross-sectional diagram showing No. 1 Bearing Replacement and No. 2 Bearing positions with SST tool placement",
+      "labels": [
+        "No. 1 Bearing Replacement",
+        "SST",
+        "No. 2 Bearing",
+        "No. 1 Bearing",
+        "Front",
+        "EM7420"
+      ],
+      "bbox": {
+        "top": 68,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. IF NECESSARY, REPLACE DRIVE SHAFT BEARING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using SST, replace the No. 1 bearing, using the No. 2 bearing as a guide."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09215-00100 (09215-00120, 09215-00150, 09215-00160, 09215-00210, 09215-00220)",
+      "description": ""
+    }
+  ]
+}

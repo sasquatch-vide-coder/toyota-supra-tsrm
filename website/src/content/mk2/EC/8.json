@@ -1,0 +1,131 @@
+{
+  "page_id": "EC-8",
+  "section_header": "EMISSION CONTROL SYSTEMS — Dash Pot (DP) System",
+  "title": "INSPECTION OF DP SYSTEM",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF DP SYSTEM"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "WARM UP ENGINE",
+        "CHECK IDLE SPEED"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing DP Diaphragm with throttle valve open at 3000 rpm, with pinch point between DP and VTV",
+      "labels": [
+        "Pinch",
+        "VTV",
+        "Throttle Valve Open",
+        "3000 rpm",
+        "DP Diaphragm"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 4,
+        "width": 36,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. CHECK DP SETTING SPEED"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Maintain engine speed at 3,000 rpm.",
+        "(b) Pinch the vacuum hose between DP and VTV."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing DP Set position with throttle valve released at 2000 rpm, with pinch point indicated",
+      "labels": [
+        "Pinch",
+        "Throttle Valve Released",
+        "2000 rpm",
+        "DP Set"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 4,
+        "width": 36,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Release the throttle valve.",
+        "(d) Check that the DP is set."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "DP setting speed: 2,000 rpm"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing DP Adjusting Bolt location for adjustment",
+      "labels": [
+        "DP Adjusting Bolt"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 4,
+        "width": 36,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "If not at specified speed, adjust with the DP adjusting bolt."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CHECK OPERATION OF VTV"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Set the DP speed in the same procedure as above; (a) to (c).",
+        "(b) Release the pinched hose and check that the engine returns to idle speed in about 1 second."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing released hose with engine returning to idle speed in about 1 second",
+      "labels": [
+        "Released",
+        "About 1 Second",
+        "Idle"
+      ],
+      "bbox": {
+        "top": 78,
+        "left": 4,
+        "width": 36,
+        "height": 17
+      }
+    },
+    {
+      "type": "notice",
+      "text": "IF NO PROBLEM IS FOUND WITH THIS INSPECTION, THE SYSTEM IS OKAY; OTHERWISE INSPECT VTV"
+    }
+  ]
+}

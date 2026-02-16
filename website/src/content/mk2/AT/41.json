@@ -1,0 +1,172 @@
+{
+  "page_id": "AT-41",
+  "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "title": "INSTALLATION OF ROTOR SENSOR / REPLACEMENT OF REAR OIL SEAL",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF ROTOR SENSOR"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing installation of rotor sensor on output shaft with key in groove",
+      "labels": [
+        "AT0763"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 48,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL ROTOR SENSOR ON OUTPUT SHAFT"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Make sure that the key is installed in the groove.",
+        "(b) Install the rotor sensor on the shaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of speedometer drive gear with lock ball and snap ring pliers",
+      "labels": [
+        "AT0763"
+      ],
+      "bbox": {
+        "top": 26,
+        "left": 2,
+        "width": 48,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL SPEEDOMETER DRIVE GEAR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Slide the lock ball and the speedometer gear on the shaft.",
+        "(b) Using snap ring pliers, install the outer snap ring."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL EXTENSION HOUSING (See page AT-39)"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REPLACEMENT OF REAR OIL SEAL"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. RAISE VEHICLE, AND POSITION PAN TO CATCH ANY FLUID THAT MAY DRIP"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE PROPELLER SHAFT"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of rear dust seal and oil seal using SST tool",
+      "labels": [
+        "SST",
+        "OM0004"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 2,
+        "width": 48,
+        "height": 21
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE REAR DUST SEAL AND OIL SEAL"
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Clean the rear extension housing before removing the seal."
+    },
+    {
+      "type": "text",
+      "text": "Using SST, remove the two seals."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09308-10010",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of new oil seal and dust seal using SST tool",
+      "labels": [
+        "SST",
+        "OM0005"
+      ],
+      "bbox": {
+        "top": 78,
+        "left": 2,
+        "width": 48,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSTALL NEW OIL SEAL AND DUST SEAL"
+    },
+    {
+      "type": "text",
+      "text": "Using SST, drive in the oil seal as far as it will go. Drive in the dust seal flush with the housing."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09325-20010",
+      "description": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL PROPELLER SHAFT"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. LOWER VEHICLE AND CHECK FLUID LEVEL (See page MA-13)"
+    },
+    {
+      "type": "text",
+      "text": "Start the engine, shift the selector into each gear, then check the fluid level with the transmission in \"P\" range. Add fluid as necessary."
+    },
+    {
+      "type": "text",
+      "text": "Fluid type: ATF DEXRON® II"
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Do not overfill."
+    }
+  ]
+}

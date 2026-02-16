@@ -1,0 +1,149 @@
+{
+  "page_id": "AT-37",
+  "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand using socket wrench to push throttle cable out of transmission case",
+      "labels": [
+        "10-mm socket"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 25,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE VALVE BODY (See page AT-32)",
+        "PUSH THROTTLE CABLE OUT OF TRANSMISSION CASE\nUsing a 10-mm socket, push the throttle cable out."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALLATION OF THROTTLE CABLE"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand installing throttle cable into transmission case with valve body nearby",
+      "labels": [],
+      "bbox": {
+        "top": 25,
+        "left": 2,
+        "width": 25,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL CABLE IN TRANSMISSION CASE\nBe sure to push it in all the way.",
+        "INSTALL VALVE BODY (See page AT-34)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Throttle cable detail showing rubber boot, painted mark, and outer cable with measurement specifications",
+      "labels": [
+        "Painted Mark (Width: 4)",
+        "Pull lightly",
+        "Rubber Boot",
+        "Outer Cable",
+        "0.8 - 1.5 mm (0.031 - 0.059 in.)"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 2,
+        "width": 25,
+        "height": 13
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "IF THROTTLE CABLE IS NEW, PAINT MARK ON INNER CABLE"
+    },
+    {
+      "type": "text",
+      "text": "NOTE: New cables do not have a cable stopper installed. Therefore, to make adjustment possible, paint a mark as described below."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Pull the inner cable lightly until slight resistance is felt, and hold it.",
+        "(b) Paint a mark as shown, about 4 mm (0.16 in.) in width."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CONNECT THROTTLE CABLE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the cable to the throttle linkage.",
+        "(b) Connect the cable housing to the bracket on the valve cover."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hand connecting throttle cable to throttle linkage in engine compartment",
+      "labels": [],
+      "bbox": {
+        "top": 58,
+        "left": 2,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 5,
+      "items": [
+        "ADJUST THROTTLE CABLE (See page AT-5)",
+        "INSTALL AIR CLEANER",
+        "TEST DRIVE VEHICLE"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF PARKING LOCK PAWL"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Parking lock pawl assembly inside transmission showing bracket and bolts",
+      "labels": [],
+      "bbox": {
+        "top": 75,
+        "left": 2,
+        "width": 25,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE VALVE BODY (See page AT-32)",
+        "REMOVE PARKING LOCK PAWL BRACKET\nRemove the two bolts and the bracket."
+      ]
+    }
+  ]
+}

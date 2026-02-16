@@ -1,0 +1,148 @@
+{
+  "page_id": "AT-90",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of No.3 solenoid onto the lower valve body with hand tightening bolt",
+      "labels": [
+        "C4443"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL NO.3 SOLENOID"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the No. 3 solenoid onto the lower valve body.",
+        "(b) Temporarily tighten the bolt."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installation of two modulator valves into the valve body bore",
+      "labels": [
+        "C4446"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSTALL TWO VALVES"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the low coast modulator valve into the bore.",
+        "(b) Install the intermediate modulator valve into the bore."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installation of two valve springs into valve body bores",
+      "labels": [
+        "C4446"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL TWO VALVE SPRINGS"
+    },
+    {
+      "type": "notice",
+      "text": "Install the short spring in the right bore."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installation of No.1 and No.2 solenoids with torque wrench tightening three bolts",
+      "labels": [
+        "C4443"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. INSTALL NO.1 AND NO.2 SOLENOIDS"
+    },
+    {
+      "type": "text",
+      "text": "Install the solenoid over the gasket."
+    },
+    {
+      "type": "text",
+      "text": "Tighten the three bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "NO.1 AND NO.2 SOLENOIDS",
+      "value": "100 kg-cm (7 ft-lb, 10 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Installation of pressure relief valve with steel ball and spring, followed by retainer installation",
+      "labels": [
+        "AT0061"
+      ],
+      "bbox": {
+        "top": 79,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. INSTALL PRESSURE RELIEF VALVE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place the steel ball and spring onto the body.",
+        "(b) Install the retainer."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "PRESSURE RELIEF VALVE",
+      "value": "55 kg-cm (48 in.-lb, 5.4 N·m)"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "page_id": "BE-53",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Section M - Fuel gauge warning light does not light",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "M",
+          "Fuel gauge | Warning light does not light"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Troubleshooting flowchart for fuel gauge warning light does not light. Starts with checking if bulb is OK, then proceeds through circuit plate check, terminal set nut check, ending with replace fuel and temp. gauges",
+      "labels": [
+        "Is bulb OK?",
+        "No",
+        "Yes",
+        "Replace bulb",
+        "Is circuit plate open-circuited?",
+        "Yes",
+        "Replace circuit plate",
+        "No",
+        "Is terminal set nut loose?",
+        "Yes",
+        "Retighten",
+        "No",
+        "Replace fuel and temp. gauges"
+      ],
+      "bbox": {
+        "top": 12,
+        "left": 2,
+        "width": 96,
+        "height": 30
+      }
+    },
+    {
+      "type": "table",
+      "caption": "Section N - Fuel gauge warning light always lit",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "N",
+          "Fuel gauge | Warning light always lit"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Troubleshooting flowchart for fuel gauge warning light always lit. Starts with checking if circuit plate is short-circuited, then proceeds to replace fuel and temp. gauges if not",
+      "labels": [
+        "Is circuit plate short-circuited?",
+        "Yes",
+        "Replace circuit plate",
+        "No",
+        "Replace fuel and temp. gauges"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 2,
+        "width": 96,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Technical illustration showing the fuel warning light circuit plate assembly and wiring harness. The diagram shows the physical layout of the circuit plate with the fuel warning light labeled.",
+      "labels": [
+        "M(+)",
+        "N(-)",
+        "Fuel Warning Light"
+      ],
+      "bbox": {
+        "top": 65,
+        "left": 2,
+        "width": 96,
+        "height": 29
+      }
+    }
+  ]
+}

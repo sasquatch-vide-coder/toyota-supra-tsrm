@@ -1,0 +1,132 @@
+{
+  "page_id": "BO-44",
+  "section_header": "BODY — Safety Pad",
+  "title": "REMOVE FRONT PILLAR GARNISH, DEFROSTER NOZZLE GARNISH, AND SAFETY PAD",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "17. REMOVE FRONT PILLAR GARNISH"
+    },
+    {
+      "type": "text",
+      "text": "Pry loose the clips with a screwdriver, and pull the garnish upward to remove it."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of front pillar garnish using screwdriver to pry loose clips on both left and right sides",
+      "labels": [
+        "Front pillar",
+        "Garnish",
+        "Clips"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 36,
+        "height": 26
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "18. REMOVE DEFROSTER NOZZLE GARNISH"
+    },
+    {
+      "type": "text",
+      "text": "Using a screwdriver, pry between the defroster nozzle garnish and safety pad."
+    },
+    {
+      "type": "caution",
+      "text": "Be careful not to scratch the safety pad."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing use of screwdriver to pry between defroster nozzle garnish and safety pad",
+      "labels": [
+        "Defroster nozzle",
+        "Safety pad",
+        "Screwdriver"
+      ],
+      "bbox": {
+        "top": 31,
+        "left": 4,
+        "width": 36,
+        "height": 26
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "19. REMOVE SAFETY PAD"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the seven screws and one bolt.",
+        "(b) Disconnect the four connectors.",
+        "(c) Remove the safety pad.",
+        "(d) Remove the left and right side defroster nozzle ducts."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing safety pad assembly with seven screws and one bolt marked for removal",
+      "labels": [
+        "Safety pad",
+        "Screws",
+        "Bolt"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 4,
+        "width": 36,
+        "height": 26
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(e) Remove the instrument panel center register from the safety pad.",
+        "(f) Remove the left and right instrument panel side registers from the safety pad.",
+        "(g) Remove the side defroster retainer and defroster nozzle."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing disassembled safety pad components including center register, side registers, defroster retainer and nozzle",
+      "labels": [
+        "Center register",
+        "Side registers",
+        "Defroster retainer",
+        "Defroster nozzle"
+      ],
+      "bbox": {
+        "top": 83,
+        "left": 4,
+        "width": 36,
+        "height": 26
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF SAFETY PAD"
+    },
+    {
+      "type": "text",
+      "text": "(See page BO-42)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALL PARTS OF SAFETY PAD IN REVERSE SEQUENCE OF REMOVAL"
+    }
+  ]
+}

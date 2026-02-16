@@ -1,0 +1,180 @@
+{
+  "page_id": "BE-88",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "Connectors",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Connectors"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Key Unlock Switch connector - 3-pin rectangular connector",
+      "labels": [
+        "Key Unlock Switch"
+      ],
+      "bbox": {
+        "top": 12,
+        "left": 8,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Door Lock Solenoid connector - 2-pin circular connector with pins labeled 1 and 2",
+      "labels": [
+        "Door Lock Solenoid",
+        "1",
+        "2"
+      ],
+      "bbox": {
+        "top": 12,
+        "left": 38,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Door Lock Switch connector - 2-pin rectangular connector",
+      "labels": [
+        "Door Lock Switch"
+      ],
+      "bbox": {
+        "top": 12,
+        "left": 68,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Theft Deterrent Horn connector - 2-pin rectangular connector with pins labeled 1 and 2",
+      "labels": [
+        "Theft Deterrent Horn",
+        "1",
+        "2"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 8,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Headlight Control Relay/Taillight Control Relay connector - 3-pin connector with pins labeled 1, 2, and 3",
+      "labels": [
+        "Headlight Control Relay",
+        "Taillight Control Relay",
+        "1",
+        "2",
+        "3"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 38,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 6,
+      "description": "Back Door Courtesy Switch connector - single pin rectangular connector",
+      "labels": [
+        "Back Door Courtesy Switch"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 68,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 7,
+      "description": "Back Door Key Unlock Switch connector - 3-pin rectangular connector with pins labeled 1, 2, and 3",
+      "labels": [
+        "Back Door Key Unlock Switch",
+        "1",
+        "2",
+        "3"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 8,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 8,
+      "description": "Diode (For RH Key Unlock Switch and Horn) connector - 3-pin rectangular connector with pins labeled 1, 2, and 3",
+      "labels": [
+        "Diode (For RH Key Unlock Switch and Horn)",
+        "1",
+        "2",
+        "3"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 38,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 9,
+      "description": "Diode (For LH Key Unlock Switch and Taillight Control Relay) connector - 2-pin rectangular connector with pins labeled 1 and 2",
+      "labels": [
+        "Diode (For LH Key Unlock Switch and Taillight Control Relay)",
+        "1",
+        "2"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 68,
+        "width": 25,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 10,
+      "description": "Theft Deterrent Computer connector - 12-pin rectangular connector with pins numbered 1-12",
+      "labels": [
+        "Theft Deterrent Computer",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "bbox": {
+        "top": 75,
+        "left": 8,
+        "width": 45,
+        "height": 18
+      }
+    }
+  ]
+}

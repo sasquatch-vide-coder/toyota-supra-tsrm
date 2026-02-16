@@ -1,0 +1,71 @@
+{
+  "page_id": "FI-66",
+  "section_header": "EFI SYSTEM — Air Induction System",
+  "title": "INSTALLATION OF THROTTLE BODY",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the installation of throttle body with four bolts, depicting the throttle body being mounted to the intake manifold",
+      "labels": [],
+      "bbox": {
+        "top": 8,
+        "left": 5,
+        "width": 38,
+        "height": 23
+      },
+      "figure_number": "FI0737"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL THROTTLE BODY\nPlace a new gasket and install the throttle body and four bolts.",
+        "CONNECT THROTTLE SENSOR CONNECTOR"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing various hoses being connected to the throttle body assembly, including emission control hoses, PCV hose, and water bypass hoses",
+      "labels": [],
+      "bbox": {
+        "top": 33,
+        "left": 5,
+        "width": 38,
+        "height": 23
+      },
+      "figure_number": "FI0756"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        "CONNECT FOLLOWING HOSES:\n(a) Emission control hoses\n(b) PCV hose to throttle body\n(c) No. 1 and No. 2 water by-pass hoses"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the installation of the air intake connector to the throttle body",
+      "labels": [],
+      "bbox": {
+        "top": 58,
+        "left": 5,
+        "width": 38,
+        "height": 23
+      },
+      "figure_number": "E01433"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 4,
+      "items": [
+        "INSTALL AIR INTAKE CONNECTOR",
+        "FILL WITH COOLANT"
+      ]
+    }
+  ]
+}

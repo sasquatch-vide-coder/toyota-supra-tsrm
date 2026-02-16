@@ -1,0 +1,118 @@
+{
+  "page_id": "BE-5",
+  "section_header": "BODY ELECTRICAL SYSTEM — General Information",
+  "title": "VOLTAGE CHECK / CONTINUITY AND RESISTANCE CHECK",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Electrical circuit diagram showing voltage check setup with ignition switch, fuse, S/W 1, relay, S/W 2, solenoid, and voltmeter connections. Shows connections to ignition S/W IG terminal and ground points.",
+      "labels": [
+        "To Ignition S/W IG Terminal",
+        "Fuse",
+        "S/W 1",
+        "Voltmeter",
+        "Relay",
+        "Solenoid",
+        "S/W 2",
+        "Point A",
+        "Point B",
+        "Point C"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 40
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "VOLTAGE CHECK"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Establish conditions in which voltage is present at the check point.",
+        "Example:\n(A) — Ignition S/W on\n(B) — Ignition S/W and S/W 1 on\n(C) — Ignition S/W, S/W 1 and Relay on (S/W 2 off)",
+        "(b) Using a voltmeter, connect the negative lead to a good ground point or negative battery terminal, and the positive lead to the connector or component terminal. This check can be done with a test lamp instead of a voltmeter."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Simple circuit diagram showing ohmmeter connected to a switch (S/W) for continuity and resistance check",
+      "labels": [
+        "Ohmmeter",
+        "S/W"
+      ],
+      "bbox": {
+        "top": 48,
+        "left": 5,
+        "width": 45,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CONTINUITY AND RESISTANCE CHECK"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect the battery terminal or wire so there is no voltage between the check points.",
+        "(b) Contact the two leads of an ohmmeter to each of the check points."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Two circuit diagrams showing diode testing with ohmmeter - first showing positive lead to diode negative side, second showing reversed polarity",
+      "labels": [
+        "Ohmmeter",
+        "Diode"
+      ],
+      "bbox": {
+        "top": 65,
+        "left": 5,
+        "width": 45,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "If the circuit has diodes, reverse the two leads and check again."
+    },
+    {
+      "type": "text",
+      "text": "When contacting the negative lead to the diode positive side and the positive lead to the negative side, there should be continuity."
+    },
+    {
+      "type": "text",
+      "text": "When contacting the two leads in reverse, there should be no continuity."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Two illustrations showing digital and analog type multimeters/ohmmeters",
+      "labels": [
+        "Digital Type",
+        "Analog Type"
+      ],
+      "bbox": {
+        "top": 82,
+        "left": 5,
+        "width": 45,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Use a volt/ohmmeter with high impedance (10 kΩ/ V minimum) for troubleshooting of the electrical circuit."
+    }
+  ]
+}

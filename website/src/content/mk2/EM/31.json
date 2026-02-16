@@ -1,0 +1,182 @@
+{
+  "page_id": "EM-31",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "INSPECT CAMSHAFT HOUSINGS FOR FLATNESS / REPLACEMENT OF CAMSHAFT HOUSING OIL SEAL",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Top view of camshaft housing showing multiple cam lobes in a row with contact surfaces",
+      "labels": [
+        "EM1290"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 45,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSPECT CAMSHAFT HOUSINGS FOR FLATNESS"
+    },
+    {
+      "type": "text",
+      "text": "Using a precision straight edge and feeler gauge, check the surfaces contacting the cylinder head for warpage."
+    },
+    {
+      "type": "text",
+      "text": "Maximum cylinder head surface warpage: 0.10 mm (0.0039 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If warpage is greater than maximum, replace the housing."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Isometric view of camshaft housing with arrow pointing to oil seal location",
+      "labels": [
+        "EM1063"
+      ],
+      "bbox": {
+        "top": 25,
+        "left": 3,
+        "width": 45,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REPLACEMENT OF CAMSHAFT HOUSING OIL SEAL"
+    },
+    {
+      "type": "notice",
+      "text": "There are two ways of oil seal replacement."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. IF CAMSHAFT IS REMOVED FROM CAMSHAFT HOUSING:"
+    },
+    {
+      "type": "text",
+      "text": "(a) Remove the oil seal from the camshaft housing."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Using a screwdriver, pry out the oil seal."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installation of new oil seal using SST tool on camshaft housing",
+      "labels": [
+        "SST",
+        "EM1764"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Install the new oil seal on the camshaft housing."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Apply MP grease to the oil seal.",
+        "Using SST, install the new oil seal."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09214-60010",
+      "description": ""
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "View of installed camshaft housing on cylinder head with oil seal and cut position detail diagram showing seal cross-section",
+      "labels": [
+        "Cut Position",
+        "EM0282"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. IF CAMSHAFT HOUSING IS INSTALLED ON CYLINDER HEAD:"
+    },
+    {
+      "type": "text",
+      "text": "(a) Cut the oil seal."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "As shown in the figure, cut off the oil seal lips."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Removal of oil seal using screwdriver with tape protection, showing prying action on installed seal",
+      "labels": [
+        "Tape",
+        "EM1793"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Remove the oil seals."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Using a screwdriver, pry out the oil seal."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Be careful not to damage the camshaft. Tape the screwdriver."
+    },
+    {
+      "type": "text",
+      "text": "(c) Inspect the camshaft."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Check the contact surface of camshaft oil seal lip for cracks or damage."
+      ]
+    }
+  ]
+}

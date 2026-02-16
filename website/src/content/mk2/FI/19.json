@@ -1,0 +1,169 @@
+{
+  "page_id": "FI-19",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "SYMPTOM — MUFFLER EXPLOSION (AFTER FIRE) -Rich Fuel Mixture-Misfire",
+  "content": [
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart for muffler explosion (after fire) with rich fuel mixture-misfire symptom",
+      "steps": [
+        {
+          "type": "check_step",
+          "title": "CHECK DIAGNOSIS SYSTEM",
+          "text": "Check for output of diagnostic code. (See page FI-22)",
+          "bbox": {
+            "top": 8,
+            "left": 3,
+            "width": 45,
+            "height": 8
+          },
+          "outcomes": [
+            {
+              "result": "Normal code",
+              "next": "CHECK IGNITION TIMING"
+            },
+            {
+              "result": "Malfunction code(s)",
+              "action": "Diagnostic code(s) (See page FI-25)",
+              "bbox": {
+                "top": 8,
+                "left": 52,
+                "width": 45,
+                "height": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "check_step",
+          "title": "CHECK IGNITION TIMING",
+          "text": "1. Short both terminals of the check connector.\n2. Check ignition timing.\n    STD: 10° BTDC\n    (w/short terminals of the check connector)",
+          "bbox": {
+            "top": 20,
+            "left": 3,
+            "width": 45,
+            "height": 15
+          },
+          "outcomes": [
+            {
+              "result": "OK",
+              "next": "CHECK COLD START INJECTOR"
+            },
+            {
+              "result": "NO",
+              "action": "Ignition system (See page IG-2)",
+              "bbox": {
+                "top": 20,
+                "left": 52,
+                "width": 45,
+                "height": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "check_step",
+          "title": "CHECK COLD START INJECTOR",
+          "text": "(See page FI-49)",
+          "bbox": {
+            "top": 38,
+            "left": 3,
+            "width": 45,
+            "height": 6
+          },
+          "outcomes": [
+            {
+              "result": "OK",
+              "next": "CHECK INJECTORS"
+            },
+            {
+              "result": "BAD",
+              "action": "1. Cold start injector\n2. Start injector time switch\n   (See page FI-7)",
+              "bbox": {
+                "top": 38,
+                "left": 52,
+                "width": 45,
+                "height": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "check_step",
+          "title": "CHECK INJECTORS",
+          "bbox": {
+            "top": 47,
+            "left": 3,
+            "width": 45,
+            "height": 5
+          },
+          "outcomes": [
+            {
+              "result": "OK",
+              "next": "CHECK SPARK PLUGS"
+            },
+            {
+              "result": "BAD",
+              "action": "Injectors — leakage",
+              "bbox": {
+                "top": 47,
+                "left": 52,
+                "width": 45,
+                "height": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "check_step",
+          "title": "CHECK SPARK PLUGS",
+          "text": "Max. allowable gap: 1.4 mm (0.055 in.)\nPrecaution: Never attempt to adjust gap on used platinum tipped spark plug.\n— Note —\nCheck compression pressure if necessary. (See page EM-6)",
+          "bbox": {
+            "top": 55,
+            "left": 3,
+            "width": 45,
+            "height": 18
+          },
+          "outcomes": [
+            {
+              "result": "OK",
+              "next": "CHECK EFI ELECTRONIC CIRCUIT USING VOLT/OHMMETER"
+            },
+            {
+              "result": "NO",
+              "action": "1. Spark plug\n2. Compression pressure\n   Limit: 9.0 kg/cm² (128 psi, 883 kPa)\n          at 250 rpm",
+              "bbox": {
+                "top": 55,
+                "left": 52,
+                "width": 45,
+                "height": 18
+              }
+            }
+          ]
+        },
+        {
+          "type": "check_step",
+          "title": "CHECK EFI ELECTRONIC CIRCUIT USING VOLT/OHMMETER",
+          "bbox": {
+            "top": 76,
+            "left": 3,
+            "width": 45,
+            "height": 8
+          },
+          "outcomes": [
+            {
+              "result": "BAD",
+              "action": "1. Throttle position sensor\n2. Injection signal\n   (1) Injector wiring\n   (2) Resistor\n   (3) ECU\n3. Oxygen sensor",
+              "bbox": {
+                "top": 76,
+                "left": 52,
+                "width": 45,
+                "height": 18
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

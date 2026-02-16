@@ -1,0 +1,65 @@
+{
+  "page_id": "FI-10",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "TROUBLESHOOTING PROCEDURES SYMPTOM — DIFFICULT TO START OR NO START (ENGINE WILL NOT CRANK OR CRANKS SLOWLY)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Troubleshooting flowchart with two main diagnostic boxes connected by paths. First box checks electric source, with OK path leading to second box for starting system check. BAD paths lead to specific component checks.",
+      "labels": [
+        "CHECK ELECTRIC SOURCE",
+        "BAD",
+        "OK",
+        "CHECK STARTING SYSTEM",
+        "BAD"
+      ],
+      "bbox": {
+        "top": 11,
+        "left": 4,
+        "width": 93,
+        "height": 28
+      }
+    },
+    {
+      "type": "table",
+      "caption": "Troubleshooting flowchart for difficult start or no start condition",
+      "headers": [],
+      "rows": [
+        [
+          "CHECK ELECTRIC SOURCE",
+          "BAD",
+          "1. Battery\n   (1) Connection\n   (2) Gravity — Drive belt — Charging\n       system\n   (3) Voltage\n2. Fusible link"
+        ],
+        [
+          "",
+          "OK",
+          ""
+        ],
+        [
+          "CHECK STARTING SYSTEM",
+          "BAD",
+          "1. Ignition switch\n2. Neutral start switch for A/T\n3. Starter\n4. Wiring/Connection"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Battery\n   (1) Connection\n   (2) Gravity — Drive belt — Charging system\n   (3) Voltage",
+        "Fusible link"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Ignition switch",
+        "Neutral start switch for A/T",
+        "Starter",
+        "Wiring/Connection"
+      ]
+    }
+  ]
+}

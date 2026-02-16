@@ -1,0 +1,149 @@
+{
+  "page_id": "BO-42",
+  "section_header": "BODY — Safety Pad",
+  "title": "REMOVAL OF SAFETY PAD",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing disconnection of cable from negative terminal of battery near steering wheel area",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 37,
+        "height": 24
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DISCONNECT CABLE FROM NEGATIVE TERMINAL OF BATTERY",
+        "REMOVE STEERING WHEEL",
+        "REMOVE STEERING COLUMN COVER",
+        "REMOVE CONSOLE ASSEMBLY"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "parent_item": 4,
+      "items": [
+        "(a) Remove the shift lever knob. (M/T only)",
+        "(b) Remove the ash tray.",
+        "(c) Remove the five heater control knobs.",
+        "(d) Remove the three screws and heater control panel.",
+        "(e) Remove the six set screws, disconnect two connectors, and remove the console upper panel.",
+        "(f) Remove the eight screws, disconnect the connectors, and remove the console assembly."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Exploded view of console assembly showing numbered components and screws",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "B2008"
+      ],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 37,
+        "height": 24
+      }
+    },
+    {
+      "type": "text",
+      "text": "5. REMOVE HOOD RELEASE LEVER BRACKET"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing removal of driver side speaker panel and under cover",
+      "labels": [],
+      "bbox": {
+        "top": 52,
+        "left": 3,
+        "width": 37,
+        "height": 24
+      }
+    },
+    {
+      "type": "text",
+      "text": "6. REMOVE DRIVER SIDE SPEAKER PANEL"
+    },
+    {
+      "type": "text",
+      "text": "Pry loose the panel with a screwdriver and remove it."
+    },
+    {
+      "type": "text",
+      "text": "7. REMOVE DRIVER SIDE UNDER COVER"
+    },
+    {
+      "type": "text",
+      "text": "Remove the three screws, two clamps and cover."
+    },
+    {
+      "type": "text",
+      "text": "8. REMOVE DRIVER SIDE FINISH LOWER PANEL"
+    },
+    {
+      "type": "text",
+      "text": "Remove the six screws, disconnect the four connectors, and remove the lower panel."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of instrument cluster finish panel",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 3,
+        "width": 37,
+        "height": 24
+      }
+    },
+    {
+      "type": "text",
+      "text": "9. REMOVE INSTRUMENT CLUSTER FINISH PANEL"
+    },
+    {
+      "type": "text",
+      "text": "Remove the five screws, and disconnect the connectors. Then remove the cluster finish panel."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing removal of combination meter with screws and connectors visible",
+      "labels": [],
+      "bbox": {
+        "top": 100,
+        "left": 3,
+        "width": 37,
+        "height": 24
+      }
+    },
+    {
+      "type": "text",
+      "text": "10. REMOVE COMBINATION METER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the four screws.",
+        "(b) Disconnect the connectors and speedometer cable.",
+        "(c) Remove the combination meter."
+      ]
+    }
+  ]
+}

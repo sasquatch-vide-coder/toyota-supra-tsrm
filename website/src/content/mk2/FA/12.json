@@ -1,0 +1,152 @@
+{
+  "page_id": "FA-12",
+  "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Shock Absorber",
+  "title": "Front Axle Shock Absorber",
+  "content": [
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        "REMOVE TWO BRAKE HOSES",
+        "REMOVE BRAKE CALIPER AND FRONT AXLE HUB (See page FA-6)",
+        "REMOVE BACKING PLATE"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. REMOVE COIL SPRING"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing front axle suspension assembly with coil spring and SST tool positions. Main image shows full suspension assembly, circular inset shows detail of SST application on upper mount.",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(a)",
+          "text": "Using SST, compress the coil spring.",
+          "part_number": "SST 09727-22032"
+        },
+        {
+          "label": "(b)",
+          "text": "Remove the bearing dust cover."
+        },
+        {
+          "label": "(c)",
+          "text": "Using SST to hold the support, remove the nut.",
+          "part_number": "SST 09729-22031"
+        },
+        {
+          "label": "(d)",
+          "text": "Remove the suspension support, dust seal, spring seat, spring bumper."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF FRONT SHOCK ABSORBER ASSEMBLY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECT STEERING KNUCKLE PART OF SHOCK ABSORBER"
+    },
+    {
+      "type": "text",
+      "text": "Using a magnetic flaw detector or flaw detecting penetrant, inspect the steering knuckle part of the shock absorber for damage or cracks."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing hands using magnetic flaw detector tool on steering knuckle part of shock absorber assembly.",
+      "labels": [],
+      "bbox": {
+        "top": 43,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSPECT OPERATION OF SHOCK ABSORBER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(a)",
+          "text": "Pull out the shock absorber piston rod at a constant speed and check to see that the pull feeling throughout the stroke is the same."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Two side-by-side diagrams showing shock absorber in compressed and extended positions with hands demonstrating manual operation test.",
+      "labels": [],
+      "bbox": {
+        "top": 62,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(b)",
+          "text": "Check to see that there is no change in the pull when the piston rod is suddenly moved up and down with a stroke of 5 — 10 mm (0.20 — 0.39 in.)."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing hands using SST tool to remove shock absorber from outer shell, with detailed view of the procedure.",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 81,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(c)",
+          "text": "If the absorber operation is defective, use SST to remove the absorber from the outer shell and either replace the cartridge or overhaul it."
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09720-00011 (09721-00071)"
+    }
+  ]
+}

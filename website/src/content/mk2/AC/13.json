@@ -1,0 +1,97 @@
+{
+  "page_id": "AC-13",
+  "section_header": "AIR CONDITIONING SYSTEM — Refrigeration System",
+  "title": "AIR CONDITIONING SYSTEM — Refrigeration System",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Refrigerant container tap valve showing handle, connection point, and disc components",
+      "labels": [
+        "Handle",
+        "Connection",
+        "Disc"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 5,
+        "width": 45,
+        "height": 22
+      },
+      "diagram_id": "AC0140"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL REFRIGERANT CONTAINER TAP VALVE"
+    },
+    {
+      "type": "caution",
+      "text": "Observe the precautions listed in the front of this section."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "marker": "letter",
+      "items": [
+        "Before installing the valve on the refrigerant container, turn the handle counterclockwise until the valve needle is fully retracted.",
+        "Turn the disc counterclockwise until it reaches its highest position.\n\nScrew down the valve on the refrigerant container.",
+        "Connect the center hose to the valve fitting. Turn the disc fully clockwise by hand.",
+        "Turn the handle clockwise to make a hole in the sealed tap.",
+        "Turn the handle fully counterclockwise to fill the center hose with gas. Do not open the high and low pressure valves.",
+        "Loosen the center hose nut connected to the center fitting of the manifold gauge until a hiss can be heard. Allow air to escape for a few seconds, and then tighten the nut."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Test system diagram showing manifold gauge with open and close valves and refrigerant container connection",
+      "labels": [
+        "Open",
+        "Open",
+        "Close"
+      ],
+      "bbox": {
+        "top": 53,
+        "left": 5,
+        "width": 45,
+        "height": 22
+      },
+      "diagram_id": "AC0141"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. TEST SYSTEM FOR LEAKS"
+    },
+    {
+      "type": "notice",
+      "text": "After evacuating the system, check for leaks."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "marker": "letter",
+      "items": [
+        "Install the refrigerant container tap valve as described in step 2.",
+        "Open the high pressure valve to charge the system with refrigerant vapor.",
+        "When the low pressure gauge reads 1 kg/cm² (14 psi, 98 kPa), close the high pressure valve.",
+        "Using a halide gas leak detector, propane torch, or electric leak detector, check the system for leaks.\n\nIf a leak is found, repair the faulty component or connection.",
+        "After checking and repairing the system, perform the following:\n\n• Turn the container tap handle fully clockwise.\n\n• Disconnect the center hose from the can valve fitting.\n\n• Evacuate the system for at least 15 minute.\n(See step 1 on page AC-12)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CHARGE EMPTY SYSTEM (LIQUID)"
+    },
+    {
+      "type": "notice",
+      "text": "This step is to charge an empty system through the high pressure side with refrigerant in a liquid state. When the refrigerant container is held upside down, refrigerant will enter the system as a liquid."
+    },
+    {
+      "type": "caution",
+      "text": "• Never run the engine when charging the system through the high pressure side.\n\n• Do not open the low pressure valve when the system is being charged with liquid refrigerant."
+    }
+  ]
+}

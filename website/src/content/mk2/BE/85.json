@@ -1,0 +1,152 @@
+{
+  "page_id": "BE-85",
+  "section_header": "BODY ELECTRICAL SYSTEM — Remote Control Mirror",
+  "title": "REMOTE CONTROL MIRROR",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOTE CONTROL MIRROR"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Outer Mirror Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF OUTER MIRROR SWITCH"
+    },
+    {
+      "type": "text",
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Outer mirror switch terminal diagram showing 7 terminals arranged in two rows - terminals 3, 2, 1 on top row and terminals 7, 6, 5, 4 on bottom row",
+      "labels": [
+        "3",
+        "2",
+        "1",
+        "7",
+        "6",
+        "5",
+        "4"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Switch Position",
+        "Mirror",
+        "Left Mirror Terminal 7, 8, 2, 1",
+        "Right Mirror Terminal 3, 1, 2, 5, 4"
+      ],
+      "rows": [
+        {
+          "position": "Up",
+          "left_connections": "7-8, 2-1",
+          "right_connections": "3-1, 2-5"
+        },
+        {
+          "position": "Down",
+          "left_connections": "7-8, 2-1",
+          "right_connections": "3-1, 2-5"
+        },
+        {
+          "position": "Left",
+          "left_connections": "8-2, 2-1",
+          "right_connections": "3-1, 2-5"
+        },
+        {
+          "position": "Right",
+          "left_connections": "8-2, 2-1",
+          "right_connections": "3-1, 2-5"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Remote Control Mirror"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF REMOTE CONTROL MIRROR"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "title": "INSPECT LEFT MIRROR OPERATION",
+          "steps": [
+            "(a) Apply 12V to terminals 1 and 3 and check that the mirror operates.\nThen, reverse the polarity, and check that the mirror revolution is reversed.",
+            "(b) Apply 12V to terminals 3 and 4 and check that the mirror operates.\nThen, reverse the polarity, and check that the mirror revolution is reversed."
+          ],
+          "conclusion": "If there is no mirror operation, replace the left mirror."
+        },
+        {
+          "number": "2.",
+          "title": "INSPECT RIGHT MIRROR OPERATION",
+          "steps": [
+            "(a) Apply 12V to terminals 2 and 3 and check that the mirror operates.\nThen, reverse the polarity, and check that the mirror revolution is reversed.",
+            "(b) Apply 12V to terminals 3 and 4 and check that the mirror operates.\nThen, reverse the polarity, and check that the mirror revolution is reversed."
+          ],
+          "conclusion": "If there is no mirror operation, replace the right mirror."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Left mirror terminal diagram showing 5 terminals labeled 1, 2, 3, 4, 5 from left to right",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Right mirror terminal diagram showing 5 terminals labeled 1, 2, 3, 4, 5 from left to right",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bbox": {
+        "top": 75,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "page_id": "BR-17",
+  "section_header": "BRAKE SYSTEM — Front Brake",
+  "title": "BRAKE SYSTEM — Front Brake",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands using tools to remove main pin boot from brake caliper with a chisel",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE MAIN PIN BOOT WITH A CHISEL"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hands using compressed air to remove piston from brake cylinder",
+      "labels": [],
+      "bbox": {
+        "top": 23,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE PISTON FROM CYLINDER\nUse compressed air to remove the piston from the cylinder."
+      ]
+    },
+    {
+      "type": "warning",
+      "text": "WARNING: Do not place your fingers in front of the piston when using compressed air."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hands removing cylinder boot and set ring from brake cylinder assembly",
+      "labels": [],
+      "bbox": {
+        "top": 41,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE CYLINDER BOOT AND SET RING FROM CYLINDER",
+        "REMOVE PISTON SEAL FROM CYLINDER"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF FRONT BRAKE COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hands using a measuring tool to check brake pad lining thickness",
+      "labels": [],
+      "bbox": {
+        "top": 59,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "MEASURE PAD LINING THICKNESS\nStandard thickness: 10.5 mm (0.413 in.)\nMinimum thickness: 3.0 mm (0.118 in.)\nReplace the pad if the thickness is less than the minimum (the 1.0 mm slit is no longer visible) or if it shows sign of uneven wear."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Hands using a measuring tool to check brake rotor disc thickness",
+      "labels": [],
+      "bbox": {
+        "top": 77,
+        "left": 1,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "MEASURE ROTOR DISC THICKNESS\nStandard thickness: 20.0 mm (0.787 in.)\nMinimum thickness: 19.0 mm (0.748 in.)\nIf the disc thickness is less than minimum, replace the disc."
+      ]
+    }
+  ]
+}

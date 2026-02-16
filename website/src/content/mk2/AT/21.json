@@ -1,0 +1,86 @@
+{
+  "page_id": "AT-21",
+  "section_header": "AUTOMATIC TRANSMISSION — Electric Control",
+  "title": "INSPECTION OF MANUAL SHIFTING",
+  "content": [
+    {
+      "type": "text",
+      "text": "NOTE: With this inspection, it can be determined whether the trouble lies within the electrical circuit or a mechanical trouble in the transmission."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. DISCONNECT ECT ECU CONNECTOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the glove box.",
+        "(b) Disconnect the ECT ECU connector."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing location of ECT ECU connector under dashboard near glove box area, with shift lever position indicator",
+      "labels": [
+        "AT0720"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 3,
+        "width": 32,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSPECT MANUAL DRIVING OPERATION"
+    },
+    {
+      "type": "text",
+      "text": "(a) While driving, check that there is respective gear change in each drive range."
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Shift position",
+        "D range",
+        "2 range",
+        "L range",
+        "R range",
+        "P range"
+      ],
+      "rows": [
+        [
+          "Gear position",
+          "OD",
+          "3rd",
+          "1st",
+          "Reverse",
+          "Pawl Lock"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Vehicle moves in reverse in \"R\" range.",
+        "(c) Vehicle does not move in \"N\" range.",
+        "(d) Parking pawl locks in \"P\" range."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If not as specified, check the transmission."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: If a problem is indicated with the ECT even if this check is as specified, the trouble lies within the electrical circuit."
+    }
+  ]
+}

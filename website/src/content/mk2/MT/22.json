@@ -1,0 +1,133 @@
+{
+  "page_id": "MT-22",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "MANUAL TRANSMISSION — W58 Transmission",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL SECOND GEAR AND NO. 1 CLUTCH HUB"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands holding and installing synchronizer ring onto a gear with needle roller bearing visible",
+      "labels": [
+        "W40118"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 4,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Apply gear oil to the shaft and needle roller bearing.",
+        "(b) Place the synchronizer ring on the gear and align the ring slots with the shifting keys.",
+        "(c) Install the needle roller bearing in the 2nd gear."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Press installation of 2nd gear and No. 1 clutch hub assembly onto shaft",
+      "labels": [
+        "W40119"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Using a press, install the 2nd gear and No. 1 clutch hub."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. INSTALL LOCKING BALL AND FIRST GEAR ASSEMBLY"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hand installing locking ball into shaft",
+      "labels": [
+        "W40120"
+      ],
+      "bbox": {
+        "top": 41,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the locking ball in the shaft.",
+        "(b) Apply gear oil to the bearing.",
+        "(c) Assemble the 1st gear, synchronizer ring, needle roller bearing and bearing inner race."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hands holding and aligning first gear assembly with synchronizer ring onto shaft",
+      "labels": [
+        "W40121"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Install the assembly on the output shaft with the synchronizer ring slots aligned with the shifting keys and turn the inner race to align it with the locking ball."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. INSTALL OUTPUT SHAFT CENTER BEARING"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Press installation of center bearing onto output shaft using SST tool",
+      "labels": [
+        "SST",
+        "W40122"
+      ],
+      "bbox": {
+        "top": 75,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "Using SST and a press, install the bearing on the output shaft with the outer race snap ring groove toward the rear."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Hold the 1st gear inner race to prevent it from falling."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09506-35010",
+      "description": ""
+    }
+  ]
+}

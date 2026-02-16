@@ -1,0 +1,51 @@
+{
+  "page_id": "BO-41",
+  "section_header": "BODY — Safety Pad",
+  "title": "SAFETY PAD",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "SAFETY PAD"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing all components of the safety pad (dashboard) assembly including defroster nozzle garnish, ducts, registers, ECU, instrument cluster, combination meter, heater control unit, radio and stereo, console assembly, and various trim panels and covers",
+      "labels": [
+        "Defroster Nozzle Garnish",
+        "Duct",
+        "Register",
+        "ECU",
+        "Front Pillar Garnish",
+        "Safety Pad",
+        "Finish Lower Panel Assembly",
+        "Speaker Panel",
+        "Combination Meter",
+        "Instrument Cluster Finish Panel",
+        "Under Cover",
+        "Check Arm",
+        "Finish Lower Panel",
+        "Heater Control Unit",
+        "Glove Compartment Door",
+        "Cowl Side Trim Board",
+        "Heater Control Panel",
+        "Radio and Stereo",
+        "Console Upper Panel",
+        "Ash Tray",
+        "Console Assembly"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 2,
+        "width": 96,
+        "height": 88
+      }
+    }
+  ]
+}

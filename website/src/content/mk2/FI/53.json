@@ -1,0 +1,140 @@
+{
+  "page_id": "FI-53",
+  "section_header": "EFI SYSTEM — Fuel system",
+  "title": "Injector",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Injector"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cross-sectional diagram of fuel injector showing internal components and fuel flow path",
+      "labels": [
+        "Needle Valve",
+        "Plunger",
+        "Wiring Terminal",
+        "Coil",
+        "INJECTION",
+        "INLET"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 2,
+        "width": 96,
+        "height": 35
+      },
+      "figure_number": "FI0495"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. CHECK INJECTOR OPERATION"
+    },
+    {
+      "type": "text",
+      "text": "Check operating sound from the each injector."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing use of sound scope to check injector operation",
+      "labels": [
+        "Sound Scope",
+        "Injector"
+      ],
+      "bbox": {
+        "top": 44,
+        "left": 2,
+        "width": 36,
+        "height": 18
+      },
+      "figure_number": "FI1005"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "marker": "(a)",
+          "text": "With the engine running or cranking, use a sound scope to check that there is normal operating noise in proportion to engine rpm."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing manual check of injector by touching with finger",
+      "labels": [
+        "Injector A"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 2,
+        "width": 36,
+        "height": 18
+      },
+      "figure_number": "FI1006"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "marker": "(b)",
+          "text": "If you have no sound scope, you can check the injector transmission operation with your finger."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If no sound or an unusual sound is heard, check the wiring connector, injector, resistor or injection signal from computer."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. MEASURE RESISTANCE OF INJECTOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "marker": "(a)",
+          "text": "Disconnect the wiring connector from the injector."
+        },
+        {
+          "marker": "(b)",
+          "text": "Using an ohmmeter, check the continuity of both terminals."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing ohmmeter connected to injector terminals for resistance measurement",
+      "labels": [
+        "Ohmmeter"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 2,
+        "width": 36,
+        "height": 18
+      },
+      "figure_number": "FI0863"
+    },
+    {
+      "type": "specification",
+      "label": "Resistance:",
+      "value": "1.5 — 3.0 Ω"
+    }
+  ]
+}

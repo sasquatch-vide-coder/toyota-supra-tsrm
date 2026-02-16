@@ -1,0 +1,134 @@
+{
+  "page_id": "AT-49",
+  "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+  "title": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands grasping and pulling out the overdrive clutch assembly from the transmission shaft",
+      "labels": [
+        "C4162"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "24. REMOVE OVERDRIVE CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "Grasp the shaft and pull out the overdrive clutch assembly. Watch for the bearings and races on both sides of the assembly."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands holding both sides of the overdrive case and pulling it out from the transmission case",
+      "labels": [
+        "C4163"
+      ],
+      "bbox": {
+        "top": 26,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "25. REMOVE OVERDRIVE CASE AND BRAKE"
+    },
+    {
+      "type": "text",
+      "text": "Hold both sides of the overdrive case and pull it out from the transmission case. Watch for the bearings and races on both sides of the assembly."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing measurement of distance between top of case and clutch drum using SST (Special Service Tool) 09350-20013",
+      "labels": [
+        "SST",
+        "C4226",
+        "C4164"
+      ],
+      "bbox": {
+        "top": 47,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "26. MEASURE DISTANCE BETWEEN TOP OF CASE AND CLUTCH DRUM"
+    },
+    {
+      "type": "text",
+      "text": "Set SST on the case as shown in the figure."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09370 J 2010)",
+      "description": "Special Service Tool for measuring distance"
+    },
+    {
+      "type": "text",
+      "text": "Make a note of the finding for reassembly."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing hands grasping and pulling out the front clutch assembly from the shaft",
+      "labels": [
+        "C4229"
+      ],
+      "bbox": {
+        "top": 68,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "27. REMOVE FRONT CLUTCH AND BEARINGS"
+    },
+    {
+      "type": "text",
+      "text": "Grasp the shaft and pull out the front clutch assembly. Watch for the bearings and races on both sides of the assembly."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing hands grasping the clutch hub and pulling out the rear clutch from the case",
+      "labels": [
+        "C4210"
+      ],
+      "bbox": {
+        "top": 89,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "28. REMOVE REAR CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "Grasp the clutch hub and pull it out from the case."
+    }
+  ]
+}

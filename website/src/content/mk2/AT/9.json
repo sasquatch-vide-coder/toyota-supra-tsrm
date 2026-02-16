@@ -1,0 +1,92 @@
+{
+  "page_id": "AT-9",
+  "section_header": "AUTOMATIC TRANSMISSION — Electric Control",
+  "title": "AUTOMATIC TRANSMISSION — Electric Control",
+  "content": [
+    {
+      "type": "notice",
+      "text": "In event of a number of trouble codes, indication will begin from the smaller value and continue in order to the larger."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "After the diagnosis check, remove the service wire from the DG terminal."
+      ],
+      "start_number": 4
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Diagnostic Code"
+    },
+    {
+      "type": "table",
+      "caption": "Diagnostic Code",
+      "headers": [
+        "Code No.",
+        "Light Pattern",
+        "Diagnosis System"
+      ],
+      "rows": [
+        [
+          "42",
+          "[Light pattern diagram showing short on-off pulses]",
+          "Defective No. 1 speed sensor (in combination meter)\nSevered wire harness or short circuit"
+        ],
+        [
+          "61",
+          "[Light pattern diagram showing regular on-off pulses]",
+          "Defective No. 2 speed sensor (in ATM)\nSevered wire harness or short circuit"
+        ],
+        [
+          "62",
+          "[Light pattern diagram showing wide spaced pulses]",
+          "Severed No. 1 solenoid or short circuit\nSevered wire harness or short circuit"
+        ],
+        [
+          "63",
+          "[Light pattern diagram showing narrow spaced pulses]",
+          "Severed No. 2 solenoid or short circuit\nSevered wire harness or short circuit"
+        ],
+        [
+          "64",
+          "[Light pattern diagram showing very narrow spaced pulses]",
+          "Severed No. 3 solenoid or short circuit\nSevered wire harness or short circuit"
+        ]
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "If codes 62, 63 or 64 appear, there is an electrical malfunction with the solenoid.\nCauses due to mechanical failure such as a stuck switch will not appear."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing ECU and fuse box location with labeled fuses and ECU +B (15A) connector",
+      "labels": [
+        "ECU +B",
+        "(15A)"
+      ],
+      "bbox": {
+        "top": 55,
+        "left": 5,
+        "width": 35,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CANCEL OUT DIAGNOSTIC CODE"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "After repair of the trouble area, the diagnostic code retained in memory by the ECT ECU must be canceled out by removing the fuse ECU +B (15A) for 10 seconds or more depending on ambient temperature (the lower the temperature, the longer the fuse must be left out) with the ignition switch off.\nNOTE:\n• Cancellation can also be done by removing the battery negative (−) terminal, but in this case other memory systems (clock, radio ETR, etc.) will also be canceled out.\n• The diagnostic code can also be canceled out by disconnecting the ECT ECU connector.\n• If the diagnostic code is not canceled out, it will be retained by the ECT ECU and appear along with a new code in event of future trouble.",
+        "After cancellation, perform a road test, if necessary, to confirm that a \"normal code\" is now read on the OD OFF light."
+      ]
+    }
+  ]
+}

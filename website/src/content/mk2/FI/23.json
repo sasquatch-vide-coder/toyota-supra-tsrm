@@ -1,0 +1,89 @@
+{
+  "page_id": "FI-23",
+  "section_header": "EFI SYSTEM — Diagnosis System",
+  "title": "CHECK ENGINE Light Diagnosis",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Check Engine warning light display showing the text 'CHECK ENGINE' in a rectangular box with F.I0E36 marking at bottom right",
+      "labels": [
+        "CHECK ENGINE"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Read the diagnostic code as indicated by the number of flashes of the \"CHECK ENGINE\" warning light."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Diagnostic code"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Timing diagram showing normal operation pattern with ON/OFF pulses at 0.25 second intervals, labeled 'No malfunction'",
+      "labels": [
+        "No malfunction",
+        "0.25 seconds",
+        "ON",
+        "OFF"
+      ],
+      "bbox": {
+        "top": 25,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(a) If system is operating normally (no malfunction), the light will blink once every 0.25 seconds."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Timing diagram showing malfunction code pattern with Code No. 21 and No. 32, showing different pulse patterns with 0.5 second ON pulses, 1.5 second pauses, 2.5 second pauses, and 4.5 second OFF periods",
+      "labels": [
+        "Code No. 21 and No. 32",
+        "0.5 seconds",
+        "ON",
+        "OFF",
+        "1.5 seconds",
+        "2.5 seconds",
+        "4.5 seconds"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) In event of a malfunction, the light will blink once every 0.5 seconds. The first number of blinks will equal the first digit of a 2-digit diagnostic code. After a 1.5 second pause, the 2nd number of blinks will equal the 2nd number of a 2-digit diagnostic code. If there are two or more codes, there will be a 2.5 seconds pause between each."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: In event of a number of troubles codes, indication will begin from the smaller value and continue to the larger in order."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "After the diagnosis check, remove the sub-wire from the check connector."
+      ]
+    }
+  ]
+}

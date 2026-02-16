@@ -1,0 +1,71 @@
+{
+  "page_id": "BE-60",
+  "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges",
+  "title": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Testing circuit diagram showing sender gauge connection with ohmmeter. Diagram shows a U-shaped wire connector on left with points H, B, A, and C marked, and a rectangular component (likely instrument cluster or gauge panel) on right with corresponding connection points H and C marked.",
+      "labels": [
+        "H",
+        "B",
+        "A",
+        "C"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 30
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Ground the connector of the sender gauge with the connector disconnected.",
+        "(e) Check that the top segment flashes with the ignition switch at ON position."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Testing setup showing ohmmeter connected to sender gauge unit. Diagram depicts an ohmmeter on left connected via wire to a sender gauge unit mounted on right side.",
+      "labels": [],
+      "bbox": {
+        "top": 35,
+        "left": 3,
+        "width": 40,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSPECT SENDER GAUGE OPERATION"
+    },
+    {
+      "type": "text",
+      "text": "Inspect the resistance between the terminals of the sender gauge and body ground."
+    },
+    {
+      "type": "table",
+      "caption": "Resistance:",
+      "headers": [
+        "Temperature",
+        "Resistance"
+      ],
+      "rows": [
+        [
+          "50°C (122°F)",
+          "192 - 320 Ω"
+        ],
+        [
+          "80°C (176°F)",
+          "65 - 89 Ω"
+        ]
+      ]
+    }
+  ]
+}

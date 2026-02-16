@@ -1,0 +1,64 @@
+{
+  "page_id": "AT-51",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups",
+  "title": "COMPONENT GROUP DISASSEMBLY, INSPECTION AND ASSEMBLY",
+  "content": [
+    {
+      "type": "text",
+      "text": "The instructions here are organized so that you work on only one component group at a time. This will help avoid confusion of similar-looking parts from different subassemblies being on your workbench at the same time."
+    },
+    {
+      "type": "text",
+      "text": "The component groups are inspected and repaired from the converter housing side."
+    },
+    {
+      "type": "text",
+      "text": "As much as possible, complete the inspection, repair, assembly before proceeding to the next component group. If a component group cannot be assembled because parts are being ordered, be sure to keep all parts of that group in a separate container while proceeding with disassembly, inspection, repair and assembly of other component groups."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "GENERAL CLEANING"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "All disassembled parts should be washed clean and the fluid passages and holes blown through with compressed air to make sure that they are not clogged.",
+        "Cleaning solvent used should be the recommended ATF or kerosene.",
+        "When using compressed air to dry parts, keep face away to avoid spraying solvent in your face."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PARTS ARRANGEMENT"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "After cleaning, the parts should be arranged in proper order to allow performing the inspection, repair, and reassembly with efficiency.",
+        "New brakes and clutches that are to be used for replacement must be soaked in transmission fluid for at least two hours before assembly.",
+        "When disassembling a valve body, be sure to keep each valve together with the corresponding spring."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "GENERAL ASSEMBLY"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "All oil seal rings, clutch discs, clutch plates, rotating parts, and sliding surfaces should be coated with transmission fluid prior to reassembly.",
+        "If a worn bushing is to be replaced, the replacement must be made with the subassembly containing that bushing.",
+        "All gaskets and rubber O-rings should be replaced.",
+        "Check thrust bearings and races for wear or damage. Replace if necessary.",
+        "Make sure that the ends of a snap ring are not aligned with one of the cutouts and are installed in the groove correctly.",
+        "Use petroleum jelly to keep parts in place."
+      ]
+    }
+  ]
+}

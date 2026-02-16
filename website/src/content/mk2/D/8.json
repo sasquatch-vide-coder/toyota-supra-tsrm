@@ -1,0 +1,49 @@
+{
+  "page_id": "D-8",
+  "section_header": "A27 RANGE SECOND GEAR CIRCUIT LOCK-UP OFF",
+  "title": "A27 RANGE SECOND GEAR CIRCUIT LOCK-UP OFF",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hydraulic circuit diagram showing the transmission system in A27 range second gear with lock-up off. The diagram displays various solenoid valves, pressure control valves, hydraulic lines (shown in red for pressurized lines, yellow for specific circuits, and gray for unpressurized lines), clutches, and other transmission components. The diagram includes multiple solenoid assemblies at the top, various valve bodies in the center, and clutch assemblies throughout the circuit.",
+      "labels": [
+        "Low & Reverse",
+        "Throttle Pressure",
+        "Governor Pressure",
+        "Converter Pressure",
+        "A1",
+        "B1",
+        "C1",
+        "L3-2 Valve",
+        "A1 Pressure",
+        "C2 Pressure",
+        "B2 Pressure",
+        "2nd Brake",
+        "Solenoid No. 1",
+        "Solenoid No. 2",
+        "Lock-up Signal Valve",
+        "Lock-up Control Valve",
+        "Damper Clutch",
+        "Clutch",
+        "1-2 Shift Valve",
+        "2-3 Shift Valve",
+        "3-4 Shift Valve",
+        "L-B Control Valve",
+        "Primary Regulator Valve",
+        "Secondary Regulator Valve",
+        "Throttle Valve",
+        "Torque Converter",
+        "Oil Pump",
+        "Oil Cooler",
+        "Oil Strainer"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 5,
+        "width": 90,
+        "height": 88
+      }
+    }
+  ]
+}

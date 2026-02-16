@@ -1,0 +1,127 @@
+{
+  "page_id": "AT-72",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing brake hub being held in a vise with soft jaws while flattening ears with a chisel",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "text",
+      "text": "(e) Hold the brake hub in a vise with soft jaws, and flatten the ears with a chisel."
+    },
+    {
+      "type": "text",
+      "text": "(f) Check to make sure that the retainer is centered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSPECT DISC, PLATE AND FLANGE"
+    },
+    {
+      "type": "text",
+      "text": "Check that the sliding surface of disc is not worn or burnt. If the disc is worn or burnt, replace all discs."
+    },
+    {
+      "type": "text",
+      "text": "Then check that the sliding surfaces of plate and flange are not worn or burnt."
+    },
+    {
+      "type": "text",
+      "text": "If necessary, replace them."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Do allow the discs to dry out.\nPrepare new discs by soaking them at least two hours in ATF."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY OF CENTER SUPPORT ASSEMBLY"
+    },
+    {
+      "type": "text",
+      "text": "(See page AT-69)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL TWO OIL SEAL RINGS AND ONE WAY CLUTCH ASSEMBLY ON SUN GEAR"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of oil seal rings and one way clutch assembly on sun gear",
+      "labels": [
+        "BUSH AT0214"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL THREE OIL SEAL RINGS ON CENTER SUPPORT"
+    },
+    {
+      "type": "text",
+      "text": "Spread the rings apart and slip them into the groove. Hook both ends by hand."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing spreading oil seal rings apart to install them into groove on center support",
+      "labels": [
+        "C4784 AT0092"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL NEW O-RINGS ON PISTON"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSTALL NO. 1 BRAKE PISTON IN CENTER SUPPORT"
+    },
+    {
+      "type": "text",
+      "text": "Press the No. 1 brake piston into the center support with the cup side up, being careful not to damage the O-rings."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of No. 1 brake piston into center support assembly",
+      "labels": [
+        "C4805"
+      ],
+      "bbox": {
+        "top": 75,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    }
+  ]
+}

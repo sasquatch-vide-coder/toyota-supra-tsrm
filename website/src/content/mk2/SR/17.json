@@ -1,0 +1,77 @@
+{
+  "page_id": "SR-17",
+  "section_header": "STEERING — Power Steering",
+  "title": "STEERING — Power Steering",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. CHECK PRESSURE READING WITH STEERING WHEEL TURNED TO FULL LOCK"
+    },
+    {
+      "type": "text",
+      "text": "Be sure the pressure gauge valve is fully opened and the engine idling."
+    },
+    {
+      "type": "text",
+      "text": "Minimum pressure: 65 kg/cm² (924 psi, 6,374 kPa)"
+    },
+    {
+      "type": "text",
+      "text": "If pressure is low, the gear housing has an internal leak and must be repaired or replaced."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing pressure gauge setup with minimum pressure specification of 65 kg/cm², with valve in open position and steering wheel at full lock (1 rpm position indicated)",
+      "labels": [
+        "Min. 65 kg/cm²",
+        "Open",
+        "1 rpm"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 35,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. MEASURE STEERING EFFORT"
+    },
+    {
+      "type": "text",
+      "text": "Center the steering wheel and run the engine at idle."
+    },
+    {
+      "type": "text",
+      "text": "Using a scale, measure the steering effort in both directions."
+    },
+    {
+      "type": "text",
+      "text": "Maximum steering effort: 4 kg (8.8 lb, 39 N)"
+    },
+    {
+      "type": "text",
+      "text": "If steering effort is excessive, repair the power steering unit."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Be sure to consider tire type, pressure and contact surface before making your diagnosis."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing steering wheel from above with a pull scale attached to measure steering effort",
+      "labels": [],
+      "bbox": {
+        "top": 30,
+        "left": 3,
+        "width": 35,
+        "height": 21
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "page_id": "EM-50",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": "CYLINDER BLOCK",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing measurement of piston diameter using a micrometer at 22mm from the piston pin center line, positioned at right angles to the piston pin center line",
+      "labels": [
+        "22 mm"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 4,
+        "width": 37,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. MEASURE PISTON DIAMETER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a micrometer, measure the piston diameter at right angles to the piston pin center line, 22 mm (0.87 in.) from the piston pin."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Standard diameter",
+      "headers": [],
+      "rows": [
+        [
+          "Standard diameter:",
+          "82.93 — 82.98 mm"
+        ],
+        [
+          "",
+          "(3.2650 — 3.2669 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Check that the difference between the cylinder diameter and the piston diameter is within specification. (See step 5 on page EM-48)"
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Piston clearance",
+      "headers": [],
+      "rows": [
+        [
+          "Piston clearance EM-5C:",
+          "0.06 — 0.08 mm"
+        ],
+        [
+          "",
+          "(0.0024 — 0.0031 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If not within specification, replace the piston and/or rebore all six cylinders. (See page EM-52)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Two diagrams showing thrust direction and axial direction measurements on piston. Left diagram shows front view with labeled points 1 and 2. Right diagram shows piston with measurement locations A (10mm/0.39in), B (Middle), and C (10mm/0.39in)",
+      "labels": [
+        "Front",
+        "1",
+        "2",
+        "Thrust Direction",
+        "Axial Direction",
+        "A",
+        "B",
+        "C",
+        "10 mm (0.39 in.)",
+        "Middle",
+        "10 mm (0.39 in.)"
+      ],
+      "bbox": {
+        "top": 31,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. MEASURE CLEARANCE BETWEEN PISTON RING GROOVE AND PISTON RING"
+    },
+    {
+      "type": "text",
+      "text": "Using a feeler gauge, measure the clearance between the piston ring and the ring land."
+    },
+    {
+      "type": "table",
+      "caption": "Ring groove clearance",
+      "headers": [],
+      "rows": [
+        [
+          "Ring groove clearance:",
+          "No. 1",
+          "0.03 — 0.07 mm"
+        ],
+        [
+          "",
+          "",
+          "(0.0012 — 0.0028 in.)"
+        ],
+        [
+          "",
+          "No. 2",
+          "0.02 — 0.06 mm"
+        ],
+        [
+          "",
+          "",
+          "(0.0008 — 0.0024 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If the clearance is greater than maximum, replace the piston ring and if necessary, the piston"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing measurement of ring groove clearance using a feeler gauge inserted between piston ring and ring land",
+      "labels": [],
+      "bbox": {
+        "top": 48,
+        "left": 4,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. MEASURE RING END GAP"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Insert the piston ring into the cylinder bore.",
+        "(b) Using a piston, push the piston ring to beyond the bottom of the ring travel. (100 mm {3.94 in.} from top surface of cylinder block)",
+        "(c) Using a feeler gauge, measure the end gap."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Ring end gap",
+      "headers": [],
+      "rows": [
+        [
+          "Ring end gap:",
+          "",
+          ""
+        ],
+        [
+          "No. 1",
+          "STD",
+          "0.29—0.47 mm (0.0114—0.0185 in.)"
+        ],
+        [
+          "",
+          "Limit",
+          "0.71mm (0.00280 in.)"
+        ],
+        [
+          "No. 2",
+          "STD",
+          "0.25—0.55 mm (0.0098—0.0217 in.)"
+        ],
+        [
+          "",
+          "Limit",
+          "1.15 mm (0.0453 in.)"
+        ],
+        [
+          "Oil",
+          "STD",
+          "0.17—0.85 mm (0.0067—0.0335 in.)"
+        ],
+        [
+          "",
+          "Limit",
+          "1.45 mm (0.0571 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If not within specification, replace the ring. Do not file the ring end."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Two diagrams showing ring end gap measurement. Left diagram shows cross-section of cylinder with piston and 100mm measurement from top. Right diagram shows top view of ring with feeler gauge measuring end gap",
+      "labels": [
+        "100 mm"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 4,
+        "width": 37,
+        "height": 22
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. CHECK PISTON PIN FIT"
+    },
+    {
+      "type": "text",
+      "text": "At 60°C (140°F), the pin should be able to be pushed into the piston with your thumb."
+    },
+    {
+      "type": "text",
+      "text": "If the pin can be installed at a lower temperature, replace the piston and pin."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing hand pushing piston pin into piston to check fit",
+      "labels": [],
+      "bbox": {
+        "top": 83,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      }
+    }
+  ]
+}

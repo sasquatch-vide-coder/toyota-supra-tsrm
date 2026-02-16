@@ -1,0 +1,152 @@
+{
+  "page_id": "BE-3",
+  "section_header": "BODY ELECTRICAL SYSTEM — General Information",
+  "title": "BODY ELECTRICAL SYSTEM — General Information",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing a screwdriver prying up locking lugs on a connector terminal to remove it from the rear",
+      "labels": [
+        "M0166"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Pry up the locking lugs with the screwdriver and pull the terminal out from the rear."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing a terminal being pushed into a connector with an arrow indicating direction",
+      "labels": [
+        "B0197"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSTALL TERMINALS TO CONNECTOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Push in the terminal until it is securely locked in the connector lug.",
+        "(b) Pull on the wire to confirm that it is securely locked."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands removing a circuit breaker from a kick panel",
+      "labels": [
+        "B0198"
+      ],
+      "bbox": {
+        "top": 39,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "RESET CIRCUIT BREAKER"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. REMOVE CIRCUIT BREAKER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the kick panel.",
+        "(b) Remove the circuit breaker."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing an ohmmeter being used to check continuity on a circuit breaker with a needle in reset hole",
+      "labels": [
+        "BEC015-BEC014"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. RESET CIRCUIT BREAKER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Insert the needle into the reset hole and push it.",
+        "(b) Using an ohmmeter, check that there is continuity between both terminals of the circuit breaker."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If there is no continuity, replace the circuit breaker."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing hands installing a circuit breaker into kick panel with arrow indicating direction",
+      "labels": [
+        "B0198"
+      ],
+      "bbox": {
+        "top": 73,
+        "left": 3,
+        "width": 45,
+        "height": 16
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. INSTALL CIRCUIT BREAKER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the circuit breaker."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: If a circuit breaker continues to cut out, a short circuit is indicated. Have the system checked by a qualified technician."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Install the kick panel."
+      ]
+    }
+  ]
+}

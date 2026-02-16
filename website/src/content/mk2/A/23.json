@@ -1,0 +1,189 @@
+{
+  "page_id": "A-23",
+  "section_header": "SERVICE SPECIFICATIONS — Rear Axle and Suspension",
+  "title": "Torque Specifications",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Torque Specifications",
+      "headers": [
+        "",
+        "Part tightened",
+        "",
+        "kg-cm",
+        "ft-lb",
+        "N·m"
+      ],
+      "rows": [
+        [
+          "Rear axle shaft",
+          "Rear axle shaft x Flange\n(retighten the nut 5 — 10° at a time until\nthe specified preload is reached",
+          "1st",
+          "800",
+          "58",
+          "78"
+        ],
+        [
+          "",
+          "",
+          "Max.",
+          "2,000",
+          "145",
+          "196"
+        ],
+        [
+          "Drive shaft",
+          "Drive shaft x Rear axle shaft",
+          "",
+          "700",
+          "51",
+          "69"
+        ],
+        [
+          "",
+          "Drive shaft x Differential",
+          "",
+          "700",
+          "51",
+          "69"
+        ],
+        [
+          "Differential",
+          "Propeller shaft x Companion flange",
+          "",
+          "430",
+          "31",
+          "42"
+        ],
+        [
+          "",
+          "Carrier cover",
+          "",
+          "220",
+          "16",
+          "22"
+        ],
+        [
+          "",
+          "Drive shaft x Side gear shaft",
+          "",
+          "700",
+          "51",
+          "69"
+        ],
+        [
+          "",
+          "Companion flange x Drive pinion\n(retighten the nut 130 kg-cm (9 ft-lb,)\n13 N·m) at a time until the specified\npreload is reached.",
+          "1st",
+          "1,100",
+          "80",
+          "108"
+        ],
+        [
+          "",
+          "",
+          "Max.",
+          "2,400",
+          "174",
+          "235"
+        ],
+        [
+          "",
+          "Ring gear x Differential case",
+          "",
+          "985",
+          "71",
+          "97"
+        ],
+        [
+          "",
+          "Side bearing cap",
+          "",
+          "800",
+          "58",
+          "78"
+        ],
+        [
+          "",
+          "Differential carrier x Support",
+          "",
+          "850",
+          "61",
+          "83"
+        ],
+        [
+          "",
+          "Carrier support x Member",
+          "",
+          "850",
+          "61",
+          "83"
+        ],
+        [
+          "Suspension",
+          "Shock absorber x Body",
+          "",
+          "250",
+          "18",
+          "25"
+        ],
+        [
+          "",
+          "Shock absorber x Suspension arm",
+          "",
+          "375",
+          "27",
+          "37"
+        ],
+        [
+          "",
+          "Stabilizer link x Suspension arm",
+          "",
+          "180",
+          "13",
+          "18"
+        ],
+        [
+          "",
+          "Stabilizer bar end x Stabilizer link",
+          "",
+          "310",
+          "22",
+          "30"
+        ],
+        [
+          "",
+          "Stabilizer bar bracket x Member",
+          "",
+          "185",
+          "13",
+          "18"
+        ],
+        [
+          "",
+          "Suspension arm x Member",
+          "Inside",
+          "1,325",
+          "96",
+          "130"
+        ],
+        [
+          "",
+          "",
+          "Outside",
+          "1,175",
+          "85",
+          "115"
+        ],
+        [
+          "",
+          "Differential support member x Body",
+          "",
+          "1,200",
+          "87",
+          "118"
+        ]
+      ]
+    }
+  ]
+}

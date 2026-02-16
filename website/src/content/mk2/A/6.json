@@ -1,0 +1,160 @@
+{
+  "page_id": "A-6",
+  "section_header": "SERVICE SPECIFICATIONS — Engine Mechanical",
+  "title": "Torque Specifications",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Torque Specifications",
+      "headers": [
+        "Part tightened",
+        "",
+        "kg-cm",
+        "ft-lb",
+        "N-m"
+      ],
+      "rows": [
+        [
+          "Cylinder head × Cylinder block",
+          "",
+          "800",
+          "58",
+          "78"
+        ],
+        [
+          "Manifold × Cylinder head",
+          "Intake",
+          "180",
+          "13",
+          "18"
+        ],
+        [
+          "",
+          "Exhaust",
+          "400",
+          "29",
+          "39"
+        ],
+        [
+          "Camshaft housing × Cylinder head",
+          "",
+          "220",
+          "16",
+          "22"
+        ],
+        [
+          "Camshaft pulley × Camshaft",
+          "",
+          "700",
+          "51",
+          "69"
+        ],
+        [
+          "No. 2 timing belt cover × Cylinder head",
+          "",
+          "130",
+          "9",
+          "13"
+        ],
+        [
+          "Pump drive shaft × Cylinder block",
+          "",
+          "130",
+          "9",
+          "13"
+        ],
+        [
+          "Timing belt case × Cylinder block",
+          "8 mm bolt & Nut",
+          "185",
+          "13",
+          "18"
+        ],
+        [
+          "",
+          "10 mm bolt",
+          "375",
+          "27",
+          "37"
+        ],
+        [
+          "Pump drive shaft pulley × Drive shaft",
+          "",
+          "220",
+          "16",
+          "22"
+        ],
+        [
+          "Idler pulley × Timing belt case × Cylinder block",
+          "",
+          "500",
+          "36",
+          "49"
+        ],
+        [
+          "Distributor × Camshaft housing",
+          "",
+          "140",
+          "10",
+          "14"
+        ],
+        [
+          "Crankshaft bearing cap × Cylinder block",
+          "",
+          "1,040",
+          "75",
+          "102"
+        ],
+        [
+          "Connecting rod cap × Connecting rod",
+          "",
+          "450",
+          "33",
+          "44"
+        ],
+        [
+          "Crankshaft pulley × Crankshaft",
+          "",
+          "2,200",
+          "159",
+          "216"
+        ],
+        [
+          "Flywheel × Crankshaft",
+          "",
+          "750",
+          "54",
+          "74"
+        ],
+        [
+          "Oil pump × Cylinder block",
+          "",
+          "220",
+          "16",
+          "22"
+        ],
+        [
+          "Oil pump outlet pipe nut",
+          "",
+          "350",
+          "25",
+          "34"
+        ],
+        [
+          "Oil pump union bolt",
+          "",
+          "350",
+          "25",
+          "34"
+        ],
+        [
+          "Oil pan × Cylinder block",
+          "",
+          "80",
+          "69 in.-lb",
+          "7.8"
+        ]
+      ]
+    }
+  ]
+}

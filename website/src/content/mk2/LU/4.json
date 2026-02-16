@@ -1,0 +1,87 @@
+{
+  "page_id": "LU-4",
+  "section_header": "LUBRICATION SYSTEM — Oil Pump",
+  "title": "OIL PUMP",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "OIL PUMP"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of oil pump components showing the complete assembly including oil pump cover, oil pump body, driven gear, oil pump shaft subassembly, relief valve components, and outlet pipe assembly with union bolt. Non-reusable parts are marked with diamond symbols.",
+      "labels": [
+        "Snap Ring",
+        "Spacer",
+        "Key",
+        "Oil Pump Shaft Driver Gear",
+        "Oil Pump Body",
+        "Driven Gear",
+        "Oil Pump Shaft Subassembly",
+        "Oil Pump Cover",
+        "Relief Valve Plug",
+        "Relief Valve Spring",
+        "Relief Valve",
+        "Union Bolt",
+        "Oil Pump Outlet Pipe",
+        "Non-reusable part"
+      ],
+      "bbox": {
+        "top": 11,
+        "left": 4,
+        "width": 92,
+        "height": 50
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL AND DISASSEMBLY OF OIL PUMP"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "DRAIN ENGINE OIL",
+        "DRAIN COOLANT",
+        "REMOVE AIR CLEANER CASE",
+        "REMOVE AIR CONNECTOR PIPE WITH NO.1 AND NO.2 AIR CLEANER HOSES",
+        "REMOVE OIL LEVEL GAUGE",
+        "DISCONNECT UPPER RADIATOR HOSE",
+        "LOOSEN FAN BELTS\nLoosen the belt adjusting bolts and nut of the PS pump and",
+        "REMOVE FOUR FAN SHROUD BOLTS"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of air cleaner case area with wrench being used on component",
+      "labels": [],
+      "bbox": {
+        "top": 57,
+        "left": 4,
+        "width": 37,
+        "height": 16
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing loosening of fan belts with wrench, focusing on belt adjustment area",
+      "labels": [],
+      "bbox": {
+        "top": 73,
+        "left": 4,
+        "width": 37,
+        "height": 19
+      }
+    }
+  ]
+}

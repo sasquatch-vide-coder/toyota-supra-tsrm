@@ -1,0 +1,141 @@
+{
+  "page_id": "AT-79",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Planetary Gear Output Shaft)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing a planetary gear assembly with labels indicating 'Lock' and 'Free' positions for one-way clutch testing",
+      "labels": [
+        "Lock",
+        "Free"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start_number": 14,
+      "items": [
+        {
+          "number": 14,
+          "heading": "TEMPORARILY INSTALL REACTION PLATE ON PLANETARY",
+          "text": "Insert the plate into place for testing of the one-way clutch."
+        },
+        {
+          "number": 15,
+          "heading": "TEST ONE-WAY CLUTCH",
+          "text": "The planetary gear must rotate freely counterclockwise and lock clockwise.\nIf the clutch does not work correctly, it must be replaced."
+        },
+        {
+          "number": 16,
+          "heading": "REMOVE REACTION PLATE",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing planetary carrier and installation of nylon thrust washer",
+      "labels": [],
+      "bbox": {
+        "top": 28,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start_number": 17,
+      "items": [
+        {
+          "number": 17,
+          "heading": "INSTALL NYLON THRUST WASHER ON FRONT PLANETARY CARRIER",
+          "text": "Apply petroleum jelly to the washer to hold it in place during later assembly. Match the lugs with the planetary carrier."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of front planetary gear assembly to intermediate shaft",
+      "labels": [],
+      "bbox": {
+        "top": 47,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start_number": 18,
+      "items": [
+        {
+          "number": 18,
+          "heading": "INSTALL FRONT PLANETARY GEAR ASSEMBLY TO INTERMEDIATE SHAFT",
+          "text": ""
+        },
+        {
+          "number": 19,
+          "heading": "INSTALL PRESSURE PLATE",
+          "text": "Install the pressure plate, placing the flat surface toward the intermediate shaft."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing installation of No. 3 brake clutch pack with multiple disc plates on intermediate shaft",
+      "labels": [],
+      "bbox": {
+        "top": 66,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start_number": 20,
+      "items": [
+        {
+          "number": 20,
+          "heading": "INSTALL NO. 3 BRAKE CLUTCH PACK",
+          "text": "Using low-pressure compressed air, blow all excess ATF from discs."
+        }
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "High-pressure air will damage the discs."
+    },
+    {
+      "type": "text",
+      "text": "Install in order: Disc·plate·disc·plate·disc·plate·disc·plate·disc"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start_number": 21,
+      "items": [
+        {
+          "number": 21,
+          "heading": "KEEP INNER RACE, APPLY TUBE, THRUST BEARING AND RACE TOGETHER",
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

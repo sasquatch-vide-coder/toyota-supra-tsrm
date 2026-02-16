@@ -1,0 +1,188 @@
+{
+  "page_id": "AT-65",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Front Clutch)",
+  "title": "INSPECT DISC, PALTE AND FLANGE / ASSEMBLY OF FRONT CLUTCH",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSPECT DISC, PALTE AND FLANGE"
+    },
+    {
+      "type": "text",
+      "text": "Check that the sliding surface of disc is not worn or burnt."
+    },
+    {
+      "type": "text",
+      "text": "If the disc is worn or burnt, replace all discs."
+    },
+    {
+      "type": "text",
+      "text": "Then check that the sliding surfaces of plate and flange are not worn or burnt."
+    },
+    {
+      "type": "text",
+      "text": "If necessary, replace them."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Do not allow the discs to dry out. Prepare new discs by soaking them at least two hours in ATF."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY OF FRONT CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "(See page AT-63)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Front clutch assembly showing piston installation into clutch drum with O-rings",
+      "labels": [
+        "O-rings",
+        "Piston",
+        "Clutch drum"
+      ],
+      "bbox": {
+        "top": 20,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL NEW O-RINGS ON PISTON",
+        "INSTALL PISTON IN FRONT OF CLUTCH DRUM\n\nPress the piston into the housing with the cup side up (check ball down).\nBe careful not to damage the O-rings."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Spring retainer with SST tool compressing return springs and snap ring installation",
+      "labels": [
+        "SST",
+        "Spring retainer",
+        "Return springs",
+        "Snap ring"
+      ],
+      "bbox": {
+        "top": 37,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL TWENTY PISTON RETURN SPRINGS, SPRING RETAINER AND SNAP RING IN PLACE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. COMPRESS RETURN SPRINGS AND INSTALL SNAP RING IN GROOVE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place SST on the spring retainer, and compress the springs with a shop press.",
+        "SST 09350-20013 (09369-20040)",
+        "(b) Install the snap ring with a screwdriver."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Exploded view of clutch discs and plates showing assembly order without thinner snap ring",
+      "labels": [
+        "Plates",
+        "Discs",
+        "Snap ring"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL DISCS AND PLATES WITHOUT ASSEMBLING THINNER SNAP RING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Do not assemble the thinner snap ring yet.",
+        "(b) Using low-pressure compressed air, blow all excess ATF from the discs. For measurement of the clutch pack, install all plates and discs temporarily without thinner snap ring)."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: High-pressure air will damage the discs."
+    },
+    {
+      "type": "text",
+      "text": "Install in order: Plate-disc-plate-disc-plate-disc-plate (no snap ring)-disc"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Dial indicator measuring piston stroke on front clutch assembly with cutout portion labeled",
+      "labels": [
+        "Dial indicator",
+        "Cutout Portion"
+      ],
+      "bbox": {
+        "top": 74,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. CHECK PISTON STROKE OF FRONT CLUTCH"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the rear clutch hub and the outer snap ring.",
+        "(b) Install the front clutch drum on a the transmission case.\n\nWith a dial indicator, measure the stroke applying and releasing the compressed air of 0.59 kg/cm², 57 — 114 psi (or 392 — 785 kPa) as shown."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Standard piston stroke: 1.40 — 2.24 mm\n(0.0551 — 0.0882 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If not within specification, select a proper plate."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: There are two different thickness."
+    },
+    {
+      "type": "text",
+      "text": "Plate thickness: 1.8 mm (0.071 in.)\n2.0 mm (0.079 in.)"
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09350-20013 (09369-20040)",
+      "description": "Spring compressor tool"
+    }
+  ]
+}

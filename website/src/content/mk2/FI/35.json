@@ -1,0 +1,197 @@
+{
+  "page_id": "FI-35",
+  "section_header": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+  "title": "EFI SYSTEM — Troubleshooting for EFI Electronic Circuit with Volt/Ohmmeter",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "No.",
+        "Terminals",
+        "Trouble",
+        "Condition",
+        "STD voltage"
+      ],
+      "rows": [
+        [
+          "2",
+          "IDL - E₂",
+          "No voltage",
+          "Ignition switch ON",
+          "Throttle valve open",
+          "4 - 6"
+        ],
+        [
+          "",
+          "VTA - E₂",
+          "",
+          "",
+          "Throttle valve fully closed",
+          "0.1 - 1.0"
+        ],
+        [
+          "",
+          "Vc - E₂",
+          "",
+          "",
+          "Throttle valve fully open",
+          "4 - 5"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "4 - 6"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wiring diagram showing Throttle Position Sensor connections to ECU. The diagram shows a hexagonal sensor body with terminals E₂, IDL, VTA, and Vc connecting to corresponding terminals on the ECU (E₂, IDL, VTA, Vc, E₁). Ground connection is shown at bottom.",
+      "labels": [
+        "Throttle Position Sensor",
+        "ECU",
+        "E₂",
+        "IDL",
+        "VTA",
+        "Vc",
+        "E₁"
+      ],
+      "bbox": {
+        "top": 15,
+        "left": 5,
+        "width": 90,
+        "height": 42
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "IDL ↔ E₂"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing voltmeter connection between IDL terminal on ECU and ground (E₂) for testing with throttle valve open",
+      "labels": [
+        "Voltmeter",
+        "ECU",
+        "IDL",
+        "V"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 2,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "There is no voltage between ECU terminals IDL and E₂. (IG S/W ON) (Throttle valve open)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing voltmeter connection between ECU +B terminal and body ground for testing power supply",
+      "labels": [
+        "Voltmeter",
+        "ECU",
+        "+B",
+        "V"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 2,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Check that there is voltage between ECU terminal +B body and body ground. (IG S/W ON)"
+      ]
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "NO",
+        "OK"
+      ],
+      "rows": [
+        [
+          "Check wiring between ECU terminal E₁ and body ground.",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "BAD → Repair or replace"
+    },
+    {
+      "type": "text",
+      "text": "Refer to No. 1. → BAD → Repair or replace"
+    },
+    {
+      "type": "text",
+      "text": "OK ↓"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing ohmmeter connection to throttle position sensor at IDL and E₂ terminals for resistance testing",
+      "labels": [
+        "Ohmmeter",
+        "IDL",
+        "E₂",
+        "Ω"
+      ],
+      "bbox": {
+        "top": 105,
+        "left": 2,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Check throttle position sensor."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "BAD",
+        "OK"
+      ],
+      "rows": [
+        [
+          "Repair or replace throttle position sensor.",
+          "Check wiring between ECU and throttle position sensor."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "OK → Try another ECU."
+    },
+    {
+      "type": "text",
+      "text": "BAD → Repair or replace"
+    }
+  ]
+}

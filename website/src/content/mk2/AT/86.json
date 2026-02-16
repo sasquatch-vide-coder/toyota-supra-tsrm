@@ -1,0 +1,126 @@
+{
+  "page_id": "AT-86",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "title": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands turning assembly over and removing valve body covers and gaskets from transmission valve body",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      },
+      "diagram_code": "C4441"
+    },
+    {
+      "type": "text",
+      "step": "3",
+      "text": "TURN ASSEMBLY OVER, REMOVE SET BOLTS AND REMOVE TWO VALVE BODY COVERS AND GASKETS"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands removing pressure relief valve with bolt and retainer from valve body",
+      "labels": [],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      },
+      "diagram_code": "C4442"
+    },
+    {
+      "type": "text",
+      "step": "4",
+      "text": "REMOVE PRESSURE RELIEF VALVE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the bolt and retainer.",
+        "(b) Remove the spring and steel ball."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Cover the spring with your hand. Slowly remove the bolt, being careful not to pop out the spring."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands removing No. 3 solenoid from valve body bore",
+      "labels": [],
+      "bbox": {
+        "top": 51,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      },
+      "diagram_code": "C4443"
+    },
+    {
+      "type": "text",
+      "step": "5",
+      "text": "REMOVE NO. 3 SOLENOID"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the bolt.",
+        "(b) Remove the solenoid from the bore."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of No. 1 and No. 2 solenoids with three bolts from top of valve body",
+      "labels": [],
+      "bbox": {
+        "top": 74,
+        "left": 3,
+        "width": 38,
+        "height": 16
+      },
+      "diagram_code": "C4444"
+    },
+    {
+      "type": "text",
+      "step": "6",
+      "text": "REMOVE NO. 1 AND NO. 2 SOLENOID"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the three bolts, the solenoid and gasket."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing removal of two springs from valve body bore",
+      "labels": [],
+      "bbox": {
+        "top": 90,
+        "left": 3,
+        "width": 38,
+        "height": 10
+      },
+      "diagram_code": "C4445"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Remove the two springs from the bore."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "page_id": "EM-59",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": "ENGINE MECHANICAL — Cylinder Block",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of rod bearing caps showing alignment and tightening of cap nuts",
+      "labels": [
+        "EM0071"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL ROD BEARING CAPS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Match the numbered cap with the numbered rod.",
+        "(b) Align the marks punched on the rod and cap and tighten the cap nuts to specified torque alternately in two or three passes."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Rod bearing cap nuts",
+      "value": "450 kg-cm (33 ft-lb, 44 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "(c) After tightening the caps, check that the crankshaft rotates smoothly."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Oil pump assembly installation showing pump mounting and bolt location",
+      "labels": [
+        "EM1402"
+      ],
+      "bbox": {
+        "top": 27,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. MEASURE ROD THRUST CLEARANCE"
+    },
+    {
+      "type": "text",
+      "text": "(See step 16 on page EM-43)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. INSTALL OIL PUMP ASSEMBLY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Clean the oil pump.",
+        "(b) Install the oil pump and holding bolt. Torque the bolt."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Oil pump holding bolt",
+      "value": "220 kg-cm (16 ft-lb, 22 N·m)"
+    },
+    {
+      "type": "text",
+      "text": "(c) Install the oil pipe with gasket, lock washer and union bolt. Tighten the oil pipe nut and bolt."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Oil pipe nut and union bolt",
+      "value": "350 kg-cm (25 ft-lb, 34 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Oil pump drive shaft installation showing insertion technique",
+      "labels": [
+        "EM1404"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. INSTALL OIL PUMP DRIVE SHAFT"
+    },
+    {
+      "type": "text",
+      "text": "While turning the drive shaft, slowly insert so as not to damage the drive shaft bearing. Torque the bolt."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Oil pump drive shaft bolt",
+      "value": "130 kg-cm (9 ft-lb, 13 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Rear oil seal retainer installation diagram showing bolt positions and measurements at 20mm, 60mm, and 45mm intervals with nut and bolt length indicators",
+      "labels": [
+        "Nut",
+        "Bolt Length",
+        "mm"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. INSTALL REAR OIL SEAL RETAINER"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. INSTALL TIMING BELT CASE WITH WATER PUMP"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Position a new gasket on the cylinder block.",
+        "(b) Install the timing belt case with eight bolts and two nuts."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "8 mm bolt and nut",
+      "value": "186 kg-cm (13 ft-lb, 18 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "10 mm bolt",
+      "value": "375 kg-cm (27 ft-lb, 37 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. INSTALL OIL PAN"
+    },
+    {
+      "type": "text",
+      "text": "(See page LU-7)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSTALL WATER BY-PASS PIPE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. INSTALL FUEL HOSE SUPPORT"
+    }
+  ]
+}

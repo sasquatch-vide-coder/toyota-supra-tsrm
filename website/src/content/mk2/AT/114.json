@@ -1,0 +1,153 @@
+{
+  "page_id": "AT-114",
+  "section_header": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+  "title": "AUTOMATIC TRANSMISSION — Assembly of Transmission",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing the oil pan with magnets and gasket alignment",
+      "labels": [
+        "A110871"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "45. INSTALL TWO MAGNETS IN PAN AND INSTALL OIL PAN WITH NEW GASKET"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Align the cut part of the gasket and case."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of the oil pan onto the transmission case",
+      "labels": [
+        "C4600"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Install the oil pan."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Oil pan",
+      "value": "45 kg-cm (39 in.-lb, 4.4 N·m)"
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Make sure that the two magnets do not interfere with the oil tubes and valve body."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "46. INSTALL DRAIN PLUG WITH NEW GASKET"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Drain plug",
+      "value": "205 kg-cm (15 ft-lb, 20 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing sensor rotor and speedometer drive gear with snap ring sizes (Large on front side, Small on rear side)",
+      "labels": [
+        "Front Side",
+        "Large",
+        "Rear Side",
+        "Small",
+        "C4502 C4503"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "47. INSTALL SENSOR ROTOR AND SPEEDOMETER DRIVE GEAR"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Install the larger diameter snap ring at the front side."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the larger snap ring and woodruff key onto the shaft.",
+        "(b) Install the sensor rotor.",
+        "(c) Install the lock ball.",
+        "(d) Slide the speedometer gear on the shaft.",
+        "(e) Using snap ring pliers, install the outer snap ring."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hand illustration showing installation of snap ring using snap ring pliers",
+      "labels": [
+        "C4504"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "48. INSTALL EXTENSION HOUSING WITH NEW GASKET"
+    },
+    {
+      "type": "text",
+      "text": "Do not use the gasket sealer. Install the housing with four long bolts and two short bolts. Tighten the bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Extension housing",
+      "value": "345 kg-cm (25 ft-lb, 34 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Diagram showing extension housing being installed onto the transmission",
+      "labels": [
+        "C4505"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    }
+  ]
+}

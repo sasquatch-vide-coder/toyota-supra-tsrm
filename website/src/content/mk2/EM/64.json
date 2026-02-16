@@ -1,0 +1,52 @@
+{
+  "page_id": "EM-64",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": null,
+  "content": [
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 32,
+      "items": [
+        {
+          "number": "32",
+          "heading": "INSTALL WASHER TANK",
+          "details": null
+        },
+        {
+          "number": "33",
+          "heading": "INSTALL BATTERY",
+          "details": null
+        },
+        {
+          "number": "34",
+          "heading": "INSTALL HOOD",
+          "details": null
+        },
+        {
+          "number": "35",
+          "heading": "START ENGINE",
+          "details": "Warm up the engine and inspect for leaks."
+        },
+        {
+          "number": "36",
+          "heading": "PERFORM ENGINE ADJUSTMENT",
+          "details": [
+            "(a) Recheck the ignition timing. (See page IG-10)",
+            "(b) Retighten the cylinder head bolts. (See step 18 on page EM-60)"
+          ]
+        },
+        {
+          "number": "37",
+          "heading": "ROAD TEST",
+          "details": "Perform a road test."
+        },
+        {
+          "number": "38",
+          "heading": "RECHECK COOLANT AND ENGINE OIL LEVEL",
+          "details": null
+        }
+      ]
+    }
+  ]
+}

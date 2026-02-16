@@ -1,0 +1,47 @@
+{
+  "page_id": "AC-24",
+  "section_header": "AIR CONDITIONING SYSTEM – Compressor",
+  "title": "REMOVAL OF COMPRESSOR",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing air conditioning compressor assembly components including drive belt, idle pulley, compressor mount, and compressor unit",
+      "labels": [
+        "Drive Belt",
+        "Idle Pulley",
+        "Compressor Mount",
+        "Compressor"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 90,
+        "height": 55
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Compressor components",
+      "value": "280 [20, 27]",
+      "note": "kg-cm [ft-lb, N·m] : Specified torque"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF COMPRESSOR"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "RUN ENGINE AT IDLE WITH AIR CONDITIONING ON FOR 10 MINUTES",
+        "DISCONNECT NEGATIVE CABLE FROM BATTERY",
+        "DISCONNECT CLUTCH LEAD WIRE FROM WIRING HARNESS",
+        "DISCHARGE REFRIGERANT FROM REFRIGERATION SYSTEM (See page AC-12)",
+        "DISCONNECT TWO FLEXIBLE HOSES FROM COMPRESSOR SERVICE VALVES\nCap the open fitting immediately to keep moisture out of the system.",
+        "REMOVE COMPRESSOR\n(a) Loosen the drive belt.\n(b) Remove the compressor mounting bolts and the compressor."
+      ]
+    }
+  ]
+}

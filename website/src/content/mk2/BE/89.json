@@ -1,0 +1,56 @@
+{
+  "page_id": "BE-89",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "Troubleshooting",
+  "content": [
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Check that the operation of other systems (Door Lock Control, Open Door Warning ... etc.) are normal.",
+        "When the system is not operating, lower the door glass and confirm under what conditions it does not operate, or malfunctions."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Problem",
+        "Section"
+      ],
+      "rows": [
+        [
+          "Theft deterrent system can not be set.",
+          "A"
+        ],
+        [
+          "Theft deterrent system does not operate when LH door opened.",
+          "B"
+        ],
+        [
+          "Theft deterrent system does not operate when RH door opened.",
+          "C"
+        ],
+        [
+          "Theft deterrent system does not cancel when ignition switch turned on or ACC position.",
+          "D"
+        ],
+        [
+          "Theft deterrent system does not cancel when LH door unlocked with key.",
+          "E"
+        ],
+        [
+          "Theft deterrent system does not cancel when RH door unlocked with key.",
+          "F"
+        ],
+        [
+          "Horn does not blow even if theft deterrent system operated.",
+          "G"
+        ],
+        [
+          "Headlights and taillights do not flash even if theft deterrent system operated.",
+          "H"
+        ]
+      ]
+    }
+  ]
+}

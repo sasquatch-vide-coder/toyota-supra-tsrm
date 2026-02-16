@@ -1,0 +1,157 @@
+{
+  "page_id": "BE-66",
+  "section_header": "BODY ELECTRICAL SYSTEM — Power Window",
+  "title": "Power Main Relay and Power Window Motor",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Power Main Relay"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF POWER MAIN RELAY"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Power main relay diagram showing continuity test between terminals 1 and 3, with no continuity between terminals 2 and 4",
+      "labels": [
+        "No continuity",
+        "Continuity",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "heading": "INSPECT RELAY CONTINUITY",
+          "text": "Inspect that there is continuity between terminals 1 and 3. Inspect that there is no continuity between terminals 2 and 4."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Power main relay diagram showing continuity test between terminals 2 and 4 with battery voltage applied between terminals 1 and 3",
+      "labels": [
+        "Continuity",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        {
+          "heading": "INSPECT RELAY OPERATION",
+          "text": "Inspect the continuity between terminals 2 and 4 with battery voltage applied between terminals 1 and 3.\n\nIf continuity is not as specified, replace the relay."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Power Window Motor"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF POWER WINDOW MOTOR"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Sequential diagram showing power window operation test with switch at UP position and circuit breaker operation within 4 to 40 seconds",
+      "labels": [
+        "Within 4 to 40 seconds"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 2,
+        "width": 36,
+        "height": 37
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "heading": "INSPECT CIRCUIT BREAKER OPERATION",
+          "subitems": [
+            {
+              "label": "(a)",
+              "text": "With the window in the full closed position, hold the power window switch at \"UP\" and check that there is a circuit breaker operation noise within 4 to 40 seconds."
+            },
+            {
+              "label": "(b)",
+              "text": "With the window in the fully closed position, hold the switch at \"DOWN\" and check that the window begins to descend within 60 seconds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Power window motor terminal diagram showing terminal positions 1 and 2",
+      "labels": [
+        "1",
+        "2"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        {
+          "heading": "INSPECT MOTOR OPERATION",
+          "subitems": [
+            {
+              "label": "(a)",
+              "text": "Connect the positive (+) lead from the battery to terminal 1 and connect the negative (−) lead to the terminal 2, and check that the motor turns clockwise."
+            },
+            {
+              "label": "(b)",
+              "text": "Connect the positive (+) lead from the battery to terminal 2 and connect the negative (−) lead to the terminal 1, and check that the motor turns counter-clockwise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the motor."
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "page_id": "BE-68",
+  "section_header": "BODY ELECTRICAL SYSTEM — Door Lock Control System",
+  "title": "Door Lock Control Relay",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Door Lock Control Relay"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF DOOR LOCK CONTROL RELAY"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT DOOR LOCK CONTROL RELAY CIRCUIT"
+    },
+    {
+      "type": "text",
+      "text": "Disconnect the relay and inspect the connector on wire harness side as shown in the chart below."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Door lock control relay connector diagram showing terminal layout with numbered pins 1-13",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "table",
+      "caption": "Door Lock Control Relay Circuit Test",
+      "headers": [
+        "Terminal",
+        "Check Item",
+        "Tester Connection",
+        "Condition",
+        "Voltage or Continuity"
+      ],
+      "rows": [
+        [
+          "2",
+          "Voltage",
+          "2-Body ground",
+          "",
+          "Battery voltage"
+        ],
+        [
+          "3",
+          "Continuity",
+          "3-4",
+          "",
+          "Continuity"
+        ],
+        [
+          "",
+          "",
+          "",
+          "Turn door lock control switch to LOCK.",
+          "Continuity"
+        ],
+        [
+          "6",
+          "Continuity",
+          "6-Body ground",
+          "Turn door lock control switch to UNLOCK or OFF.",
+          "No continuity"
+        ],
+        [
+          "7",
+          "Continuity",
+          "7-Body ground",
+          "Turn LH key unlock switch on.",
+          "Continuity"
+        ],
+        [
+          "",
+          "",
+          "",
+          "Turn LH key unlock switch off.",
+          "No continuity"
+        ],
+        [
+          "9",
+          "Continuity",
+          "9-Body ground",
+          "LH door lock knob pushed.",
+          "No continuity"
+        ],
+        [
+          "",
+          "",
+          "",
+          "LH door lock knob pulled.",
+          "Continuity"
+        ],
+        [
+          "10",
+          "Continuity",
+          "10-Body ground",
+          "",
+          "Continuity"
+        ],
+        [
+          "11",
+          "Continuity",
+          "11-Body ground",
+          "RH door lock knob pushed.",
+          "No continuity"
+        ],
+        [
+          "",
+          "",
+          "",
+          "RH door lock knob pulled.",
+          "Continuity"
+        ],
+        [
+          "12",
+          "Continuity",
+          "12-Body ground",
+          "Turn unlock warning switch and LH door courtesy switch off.",
+          "Continuity"
+        ],
+        [
+          "",
+          "",
+          "",
+          "Turn unlock warning switch and/or door LH door courtesy switch off.",
+          "No continuity"
+        ],
+        [
+          "13",
+          "Continuity",
+          "13-Body ground",
+          "Turn RH key unlock switch on and/or door lock control switch to UNLOCK.",
+          "Continuity"
+        ],
+        [
+          "",
+          "",
+          "",
+          "Turn RH key unlock switch off and/or door lock control switch to LOCK or OFF.",
+          "No continuity"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If circuit is correct as specified, replace the relay."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Door Lock Solenoid"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF DOOR LOCK SOLENOID"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT SOLENOID OPERATION"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Door lock solenoid wiring diagram showing connector A with terminals A-1, A-3, B-1, and B-2, connected to battery with directional arrows",
+      "labels": [
+        "Connector \"A\"",
+        "A-1",
+        "A-3",
+        "B-1",
+        "B-2"
+      ],
+      "bbox": {
+        "top": 63,
+        "left": 4,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Door lock solenoid alternate wiring diagram showing connector A with terminals 2, A-1, A-3, B-1, and B-2, connected to battery",
+      "labels": [
+        "Connector \"A\"",
+        "2",
+        "A-1",
+        "A-3",
+        "B-1",
+        "B-2"
+      ],
+      "bbox": {
+        "top": 79,
+        "left": 4,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "(a) Connect the positive (+) lead from the battery to terminal A-1. Connect the negative (−) lead to terminal A-3. Check that the solenoid operates locks direction.",
+        "(b) Check that there is no continuity between terminals B-1 and B-2.",
+        "(c) Connect the positive (+) lead from the battery to terminal 2. Connect the negative (−) lead to terminal A-3. Check that the solenoid operates locks direction.",
+        "(d) Check that there is continuity between terminals B-1 and B-2."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If there is no solenoid operation, replace the solenoid."
+    }
+  ]
+}

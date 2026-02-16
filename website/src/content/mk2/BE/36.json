@@ -1,0 +1,124 @@
+{
+  "page_id": "BE-36",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "Troubleshooting",
+  "subtitle": "WIRING DIAGRAM",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Complete wiring diagram showing connections between ignition switch, fuel sender gauge, speedometer, various sensors, combination meter, and other electrical components. Diagram includes cruise control, igniter, battery, fusible link, water temperature sender gauge, speed scale change switch, speed counter (speed sensor), and connections to various display elements.",
+      "bbox": {
+        "top": 12,
+        "left": 3,
+        "width": 94,
+        "height": 56
+      },
+      "labels": [
+        "To Cruise Control and Computer",
+        "To Igniter",
+        "Fuel Sender Gauge",
+        "Ignition Switch",
+        "Light Switch",
+        "Rheostat",
+        "Fusible Link",
+        "Battery",
+        "Speedometer 17 Terminal Connector",
+        "Combination Meter",
+        "8-terminal Connector",
+        "Fuel Warning",
+        "Oil/Seat Warning",
+        "Digital panel Temp. Gauge",
+        "Water Temp. Sender Gauge",
+        "Speed Scale Change Switch",
+        "Speed Counter (Speed Sensor)",
+        "Fuel Scale Change",
+        "Fuel EXP GND",
+        "6-terminal Connector",
+        "Door Disconnect Element"
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Wire and Signal Abbreviations",
+      "headers": [
+        "Abbreviation",
+        "Description"
+      ],
+      "rows": [
+        [
+          "Dim",
+          "Dim signal"
+        ],
+        [
+          "E ①",
+          "Body ground of power source"
+        ],
+        [
+          "E ②",
+          "Signal ground"
+        ],
+        [
+          "EXP",
+          "Magnifier signal"
+        ],
+        [
+          "4P",
+          "4-pulse signal"
+        ],
+        [
+          "FR",
+          "Remaining fuel quantity signal"
+        ],
+        [
+          "FV",
+          "Power source of fuel sender gauge"
+        ],
+        [
+          "GND",
+          "Circuit ground"
+        ],
+        [
+          "IG ①",
+          "Power source"
+        ],
+        [
+          "IG ②",
+          "RPM signal"
+        ],
+        [
+          "KMSW",
+          "Conversion signal"
+        ],
+        [
+          "SI",
+          "Speed sensor signal (20 pulse)"
+        ],
+        [
+          "ST",
+          "Starting signal"
+        ],
+        [
+          "TACHO SI",
+          "Wave form rectification signal of IG ②"
+        ],
+        [
+          "TEMP",
+          "TEMP signal"
+        ],
+        [
+          "TC",
+          "Dim restriction signal"
+        ],
+        [
+          "TR",
+          "Dim signal"
+        ],
+        [
+          "VDD",
+          "Power source of receiver gauge"
+        ]
+      ]
+    }
+  ]
+}

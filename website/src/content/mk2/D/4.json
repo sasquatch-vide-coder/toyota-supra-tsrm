@@ -1,0 +1,39 @@
+{
+  "page_id": "D-4",
+  "section_header": "AUTOMATIC TRANSMISSION SECOND GEAR CIRCUIT LOCK-UP OFF",
+  "title": "AUTOMATIC TRANSMISSION SECOND GEAR CIRCUIT LOCK-UP OFF",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wiring diagram showing automatic transmission second gear circuit with lock-up off. The diagram displays various electrical connections, relays, solenoids, and components related to the automatic transmission control system. The wiring uses different colors indicated by red, black, yellow, and white lines throughout the schematic. Multiple transmission-related components are shown including shift solenoids, lock-up solenoids, pressure switches, and control modules.",
+      "labels": [
+        "Transmission Control Module",
+        "Shift Solenoid",
+        "Lock-up Solenoid",
+        "Pressure Switch",
+        "Second Gear Circuit",
+        "Control Relay",
+        "Battery Power",
+        "Ground",
+        "Connectors"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 10,
+        "width": 85,
+        "height": 88
+      }
+    },
+    {
+      "type": "text",
+      "text": "Color coding legend visible in top left corner showing connection types",
+      "bbox": {
+        "top": 15,
+        "left": 12,
+        "width": 8,
+        "height": 5
+      }
+    }
+  ]
+}

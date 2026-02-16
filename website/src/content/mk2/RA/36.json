@@ -1,0 +1,183 @@
+{
+  "page_id": "RA-36",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing installation of side gear shaft using a plastic hammer",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "reference": "RA0028"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "number": "17.",
+          "heading": "INSTALL SIDE GEAR SHAFT",
+          "steps": [
+            {
+              "label": "(a)",
+              "text": "Before installing the shaft, replace the snap ring."
+            },
+            {
+              "label": "(b)",
+              "text": "Using a plastic hammer, drive in the side gear shaft until it contacts the pinion shaft."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: As the LSD cannot be checked visually, check that the shaft is fully inserted by confirming the sound it makes when it is tapped."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing measurement of side gear shaft runout using a dial indicator",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      },
+      "reference": "RA0029"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "number": "18.",
+          "heading": "MEASURE SIDE GEAR SHAFT RUNOUT",
+          "text": "Maximum runout: 0.20 mm (0.0079 in.)\nIf the runout is greater than the maximum, replace the side gear shaft."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "number": "19.",
+          "heading": "INSTALL DIFFERENTIAL CARRIER COVER",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSTALLATION OF DIFFERENTIAL"
+    },
+    {
+      "type": "text",
+      "text": "(See page RA-20)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation of differential assembly with jack support and carrier bolt installation",
+      "labels": [],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "heading": "INSTALL DIFFERENTIAL",
+          "text": "Support the differential with a jack and install the carrier bolt."
+        }
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Carrier bolt",
+      "value": "850 kg-cm (61 ft-lb, 83 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "2.",
+          "heading": "INSTALL DIFFERENTIAL SUPPORT MEMBER MOUNTING BOLT NO. 1 (See page RA-55)",
+          "text": "Lower the differential and remove the jack."
+        }
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Differential support member mounting bolt No. 1",
+      "value": "850 kg-cm (61 ft-lb, 83 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "3.",
+          "heading": "CONNECT PROPELLER SHAFT FLANGE FROM COMPANION FLANGE",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "4.",
+          "heading": "CONNECT DRIVE SHAFT",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Drive shaft",
+      "value": "700 kg-cm (51 ft-lb, 69 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Cross-section diagram of differential showing drain plug location and internal components",
+      "labels": [],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 38,
+        "height": 17
+      },
+      "reference": "Z0137"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "5.",
+          "heading": "INSTALL DRAIN PLUG AND FILL DIFFERENTIAL WITH GEAR OIL",
+          "text": "Hypoid gear oil: w/LSD use LSD oil only\nSAE 90 above — 18°C (0°F)\nSAE 80W or 80W — 90\nat temperature below — 18°C (0°F)\nCapacity: 1.2 liters (1.3 US qts, 1.1 Imp. qts)\nInstall a filler plug."
+        }
+      ]
+    }
+  ]
+}

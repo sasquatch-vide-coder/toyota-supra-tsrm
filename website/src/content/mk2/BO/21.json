@@ -1,0 +1,102 @@
+{
+  "page_id": "BO-21",
+  "section_header": "BODY — Windshield",
+  "title": "COMPONENTS and REMOVAL OF WINDSHIELD",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "COMPONENTS"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing all windshield components and their assembly relationship",
+      "labels": [
+        "Windshield Glass",
+        "Upper Moulding",
+        "Joint Cover",
+        "Lower Moulding",
+        "Side Moulding",
+        "Roof Headliner Front Trim",
+        "Front Pillar Garnish",
+        "Spacer",
+        "Wiper Arm",
+        "Inner Rear View Mirror"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 96,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF WINDSHIELD"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": "1",
+          "title": "REMOVE FRONT PILLAR GARNISH",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Pry out the clips with a screwdriver.",
+              "diagram": {
+                "index": 2,
+                "description": "Illustration showing prying out clips from front pillar garnish with screwdriver, includes detail inset of clip",
+                "bbox": {
+                  "top": 35,
+                  "left": 2,
+                  "width": 38,
+                  "height": 20
+                }
+              }
+            },
+            {
+              "label": "(b)",
+              "text": "Pull the garnish upward to remove it.",
+              "diagram": {
+                "index": 3,
+                "description": "Illustration showing pulling garnish upward for removal, includes detail inset showing upward arrow direction",
+                "bbox": {
+                  "top": 52,
+                  "left": 2,
+                  "width": 38,
+                  "height": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "step": "2",
+          "title": "REMOVE FOLLOWING PARTS:",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Inner rear view mirror"
+            },
+            {
+              "label": "(b)",
+              "text": "Roof headliner front trim"
+            }
+          ]
+        },
+        {
+          "step": "3",
+          "text": "REMOVE WIPER ARM"
+        },
+        {
+          "step": "4",
+          "text": "REMOVE WINDSHIELD MOULDING (See page BO-12)"
+        }
+      ]
+    }
+  ]
+}

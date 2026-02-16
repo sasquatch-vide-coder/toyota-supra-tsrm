@@ -1,0 +1,68 @@
+{
+  "page_id": "BE-92",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "CONTINUED FROM PREVIOUS PAGE",
+  "content": [
+    {
+      "type": "text",
+      "text": "CONTINUED FROM PREVIOUS PAGE"
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for theft deterrent system showing inspection steps for door lock solenoids, switches, and horn/taillight/headlight circuits with Yes/No decision paths",
+      "bbox": {
+        "top": 10,
+        "left": 5,
+        "width": 90,
+        "height": 85
+      },
+      "steps": [
+        {
+          "type": "inspection",
+          "title": "INSPECT LH DOOR LOCK SOLENOID CIRCUIT",
+          "instruction": "Disconnect connector from computer.\nIs there continuity between terminal 1 of wire harness side connector and body ground with LH door unlocked?",
+          "no_result": "Open circuit in wire harness between terminal 1 of computer and terminal 2 of door lock solenoid.",
+          "yes_result": "Continue to next step"
+        },
+        {
+          "type": "inspection",
+          "title": "INSPECT RH DOOR LOCK SOLENOID CIRCUIT",
+          "instruction": "Disconnect connector from computer.\nIs there continuity between terminal 2 of wire harness side connector and body ground with RH door unlocked?",
+          "no_result": "Open circuit in wire harness between terminal 2 of computer and terminal 2 of door lock solenoid.",
+          "yes_result": "Continue to next step"
+        },
+        {
+          "type": "inspection",
+          "title": "INSPECT LH DOOR LOCK SWITCH CIRCUIT",
+          "instruction": "Close LH Door.\nIs there continuity between terminal 6 and body ground with LH door closed?",
+          "yes_result": "Short circuit in wire harness between terminal 6 of computer and terminal 2 of LH door lock switch.",
+          "no_result": "Continue to next step"
+        },
+        {
+          "type": "inspection",
+          "title": "INSPECT RH DOOR LOCK SWITCH CIRCUIT",
+          "instruction": "Close RH door.\nIs there continuity between terminal 6 and body ground with RH door closed?",
+          "yes_result": "Short circuit in wire harness between terminal 6 of computer and terminal 2 of RH door lock switch.",
+          "no_result": "Continue to next step"
+        },
+        {
+          "type": "inspection",
+          "title": "INSPECT HORN, TAILLIGHT AND HEADLIGHT CIRCUIT",
+          "instruction": "Is there battery voltage between terminal 12 and body ground.",
+          "no_result": "Open circuit in wire harness between terminal 12 of computer and horn or taillight control relay or headlight control relay.",
+          "yes_result": "Replace computer."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Replace computer.",
+      "bbox": {
+        "top": 82,
+        "left": 15,
+        "width": 15,
+        "height": 3
+      }
+    }
+  ]
+}

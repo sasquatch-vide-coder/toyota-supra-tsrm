@@ -1,0 +1,55 @@
+{
+  "page_id": "BE-97",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "INSPECTION OF LIGHT CONTROL RELAY CIRCUIT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF LIGHT CONTROL RELAY CIRCUIT"
+    },
+    {
+      "type": "instruction",
+      "text": "Turn ignition switch off."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DIODE"
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for inspecting light control relay circuit, starting with diode inspection, then computer inspection, followed by headlight control relay circuit and taillight control relay circuit checks",
+      "bbox": {
+        "top": 15,
+        "left": 3,
+        "width": 94,
+        "height": 82
+      },
+      "steps": [
+        {
+          "type": "decision",
+          "text": "INSPECT DIODE CONTINUITY\nIs diode of headlight control relay side and/or taillight control relay side normal?\n(See page BE-14)",
+          "yes_path": "COMPUTER",
+          "no_path": "Replace diode."
+        },
+        {
+          "type": "instruction",
+          "text": "COMPUTER\nDisconnect computer and inspect connector on wire harness side as follows."
+        },
+        {
+          "type": "decision",
+          "text": "INSPECT HEADLIGHT CONTROL RELAY CIRCUIT\nDisconnect taillight control relay and theft deterrent horn.\nIs there battery voltage between terminal 12 and body ground?",
+          "yes_path": "Continue to next step",
+          "no_path": "Open or short circuit in wire harness between terminal 12 of computer and terminal 1 of headlight control relay."
+        },
+        {
+          "type": "decision",
+          "text": "INSPECT TAILLIGHT CONTROL RELAY CIRCUIT\nDisconnect headlight control relay and theft deterrent horn.\nIs there battery voltage between terminal 12 and body ground?",
+          "yes_path": "Replace computer.",
+          "no_path": "Open or short circuit in wire harness between terminal 12 of computer and terminal 1 of taillight control relay."
+        }
+      ]
+    }
+  ]
+}

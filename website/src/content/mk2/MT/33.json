@@ -1,0 +1,44 @@
+{
+  "page_id": "MT-33",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": null,
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "37. INSTALL SPEEDOMETER DRIVEN GEAR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the speedometer driven gear.",
+        "(b) Install the bolt with lock plate.",
+        "(c) Torque the bolt."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Speedometer driven gear bolt",
+      "value": "130 kg-cm (9 ft-lb, 13 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "38. INSTALL BACK-UP LIGHT SWITCH"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install and torque the back-up light switch.",
+        "(b) Install the wire clamp."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Back-up light switch",
+      "value": "410 kg-cm (30 ft-lb, 40 N·m)"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "page_id": "AT-45",
+  "section_header": "AUTOMATIC TRANSMISSION — Disassembly of Transmission",
+  "title": "DISASSEMBLY OF TRANSMISSION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "SEPARATE BASIC SUBASSEMBLY"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the removal of speedometer driven gear from transmission case",
+      "labels": [
+        "C4141"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE SPEEDOMETER DRIVEN GEAR"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the location and removal of speed sensor from transmission case",
+      "labels": [
+        "C41A3"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE SPEED SENSOR",
+        "(a) Disconnect the wiring connector.",
+        "(b) Remove the speed sensor."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the removal of shift handle and neutral start switch",
+      "labels": [
+        "C4128 C4139"
+      ],
+      "bbox": {
+        "top": 41,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE SHIFT HANDLE",
+        "REMOVE NEUTRAL START SWITCH"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing the oil pump removal with SST tool positioned on shaft",
+      "labels": [
+        "SST",
+        "C4144"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE OIL PUMP",
+        "(a) Remove the seven bolts.",
+        "(b) Position SST on the shaft in back of the spline."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09610-20012",
+      "description": ""
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Do not damage the shaft bushing surface. Turn the end bolt of SST to free the pump."
+    },
+    {
+      "type": "text",
+      "text": "(c) Grasp the front pump stator shaft and pull the pump from the case."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing inspection for bearing behind the oil pump",
+      "labels": [
+        "C4403"
+      ],
+      "bbox": {
+        "top": 77,
+        "left": 2,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "WATCH FOR BEARING BEHIND OIL PUMP"
+      ]
+    }
+  ]
+}

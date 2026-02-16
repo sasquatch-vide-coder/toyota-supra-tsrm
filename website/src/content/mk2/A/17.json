@@ -1,0 +1,370 @@
+{
+  "page_id": "A-17",
+  "section_header": "SERVICE SPECIFICATIONS – Automatic Transmission",
+  "title": "Specifications (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Valve body spring specifications",
+      "headers": [
+        "Valve body spring mm (in.)",
+        "",
+        "Free length",
+        "Coil outer diameter",
+        "No. Coils",
+        "Wire diameter",
+        "Color"
+      ],
+      "rows": [
+        [
+          "Lower valve body",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Lock-up relay valve",
+          "32.60 (1.2835)",
+          "11.30 (0.4449)",
+          "8.5",
+          "1.00 (0.0394)",
+          "Green"
+        ],
+        [
+          "",
+          "Pressure relief valve",
+          "32.14 (1.2654)",
+          "13.14 (0.5173)",
+          "9",
+          "2.03 (0.0799)",
+          "None"
+        ],
+        [
+          "",
+          "Primary regulator valve",
+          "58.20 (2.2165)",
+          "17.20 (0.6772)",
+          "13",
+          "1.80 (0.0709)",
+          "Blue"
+        ],
+        [
+          "",
+          "Low coast modulator valve",
+          "42.35 (1.6673)",
+          "10.00 (0.3937)",
+          "15",
+          "0.84 (0.0331)",
+          "None"
+        ],
+        [
+          "",
+          "Intermediate modulator valve",
+          "35.43 (1.3949)",
+          "10.00 (0.3937)",
+          "14",
+          "0.89 (0.0350)",
+          "Red"
+        ],
+        [
+          "",
+          "Oil cooler by-pass valve",
+          "33.32 (1.3118)",
+          "13.82 (0.5441)",
+          "7",
+          "1.32 (0.0520)",
+          "Yellow"
+        ],
+        [
+          "Upper rear valve body",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1-2 shift valve",
+          "29.15 (1.1476)",
+          "8.90 (0.3504)",
+          "10.0",
+          "0.90 (0.0354)",
+          "Blue"
+        ],
+        [
+          "",
+          "2-3 shift valve",
+          "29.15 (1.1476)",
+          "8.90 (0.3504)",
+          "10.0",
+          "0.90 (0.0354)",
+          "Blue"
+        ],
+        [
+          "",
+          "3-4 shift valve",
+          "29.15 (1.1476)",
+          "8.90 (0.3504)",
+          "10.0",
+          "0.90 (0.0354)",
+          "Blue"
+        ],
+        [
+          "",
+          "Reverse clutch sequence valve",
+          "37.55 (1.4783)",
+          "10.00 (0.3937)",
+          "14.5",
+          "1.17 (0.0461)",
+          "None"
+        ],
+        [
+          "Upper front valve body",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Throttle valve",
+          "19.24 (0.7575)",
+          "8.58 (0.3378)",
+          "8",
+          "0.71 (0.0280)",
+          "None"
+        ],
+        [
+          "",
+          "Down shift plug",
+          "39.65 (1.5571)",
+          "10.90 (0.4291)",
+          "9.4",
+          "1.20 (0.0472)",
+          "Green"
+        ],
+        [
+          "",
+          "Secondary regulator valve",
+          "71.27 (2.8059)",
+          "17.43 (0.6862)",
+          "15",
+          "1.93 (0.0760)",
+          "Green"
+        ],
+        [
+          "",
+          "Cut-back valve",
+          "23.00 (0.9055)",
+          "6.85 (0.2697)",
+          "10.5",
+          "0.65 (0.0256)",
+          "Green"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Clutch piston return spring specifications",
+      "headers": [
+        "Clutch piston return spring (C₀, C₁, C₂)",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Free length",
+          "15.1 mm",
+          "0.594 in."
+        ],
+        [
+          "",
+          "Coil outer diameter",
+          "8.0 mm",
+          "0.315 in."
+        ],
+        [
+          "",
+          "No. of coils",
+          "5.5",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Clutch and brake piston return spring specifications",
+      "headers": [
+        "Clutch and brake piston return spring (B₀, B₁, B₂, B₃)",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Free length",
+          "16.12 mm",
+          "0.6346 in."
+        ],
+        [
+          "",
+          "Coil outer diameter",
+          "8.0 mm",
+          "0.315 in."
+        ],
+        [
+          "",
+          "No. of coil",
+          "6",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Oil pump clearances",
+      "headers": [
+        "Oil pump",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Side clearance",
+          "STD",
+          "0.02 – 0.05 mm",
+          "0.0008 – 0.0020 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "0.1 mm",
+          "0.004 in."
+        ],
+        [
+          "",
+          "Body clearance",
+          "STD",
+          "0.07 – 0.15 mm",
+          "0.0028 – 0.0059 in."
+        ],
+        [
+          "",
+          "",
+          "Limit",
+          "0.3 mm",
+          "0.012 in."
+        ],
+        [
+          "",
+          "Tip clearance",
+          "Driven gear",
+          "STD",
+          "0.11 – 0.14 mm",
+          "0.0043 – 0.0055 in."
+        ],
+        [
+          "",
+          "",
+          "",
+          "Limit",
+          "0.3 mm",
+          "0.012 in."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Clutch piston stroke",
+      "headers": [
+        "Clutch piston stroke",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Front clutch (C₁)",
+          "1.40 – 2.24 mm",
+          "0.0551 – 0.0882 in."
+        ],
+        [
+          "",
+          "Rear clutch (C₂)",
+          "0.90 – 1.75 mm",
+          "0.0354 – 0.0689 in."
+        ],
+        [
+          "",
+          "OD direct clutch (C₀)",
+          "1.77 – 2.58 mm",
+          "0.0697 – 0.1016 in."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Brake piston stroke",
+      "headers": [
+        "Brake piston stroke",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "No. 1 brake (B₁)",
+          "0.80 – 1.73 mm",
+          "0.0315 – 0.0681 in."
+        ],
+        [
+          "",
+          "No. 2 brake (B₂)",
+          "1.01 – 2.25 mm",
+          "0.0398 – 0.0886 in."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Brake piston clearance",
+      "headers": [
+        "Brake piston clearance",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "No. 3 brake (B₃)",
+          "0.61 – 2.64 mm",
+          "0.0240 – 0.1039 in."
+        ],
+        [
+          "",
+          "OD brake (B₀)",
+          "0.40 – 1.38 mm",
+          "0.0157 – 0.0543 in."
+        ]
+      ]
+    }
+  ]
+}

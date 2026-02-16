@@ -1,0 +1,161 @@
+{
+  "page_id": "BO-24",
+  "section_header": "BODY — Windshield",
+  "title": "WINDSHIELD INSTALLATION PROCEDURE",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing application of Primer M to the body contact surface around windshield opening using an applicator bottle",
+      "labels": [
+        "Primer M"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. COAT CONTACT SURFACE OF BODY WITH PRIMER \"M\""
+    },
+    {
+      "type": "text",
+      "text": "Using a brush, coat the contact surface of the body with Primer M."
+    },
+    {
+      "type": "caution",
+      "text": "Let the primer coating dry for 10 minutes or more. Make sure that the installation of the glass is finished within 2 hours.\n● Use care not to leave any part of the coated surface uncoated or excessively coated, as Primer M and G serve to boost the adhesive power of urethane to glass or body.\n● Do not keep any of the opened Primer M and G for later use."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing application of Primer G to the edge and contact surface of the windshield glass using an applicator",
+      "labels": [
+        "Primer G"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. COAT CONTACT SURFACE OF GLASS WITH PRIMER \"G\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a brush or sponge, coat the edge of the glass and the contact surface with Primer G.",
+        "(b) Before the primer dries, wipe any excess off with a clean cloth to avoid too thick a coat."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands mixing adhesive coating by thoroughly cleaning a glass plate or putty spatula with solvent",
+      "labels": [],
+      "bbox": {
+        "top": 44,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. MIX ADHESIVE COATING"
+    },
+    {
+      "type": "caution",
+      "text": "Be sure that installation of the glass is finished within usable time. (See step 2 on page BO-22)\n● Mixture should be made in 5 minutes or less."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Thoroughly clean a glass plate or such and putty spatula with solvent.",
+        "(b) Thoroughly mix the main agent 500g (17.64 oz.) and hardening 75g (2.65 oz.) on the glass plate or such with a putty spatula."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing hands applying adhesive from a cartridge gun with measurements indicating proper bead height and width",
+      "labels": [
+        "3.5 – 5.0 mm",
+        "8 mm",
+        "Adhesive"
+      ],
+      "bbox": {
+        "top": 63,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. APPLY ADHESIVE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Cut off the tip of the cartridge nozzle to make a hole 5 mm (0.20 in.) in diameter. Fill the cartridge with adhesive.",
+        "(b) Load the cartridge into the sealer gun.",
+        "(c) Coat the glass with adhesive on all contact surfaces along the ridge."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Adhesive height:"
+    },
+    {
+      "type": "text",
+      "text": "Adhesive remains on body: 3.5 – 5.0 mm\n(0.138 – 0.197 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If no adhesive remains on body: 8 – 10 mm\n(0.31 – 0.40 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing installation of windshield glass with reference marks aligned and using a spatula to apply and remove excess adhesive on the glass rim",
+      "labels": [
+        "Glass Rim"
+      ],
+      "bbox": {
+        "top": 82,
+        "left": 2,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. INSTALL GLASS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Position the glass so that reference marks are lined up and press in gently along the rim.",
+        "(b) Using a spatula, apply adhesive on the glass rim.",
+        "(c) Use a spatula to remove any excess or protruding adhesive.",
+        "(d) Fasten glass securely until the adhesive sets."
+      ]
+    }
+  ]
+}

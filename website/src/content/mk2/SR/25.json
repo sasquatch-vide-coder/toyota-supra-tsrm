@@ -1,0 +1,105 @@
+{
+  "page_id": "SR-25",
+  "section_header": "STEERING — Power Steering",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing a power steering pump assembly with reservoir tank mounted on top, being held or worked on with a hand tool near the rear housing area",
+      "labels": [
+        "SBR23"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 38,
+        "height": 38
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. TIGHTEN FOUR HOUSING BOLTS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Clamp the rear housing in a vise."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Do not tighten the vise too tight."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Tighten the four housing bolts evenly in 3 or 4 passes."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Four housing bolts",
+      "value": "475 kg-cm (34 ft-lb, 47 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the power steering pump assembly with reservoir tank, with a hand tool working on the lower portion of the assembly near the mounting area",
+      "labels": [
+        "SBR24"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 2,
+        "width": 38,
+        "height": 38
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "15. INSTALL RESERVOIR TANK"
+    },
+    {
+      "type": "text",
+      "text": "Install and torque the bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Reservoir tank bolts",
+      "value": "130 kg-cm (9 ft-lb, 13 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "16. CHECK ROTOR SHAFT ROTATION CONDITION"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that the rotor shaft rotates smoothly without abnormal noise.",
+        "(b) Provisionally install the pulley nut and check the rotating torque."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Rotor shaft rotating torque",
+      "value": "Less than 2.8 kg-cm (2.4 in.-lb, 0.3 N-m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "17. INSTALL AIR CONTROL VALVE"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Air control valve",
+      "value": "370 kg-cm (27 ft-lb, 36 N·m)"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "page_id": "SR-13",
+  "section_header": "STEERING — Power Steering",
+  "title": "POWER STEERING On-Vehicle Inspection",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "POWER STEERING"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "On-Vehicle Inspection"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CHECKING DRIVE BELT TENSION"
+    },
+    {
+      "type": "text",
+      "text": "Using a belt tension gauge, check the drive belt tension."
+    },
+    {
+      "type": "text",
+      "text": "Belt tension gauge:"
+    },
+    {
+      "type": "part_number",
+      "label": "Nippondenso BTG-20",
+      "number": "95506-00020",
+      "description": "or Borroughs No. BT-33-73F"
+    },
+    {
+      "type": "table",
+      "caption": "Drive belt tension:",
+      "headers": [
+        "Condition",
+        "Tension"
+      ],
+      "rows": [
+        [
+          "New belt",
+          "125 ± 25 lb"
+        ],
+        [
+          "Used belt",
+          "80 ± 20 lb"
+        ]
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "\"New belt\" refers to a brand new belt which has never before been used."
+    },
+    {
+      "type": "notice",
+      "text": "\"Used belt\" refers to a belt which has been used on a running engine for 5 minutes or more."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Power steering pump with belt and reservoir tank location shown",
+      "labels": [],
+      "bbox": {
+        "top": 2,
+        "left": 7,
+        "width": 31,
+        "height": 18
+      },
+      "reference": "88504"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Belt tension gauge tools - Nippondenso and Borroughs models shown",
+      "labels": [
+        "Nippondenso",
+        "Borroughs"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 7,
+        "width": 31,
+        "height": 18
+      },
+      "reference": "EG003 EG004 EG051"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "FLUID LEVEL CHECK"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "KEEP VEHICLE LEVEL",
+        "BOOST FLUID TEMPERATURE\nWith the engine idling at 1,000 rpm or less, turn the steering wheel from lock to lock several times to boost the fluid temperature.\nFluid temperature:   80°C (176°F)",
+        "CHECK FOR FOAMING OR EMULSIFICATION\nNOTE:   Foaming and emulsification indicates the presence of air in the system or that the fluid level is too low.",
+        "CHECK FLUID LEVEL IN RESERVOIR TANK\nCheck the fluid level and add fluid if necessary.\nFluid:   ATF DEXRON® or DEXRON® II\nNOTE:   Check that the fluid level is within the HOT LEVEL of the dipstick. If the fluid is cold, check that it is within the COLD LEVEL of the dipstick."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Gauges showing 1,000 rpm and 80°C oil temperature with steering wheel illustration",
+      "labels": [
+        "1,000",
+        "80°C",
+        "rpm",
+        "Oil Temp."
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 7,
+        "width": 31,
+        "height": 21
+      },
+      "reference": "82353"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hand pouring fluid into reservoir tank from container",
+      "labels": [],
+      "bbox": {
+        "top": 62,
+        "left": 7,
+        "width": 31,
+        "height": 18
+      },
+      "reference": "81304"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CHECK IDLE-UP"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "WARM UP ENGINE",
+        "TURN AIR CONDITIONER SWITCH OFF",
+        "CHECK IDLE-UP\n(a)   Fully turn the steering wheel.\n(b)   Check that the engine rpm is decrease when the air control valve hose is pinched.\n(c)   Check that the engine rpm is increase when the air"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "control valve hose is released."
+    }
+  ]
+}

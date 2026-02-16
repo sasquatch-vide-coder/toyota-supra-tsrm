@@ -1,0 +1,122 @@
+{
+  "page_id": "AC-8",
+  "section_header": "AIR CONDITIONING SYSTEM — Troubleshooting, Special Tools and Test Equipment",
+  "title": "INSUFFICIENT COMPRESSION / SPECIAL TOOLS AND TEST EQUIPMENT",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Manifold gauge set showing two pressure gauges (LO and HI) with connecting hoses and valves",
+      "labels": [
+        "LO",
+        "HI"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      },
+      "reference": "AC0151"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. INSUFFICIENT COMPRESSION"
+    },
+    {
+      "type": "text",
+      "text": "Condition: Does not cool"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Symptom seen in refrigeration system",
+        "Probable cause",
+        "Diagnosis",
+        "Remedy"
+      ],
+      "rows": [
+        [
+          "Pressure too high at low pressure side",
+          "Internal leak in compressor",
+          "Compression defective ↓",
+          "Replace compressor"
+        ],
+        [
+          "Pressure too low at high pressure side",
+          "",
+          "Valves leaking or broken, sliding parts (piston, cylinder, gasket, connecting rod, etc.,.) broken",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "SPECIAL TOOLS AND TEST EQUIPMENT"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Tool",
+        "SST No.",
+        "Use"
+      ],
+      "rows": [
+        [
+          "Manifold gauge set",
+          "07110-78010",
+          "To evacuate and charge system"
+        ],
+        [
+          "Ohmmeter",
+          "",
+          "To check magnetic clutch"
+        ],
+        [
+          "Magnetic clutch tool set",
+          "07110-77011",
+          "Includes the following 8 tools"
+        ],
+        [
+          "Pressure plate remover",
+          "07112-71010",
+          "To remove pressure plate"
+        ],
+        [
+          "Shaft plate remover",
+          "07112-15010",
+          "To remove shaft plate"
+        ],
+        [
+          "Shaft seal remover",
+          "07114-15010",
+          "To remove shaft seal"
+        ],
+        [
+          "Shaft plate installing tool",
+          "07112-25010",
+          "To install shaft plate"
+        ],
+        [
+          "Hexagon wrench set",
+          "07110-61050",
+          "To remove service valves and front housing"
+        ],
+        [
+          "Key press tool",
+          "07114-45010",
+          "To install key"
+        ],
+        [
+          "Snap ring pliers",
+          "07114-84020",
+          "To remove pressure plate"
+        ]
+      ]
+    }
+  ]
+}

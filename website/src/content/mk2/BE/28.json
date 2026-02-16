@@ -1,0 +1,214 @@
+{
+  "page_id": "BE-28",
+  "section_header": "BODY ELECTRICAL SYSTEM — Instruments and Sender Gauges",
+  "title": "Combination Meter and Gauge (Analog Type)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Rear view of combination meter showing connectors and their locations. Shows Connector 'E' (positions 1-2), Connector 'D', Connector 'C' (positions 1-6-4-2), Connector 'B' (positions 1-8-6-5-4-3-2), Connector 'A' (positions 1-7-6-5-4-3-2-1), and multiple mounting points.",
+      "labels": [
+        "Connector 'E'",
+        "Connector 'D'",
+        "Connector 'C'",
+        "Connector 'B'",
+        "Connector 'A'"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 3,
+        "width": 94,
+        "height": 32
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "COMBINATION METER CIRCUIT"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Circuit diagram showing connections from various sensors and components through the combination meter. Shows inputs from Speed Sensor, Tachometer, Voltmeter, Oil Pressure Gauge, Fuel Gauge, Water Temperature Gauge, OD OFF, Fuel Level Warning, Low Oil Pressure Warning, BELTS, CHECK ENGINE, BRAKE, Discharge Warning, Left Turn Signal, Right Turn Signal, NORM (ECT), PWR (ECT), BEAM, DOOR, Illumination, and Digital Clock.",
+      "labels": [
+        "Speed Sensor",
+        "Tachometer",
+        "Voltmeter",
+        "Oil Pressure Gauge",
+        "Fuel Gauge",
+        "Water Temperature Gauge",
+        "OD OFF",
+        "Fuel Level Warning",
+        "Low Oil Pressure Warning",
+        "BELTS",
+        "CHECK ENGINE",
+        "BRAKE",
+        "Discharge Warning",
+        "Left Turn Signal",
+        "Right Turn Signal",
+        "NORM (ECT)",
+        "PWR (ECT)",
+        "BEAM",
+        "DOOR",
+        "Illumination",
+        "Digital Clock"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 3,
+        "width": 40,
+        "height": 53
+      }
+    },
+    {
+      "type": "table",
+      "caption": "COMBINATION METER CIRCUIT",
+      "headers": [
+        "No.",
+        "Wiring Connector Sides"
+      ],
+      "rows": [
+        [
+          "A",
+          "1",
+          "Ground"
+        ],
+        [
+          "",
+          "2",
+          "Parking Brake Switch Terminal 1 and Fluid Level Warning Switch Terminal 5"
+        ],
+        [
+          "",
+          "3",
+          "Door Courtesy Switch"
+        ],
+        [
+          "",
+          "4",
+          "DOME Fuse"
+        ],
+        [
+          "",
+          "5",
+          "GAUGE Fuse"
+        ],
+        [
+          "",
+          "6",
+          "Fuel Level Warning Switch Terminal 1"
+        ],
+        [
+          "",
+          "7",
+          "IGN Fuse"
+        ],
+        [
+          "",
+          "8",
+          "CHARGE Fuse"
+        ],
+        [
+          "B",
+          "2",
+          "TAIL Fuse"
+        ],
+        [
+          "",
+          "3",
+          "Fuel Sender Gauge Terminal 2"
+        ],
+        [
+          "",
+          "4",
+          "Ground"
+        ],
+        [
+          "",
+          "5",
+          "DOME Fuse"
+        ],
+        [
+          "",
+          "6",
+          "CIG Fuse"
+        ],
+        [
+          "",
+          "7",
+          "Light Control Rheostat Terminal 2"
+        ],
+        [
+          "",
+          "8",
+          "Ignition Coil"
+        ],
+        [
+          "",
+          "1",
+          "Turn Signal Switch Terminal 9"
+        ],
+        [
+          "",
+          "2",
+          "Turn Signal Switch Terminal 8"
+        ],
+        [
+          "C",
+          "3",
+          "Dimmer Switch Terminal 5"
+        ],
+        [
+          "",
+          "4",
+          "Ground"
+        ],
+        [
+          "",
+          "5",
+          "OD Relay"
+        ],
+        [
+          "",
+          "6",
+          "Ground"
+        ],
+        [
+          "",
+          "7",
+          "ECU and Cruise Control Computer Terminal 6"
+        ],
+        [
+          "",
+          "8",
+          "Water Temperature Sender Gauge"
+        ],
+        [
+          "D",
+          "1",
+          "Oil Pressure Sender Gauge or Oil Pressure Switch"
+        ],
+        [
+          "",
+          "2",
+          "CPU"
+        ],
+        [
+          "",
+          "3",
+          "Seat Belt Warning Relay"
+        ],
+        [
+          "E",
+          "1",
+          "Pattern Select Switch"
+        ],
+        [
+          "",
+          "2",
+          "Pattern Select Switch"
+        ]
+      ]
+    }
+  ]
+}

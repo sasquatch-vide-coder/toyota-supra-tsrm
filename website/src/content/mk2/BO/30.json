@@ -1,0 +1,72 @@
+{
+  "page_id": "BO-30",
+  "section_header": "BODY — Quarter Window Glass",
+  "title": null,
+  "content": [
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        {
+          "number": "6.",
+          "text": "INSTALL FOLLOWING PARTS:",
+          "subitems": [
+            {
+              "label": "(a)",
+              "text": "Center pillar garnish"
+            },
+            {
+              "label": "(b)",
+              "text": "Corner moulding"
+            },
+            {
+              "label": "(c)",
+              "text": "Quarter window belt moulding"
+            },
+            {
+              "label": "(d)",
+              "text": "Roof drip moulding"
+            },
+            {
+              "label": "(e)",
+              "text": "Joint cover"
+            }
+          ]
+        },
+        {
+          "number": "7.",
+          "text": "INSTALL QUARTER TRIM"
+        },
+        {
+          "number": "8.",
+          "text": "INSTALL REAR SPEAKER AND BRACKET"
+        },
+        {
+          "number": "9.",
+          "text": "INSTALL SIDE GARNISH AND DECK SIDE TRIM"
+        },
+        {
+          "number": "10.",
+          "text": "INSTALL REAR SPEAKER GRILLE"
+        },
+        {
+          "number": "11.",
+          "text": "INSTALL LOWER BACK PANEL COVER"
+        },
+        {
+          "number": "12.",
+          "text": "INSTALL CENTER PILLAR INNER GARNISH"
+        },
+        {
+          "number": "13.",
+          "text": "INSTALL BELT GUIDE"
+        },
+        {
+          "number": "14.",
+          "text": "INSTALL SEAT BELT SHOULDER BELT ANCHOR"
+        }
+      ]
+    }
+  ]
+}

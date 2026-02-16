@@ -1,0 +1,72 @@
+{
+  "page_id": "BE-112",
+  "section_header": "BODY ELECTRICAL SYSTEM — Clock",
+  "title": "BODY ELECTRICAL SYSTEM — Clock",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECT ALLOWABLE ERROR OF CLOCK"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Type",
+        "Allowable Error (per day)"
+      ],
+      "rows": [
+        [
+          "3-hand quartz",
+          "±4.0 seconds"
+        ],
+        [
+          "Digital quartz",
+          "±2.5 seconds"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. ADJUSTMENT OF CLOCK"
+    },
+    {
+      "type": "text",
+      "text": "Adjustment of the quartz clock requires a precise digital counter. Adjustment must be made in a shop specified by the manufacturer."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing battery terminal disconnection and connection sequence, with three clock faces demonstrating the process of disconnecting, connecting, and setting the clock",
+      "labels": [
+        "Disconnect",
+        "Connect",
+        "Clock"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 3,
+        "width": 40,
+        "height": 36
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. STARTING OF CLOCK"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Connect the battery terminal.",
+        "(b) Check the clock to see that it is running, and then set it to the correct time."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Whenever the battery terminal is disconnected, make sure to set the clock to the correct time after reconnecting it."
+    }
+  ]
+}

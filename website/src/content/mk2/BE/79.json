@@ -1,0 +1,69 @@
+{
+  "page_id": "8E-79",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "INSPECTION OF PARKING BRAKE SWITCH / INSPECTION OF CLUTCH SWITCH CIRCUIT",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "E  INSPECTION OF PARKING BRAKE SWITCH"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Flowchart for parking brake switch inspection starting with turning ignition switch on, proceeding through computer inspection with decision point for battery voltage check between terminal 12 and body ground, leading to either computer replacement or open circuit inspection",
+      "labels": [
+        "Turn ignition switch on.",
+        "COMPUTER",
+        "INSPECT PARKING BRAKE SWITCH CIRCUIT",
+        "Disconnect connector from computer.",
+        "Is there battery voltage between terminal 12 of wire harness side connector and body ground ?",
+        "No",
+        "Yes",
+        "Replace computer.",
+        "Open circuit in wire harness between terminal 12 of computer and terminal 1 parking brake switch.",
+        "Inspect parking brake switch."
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 96,
+        "height": 40
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "F  INSPECTION OF CLUTCH SWITCH CIRCUIT"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Flowchart for clutch switch circuit inspection starting with turning ignition switch on, proceeding through ground connection check and clutch switch circuit check with decision points, leading to either computer replacement or open circuit/switch inspection",
+      "labels": [
+        "Turn ignition switch on.",
+        "CLUTCH S/W",
+        "INSPECT GROUND CONNECTION",
+        "Is there continuity between terminal 3 and body ground ?",
+        "No",
+        "Yes",
+        "COMPUTER",
+        "INSPECT CLUTCH SWITCH CIRCUIT",
+        "Disconnect connector from computer.",
+        "Is there continuity between terminal 11 of wire harness side connector and body ground with clutch pedal depressed ?",
+        "No",
+        "Yes",
+        "Replace computer.",
+        "Open circuit in wire harness between terminal 3 and body ground.",
+        "Open circuit in wire harness between terminal 11 of computer and terminal 2 of clutch switch.",
+        "Inspect clutch switch."
+      ],
+      "bbox": {
+        "top": 48,
+        "left": 2,
+        "width": 96,
+        "height": 52
+      }
+    }
+  ]
+}

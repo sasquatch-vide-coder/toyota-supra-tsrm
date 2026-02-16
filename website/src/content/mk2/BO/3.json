@@ -1,0 +1,38 @@
+{
+  "page_id": "BO-3",
+  "section_header": "BODY — Front Door",
+  "title": "FRONT DOOR COMPONENTS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing all components of a front door assembly including the door frame, glass, window regulator mechanism, handles, locks, trim pieces, mirrors, and garnish components. The diagram shows the disassembled parts in their relative positions and assembly relationships.",
+      "labels": [
+        "Front Lower Frame",
+        "Glass",
+        "Door Belt Moulding",
+        "Inside Handle",
+        "Striker",
+        "Hinge",
+        "Door Lock",
+        "Trim Support",
+        "Inner Stabilizer",
+        "Glass Guide",
+        "Regulator",
+        "Inside Handle Bezel",
+        "Service Hole Cover",
+        "Upper Door Trim",
+        "Door Trim",
+        "Rear View Mirror",
+        "Upper Front Garnish",
+        "Courtesy Light"
+      ],
+      "bbox": {
+        "top": 10,
+        "left": 2,
+        "width": 96,
+        "height": 88
+      }
+    }
+  ]
+}

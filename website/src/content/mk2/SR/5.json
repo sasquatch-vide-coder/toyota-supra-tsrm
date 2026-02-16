@@ -1,0 +1,84 @@
+{
+  "page_id": "SR-5",
+  "section_header": "STEERING — Steering Column Assembly with Tilt Steering",
+  "title": "COMPONENTS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing the complete steering column assembly with tilt steering, including upper intermediate shaft assembly and lower column bracket assembly with all associated hardware and components",
+      "labels": [
+        "Column Tube and Intermediate Shaft",
+        "Intermediate Shaft",
+        "Support Reinforcement",
+        "Collar No. 2",
+        "Shim",
+        "Tension Spring",
+        "Collar No. 1",
+        "Main Shaft",
+        "Lower Bearing",
+        "Collar",
+        "Spring",
+        "Snap Ring",
+        "Upper Bearing",
+        "Upper Bracket",
+        "Tilt Lever",
+        "Tilt Lever Retainer",
+        "Collar",
+        "Release Pin",
+        "Tilt Pawl",
+        "Tilt Steering Support",
+        "Serration Bolt",
+        "Column Bracket",
+        "Tension Spring",
+        "and Cord"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 2,
+        "width": 96,
+        "height": 85
+      }
+    },
+    {
+      "type": "torque_spec",
+      "component": "Column Tube and Intermediate Shaft",
+      "value": "185 (13, 18)",
+      "location": "Upper connection"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Intermediate Shaft",
+      "value": "185 (13, 18)",
+      "location": "Lower connection"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Tension Spring",
+      "value": "250 (18, 25)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Main Shaft/Lower Bearing",
+      "value": "185 (13, 18)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Column Bracket",
+      "value": "185 (13, 18)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Serration Bolt",
+      "value": "260 (19, 25)"
+    },
+    {
+      "type": "text",
+      "text": "kg·cm (ft-lb, N·m) : Specified torque"
+    },
+    {
+      "type": "text",
+      "text": "◆ Non-reusable part"
+    }
+  ]
+}

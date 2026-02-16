@@ -1,0 +1,139 @@
+{
+  "page_id": "EM-24",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "ENGINE MECHANICAL — Cylinder Head",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands using a soft brush to clean the cylinder head",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. CLEAN CYLINDER HEAD"
+    },
+    {
+      "type": "text",
+      "text": "Using a soft brush and solvent, clean the head."
+    },
+    {
+      "type": "caution",
+      "text": "Do not clean the head in a hot tank as this will seriously damage it."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing a precision straight edge and feeler gauge being used to check cylinder head flatness",
+      "labels": [],
+      "bbox": {
+        "top": 33,
+        "left": 5,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. CHECK HEAD FOR FLATNESS"
+    },
+    {
+      "type": "text",
+      "text": "(a) Using a precision straight edge and feeler gauge, check that neither the head nor manifold surface is warped."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing measurement locations on cylinder head - four sides and diagonally across the head surface with arrows indicating measurement points",
+      "labels": [
+        "EM1463"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 5,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Measure warpage at the four sides and diagonally as illustrated."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Maximum head surface warpage: 0.10 mm (0.0039 in.)",
+        "Maximum intake manifold surface warpage: 0.10 mm (0.0039 in.)",
+        "Maximum exhaust manifold surface warpage: 0.10 mm (0.0039 in.)",
+        "Maximum camshaft housing surface warpage: 0.10 mm (0.0039 in.)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If warpage is greater than specified value, replace the head."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing use of dye penetrant to inspect cylinder head for cracks, with hand applying penetrant to head",
+      "labels": [
+        "EM1729"
+      ],
+      "bbox": {
+        "top": 89,
+        "left": 5,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. INSPECT CYLINDER HEAD FOR CRACKS"
+    },
+    {
+      "type": "text",
+      "text": "Using a dye penetrant, check the combustion chamber, intake and exhaust ports, head surface and the top of the head for cracks."
+    },
+    {
+      "type": "text",
+      "text": "If a crack is found, replace the head."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing hands using a wire brush to clean valves",
+      "labels": [
+        "EM0797"
+      ],
+      "bbox": {
+        "top": 117,
+        "left": 5,
+        "width": 40,
+        "height": 28
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. CLEAN VALVES"
+    },
+    {
+      "type": "text",
+      "text": "Use a gasket scraper to chip any carbon from the valve head."
+    },
+    {
+      "type": "text",
+      "text": "Using a wire brush, clean the valve thoroughly."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "page_id": "MA-9",
+  "section_header": "MAINTENANCE — Maintenance Operations",
+  "title": "MAINTENANCE OPERATIONS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Ball joint inspection diagram showing lever placement with maximum play measurement of 2.5 mm",
+      "labels": [
+        "Max. Play: 2.5 mm"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 45,
+        "height": 23
+      },
+      "diagram_id": "MA014"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Dust cover inspection diagram showing dust cover location on ball joint",
+      "labels": [
+        "Dust Cover"
+      ],
+      "bbox": {
+        "top": 30,
+        "left": 3,
+        "width": 45,
+        "height": 20
+      },
+      "diagram_id": "MA016"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "17. INSPECT BALL JOINTS AND DUST COVERS"
+    },
+    {
+      "type": "text",
+      "text": "(a) Inspect the ball joints for excessive looseness."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Jack up the front of the vehicle and place wooden blocks with a height of 180 — 200 mm (7.09 — 7.87 in.) under the front tires.",
+        "Lower the jack until there is about half a load on the front coil springs. Place stands under the vehicle for safety.",
+        "Make sure the front wheels are in a straightforward position, and block them with chocks.",
+        "Using a lever, pry up the end of the lower arm, and check the amount of play."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Maximum ball joint vertical play: 2.5 mm (0.098 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If excessive play is found, replace the ball joints."
+    },
+    {
+      "type": "text",
+      "text": "(b) Inspect the dust cover for damage."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "18. CHECK AUTOMATIC TRANSMISSION OR MANUAL TRANSMISSION AND DIFFERENTIAL OIL"
+    },
+    {
+      "type": "text",
+      "text": "Visually check the automatic transmission or manual transmission and differential for oil leakage."
+    },
+    {
+      "type": "text",
+      "text": "If leakage is found, check for cause and repair."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Manual transmission drain plug location diagram",
+      "labels": [
+        "Drain Plug"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      },
+      "diagram_id": "MA072"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Differential drain plug location diagram",
+      "labels": [
+        "Drain Plug"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      },
+      "diagram_id": "MA084"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "19. REPLACE MANUAL TRANSMISSION AND DIFFERENTIAL OIL"
+    },
+    {
+      "type": "text",
+      "text": "(a) Remove the drain plug and drain the oil."
+    },
+    {
+      "type": "text",
+      "text": "(b) Reinstall the drain plug."
+    },
+    {
+      "type": "text",
+      "text": "(c) Add new oil until it begins to run out of the filler hole."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Transmission oil —"
+    },
+    {
+      "type": "table",
+      "caption": "Transmission oil specifications",
+      "headers": [
+        "Property",
+        "Specification"
+      ],
+      "rows": [
+        [
+          "Oil grade:",
+          "API GL-4 or GL-5"
+        ],
+        [
+          "Viscosity:",
+          "SAE 75W-90 or 80W-90"
+        ],
+        [
+          "Capacity:",
+          "2.4 liters (2.5 US qts, 2.1 Imp. qts)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Differential oil —"
+    },
+    {
+      "type": "table",
+      "caption": "Differential oil specifications",
+      "headers": [
+        "Property",
+        "Specification"
+      ],
+      "rows": [
+        [
+          "Oil grade:",
+          "API GL-5 hypoid gear oil or for LSD oil (LSD only)"
+        ],
+        [
+          "Viscosity:",
+          "Above     —18°C (0°F) SAE 90"
+        ],
+        [
+          "",
+          "Below     —18°C (0°F) SAE 80W-90"
+        ],
+        [
+          "",
+          "or 80W"
+        ],
+        [
+          "Capacity:",
+          "1.2 liters (1.3 US qts, 1.1 Imp. qts)"
+        ]
+      ]
+    }
+  ]
+}

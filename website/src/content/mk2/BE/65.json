@@ -1,0 +1,222 @@
+{
+  "page_id": "BE-65",
+  "section_header": "BODY ELECTRICAL SYSTEM — Power Window",
+  "title": "POWER WINDOW",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "POWER WINDOW"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Power Window Lock Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF POWER WINDOW LOCK SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "text",
+      "text": "Inspect the switch continuity between terminals."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Power Window Lock Switch connector showing 3-terminal configuration with terminals numbered 3, 2, 1 from left to right",
+      "labels": [
+        "3",
+        "2",
+        "1"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 2,
+        "width": 35,
+        "height": 17
+      }
+    },
+    {
+      "type": "table",
+      "caption": "Power Window Lock Switch Continuity",
+      "headers": [
+        "Switch position",
+        "Terminal 1",
+        "Terminal 2",
+        "Terminal 3"
+      ],
+      "rows": [
+        [
+          "LOCK",
+          "o——o",
+          "",
+          ""
+        ],
+        [
+          "OFF",
+          "",
+          "",
+          ""
+        ],
+        [
+          "UNLOCK",
+          "",
+          "o——o",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Power Window Master Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF POWER WINDOW MASTER SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Power Window Master Switch connector showing 8-terminal configuration with terminals numbered 4, 3, 2, 1 on top row and 8, 7, 6, 5 on bottom row",
+      "labels": [
+        "4",
+        "3",
+        "2",
+        "1",
+        "8",
+        "7",
+        "6",
+        "5"
+      ],
+      "bbox": {
+        "top": 33,
+        "left": 2,
+        "width": 35,
+        "height": 17
+      }
+    },
+    {
+      "type": "table",
+      "caption": "Power Window Master Switch Continuity",
+      "headers": [
+        "Switch position",
+        "Left (Terminal 2, 3, 7)",
+        "Right (Terminal 6, 2, 1, 5)"
+      ],
+      "rows": [
+        [
+          "UP",
+          "o——o",
+          "o——o"
+        ],
+        [
+          "OFF",
+          "o——o",
+          "o——o"
+        ],
+        [
+          "DOWN",
+          "o——o",
+          "o——o"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Power Window Door Switch"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECTION OF POWER WINDOW DOOR SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Power Window Door Switch connector showing 5-terminal configuration with terminals numbered 2, 1 on top row and 5, 4, 3 on bottom row",
+      "labels": [
+        "2",
+        "1",
+        "5",
+        "4",
+        "3"
+      ],
+      "bbox": {
+        "top": 68,
+        "left": 2,
+        "width": 35,
+        "height": 17
+      }
+    },
+    {
+      "type": "table",
+      "caption": "Power Window Door Switch Continuity",
+      "headers": [
+        "Switch position",
+        "Terminal 2",
+        "Terminal 1",
+        "Terminal 5",
+        "Terminal 4",
+        "Terminal 3"
+      ],
+      "rows": [
+        [
+          "UP",
+          "o——o",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "OFF",
+          "",
+          "o——o",
+          "",
+          "",
+          ""
+        ],
+        [
+          "DOWN",
+          "",
+          "",
+          "o——o",
+          "",
+          "o——o"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    }
+  ]
+}

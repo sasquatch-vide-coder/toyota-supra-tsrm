@@ -1,0 +1,149 @@
+{
+  "page_id": "EM-27",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "ENGINE MECHANICAL — Cylinder Head",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cross-section diagram of valve head showing margin measurement location",
+      "labels": [
+        "Margin"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Check the valve head margin."
+    },
+    {
+      "type": "text",
+      "text": "Minimum margin: Intake 0.5 mm (0.020 in.) Exhaust 1.0 mm (0.039 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If the valve head margin is less than specified, replace the valve."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing valve stem tip being checked and ground on a grinding wheel",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Check the surface of the valve stem tip for wear."
+    },
+    {
+      "type": "text",
+      "text": "Standard overall length: Intake 107.5 mm (4.232 in.) Exhaust 109.7 mm (4.319 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If the valve stem tip is worn, resurface the tip with a grinder or replace the valve."
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Do not grind more than 0.5 mm (0.020 in.)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSPECT AND CLEAN VALVE SEATS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a 45° carbide cutter, resurface the valve seats. Remove only enough metal to clean the seats.",
+        "(b) Check the valve seating position. Apply a thin coat of prussian blue (or white lead) to the valve face. Install the valve. While applying light pressure to the valve, rotate the valve against the seat."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hand illustration showing valve being rotated against seat with marking compound",
+      "labels": [
+        "EM0789"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing inspection of valve face and seat with blue marking",
+      "labels": [
+        "EM0788"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 3,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Check the valve face and seat for the following:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "• If blue appears 360° around the face, the valve is concentric. If not, replace the valve.",
+        "• If blue appears 360° around the valve seat, the guide and seat are concentric. If not, resurface the seat."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Technical diagram showing valve seat contact angles: 60° (IN), 67.5° (EX) at top, 30° 45° at middle positions, with 1.2-1.6 mm width specification",
+      "labels": [
+        "60° (IN), 67.5° (EX)",
+        "30° 45°",
+        "1.2 – 1.6 mm"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 3,
+        "width": 45,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "• Check that the seat contact is on the middle of the valve face with the following width: 1.2 — 1.6 mm (0.047 — 0.063 in.)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If not correct as follows:"
+    },
+    {
+      "type": "text",
+      "text": "If seating is too high on the valve face, use 30° and 45° cutters to correct the seat."
+    },
+    {
+      "type": "text",
+      "text": "If seating is too low on the valve face, use 60° (IN) or 67.5° (EX) and 45° cutters to correct the seat."
+    }
+  ]
+}

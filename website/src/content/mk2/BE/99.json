@@ -1,0 +1,175 @@
+{
+  "page_id": "BE-99",
+  "section_header": "BODY ELECTRICAL SYSTEM — Theft Deterrent System",
+  "title": "Door Lock Switch, Back Door Courtesy Switch, Back Door Key Unlock Switch, Diode",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Door Lock Switch"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Door lock switch connector showing two terminals labeled 1 and 2",
+      "labels": [
+        "1",
+        "2"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      },
+      "reference": "IV-21A"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF DOOR LOCK SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT SWITCH OPERATION"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that there is continuity between terminals with the door closed.",
+        "(b) Check that there is no continuity between terminals with the door opened."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Back Door Courtesy Switch"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Back door courtesy switch installation showing switch on body panel with test leads connected to ohmmeter",
+      "labels": [],
+      "bbox": {
+        "top": 21,
+        "left": 5,
+        "width": 40,
+        "height": 12
+      },
+      "reference": "BE0025"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF BACK DOOR COURTESY SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT SWITCH OPERATION"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that there is continuity between terminal and body ground when the switch is free.",
+        "(b) Check that there is no continuity between terminal and body ground when the switch pin is pushed."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If operation is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Back Door Key Unlock Switch"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Back door key unlock switch showing connector with terminals 1 and 3, with lock and unlock positions indicated",
+      "labels": [
+        "1",
+        "3",
+        "Unlock Position",
+        "Continuity",
+        "Lock"
+      ],
+      "bbox": {
+        "top": 37,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      },
+      "reference": "BE0024"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF BACK DOOR KEY UNLOCK SWITCH"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT SWITCH CONTINUITY"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that there is continuity between terminals 1 and 3 with the switch is unlock position.",
+        "(b) Check that there is no continuity between terminals 1 and 3 with the switch is except unlock position."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If continuity is not as specified, replace the switch."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Diode (For LH Key Unlock Switch and Taillight Control Relay)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diode connector showing two terminals labeled 1 and 2",
+      "labels": [
+        "1",
+        "2"
+      ],
+      "bbox": {
+        "top": 70,
+        "left": 5,
+        "width": 40,
+        "height": 12
+      },
+      "reference": "M-23"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF DIODE"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "INSPECT DIODE CONTINUITY"
+    },
+    {
+      "type": "text",
+      "text": "Connect the test leads of the ohmmeter to terminals 1 and 2, and check for continuity. Next reverse the test leads and check, again, for continuity."
+    },
+    {
+      "type": "text",
+      "text": "If both of the test results are same condition, replace the diode."
+    }
+  ]
+}

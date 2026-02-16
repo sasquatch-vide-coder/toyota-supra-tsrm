@@ -1,0 +1,135 @@
+{
+  "page_id": "BR-7",
+  "section_header": "BRAKE SYSTEM — Checks and Adjustments",
+  "title": "OPERATIONAL TEST OF BRAKE BOOSTER",
+  "content": [
+    {
+      "type": "notice",
+      "text": "If available, use a brake booster tester to check the booster operating condition."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "OPERATING CHECK"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Two illustrations showing brake pedal clearance comparison - one labeled 'GOOD' showing proper clearance, and one labeled 'NO GOOD' showing improper clearance",
+      "labels": [
+        "GOOD",
+        "NO GOOD"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 2,
+        "width": 48,
+        "height": 35
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Depress the brake pedal several times with the engine off, and check that there is no change in the pedal reserve distance.",
+        "(b) Depress the brake pedal and start the engine. If the pedal goes down slightly, operation is normal."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "AIR TIGHTNESS"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Start the engine and stop it after one or two minutes. Depress the brake pedal several times slowly. If the pedal goes down furtherest the first time, but gradually rises after the second or third time, the booster is air tight.",
+        "(b) Depress the brake pedal while the engine is running, and stop it with the pedal depressed. If there is no change in pedal reserve travel after holding the pedal for thirty seconds, the booster is air tight."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "BLEEDING OF BRAKE SYSTEM"
+    },
+    {
+      "type": "notice",
+      "text": "If any work is done to the master cylinder or if air is suspected in the brake lines, bleed the system of air."
+    },
+    {
+      "type": "caution",
+      "text": "Do not let brake fluid remain on a painted surface. Wash it off immediately."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing brake fluid reservoir with master cylinder",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 2,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "FILL BRAKE RESERVOIRS WITH BRAKE FLUID"
+    },
+    {
+      "type": "text",
+      "text": "Check the reservoir after bleeding each wheel. Add fluid, if necessary."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "BLEED MASTER CYLINDER"
+    },
+    {
+      "type": "notice",
+      "text": "If the master cylinder was disassembled or if the reservoir tank becomes empty, bleed the air from the master cylinder."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands working on master cylinder and brake tubes",
+      "labels": [],
+      "bbox": {
+        "top": 62,
+        "left": 2,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Disconnect the brake tubes from the master cylinder.",
+        "(b) Depress the brake pedal and hold it."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing blocking outlet plug on master cylinder",
+      "labels": [],
+      "bbox": {
+        "top": 82,
+        "left": 2,
+        "width": 48,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Block off the outlet plug with your finger, and release the brake pedal.",
+        "(d) Repeat (b) and (c) three or four times."
+      ]
+    }
+  ]
+}

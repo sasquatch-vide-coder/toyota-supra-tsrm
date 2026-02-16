@@ -1,0 +1,133 @@
+{
+  "page_id": "BO-49",
+  "section_header": "BODY — Body Dimensions",
+  "title": "BODY DIMENSIONS",
+  "content": [
+    {
+      "type": "table",
+      "caption": "Body Dimensions",
+      "headers": [
+        "Symbol",
+        "Nomenclature",
+        "Hole dia. (mm)",
+        "Symbol",
+        "Nomenclature",
+        "Hole dia. (mm)"
+      ],
+      "rows": [
+        [
+          "A,a",
+          "Front fender front installation nut",
+          "6φ",
+          "O,o",
+          "Front floor under reinforcement front standard hole",
+          "15φ"
+        ],
+        [
+          "B,b",
+          "Front spring support inner hole",
+          "11φ",
+          "P,p",
+          "Front floor under reinforcement rear standard hole",
+          "15φ"
+        ],
+        [
+          "C,c",
+          "Front fender rear installation nut",
+          "6φ",
+          "Q,q",
+          "Center floor side member standard hole",
+          "15φ"
+        ],
+        [
+          "D",
+          "Cowl top seal center installation hole",
+          "6φ",
+          "R,r",
+          "Rear suspension member installation nut",
+          "20φ"
+        ],
+        [
+          "E,e",
+          "Front side member standard hole",
+          "15φ",
+          "S,s",
+          "Rear torque box standard hole",
+          "15φ"
+        ],
+        [
+          "F,f",
+          "Front suspension member rear and upper installation hole",
+          "15φ",
+          "T,t",
+          "Center floor side member standard hole",
+          "11φ"
+        ],
+        [
+          "G,g",
+          "Front side member bumper installation nut",
+          "14φ",
+          "U,u",
+          "Rear floor side member standard hole",
+          "15φ"
+        ],
+        [
+          "H,h",
+          "Front side member rear side upper bumper installation hole",
+          "15φ",
+          "V,v",
+          "Rear floor side member standard hole",
+          "15φ"
+        ],
+        [
+          "I,i",
+          "Retractable light bracket upper installation nut",
+          "9φ",
+          "W",
+          "Upper back reinforcement standard hole",
+          "20φ"
+        ],
+        [
+          "J,j",
+          "Cooler condenser lower installation nut",
+          "6φ",
+          "X,x",
+          "Back door outer installation hole",
+          "13φ"
+        ],
+        [
+          "K,k",
+          "Strut bar bracket front side inner installation hole",
+          "13φ",
+          "Y,y",
+          "Rear floor pan front standard hole",
+          "40φ"
+        ],
+        [
+          "L,l",
+          "Strut bar bracket rear side rear installation hole",
+          "15φ",
+          "",
+          "",
+          ""
+        ],
+        [
+          "M,m",
+          "Front suspension member front side lower installation hole",
+          "15φ",
+          "",
+          "",
+          ""
+        ],
+        [
+          "N,n",
+          "Front suspension member rear side lower installation hole",
+          "15φ",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

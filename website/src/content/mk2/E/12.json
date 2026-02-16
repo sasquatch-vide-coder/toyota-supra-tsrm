@@ -1,0 +1,70 @@
+{
+  "page_id": "Unknown",
+  "section_header": "ELECTRICAL - Wiring Diagrams",
+  "title": "Cruise Control and Fog Lights Wiring Diagram",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wiring diagram showing cruise control system and fog lights electrical connections. The diagram spans the full page and shows various electrical components including the cruise control computer, stop light switch, turn signal flasher, and associated wiring connections. The page is divided into sections 3 and 4 as indicated by column markers at the top.",
+      "labels": [
+        "40SET",
+        "Cruise Control",
+        "Fog Lights",
+        "CRUISE CONTROL COMPUTER",
+        "From ECT ECU (I-6)",
+        "To TCCL ECU (I-4)",
+        "TURN SIGNAL FLASHER",
+        "TURN OFF LEFT",
+        "HAZARD",
+        "STOP LIGHT",
+        "POWER CONTROL",
+        "CRUISE CONTROL VALVE SOLENOID",
+        "B-Y",
+        "B-W",
+        "C-W",
+        "CRUISE CONTROL COMPUTER",
+        "TRACTION LINE",
+        "CHECK CONNECT VALVE",
+        "d",
+        "f"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 0,
+        "width": 100,
+        "height": 95
+      }
+    },
+    {
+      "type": "text",
+      "text": "d - Located on left front fender apron near junction block No. 3",
+      "bbox": {
+        "top": 97,
+        "left": 5,
+        "width": 45,
+        "height": 2
+      }
+    },
+    {
+      "type": "text",
+      "text": "f - Located in back panel near door key cylinder",
+      "bbox": {
+        "top": 97,
+        "left": 50,
+        "width": 45,
+        "height": 2
+      }
+    },
+    {
+      "type": "text",
+      "text": "Sections marked: 3, 4 (column headers at top)",
+      "bbox": {
+        "top": 0,
+        "left": 0,
+        "width": 100,
+        "height": 5
+      }
+    }
+  ]
+}

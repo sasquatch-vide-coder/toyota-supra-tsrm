@@ -1,0 +1,139 @@
+{
+  "page_id": "AT-100",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Valve Body)",
+  "title": "AUTOMATIC TRANSMISSION - Component Groups (Valve Body)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of 1-2 shift valve and spring into valve body",
+      "labels": [
+        "C4433"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL 1-2 SHIFT VALVE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the 1-2 shift valve and spring."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installation of plate over gasket on valve body with torque wrench",
+      "labels": [
+        "C4434"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Install the plate over the gasket."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Plate over gasket",
+      "value": "55 kg-cm (48 in.-lb, 5.4 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Installation of 2-3 shift valve and spring into valve body bore",
+      "labels": [
+        "AT0886"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL 2-3 SHIFT VALVE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the 2-3 shift valve and spring.",
+        "(b) Install the plug into the bore.",
+        "(c) Coat the retainer with petroleum jelly and install it."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installation of rear clutch sequence valve with spring and plug, showing petroleum jelly application to pin",
+      "labels": [
+        "C4437/C4438"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSERT REAR CLUTCH SEQUENCE VALVE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the valve spring, and the valve.",
+        "(b) Install the plug into the bore.",
+        "(c) Coat the pin with petroleum jelly and install it."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Valve body showing locations for installing six steel check balls",
+      "labels": [
+        "Check Ball",
+        "C4380"
+      ],
+      "bbox": {
+        "top": 76,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL CHECK BALLS AS SHOWN"
+    },
+    {
+      "type": "text",
+      "text": "Install the six steel balls in the position shown in the figure."
+    }
+  ]
+}

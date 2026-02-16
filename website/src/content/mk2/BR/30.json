@@ -1,0 +1,112 @@
+{
+  "page_id": "BR-30",
+  "section_header": "BRAKE SYSTEM — Rear Brake",
+  "title": "BRAKE SYSTEM — Rear Brake",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing parking brake shoe adjustment with an adjuster tool being used to expand the shoes until the rotor disc locks. Shows brake drum/rotor assembly from side view with adjuster mechanism.",
+      "labels": [
+        "Extension"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. ADJUST PARKING BRAKE SHOE CLEARANCE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Temporarily install hub nuts.",
+        "(b) Turn the adjuster and expand the shoes until the rotor disc locks.",
+        "(c) Return the adjuster 8 notches."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands pulling up on parking brake lever to check lever travel adjustment.",
+      "labels": [],
+      "bbox": {
+        "top": 28,
+        "left": 5,
+        "width": 40,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. INSPECT AND ADJUST PARKING BRAKE LEVER TRAVEL"
+    },
+    {
+      "type": "text",
+      "text": "Check that parking brake lever travel is correct. Pull the parking brake lever all the way up, and count the notches of lever travel."
+    },
+    {
+      "type": "text",
+      "text": "Parking brake lever travel at 20 kg (44.1 lb, 196 N):"
+    },
+    {
+      "type": "text",
+      "text": "5 — 8 click"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands installing rear disc brake assembly onto hub with torque plate mount bolts being tightened.",
+      "labels": [
+        "BR0056"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 5,
+        "width": 40,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. INSTALL REAR DISC BRAKE ASSEMBLY"
+    },
+    {
+      "type": "text",
+      "text": "Install the disc brake and torque two torque plate mount bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Torque plate mount bolts",
+      "value": "475 kg-cm (34 ft-lb, 47 N·m)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. BED DOWN PARKING BRAKE SHOES AND DRUM"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Drive the vehicle at about 50 km/h (31 mph) on a safe, level and dry road.",
+        "(b) With the parking brake release button pushed in, pull on the lever with 9 kg (19.8 lb or 88 N) of force.",
+        "(c) Drive the vehicle for about 400 meters (1/4 mile) in this condition.",
+        "(d) Repeat this procedure two or three times."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. RECHECK PARKING BRAKE LEVER TRAVEL"
+    }
+  ]
+}

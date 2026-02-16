@@ -1,0 +1,207 @@
+{
+  "page_id": "AT-82",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups",
+  "subsection": "(Transmission Case and Rear Brake Pistons)",
+  "title": "ASSEMBLY OF TRANSMISSION CASE AND REAR BRAKE PISTONS",
+  "reference": "(See page AT-80)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of O-rings on reaction sleeve and pistons, showing thinner and thicker O-ring placement",
+      "labels": [
+        "Thinner",
+        "Thicker"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": 1,
+          "heading": "INSTALL NEW O-RINGS ON REACTION SLEEVE AND PISTONS",
+          "caution": {
+            "type": "caution",
+            "text": "The thinner O-ring goes on the outside of the reaction sleeve."
+          }
+        },
+        {
+          "step": 2,
+          "heading": "INSTALL INNER AND OUTER PISTONS IN REACTION SLEEVE",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Push the inner piston into the cupped side of the reaction sleeve."
+            },
+            {
+              "label": "(b)",
+              "text": "Push the outer piston onto the other side of the reaction sleeve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Cross-section view of pistons installed in reaction sleeve with label AT0197",
+      "labels": [
+        "AT0197"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        {
+          "step": 3,
+          "heading": "INSTALL PISTONS AND SLEEVE IN CASE",
+          "caution": {
+            "type": "caution",
+            "text": "Be careful not to damage the O-rings."
+          },
+          "text": "Hold the assembly with the outer piston upward (spring seats visible), and push the assembly into its bore in the case."
+        },
+        {
+          "step": 4,
+          "heading": "INSTALL SST BASE UNDER CASE",
+          "part_number": {
+            "label": "SST",
+            "number": "09350-20013"
+          }
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Top view showing sixteen piston return springs arranged in circular pattern with label C4071",
+      "labels": [
+        "C4071"
+      ],
+      "bbox": {
+        "top": 41,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 5,
+      "items": [
+        {
+          "step": 5,
+          "heading": "INSTALL SIXTEEN PISTON RETURN SPRINGS AND SET RETAINER WITH SNAP RING IN PLACE",
+          "notice": {
+            "type": "notice",
+            "text": "The springs are visible through the cutout in the case, which helps position them more easily."
+          }
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Cross-section diagram showing SST tool compressing piston return springs with label Z2114",
+      "labels": [
+        "SST",
+        "Z2114"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 6,
+      "items": [
+        {
+          "step": 6,
+          "heading": "COMPRESS PISTON RETURN SPRINGS TO ALLOW INSTALLATION OF SNAP RING",
+          "caution": {
+            "type": "caution",
+            "text": "Do not overtighten the bolt and bend the spring retainer."
+          },
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Carefully position the spring compressor on the spring retainer."
+            },
+            {
+              "label": "(b)",
+              "text": "Gradually and evenly tighten the bolt to compress the springs, being careful not to damage the transmission case with SST."
+            }
+          ],
+          "part_number": {
+            "label": "SST",
+            "number": "09350-20013 (09369-20040)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Top and side view showing snap ring installation on spring retainer with SST tool, labeled AT0630-AT0631",
+      "labels": [
+        "SST",
+        "AT0630-AT0631"
+      ],
+      "bbox": {
+        "top": 77,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 7,
+      "items": [
+        {
+          "step": 7,
+          "heading": "INSTALL SNAP RING",
+          "substeps": [
+            {
+              "label": "(a)",
+              "text": "Snap the ring into place with your fingers. Visually check to make sure it is fully seated and centered by the three lugs on the spring retainer."
+            },
+            {
+              "label": "(b)",
+              "text": "Remove the SST."
+            }
+          ],
+          "part_number": {
+            "label": "SST",
+            "number": "09350-20013 (09369-20040)"
+          }
+        },
+        {
+          "step": 8,
+          "heading": "KEEP MANUAL VALVE LEVER, PARKING LOCK PAWL AND ACCUMULATOR"
+        }
+      ]
+    }
+  ]
+}

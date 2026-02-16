@@ -1,0 +1,167 @@
+{
+  "page_id": "RA-39",
+  "section_header": "REAR AXLE AND SUSPENSION — Limited Slip Differential",
+  "title": "INSPECTION AND ADJUSTMENT OF DIFFERENTIAL CASE",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION AND ADJUSTMENT OF DIFFERENTIAL CASE"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REPLACE PARTS THAT ARE DAMAGED OR WORN"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view showing differential case (B) and left clutch member (A) with measurement points indicated",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "bbox": {
+        "top": 18,
+        "left": 2,
+        "width": 45,
+        "height": 25
+      },
+      "diagram_number": "ZA016"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CHECK CLUTCH MEMBER LH AND DIFFERENTIAL CASE"
+    },
+    {
+      "type": "text",
+      "text": "Check the clearance between left clutch member and differential case."
+    },
+    {
+      "type": "table",
+      "caption": "Specifications",
+      "headers": [
+        "",
+        "mm (in.)"
+      ],
+      "rows": [
+        [
+          "Clutch member (A)",
+          "41.975–42.000 (1.6526–1.6535)"
+        ],
+        [
+          "Differential case (B)",
+          "42.000–42.025 (1.6535–1.6545)"
+        ],
+        [
+          "Clearance",
+          "0–0.050         (0–0.0020)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. ADJUST SIDE GEAR THRUST CLEARANCE"
+    },
+    {
+      "type": "notice",
+      "text": "Adjust the axial clearance inside the differential case by selecting a proper thickness adjusting washer as follows."
+    },
+    {
+      "type": "text",
+      "text": "Standard clearance:\n0.03 – 0.15 mm (0.0012 – 0.0059 in.)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Clean the parts."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Exploded view of differential assembly components including SST tool",
+      "labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)",
+        "(8)",
+        "(9)",
+        "(10)"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 2,
+        "width": 45,
+        "height": 25
+      },
+      "diagram_number": "RA0031"
+    },
+    {
+      "type": "text",
+      "text": "(b) Assemble the following parts to SST."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09411-22011"
+    },
+    {
+      "type": "notice",
+      "text": "Do not assemble the adjusting washers and clutch member springs."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Side gear thrust washer No. 2",
+        "Side gear thrust washer No. 3",
+        "Side gear",
+        "Clutch member thrust washer",
+        "Clutch member LH",
+        "Clutch member RH",
+        "Clutch member thrust washer",
+        "Side gear",
+        "Side gear thrust washer No. 3",
+        "Side gear thrust washer No. 2"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Detailed view showing measurement setup with SST tool and dimension L marked",
+      "labels": [
+        "SST",
+        "L"
+      ],
+      "bbox": {
+        "top": 68,
+        "left": 2,
+        "width": 45,
+        "height": 25
+      },
+      "diagram_number": "ZA15"
+    },
+    {
+      "type": "text",
+      "text": "(c) Loosen the nut of SST and hold the parts with spring tension."
+    },
+    {
+      "type": "text",
+      "text": "(d) Using a micrometer, measure dimension \"L\"."
+    },
+    {
+      "type": "notice",
+      "text": "Properly align the parts to be measured and measure dimension \"L\" several times. Take the average of the readings."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "page_id": "PR-6",
+  "section_header": "PROPELLER SHAFT — Propeller Shaft",
+  "title": "ASSEMBLY OF PROPELLER SHAFT",
+  "content": [
+    {
+      "type": "notice",
+      "text": "If replacing either the center flange or intermediate shaft, reassemble them so that the front yoke of the intermediate shaft and the rear yoke of the propeller shaft are facing in the same direction shown in the figure below."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Assembly diagram showing complete propeller shaft with center flange, intermediate shaft, universal joints, and splined connections",
+      "labels": [
+        "24183"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 94,
+        "height": 17
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Detailed view of center support bearing installation on intermediate shaft, showing front direction arrow and bearing orientation with cutout toward rear",
+      "labels": [
+        "Front"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 37,
+        "height": 22
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL CENTER SUPPORT BEARING ON INTERMEDIATE SHAFT"
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Install the center support bearing with the cutout toward the rear."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "End view of intermediate shaft flange showing matchmarks for alignment, with four bolt holes visible",
+      "labels": [
+        "Marks",
+        "PH0103"
+      ],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL FLANGE ON INTERMEDIATE SHAFT"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Coat the splines of the intermediate shaft with MP grease.",
+        "(b) Align the matchmarks and install the flange to the intermediate shaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Special service tool (SST) being used to hold flange while tightening bearing nut on propeller shaft",
+      "labels": [
+        "SST",
+        "B2291"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Using SST to hold the flange, press the bearing into position by tightening down a new nut."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09330-00021",
+      "description": ""
+    },
+    {
+      "type": "torque_spec",
+      "component": "Bearing nut (initial tightening)",
+      "value": "1,850 kg-cm (134 ft-lb, 181 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Loosen the nut.",
+        "(e) Torque the nut again."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Bearing nut (final tightening)",
+      "value": "700 kg-cm (51 ft-lb, 69 N·m)"
+    }
+  ]
+}

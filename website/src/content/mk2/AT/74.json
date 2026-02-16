@@ -1,0 +1,156 @@
+{
+  "page_id": "AT-74",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Center support assembly showing brake plates, discs and flange with circular layered components",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 38,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 14,
+      "items": [
+        {
+          "step": 14,
+          "title": "TURN CENTER SUPPORT OVER AND INSTALL NO. 2 BRAKE PLATES, DISCS AND FLANGE",
+          "content": [
+            {
+              "type": "text",
+              "text": "Using the low-pressure compressed air, blow all excess ATF from the discs."
+            },
+            {
+              "type": "caution",
+              "text": "CAUTION: High-pressure air will damage the disc."
+            },
+            {
+              "type": "text",
+              "text": "Install order: Plate-disc-plate-disc-plate-disc-plate-disc-flange (flat side down)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 15,
+      "items": [
+        {
+          "step": 15,
+          "title": "INSTALL SNAP RING IN CENTER SUPPORT",
+          "content": [
+            {
+              "type": "text",
+              "text": "Check that the snap ring ends are not aligned with one of the cutouts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Dial indicator measuring piston stroke on No. 2 brake assembly with compressed air being applied",
+      "labels": [],
+      "bbox": {
+        "top": 28,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 16,
+      "items": [
+        {
+          "step": 16,
+          "title": "CHECK PISTON STROKE OF NO. 2 BRAKE",
+          "content": [
+            {
+              "type": "text",
+              "text": "With a dial indicator, measure the stroke applying and releasing the compressed air (4 — 8 kg/cm², 57 — 114 psi or 392 — 785 kPa) as shown."
+            },
+            {
+              "type": "specification",
+              "label": "Standard piston stroke:",
+              "value": "1.01 — 2.25 mm",
+              "value_imperial": "(0.0398 — 0.0886 in.)"
+            },
+            {
+              "type": "text",
+              "text": "If the stroke exceeds the limit, the clutch pack is probably worn. If the stroke is less than the limit, parts may be misassembled or there may be excess ATF on the discs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Center support and sun gear shaft assembly showing brake hub meshing with discs",
+      "labels": [],
+      "bbox": {
+        "top": 48,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 17,
+      "items": [
+        {
+          "step": 17,
+          "title": "ASSEMBLE CENTER SUPPORT AND SUN GEAR SHAFT",
+          "content": [
+            {
+              "type": "text",
+              "text": "(a) Align the brake No. 2 disc flukes."
+            },
+            {
+              "type": "text",
+              "text": "(b) Mesh the brake hub with the discs, twisting and jiggling the hub as required."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installing snap ring on end of sun gear shaft assembly",
+      "labels": [],
+      "bbox": {
+        "top": 68,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 18,
+      "items": [
+        {
+          "step": 18,
+          "title": "INSTALL SNAP RING ON END OF SUN GEAR SHAFT",
+          "content": []
+        }
+      ]
+    }
+  ]
+}

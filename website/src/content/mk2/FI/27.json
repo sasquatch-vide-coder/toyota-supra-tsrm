@@ -1,0 +1,85 @@
+{
+  "page_id": "FI-27",
+  "section_header": "EFI SYSTEM — Diagnosis System",
+  "title": "INSPECTION OF DIAGNOSIS CIRCUIT",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Electrical wiring diagram showing diagnosis circuit connections between battery, fuses, No. 1 Main Relay, Check Engine Warning Light, Check Connector, and ECU. Shows various terminals including BAT, +B, M-REL, W, IG S/W, T, E1, and ground connections.",
+      "labels": [
+        "STOP Fuse",
+        "EFI Fuse",
+        "No. 1 Main Relay",
+        "Fusible Link",
+        "Battery",
+        "Ignition S/W",
+        "Check Engine Warning Light",
+        "Check Connector",
+        "ECU",
+        "BAT",
+        "+B",
+        "M-REL",
+        "W",
+        "IG S/W",
+        "T",
+        "E1"
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 3,
+        "width": 94,
+        "height": 34
+      }
+    },
+    {
+      "type": "flowchart",
+      "index": 1,
+      "description": "Diagnostic flowchart with two main sections (1 and 2) for troubleshooting the CHECK ENG. warning light system",
+      "steps": [
+        {
+          "number": "1",
+          "question": "Does CHECK ENG. warning light come on when ignition switch is at ON?",
+          "yes_path": "System Normal",
+          "no_path": "Continue to next check"
+        },
+        {
+          "question": "Does CHECK ENG. light come on when ECU terminal W is grounded to the body?",
+          "yes_path": "Check wiring between ECU terminal E1 and body ground → OK → Try another ECU",
+          "no_path": "Continue to next check"
+        },
+        {
+          "question": "Check bulb, fuse and wiring between ECU and ignition switch.",
+          "bad_path": "Repair or replace"
+        },
+        {
+          "number": "2",
+          "question": "Does CHECK ENG. warning light go OFF when engine is started?",
+          "yes_path": "System Normal",
+          "no_path": "Continue to next check"
+        },
+        {
+          "question": "Check wiring between ECU and CHECK ENG. warning light.",
+          "ok_path": "Continue to next check",
+          "bad_path": "Repair"
+        },
+        {
+          "question": "Is there diagnosis code output when service connector is short circuited?",
+          "no_path": "Try another ECU",
+          "yes_path": "Continue to next check"
+        },
+        {
+          "question": "Does CHECK ENG. warning light go out after repair according to malfunction code?",
+          "no_path": "Further repair required",
+          "yes_path": "System OK → Cancel out Diagnostic code"
+        }
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 94,
+        "height": 56
+      }
+    }
+  ]
+}

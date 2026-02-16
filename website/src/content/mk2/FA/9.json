@@ -1,0 +1,73 @@
+{
+  "page_id": "FA-9",
+  "section_header": "FRONT AXLE AND SUSPENSION — Front Axle Hub",
+  "title": "Front Axle Hub",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing front axle hub assembly with suspension components and wheel",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 1,
+        "width": 48,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "If preload is less than specification, tighten the nut slightly and check again."
+    },
+    {
+      "type": "text",
+      "text": "If preload is excessive, loosen the nut and, using a socket in your hand, retighten it as tight as possible. Check the preload again."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(g) Measure the hub axial play."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Limit: 0.05 mm (0.0020 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of lock cap, cotter pin and hub grease cap on wheel hub assembly",
+      "labels": [],
+      "bbox": {
+        "top": 22,
+        "left": 1,
+        "width": 48,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. INSTALL LOCK CAP, COTTER PIN AND HUB GREASE CAP"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: If the cotter pin hole does not line up, correct by tightening the nut by the smallest amount possible."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. INSTALL DISC BRAKE CALIPER"
+    },
+    {
+      "type": "text",
+      "text": "Install brake caliper on the disc. Torque the mounting bolts."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Disc brake caliper mounting bolts",
+      "value": "930 kg-cm (67 ft-lb, 91 N·m)"
+    }
+  ]
+}

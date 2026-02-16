@@ -1,0 +1,129 @@
+{
+  "page_id": "BE-82",
+  "section_header": "BODY ELECTRICAL SYSTEM — Cruise Control System",
+  "title": "Cruise Control Computer Circuit INSPECTION OF COMPUTER CIRCUIT",
+  "content": [
+    {
+      "type": "text",
+      "text": "Disconnect the computer and inspect the connector on the wire harness side as shown in the chart below."
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "Terminal",
+        "Connection or Measure Item",
+        "Check Item",
+        "Tester Connection",
+        "Condition",
+        "Voltage or Resistance Value"
+      ],
+      "rows": [
+        [
+          "1",
+          "Stop Light Switch and Release Valve",
+          "Resistance",
+          "1 — 2",
+          "Brake pedal returned",
+          "About 68 Ω"
+        ],
+        [
+          "2",
+          "Release Valve and Control Valve",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "3",
+          "Control Valve",
+          "Resistance",
+          "3 — 2",
+          "—",
+          "About 30 Ω"
+        ],
+        [
+          "4",
+          "Control Switch (Set/Coast)",
+          "Continuity",
+          "4 — Body Ground",
+          "Turn set/coast switch on\nTurn set/coast switch off",
+          "Continuity\nNo continuity"
+        ],
+        [
+          "5",
+          "OD Relay",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "6",
+          "Speed Sensor",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "7",
+          "Main Switch",
+          "Voltage",
+          "7 — Body Ground",
+          "Turn ignition switch and main switch on\nTurn ignition switch and main switch off",
+          "Battery voltage\nNo voltage"
+        ],
+        [
+          "8",
+          "Stop Light Switch",
+          "Voltage",
+          "8 — Body Ground",
+          "Brake pedal depressed\nBrake pedal returned",
+          "Battery voltage\nNo voltage"
+        ],
+        [
+          "9",
+          "STOP Fuse",
+          "Voltage",
+          "9 — Body Ground",
+          "—",
+          "Battery voltage"
+        ],
+        [
+          "10",
+          "Body Ground",
+          "Continuity",
+          "10 — Body Ground",
+          "—",
+          "Continuity"
+        ],
+        [
+          "11",
+          "Clutch Switch\nNeutral Switch",
+          "Continuity",
+          "11 — Body Ground",
+          "Clutch pedal depressed or shift into \"N\" range\nClutch pedal returned or shift into except \"N\" range",
+          "Continuity\nNo continuity"
+        ],
+        [
+          "12",
+          "Parking Brake Switch",
+          "Voltage",
+          "12 — Body Ground",
+          "Parking brake pulled\nParking brake returned",
+          "No voltage\nBattery voltage"
+        ],
+        [
+          "13",
+          "Control Switch (Accel/Resume)",
+          "Continuity",
+          "13 — Body Ground",
+          "Turn accel/resume switch on\nTurn accel/resume switch off",
+          "Continuity\nNo continuity"
+        ]
+      ]
+    }
+  ]
+}

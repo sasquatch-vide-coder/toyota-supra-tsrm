@@ -1,0 +1,109 @@
+{
+  "page_id": "CO-2",
+  "section_header": "COOLING SYSTEM — Troubleshooting, Check and Replace Engine Coolant",
+  "title": "TROUBLESHOOTING",
+  "content": [
+    {
+      "type": "table",
+      "caption": "TROUBLESHOOTING",
+      "headers": [
+        "Problem",
+        "Possible cause",
+        "Remedy",
+        "Page"
+      ],
+      "rows": [
+        [
+          "Engine overheats",
+          "Fan belts loose or missing\nDirt, leaves or insects on radiator or condenser\nHoses, water pump, thermostat housing, radiator, heater, core plugs or head gasket leakage\nThermostat faulty\nIgnition timing retarded\nFluid coupling faulty\nRadiator hose plugged or rotted\nWater pump faulty\nRadiator plugged or cap faulty\nCylinder head or block cracked or plugged",
+          "Adjust or replace belts\nClean radiator or condenser\nRepair as necessary\nCheck thermostat\nSet timing\nReplace fluid coupling\nReplace hose\nReplace water pump\nCheck radiator\nRepair as necessary",
+          "CH-4\n\nCO-6\nIG-10\nCO-3\n\nCO-3\nCO-7"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "CHECK AND REPLACE ENGINE COOLANT"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration of coolant reservoir/expansion tank with FULL and LOW level markings",
+      "labels": [
+        "FULL",
+        "LOW"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1.",
+          "heading": "CHECK COOLANT LEVEL",
+          "text": "The coolant level should be between the LOW and FULL lines. If low check for leakage and add coolant up to the FULL line."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hand checking radiator cap and filler hole",
+      "labels": [],
+      "bbox": {
+        "top": 60,
+        "left": 3,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "2.",
+          "heading": "CHECK COOLANT QUALITY",
+          "text": "There should not be any excessive deposits of rust or scales around the radiator cap or radiator filler hole, and the coolant should also be free from oil. Replace the coolant if excessively dirty."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing radiator with drain cocks marked at two locations",
+      "labels": [
+        "Drain Cock",
+        "Drain Cock"
+      ],
+      "bbox": {
+        "top": 79,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "3.",
+          "heading": "REPLACE ENGINE COOLANT",
+          "steps": [
+            "(a) Drain the coolant from radiator and engine drain cocks. (Engine drain is at right rear of engine block.)",
+            "(b) Close the drain cocks.",
+            "(c) Fill system with coolant.\nUse a good brand of ethylene-glycol base coolant, mixed according to the maker's directions."
+          ]
+        }
+      ]
+    }
+  ]
+}

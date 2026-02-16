@@ -1,0 +1,159 @@
+{
+  "page_id": "EM-58",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": "ASSEMBLY OF CYLINDER BLOCK",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page EM-38)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Diagram showing upper and lower main bearing positions for cylinder positions No. 1 and No. 2-7. No. 1 shows 25 mm (0.98 in.) spacing, No. 2-7 shows 22 mm (0.87 in.) spacing.",
+      "labels": [
+        "Upper",
+        "Lower",
+        "No. 1",
+        "No. 2 — No. 7",
+        "25 mm (0.98 in.)",
+        "22 mm (0.87 in.)"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 4,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL UPPER MAIN BEARING IN CYLINDER BLOCK"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Place the upper main bearing in the block.",
+        "(b) Install the upper thrust washers on the center main bearing with the oil grooves facing out.",
+        "(c) Lubricate the faces of the bearings with engine oil."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands installing a component into the cylinder block assembly.",
+      "labels": [],
+      "bbox": {
+        "top": 26,
+        "left": 4,
+        "width": 37,
+        "height": 17
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. PLACE CRANKSHAFT IN CYLINDER BLOCK"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL MAIN BEARING CAPS"
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Each bearing cap is numbered."
+    },
+    {
+      "type": "text",
+      "text": "(a) Install thrust washers on No. 4 bearing cap with the oil grooves facing out."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Top-down view of cylinder block showing numbered bearing cap positions 1-14 with arrows indicating installation direction and sequence.",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 4,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Install the bearing caps in numbered order with arrows facing forward. Tighten the bolts to the specified torque in the sequence shown and in two or three passes."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Main bearing caps",
+      "value": "1,040 kg-cm (75 ft-lb, 102 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing dial gauge measurement of crankshaft thrust clearance with a screwdriver prying the crankshaft.",
+      "labels": [],
+      "bbox": {
+        "top": 66,
+        "left": 4,
+        "width": 37,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Install the dial gauge and measure the crankshaft thrust clearance while prying the crankshaft back and forth with a screwdriver."
+    },
+    {
+      "type": "text",
+      "text": "Standard clearance: 0.05 — 0.25 mm (0.0020 — 0.0098 in.)"
+    },
+    {
+      "type": "text",
+      "text": "(d) Check that the crankshaft turns."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSTALL PISTON AND CONNECTING ROD ASSEMBLY"
+    },
+    {
+      "type": "text",
+      "text": "(a) Lubricate the cylinder bore and the crankshaft pin with clean engine oil."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing installation of piston and connecting rod assembly into cylinder using a ring compressor tool.",
+      "labels": [],
+      "bbox": {
+        "top": 85,
+        "left": 4,
+        "width": 37,
+        "height": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Using a ring compressor, push the correctly numbered piston and rod assembly into each cylinder. Make sure the notch and mark are facing forward."
+    }
+  ]
+}

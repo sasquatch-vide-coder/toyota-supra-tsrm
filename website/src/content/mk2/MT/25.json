@@ -1,0 +1,175 @@
+{
+  "page_id": "MT-25",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "W58 Transmission Assembly Procedures",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Front view of clutch hub showing internal shifting key mechanism",
+      "labels": [
+        "Front"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      },
+      "diagram_id": "WM0131"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "16. INSERT NO. 3 CLUTCH HUB INTO HUB SLEEVE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install No. 3 clutch hub and the shifting keys to the hub sleeve.",
+        "(b) Install the shifting key springs under the shifting keys."
+      ]
+    },
+    {
+      "type": "caution",
+      "text": "Install the key springs positioned so that their end gaps are not in line."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Cross-section view showing SST tool positioned above hub assembly for installing shifting key retainer",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 26,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      },
+      "diagram_id": "WM0132"
+    },
+    {
+      "type": "text",
+      "text": "(c) Using SST, install the shifting key retainer."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09238-47012"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing SST tool being used to drive in No. 3 clutch hub into countershaft assembly",
+      "labels": [],
+      "bbox": {
+        "top": 42,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      },
+      "diagram_id": "WM0133"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "17. INSTALL NO. 3 CLUTCH HUB"
+    },
+    {
+      "type": "text",
+      "text": "Using SST, drive in No. 3 clutch hub."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09316-60010",
+      "alternate_number": "09316-00010"
+    },
+    {
+      "type": "notice",
+      "text": "When installing the clutch hub, support the countershaft in front with a 3.5 lb hammer or equivalent."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hands installing snap ring onto shaft with measurement marks indicated",
+      "labels": [],
+      "bbox": {
+        "top": 58,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      },
+      "diagram_id": "WM0134 WM0135"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "18. INSTALL SNAP RING"
+    },
+    {
+      "type": "text",
+      "text": "Select a snap ring that will allow minimum axial play and install it on the shaft."
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Mark",
+        "Thickness",
+        "mm (in.)"
+      ],
+      "rows": [
+        [
+          "2",
+          "2.06 — 2.11",
+          "(0.0811 — 0.0831)"
+        ],
+        [
+          "3",
+          "2.12 — 2.17",
+          "(0.0835 — 0.0854)"
+        ],
+        [
+          "4",
+          "2.18 — 2.23",
+          "(0.0858 — 0.0878)"
+        ],
+        [
+          "5",
+          "2.24 — 2.29",
+          "(0.0882 — 0.0902)"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Hands assembling spacer, synchronizer ring, needle roller bearing and counter fifth gear onto shaft",
+      "labels": [],
+      "bbox": {
+        "top": 74,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      },
+      "diagram_id": "WM0136"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "19. INSTALL SPACER, SYNCHRONIZER RING, NEEDLE ROLLER BEARING AND COUNTER FIFTH GEAR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the bearing spacer.",
+        "(b) Apply gear oil to the needle roller bearings.",
+        "(c) Assemble the counter 5th gear, synchronizer ring and needle roller bearings."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "page_id": "EC-12",
+  "section_header": "EMISSION CONTROL SYSTEMS — Exhaust Gas Recirculation (EGR) System",
+  "title": "INSPECTION OF EGR VALVE",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "INSPECTION OF EGR VALVE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. CHECK AND CLEAN FILTER IN EGR VACUUM MODULATOR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check the filter for contamination or damage.",
+        "(b) Using compressed air, clean the filter."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "EGR vacuum modulator assembly showing filter location and components in exploded view",
+      "labels": [
+        "Filter"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. PREPARATION"
+    },
+    {
+      "type": "text",
+      "text": "Disconnect the vacuum hose from the EGR valve and, using a three way union, connect a vacuum gauge to it."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Vacuum gauge connected to EGR system via three-way union with multiple hoses",
+      "labels": [
+        "Vacuum Gauge"
+      ],
+      "bbox": {
+        "top": 30,
+        "left": 3,
+        "width": 37,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. CHECK SEATING OF EGR VALVE"
+    },
+    {
+      "type": "text",
+      "text": "Start the engine and check that the engine starts and runs at idle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. CHECK VSV WITH COLD ENGINE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) The coolant temperature should be below 57°C (135°F).",
+        "(b) Check that the vacuum gauge indicates zero at 2,500 rpm."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Two gauge displays showing tachometer at 2,500 rpm and vacuum gauge reading for cold engine test",
+      "labels": [
+        "COLD",
+        "2,500 rpm",
+        "RPM",
+        "mmHg",
+        "Tachometer",
+        "Vacuum Gauge"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 3,
+        "width": 37,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. CHECK VSV AND EGR VACUUM MODULATOR WITH WARM ENGINE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Warm up the engine.",
+        "(b) Check that the vacuum gauge indicates about 70 mm Hg (2.76 in.Hg, 9.3 kPa) at 2,500 rpm.",
+        "(c) Check that the vacuum gauge indicates zero at idle."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Two gauge displays showing tachometer at 2,500 rpm and vacuum gauge reading showing low vacuum for hot engine test",
+      "labels": [
+        "HOT",
+        "2,500 rpm",
+        "Low Vacuum",
+        "RPM",
+        "mmHg",
+        "Tachometer",
+        "Vacuum Gauge"
+      ],
+      "bbox": {
+        "top": 75,
+        "left": 3,
+        "width": 37,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Disconnect the vacuum hose from R port of the EGR vacuum modulator and connect R port directly to the intake manifold with another hose.",
+        "(e) Check that the vacuum gauge indicates high vacuum at 2,500 rpm."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: As a large amount of EGR gas enters, the engine will misfire."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(f) Disconnect the vacuum gauge and reconnect the vacuum hoses to the proper locations."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Vacuum gauge being connected to EGR system showing direct connection setup",
+      "labels": [
+        "Vacuum Gauge"
+      ],
+      "bbox": {
+        "top": 95,
+        "left": 3,
+        "width": 37,
+        "height": 20
+      }
+    }
+  ]
+}

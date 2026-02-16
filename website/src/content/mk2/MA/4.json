@@ -1,0 +1,171 @@
+{
+  "page_id": "MA-4",
+  "section_header": "MAINTENANCE — Maintenance Operations",
+  "title": "MAINTENANCE OPERATIONS",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ENGINE"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cold Engine Operations"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1",
+          "title": "REPLACE TIMING BELT",
+          "steps": [
+            {
+              "label": "(a)",
+              "text": "Remove the timing belt. (See pages EM-11 to 13)"
+            },
+            {
+              "label": "(b)",
+              "text": "Install the timing belt. (See pages EM-15 to 17)"
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "title": "INSPECT V-RIBBED TYPE DRIVE BELT (ALTERNATOR) AND CONVENTIONAL TYPE DRIVE BELTS (PS PUMP AND A/C COMPRESSOR)",
+          "steps": [
+            {
+              "label": "(a)",
+              "text": "Visually check the belt for separation of the adhesive rubber above and below the cord, cord separation from the belt side, severed cord, separation of the rib from the adhesive rubber, cracking or separation of the ribs, torn or worn ribs or cracks in the inner ridges of the ribs. Conventional type only: Check that the belt does not touch the bottom of the pulley groove. If necessary, replace the drive belt."
+            },
+            {
+              "label": "(b)",
+              "text": "Using a belt tension gauge, check the drive belt tension."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Belt tension gauge:",
+      "headers": [
+        "Type",
+        "Part Number"
+      ],
+      "rows": [
+        [
+          "Nippondenso",
+          "BTG-20 (96506-00020) or"
+        ],
+        [
+          "Borroughs",
+          "No. BT-33-73F"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Drive belt tension:",
+      "headers": [
+        "Type",
+        "Condition",
+        "Tension"
+      ],
+      "rows": [
+        [
+          "V-ribbed type",
+          "Used belt",
+          "135 ± 20 lb"
+        ],
+        [
+          "",
+          "New belt",
+          "170 ± 10 lb"
+        ],
+        [
+          "Conventional type",
+          "Used belt",
+          "80 ± 20 lb"
+        ],
+        [
+          "",
+          "New belt",
+          "125 ± 25 lb"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If necessary, adjust the drive belt tension."
+    },
+    {
+      "type": "notice",
+      "text": "\"New belt\" refers to a belt which has been used less than 5 minutes on a running engine."
+    },
+    {
+      "type": "notice",
+      "text": "\"Used belt\" refers to a belt which has been used on a running engine for 5 minutes or more."
+    },
+    {
+      "type": "notice",
+      "text": "After replacing the drive belt, check that it fits properly in the ribbed grooves, especially in the places difficult to see."
+    },
+    {
+      "type": "notice",
+      "text": "After installing a new belt, run the engine for about 5 minutes and then recheck the tension."
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Belt tension gauges showing three types: Nippondenso (dial gauge with spring), middle gauge (with circular dial), and Borroughs (hanging weight-based gauge)",
+      "labels": [
+        "Nippondenso",
+        "Borroughs",
+        "COVER GAUGE",
+        "ECC003 ECC004 ECC015"
+      ],
+      "bbox": {
+        "top": 15,
+        "left": 5,
+        "width": 45,
+        "height": 35
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "V-ribbed belt installation examples showing correct and wrong patterns for belt ribs",
+      "labels": [
+        "CORRECT",
+        "WRONG",
+        "WRONG",
+        "PBC01"
+      ],
+      "bbox": {
+        "top": 52,
+        "left": 5,
+        "width": 45,
+        "height": 15
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Conventional belt installation showing correct and wrong clearance in pulley groove",
+      "labels": [
+        "CORRECT",
+        "WRONG",
+        "Clearance",
+        "MAA009"
+      ],
+      "bbox": {
+        "top": 69,
+        "left": 5,
+        "width": 45,
+        "height": 20
+      }
+    }
+  ]
+}

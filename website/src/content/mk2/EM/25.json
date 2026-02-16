@@ -1,0 +1,213 @@
+{
+  "page_id": "EM-25",
+  "section_header": "ENGINE MECHANICAL — Cylinder Head",
+  "title": "INSPECT VALVE STEM GUIDE WEAR / REPLACE VALVE GUIDE",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. INSPECT VALVE STEM GUIDE WEAR"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Measuring valve guide inside diameter using a dial indicator or telescoping gauge, with top-down view of valve guide shown in circular inset",
+      "labels": [
+        "Dial indicator/telescoping gauge",
+        "Valve guide"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using a dial indicator or telescoping gauge, measure the inside diameter of the valve guide."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Standard inside diameter:",
+      "headers": [
+        "Measurement",
+        "mm",
+        "in."
+      ],
+      "rows": [
+        [
+          "",
+          "8.01 — 8.03 mm",
+          "(0.3154 — 0.3161 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Measuring valve stem diameter using a micrometer, with side view of valve shown",
+      "labels": [
+        "Micrometer",
+        "Valve stem"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Using a micrometer, measure the diameter of the valve stem."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Standard valve stem diameter:",
+      "headers": [
+        "Type",
+        "mm",
+        "in."
+      ],
+      "rows": [
+        [
+          "Intake",
+          "7.970 — 7.985 mm",
+          "(0.3138 — 0.3144 in.)"
+        ],
+        [
+          "Exhaust",
+          "7.965 — 7.980 mm",
+          "(0.3136 — 0.3142 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Subtract the valve stem measurement from the valve guide measurement."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Standard oil clearance:",
+      "headers": [
+        "Type",
+        "mm",
+        "in."
+      ],
+      "rows": [
+        [
+          "Intake",
+          "0.025 — 0.060 mm",
+          "(0.0010 — 0.0024 in.)"
+        ],
+        [
+          "Exhaust",
+          "0.030 — 0.065 mm",
+          "(0.0012 — 0.0026 in.)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Maximum oil clearance:",
+      "headers": [
+        "Type",
+        "mm",
+        "in."
+      ],
+      "rows": [
+        [
+          "Intake",
+          "0.08 mm (0.0031 in.)",
+          ""
+        ],
+        [
+          "Exhaust",
+          "0.10 mm (0.0039 in.)",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If the clearance is greater than following values, replace the valve and guide."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hand checking valve stem clearance in guide with circular detail view showing measurement point",
+      "labels": [],
+      "bbox": {
+        "top": 42,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. IF NECESSARY, REPLACE VALVE GUIDE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Brake the valve guide using a brass bar and hammer.",
+        "(b) Heat the cylinder head to approx. 90°C (194°F)."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Cylinder head being heated in an oven to 90 degrees Celsius",
+      "labels": [
+        "90°C"
+      ],
+      "bbox": {
+        "top": 61,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Using SST tool and hammer to drive out valve guide from cylinder head",
+      "labels": [
+        "SST",
+        "SST 09201-60011"
+      ],
+      "bbox": {
+        "top": 80,
+        "left": 4,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Using SST and a hammer, drive out the valve guide."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09201-60011",
+      "description": ""
+    }
+  ]
+}

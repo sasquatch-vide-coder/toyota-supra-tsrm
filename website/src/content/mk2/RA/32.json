@@ -1,0 +1,184 @@
+{
+  "page_id": "RA-32",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Cross-sectional view of differential showing side washer placement and ring gear assembly",
+      "labels": [
+        "Side Washer",
+        "Side Washer/Gear"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 4,
+        "width": 38,
+        "height": 16
+      }
+    },
+    {
+      "type": "text",
+      "text": "(k) If not within specification, adjust by either increasing or decreasing the number of washers on both sides by an equal amount."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: There should be no clearance between the plate washer and case. Insure that there is ring gear backlash."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. ADJUST SIDE BEARING PRELOAD"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing removal of ring gear teeth plate washer with side washer highlighted",
+      "labels": [
+        "Side Washer"
+      ],
+      "bbox": {
+        "top": 20,
+        "left": 4,
+        "width": 38,
+        "height": 16
+      }
+    },
+    {
+      "type": "text",
+      "text": "(a) After adjustment with the backlash as referenced, remove the ring gear teeth plate washer and measure the thickness."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing installation or tapping of side washer into differential housing",
+      "labels": [
+        "Side Washer"
+      ],
+      "bbox": {
+        "top": 37,
+        "left": 4,
+        "width": 38,
+        "height": 16
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Install a new washer of 0.06 ~ 0.09 mm (0.0024 ~ 0.0035 in.) thicker than the washer removed."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Select a washer which can be pressed in 2/3 of the way by finger."
+    },
+    {
+      "type": "text",
+      "text": "(c) Using a plastic hammer, tap in the side washer."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Cross-sectional view showing side washer and differential assembly for backlash check",
+      "labels": [
+        "Side Washer"
+      ],
+      "bbox": {
+        "top": 54,
+        "left": 4,
+        "width": 38,
+        "height": 16
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Recheck the ring gear backlash."
+    },
+    {
+      "type": "text",
+      "text": "Backlash: 0.13 ~ 0.18 mm (0.0051 ~ 0.0071 in.)"
+    },
+    {
+      "type": "text",
+      "text": "(e) If not within standard, adjust by either increasing or decreasing the washers on both sides by equal amount."
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: The backlash will change about 0.02 mm (0.0008 in.) with 0.03 mm (0.0012 in.) alteration of the side washers."
+    },
+    {
+      "type": "table",
+      "caption": "Washer thickness",
+      "headers": [
+        "Thickness",
+        "mm (in.)",
+        "Thickness",
+        "mm (in.)"
+      ],
+      "rows": [
+        [
+          "2.57 ~ 2.65 (0.1012 ~ 0.1020)",
+          "2.93 ~ 2.96 (0.1154 ~ 0.1161)"
+        ],
+        [
+          "2.60 ~ 2.68 (0.1024 ~ 0.1055)",
+          "2.96 ~ 2.99 (0.1165 ~ 0.1177)"
+        ],
+        [
+          "2.63 ~ 2.66 (0.1036 ~ 0.1043)",
+          "2.99 ~ 3.01 (0.1177 ~ 0.1185)"
+        ],
+        [
+          "2.66 ~ 2.68 (0.1047 ~ 0.1055)",
+          "3.02 ~ 3.04 (0.1189 ~ 0.1197)"
+        ],
+        [
+          "2.69 ~ 2.71 (0.1059 ~ 0.1067)",
+          "3.05 ~ 3.07 (0.1201 ~ 0.1209)"
+        ],
+        [
+          "2.72 ~ 2.74 (0.1071 ~ 0.1079)",
+          "3.08 ~ 3.10 (0.1213 ~ 0.1220)"
+        ],
+        [
+          "2.75 ~ 2.77 (0.1083 ~ 0.1091)",
+          "3.11 ~ 3.13 (0.1224 ~ 0.1232)"
+        ],
+        [
+          "2.78 ~ 2.80 (0.1094 ~ 0.1102)",
+          "3.14 ~ 3.16 (0.1236 ~ 0.1244)"
+        ],
+        [
+          "2.81 ~ 2.83 (0.1106 ~ 0.1114)",
+          "3.17 ~ 3.19 (0.1248 ~ 0.1256)"
+        ],
+        [
+          "2.84 ~ 2.86 (0.1118 ~ 0.1126)",
+          "3.20 ~ 3.22 (0.1260 ~ 0.1268)"
+        ],
+        [
+          "2.87 ~ 2.89 (0.1130 ~ 0.1138)",
+          "3.23 ~ 3.25 (0.1272 ~ 0.1280)"
+        ],
+        [
+          "2.90 ~ 2.92 (0.1142 ~ 0.1150)",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Cross-sectional view of differential showing final side washer placement on both sides",
+      "labels": [
+        "Side Washer",
+        "Side Washer"
+      ],
+      "bbox": {
+        "top": 71,
+        "left": 4,
+        "width": 38,
+        "height": 16
+      }
+    }
+  ]
+}

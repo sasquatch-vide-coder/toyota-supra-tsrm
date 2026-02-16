@@ -1,0 +1,135 @@
+{
+  "page_id": "EM-16",
+  "section_header": "ENGINE MECHANICAL — Timing Belt",
+  "title": "ENGINE MECHANICAL — Timing Belt",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Camshaft timing pulleys showing EX side and IN side with guide positioning",
+      "labels": [
+        "Guide",
+        "EX",
+        "IN"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 7,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Install the camshaft timing pulleys with the guides facing the directions indicated below."
+    },
+    {
+      "type": "text",
+      "text": "EX side ....... With the pulley guide facing the No. 2 timing belt cover side"
+    },
+    {
+      "type": "text",
+      "text": "IN side ........ With the pulley guide facing the front side"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Alignment of matchmarks on timing belt cover and camshaft/crankshaft pulleys",
+      "labels": [],
+      "bbox": {
+        "top": 20,
+        "left": 7,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Align the matchmarks of the No. 2 timing belt cover with those of the camshaft timing pulleys and of the crankshaft pulley."
+    },
+    {
+      "type": "notice",
+      "text": "Make sure that the No. 1 cylinder is set to TDC/compression."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Timing belt installation showing tension between crankshaft and camshaft pulleys",
+      "labels": [
+        "Tension"
+      ],
+      "bbox": {
+        "top": 38,
+        "left": 7,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(d) Install the timing belt with the belt having no tension between the crankshaft timing pulley and the camshaft timing pulley on the exhaust side."
+    },
+    {
+      "type": "notice",
+      "text": "Install the timing belt while the engine is cold."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Idler pulley set bolt loosening and timing belt stretching at points A and B",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "bbox": {
+        "top": 56,
+        "left": 7,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(e) Loosen the idler pulley set bolt and stretch the timing belt. Torque the idler pulley set bolt."
+    },
+    {
+      "type": "torque_spec",
+      "component": "Idler pulley set bolt",
+      "value": "500 kg-cm (36 ft-lb, 49 N·m)"
+    },
+    {
+      "type": "notice",
+      "text": "Make sure that the timing belt tension at A is equal to that at B."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Camshaft pulley showing three overlapped pin holes for adjustment",
+      "labels": [
+        "Overlapped"
+      ],
+      "bbox": {
+        "top": 74,
+        "left": 7,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "text",
+      "text": "(f) There are three pin holes on the camshaft and timing pulleys."
+    },
+    {
+      "type": "text",
+      "text": "Select one overlapped hole and insert the pin into it."
+    },
+    {
+      "type": "notice",
+      "text": "• When inserting a pin into a hole, find one that is nearly overlapped and rotate the crankshaft slightly to overlap it and insert the pin."
+    },
+    {
+      "type": "notice",
+      "text": "• The crankshaft pulley angle can be adjusted approximately 3° by changing the pin hole to the next one."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "page_id": "EC-16",
+  "section_header": "EMISSION CONTROL SYSTEMS — Three-Way Catalyst (TWC) System",
+  "title": "INSPECTION OF HEAT INSULATOR and REPLACEMENT OF CATALYTIC CONVERTER",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "INSPECTION OF HEAT INSULATOR"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Side view diagram showing heat insulator positioned above catalytic converter in exhaust system",
+      "labels": [
+        "Heat Insulator"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 55,
+        "height": 28
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CHECK HEAT INSULATOR FOR DAMAGE",
+        "CHECK FOR ADEQUATE CLEARANCE BETWEEN CATALYTIC CONVERTER AND HEAT INSULATOR"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REPLACEMENT OF CATALYTIC CONVERTER"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing catalytic converter with mounting bolts and connection points to exhaust pipes",
+      "labels": [],
+      "bbox": {
+        "top": 36,
+        "left": 5,
+        "width": 55,
+        "height": 22
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "type": "text",
+          "text": "REMOVE CONVERTER"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Jack up the vehicle.",
+            "Check that the converter is cool.",
+            "Remove the bolts at the front and rear of the converter.",
+            "Remove the converter and gaskets."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "INSTALL CONVERTER"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Place new gaskets on the converter front and rear pipes, and connect the converter to the exhaust pipes.",
+            "Tighten the bolts.",
+            "Reinstall the bracket bolts and tighten them."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Catalyst — Exhaust pipe",
+      "value": "440 kg-cm (32 ft-lb, 43 N·m)"
+    }
+  ]
+}

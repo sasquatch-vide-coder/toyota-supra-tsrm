@@ -1,0 +1,94 @@
+{
+  "page_id": "AT-69",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Center Support Assembly)",
+  "title": "Center Support Assembly",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram of Center Support Assembly showing all component parts in sequence",
+      "labels": [
+        "Snap Ring",
+        "Flange",
+        "Disc",
+        "Plate",
+        "Snap Ring",
+        "Spring Retainer",
+        "Piston Return Spring",
+        "B₁ Piston",
+        "Center Support",
+        "Plate",
+        "Disc",
+        "Flange",
+        "Snap Ring",
+        "Snap Ring",
+        "Spring Retainer",
+        "Piston Return Spring",
+        "B₂ Piston",
+        "Sun Gear",
+        "Brake Hub",
+        "Retainer",
+        "Snap Ring",
+        "Retainer",
+        "Oil Seal Ring",
+        "One-way Clutch"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 5,
+        "width": 90,
+        "height": 48
+      },
+      "notes": [
+        "◆ Non-reusable part",
+        "◆ Retainer One-way Clutch"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "DISASSEMBLY OF CENTER SUPPORT ASSEMBLY"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "REMOVE SNAP RING FROM END OF SUN GEAR SHAFT",
+        "PULL CENTER SUPPORT ASSEMBLY FROM SHAFT"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands removing snap ring from end of sun gear shaft",
+      "labels": [],
+      "bbox": {
+        "top": 52,
+        "left": 5,
+        "width": 35,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        "REMOVE SNAP RING FROM FRONT OF CENTER SUPPORT ASSEMBLY (NO. 1 BRAKE)",
+        "REMOVE CLUTCH FLANGE, DISCS AND PLATES (NO. 1 BRAKE)"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing hands removing snap ring from front of center support assembly",
+      "labels": [],
+      "bbox": {
+        "top": 72,
+        "left": 5,
+        "width": 35,
+        "height": 20
+      }
+    }
+  ]
+}

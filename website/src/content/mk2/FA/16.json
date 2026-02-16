@@ -1,0 +1,148 @@
+{
+  "page_id": "FA-16",
+  "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension",
+  "title": "REPLACEMENT OF LOWER ARM DUST COVER and REPLACEMENT OF LOWER ARM BUSHING",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REPLACEMENT OF LOWER ARM DUST COVER"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands removing dust cover set ring and dust cover from lower arm ball joint assembly",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1",
+          "heading": "REMOVE DUST COVER",
+          "text": "Remove the dust cover set ring and dust cover."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Detailed cross-section diagram of dust cover assembly showing sections A and B, escape valve C, wire ends toward rear side of ball joint, and plug location",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "Wire Ends toward Rear Side of Ball Joint",
+        "Plug"
+      ],
+      "bbox": {
+        "top": 25,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "2",
+          "heading": "INSTALL DUST COVER",
+          "steps": [
+            "(a) Apply ball joint grease to section \"A\" and \"B\" of a new dust cover.",
+            "(b) Install the dust cover with the escape valve \"C\" facing the rear of car.",
+            "(c) Wind wire twice around the dust cover and bend the wire knot down.",
+            "(d) Remove the plug and install the grease fitting.",
+            "(e) Fill with ball joint grease."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Molybdenum Disulphide Lithium Base Grease:\nNLGI No. 1 or No. 2"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(f) Remove the grease fitting and install the plug."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REPLACEMENT OF LOWER ARM BUSHING"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing SST (Special Service Tool) being used to press out bushing from lower arm",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "1",
+          "heading": "REMOVE LOWER ARM BUSHING",
+          "text": "Using SST, press out the bushing from the lower arm."
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09726-12022",
+      "description": "(09726-01030, 09726-01040, 09726-01010)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing SST being used to press new bushing into lower arm",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 65,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "number": "2",
+          "heading": "INSTALL LOWER ARM BUSHING",
+          "text": "Using SST, press the bushing into the lower arm."
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09726-12022",
+      "description": "(09726-01030, 09726-01040, 09726-01020)"
+    }
+  ]
+}

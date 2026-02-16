@@ -1,0 +1,167 @@
+{
+  "page_id": "AT-104",
+  "section_header": "AUTOMATIC TRANSMISSION — Component Groups (Torque Converter, Electrical Parts)",
+  "title": "Component Groups (Torque Converter, Electrical Parts)",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing hands testing a one-way clutch, with one hand holding the clutch housing and the other rotating the inner component",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 5,
+        "width": 40,
+        "height": 25
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. TEST ONE-WAY CLUTCH"
+    },
+    {
+      "type": "text",
+      "text": "The clutch should lock when turned counterclockwise, and should rotate freely and smoothly clockwise. Less than 25 kg-cm (22 in.-lb, 2.5 N·m) of torque should be required to rotate the clutch clockwise. If necessary, clean the converter and retest the clutch. Replace the converter if the clutch still fails the test."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Electrical Parts"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing an ohmmeter connected to a solenoid, testing resistance between terminal and body",
+      "labels": [],
+      "bbox": {
+        "top": 31,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSPECT SOLENOID"
+    },
+    {
+      "type": "text",
+      "text": "Check the resistance between the terminal and body."
+    },
+    {
+      "type": "text",
+      "text": "Standard resistance: 11 — 15 Ω"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing neutral start switch with terminal layout, displaying terminals labeled R, B, N on left side and L, C, 2 on right side",
+      "labels": [
+        "R",
+        "B",
+        "N",
+        "L",
+        "C",
+        "2"
+      ],
+      "bbox": {
+        "top": 47,
+        "left": 5,
+        "width": 40,
+        "height": 15
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSPECT NEUTRAL START SWITCH"
+    },
+    {
+      "type": "text",
+      "text": "Using an ohmmeter, check the continuity of the terminals for each switch position shown in the table below. If continuity between the terminals is not as specified, replace the switch."
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Range",
+        "B",
+        "N",
+        "C",
+        "R",
+        "2",
+        "L"
+      ],
+      "rows": [
+        [
+          "P",
+          "○",
+          "○",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "",
+          "",
+          "○",
+          "○",
+          "",
+          ""
+        ],
+        [
+          "N",
+          "○",
+          "○",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          "○",
+          "",
+          "○",
+          ""
+        ],
+        [
+          "L",
+          "",
+          "",
+          "○",
+          "",
+          "",
+          "○"
+        ]
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing an ohmmeter connected to a speed sensor for testing",
+      "labels": [],
+      "bbox": {
+        "top": 73,
+        "left": 5,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSPECT SPEED SENSOR"
+    },
+    {
+      "type": "text",
+      "text": "Connect an ohmmeter to the speed sensor and check that the meter deflects when the sensor is repeatedly brought close to the rotor sensor magnet and removed from it."
+    }
+  ]
+}

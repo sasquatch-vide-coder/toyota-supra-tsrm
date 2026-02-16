@@ -1,0 +1,177 @@
+{
+  "page_id": "RA-29",
+  "section_header": "REAR AXLE AND SUSPENSION — IRS Type Differential",
+  "title": "ASSEMBLY OF DIFFERENTIAL",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing differential case assembly with ring gear",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 48,
+        "height": 18
+      },
+      "diagram_id": "RA091"
+    },
+    {
+      "type": "text",
+      "text": "(i) Check the ring gear runout."
+    },
+    {
+      "type": "text",
+      "text": "Maximum runout: 0.07 mm (0.0028 in.)"
+    },
+    {
+      "type": "text",
+      "text": "Install the differential case onto the carrier and tighten the adjusting nut just to where there is no play in the bearing."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ASSEMBLY OF DIFFERENTIAL"
+    },
+    {
+      "type": "text",
+      "text": "(See page RA-22)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "step": "1",
+          "title": "TEMPORARILY ADJUST DRIVE PINION PRELOAD",
+          "substeps": [
+            {
+              "substep": "(a)",
+              "text": "Install the following parts.",
+              "list_items": [
+                "Drive pinion",
+                "Front bearing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing drive pinion and front bearing assembly",
+      "labels": [
+        "Front Bearing"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 2,
+        "width": 48,
+        "height": 16
+      }
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: Assemble the spacer, oil slinger and oil seal after adjusting the gear contact pattern."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing companion flange installation with SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 2,
+        "width": 48,
+        "height": 17
+      },
+      "diagram_id": "RA082"
+    },
+    {
+      "type": "text",
+      "text": "(b) Install the companion flange with SST."
+    },
+    {
+      "type": "text",
+      "text": "Coat the threads of the nut with MP grease."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09557-22022"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing adjustment of drive pinion preload using SST",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 59,
+        "left": 2,
+        "width": 48,
+        "height": 17
+      },
+      "diagram_id": "RA0027"
+    },
+    {
+      "type": "text",
+      "text": "(c) Adjust the drive pinion preload by tightening the companion flange nut."
+    },
+    {
+      "type": "text",
+      "text": "Using SST to hold the flange, tighten the nut."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09330-00021"
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: As there is no spacer, tighten a little at a time, being careful not to overtighten it."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing torque wrench measuring preload",
+      "labels": [],
+      "bbox": {
+        "top": 78,
+        "left": 2,
+        "width": 48,
+        "height": 16
+      },
+      "diagram_id": "RA003"
+    },
+    {
+      "type": "text",
+      "text": "(d) Using a torque wrench, measure the preload."
+    },
+    {
+      "type": "text",
+      "text": "Preload:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Bearing Type",
+        "Preload"
+      ],
+      "rows": [
+        [
+          "New bearing",
+          "12 — 19 kg-cm\n(10.4 — 16.5 in.-lb, 1.2 — 1.9 N·m)"
+        ],
+        [
+          "Reused bearing",
+          "6 — 10 kg-cm\n(5.2 — 8.7 in.-lb, 0.6 — 1.0 N·m)"
+        ]
+      ]
+    }
+  ]
+}

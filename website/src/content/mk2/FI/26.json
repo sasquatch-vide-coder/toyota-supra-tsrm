@@ -1,0 +1,90 @@
+{
+  "page_id": "FI-26",
+  "section_header": "EFI SYSTEM — Diagnosis System",
+  "title": "EFI SYSTEM — Diagnosis System",
+  "content": [
+    {
+      "type": "table",
+      "caption": "EFI System Diagnosis Codes",
+      "headers": [
+        "Code No.",
+        "System",
+        "Diagnosis",
+        "Trouble Area",
+        "See page"
+      ],
+      "rows": [
+        [
+          "22",
+          "Water Temp. Sensor Signal",
+          "Open or short circuit in coolant temp. sensor signal.",
+          "1. Water temp. sensor circuit\n2. Water temp. sensor\n3. ECU",
+          "FI-72"
+        ],
+        [
+          "23",
+          "Intake Air Temp. Sensor Signal",
+          "Open or short circuit in intake air temp. sensor.",
+          "1. Intake air temp. sensor circuit\n2. Intake air temp. sensor\n3. ECU",
+          "FI-38"
+        ],
+        [
+          "31",
+          "Air Flow Meter Signal",
+          "Open circuit in Vc signal or Vs and E2 short circuited when idle points are closed.",
+          "1. Air flow meter circuit\n2. Air flow meter\n3. ECU",
+          "FI-37"
+        ],
+        [
+          "32",
+          "Air Flow Meter Signal",
+          "Open circuit in E2 or Vc and Vs short circuited.",
+          "Same as 31, above.",
+          "FI-37"
+        ],
+        [
+          "41",
+          "Throttle Position Sensor Signal",
+          "Open or short circuit in throttle position sensor signal.",
+          "1. Throttle position sensor circuit\n2. Throttle position sensor\n3. ECU",
+          "FI-35"
+        ],
+        [
+          "42",
+          "Vehicle Speed Sensor Signal",
+          "(A/T): Signal informing ECU that vehicle speed is 2.0 km/h or less has been input ECU for 5 seconds with engine running at 2,500 rpm or more and shift lever is in other than N or P range.\n(M/T): Signal informing ECU that vehicle speed is 2.0 km/h or less has been input ECU for 5 seconds with engine running at 2,500 rpm or more.",
+          "1. Vehicle speed sensor circuit\n2. Vehicle speed sensor\n3. Torque converter slipping\n4. ECU",
+          ""
+        ],
+        [
+          "43",
+          "Starter Signal (+ B)",
+          "No STA signal to ECU when engine is running over 800 rpm.",
+          "1. Main relay circuit\n2. IG switch circuit (starter)\n3. IG switch\n4. ECU",
+          "FI-40"
+        ],
+        [
+          "51",
+          "Switch Signal",
+          "Neutral start switch OFF or air conditioner switch ON during diagnostic check.",
+          "1. Neutral start S/W\n2. Air con. S/W\n3. ECU",
+          ""
+        ],
+        [
+          "52",
+          "Knock Sensor Signal",
+          "Open or short circuit in knock sensor.",
+          "1. Knock sensor circuit\n2. Knock sensor\n3. ECU",
+          ""
+        ],
+        [
+          "53",
+          "Knock Sensor Signal",
+          "Faulty ECU (KNOCK CPU)",
+          "ECU",
+          ""
+        ]
+      ]
+    }
+  ]
+}

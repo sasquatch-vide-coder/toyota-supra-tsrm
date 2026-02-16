@@ -1,0 +1,121 @@
+{
+  "page_id": "MT-10",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing the removal of No. 3 interlock pin using a magnetic finger tool",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "WM0031"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "step": "(h)",
+          "text": "Using a magnetic finger, remove No. 3 interlock pin."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing the process of driving out No. 3 fork shaft pin using a pin punch and hammer",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "WM0034"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "step": "(i)",
+          "text": "Using a pin punch and hammer, drive out No. 3 fork shaft pin."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing the removal of No. 4 shift fork shaft by pulling it out",
+      "labels": [],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "WM0035"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "step": "(j)",
+          "text": "Pull out No. 4 shift fork shaft."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing the removal of No. 3 shift fork, No. 3 fork shaft and reverse shift arm with the pin",
+      "labels": [],
+      "bbox": {
+        "top": 62,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "WM0036"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "step": "(k)",
+          "text": "Remove No. 3 shift fork, No. 3 fork shaft and reverse shift arm with the pin."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. REMOVE SPEEDOMETER DRIVE GEAR"
+    },
+    {
+      "type": "text",
+      "text": "Pry out both ends of the clip and remove the drive gear."
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing the removal of speedometer drive gear by prying out both ends of the clip",
+      "labels": [],
+      "bbox": {
+        "top": 81,
+        "left": 3,
+        "width": 37,
+        "height": 18
+      },
+      "reference": "WM0040"
+    }
+  ]
+}

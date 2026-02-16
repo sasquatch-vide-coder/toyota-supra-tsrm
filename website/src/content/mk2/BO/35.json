@@ -1,0 +1,36 @@
+{
+  "page_id": "BO-35",
+  "section_header": "BODY — Sun Roof",
+  "title": "SUN ROOF COMPONENTS",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view diagram showing all components of the sun roof assembly in disassembled order, including the sliding roof panel at top, guide rails and cables in middle sections, and drive motor and control switch at bottom. Components are shown in vertical arrangement indicating assembly sequence.",
+      "labels": [
+        "Sliding Roof Panel",
+        "Cable Guide Casing",
+        "Cable",
+        "Guide Rail",
+        "Front Shoe",
+        "Shim",
+        "Rear Shoe",
+        "Clip",
+        "Headlining",
+        "Wind Deflector",
+        "Guide Rail Cover",
+        "Guide Rail",
+        "Cable Guide Casing",
+        "Drive Motor",
+        "Control Switch",
+        "Center Cover"
+      ],
+      "bbox": {
+        "top": 11,
+        "left": 3,
+        "width": 94,
+        "height": 87
+      }
+    }
+  ]
+}

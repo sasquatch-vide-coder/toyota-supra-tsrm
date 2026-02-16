@@ -1,0 +1,163 @@
+{
+  "page_id": "AT-40",
+  "section_header": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "title": "AUTOMATIC TRANSMISSION — On-Vehicle Repair",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing rear support member installation to chassis with transmission positioned for center bolt installation",
+      "labels": [],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "AT0105"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL REAR SUPPORT MEMBER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the support member to the chassis and lower the transmission to allow installation of the center bolts.",
+        "(b) Install the ground strap and rubber exhaust hanger."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSTALL PROPELLER SHAFT"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing installation of speed sensor and speedometer driven gear with torque wrench",
+      "labels": [],
+      "bbox": {
+        "top": 23,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "AT0143-AT0144"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSTALL SPEED SENSOR"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. INSTALL SPEEDOMETER DRIVEN GEAR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install a new O-ring on the end of the sleeve.",
+        "(b) Install the lock plate with a bolt and washer."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. CONNECT SPEEDOMETER CABLE"
+    },
+    {
+      "type": "text",
+      "text": "Place the felt dust protector and washer on the end of the cable. Tighten the collar with pliers."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing fluid level check procedure with dipstick and container for adding fluid",
+      "labels": [],
+      "bbox": {
+        "top": 41,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "AT0162"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. LOWER VEHICLE AND CHECK FLUID LEVEL (See page MA-13)"
+    },
+    {
+      "type": "text",
+      "text": "Start the engine, shift the selector into each gear, then check the fluid level with the transmission in \"P\" range. Add fluid as necessary."
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Do not overfill."
+    },
+    {
+      "type": "text",
+      "text": "Fluid type: ATF DEXRON® II"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REMOVAL OF ROTOR SENSOR"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing removal of extension housing and speedometer drive gear",
+      "labels": [],
+      "bbox": {
+        "top": 59,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "AT0143"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE EXTENSION HOUSING (See page AT-38)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. REMOVE SPEEDOMETER DRIVE GEAR"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Using snap ring pliers, remove the snap ring.",
+        "(b) Slide off the speedometer gear.",
+        "(c) Remove the lock ball."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing removal of rotor sensor from output shaft",
+      "labels": [],
+      "bbox": {
+        "top": 77,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      },
+      "diagram_number": "AT0152"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. REMOVE ROTOR SENSOR FROM OUTPUT SHAFT"
+    }
+  ]
+}

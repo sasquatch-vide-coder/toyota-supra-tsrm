@@ -1,0 +1,151 @@
+{
+  "page_id": "FI-8",
+  "section_header": "EFI SYSTEM — Inspection Precautions",
+  "title": "Inspection Precautions",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands releasing lock and pulling connector apart, showing lock spring mechanism",
+      "labels": [
+        "Lock",
+        "Lock Spring"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 38,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 8,
+      "items": [
+        {
+          "number": "8",
+          "text": "Sufficient care is required when pulling out and inserting wiring connectors.",
+          "subitems": [
+            {
+              "label": "(a)",
+              "text": "Release the lock and pull out the connector, pulling on the connectors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hands fully inserting and locking a connector",
+      "labels": [
+        "Lock"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(b)",
+          "text": "Fully insert the connector and insure that it is locked."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hands removing water-proofing rubber from a connector",
+      "labels": [],
+      "bbox": {
+        "top": 41,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 9,
+      "items": [
+        {
+          "number": "9",
+          "text": "When inspecting a connector with a volt/ohmmeter.",
+          "subitems": [
+            {
+              "label": "(a)",
+              "text": "Carefully take out the water-proofing rubber if it is a water-proof type connector."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Tester probe being inserted into connector from wiring side",
+      "labels": [],
+      "bbox": {
+        "top": 59,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "label": "(b)",
+          "text": "Insert the tester probe into the connector from the wiring side when checking the continuity, amperage or voltage."
+        },
+        {
+          "label": "(c)",
+          "text": "Do not apply unnecessary force to the terminal."
+        },
+        {
+          "label": "(d)",
+          "text": "After checking, install the water-proofing rubber on the connector securely."
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "SST tools shown with injector and cold start injector connectors",
+      "labels": [],
+      "bbox": {
+        "top": 77,
+        "left": 3,
+        "width": 38,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 10,
+      "items": [
+        {
+          "number": "10",
+          "text": "Use SST for inspection or test of the injector, cold start injector or its wiring connector."
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09842-30020 and 09842-30050",
+      "description": "SST for inspection or test of the injector, cold start injector or its wiring connector"
+    }
+  ]
+}

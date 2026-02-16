@@ -1,0 +1,150 @@
+{
+  "page_id": "FI-65",
+  "section_header": "EFI SYSTEM — Air Induction System",
+  "title": "ADJUST THROTTLE POSITION SENSOR / REPLACEMENT OF THROTTLE POSITION SENSOR",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "3. ADJUST THROTTLE POSITION SENSOR"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hands loosening two screws on the throttle position sensor mounted on the throttle body",
+      "labels": [],
+      "bbox": {
+        "top": 2,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Loosen the two sensor screws."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Ohmmeter connected to throttle position sensor terminals IDL and E2 on the throttle body",
+      "labels": [
+        "IDL",
+        "E2"
+      ],
+      "bbox": {
+        "top": 22,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) Connect the ohmmeter to the throttle position sensor terminals IDL and E2.",
+        "(c) Insert a thickness gauge (0.50 mm or 0.0197 in.) between the throttle stop screw and lever. Gradually turn the sensor clockwise until the ohmmeter deflects, and secure the sensor with two screws."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Thickness gauge being inserted between throttle stop screw and lever on throttle body",
+      "labels": [
+        "Thickness Gauge"
+      ],
+      "bbox": {
+        "top": 40,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(d) Using a thickness gauge, recheck the continuity between terminals IDL and E2."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "Clearance between lever and stop screw",
+        "Continuity (IDL — E2)"
+      ],
+      "rows": [
+        [
+          "0.50 mm (0.0197 in.)",
+          "Continuity"
+        ],
+        [
+          "0.90 mm (0.0354 in.)",
+          "No continuity"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "REPLACEMENT OF THROTTLE POSITION SENSOR"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE THROTTLE POSITION SENSOR"
+    },
+    {
+      "type": "text",
+      "text": "Remove two screws and the sensor from the throttle body."
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hands removing throttle position sensor from throttle body by removing two screws",
+      "labels": [],
+      "bbox": {
+        "top": 60,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. INSTALL THROTTLE POSITION SENSOR"
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Hand installing throttle position sensor onto throttle body",
+      "labels": [],
+      "bbox": {
+        "top": 78,
+        "left": 3,
+        "width": 37,
+        "height": 19
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Check that the throttle valve is fully closed.",
+        "(b) Place the sensor on the throttle body as shown in the figure.",
+        "(c) Turn the sensor clockwise, and temporarily install the two screws."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. ADJUST THROTTLE POSITION SENSOR"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "page_id": "EC-2",
+  "section_header": "EMISSION CONTROL SYSTEMS — System Purpose",
+  "title": "SYSTEM PURPOSE",
+  "content": [
+    {
+      "type": "table",
+      "caption": null,
+      "headers": [
+        "System",
+        "Abbreviation",
+        "Purpose"
+      ],
+      "rows": [
+        [
+          "Positive crankcase ventilation",
+          "PCV",
+          "Reduces blow-by gas (HC)"
+        ],
+        [
+          "Fuel evaporative emission control",
+          "EVAP",
+          "Reduces evaporative HC"
+        ],
+        [
+          "Dash pot",
+          "DP",
+          "Reduces HC and CO"
+        ],
+        [
+          "Exhaust gas recirculation",
+          "EGR",
+          "Reduces NOx"
+        ],
+        [
+          "Three-way catalyst",
+          "TWC",
+          "Reduces HC, CO and NOx"
+        ],
+        [
+          "Electronic fuel injection*",
+          "EFI",
+          "Regulates all engine conditions for reduction of exhaust emissions"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remarks  *For inspection and repair of the EFI system, refer to EFI section."
+    }
+  ]
+}

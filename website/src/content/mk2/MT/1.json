@@ -1,0 +1,64 @@
+{
+  "page_id": "MT-1",
+  "section_header": "MANUAL TRANSMISSION",
+  "title": "MANUAL TRANSMISSION",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "MANUAL TRANSMISSION"
+    },
+    {
+      "type": "table",
+      "caption": "Table of Contents",
+      "headers": [
+        "Topic",
+        "Page"
+      ],
+      "rows": [
+        [
+          "TROUBLESHOOTING",
+          "MT-2"
+        ],
+        [
+          "W58 TRANSMISSION",
+          "MT-3"
+        ],
+        [
+          "Removal of Transmission",
+          "MT-3"
+        ],
+        [
+          "Components",
+          "MT-5"
+        ],
+        [
+          "Disassembly of Transmission",
+          "MT-7"
+        ],
+        [
+          "Inspection of Transmission Components",
+          "MT-14"
+        ],
+        [
+          "Assembly of Transmission",
+          "MT-21"
+        ],
+        [
+          "Installation of Transmission",
+          "MT-34"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "MT",
+      "bbox": {
+        "top": 85,
+        "left": 92,
+        "width": 8,
+        "height": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "page_id": "AT-12",
+  "section_header": "AUTOMATIC TRANSMISSION — Electric Control",
+  "title": "TROUBLESHOOTING",
+  "content": [
+    {
+      "type": "notice",
+      "text": "NOTE:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "If diagnostic code No. 42, 61, 62 or 63 occur, the overdrive indicator light will begin to blink immediately to warn the driver. However, an impact or shock may cause the blinking to stop although the code will still be retained in the ECT ECU memory until canceled out.",
+        "There is no warning for diagnostic code No. 64.",
+        "In event of a simultaneous malfunction of both speed sensors No. 1 and No. 2, no diagnostic code will appear and fail-safe will not function. However, when driving in \"D\" range, the transmission will not up-shift from first gear regardless of the vehicle speed."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trouble No. 1    Blinking overdrive indicator light (while driving)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Troubleshooting flowchart for blinking overdrive indicator light. The flowchart starts with output diagnosis code, then checks if it's Code No. 62, 63, 64. If yes, suggests to try another ECT ECU. If no (Code No. 42, 61), indicates faulty speed sensor circuit or faulty speed sensor. Next step is to disconnect ECT ECU connector and check if there is 11-15 Ω between connector terminal S₁, S₂, S₃ - GND. If no, indicates faulty solenoid circuit or faulty solenoid. If yes, suggests to try another ECT ECU.",
+      "labels": [
+        "Output diagnosis code (See page AT-8)",
+        "Code No. 62, 63, 64",
+        "Code No. 42, 61",
+        "Faulty speed sensor circuit",
+        "Faulty speed sensor",
+        "Disconnect ECT ECU connector and there is 11 - 15 Ω between connector terminal S₁, S₂, S₃ - GND",
+        "No",
+        "Yes",
+        "Faulty solenoid circuit",
+        "Faulty solenoid",
+        "Try another ECT ECU"
+      ],
+      "bbox": {
+        "top": 23,
+        "left": 3,
+        "width": 94,
+        "height": 45
+      }
+    }
+  ]
+}

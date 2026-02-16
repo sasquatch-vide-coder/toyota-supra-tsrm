@@ -1,0 +1,193 @@
+{
+  "page_id": "AT-13",
+  "section_header": "AUTOMATIC TRANSMISSION — Electric Control",
+  "title": "Trouble No. 2 - No shifting",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trouble No. 2     No shifting"
+    },
+    {
+      "type": "table",
+      "caption": "Warm up engine",
+      "headers": [],
+      "rows": [
+        [
+          "Coolant temp:",
+          "80°C (176°F)"
+        ],
+        [
+          "ATF temp:",
+          "50 — 80°C (122 — 176°F)"
+        ]
+      ],
+      "bbox": {
+        "top": 8,
+        "left": 10,
+        "width": 45,
+        "height": 10
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "text": "Output diagnostic code (See page AT-8)",
+      "bbox": {
+        "top": 18,
+        "left": 10,
+        "width": 45,
+        "height": 8
+      }
+    },
+    {
+      "type": "flowchart_decision",
+      "text": "No indicate",
+      "bbox": {
+        "top": 26,
+        "left": 10,
+        "width": 25,
+        "height": 3
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "text": "Diagnosis code → Proceed to trouble No. 1 (AT-12)",
+      "bbox": {
+        "top": 18,
+        "left": 55,
+        "width": 45,
+        "height": 8
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "text": "Connect a voltmeter to the DG terminal and body. Does DG terminal voltage vary with changes in throttle opening?",
+      "bbox": {
+        "top": 30,
+        "left": 10,
+        "width": 45,
+        "height": 10
+      }
+    },
+    {
+      "type": "flowchart_decision",
+      "text": "Yes",
+      "bbox": {
+        "top": 40,
+        "left": 10,
+        "width": 8,
+        "height": 3
+      }
+    },
+    {
+      "type": "flowchart_decision",
+      "text": "No",
+      "bbox": {
+        "top": 40,
+        "left": 30,
+        "width": 8,
+        "height": 3
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "text": "Is voltage between ECT ECU terminals BR and GND as follows?\nOV: Brake pedal released\n12V: Brake pedal depressed",
+      "bbox": {
+        "top": 43,
+        "left": 23,
+        "width": 45,
+        "height": 12
+      }
+    },
+    {
+      "type": "flowchart_decision",
+      "text": "No",
+      "bbox": {
+        "top": 45,
+        "left": 70,
+        "width": 8,
+        "height": 3
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "text": "Brake signal faulty",
+      "bbox": {
+        "top": 43,
+        "left": 75,
+        "width": 20,
+        "height": 8
+      }
+    },
+    {
+      "type": "flowchart_decision",
+      "text": "Yes",
+      "bbox": {
+        "top": 55,
+        "left": 30,
+        "width": 8,
+        "height": 3
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "text": "• Computer power source and earth faulty\n• Throttle position signal faulty\n• DG terminal wire open or short",
+      "bbox": {
+        "top": 58,
+        "left": 23,
+        "width": 45,
+        "height": 12
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "text": "Disconnect ECT ECU connector and road test. Does the transmission operate in the respective gear when in the following ranges while driving?\nD range ...... Overdrive\n2 range ...... 3rd gear\nL range ...... 1st gear",
+      "bbox": {
+        "top": 72,
+        "left": 10,
+        "width": 45,
+        "height": 15
+      }
+    },
+    {
+      "type": "flowchart_decision",
+      "text": "No",
+      "bbox": {
+        "top": 75,
+        "left": 55,
+        "width": 8,
+        "height": 3
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "text": "Transmission faulty",
+      "bbox": {
+        "top": 72,
+        "left": 60,
+        "width": 40,
+        "height": 8
+      }
+    },
+    {
+      "type": "flowchart_decision",
+      "text": "Yes",
+      "bbox": {
+        "top": 87,
+        "left": 10,
+        "width": 8,
+        "height": 3
+      }
+    },
+    {
+      "type": "flowchart_step",
+      "text": "Continued on page AT-14",
+      "bbox": {
+        "top": 90,
+        "left": 10,
+        "width": 30,
+        "height": 3
+      }
+    }
+  ]
+}

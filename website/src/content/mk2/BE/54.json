@@ -1,0 +1,70 @@
+{
+  "page_id": "BE-54",
+  "section_header": "BODY ELECTRICAL SYSTEM - Instruments and Sender Gauges",
+  "title": "",
+  "content": [
+    {
+      "type": "table",
+      "caption": "",
+      "headers": [
+        "SECTION",
+        "TROUBLE"
+      ],
+      "rows": [
+        [
+          "O",
+          "Fuel gauge | Defective display"
+        ]
+      ]
+    },
+    {
+      "type": "flowchart",
+      "description": "Diagnostic flowchart for fuel gauge defective display troubleshooting",
+      "steps": [
+        {
+          "type": "decision",
+          "text": "Is fuel sender gauge OK? (See page BE-59)",
+          "yes_path": "Remove meter and connect sub-harness (SST)",
+          "no_path": "Replace fuel sender gauge"
+        },
+        {
+          "type": "action",
+          "text": "Remove meter and connect sub-harness (SST)"
+        },
+        {
+          "type": "decision",
+          "number": 1,
+          "text": "With the ignition S/W at ON position and fuel and temp. gauges removed, is there voltage between terminals 5 and 8 of speedometer?",
+          "yes_path": "Replace speedometer",
+          "no_path": "Replace fuel and temp. gauges"
+        },
+        {
+          "type": "action",
+          "text": "Replace speedometer"
+        },
+        {
+          "type": "action",
+          "text": "Replace fuel and temp. gauges"
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Wiring diagram showing fuel and temp gauges with meter connection. Shows fuel and temperature gauge unit connected to a meter display via wiring harness. Meter shows terminals labeled FR, 8, 5, and GND with a multimeter connected for testing.",
+      "labels": [
+        "Fuel and Temp. Gauges",
+        "FR",
+        "8",
+        "5",
+        "GND"
+      ],
+      "bbox": {
+        "top": 53,
+        "left": 4,
+        "width": 47,
+        "height": 30
+      }
+    }
+  ]
+}

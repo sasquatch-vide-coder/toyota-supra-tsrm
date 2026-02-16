@@ -1,0 +1,193 @@
+{
+  "page_id": "EM-48",
+  "section_header": "ENGINE MECHANICAL — Cylinder Block",
+  "title": "INSPECTION OF CYLINDER BLOCK",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing removal of gasket material from cylinder block using a gasket scraper",
+      "labels": [
+        "EM0602"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. REMOVE GASKET MATERIAL"
+    },
+    {
+      "type": "text",
+      "text": "Using a gasket scraper, remove all gasket material from the cylinder block surfaces."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. CLEAN CYLINDER BLOCK"
+    },
+    {
+      "type": "text",
+      "text": "Using a soft brush and solvent, clean the block."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing cylinder block with cylinder bores visible for inspection",
+      "labels": [
+        "EM1738"
+      ],
+      "bbox": {
+        "top": 25,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. INSPECT CYLINDERS"
+    },
+    {
+      "type": "text",
+      "text": "Visually inspect cylinders for vertical scratches. If deep scratches are present, rebore all six cylinders. (See page EM-50)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. INSPECT CYLINDER BLOCK WARPAGE"
+    },
+    {
+      "type": "text",
+      "text": "Warpage: Limit 0.05 mm (0.0020 in.)"
+    },
+    {
+      "type": "text",
+      "text": "If warpage is greater than the specified value, replace the cylinder block."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing cylinder bore measurement positions A, B, and C at three heights (Front 10mm, Middle, 10mm from bottom), with thrust and axial direction indicators",
+      "labels": [
+        "1 Thrust Direction",
+        "2 Axial Direction",
+        "A",
+        "B",
+        "C",
+        "10 mm (0.39 in.)",
+        "Middle",
+        "10 mm (0.39 in.)",
+        "Front",
+        "EM0086"
+      ],
+      "bbox": {
+        "top": 45,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. MEASURE CYLINDER BORE"
+    },
+    {
+      "type": "text",
+      "text": "Using a cylinder micrometer, measure the cylinder bore at positions A, B and C in the thrust and axial directions."
+    },
+    {
+      "type": "text",
+      "text": "If any of the following measurements are not within the specification, rebore the cylinder. (See page EM-50)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Cylinder diameter is greater than the maximum permissible limit."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "On standard sized piston"
+    },
+    {
+      "type": "text",
+      "text": "Maximum diameter: 83.25 mm (3.2776 in.)"
+    },
+    {
+      "type": "text",
+      "text": "On oversized piston (O/S 0.50)"
+    },
+    {
+      "type": "text",
+      "text": "Maximum diameter: 83.75 mm (3.2972 in.)"
+    },
+    {
+      "type": "text",
+      "text": "On oversized piston (O/S 0.75)"
+    },
+    {
+      "type": "text",
+      "text": "Maximum diameter: 84.00 mm (3.3071 in.)"
+    },
+    {
+      "type": "text",
+      "text": "On oversized piston (O/S 1.00)"
+    },
+    {
+      "type": "text",
+      "text": "Maximum diameter: 84.25 mm (3.3169 in.)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(b) If the difference between measurements A, B and C is greater than the taper limit, rebore the cylinder. (See page EM-50)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Taper limit: 0.02 mm (0.0008 in.)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) If the difference between thrust and axial measurements is greater than the out-of-round limit, rebore the cylinder. (See page EM-50)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Out-of-round limit: 0.02 mm (0.0008 in.)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing use of ridge reamer to remove cylinder ridge at top of cylinder",
+      "labels": [],
+      "bbox": {
+        "top": 82,
+        "left": 3,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. REMOVE CYLINDER RIDGE"
+    },
+    {
+      "type": "text",
+      "text": "If wear is less than 0.2 mm (0.008 in.), use a ridge reamer to machine the piston ring ridge at the top of the cylinder."
+    }
+  ]
+}

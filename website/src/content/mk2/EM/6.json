@@ -1,0 +1,88 @@
+{
+  "page_id": "EM-6",
+  "section_header": "ENGINE MECHANICAL — Compression Check",
+  "title": "COMPRESSION CHECK",
+  "content": [
+    {
+      "type": "notice",
+      "text": "If there is lack of power, excessive oil consumption or poor fuel mileage, measure the cylinder compression pressure."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "WARM UP ENGINE",
+        "REMOVE SPARK PLUGS",
+        "DISCONNECT HIGH-TENSION CORD FROM DISTRIBUTOR"
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing a compression gauge being inserted into a spark plug hole on an engine cylinder head. The gauge has a dial display and is connected via a hose to the spark plug port.",
+      "labels": [
+        "Compression gauge",
+        "Spark plug hole"
+      ],
+      "bbox": {
+        "top": 35,
+        "left": 3,
+        "width": 40,
+        "height": 30
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. MEASURE CYLINDER COMPRESSION PRESSURE"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Insert a compression gauge into the spark plug hole.",
+        "(b) Fully open the throttle valve.",
+        "(c) While cranking the engine with the starter motor, measure the compression pressure."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "Always use a fully charged battery to obtain engine revolution of more than 250 rpm."
+    },
+    {
+      "type": "text",
+      "text": "(d) Repeat steps (a) through (c) for each cylinder."
+    },
+    {
+      "type": "text",
+      "text": "Compression pressure:"
+    },
+    {
+      "type": "specification",
+      "label": "Minimum pressure",
+      "value": "11.5 kg/cm² (164 psi, 1,128 kPa)"
+    },
+    {
+      "type": "specification",
+      "label": "Standard",
+      "value": "9.0 kg/cm² (128 psi, 883 kPa)"
+    },
+    {
+      "type": "specification",
+      "label": "Difference between each cylinder",
+      "value": "Less than 1.0 kg/cm² (14 psi, 98 kPa)"
+    },
+    {
+      "type": "text",
+      "text": "(e) If cylinder compression in one or more cylinders is low, pour a small amount of engine oil into the cylinder through the spark plug hole and repeat steps (a) through (c) for the cylinder with low compression."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "• If adding oil helps the compression, changes are that the piston rings and/or cylinder bore are worn or damaged.",
+        "• If pressure stays low, a valve may be sticking or seated improperly, or there may be leakage past the gasket."
+      ]
+    }
+  ]
+}

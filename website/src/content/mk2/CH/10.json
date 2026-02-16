@@ -1,0 +1,167 @@
+{
+  "page_id": "CH-10",
+  "section_header": "CHARGING SYSTEM — Alternator",
+  "title": "ASSEMBLY OF ALTERNATOR",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page CH-5)"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Exploded view of alternator assembly showing rotor installation to drive end frame",
+      "labels": [
+        "CH0216"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "INSTALL ROTOR TO DRIVE END FRAME",
+        "INSTALL REAR END FRAME"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Using a plastic hammer, lightly tap the rear end frame onto the drive end frame.",
+        "Install the four nuts."
+      ],
+      "parent_step": "2"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. INSTALL PULLEY"
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Diagram showing pulley installation with SST A and SST B tools positioned on alternator",
+      "labels": [
+        "SST A",
+        "SST B",
+        "CH0244"
+      ],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 40,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Install the pulley to the rotor shaft by tightening the pulley nut by hand.",
+        "Hold SST A with a torque wrench and tighten SST B clockwise to the specified torque."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09820-63010"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pulley nut",
+      "value": "400 kg-cm (29 ft-lb, 39 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Diagram showing SST C mounting in vise and pulley torquing procedure with SST A",
+      "labels": [
+        "SST C",
+        "SST A",
+        "CH0214",
+        "CH0213"
+      ],
+      "bbox": {
+        "top": 42,
+        "left": 3,
+        "width": 40,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Check that SST A is secured to the pulley shaft.",
+        "As shown in the figure, mount SST C in a vise and then install the alternator to SST C.",
+        "To torque the pulley, nut turn SST A in the direction shown in the figure."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pulley nut (alternative method)",
+      "value": "1,125 kg-cm (81 ft-lb, 110 N·m)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Remove the alternator from SST C.",
+        "Turn SST B and remove SSTs A and B."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. INSTALL RECTIFIER HOLDER"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Diagram showing installation of four rubber insulators on alternator lead wires",
+      "labels": [
+        "CH040"
+      ],
+      "bbox": {
+        "top": 60,
+        "left": 3,
+        "width": 40,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Install the four rubber insulators on the lead wires."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Diagram showing rectifier installation with four screws",
+      "labels": [
+        "CH0189"
+      ],
+      "bbox": {
+        "top": 78,
+        "left": 3,
+        "width": 40,
+        "height": 16
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Install the rectifier with four screws."
+      ]
+    }
+  ]
+}

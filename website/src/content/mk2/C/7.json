@@ -1,0 +1,346 @@
+{
+  "page_id": "C-8",
+  "section_header": "SST AND SSM — SST (Special Service Tools)",
+  "title": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+  "content": [
+    {
+      "type": "table",
+      "caption": "SST (SPECIAL SERVICE TOOLS) (Cont'd)",
+      "headers": [
+        "Section Classification",
+        "Part Name",
+        "Part No.",
+        "Illustration",
+        "EM",
+        "FI",
+        "LU",
+        "SF",
+        "CH",
+        "CL",
+        "IG",
+        "AT",
+        "PR",
+        "FA",
+        "RA",
+        "BR",
+        "SR",
+        "BF",
+        "BO"
+      ],
+      "rows": [
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 1,
+            "description": "Circular tool with concentric rings, appears to be a hub inner bearing cup replacer",
+            "bbox": {
+              "top": 13,
+              "left": 3,
+              "width": 7,
+              "height": 4
+            }
+          },
+          "part_no": "09608-06110",
+          "part_name": "Front Hub Inner & Drive Pinion Front Bearing Cup Replacer",
+          "classification": "",
+          "marks": [
+            {
+              "column": "RA",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 2,
+            "description": "Similar circular tool with concentric rings, appears to be a hub outer bearing cup replacer",
+            "bbox": {
+              "top": 18,
+              "left": 3,
+              "width": 7,
+              "height": 4
+            }
+          },
+          "part_no": "09608-08120",
+          "part_name": "Front Hub Outer Bearing Cup Replacer",
+          "classification": "",
+          "marks": [
+            {
+              "column": "RA",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 3,
+            "description": "Tool resembling an arm puller with circular end and elongated handle",
+            "bbox": {
+              "top": 23,
+              "left": 3,
+              "width": 7,
+              "height": 4
+            }
+          },
+          "part_no": "09610-20012",
+          "part_name": "(Pitman Arm Puller)",
+          "classification": "A",
+          "marks": [
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 4,
+            "description": "Rod end puller tool with circular end piece and handle",
+            "bbox": {
+              "top": 28,
+              "left": 3,
+              "width": 7,
+              "height": 4
+            }
+          },
+          "part_no": "09611-22012",
+          "part_name": "(Tie Rod End Puller)",
+          "classification": "A",
+          "marks": [
+            {
+              "column": "FI",
+              "marked": true
+            },
+            {
+              "column": "PR",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 5,
+            "description": "Steering gear housing overhaul tool set with multiple components shown in exploded view",
+            "bbox": {
+              "top": 33,
+              "left": 3,
+              "width": 7,
+              "height": 4
+            }
+          },
+          "part_no": "09612-24012",
+          "part_name": "Steering Gear Housing Overhaul Tool Set",
+          "classification": "B",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 6,
+            "description": "Cylindrical hexagon wrench tool",
+            "bbox": {
+              "top": 39,
+              "left": 3,
+              "width": 7,
+              "height": 3
+            }
+          },
+          "part_no": "09612-10021",
+          "part_name": "(Hexagon Wrench)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 7,
+            "description": "Open-end wrench for steering rack end",
+            "bbox": {
+              "top": 43,
+              "left": 3,
+              "width": 7,
+              "height": 3
+            }
+          },
+          "part_no": "09617-22030",
+          "part_name": "(Steering Rack End Wrench)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 8,
+            "description": "Steering rack wrench tool",
+            "bbox": {
+              "top": 47,
+              "left": 3,
+              "width": 7,
+              "height": 3
+            }
+          },
+          "part_no": "09617-24010",
+          "part_name": "(Steering Rack Wrench)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 9,
+            "description": "Specialized wrench for steering pinion bearing",
+            "bbox": {
+              "top": 51,
+              "left": 3,
+              "width": 7,
+              "height": 3
+            }
+          },
+          "part_no": "09617-24020",
+          "part_name": "(Steering Pinion Bearing Adjusting Screw Lock Nut Wrench)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 10,
+            "description": "Steering gear box replacer set with multiple components in exploded view",
+            "bbox": {
+              "top": 55,
+              "left": 3,
+              "width": 7,
+              "height": 5
+            }
+          },
+          "part_no": "09620-30010",
+          "part_name": "(Steering Gear Box Replacer Set)",
+          "classification": "B",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 11,
+            "description": "Cylindrical tool for steering worm bearing and oil seal replacement",
+            "bbox": {
+              "top": 62,
+              "left": 3,
+              "width": 7,
+              "height": 3
+            }
+          },
+          "part_no": "09623-30010",
+          "part_name": "(Steering Worm Bearing & Oil Seal Replacer)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 12,
+            "description": "Circular flat tool for steering sector shaft oil seal",
+            "bbox": {
+              "top": 66,
+              "left": 3,
+              "width": 7,
+              "height": 3
+            }
+          },
+          "part_no": "09624-30010",
+          "part_name": "(Steering Sector Shaft Oil Seal Replacer)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 13,
+            "description": "Circular flat tool for steering main shaft bearing",
+            "bbox": {
+              "top": 70,
+              "left": 3,
+              "width": 7,
+              "height": 3
+            }
+          },
+          "part_no": "09625-30010",
+          "part_name": "(Steering Main Shaft Bearing Replacer)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        },
+        {
+          "illustration": {
+            "type": "diagram",
+            "index": 14,
+            "description": "Cylindrical handle tool",
+            "bbox": {
+              "top": 74,
+              "left": 3,
+              "width": 7,
+              "height": 3
+            }
+          },
+          "part_no": "09631-00020",
+          "part_name": "(Handle)",
+          "classification": "",
+          "marks": [
+            {
+              "column": "BO",
+              "marked": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

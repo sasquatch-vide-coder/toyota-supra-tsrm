@@ -1,0 +1,76 @@
+{
+  "page_id": "BO 48",
+  "section_header": "BODY — Seat Belt",
+  "title": null,
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Two illustrations showing seat belt retractor tilted at 15 degrees and 45 degrees angles with directional arrows indicating pull direction",
+      "labels": [
+        "15°",
+        "45°"
+      ],
+      "bbox": {
+        "top": 5,
+        "left": 3,
+        "width": 40,
+        "height": 25
+      },
+      "reference": "BO083"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. STATIC TEST"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Remove the locking retractor assembly.",
+        "(b) Tilt the retractor slowly.",
+        "(c) Verify that the belt can be pulled out at a tilt of 15 degrees or less, and cannot be pulled out at over 45 degrees of tilt."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If a problem is found, replace the assembly."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing outboard rear seat belt being pulled and released with hand motion arrows",
+      "labels": [],
+      "bbox": {
+        "top": 31,
+        "left": 3,
+        "width": 40,
+        "height": 25
+      },
+      "reference": "BO084"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "OUTBOARD REAR SEAT BELT [Automatic Locking Retractor (ALR) Type]"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TESTING"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Pull out the belt, release it slightly and then pull it out again.",
+        "(b) Verify that the belt cannot be extended further."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If a problem is found, replace the assembly."
+    }
+  ]
+}

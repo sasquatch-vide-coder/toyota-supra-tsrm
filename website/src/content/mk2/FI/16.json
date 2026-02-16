@@ -1,0 +1,80 @@
+{
+  "page_id": "FI-16",
+  "section_header": "EFI SYSTEM — Troubleshooting",
+  "title": "EFI SYSTEM — Troubleshooting (continued)",
+  "content": [
+    {
+      "type": "text",
+      "text": "OK CONTINUED FROM PAGE FI-15"
+    },
+    {
+      "type": "flowchart",
+      "description": "Troubleshooting flowchart showing three diagnostic steps with decision paths",
+      "bbox": {
+        "top": 8,
+        "left": 4,
+        "width": 92,
+        "height": 85
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "CHECK FUEL PRESSURE",
+          "reference": "See page FI-45",
+          "outcomes": [
+            {
+              "result": "BAD",
+              "causes": [
+                "1. Fuel pump (See page FI-44)",
+                "2. Fuel filter",
+                "3. Fuel pressure regulator (See page FI-45)"
+              ]
+            },
+            {
+              "result": "OK",
+              "next_step": "CHECK INJECTORS"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "action": "CHECK INJECTORS",
+          "reference": "See page FI-53",
+          "outcomes": [
+            {
+              "result": "BAD",
+              "causes": [
+                "Injection condition"
+              ]
+            },
+            {
+              "result": "OK",
+              "next_step": "CHECK EFI ELECTRONIC CIRCUIT USING VOLT/OHMMETER"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "action": "CHECK EFI ELECTRONIC CIRCUIT USING VOLT/OHMMETER",
+          "outcomes": [
+            {
+              "result": "BAD",
+              "causes": [
+                "1. Wiring connection",
+                "2. Power to ECU",
+                "   (1) Fusible link",
+                "   (2) No. 1 and No. 2 main relay",
+                "3. Air flow meter",
+                "4. Water temp. sensor",
+                "5. Injection signal circuit",
+                "   (1) Injector wiring",
+                "   (2) Resistor",
+                "   (3) ECU"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

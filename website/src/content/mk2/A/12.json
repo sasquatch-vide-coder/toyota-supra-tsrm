@@ -1,0 +1,205 @@
+{
+  "page_id": "A-12",
+  "section_header": "SERVICE SPECIFICATIONS - Clutch",
+  "title": "CLUTCH Specifications",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "CLUTCH"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Specifications"
+    },
+    {
+      "type": "table",
+      "caption": "Clutch Specifications",
+      "headers": [
+        "",
+        "",
+        "",
+        "mm",
+        "in."
+      ],
+      "rows": [
+        [
+          "Pedal height (from asphalt sheet)",
+          "",
+          "",
+          "154 - 164 mm",
+          "6.06 - 6.46 in."
+        ],
+        [
+          "Push rod play at pedal top",
+          "",
+          "",
+          "1 - 5 mm",
+          "0.04 - 0.20 in."
+        ],
+        [
+          "Pedal freeplay",
+          "",
+          "",
+          "5 - 15 mm",
+          "0.20 - 0.59 in."
+        ],
+        [
+          "Release fork free play",
+          "",
+          "",
+          "Non adjustable type",
+          ""
+        ],
+        [
+          "Disc rivet head depth",
+          "",
+          "Limit",
+          "0.3 mm",
+          "0.012 in."
+        ],
+        [
+          "Disc runout",
+          "",
+          "Limit",
+          "0.8 mm",
+          "0.031 in."
+        ],
+        [
+          "Diaphragm spring out of alignment",
+          "",
+          "Limit",
+          "0.5 mm",
+          "0.020 in."
+        ],
+        [
+          "Diaphragm spring finger wear",
+          "Depth",
+          "Limit",
+          "0.6 mm",
+          "0.024 in."
+        ],
+        [
+          "",
+          "Width",
+          "Limit",
+          "5.0 mm",
+          "0.197 in."
+        ],
+        [
+          "Flywheel runout",
+          "",
+          "Limit",
+          "0.2 mm",
+          "0.008 in."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Torque Specifications"
+    },
+    {
+      "type": "table",
+      "caption": "Torque Specifications",
+      "headers": [
+        "Part tightened",
+        "kg-cm",
+        "ft-lb",
+        "N·m"
+      ],
+      "rows": [
+        [
+          "Clutch cover x Flywheel",
+          "185",
+          "13",
+          "18"
+        ],
+        [
+          "Release fork support x Clutch housing",
+          "400",
+          "29",
+          "39"
+        ],
+        [
+          "Pressure plate x Clutch cover",
+          "250",
+          "18",
+          "25"
+        ],
+        [
+          "Master cylinder set bolt",
+          "250",
+          "18",
+          "25"
+        ],
+        [
+          "Reservoir set bolt",
+          "250",
+          "18",
+          "25"
+        ],
+        [
+          "Clutch tube union nut",
+          "155",
+          "11",
+          "15"
+        ],
+        [
+          "Flexible hose",
+          "235",
+          "17",
+          "23"
+        ],
+        [
+          "Clutch pedal setting nut",
+          "425",
+          "31",
+          "42"
+        ]
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Clutch cover x Flywheel",
+      "value": "185 kg-cm (13 ft-lb, 18 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Release fork support x Clutch housing",
+      "value": "400 kg-cm (29 ft-lb, 39 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Pressure plate x Clutch cover",
+      "value": "250 kg-cm (18 ft-lb, 25 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Master cylinder set bolt",
+      "value": "250 kg-cm (18 ft-lb, 25 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Reservoir set bolt",
+      "value": "250 kg-cm (18 ft-lb, 25 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Clutch tube union nut",
+      "value": "155 kg-cm (11 ft-lb, 15 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Flexible hose",
+      "value": "235 kg-cm (17 ft-lb, 23 N·m)"
+    },
+    {
+      "type": "torque_spec",
+      "component": "Clutch pedal setting nut",
+      "value": "425 kg-cm (31 ft-lb, 42 N·m)"
+    }
+  ]
+}

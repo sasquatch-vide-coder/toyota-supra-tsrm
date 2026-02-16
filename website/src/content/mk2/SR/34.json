@@ -1,0 +1,80 @@
+{
+  "page_id": "SR-34",
+  "section_header": "STEERING — Power Steering",
+  "title": "STEERING — Power Steering",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing SST (Special Service Tool) being used to press bearing into valve cap",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 4,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(c) Using SST, press the bearing into the valve cap."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09620-30010 (09631-00020) 09630-24013 (09620-24030)",
+      "description": "Special Service Tool for pressing bearing"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. OIL SEAL FOR CYLINDER END STOPPER"
+    },
+    {
+      "type": "text",
+      "text": "(a) Tap out the oil seal from the cylinder end stopper."
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: When tapping out the oil seal, be careful not to damage the inside of cylinder end stopper."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing hands tapping out oil seal from cylinder end stopper component",
+      "labels": [],
+      "bbox": {
+        "top": 24,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    },
+    {
+      "type": "text",
+      "text": "(b) Using SST, press the oil seal into the cylinder end stopper."
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09631-20040",
+      "description": "Special Service Tool for pressing oil seal"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing SST being used to press oil seal into cylinder end stopper",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 43,
+        "left": 3,
+        "width": 38,
+        "height": 19
+      }
+    }
+  ]
+}

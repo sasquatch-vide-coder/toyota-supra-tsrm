@@ -1,0 +1,131 @@
+{
+  "page_id": "AC-30",
+  "section_header": "AIR CONDITIONING SYSTEM — Compressor",
+  "title": "AIR CONDITIONING SYSTEM — Compressor",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Hand removing two pins from front valve plate housing",
+      "labels": [],
+      "bbox": {
+        "top": 4,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. REMOVE FRONT VALVE PLATE"
+    },
+    {
+      "type": "text",
+      "text": "Remove the two pins from the front housing. Discard the pins."
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Hand using hammer and punch to remove rear housing from compressor",
+      "labels": [],
+      "bbox": {
+        "top": 21,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. REMOVE REAR HOUSING"
+    },
+    {
+      "type": "text",
+      "text": "Using a hammer and punch, remove the rear housing by tapping on the protrusion."
+    },
+    {
+      "type": "caution",
+      "text": "CAUTION: Be careful not to scratch the sealing surface of the rear housing."
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Hands removing O-rings from cylinder block of compressor",
+      "labels": [],
+      "bbox": {
+        "top": 38,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. REMOVE FRONT AND REAR O-RINGS FROM CYLINDER BLOCK"
+    },
+    {
+      "type": "text",
+      "text": "Discard the O-rings."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY OF COMPRESSOR"
+    },
+    {
+      "type": "text",
+      "text": "(See page AC-27)"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Hand installing rear valve plate on rear cylinder of compressor",
+      "labels": [],
+      "bbox": {
+        "top": 55,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. INSTALL REAR VALVE PLATE ON REAR CYLINDER"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the two pins in the rear cylinder.",
+        "(b) Lubricate a new O-ring with compressor oil. Install the O-ring in the rear cylinder."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Rear suction valve being installed over pins on rear cylinder",
+      "labels": [],
+      "bbox": {
+        "top": 72,
+        "left": 5,
+        "width": 40,
+        "height": 18
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Install the rear suction valve over the pins on the rear cylinder."
+      ]
+    },
+    {
+      "type": "notice",
+      "text": "NOTE: The front and rear suction valves are the same."
+    }
+  ]
+}

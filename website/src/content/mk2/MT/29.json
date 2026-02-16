@@ -1,0 +1,135 @@
+{
+  "page_id": "MT-29",
+  "section_header": "MANUAL TRANSMISSION — W58 Transmission",
+  "title": "",
+  "content": [
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Installation of snap ring on No. 1 fork shaft",
+      "labels": [
+        "WM0157"
+      ],
+      "bbox": {
+        "top": 3,
+        "left": 3,
+        "width": 45,
+        "height": 27
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(j) Install the snap ring of No. 1 fork shaft."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Installation of shift fork set bolts",
+      "labels": [
+        "WM0027"
+      ],
+      "bbox": {
+        "top": 31,
+        "left": 3,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(k) Install the shift fork set bolts with lock washers."
+      ]
+    },
+    {
+      "type": "torque_spec",
+      "component": "Shift fork set bolts",
+      "value": "125 kg-cm (9 ft-lb, 12 N·m)"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Using pliers to stake bolts with lock washers",
+      "labels": [
+        "WM0148"
+      ],
+      "bbox": {
+        "top": 57,
+        "left": 3,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(l) Using pliers, stake the bolts with lock washers."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "24. INSTALL LOCKING BALL AND SPRING"
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Installation of balls and springs into holes with liquid sealer applied to plugs",
+      "labels": [
+        "WM0163"
+      ],
+      "bbox": {
+        "top": 82,
+        "left": 3,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(a) Install the balls and springs into each hole.",
+        "(b) Apply liquid sealer to the plugs."
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Using SST tool to tighten four plugs",
+      "labels": [
+        "SST",
+        "WM0016"
+      ],
+      "bbox": {
+        "top": 107,
+        "left": 3,
+        "width": 45,
+        "height": 25
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "(c) Using SST, tighten the four plugs."
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09313-30021",
+      "description": ""
+    },
+    {
+      "type": "torque_spec",
+      "component": "Four plugs",
+      "value": "250 kg-cm (18 ft-lb, 25 N·m)"
+    }
+  ]
+}

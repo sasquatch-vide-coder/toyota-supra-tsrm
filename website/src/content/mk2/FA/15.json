@@ -1,0 +1,157 @@
+{
+  "page_id": "FA-15",
+  "section_header": "FRONT AXLE AND SUSPENSION — Front Suspension",
+  "title": "Lower Arm",
+  "content": [
+    {
+      "type": "text",
+      "text": "(See page FA-14)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "REMOVAL OF LOWER ARM"
+    },
+    {
+      "type": "diagram",
+      "index": 1,
+      "description": "Illustration showing knuckle arm connection to shock absorber with bolts",
+      "labels": [],
+      "bbox": {
+        "top": 3,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "main": "DISCONNECT KNUCKLE ARM FROM SHOCK ABSORBER",
+          "substeps": [
+            "(a) Remove two bolts holding the knuckle arm to the shock absorber.",
+            "(b) Push the lower arm down, and disconnect the shock absorber from the knuckle arm."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 2,
+      "description": "Illustration showing knuckle arm connection to tie rod with SST tool",
+      "labels": [
+        "SST"
+      ],
+      "bbox": {
+        "top": 21,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 2,
+      "items": [
+        {
+          "main": "DISCONNECT KNUCKLE ARM FROM TIE ROD",
+          "substeps": [
+            "(a) Remove the cotter pin and nut holding the knuckle arm to the tie rod.",
+            "(b) Using SST, disconnect the knuckle arm from the tie rod."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "part_number",
+      "label": "SST",
+      "number": "09611-22012"
+    },
+    {
+      "type": "text",
+      "text": "FA0002"
+    },
+    {
+      "type": "diagram",
+      "index": 3,
+      "description": "Illustration showing stabilizer bar and strut bar connection to lower arm with nuts",
+      "labels": [],
+      "bbox": {
+        "top": 40,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 3,
+      "items": [
+        {
+          "main": "DISCONNECT STABILIZER BAR AND STRUT BAR FROM LOWER ARM",
+          "substeps": [
+            "(a) Remove the nut holding the stabilizer bar to the lower arm and disconnect the stabilizer bar.",
+            "(b) Remove the nuts holding the strut bar to the lower arm and disconnect the strut bar."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 4,
+      "description": "Illustration showing lower arm bolt connection to crossmember and rack boot protector",
+      "labels": [
+        "Rack Boot Protector"
+      ],
+      "bbox": {
+        "top": 58,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 4,
+      "items": [
+        {
+          "main": "REMOVE LOWER ARM AND RACK BOOT PROTECTOR",
+          "substeps": [
+            "Remove the bolt holding the lower arm to the crossmember and remove the lower arm with the rack boot protector."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "diagram",
+      "index": 5,
+      "description": "Illustration showing press tool being used to disconnect knuckle arm from lower arm ball joint",
+      "labels": [],
+      "bbox": {
+        "top": 76,
+        "left": 2,
+        "width": 38,
+        "height": 17
+      }
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "start": 5,
+      "items": [
+        {
+          "main": "DISCONNECT KNUCKLE ARM FROM LOWER ARM",
+          "substeps": [
+            "(a) Remove the cotter pin and nut holding the knuckle arm to the ball joint.",
+            "(b) Using a press, disconnect the knuckle arm from the lower arm."
+          ]
+        }
+      ]
+    }
+  ]
+}
