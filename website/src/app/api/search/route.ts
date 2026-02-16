@@ -5,26 +5,8 @@ import { getModel } from "@/lib/models";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
-const openaiKey = process.env.OPENAI_API_KEY ?? "";
 
 const supabase = createClient(supabaseUrl, supabaseKey);
-
-async function getQueryEmbedding(query: string): Promise<number[] | null> {
-  if (!openaiKey) return null;
-
-  try {
-    const { default: OpenAI } = await import("openai");
-    const client = new OpenAI({ apiKey: openaiKey });
-    const response = await client.embeddings.create({
-      model: "text-embedding-3-small",
-      input: query,
-    });
-    return response.data[0].embedding;
-  } catch {
-    console.error("Failed to generate query embedding, falling back to FTS-only");
-    return null;
-  }
-}
 
 export async function GET(request: NextRequest) {
   const query = request.nextUrl.searchParams.get("q")?.trim() ?? "";
@@ -41,9 +23,6 @@ export async function GET(request: NextRequest) {
   const modelDef = getModel(model);
 
   try {
-    // Generate embedding if OpenAI key is available
-    const queryEmbedding = await getQueryEmbedding(query);
-
     // Run searches in parallel, conditionally based on source filter
     const searchManual = !source || source === "manual";
     const searchFaq = !source || source === "faq";
@@ -55,7 +34,6 @@ export async function GET(request: NextRequest) {
       searchManual
         ? supabase.rpc("hybrid_search", {
             query_text: query,
-            query_embedding: queryEmbedding,
             match_count: 20,
             filter_model: model,
           })
@@ -63,7 +41,6 @@ export async function GET(request: NextRequest) {
       searchFaq
         ? supabase.rpc("search_faqs", {
             query_text: query,
-            query_embedding: queryEmbedding,
             match_count: 5,
             filter_model: model,
           })
@@ -71,7 +48,6 @@ export async function GET(request: NextRequest) {
       searchForum
         ? supabase.rpc("search_forum_threads", {
             query_text: query,
-            query_embedding: queryEmbedding,
             match_count: 10,
           })
         : empty,

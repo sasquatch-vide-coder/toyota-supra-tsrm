@@ -31,7 +31,6 @@ MODEL_YEAR = {"mk2": "1986", "mk3": "1990"}
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 MODEL = "claude-sonnet-4-5-20250929"
 MAX_TOKENS = 2048
@@ -212,26 +211,7 @@ async def generate_faqs_for_page(
         return results
 
 
-def generate_embeddings_for_faqs(faqs: list[dict]) -> list[list[float]]:
-    """Generate embeddings for FAQ questions via OpenAI."""
-    from openai import OpenAI
-
-    client = OpenAI(api_key=OPENAI_API_KEY)
-    texts = [f["question"] for f in faqs]
-    all_embeddings = []
-    batch_size = 100
-    for i in range(0, len(texts), batch_size):
-        batch = texts[i : i + batch_size]
-        print(f"  Generating FAQ embeddings batch {i // batch_size + 1} ({len(batch)} items)...")
-        response = client.embeddings.create(
-            model="text-embedding-3-small",
-            input=batch,
-        )
-        all_embeddings.extend([item.embedding for item in response.data])
-    return all_embeddings
-
-
-async def run(model: str = "mk3", with_embeddings: bool = False) -> None:
+async def run(model: str = "mk3") -> None:
     if not SUPABASE_URL or not SUPABASE_SERVICE_ROLE_KEY:
         print("ERROR: SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY must be set.", file=sys.stderr)
         sys.exit(1)
@@ -270,15 +250,6 @@ async def run(model: str = "mk3", with_embeddings: bool = False) -> None:
         print("No FAQs generated. Exiting.")
         return
 
-    # Optionally generate embeddings
-    if with_embeddings:
-        if not OPENAI_API_KEY:
-            print("ERROR: --with-embeddings requires OPENAI_API_KEY.", file=sys.stderr)
-            sys.exit(1)
-        embeddings = generate_embeddings_for_faqs(all_faqs)
-        for i, faq in enumerate(all_faqs):
-            faq["embedding"] = embeddings[i]
-
     # Insert into Supabase in batches
     batch_size = 100
     for i in range(0, len(all_faqs), batch_size):
@@ -292,13 +263,8 @@ async def run(model: str = "mk3", with_embeddings: bool = False) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate FAQs from manual content via Claude")
     parser.add_argument("--model", default="mk3", help="Vehicle model (default: mk3)")
-    parser.add_argument(
-        "--with-embeddings",
-        action="store_true",
-        help="Generate OpenAI embeddings for FAQs (requires OPENAI_API_KEY)",
-    )
     args = parser.parse_args()
-    asyncio.run(run(model=args.model, with_embeddings=args.with_embeddings))
+    asyncio.run(run(model=args.model))
 
 
 if __name__ == "__main__":
