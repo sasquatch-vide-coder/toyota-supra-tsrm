@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-101",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "RS–101\n\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nHINT: If the diagnostic trouble code is displayed without a DTC check procedure, perform the following trouble-shooting.\n\n1  Check resistance between terminal Tc of center airbag sensor assembly and body ground.\n\nLOCK\n\nCenter Airbag Sensor Assembly\n\nTc\n\nAB0117\nR00267\n\nP  (1) Turn ignition switch to LOCK.\n(2) Disconnect negative (–) terminal cable from the battery, and wait at least 90 seconds.\n(3) Disconnect center airbag sensor assembly connector.\n\nC  Check resistance between terminal Tc of center airbag sensor assembly connector and body ground.\n\nOK  Resistance: 1 M  or Higher\n\nNG\n\nOK  Replace center airbag sensor assembly.\n\nRepair or replace harness or connector."
+}

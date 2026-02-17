@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-47",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "",
+  "ocr_text": "BR–47\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nTOYOTA\nA.S.S.(Anti-lock Brake System)\nACTUATOR CHECKER\nSHEET A\nMOTOR          SOLENOID\nFRONT\nBLANK    REAR\nREAR LH\nREAR SWITCH    SELECTION SWITCH    POWER SWITCH\nBR1011\n\n6. PUSH MOTOR SWITCH\nPush and hold in the MOTOR switch for a few seconds.\n7. DISCONNECT ACTUATOR CHECKER (SST) FROM\nACTUATOR\nDisconnect the actuator checker (SST) and sub–wire har-\nnesses (SST) from the actuator.\nw/o TRAC:\nSST 09990–00150, 09990–00163, 09990–00200,\n        and 09990–00210\nw/ TRAC:\nSST 09990–00150, 09990–00163, 09990–00210,\n        09990–00250 and 09990–00280\n8. CONNECT CONNECTORS\n(a) Connect the 2 connectors to the actuator.\n(b) w/o TRAC:\nConnect the 2 connectors to the control relay.\n9. CLEAR DIAGNOSTIC TROUBLE CODES\n(See page BR–55)"
+}

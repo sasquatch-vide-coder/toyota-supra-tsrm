@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-566",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "EG–566\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check voltage between terminal EGR of engine control module connector and body ground.\n\nSST\nECM\nB 75\nEGR\nFI6620\n\nP (1) Connect SST (check harness \"A\").\n(See page EG–510)\nSST 09990–01000\n(2) Warm up engine to normal operating temperature.\n\nC Measure voltage between terminal EGR of engine control module connector and body ground.\n\nOK Voltage: 9 — 14 V\n\nNG\nOK Go to step 4 .\n\n2 Check resistance between terminals of VSV for EGR.\n\nP11360\n\nP Remove VSV for EGR. (See page EG–310)\n\nC Measure resistance between terminals of VSV for EGR.\n\nOK Resistance: 30 — 34 Ω at 20˚C (68˚F)\n\nOK\nNG Replace VSV for EGR.\n\n3 Check for open and short in harness and connector between EFI main relay and VSV for EGR, VSV for EGR and engine control module (See page IN–30).\n\nOK\nNG Repair or replace harness or connector.\n\nCheck and replace engine control module."
+}

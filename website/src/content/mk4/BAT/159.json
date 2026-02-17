@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-159",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "TRAC OFF Indicator TRAC Cut Switch Circuit",
+  "ocr_text": "BR–159\n\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nTRAC OFF Indicator TRAC Cut Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nThis is the TRAC control main switch. When the TRAC cut switch is pushed on, TRAC control goes off and the\nTRAC OFF indicator lights up. This indicator is also used for warnings when the trouble occurs.\n\nWIRING DIAGRAM\n\nBattery\nTRAC Solenoid\nRelay (R/B No. 5)\n1\n2\n6\nE\n4\n5\n3\nW-B\nTRAC\nActuator\n\nJ/B No. 1\n1\nGAUGE\n1B\nABS & TRAC\nECU\nLG-R\n16\nIB5\n\nTRAC OFF\nIndicator Light\nY\nLG-R\n2\n2\n8\n1F2\nLG-R\nLG-R\n\nTRAC ECU\n23 WT\nT9\n12 V\n\nW-B\n2\nLG\n5 CSW\nT9\nTRAC Cut\nSwitch\n\nR07073"
+}

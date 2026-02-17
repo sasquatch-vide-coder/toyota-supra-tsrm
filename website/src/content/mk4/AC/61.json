@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-61",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AC–61\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\n2  Check blower motor.\n\nP  Remove blower motor control (see page AC–99).\n\nC  Connect positive (+) lead to terminal 2\nof blower motor connector, negative (–) lead to\nterminal 1.\n\nOK  Blower motor operates smoothly.\n\n2  1\n\nN08820\n\nOK\n\nNG  Replace blower motor.\n\nGo to step 3 .\n\n3  Check blower motor control relay.\n\nP  Remove blower motor control relay with connectors\nstill connected\n\nC  1.  Turn ignition switch To ON.\n2.  Operate blower motor.\n\nOK\nTerminals          Standard Value\n\nGND ↔ Body\nGround          Continuity\n\n+B ↔ Body\nGround          Battery Positive\n                        Voltage\n\nM+ ↔ Body\nGround          Battery Positive\n                        Voltage\n\nM+ ↔ M–         Battery Positive\n                        Voltage\n\nSI ↔ Body\nGround          1 ~ 3 V\n\nGND     M–\n\nSI    +B    M+\n\nE01520\n\nOK\n\nNG  Replace blower motor control relay.\n\nRepair or replace harness or connector"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-92",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "WOOFER SPEAKER DOES NOT WORK",
+  "ocr_text": "BE-92\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n5  Radio  WOOFER SPEAKER DOES NOT WORK\n\nw/ Power Amplifier\nCheck if RAD No. 2 fuse is OK?\n\nNo  Replace fuse.\n\nYes\n\nIs tape player operating normally?\n\nYes  Radio receiver assembly faulty.\n\nNo\n\nCheck if GND to power amplifier is OK?\n\nNo  GND faulty.\n\nYes\n\nIs +B applied to power amplifier?\n\nNo  +B wire harness faulty.\n\nYes\n\nIs AMP applied to power amplifier?\n\nNo  Check the radio receiver assembly.\n\nYes\n\nIs there continuity in wire harness? (Radio receiver to power amplifier)\n\nNo  Wire harness Faulty.\n\nYes\n\nTemporarily install another woofer speaker. Functions OK?\n\nYes  Woofer speaker faulty.\n\nNo\n\nIs there continuity in speaker wire harness?\n\nNo  Speaker wire harness faulty.\n\nYes\n\nTemporarily install another power amplifier. Functions OK?\n\nNo  Radio receiver assembly faulty.\n\nYes\n\nPower amplifier faulty."
+}

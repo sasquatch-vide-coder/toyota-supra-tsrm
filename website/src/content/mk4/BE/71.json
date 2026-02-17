@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-71",
+  "section_header": "BODY ELECTRICAL SYSTEM — POWER WINDOW CONTROL SYSTEM",
+  "title": "POWER WINDOW SWITCH INSPECTION",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – POWER WINDOW CONTROL SYSTEM\n\nBE–71\n\nPOWER WINDOW SWITCH INSPECTION\n\nINSPECT SWITCH CONTINUITY\n\nSwitch position | Tester connection to terminal number | Specified condition\n\nUP | 1–4 | Continuity\n       | 3–5 |\n\nOFF | 1–2 | Continuity\n        | 3–5 |\n\nDOWN | 1–2 | Continuity\n           | 3–4 |\n\nIf continuity is not as specified, replace the switch.\n\nND9724 e-5-2\nZ10792\n\nPOWER WINDOW MOTOR INSPECTION\n\n1. INSPECT MOTOR OPERATION\n\nDriver's Door\n\n(a) Connect the positive (+) lead from the battery to terminal 1 and the negative (–) lead to terminal 2, check that the motor turns clockwise.\n\nND9810\n\n(b) Reverse the polarity, check that the motor turns counterclockwise.\nIf operation is not as specified, replace the motor.\n\nND9811\n\nPassenger's Door\n\n(a) Connect the positive (+) lead from the battery to terminal 1 and the negative (–) lead to terminal 2, check that the motor turns clockwise.\n\nND9812"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-545",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "INSPECTION PROCEDURE\n\n1  Check voltage between terminals VG and E21 of engine control module connector.\n\nSST\nECM\n\nE21  B 28, 26\n\nVG\n\nFI6959\n\nP  (1) Connect SST (check harness \"A\").\n        (See page EG–510)\n        SST 09990–01000\n    (2) Start engine.\n\nC  Measure voltage between terminals VG and E21 of engine control module connector while engine rpm at idling.\n\nOK  Voltage:  0.7 — 1.7 V\n\nNG                              OK  Check and replace engine control module\n\n2  Check voltage between terminal 1 of mass air flow meter connector and body ground.\n\nON\n\nBE6653\nFI6962\n\nP  (1) Disconnect the mass air flow meter connector.\n    (2) Turn ignition switch ON.\n\nC  Measure voltage between terminal 1 of mass air flow meter connector and body ground.\n\nOK  Voltage:  9 — 14 V\n\nOK                              NG  Check and repair mass air flow meter power source circuit.\n\n3  Check for open and short in harness and connector between engine control module and mass air flow meter (See page IN–30).\n\nOK                              NG  Repair or replace harness or connector.\n\nReplace mass air flow meter."
+}

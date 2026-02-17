@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-353",
+  "section_header": "ENGINE — COOLING SYSTEM",
+  "title": "ELECTRIC COOLING FAN (2JZ–GTE) On–Vehicle Inspection",
+  "ocr_text": "EG–353\nENGINE – COOLING SYSTEM\n\nBelow 88°C\nStop\nP19046\n\nBelow 88°C\nRotate\nECT Switch\nConnector\nDisconnect\nP11775\n\nAbove 97°C\nThermometer\nRotate\nP19047\n\nELECTRIC COOLING FAN (2JZ–GTE)\nOn–Vehicle Inspection\n\n1. CHECK COOLING FAN OPERATION WITH LOW TEMPERATURE (Below 88°C (190°F))\n(a) Turn the ignition switch ON.\n(b) Check that the cooling fan stops.\nIf not, check the cooling fan relay and ECT switch, and check for a separated connector or severed wire between the No.1 radiator fan relay and ECT switch.\n(c) Disconnect the ECT switch connector.\n(d) Check that the cooling fan rotates.\nIf not, check the No.1 radiator relay, No.2 radiator fan relay, cooling fan, fuses, and check for short circuit between the No.1 radiator fan relay and ECT switch.\n(e) Reconnect the ECT switch connector.\n\n2. CHECK COOLING FAN OPERATION WITH HIGH TEMPERATURE (Above 97°C (207°F))\n(a) Start the engine, and raise coolant temperature to above 97°C (207°F).\n(b) Check that the cooling fan rotates.\nIf not, replace the ECT switch."
+}

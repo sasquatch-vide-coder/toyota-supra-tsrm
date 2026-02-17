@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-573",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG-573\nENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING\n\n2 Check throttle position sensor.\n\nP (1) Remove throttle body.\n(See page EG 291)\n(2) Apply vacuum to throttle opener.\n(See page EG-292)\n\nC Measure resistance between terminals 3 (IDL1)\nand 4 (E2) of throttle position sensor connector.\n\nOK\nThrottle Valve | Resistance\nFully closed | Less than 0.5 kΩ\nOpened | 1 MΩ or higher\n\n1 4 (E2) 3 (IDL1)\nP11452\n\nOK NG Adjust or replace throttle position sensor.\n(See page EG-292)\n\nCheck and repair harness or connector between en-\ngine control module and throttle position sensor.\n\n3 Check voltage between terminal A/C of engine control module connector and\nbody ground.\n\nSST\nECM\n\nP (1) Connect SST (check harness \"A\").\n(See page EG-510)\nSST 09990-01000\n(2) Start the engine.\n\nC Measure voltage between terminal A/C of engine\ncontrol module and body ground.\n\nA 34\n\nOK\nA/C Switch | Voltage\nOFF | 7.5 – 14 V\nON | 0 – 1.5 V\n\nA/C\nFI6893\n\nOK NG Check A/C compressor circuit.\n(See page EG-62)\n\nCheck and replace engine control module."
+}

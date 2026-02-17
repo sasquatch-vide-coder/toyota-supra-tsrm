@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-28",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "CIRCUIT INSPECTION\nBlinking Light FACE Room Temperature Sensor Circuit",
+  "ocr_text": "AC–28\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nCIRCUIT INSPECTION\n\nBlinking Light FACE Room Temperature Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis sensor detects the temperature inside the cabin and sends the appropriate signals to the A/C amplifier.\n\nDiagnostic Sensor Check Detecting Condition | Trouble Area\n\nOpen or short in room temperature sensor circuit. | • Room temperature sensor\n• Harness or connector between room temperature sensor and A/C amplifier\n• A/C amplifier\n\nWIRING DIAGRAM\n\nA/C Amplifier\n\n5 V\n\n5\nY-L\nA13\nTR\n\n2\nRoom Temp. Sensor\n\n1\nV-W\n9\nA13\nSG\n\nN08775"
+}

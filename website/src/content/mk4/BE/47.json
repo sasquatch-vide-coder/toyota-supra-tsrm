@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-47",
+  "section_header": "BODY ELECTRICAL SYSTEM — COMBINATION METER",
+  "title": "TACHOMETER INSPECTION",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – COMBINATION METER\n\nBE–47\n\nTACHOMETER INSPECTION\n\nINSPECT TACHOMETER\nON–VEHICLE\n\n(a) Connect a tune–up test tachometer, and start the engine.\nNOTICE: Reversing the connection of the tachometer\nwill damage the transistors and diodes inside.\n\n(b) Compare the tester and tachometer indications.\nIf error is excessive, replace the tachometer.\nRPM (DC 13.5 V, 25˚C (77˚F))\n\nStandard indication (rpm)    Allowable range (rpm)\n700    630–770\n1000    915–1115\n2000    1920–2220\n3000    2890–3350\n4000    3940–4400\n5000    5025–5425\n6500    6650–6950\n7000    7025–7625"
+}

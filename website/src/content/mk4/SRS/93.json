@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-93",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "RS–93\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURES\n[P] Preparation [C] Check\n\n1 Preparation.\n\nLOCK\nP squib\nCenter Airbag\nSensor Assembly\nSpiral\nCable\nD squib\nAB0117\nR05902\n\nP (1) Disconnect negative (–) terminal cable from the\nbattery, and wait at least 90 seconds.\n(2) Remove steering wheel pad. (See RS–10)\n(3) Disconnect connector of front passenger airbag\nassembly. (See page Rs–20)\n\nCaution\nStore the steering wheel pad with the front sur-\nface facing upward.\n\n2 Check P squib circuit.\n\nCenter Airbag\nSensor Assembly\nP squib\nSpiral\nCable\nD squib\nP– P+\nR05911\nAB0068\n\nP Disconnect center airbag sensor assembly connec-\ntor.\n\nC For the connector (on the center airbag sensor as-\nsembly side) between the center airbag sensor as-\nsembly and front passenger airbag assembly mea-\nsure the resistance between P+ and P–.\n\nOK Resistance: Less than 1\n\nNG\nOK Repair or replace harness or connector be-\ntween center airbag sensor assembly and\nfront passenger airbag assembly."
+}

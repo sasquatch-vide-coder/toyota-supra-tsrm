@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-210",
+  "section_header": "AUTO ANTENNA",
+  "title": "AUTO ANTENNA",
+  "ocr_text": "AUTO ANTENNA\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n1\n20A\nRAD\nNO. 1\n2\n\n17 IE\n10A\nECU-IG\n\n10 IE\n7.5A\nRAD\nNO. 2\n3 IH\n\nL-Y\n\n8 IB1\n\nL-Y\n\nI2\n\nL-Y\n\n1 IP1\n\nL-Y\n\nI15\n\nL-Y\n\nB-R\n\nL-Y\n(*1)\n\nL-Y\n(*2)\n\nGR\n\nGR\n(*2)\n\nGR (*1)\n\nGR\n\nP-L (*1)\n\nP-L (*2)\n\nB-R (*1)\n\nB-R (*2)\n\nI15\n\nP-L (*1)\nP-L (*2)\n\nB-R (*1)\nB-R (*2)\n\nGR (*1)\n\nL-Y (*1)\n\nL-Y (*2)\nGR (*2)\n\nP-L (*1)\nP-L (*2)\nB-R (*1)\nB-R (*2)\n\n1\n+B\n\n4\nIG\n\n5\nACC\n\n8\nAMP\n\n7\nANT\n\n6\nGND\n\nUP\n2\n\nDOWN\n3\n\nA30\nAUTO ANTENNA CONTROL RELAY\n\nR\n\nG\n\n7 IE1\n\n6 IE1\n\nR\n\nG\n\n1 M 2\nA33\nAUTO ANTENNA MOTOR\n\nW-B\n\nJ1\nJUNCTION\nCONNECTOR\n\nA\n\nA\n\nW-B\n\nIH\n\n210"
+}

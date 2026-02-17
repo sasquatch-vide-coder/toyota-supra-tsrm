@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-58",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Heater Relay Circuit",
+  "ocr_text": "AC–58\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nHeater Relay Circuit\n\nCIRCUIT DESCRIPTION\n\nThe heater relay is switched on by signals from the A/C amplifier and switches power to the blower motor.\n\nWIRING DIAGRAM\n\nB\nFrom HTR Fuse\nA/C Amplifier\nR-L\n2\n2  2\nHTR\n4  1    5\nALT\n2    3\nL-W  3  L-W  5  L-W  16\n2         IB2       IF1      A14  HR\nL-R  Blower Motor\n2         Control Relay\n1  2A\n2\nB\nW-B\nBattery\nEB\n\nN13036"
+}

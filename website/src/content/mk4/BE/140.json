@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-140",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Ignition Switch Circuit",
+  "ocr_text": "BE–140\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nIgnition Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nWhen the ignition switch is turned to the ACC position, battery positive voltage is applied to the terminal ACC\nof the ECU. Also, if the ignition switch is turned to the ON position, battery voltage is applied to the terminals\nACC and IG of the ECU. When the battery positive voltage is applied to the terminal ACC of the ECU while the\ntheft deterrent system is activated, the warning stops. Furthermore, power supplied from the terminals ACC and\nIG of the ECU is used as power for the door courtesy switch, and position switch, etc.\n\nWIRING DIAGRAM\n\nIgnition Switch\nJ/B No.1\nT8\nTheft Deterrent and\nDoor Lock ECU\n\n5 P-L\n8\n2\nW\n4\n4\nCIG\nL-R ACC\n1J\n1E\n1B\n1J\n7\n8\nW\n5\n17\n4 B-Y\nECU-IG\nB-R IG\n1J\n1E\n7\n\n2\nAM1\n2\nW\n2\nALT\n2A\nB\nBattery\n\nN12778"
+}

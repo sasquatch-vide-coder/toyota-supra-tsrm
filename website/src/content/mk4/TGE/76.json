@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-456",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–456\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\n4  Check EGR system (See page Eg–168).\n\nOK\nNG  Repair EGR system.\n\n5  Check resistance of EGR gas temp. sensor.\n\nEGR Gas Temp. Sensor\n\nOil\n\nP03193\n\nP  Remove EGR gas temp. sensor.\n\nC  Measure resistance between terminals of EGR gas temp. sensor connector.\n\nOK  Resistance:  64 — 97 kΩ at 50˚C (122˚F)\n               11 — 16 kΩ at 100˚C (1212˚F)\n                2 —  4 kΩ at 150˚C (302˚F)\n\nOK\nNG  Replace EGR gas temp. sensor.\n\n6  Check for open in harness and connector between EGR gas temp. sensor and engine control module. (See page IN–30)\n\nOK\nNG  Repair or replace harness or connector.\n\nCheck and replace engine control module."
+}

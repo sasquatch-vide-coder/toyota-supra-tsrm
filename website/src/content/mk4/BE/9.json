@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-9",
+  "section_header": "BODY ELECTRICAL SYSTEM — IGNITION SWITCH",
+  "title": "KEY UNLOCK WARNING INSPECTION",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – IGNITION SWITCH\n\nBE–9\n\nKEY UNLOCK WARNING INSPECTION\n\n1. INSPECT INTEGRATION RELAY OPERATION\n(a) Connect the positive (+) lead from the battery to terminal 1,\nthe negative (–) lead to terminals 5 and 10.\n(b) Check that the buzzer sounds when the negative (–) lead\nfrom the battery is connected to terminal 6.\nIf operation is not as specified, replace the relay.\n2. INSPECT RELAY CIRCUIT\nSee page BE–18\n\n10 7 6 5\n\nNO8952"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-583",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "Injector Circuit",
+  "ocr_text": "Injector Circuit\n\nCIRCUIT DESCRIPTION\n\nThe injectors are located in the intake manifold. They inject fuel into the cylinders based on the signals from the engine control module.\n\nReference   INSPECTION USING OSCILLOSCOPE\n• With engine idling measure waveform between terminals # 10 ~ 60 and E01 of engine control module.\nHINT: The correct waveform is as shown.\n\nInjector Signal Waveform\n10 V/Div.\n\nGND\n100 msec./Division (Idling)\n\n(Magnification)\n10 V/Div.\n\nGND\n1 msec./Division (Idling)\nInjection duration\n\nFI6598 FI6538\n\nWIRING DIAGRAM\n\nIgnition Switch\nW-R\n2\n3\nB-O\nIJ1  B-O\n9\n1\n\nSolenoid Resistor\nL\n2\n\nInjector\nNo.1\nR-L\nE9\n1\n\nEngine Control Module\n20\n#10\n\nBR\n3\n\nNo.2\nR-Y\nE9\n2\n1\n\n19\n#20\n\nR\n4\n\nNo.3\nR-G\nE9\n2\n1\n\n18\n#30\n\nG\n8\n\nNo.4\nR-W\nE9\n2\n1\n\n17\n#40\n\nB-Y\n7\n\nNo.5\nR\nE9\n2\n1\n\n16\n#50\n\nW\n6\n\nNo.6\nR-B\nE9\n2\n1\n\n15\n#60\n\nBR\n\nE9\n\n80\nEO1\n\nBR\n\nE9\n\n79\nEO2\n\n4  IB1\n\nW-R\n\n2\nAM2\nR/B No.2\n1\n2A\n\nB\n\nBattery\n\nFI6934"
+}

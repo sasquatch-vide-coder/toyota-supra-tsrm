@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-141",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE-141\nBODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1 Check CIG and ECU–IG fuses.\n\nJ/B No. 1\nECU-IG\nCIG\n\nN08843\nF10044\n\nP Remove CIG and ECU–IG fuses from J/B NO. 1.\nC Check continuity of CIG and ECU–IG fuses.\nOK Continuity\n\nOK\nNG Check for short in all the harness and components connected to the CIG and ECU–IG fuses (See attached wiring diagram).\n\n2 Check voltage between terminals IG and ACC of theft deterrent and door lock ECU and body ground.\n\nON\nDisconnect\n\nIG ACC\n\nBE3841\nN07483\n\nP (1) Remove instrument panel.\n(See BO section)\n(2) Disconnect the ECU connector.\n(3) Turn ignition switch ON.\nC Measure voltage between terminal IG and ACC of theft deterrent ECU connector and body ground.\nOK Voltage: 10 – 14 V\n\nNG\nOK Check and replace theft deterrent and door lock ECU.\n\nCheck and repair harness and connector between theft deterrent and door lock ECU and battery (See page IN–30)."
+}

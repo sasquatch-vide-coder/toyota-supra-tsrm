@@ -1,0 +1,6 @@
+{
+  "page_id": "SRS-198",
+  "section_header": "SRS (SUPPLEMENTAL RESTRAINT SYSTEM)",
+  "title": "SRS (SUPPLEMENTAL RESTRAINT SYSTEM)",
+  "ocr_text": "SRS (SUPPLEMENTAL RESTRAINT SYSTEM)\n\nThe supplemental restraint system has connectors which possess the functions described below:\n\n1. SRS ACTIVATION PREVENTION MECHANISM\n\nEach connector contains a short spring plate. When the connector is disconnected, the short spring plate automatically connects the power source and grounding terminals of the squib to preclude a potential difference between the terminals.\n\n• When Connected\n\n• When Open\n\nHousing (male)\n\nShort Spring Plate\n\nHousing (female)\n\nShort Spring Plate\nContacting Male Terminal\n\n2. ELECTRICAL CONNECTION CHECK MECHANISM\n\nThis mechanism is designed to electrically check if connectors are connected correctly and completely.\n\nThe electrical connection check mechanism is designed so that the connection detection pin connects with the diagnosis terminals when the connector housing lock is in the locked condition.\n\n• Half Connection\n\n• Complete Connection\nConnector Housing\nLock (Connected)\n\nConnection Detection Pin\n\nTerminal for\nDiagnosis\n\nSlope\n\nSlope\n\nConnection\ndetection pin\ncontacting\nterminal\n\n198"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-51",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT2–51\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nECM\n\nECM\nVehicle Wire Harness\nCheck Harness A\n\n8 W light Bulb\n\nQ03752 Q00023\nProtector\nQ03753\n\n(f) Fully apply the parking brake and chock the 4 wheels.\n(g) Start the engine and check idling speed.\n(h) Keep your left foot pressed firmly on the brake pedal and shift into D position.\n(i) Measure the accumulator back pressure.\n(j) With the conditions the same as in (h), ground the other probe or the test lead which has one end inserted into the terminal SLN of the ECM harness side connector, then measure the accumulator back pressure again."
+}

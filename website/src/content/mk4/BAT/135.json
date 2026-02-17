@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-135",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BR–135\n\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nINSPECTION PROCEDURE\n\n1   Check TRAC fuse.\n\nR/B No.2\n\nTRAC\n\nR07408\n\nP   Remove TRAC fuse from R/B No.2.\n\nC   Check continuity of TRAC fuse.\n\nOK   Continuity\n\nOK\n\nNG   Check for short in all harness and components connected to TRAC fuse.\n\n2   Check voltage between terminals BM and GND of TRAC ECU.\n\nLOCK\n\nBM\n\nGND\n\nBE6653\nR07198\n\nP   Remove TRAC ECU with connectors still connected.\n\nC   Measure voltage between terminals BM and GND of TRAC ECU.\n\nOK   Voltage: 10 – 14 V\n\nOK\n\nNG   Check and repair harness or connector."
+}

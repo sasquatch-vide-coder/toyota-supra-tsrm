@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-454",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "CIRCUIT DESCRIPTION (Cont'd)",
+  "ocr_text": "EG–454\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nCIRCUIT DESCRIPTION (Cont'd)\n\nMalfunction: Open in EGR Gas Temp. Sensor Circuit\n\n(Vehicle Speed)\n\n88 ~ 96 km/h\n(55 ~ 60 mph)\n\nDetection\n\n④\n\nIdling\nIG SW OFF\n\n① ②\n③\n\n3 min.\n4 min.\n(Time)\n\nFI6528\n\n(1) Disconnect the EFI No.1 fuse (30A) for 10 sec. or more, with IG switch OFF. Initiate\ntest mode (Connect terminal TE2 and E1 of data link connector 2 with IG switch\nOFF).\n(2) Start engine and warm up.\n(3) Idle the engine for 3 min.\n(4) With the A/C ON and transmission in 5th position (A/T in 3rd speed) drive at 88 ~ 96\nkm/h (55 ~ 60 mph) for 4 min. or less.\n\nHINT: If a malfunction exists, the malfunction indicator lamp will light up during step (4).\n\nNOTICE: If the conditions in this test are not strictly followed, detection of the malfunction\nwill not be possible.\n\nWIRING DIAGRAM\n\nEngine Control Module\n\nB-R\n3\n>>EA3 B-R 2 1 P\nGR\n8\n>>EA1\nVSV for EGR\n75 EGR\nE9\nE01\n\nR/B No.2\n\nEFI Main Relay\n\nB+ \n\n24\nGR E10 M-REL\n\nR/B No.2\n\nEFI No.1\n\nB-Y\n\nW-B\n\n2A\n\nEGR Gas\nTemp. Sensor\n\n5 V\n\n1\nBR-Y\n46\nE9 THG\n\n2\n\nBattery\n\nBR-B\n66\nE9 E2\n\nE1\n\nFI6949"
+}

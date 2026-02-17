@@ -27,7 +27,7 @@ ROOT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 WEBSITE_DIR = Path(__file__).resolve().parent.parent / "website"
 ERRORS_LOG = ROOT_DATA_DIR / "errors.log"
 
-MODEL_YEAR = {"mk2": "1986", "mk3": "1990"}
+MODEL_YEAR = {"mk2": "1986", "mk3": "1990", "mk4": "1997"}
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")

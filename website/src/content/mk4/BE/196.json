@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-196",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE–196\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1  Check ECU–B fuse.\n\nJunction Block No.1\nECU-B Fuse\n\nN08643\n\nP  Remove ECU–B fuse from R/B No.2.\nC  Check continuity of ECU–B fuse.\nOK  Continuity\n\nOK\n\nNG  Check for short in all the harness and components connected to the ECU–B fuse (See attached wiring diagram).\n\n2  Check continuity between terminal BATT of ECU connector and body ground.\n\nLOCK\n\nBATT\n\nBE3842\nNO8798\n\nP  Remove ECU with connectors still connected.\nC  Measure voltage between terminal BATT of ECU connector and body ground.\nOK  Voltage:  10 – 14 V\n\nNG\n\nOK  Proceed to next circuit inspection shown on matrix chart (See page BE–170).\n\nCheck and repair harness and connector between battery and ECU."
+}

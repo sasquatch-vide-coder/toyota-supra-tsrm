@@ -1,0 +1,6 @@
+{
+  "page_id": "EL-94",
+  "section_header": "HEADLIGHT (FOR USA)",
+  "title": "HEADLIGHT (FOR USA)",
+  "ocr_text": "HEADLIGHT (FOR USA)\n*1 : 2JZ-GTE\n*2 : 2JZ-GE\n\nR\nR-Y\nR\nR\nR-Y\n\n2\n3\nHEADLIGHT RELAY\n4  2\n2\n50A MAIN\n1\n2A\nB\n\nBATTERY\n\n13  IB2\n\nI2\n\nR-Y\n\n6\nHRLY\nIR20\nINTEGRATION RELAY\nH\n7\n\nR\n\nR-Y\n\nLIGHT CONTROL SW\nOFF\nTAIL\nHEAD\nDIMMER SW\nLOW\nHIGH\nFLASH\n\nC13\nCOMBINATION SW\n\n13        14\n11        9        12\n\nW-B\n5  1K\n1  1J\n\nW-B\nIE\n\nR-Y\n\n2\n1\n15A HEAD (RH)\n2\n\nE 2 :*1\nE18 :*2\n\n2  IB1\n\nR-W\n\n6  IF1\n\nC12\nHIGH BEAM\nINDICATOR LIGHT\n[COMB. METER]\n\n3\n\nH 2\nHEADLIGHT HI RH\n3\n\nH 4\nHEADLIGHT LO RH\n1\n\nR-L\n\nW-B\n\nE 9 :*1\nE21 :*2\n\n14  IF1\n\nR-L\n\n7  IB1\n\nR-L\n\nI2\n\nR-L\n\nW-B\n\n2\n1\n15A HEAD (LH)\n2\n\nE 2 :*1\nE18 :*2\n\nR-W\n\nR-B\n\nR-B\n\nH 1\nHEADLIGHT HI LH\n1\n\nH 2\nHEADLIGHT LO LH\n2\n\nR-L\n\nW-B\n\nEA\n\nR-W\nR-W\nR-W\n\n94"
+}

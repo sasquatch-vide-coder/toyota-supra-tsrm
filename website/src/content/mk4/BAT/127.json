@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-127",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "DIAGNOSTIC TROUBLE CODE CLEARANCE",
+  "ocr_text": "BR–127\n\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nDIAGNOSTIC TROUBLE CODE CLEARANCE\n\n1. Using SST, connect terminals Tc and E1 of DLC2 or DLC1.\nSST 09843–18020\n2. IG switch ON.\n3. Clear the diagnostic trouble codes stored in ECU by depressing the brake pedal 8 or more times within 3 seconds.\n4. Check that the TRAC indicator light shows the normal code.\n5. Remove the SST from the terminals of DLC2 or DLC1.\nHINT: Cancellation can also be done by removing the ECU–B fuse, but in this case, other memory systems will also be cancelled out.\n\nBR3880"
+}

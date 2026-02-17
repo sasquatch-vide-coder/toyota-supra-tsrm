@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-144",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "Check ECU–IG fuse.",
+  "ocr_text": "BR–144\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\n4    Check ECU–IG fuse.\n\nJ/B No.1\n\nECU-IG\n\nR07407\n\nP    Remove ECU–IG fuse from J/B No. 1.\n\nC    Check continuity of ECU–IG fuse.\n\nOK   Continuity\n\nOK\n\nNG    Check for short in all the harness and components\n      connected to ECU–IG fuse.\n\nCheck for open in harness and connector between\nTRAC ECU and battery (See page IN–30)."
+}

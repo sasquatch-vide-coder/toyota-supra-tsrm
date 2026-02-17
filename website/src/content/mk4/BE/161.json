@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-161",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE-161\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1 Check key unlock warning switch.\n\nDisconnect\n\nP Disconnect key unlock warning switch connector. tor.\n\nC Check continuity between terminals 1 and 2 of key unlock warning switch connector, when the key is inserted to the key cylinder or removed.\n\nOK ○——○ Continuity\n\nTerminal         1    2\nSwitch position\nON (Key inserted)    ○——○\nOFF (Key inserted)\n\nBE4001 SR3448\nN08076\n\nOK                NG > Replace key unlock warning switch.\n\n2 Check harness and connectors between ECU and key unlock warning switch, key unlock warning switch and body ground (See page IN–30).\n\nOK                NG > Repair or replace harness or connector.\n\nProceed to next circuit inspection shown on matrix chart (See page BE–123)."
+}

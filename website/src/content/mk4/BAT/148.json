@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-148",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BR–148\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nINSPECTION PROCEDURE\n\n1  Check for open and short in harness and connector between terminal NEO of TRAC ECU and terminal NEO of ECM (See page IN–30).\n\nOK\nNG  Repair or replace harness or connector.\n\n2  Check voltage between terminal NEO of TRAC ECU and body ground.\n\nON\n\nNEO\n\nP  1.  Remove TRAC ECU with connectors still connected.\n    2.  Turn ignition switch ON.\n\nC  Measure voltage between terminal NEO of TRAC ECU and body ground for the engine conditions below\n\nOK\nEngine condition          Voltage\nOFF (IG ON)          4 – 6 V or Below 1 V\nON (Idling)          2 – 3 V (Pulse)\n\nOK\nNG  Check and replace TRAC ECU or ECM.\n\nIf the same code is still output after the diagnostic code is deleted, check the contact condition of each connection.\n\n8E6853\nR08990"
+}

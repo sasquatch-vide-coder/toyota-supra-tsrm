@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-112",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT2–112\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n2  Check voltage between terminal OD of Cruise Control ECU harness side connector and body ground.\n\nON\nIG ON\n\nP  1. Disconnect Cruise Control ECU connector.\n    2. Turn ignition switch ON.\n\nC  Measure voltage between terminal OD of Cruise Control ECU harness side connector and body ground.\n\nOK  Voltage: 4 — 6 V\n\nBE6653\nBE6623\n\nNG                          OK  Check and replace Cruise Control ECU.\n\n3  Check harness and connector between Cruise Control ECU and ECM (See page IN–30).\n\nOK                          NG  Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

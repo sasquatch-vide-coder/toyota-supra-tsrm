@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-46",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "TIME LAG TEST",
+  "ocr_text": "AT2–46\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nTIME LAG TEST\nWhen the shift lever is shifted while the engine is idling, there will be a certain time lapse or lag before the\nshock can be felt. This is used for checking the condition of the O/D direct clutch, forward clutch, direct\nclutch, and first and reverse brake.\nNOTICE:\n• Do the test at normal operating fluid temp. 50–80°C (122–176°F).\n• Be sure to allow 1 minute interval between tests.\n• Take 3 measurements and take the average value.\nMEASURE TIME LAG\n(a) Fully apply the parking brake\n(b) Start the engine and check idle speed.\nIdle speed:\n650±50 rpm (In N position and air conditioner OFF)\n(c) Shift the shift lever from N to D position. Using a stop watch, measure the time it takes from shifting the\nlever until the shock is felt.\nIn same manner, measure the time lag for N → R.\nTime lag:\nN → D Less than 1.2 seconds\nN → R Less than 1.5 seconds\n\nShock Noise\n50 – 80°C\n(122\n176°F)\nR\nN\nD\nShock Noise\nTE0008"
+}

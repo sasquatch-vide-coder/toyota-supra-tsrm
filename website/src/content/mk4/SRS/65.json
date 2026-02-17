@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-65",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "Check spiral cable.",
+  "ocr_text": "RS–65\n\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nFrom the results of the above inspection, the malfunctioning part can now be considered normal.\nTo make sure of this, use the simulation method to check.\n\n9  Check spiral cable.\n\nP squib\nSpiral\nCable\nD squib\nCenter Airbag\nSensor Assembly\nON\nV\nD+\nR05899\nAB0119 AB0087\n\nP  (1)  Turn ignition switch to LOCK.\n(2)  Disconnect connector between center airbag\nsensor assembly and spiral cable.\n(3)  Turn ignition switch ON.\n\nC  Measure voltage at D+ on spiral cable side of connector between spiral cable and steering wheel pad.\n\nOK  Voltage:  0 V\n\nOK\n\nNG  Repair or replace spiral cable.\n\nRepair or replace  harness or connector between\ncenter airbag sensor assembly and spiral cable."
+}

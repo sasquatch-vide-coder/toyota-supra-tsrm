@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-61",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT2–61\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION  –  TROUBLESHOOTING\n\n(*A=  (E10), B=  (E9))\n\nTerminals | Symbols | Wiring Color | Condition | Standard Value\n\nA14 – B69 | TRC⊕ – E1 | O ↔ BR | Ignition switch ON | 10 – 14 V\nA13 – B69 | TRC⊖ – E1 | W–R ↔ BR | Ignition switch ON | 10 – 14 V\nB12 – B31 | SLT⊖–SLT⊕ | LG–R ↔ W–G | Ignition switch ON | 10 – 14 V\nA18 – B69 | M – E1 | G–Y ↔ BR | IG ON | Pattern select SW:  MANU | 10 – 14 V\nA18 – B69 | M – E1 | G–Y ↔ BR | IG ON | Pattern select SW:  NORM | Below 1 V\nA28 – B69 | OD2 – E1 | V–G ↔ BR | IG ON | O/D main SW:  ON | 10 – 14 V\nA28 – B69 | OD2 – E1 | V–G ↔ BR | IG ON | O/D main SW:  OFF | Below 0.5 V\nA27 – B69 | EFI⊕  – E1 | B ↔ BR | Ignition switch ON | 10 – 14 V\nA26 – B69 | EFI⊖  – E1 | W ↔ BR | Ignition switch ON | 10 – 14 V"
+}

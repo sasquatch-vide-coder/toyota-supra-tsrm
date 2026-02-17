@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-439",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "INSPECTION PROCEDURE\n\n1  Check voltage between terminals KS and E1 of engine control module connector.\n\nSTART\n\nSST\nECM\n\nB 69, 66\n\nE1    KS\n\nBE6653\nFI6502\n\nP  Connect SST (check harness \"A\").\n(See page EG–404)\nSST 09990–01000\n\nC  Measure voltage between terminals KS and E1 of engine control module connector while engine is cranked.\n\nOK  Voltage:  2.0 — 4.0 V\n(Neither 0 V nor 5 V)\n\nReference  INSPECTION USING OSCILLOSCOPE\n\nKS Signal Waveform\n1 V/Div.\n\n0 V\n\n10 msec./Division (Idling)\n\nFI6512\n\n• During cranking or idling, measure waveform between terminals KS and E1 of engine control module.\nHINT:  The correct waveform is as shown.\n\nNG\n\nOK  When diagnostic trouble code 31 is displayed, check and replace engine control module.\n\n2  Check for open and short in harness and connector between engine control module and volume air flow meter (See page IN–30).\n\nOK\n\nNG  Repair or replace harness or connector."
+}

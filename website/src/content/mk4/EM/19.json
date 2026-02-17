@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-19",
+  "section_header": "ENGINE — ENGINE MECHANICAL",
+  "title": "",
+  "ocr_text": "EG–19\nENGINE – ENGINE MECHANICAL\n\n3. CHECK IDLE SPEED\n(a) Race the engine speed at 2,500 rpm for approx. 90 seconds.\n(b) Check the idle speed.\nIdle speed:\n700 ± 50 rpm\n\n4. ADJUST IGNITION TIMING\n(a) Using SST, connect terminals TE1 and E1 of the DLC 1.\nSST 09843–18020\n\nSST\nTE1\nE1\nDLC1\nP11288\n\n(b) Using a timing light, check the ignition timing.\nIgnition timing:\n10 ± 2° BTDC @ idle\n(Transmission in neutral position)\n\nP12353\n\n(c) Loosen the nut, and adjust by turning the distributor.\nIgnition timing:\n10° BTDC @ idle\n(Transmission in neutral position)\n(d) Tighten the nut, and recheck the ignition timing.\nTorque: 19 N·m (195 kgf·cm, 14 ft·lbf)\n(e) Remove the SST from the DLC1.\nSST 09843–18020\n\nTurn\nP10609\n\n5. FURTHER CHECK IGNITION TIMING\nIgnition timing:\n7–19° BTDC @ idle\n(Transmission in neutral position)\nHINT: The timing mark moves in a range between 7° and 19°.\n\n6. DISCONNECT TACHOMETER AND TIMING LIGHT"
+}

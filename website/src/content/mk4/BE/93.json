@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-93",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "EITHER AM OR FM DOES NOT WORK, RECEPTION POOR (VOLUME FAINT), FEW PRESET TUNING BANDS",
+  "ocr_text": "BE–93\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n6  Radio  EITHER AM OR FM DOES NOT WORK, RECEPTION POOR (VOLUME FAINT), FEW PRESET TUNING BANDS\n\nW  : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nProblem with radio wave signals or location? (See SYSTEM DESCRIPTION)\nYes → Poor signals, poor location.\nNo\n\nAre both AM and FM defective?\nNo → Radio assembly faulty.\nYes\n\nIs power for the antenna being output from the radio assembly.\nNo\n\nWO                    W\n              Is power for the antenna being output from the power amplifier?\n              No → Power amplifier faulty. .\n              Yes\n\nGo to No. 32.\nNo\n\nIs tape player operating normally? '\nYes → Radio assembly faulty?\nNo\n\nTemporarily install another speaker. . Functions OK?\nYes → Speaker faulty.\nNo\n\nW                    WO\n             Radio assembly faulty.\n\nHissing sound from speaker?\nNo → Power amplifier faulty. Recheck system after repair. ,\nYes\n\nRadio assembly faulty. Recheck system after repair."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-410",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "EG–410\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1  Check resistance of each pickup coils in distributor.\n\nP  Disconnect distributor connector.\n\nC  Measure resistance between each terminal shown in the table below.\n\nOK\n                        Resistance\nG1 pickup coil\n(G1–G⁻±)    Cold    125 ~ 200 Ω\n                Hot     160 ~ 235 Ω\nG2 pickup coil\n(G2–G⁻±)    Cold    125 ~ 200 Ω\n                Hot     160 ~ 235 Ω\nNE pickup coil\n(NE–G⁻±)    Cold    155 ~ 250 Ω\n                Hot     190 ~ 290 Ω\n\n\"Cold\" is from — 10°C (14°F) to 50°C (122°F)\nand \"Hot\" is from 50°C (122°F) to 100°C (212°F).\n\nNE G1 G2 G⊖\n\nFI6631\n\nReference    INSPECTION USING OSCILLOSCOPE\n\nG, NE Signal Waveforms\nG1                    5 V/Div.\nG2\nNE\n20 msec./Division\n(Idling)\n\nFI6519\n\n• During cranking or idling, check waveforms between terminals G1, G2, NE and G ± of engine control module\nHINT: The correct waveforms are as shown.\n\nOK                 NG  Replace Distributor\n\n2  Check for open and short in harness and connector between engine control module and distributor (See page IN–30).\n\nOK                 NG  Repair or replace harness or connector"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-299",
+  "section_header": "ENGINE – SFI SYSTEM (2JZ-GTE)",
+  "title": "EFI NO.2 RELAY\nEFI NO.2 RELAY INSPECTION",
+  "ocr_text": "ENGINE – SFI SYSTEM (2JZ-GTE)\n\nEFI No.2\nRelay\n\nP11277\n\nOhmmeter\nNo\nContinuity\nContinuity\n1\n5\nOhmmeter\n3\n2\nP0F170\n\nOhmmeter\nContinuity\n1\n5\n3\n2\nBattery\nP0F171\n\nEFI NO.2 RELAY\nEFI NO.2 RELAY INSPECTION\n\n1. REMOVE EFI NO.2 RELAY\nLOCATION: In the engine compartment relay box.\n\n2. INSPECT EFI NO.2 RELAY\nA. Inspect relay continuity\n(a) Using an ohmmeter, check that there is continuity between\nterminals 1 and 2.\n(b) Check that there is no continuity between terminals 3 and 5.\nIf continuity is not as specified, replace the relay.\n\nB. Inspect relay operation\n(a) Apply battery voltage across terminals 1 and 2.\n(b) Using an ohmmeter, check that there is continuity between\nterminals 3 and 5.\nIf operation is not as specified, replace the relay.\n\n3. REINSTALL EFI NO.2 RELAY"
+}

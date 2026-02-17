@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-579",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG-579\n\nENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING\n\n6 Check voltage between terminal M-REL of engine control module connector\nand body ground\n\nP Turn ignition switch ON.\n\nC Measure voltage between terminal M-REL of engine control module connector and body ground.\n\nOK Voltage: 9 — 14 V\n\nON SST\nECM\n24\nM-REL\n\nBE6653\nFI6491\n\nOK                    NG Check and replace engine control module.\n\n7 Check EFI No.1 Fuse.\n\nP Remove EFI No.1 fuse from R/B No.2.\n\nC Check continuity of EFI No.1 fuse.\n\nOK Continuity\n\nEFI No.1 Fuse    R/B No.2\n\nN08419\n\nOK                    NG Check for short in the harness and all the components connected to EFI No.1 fuse (See Electrical Wiring Diagram)."
+}

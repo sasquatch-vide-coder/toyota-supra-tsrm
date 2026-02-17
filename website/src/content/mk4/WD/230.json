@@ -1,0 +1,6 @@
+{
+  "page_id": "235",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : 2JZ-GTE\n*2 : 2JZ-GE\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n10A\nECU-B\n\n15A\nCIG\n\n10A\nGAUGE\n\n12\n1E\nY\n\n13 1E\n2 1E\n12 1H\n\nA25\nAIR MIX CONTROL\nSERVO MOTOR\n\nWARM\n\nCOOL\n\n4   3   5   2         1\n\nBR-W   G-W   V-W   V         R-Y\n\nV-W\n\nG-W         V         R-Y\n\n8 IG1   9 IG1   2 IG1\n\nG-W         V         R-Y\n\n18 TP   3 AMH   1 AMC\n\nA12 C , A13 A , A14 B\nA/C AMPLIFIER\n\nW-R\n\n7 B\n+B\n\nW-R\n\nL-R\n\n2 ACC\n\nL-R\n\nW-L\n\n4\n\n5   2\n4\n\nREAR WINDOW\nDEFOGGER RELAY\n\nY\n\nB\n\nL-R\n\n20 C\nACC\n\nY\n\n1\nT 6\nTELLTALE LIGHT RH\n\nB\n\n8 IF1\n\n18 B\nRDEFGR\n\nI14\nY\n\nI14\nY\n\nC10   C12 R\nSPEEDOMETER\n(COMB. METER)\n\n9 A\n\n10\n1 B\n11 A   11 B\n\nL-R\n\nBR\n\nY\n\nODO AND\nTRIP\n\n6         6\n\nP         L-R\n\nI14\nL-R\n\n8 I11   23 I11\n\nR         Y\n\nR\n\nV10\nVEHICLE SPEED SENSOR\n(SPEED SENSOR\nFOR COMBINATION METER)\n\n2   1\n\n3\n\n2\nI11\nL-R\n\nL-Y\n\n12 IB6\n\nL-Y\n\nP\n\n6 IF3\n\nL-Y\n\n11 A   14 A\nSPEED   PSW\n\n1 A (*1)\n2 B (*2)\n\nA3\nA/C DUAL PRESSURE SW\n\n1 A (*1)\n1 B (*2)\n\nW-B\n\nEA\n\nBR\n\nIF"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-164",
+  "section_header": "ABS AND TRACTION CONTROL",
+  "title": "ABS AND TRACTION CONTROL",
+  "ocr_text": "ABS AND TRACTION CONTROL\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n1\n30A\nABS\nNO. 2\n2\n\n1\n60A\nABS\nNO. 1\n2\n\nY\n\nV–Y\n\n5  5\n1  3\nTRACTION\nMOTOR RELAY\n2  4\n5  5\n\nL–Y   G–B\n\n3\nT 4\nTRACTION\nPUMP AND\nMOTOR\nM\n1  2\n\nW–B   W–G\n\nEB\n\nR\nE2\nR  Y\n5  5\n\nV–Y\n2  3\nABS MOTOR\nRELAY\n5  5\nV–Y\n\nL  V–Y\nE5\nV–Y\nE6\nV–Y\nE5\n\nV–Y\n\n13 IB6\n\nL  V–Y  G–B\n\nR\n\nR\n\nB–R\n\nV–Y\n\n5  5  5\n6  5  1\nABS SOLENOID\nRELAY\n4  3\n5  5  5\n\nV–Y\n\nL–W\n\nW–B\n\nE5\n\nW–B\n\nB–R\n\nLG–R\nV\nL–B\nB–R\n\n16 IB5\n\nB–R  LG–R\n\n5  5  5\n6  5  1\nTRACTION SOLENOID\nRELAY\n4  3\n5  5  5\n\nV–Y\n\nR–W  W–B\n\nEA\n\nLG–R\nV\nL–B\nB–R\n\nR\n\nG–B\nW–G\nR–W\nL\nL–W\nV–Y\nB–R\n\n164"
+}

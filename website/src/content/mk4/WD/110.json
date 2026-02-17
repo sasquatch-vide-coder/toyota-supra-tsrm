@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-112",
+  "section_header": "TURN SIGNAL AND HAZARD WARNING LIGHT",
+  "title": "TURN SIGNAL AND HAZARD WARNING LIGHT",
+  "ocr_text": "TURN SIGNAL AND HAZARD WARNING LIGHT\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n1\n15A\nHAZ-\nHORN\n2\n\n7. 5A\nTURN\n7 1E\n\n3 IB1\nW\n4 IF1\nW\n\n8        10\n\nH10\nHAZARD SW\n\n        F    TB    B2    TL    B1    TR\nHAZARD  OFF\n        ON\n\nC13\nTURN SIGNAL SW [COMB. SW]\n\n        TB    TL    TR\nTURN  LH\n      RH\n\n1        5        8\n\n7    9    5    6\nW-R  R-B      G-B  G-Y\n\n12 IF1\n17 IF1\n\nW-R\nR-B\n\nI3\nI3\nI2\n\nG-Y\nG-B\nR-B\nG-Y\nG-B\n\nR-B\nG-B\nG-Y\nG-Y\n\n4\n2\nB\nL\nTURN SIGNAL\nFLASHER\nE\n3\n4\n\nW-B\n\n19 1E    11\n7 1A  ←→  1H\n4 1C\n\n14 1E    7\n4 1A  ←→  1H\n3 1C\n\nG-Y\nG-B\n\n15 A    6 B\nLH  TURN  RH\nC10 B . C12 A\nTURN SIGNAL\nINDICATOR LIGHT\n[COMB. METER]\n\n7    B\n\nJ1\nJUNCTION\nCONNECTOR\n\nW-B\n\nA\nW-B\nA\n1H\n\nG-B\nG-B\nG-Y\nG-Y\n\nF7\nFRONT TURN SIGNAL\nLIGHT LH\n\nR9\nREAR TURN SIGNAL\nLIGHT LH\nREAR COMB. LIGHT LH\n\nF8\nFRONT TURN SIGNAL\nLIGHT RH\n\nR10\nREAR TURN SIGNAL\nLIGHT RH\nREAR COMB. LIGHT RH\n\n2\n6\n5\n\n2\n6\n5\n\nW-B\nW-B\nW-B\n\nE2 : 2JZ-GTE\nE18 : 2JZ-GE\n\nE2 : 2JZ-GTE\nE18 : 2JZ-GE\n\nB5\n\nW-B\n\nIE\nEB\nBI\nEA\nBJ\nIH\n\n112"
+}

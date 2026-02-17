@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-547",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "EG-547\nENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nEngine Control Module\nB-R    6\n>>EA2    B-R    1    2 L-W  60\nE9    PMC    B+\nGR    8\n>>EA1\nVSV for Waste\nGate Valve\nE01\nB+\n2    2\n5\nEFI Main Relay\nM-REL\n3    2\n2    2\nGR    24\nE10    M-REL\nB-Y\n2\nR/B\nNo.2\nEFI No.\nW-B\n2A\nB\nBattery\n\nFI6957\n\nINSPECTION PROCEDURE\n\n1    Check operation of actuator.\n\nP    (1) Check actuator hose connection.\n(2) Disconnect actuator hose.\n(3) Using SST, apply pressure to the actuator.\nSST 09992-00241\n\nPlug\nOpen\nMove\nDisconnect    119 kPa    SST\n\nC    Waste gate valve operate smoothly.\n\nOK    Operation pressure:\n119 kpa (1.2 kgf/cm2, 17.3 psi) or less\n\nP11286\n\nOK    NG    Replace actuator."
+}

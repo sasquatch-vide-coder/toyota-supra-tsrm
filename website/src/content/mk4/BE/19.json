@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-19",
+  "section_header": "BODY ELECTRICAL SYSTEM — HEADLIGHT AND TAILLIGHT SYSTEM",
+  "title": "DAYTIME RUNNING LIGHT RELAY No.2 INSPECTION",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – HEADLIGHT AND TAILLIGHT SYSTEM\n\nBE–19\n\nDAYTIME RUNNING LIGHT RELAY No.2\nINSPECTION\n\nINSPECT RELAY CONTINUITY\n\nCondition | Tester connection to terminal number | Specified condition\nConstant | 3–4 | Continuity\nApply B+ between terminals 3 and 4. | 1–2 | Continuity\n\nIf continuity is not as specified, replace the relay.\n\nBE1B3B BE1B4O\nZ09181\n\nDAYTIME RUNNING LIGHT RELAY No.3\nINSPECTION\n\nINSPECT RELAY CONTINUITY\n\nConnector B\nConnector A\n2  1\n4  3\n3  2  1\n6  5  4\n\nN08895 N08896\n\nB1  B3  A2\nB2  B4  A1  A5\nA3\n\nZ14743\n\nTester connection to terminal number | Condition | Specified condition\nA1–B3 | Constant | Continuity\nA3–A5 | Constant | Continuity\nB3–B4 | Constant | Continuity\nA2–A5 | Apply battery positive voltage between terminal A1 and B3. | Continuity\nB1–B2 | Apply battery positive voltage between terminal B3 and B4. | Continuity\n\nIf continuity is not as specified, replace the relay."
+}

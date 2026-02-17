@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-167",
+  "section_header": "ENGINE — EMISSION CONTROL SYSTEMS (2JZ-GE)",
+  "title": "VSV INSPECTION / CHECK VALVE INSPECTION",
+  "ocr_text": "EG-167\nENGINE – EMISSION CONTROL SYSTEMS (2JZ-GE)\n\nPort A\nCompressed\nAir\nP12172\n\n(b) Blow air (4.71 kPa (0.048 kgf/cm2, 0.68 psi)) into port A, and\ncheck that air does not flow from the other ports.\nIf operation is not as specified, replace the charcoal canister.\n\nPort A  Port B\nCompressed\nAir\nP12173\n\n4. CLEAN FILTER IN CANISTER\nClean the filter by blowing 294 kPa (3 kgf/cm2, 43 psi) of com-\npressed air into port B while holding port A closed.\nNOTICE:\n• Do not attempt to wash the canister.\n• No activated carbon should come out.\n5. REINSTALL CHARCOAL CANISTER\n\nCheck Valve\nP10539\n\nVSV INSPECTION\n\n(See VSV for EVAP in SFI System)\n\nCHECK VALVE INSPECTION\n\n1. REMOVE CHECK VALVE\n\nBlue Port\nBlack Port\nP01978\nZ09444\n\n2. INSPECT CHECK VALVE\n(a) Check that air flows from the blue port to the black port.\n(b) Check that air does not flow from the black port to the blue\nport.\nIf operation is not as specified, replace the check valve.\n3. REINSTALL CHECK VALVE\nHINT: Install the check valve with the black port facing the\nport P side of the throttle body."
+}

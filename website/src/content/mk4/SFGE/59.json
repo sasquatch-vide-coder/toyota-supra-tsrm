@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-245",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "KNOCK SENSOR COMPONENTS FOR REMOVAL AND INSTALLATION",
+  "ocr_text": "EG–245\nENGINE – SFI SYSTEM (2JZ–GE)\n\nKNOCK SENSOR\nCOMPONENTS FOR REMOVAL AND\nINSTALLATION\n\nNo.1 Knock Sensor\nNo.1 Knock Sensor Connector\nEngine Wire Bracket\nNo.2 Knock Sensor\nNo.2 Knock Sensor Connector\nStarter\nStarter Connector\nStarter Wire\n\nP18723\n\nSST\n\nP12818\n\nOhmmeter\n\nPOM600\n\nKNOCK SENSORS INSPECTION\n1. REMOVE STARTER\n(See starter removal in Starting System)\n2. REMOVE KNOCK SENSORS\n(a) Disconnect the knock sensor connector.\n(b) Using SST, remove the knock sensor.\nSST 09816–30010\n\n3. INSPECT KNOCK SENSORS\nUsing an ohmmeter, check that there is no continuity between the terminal and body.\nIf there is continuity, replace the sensor."
+}

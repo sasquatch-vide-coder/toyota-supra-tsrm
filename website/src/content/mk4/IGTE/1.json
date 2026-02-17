@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-19",
+  "section_header": "IGNITION SYSTEM — 2JZ–GTE",
+  "title": "(2JZ–GTE) PRECAUTION",
+  "ocr_text": "IG–19\nIGNITION SYSTEM – 2JZ–GTE\n\nIG⊖\nTachometer\nDLC1\nBattery\nP11291\n\nP11943\n\n(2JZ–GTE)\nPRECAUTION\n\n1. With a tachometer connected to the system, connect the tester probe of the tachometer to terminal IG⊖ of the DLC1.\n\n2. With a timing light connected to the system, connect the tester probe to the green wire of the igniter\n\n3. As some tachometers are not compatible with this ignition system, we recommend that you confirm the compatibility of your unit before use.\n4. Never allow the tachometer terminals to touch ground as it could result in damage to the igniter and/or ignition coil.\n5. Do not disconnect the battery while the engine is running.\n6. Check that the igniter is properly grounded to the body."
+}

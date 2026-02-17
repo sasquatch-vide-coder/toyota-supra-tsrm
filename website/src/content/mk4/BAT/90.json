@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-90",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BR–90\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nINSPECTION PROCEDURE\n\n1  Check speed sensor.\n\nFront\n\nFront\n1. Remove front fender splash shield.\n2. Disconnect speed sensor connector.\n\nMeasure resistance between terminals 1 and 2 of speed sensor connector.\n\nOK  Resistance : 0.7 — 1.7 kΩ\n\nMeasure resistance between terminals 1 and 2 of speed sensor connector and body ground.\n\nOK  Resistance : 1 MΩ or higher\n\nRear\n\nRear\n1. Remove rear set cushion, seat back and quarter trim panel.\n2. Disconnect speed sensor connector.\n\nMeasure resistance between terminals 1 and 2 of speed sensor connector.\n\nOK  Resistance : 0.7 — 1.7 kΩ\n\nMeasure resistance between terminals 1 and 2 of speed sensor connector and body ground.\n\nOK  Resistance : 1 MΩ or higher\n\nBR5425\n#07086\n\nOK                    NG  Replace speed sensor.\n\nNOTICE: Check the speed sensor signal last (See page BR–62).\n\n2  Check for open and short in harness and connector between each speed sensor and ECU (See page IN–30).\n\nOK                    NG  Repair or replace harness or connector."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-146",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE–146\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1  Check door unlock detection switch.\n\nDisconnect\n\n1\n\n3\n\nBE4061\nN08681\n\nP  (1)  Remove the door trim.\n   (2)  Disconnect door lock motor and door unlock\n        detection switch connector.\n\nC  Check continuity between terminals 1 and 3 of door\n   unlock detection switch connector, when door lock\n   knob is operated to the lock side and to the unlock\n   side.\n\nOK                                          O——O Continuity\n\nSwitch condition        Terminal    1         3\nDoor unlock                         O         O\nDoor lock\n\nOK\n\nNG   Replace door unlock detection switch.\n\n2  Check harness and connector between theft deterrent and door lock ECU and door unlock\n   detection switch, door unlock detection switch and body ground (See page IN–30).\n\nOK\n\nNG   Repair or replace harness or connector.\n\nCheck and replace theft deterrent and\ndoor lock ECU. *1.\n\n*1:  When there is a malfunction that the theft de-\n     terrent system cannot be set, proceed to the\n     next numbered circuit inspection shown on\n     matrix chart (See page BE–123)."
+}

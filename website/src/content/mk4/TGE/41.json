@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-421",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "ENGINE  –  2JZ–GE ENGINE TROUBLESHOOTING\nEG–421\n\nWIRING DIAGRAM\n\nEngine Control Module\nB+\nB-R\n3\nEA3\nB-R\nGR\n24\nGR\nGR\nM-REL\nE10\nEA1\n8\n48\nB-R\nW\nW\nW\nOX1\n2\nE9\n2\nE1\nR/B\nNo.2\nMain Heated\nOxygen Sensor\n(Fr)\n(for California)\nOxygen Sensor (Fr)\n(Except California)\n5\nEI Main Relay\n3\n2\n73\nHT1\n2\n2\nB-L\nE9\nE01\n3\nBR\nW\n47\nOX2\nB-Y\nR-L\nR-L\nR-L\nE9\n2\nR/B\nNo.2\nE1\n2\nEFI No.1\nMain Heated\nOxygen Sensor (Rr)\n(for California)\nOxygen\nSensor\n(Rr)\n(Except California)\nLG\nENG\n7\n1\n2A\nData Link\nConnector 2\nR-L\nLI1\n13\nW-B\nB\n72\nB-Y\nHT2\nE9\nBR\n4\n15\nG\nLG\nLG\n5 V\n29\nVF1\nBattery\nOx1 Ox2\nVF1 13\n5 V\nE9\n5 V\nE01\n28\nVF2\nVF2\n14\nL-O\nE9\nBR\nData Link Connector 1\nFI6939\n\nINSPECTION PROCEDURE (Except California specification vehicles)\n\nHINT: If diagnostic trouble code \"21\" is output, replace oxygen sensor (Fr).\n        If diagnostic trouble code \"28\" is output, replace oxygen sensor (Rr).\n\n1    Are there any other codes (besides code 21 or 28) being output?\n\nNO                          YES    Go to relevant diagnostic trouble code chart.\n\nReplace oxygen sensor."
+}

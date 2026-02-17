@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-97",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "CASSETTE TAPE INSERTS, BUT NO POWER",
+  "ocr_text": "BE-97\n\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n10  Tape Player  CASSETTE TAPE INSERTS, BUT NO POWER\n\nW  : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nIs radio operating normally?  Yes → Radio assembly faulty.\n  No\n  ↓\nCheck if RAD No.2 fuse is OK?  NG → Replace fuse.\n  ↓\n          W\n          ↓\n    Is ACC applied to power amplifier?  No → ACC wire harness faulty.\n          Yes\n          ↓\nWO ←\nIs ACC applied to radio assembly?  No → WO  ACC wire harness faulty\n                                        W   Power amplifier faulty.\n  Yes\n  ↓\nRadio assembly faulty.\n\n11  Tape Player  POWER COMING IN, BUT TAPE PLAYER NOT OPERATING\n\nW  : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nFunctions OK if different cassette tape  Yes → Cassette tape faulty.\ninstalled?\n  No\n  ↓\nIs radio operating normally?  Yes → Radio assembly faulty.\n  No\n  ↓\nIs there continuity in speaker wire  No → Speaker wire harness faulty.\nharness?\n  Yes\n  ↓\nTemporarily install another speaker  Yes → Speaker faulty.\nFunctions OK?\n  No\n  ↓\nW          WO\n           ↓\n      Radio assembly faulty.\n\nCONTINUED ON NEXT PAGE"
+}

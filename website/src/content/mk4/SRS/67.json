@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-67",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "RS–67\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURES\n[P] Preparation [C] Check\n\n1 Preparation.\n\nLOCK\nP squib\nCenter Airbag\nSensor Assembly\nSpiral\nCable\nD squib\nAB0117\nRO5902\n\nP (1) Disconnect negative (–) terminal cable from the\nbattery, and wait at least 90 seconds.\n(2) Remove steering wheel pad (See page RS–10).\n(3) Disconnect connector of front passenger airbag\nassembly (See page RS–20).\n\nCaution\nStore the steering wheel pad with the front surface\nfacing upward.\n\n2 Check D squib circuit.\n\nP squib\nCenter Airbag\nSensor Assembly\nSpiral\nCable\nD squib\nD–\nD+\nRO5902\nAB0068\n\nC For the connector (on the spiral cable side) be-\ntween the spiral cable and steering wheel pad,\nmeasure the resistance between D+ and D–.\n\nOK Resistance: 1 k or higher.\n\nOK NG Go to step 5 ."
+}

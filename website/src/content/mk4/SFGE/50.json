@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-236",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "VSV FOR ACIS COMPONENTS FOR REMOVAL AND INSTALLATION",
+  "ocr_text": "EG–236\n\nENGINE  –  SFI SYSTEM (2JZ–GE)\n\nVSV FOR ACIS\nCOMPONENTS FOR REMOVAL AND\nINSTALLATION\n\nOil Dipstick and Guide\nfor A/T\n\n♦ O-Ring\n\nVacuum Hose\n\nVSV\n\nVacuum Tank and\nVSV Assembly\n\nVSV Connector\n\nVacuum Tank\n\n♦ Non-reusable part\n\nP18722\n\nVSV INSPECTION\n\n1.    REMOVE VSV\n2.    INSPECT VSV\nA.    Inspect VSV for open circuit\nUsing an ohmmeter, check that there is continuity between\nthe terminals.\nResistance:\n      At 20°C (68°F) 38.5–44.5 Ω\nIf there is no continuity, replace the VSV.\n\nB.    Inspect VSV for ground\nUsing an ohmmeter, check that there is no continuity be-\ntween each terminal and the body.\nIf there is continuity, replace the VSV.\n\nOhmmeter\nContinuity\nP00566\n\nOhmmeter\nNo Continuity\nP00567"
+}

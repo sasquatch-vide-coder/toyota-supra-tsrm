@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-459",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–459\n\nENGINE — 2JZ-GE ENGINE TROUBLESHOOTING\n\n4   Check for open and short in harness and connector between terminal FP of data link connector 1, fuel pump and body ground (see page IN–30).\n\nNG\n\nOK   Repair or replace fuel pump.\n\nRepair or replace harness or connector.\n\n5   Check voltage between terminals 3 (FPC) and 1 (E) of fuel pump ECU connector.\n\nSTART\n\n1(E)\n3(FPC)\n\nP   (1) Remove the LH quarter trim panel.\n        (See page EG–252)\n    (2) Disconnect fuel pump ECU connector.\n\nC   Measure voltage between terminals 3 (FPC) an 1 (E) of fuel pump ECU connector when ignition switch is turned to START.\n\nOK   Voltage: 4.5 — 5.5 V\n\nNG\n\nOK   Replace fuel pump ECU.\n\n6   Check for open in harness and connector between terminal FPC of engine control module and terminal 3 (FPC) of fuel pump ECU, terminal 1 (E) of fuel pump ECU and body ground (See page IN–30).\n\nOK\n\nNG   Repair or replace harness or connector.\n\n7   Check for open and short in harness and connector between terminal DI of engine control module and terminal 2 (DI) of fuel pump ECU\n(See page IN–30).\n\nOK\n\nNG   Repair or replace harness or connector.\n\nCheck and replace engine control module."
+}

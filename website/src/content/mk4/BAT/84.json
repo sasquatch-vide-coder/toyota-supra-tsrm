@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-84",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "BR–84\n\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nWIRING DIAGRAM\n\nw/o TRAC\n\nR    R    1\nABS Control Relay\n\n(Motor)\n\\Relay/\n\n2\nABS\nNo. 1\n\nR/B\nNo.2\nALT\n\n6\n/Solenoid\\\n\\Relay/\n\nABS\nPump\nMotor\n\n4\n\nB\n\nBattery\n\nW-B\n\nABS ECU\n\nDLC1\n\nA7    Y    IB5    Y    A18  SFR\nA7    B-Y    IB5    B-Y    A18  SFL\nA7    P    IB5    P    A19  SRR\nA7    P-B    IB5    P-B    A18  SRL\nA7    Y-G    IB6    Y-G    A18  AST\n\nABS ECU\n\nMonitor\n\nABS Actuator\n\nR12487\nIN07062\n\nw/ TRAC\n\nR\nABS Solenoid\nRelay (R/B No. 5)\n1\n\n2\n\nR/B\nNo.2\n\nABS\nNo.1\n\nALT\n\nB\n\nBattery\n\nW-B\n\nABS & TRAC\nECU\n\n3\n4  A6\n\nDLC1\n\nA7    Y    IB5    Y    A22  SFR\nA7    B-Y    IB5    B-Y    A20  SFL\nA7    P    IB5    P    A20  SRR\nA7    P-B    IB5    P-B    A22  SRL\nA7    Y-G    IB6    Y-G    A20  AST\n\nABS & TRAC ECU\n\nMonitor\n\nABS Actuator"
+}

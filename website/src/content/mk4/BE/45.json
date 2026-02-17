@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-45",
+  "section_header": "BODY ELECTRICAL SYSTEM — COMBINATION METER",
+  "title": "TELLTALE LIGHT CIRCUIT",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – COMBINATION METER\nBE–45\n\nTELLTALE LIGHT CIRCUIT\n\nTelltale Light LH\n\nSecurity Indicator\n9 ——W——|>|—— 10\n\nTRAC OFF Indicator\n8\nLow Oil Pressure\n5 Warning\nEngine Oil Level\n1 Warning\nMalfunction\n3 Indicator Light\nABS Indicator\n4\n\n6\n\nN08982 N08980 h-10-2\n\nNo.    Wire Harness Side\n1      Combination Meter (Terminal B2)\n2      GAUGE Fuse\n3      ECM\n4      ECM\n5      Low Oil Pressure Warning Switch\n6      Combination Meter (Terminal B4)\n8      TRAC ECU, Traction Solenoid Relay\n9      Ground\n10     Theft Deterrent and Door Lock ECU\n\nTelltale Light RH\n\nODO/TRIP\nMeter\n\nDOOR\n14\nRear Lights\n18\nCHARGE\n12\nSeat Belt\n16\nSRS\n15\n\n7\n10\n5\n\nN08981 N08979 h-18-2\n\nNo.    Wire Harness Side\n1      GAUGE Fuse\n2      ECU-B Fuse\n3      IGN Fuse\n4      PANEL Fuse\n5      Vehicle Speed Sensor (Terminal 3)\n6      PPS ECU, Cruise Control ECU, ECM\n       Air Conditioner Amplifier\n7      Ground\n8      DOME Fuse\n10     Light Control Rheostat\n11     Combination Meter (Terminal B1)\n12     ALT terminal L\n14     Door Courtesy Switch\n15     Center Air Bag Sensor\n16     Integration Relay (Terminal 9)\n18     Light Failure Sensor"
+}

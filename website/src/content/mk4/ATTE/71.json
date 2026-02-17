@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-71",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "INSPECTION PROCEDURE\n\n1  Check A/T fluid temp. sensor.\n\nCheck sensor resistance\nP  Remove A/T fluid temp. sensor.\nC  Measure resistance between terminals of A/T fluid temp. sensor at 20°C (68°F) and 110°C (230°F).\nOK  Resistance:\n20°C (68°F):    Approx. 12.08 k.\n110°C (230°F): Approx. 0.78 k.\n\n20°C (68°F) and 110°C (230°F).\nQ04314\n\nOK                          NG  Replace A/T fluid temp. sensor.\n\n2  Check harness and connector between A/T fluid temp. sensor and ECM (See page IN–30).\n\nOK                          NG  Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

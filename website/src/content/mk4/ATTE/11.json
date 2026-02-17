@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-11",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — OPERATION",
+  "title": "",
+  "ocr_text": "AT2–11\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – OPERATION\n\nO/D Direct Clutch Speed Sensor | Detects the input shaft speed from 1st gear to 3rd gear\n\nEngine Coolant Temp. Sensor | Detects the engine coolant temp.\n\nECM | Controls the engine and transmission actuators based on signals from each sensor.\n\nNo.1 and No.2 Solenoid Valves | Control the hydraulic pressure applied to each shift valve, and control the gear position and timing.\n\nNo.4 Solenoid Valve\n(For accumulator back pressure modulation) | Controls the hydraulic pressure applied to the back chamber of the accumulator and smoothes the engagement of clutches and brakes during shifting.\n\nNo.3 Solenoid Valve\n(For lock–up control pressure modulation) | Controls the hydraulic pressure applied to the lock–up clutch and controls lock–up timing.\n\nNo.5 Solenoid Valve\n(For line pressure modulation) | Controls the line pressure.\n\nO/D OFF Indicator Light | Blinks and warns the driver, while the O/D main switch is pushed in, when the electronic control circuit is malfunctioning.\n\nA/T Fluid Temp. Sensor | Detects A/T fluid temp."
+}

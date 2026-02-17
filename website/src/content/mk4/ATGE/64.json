@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-64",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "CIRCUIT INSPECTION\nDTC 38 A T Fluid Temperature Sensor Circuit",
+  "ocr_text": "CIRCUIT INSPECTION\n\nDTC 38 A T Fluid Temperature Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThe fluid temp. sensor converts fluid temp. into resistance values which is input into the ECM.\n\nDTC No. | Diagnostic Trouble Code Detection Condition | Trouble Area\n\n38 | Either (a) or (b) are detected for 0.5 sec. or more\n(a) Temp. sensor resistance less than 79 Ω\n(b) After the engine has been operating for 15 minutes or more, the resistance at the temp. sensor is more than 156 kΩ | • Harness or connector between A/T fluid temp. sensor and ECM\n• A/T fluid temp. sensor\n• ECM\n\nWIRING DIAGRAM\n\nECM\n\n4 — 6 V\n\nA/T Fluid Temp. Sensor\n2          O          24\n-Wv-                    E9  OIL  -Wv-\n1\n\nBR-B          65\n                   E9  E2\n\nO04346"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-495",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–495\n\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nIf a malfunction code is displayed during the diagnostic trouble code check in test mode, check the circuit for that code listed in the table below (Proceed to the page given for that circuit).\n\nTrouble Area | Malfunction Indicator Lamp*1 | Memory*2 | See page\nNormal Mode | Test Mode\n\n–  |  –  |  –  |  –  |  –\n\n• Open or short in crankshaft position sensor, camshaft position sensor No.1, No.2 circuit\n• Crankshaft position sensor\n• Camshaft position sensor No.1, No.2\n• Starter\n• ECM\nON | N.A. | ○ | EG–515\n\n• Open or short in crankshaft position sensor circuit\n• Crankshaft position sensor\n• ECM\nON | N.A.\n\n• Open or short in crankshaft position sensor circuit\n• Mechanical system malfunction (skipping teeth of timing belt, belt stretched)\n• Crankshaft position sensor\n• ECM\nN.A. | ON | ○ | EG–518\n\n• Mechanical system malfunction (skipping teeth of timing belt, belt stretched)\n• Camshaft position sensor No.1, No.2\n• ECM\nON | N.A.\n\n• Open or short in IGF circuit from igniter to ECM\n• Igniter\n• ECM\nON | N.A. | ○ | EG–519\n\n• ECM\nON | N.A. | X | EG–524\n\n*1, 2: See page EG–502."
+}

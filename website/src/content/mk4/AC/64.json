@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-64",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AC–64\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\n4 Check voltage between terminal MGC of A/C amplifier connector and body ground.\n\nON\nConnect\nMGC\nBE3840\nN08802\n\nP 1. Remove A/C amplifier with connectors still connected.\n2. Start the engine.\n\nC Check voltage between terminal A/C IN of A/C amplifier connector and body ground when magnetic clutch is on and off by A/C switch.\n\nOK\nMagnetic Clutch    Voltage\nON                 Below 1 V\nOFF                4 – 6 V\n\nNG                 OK Go to step 7 .\n\n5 Check voltage between terminal A/C of ECM and body ground.\n\nON\nECM\nConnect\nBE3840 AC2997\nN08821\nA/C\n\nP 1. Remove the ECM with connectors still connected.\n2. Turn ignition switch on.\n\nC 1. Push the A/C switch on.\n2. Measure voltage between terminal A/C of the ECM connector and body ground.\n\nOK\nMagnetic Clutch    Voltage\nON                 Below 1 V\nOFF                10 – 14 V\n\nOK                 NG Check and replace ECM.\n\n6 Check for open and short in harness and connector between A/C amplifier and ECM (See page IN–30).\n\nOK                 NG Repair or replace harness or connector.\n\nCheck and replace A/C amplifier."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "19",
+  "section_header": "ABS and Traction Control — Overall Electrical Wiring Diagram",
+  "title": "OVERALL ELECTRICAL WIRING DIAGRAM",
+  "ocr_text": "OVERALL ELECTRICAL WIRING DIAGRAM\n\n(Cont. next page)\n\n19 SUPRA\n\nABS and Traction Control\n\nPower Source\n\nC10 A  C12 B\nTRACTION INDICATOR\nLIGHT [COMB...METER]\n\nW\nY\nW  W\nTo Data Link\nConnector 1\n(TDCL<3-2>\nCheck Connector)\n\nABS\nTELLTALE\nLIGHT (H\nTRAC OFF\n\nL\nLG-R\n\nLG-R\n\nTo Data Link Connector 1\n(Check Connector)\n\nLG-R\n\nTRACTION ECU\nT1\n\nABS AND TRACTION ECU\nA2\n\nABS ACTUATOR\nA  GRAY\n\nA  BLACK\n\nFront side of\nright fender\n\nLG-R  B5\nLG-R\nW-B  W-B\n\nR\nR-W\nV-Y\nTRACTION\nSOLENOID RELAY\nV-Y\n\nB-R  B6\nB-R\nV-Y\n\nTo Data Link\nConnector 1\n(Check Connector)\n<3-3>\n\nB-R  B6\nW-B\nL-B  B8\nL-B\nABS SOLENOID\nRELAY\nV-Y\n\nTRACTION INDICATOR LIGHT\n[COMB...METER]\nBLUE\nC10 B\nCH\n\nV\nV-Y\nABS MOTOR\nRELAY\nV-Y\n\nR\nL\nTRACTION\nMOTOR RELAY\nG-B\n\nFront side of\nleft fender\n\n30A ABS NO. 2\n\nT4\nTRACTION PUMP\nAND MOTOR\n\nECU-HG\n10A\n\n10A GAUGE\n\nY\nL-Y\n\nY\nL-Y\n60A ABS NO. 1\n\nR\n7. 5A TRAC\n\nACC\nIG1 4\nST1\nIGNITION SW\n\nAM1\n7\n\nB-Y\n\n50A AM1(for USA)\n60A AM1(for Canada)\n\nW\n10A ECU-B\nW\n60A POWER\nW\n120A ALT\n\nW-R\nW-L\n\nBATTERY\nB"
+}

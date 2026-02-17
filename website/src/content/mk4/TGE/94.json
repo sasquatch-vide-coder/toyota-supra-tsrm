@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-474",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–474\nENGINE – 2JZ-GE ENGINE TROUBLESHOOTING\n\n3  Check for open in harness and connector between terminal E)1, EO2 of ECM connector and body ground (See page IN–30).\n\nOK\nNG  Repair or replace harness or connector.\n\n4  Check injectors.\n\nP  Disconnect injector connector. (See page EG–202)\nC  Measure resistance of injector.\nOK  Resistance: 13.4 — 14.2 Ω at 20˚C (68˚F)\nC  Check injector volume of injector.\n(See page EG–207)\nOK  • Injection volume\n70 — 88 cc/15 sec.\n(4.3 — 5.4 cu in./15 sec.)\nDifference between each injector:\nLess than 9 cc (0.5 cu in.)\n• Leakage\nFuel drop: One drip or less per minute\n\nSST\n(Wire)\n\nFI8784\nFI4848\n\nOK\nNG  Replace injector.\n\nCheck and replace engine control module."
+}

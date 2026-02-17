@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-2",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — OPERATION",
+  "title": "OPERATION\nFUNCTION OF COMPONENTS",
+  "ocr_text": "AT2–2\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – OPERATION\n\nOPERATION\nFUNCTION OF COMPONENTS\n\nO/D Direct Clutch (C0)\n2nd Coast Brake (B1)\n1st & Reverse Brake (B3)\nForward Clutch (C1)\nO/D Brake (B0)\nDirect Clutch (C2)\n2nd Brake (B2)\nRear Planetary Carrier\nRear Planetary Ring Gear\n\nO/D Planetary Ring Gear\nNo.1 One-Way Clutch (F1)\nOutput Shaft\nO/D Input Shaft\nO/D Planetary Carrier\nFront Planetary Ring Gear\nFront & Rear Planetary Sun Gear\nO/D One-Way Clutch (F0)\nO/D Planetary Sun Gear\nFont Planetary Carrier\nNo.2 One-Way Clutch (F2)\nInput Shaft\n\nAT2157\nO ..... Operating\n\nShift lever position | Gear position | C0 | C1 | C2 | B0 | B1 | B2 | B3 | F0 | F1 | F2\nP | Parking | O\nR | Reverse | O | | O | | | | O | O\nN | Neutral | O\nD | 1st | O | O | | | | | | O | | O\nD | 2nd | O | O | | | | O | | O | O\nD | 3rd | O | O | O | | | O | | O\nD | O/D | | O | O | O | | O\n2 | 1st | O | O | | | | | | O | | O\n2 | 2nd | O | O | | | O | O | | O | O\n2 | *3rd | O | O | O | | | O | | O\nL | 1st | O | O | | | | | O | O | | O\nL | *2nd | O | O | | | O | O | | O | O\n\n*Down–shift only–no up–shift"
+}

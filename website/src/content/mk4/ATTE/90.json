@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-90",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "AT2–90\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nECM\nL\n21 NCO+\nE9\n2\nO/D Direct Clutch\nSpeed Sensor\n1\nY\n1\nE9\nNCO-\n\nATB618\n\nINSPECTION PROCEDURE\n\n1 Check resistance between terminals NCO+ and NCO- of ECM.\n\nOFF Check Harness A\nECM\nB 1, 21\nNCO-\nNCO+\nBE6653\nAT9769\n\nP Connect the Check Harness A to the ECM (See page EG–510).\n\nC Check Resistance between terminals NCO+ and NCO- of ECM.\n\nOK Resistance: 560 — 680\n\nNG\n\nOK Proceed to next circuit inspection shown on matrix chart (See page AT2–64). However, when diagnostic trouble code 67 is displayed, check and replace ECM.\n\nG to 2 ."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-244",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "EGR GAS TEMPERATURE SENSOR COMPONENTS FOR REMOVAL AND INSTALLATION",
+  "ocr_text": "EG–244\nENGINE – SFI SYSTEM (2JZ–GE)\n\nEGR GAS TEMPERATURE SENSOR COMPONENTS FOR REMOVAL AND INSTALLATION\n\nEGR Gas Temperature Sensor\n\nEGR Gas Temperature Sensor Connector\n\nP12045\n212598\n\nEGR GAS TEMPERATURE SENSOR INSPECTION\n\n1. REMOVE EGR GAS TEMPERATURE SENSOR\n2. INSPECT EGR GAS TEMPERATURE SENSOR\nUsing an ohmmeter, measure the resistance between the terminals.\nResistance:\nAt 50˚C (112˚F)\n64–97 kΩ\nAt 100˚C (212˚F)\n11–16 kΩ\nAt 150˚C (302˚F)\n2–4 kΩ\nIf the resistance is not as specified, replace the sensor.\nTorque: 20 N·m (200 kgf·cm, 14 ft·lbf)\n3. REINSTALL EGR GAS TEMPERATURE SENSOR\n\nOil\nOhmmeter\nP03193"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "ECT-144",
+  "section_header": "ELECTRONICALLY CONTROLLED TRANSMISSION AND A/T INDICATOR (FOR 2JZ-GTE)",
+  "title": "ELECTRONICALLY CONTROLLED TRANSMISSION AND A/T INDICATOR (FOR 2JZ–GTE)",
+  "ocr_text": "ELECTRONICALLY CONTROLLED TRANSMISSION AND A/T INDICATOR (FOR 2JZ–GTE)\n\nE14\nY\n\nP 2\nA/T INDICATOR LIGHT SW\n[PARK/NEUTRAL POSITION SW\n(NEUTRAL START SW)]\n\nP   R   N   D   2   L\n7   8   10  9   2   3\n\nGR  R-B  L   G-R  LG-R  G-B\n\nR-B\nLG-R\nG-B\nG-R\n\nI17\nE16\nE16\nI17\n\nI14   I8\n\n23  II1\n\nY\n\nR-B\nLG-R\nG-B\nG-R\n\nGR\n\n7 II1   36 II1   1 II1   18 II1   17 II1   27 II1\n\nGR   R-B   L   G-R   LG-R   G-B\n\nV10\nVEHICLE SPEED SENSOR\n(SPEED SENSOR\n(FOR COMBINATION METER))\n\nSPEED   MANU   O/D OFF   P   R   N   D   2   L\n\n9 B   1 A   4 A   10 A   6 A   7 A   8 A   11 A\n\n11 B   10 B   12 A   2 A   11 C   13 A\n\nC10 B, C11 A, C12 C\nCOMBINATION METER\n\nII1\n\nI14\n\n8 II1   2 II1\n\nR\nL-R\n\nL-R\n\nW-L\nV-G\n\nBR\nW-B\n\nW-L\nV-G\n\nV-G\n\nI21\n\nV-G\n\n1 IF3\n\nV-G\n\nV-G\n\nI11\n\nV-G\n\nW-B\n\nA\nJ 1\nJUNCTION\nCONNECTOR\nA\n\n2\nO 5\nO/D MAIN\nSW\n\n4\n\nW-B   BR   W-B\n\nIE   IF   IH\n\n144"
+}

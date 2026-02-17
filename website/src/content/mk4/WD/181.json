@@ -1,0 +1,6 @@
+{
+  "page_id": "SL-184",
+  "section_header": "SHIFT LOCK",
+  "title": "SHIFT LOCK",
+  "ocr_text": "SHIFT LOCK\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n15A\nCIG\n\n10A\nECU-IG\n\n15A\nSTOP\n\n14\n\n9\n\n10\n\nL-R\n\nB-R\n\nW\n\n2\nS11\nSTOP LIGHT\nSW\n1\n\nG-W\n\nS 7\nSHIFT LOCK ECU\n\n5\nACC\n\n1\nIG\n\n2\nSTP\n\nSHIFT LOCK\nCONTROL SW\n\nP1\nG-R\n\nP\nG\n\nP2\nG-W\n\nSLS-\nL\n\nSHIFT LOCK\nSOLENOID\n\nSLS+\nL-R\n\nKLS+\n\nE\n\n6\n\n4\n\nV\n\nW-B\n\n3\nK 3\nKEY INTERLOCK\nSOLENOID\n\nW-B\n\n12\n1K\n\n1\n1J\n\nW-B\n\nW-B\n\nIE\n\n184"
+}

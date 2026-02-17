@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-451",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "WIRING DIAGRAM\n\nEngine Control Module\n\nNo.1 Knock Sensor\n(Front side)\n1          W          50\nE9    KNK1\n\nE1\n\nNo.2 Knock Sensor\n(Rear side)\n1          W          49\nE9    KNK2\n\nE1\n\nFI6541\n\nINSPECTION PROCEDURE\n\nHINT: If diagnostic trouble code 52 is displayed, check No.1 knock sensor (for front side) circuit.\n      If diagnostic trouble code 55 is displayed, check No.2 knock sensor (for rear side) circuit.\n      If diagnostic trouble code 53 is displayed, replace engine control module.\n\n1    Check continuity between terminals KNK1, KNK2 of engine control module connector and body ground.\n\nLOCK\n\nSST\n\nB 50, 49\n\nKNK1  KNK2\n\nBE6653\nFI6506\n\nP    (1)  Connect SST (check harness \"A\").\n          (See page EG-404)\n          SST 09990-01000\n     (2)  Disconnect the engine control module con-\n          nectors.\n\nC    Measure resistance between terminals KNK1,\n     KNK2 of engine control module connector and\n     body ground.\n\nOK   Resistance:    1 MΩ or higher\n\nNG                              OK    Go to step  3  ."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-9",
+  "section_header": "BRAKE SYSTEM — CHECK AND ADJUSTMENT",
+  "title": "TRAC CONTROL SYSTEM BLEEDING",
+  "ocr_text": "BR–9\nBRAKE SYSTEM – CHECK AND ADJUSTMENT\n\nTRAC CONTROL SYSTEM BLEEDING\n\nHINT: When repairing the brake master cylinder or TRAC system, bleed the air out of the TRAC system.\n\n1. INSPECT BATTERY POSITIVE VOLTAGE\nBattery positive voltage:\n10–14 V\n\nSST\n\nR07113\n\n2. BLEED TRACTION CONTROL SYSTEM\n(a) Disconnect the connector from the TRAC pump.\n(b) Connect SST to the TRAC pump.\nSST 09990–00330\n\nR07114\n\n(c) Connect a vinyl tube to the bleeder plug of the TRAC actuator, then loosen the bleeder plug.\n(d) Start the engine.\n\nSST\n\nR07115\n\n(e) Connect the SST to the battery. Then wait at least 60 seconds before tightening the bleeder plug with the TRAC pump still operating.\nTorque: 8.3 N·m (85 kgf·cm, 74 in.·lbf)\n(f) After tightening the bleeder plug, keep the TRAC pump operating for approximately 30 seconds.\n(g) Install the cap.\n\n3. CHECK FLUID LEVEL IN RESERVOIR\nFluid:\nSAE J1703 or FMVSS NO. 116 DOT3\n\n4. CLEAR DIAGNOSTIC TROUBLE CODES\n(See page BR–127)"
+}

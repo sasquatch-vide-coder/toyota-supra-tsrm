@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-81",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Check No.2 vehicle speed sensor.",
+  "ocr_text": "AT2–81\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n2  Check No.2 vehicle speed sensor.\n\nP  Remove No.2 vehicle speed sensor from trans-\nmission (See page AT2–16).\n\nC  Measure resistance between terminals 1 and 2 of\nNo.2 vehicle speed sensor.\n\nOK  Resistance: 560 — 680 .\n\n<Reference>\nCheck the speed sensor's function\n\nC  Check voltage between terminals 1 and 2 of the\nspeed sensor when a magnet is put close to the\nfront end of the speed sensor then taken away\nquickly.\n\nOK  Voltage is generated intermittently.\n\nHint  The voltage generated is extremely low.\n\nMagnet\n\nAT5629\nAT5306\n\nOK\n\nNG  Replace No.2 vehicle speed sensor.\n\nCheck and repair harness and connector between\nECM and No.2 vehicle speed sensor (See page\nIN–30)."
+}

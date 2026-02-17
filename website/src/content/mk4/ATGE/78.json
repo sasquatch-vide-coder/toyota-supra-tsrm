@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-78",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AT1–78\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check throttle position signal.\n\nP Turn ignition switch ON.\n\nC Check voltage at the terminal TT of the DLC2\nwhile gradually depressing the accelerator pedal\nfrom the fully closed position to the fully opened\nposition.\n\nOK Voltage changes from 0 V to 8 V by stages.\n\nTT Terminal Voltage (V)\n8\n7\n6\n5\n4\n3\n2\n1\n(Voltage)\n(Close) Throttle Valve Opening Angle(Open)\n\nHint Do not depress the brake pedal during this test.\nThe voltage will stay at 0 V if depressed.\n\nON\nDLC2\nTT E1\n\nAB0119\nAT5630\n\nNG\n\nOK Proceed to next circuit inspection shown on\nmatrix chart (See page AT1–58).\n\n2 Check throttle position sensor (See page EG–219).\n\nOK\n\nNG Replace throttle position sensor.\n\n3 Check harness and connector between ECM and throttle position sen-\nsor (See page IN–30).\n\nOK\n\nNG Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

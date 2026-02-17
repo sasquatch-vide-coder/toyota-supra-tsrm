@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-90",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "3 Radio NOISE PRESENT BUT AM–FM NOT OPERATING",
+  "ocr_text": "BE–90\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n3 Radio NOISE PRESENT BUT AM–FM NOT OPERATING\n\nW : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nIs power for the antenna being output from\nthe radio assembly?\n\nNo → Radio assembly faulty.\n\nYes\n\nWO                    W\n                Is power for the antenna being output\n                from the power amplifier?\n\n                                                No → Power amplifier faulty.\n                Yes\n\nGo to No. 32\n\n            If radio side faulty\n\nW                         WO\n                    Radio assembly faulty.\n\nIs tape player operating normally?\n\nYes → Radio assembly faulty.\n\nNo\n\nHissing sound from speaker?\n\nNo → Power amplifier faulty.  Recheck system after repair.\n\nYes\n\nRadio assembly faulty.  Recheck system after repair."
+}

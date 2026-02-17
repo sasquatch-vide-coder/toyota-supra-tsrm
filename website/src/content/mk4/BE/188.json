@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-188",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "",
+  "ocr_text": "BE–188\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\n3  Check voltage between terminal ECT of cruise control ECU connector and body ground (On test drive).\n\nP  (1) Connect ECU connector.\n    (2)  Test drive after engine warm up.\n\nC  Check voltage between terminal ECT of cruise control ECU connector and body ground when OD switch is on and off.\n\nOK\nGear Position          Voltage\nO/D                    Below 1 V\n3rd                    10 – 14 V\n\nECT\n\nN08764\n\nNG                     OK   Proceed to next circuit inspection shown on matrix chart (See page BE–170).\n\n4  Check for open and short in harness and connector between terminal ECT cruise control ECU and electronically controlled transmission solenoid (See page IN–30).\n\nOK                     NG   Repair or replace harness or connector.\n\nCheck and repair ECU.\n\n5  Check for open and short in harness and connector between terminal OD1 of ECU and terminal OD1 of ECM (See page IN–30).\n\nOK                     NG   Repair or replace harness or connector.\n\nCheck and replace ECU."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-592",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "Check VSV for Exhaust Gas Control Valve",
+  "ocr_text": "EG–592\n\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\n2   Check VSV for Exhaust Gas Control Valve\n\nP  (1) Remove VSV.\n   (2) Disconnect VSV connector.\n\nC  (1) Measure resistance between terminals.\n   (2) Measure resistance between each terminal\n       and the body.\n\nOK (1) Resistance: 38 — 44   at 20°C (68°F)\n   (2) Resistance: 1 M   or higher\n\nAir\nE\nF\nBattery\n\nC  Check operation of VSV when battery positive volt-\n   age is applied and released to the VSV terminals.\n\nOK Battery positive voltage is applied:\n   Air from port E is flowing out through port F.\n\n   Battery positive voltage is not applied:\n   Air from port E is flowing out through the air fil-\n   ter.\n\nAir\nE\nAir Filter\n\nP11382\nP11383\nP11384\nP11415\n\nOK                    NG   Replace VSV for exhaust gas control valve."
+}

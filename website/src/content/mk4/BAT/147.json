@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-147",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "DTC 44 NE Signal Circuit",
+  "ocr_text": "BR–147\n\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nDTC 44 NE Signal Circuit\n\nCIRCUIT DESCRIPTION\nThe TRAC ECU receives engine speed signals (NE signals) from the ECM.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n\n44 | No signal is input to terminal NEO 0.24 sec. after traction control is initiated. | Open or short in NEO circuit\nECM\nTRAC ECU\n\nWIRING DIAGRAM\n\nECM\nNEO 38\nE10\nP-L\n2\nIJ2\nP-L\n\nTRAC ECU\n5 V\n10 NEO\nT9\n\nR07072"
+}

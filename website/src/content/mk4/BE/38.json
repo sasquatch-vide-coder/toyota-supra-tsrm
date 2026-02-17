@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-38",
+  "section_header": "BODY ELECTRICAL SYSTEM — WIPER AND WASHER SYSTEM",
+  "title": "WIPER MOTOR INSPECTION",
+  "ocr_text": "BE–38\nBODY ELECTRICAL SYSTEM – WIPER AND WASHER SYSTEM\n\nWIPER MOTOR INSPECTION\n1. INSPECT FRONT WIPER MOTOR OPERATION\nLow Speed\nConnect the positive (+) lead from the battery to terminal 3\nand the negative (–) lead to terminal 1, check that the motor\noperates at low speed.\nIf operation is not as specified, replace the motor.\n\nHigh Speed\nConnect the positive (+) lead from the battery to terminal 2\nand the negative (–) lead to terminal 1, check that the motor\noperates at high speed.\nIf operation is not as specified, replace the motor.\n\nStopping at Stop Position\n(a) Operate the motor at low speed and stop the motor operation\nanywhere by disconnecting positive (+) lead from terminal 3.\n\n(b) Connect terminals 3 and 5.\n(c) Connect the positive (+) lead from the battery to terminal 6\nand negative (–) lead to terminal 1, check that the motor\nstops running at the stop position after the motor operates\nagain.\nIf operation is not as specified, replace the motor.\n\nN07801\nN07802\nN07803\nN07804"
+}

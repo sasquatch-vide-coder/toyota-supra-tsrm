@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-95",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "DTC 89 TRAC ECU Circuit",
+  "ocr_text": "AT2–95\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nDTC 89 TRAC ECU Circuit\n\n— CIRCUIT DESCRIPTION —\n\nWhen the transmission is in the shift up or stall condition, the TRAC ECU sends a sub–throttle valve close signal to the sub–throttle actuator.\n\nDTC No. | Diagnostic Code Detection Condition | Trouble Area\n\n89 | All conditions below are detected 5 secs. or more.\n(a) No.1 vehicle speed sensor: 9 km/h (5.6 mph) or more\n(b) Mirror check of TRAC ECU input signal is abnormal.\n(c) TRAC ECU input signal does not inform to ECM.\n(d) TRAC ECU input signal order is abnormal. | Harness or connector between TRAC ECU and ECM\nTRAC ECU\n\n— WIRING DIAGRAM —\n\nTRAC ECU\n\n9\nT10\nW-R\n13\nE10\nTRC-\n\n2\nT10\nO\n14\nE10\nTRC+\n\n3\nT10\nB\n27\nE10\nEFI+\n\n8\nT10\nW\n26\nE10\nEFI-\n\nECM\nB+\n\nB+\n\nB+\n\nB+\n\nG04342"
+}

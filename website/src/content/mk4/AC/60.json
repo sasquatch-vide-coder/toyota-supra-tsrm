@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-60",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Blower Motor Circuit",
+  "ocr_text": "AC–60\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBlower Motor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis is the power source for the blower motor.\n\nWIRING DIAGRAM\n\nBlower\nMotor\n2  1\nB  BR\n2  1\nM+ B5  M- B5\nBlower\nMotor\nControl\nRelay\nFrom\nHeater → L-R  1  L-R  3  L-R  2\nRelay        B4  IK1        B4\n+B\n1 B4  GND\nW-B\n1 K1\nW-B\n\n3  L  2  L  13  L  15\nB4  S1     IK1  IF3     A16\n                              BLW\n\nA/C Amplifier\n\nBLW\n\nNO8844\n\nINSPECTION PROCEDURE\n\n1  Check voltage between terminal BLW of A/C amplifier connector and\nbody ground.\n\nON\n\nConnect\n\nV\nBLW\n\nBE3840\nNO8790\n\nP  Remove the A/C amplifier with connector still connected\n\nC  1.  Turn ignition switch To ON.\n    2.  Operate blower motor.\n    3.  Measure voltage between terminals BLW of A/C\n        amplifier connector and body ground.\n\nOK  Voltage:  1 – 3 V\n\nNG                    OK  Proceed to next circuit inspection shown on matrix\n                          chart (See page AC–26).\n\nGo to step  2 ."
+}

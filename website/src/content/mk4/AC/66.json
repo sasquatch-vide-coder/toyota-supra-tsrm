@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-66",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "A C Control Assembly Circuit",
+  "ocr_text": "AC–66\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nA C Control Assembly Circuit\n\nCIRCUIT DESCRIPTION\n\nThis circuit includes the control switch circuit and the LED circuit in the A/C control Assembly.\nThe A/C amplifier always searches which switch is operated and drives the LED according to A/C control operation or diagnostic sensor check operation.\n\n— WIRING DIAGRAM —\n\nA/C Control Assembly Terminals\n\nH13.5\nH13.4\nH13.3  H13.2  H13.1  H12.7  H12.5        H12.3  H12.2\nH12.8  H12.B                              H12.4\n                                                    H12.1\n\nH13.3  H13.11  H13.9  H13.7  H12.20  H12.18  H12.16  H12.14  H12.12  H12.10\nH13.14  H13.12  H13.10  H13.8  H12.18  H12.11  H12.15  H12.13  H12.11  H12.9\n\nW-B\nBR-W\nL.B\nV-W\nP-B\nY-B\nLR\nG-W\nR-W\nW-L\nLG-R\nR\nP-R\nB-W\nP\nLG\nB\nGR\nLG-B\nR-B\nG\nBR-W\nY\nBR\nB-Y\nV\n\nCOOL\nWARM\nOFF\nFAN1  FAN2\nA/C\nREC\nFRE  AUTO\nA/L  NOSE\nDEF-OC  DEF  OAM\n\nSW6  SW5  SW4  SW3  SW2  SW1\nSW8\nSW7\n\nL-ACE\nL-M1  LED  L-M2  L-M3\nRECL  HEEL\nA/C Amplifier\n\nL-ROSE  L-DEF  L-OC  L-DE1  L-OD2\n\nB-L\nFrom\nHTR Fuse\n\nN08882\nN08883"
+}

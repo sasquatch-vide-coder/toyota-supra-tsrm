@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-194",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "",
+  "ocr_text": "BE–194\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\n2  Check voltage between terminals +B and GND of ECU connector.\n\nON\n\nP  Remove ECU with connectors still connected.\n\nC  (1)  Turn ignition switch ON.\n   (2)  Measure voltage between terminals +B and\n        GND of ECU connector.\n\nOK  Voltage:  10 – 14 V\n\nGND        +B\n\nBE3840\nN08767\n\nNG                    OK  Proceed to next circuit inspection shown on matrix\n                          chart (See page BE–170).\n\n3  Check continuity between terminal GND of ECU connector and body\n   ground.\n\nLOCK\n\nC  Measure resistance between terminal GND of cruise\n   control ECU connector and body ground.\n\nOK  Resistance:  1 Ω or loss\n\nGND\n\nBE3842\nN08788\n\nOK                    NG  Repair or replace harness or connector.\n\nCheck and repair harness and connector\nbetween battery and ECU."
+}

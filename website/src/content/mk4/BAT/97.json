@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-97",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "DTC 51 ABS Pump Motor Lock",
+  "ocr_text": "BR–97\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nDTC 51 ABS Pump Motor Lock\nCIRCUIT DESCRIPTION\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n51 | Pump motor is not operating normally during initial check. | ABS pump motor\n\nFail safe function: If trouble occurs in the ABS pump motor, the ECU cuts off the current to the solenoid relay and prohibits ABS control.\n\nWIRING DIAGRAM\n\nSee page BR–72\n\nINSPECTION PROCEDURE\nSee inspection of ABS actuator (See page BR–44)."
+}

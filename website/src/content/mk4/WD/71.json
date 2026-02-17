@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-73",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU\n\nB–O\n\nB–O\n\ni20\n\nB–O\n\n9\nIJ1\n\nB–O\n\nB–R\n\nB–R\n\nS_1\nSFI RESISTOR\n(EFI RESISTOR)\n\nB–Y\nB–W (A/T)\nB–R\n5\nEA2\nB–R\nGR\n8\nEA1\nGR\n\nB–R\n2\nEA2\nB–R\n\nB–R\n\nB–R\n\nGR\n\n3\nIJ\n\n7. 5A\nIGN\n\n8\n1E\n\nB–O\n\nB–O\n\n+B\n\n#10\n2\nL\n\n#20\n3\nCY\n\n#30\n4\nBR\n\n#40\n8\nR\n\n#50\n7\nG\n\n#60\n6\nB–Y\nW\n\nINJECTOR NO. 1\nI12\n1\nR–L\n\nINJECTOR NO. 2\nI13\n1\nR–Y\n\nINJECTOR NO. 3\nI14\n1\nR–G\n\nINJECTOR NO. 4\nI15\n1\nR–W\n\nINJECTOR NO. 5\nI16\n1\nR\n\nINJECTOR NO. 6\nI17\n1\nR–B\n\nB–W\n(A/T)\n\nB–Y\n\n13\nII1\n\nB–O\n\n1\nA\n\n24 A\n76 B\n33 A\nM–REL\nNSW\nBATT\nIGSW\n\n20 B\n#10\n\n19 B\n#20\n\n18 B\n#30\n\n17 B\n#40\n\n16 B\n#50\n\n15 B\n#60\n\nE 9 B , E10 A\nENGINE CONTROL MODULE (*1)\n\n+B\nDI\nFPC\nSTA\nEGR\nEVAP\nISC1\nISC3\nISC2\nISC4\n\n31 A\n21 A\n22 A\n77 B\n75 B\n74 B\n35 B\n33 B\n34 B\n32 B\n\nB–R\n\nE12\n\nG\nV–W\nB\n\nB–R\n\nP\nV\n\nV–Y\nG–O\nG–W\nR–G\n\n12\nIJ1\nG\n\n7\nIC2\nL–R\n8\nIJ1\nL–R\n\n4\nIJ1\nV–W\n\nY_2\nVSV (FOR EGR)\n2\n1\n\nV_3\nVSV (FOR EVAP)\n2\n1\n\n4\n6\n1\n3\n\nI1\nIDLE AIR CONTROL VALVE\n(ISC VALVE)\n5\n2\n\nB\nB–R\nB–R\nB–R\nB–R\n\nE15\nB–R\nE14\nB–R\nE14\n\nB–R\n\nB\n\nB–R\n\nL–R\n\nB–R\n\n73"
+}

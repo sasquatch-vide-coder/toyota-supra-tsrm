@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-28",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION – SHIFT LOCK SYSTEM",
+  "title": "SHIFT LOCK SYSTEM\nCOMPONENT PARTS LOCATION",
+  "ocr_text": "AT1–28\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – SHIFT LOCK SYSTEM\n\nSHIFT LOCK SYSTEM\nCOMPONENT PARTS LOCATION\n\nKey Interlock Solenoid\nStop Light Switch\nShift Lock\nRelease Button\nShift Lock Control Switch\nQ04301\nShift Lock Control ECU\nShift Lock Solenoid\nZ13764\n\nWIRING DIAGRAM\n\nIgnition Switch\nACC\nCIG\nIG\nECU-IG\nSTOP\nIG\nACC\nShift Lock Solenoid\nFL AM1\nStop Light\nSwitch\nShift Lock\nControl ECU\nSLS⊕\nSLS⊖\nFL ALT\nShift Lock\nControl Switch\nSTP\nKey Interlock Solenoid\nBattery\nStop\nLight\nP1\nKLS\nP2\nP\nE\nQ04345\nZ13765"
+}

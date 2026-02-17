@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-146",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "",
+  "ocr_text": "BR–146\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\n2 Check voltage between terminal BRFA of TRAC ECU and body ground.\n\nON\nBRFA\n\nP 1. Remove TRAC ECU with connectors still connected.\n2. Turn ignition switch ON.\n\nC Measure voltage between terminal BRFA of TRAC ECU and body ground.\n\nOK Voltage: About 6 V (Pulse)\n(Reference)\n6 – 14 V\n1 V or less\n24 ms 24 ms\n\nBE6853\nRD6989\n\nNG\nOK Check and replace TRAC ECU.\n\n3 Check voltage between terminal BRFA of TRAC ECU and body ground with TRAC ECU connector disconnected.\n\nON\nBRFA\n\nP Disconnect TRAC ECU connector.\n\nC Measure voltage between terminal BRFA of TRAC ECU connector and body ground.\nHINT: Measure voltage within 8 seconds from the time TRAC ECU connector is disconnected.\n\nOK Voltage: See step 1.\n\nBE6653\nRD7627\n\nNG\nOK Check and replace TRAC ECU.\n\n4 Check for open and short in harness and connector between ABS & TRAC ECU and TRAC ECU (See page IN–30).\n\nOK\nNG Repair or replace harness or connector.\n\nCheck and replace ABS & TRAC ECU."
+}

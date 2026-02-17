@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-135",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE-135\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1 Check voltage between terminal SH of theft deterrent horn connector and body ground.\n\nLOCK\n\nDisconnect\n\n(2JZ-GE)          (2JZ-GTE)\n2    1              2    1\n\nBE3843\nN08621 N08662\n\nP  Remove the theft deterrent horn and disconnect the connector.\n\nC  Measure voltage between terminal 1 of theft deterrent horn connector and body ground.\n\nOK  Voltage: 10 – 14 V\n\nOK\n\nNG  Check and repair harness and connector between HORN fuse and theft deterrent horn.\n\n2 Check theft deterrent horn.\n\nBE1239\n\nC  Connect positive (+) lead to terminal 1 and negative (–) lead to terminal 2 of theft deterrent horn connector.\n\nOK  Theft deterrent horn blows.\n\nOK\n\nNG  Replace theft deterrent horn.\n\n3 Check harness and connector between theft deterrent and door lock ECU and theft deterrent horn (See page IN–30).\n\nOK\n\nNG  Check and repair harness or connector.\n\nCheck and replace theft deterrent ECU."
+}

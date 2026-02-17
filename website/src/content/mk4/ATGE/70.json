@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-70",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "AT1–70\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nECM\n\nR\n23 SP2+\n19\n\n1\nNo.2 Vehicle Speed Sensor\n(for Electronically Controlled\nTransmission)\n2\n\n4–6 V\n\nG\n3\n19\nSP2–\n\nG04348\n\nINSPECTION PROCEDURE\n\n1 Check resistance between terminals SP2+ and SP2– of ECM connector.\n\nLOCK Check Harness A\nECM\n\nB 3, 23 SP2–\nSP2+\n\nBE3840\nBE6653\nAT8788\n\nP Connect the Check Harness A to the ECM (See page EG–404).\n\nC Check resistance between terminals SP2+ and SP2– of ECM connector.\n\nOK Resistance: 560 – 680 Ω\n\nNG OK Proceed to next circuit inspection shown on matrix chart (See page AT1–58).\n\nGo to 2 ."
+}

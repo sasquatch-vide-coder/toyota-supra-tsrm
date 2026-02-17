@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-53",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "MANUAL SHIFTING TEST",
+  "ocr_text": "AT2–53\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nMANUAL SHIFTING TEST\n\nHINT: With this test, it can be determined whether the trouble is within the electrical circuit or is a mechanical problem in the transmission.\n\n1. DISCONNECT SOLENOID WIRE\n2. INSPECT MANUAL DRIVING OPERATION\nCheck that the shift and gear positions correspond with the table below.\n\nShift Position | Gear Position\nD | O/D\n2 | 3rd\nL | 1st\nR | Reverse\nP | Pawl Lock\n\nHINT: If the L, 2 and D position gear positions are difficult to distinguish, do the following road test.\n• While driving, shift through the L, 2 and D positions. Check that the gear change corresponds to the shift position.\nIf any abnormality is found in the above test, the problem is in the transmission itself.\n\n3. CONNECT SOLENOID WIRE\n4. CANCEL OUT DIAGNOSTIC TROUBLE CODE\n(See page AT2–35)\n\n0037O1\n\nAT5541"
+}

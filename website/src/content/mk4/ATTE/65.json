@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-65",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT2-65\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nAT2-101\nAT2-99\nAT2-103\nAT2-105\nAT2-108\nAT2-111\nEG-312\nAT2-60\nAT2-66\nAT2-68\nAT2-92\nBR-128\nAT2-70\n\nPark/neutral position switch\nKick-down switch circuit\nStop light switch circuit\nPattern select switch circuit\nO/D switch O/D OFF indicator light circuit\nO/D cancel signal circuit\nEngine coolant temp. sensor circuit\nECM\nOn-Vehicle repair matrix chart\nOFF-Vehicle repair matrix chart\nNo.5 solenoid circuit\nTRAC ECU\nA/T fluid temp. sensor circuit\n\n2  3  1\n1  2\n6        8  5  7\n6        8  5  7\n6     1  7  8  11  9  10\n         6  5  -\n         6  5  -\n         7  5  6\n7  6  5        8  11  9  10\n      5        8  6  7\n         2     6  -  -     5\n1              2  -  -\n         1     2  -  -\n            1  4  2  3\n6              10  7  8     9  2\n               7  5  6\n               11  8  9     10  2\n               1  2\n               1  2\n               2  3  1\n   2           10  -  8  1  9\n   1           6  5  -\n         1     2  -  -\n      2        5  -  3     4"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-158",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Door Key Lock and Unlock Switch Circuit",
+  "ocr_text": "BE–158\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nDoor Key Lock and Unlock Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nThe door key lock and unlock switch is built in the door key cylinder.\nWhen the key is turned to the lock side, terminal 3 of the switch is grounded and when the key is turned to the unlock side, terminal 1 of the switch is grounded.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\n12 V\n\nDoor Key Lock\nand Unlock Switch LH\n1 W\n13\nID1<< G UL3\n6\nW-B 1 10\nW-B 3\n1J 1D\n3\nID1<<\n2 G-Y\n\nDoor Key Lock and\nUnlock Switch RH\nG-Y\n\n12 V\n\n16\n2 G-Y 7\nIL1<< \nIL1 W-B 3\n1 W 2\nW-B IL1<< W UL2\n15\n\nN98672"
+}

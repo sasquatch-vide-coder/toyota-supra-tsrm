@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-548",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–548\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\n2  Check operation of VSV for waste gate valve.\n\nAir\nE\nF\n\nBattery\n\nAir\nE\nF\n\nP11381\nP11380\n\nP  (1) Remove VSV.\n    (2) Disconnect VSV connector.\n\nC  Check operation of VSV for waste gate valve when\n    battery positive voltage is applied and released to\n    the VSV terminals.\n\nOK  Battery positivie voltage is applied:\n    Air from port E is flowing out through port F.\n    Battery positive voltage is applied:\n    Closed air passage from E to F.\n\nOK                    NG  Replace VSV for waste gate valve.\n\n3  Check voltage terminals PMC of engine control module connector and\n   body ground.\n\nON\n\nSST\nECM\n\n(B) 60\n\nPMC\n\nBE6653\nFI6953\n\nP  (1) Connect SST (check harness \"A\").\n        (See page EG–510)\n    SST 09990–01000\n    (2) Turn ignition switch ON.\n\nC  Measure voltage between terminals PMC of engine\n    control module and ground.\n\nOK  Voltage: 9 — 14 V\n\nOK                    NG  Check and repair harness and connector be-\n                           tween VSV for waste gate valve and engine\n                           control module.\n\nCheck and replace enginie control module."
+}

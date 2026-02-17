@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-134",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "DTC 24 TRAC Sub–Throttle Actuator Circuit",
+  "ocr_text": "BR–134\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nCIRCUIT INSPECTION\n\nDTC 24 TRAC Sub–Throttle Actuator Circuit\n\nCIRCUIT DESCRIPTION\nThe sub–throttle actuator operates in accordance with signals from the ECU, controlling the opening and closing of the sub–throttle valve.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n24 | Open or short in sub–throttle actuator circuit. | • TRAC fuse\n• Open or short in BM circuit.\n• Sub–throttle actuator.\n• Open or short in sub–throttle actuator circuit.\n• ECU\n\nWIRING DIAGRAM\n\nTRAC ECU\nBattery\nR/B No.2\nL-Y  3  L-Y  13  BM\nIBS\nT9\nTRAC\nSub-Throttle\nActuator\nBR\n8  ACM\nT10\nA\nSub–Throttle\nValve\n5\n4  G\nT10\nA\n6  W\n4\nT10\nA\n1  R\n11\nT10\nB\n3  L\n10\nT10\nB\n2  Y\n12\nBCM\nT10\n\nN07197"
+}

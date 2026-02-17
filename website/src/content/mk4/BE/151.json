@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-151",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "BE–151\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURES\n\n1   Check DOME fuse.\n\nR/B No.2\n\nDOME Fuse\n\nN09001\n\nP   Remove DOME fuse from R/B No. 2\n\nC   Check continuity of DOME fuse.\n\nOK   Continuity\n\nOK\n\nNG   Check for short in all the harness and components connected to the DOME fuse (See attached wiring diagram).\n\n2   Check voltage between terminals +B1 and E of ECU connector.\n\nLOCK\n\nE        +B1\n\nBE3843\nN07458\n\nP   (1)  Remove the No. 1 under cover and heater duct.\n     (2)  Disconnect the theft deterrent and door lock ECU connector.\n\nC   Measure voltage between terminals +B1 and E of ECU connector.\n\nOK   Voltage:  10 – 14 V\n\nNG\n\nOK   Proceed to next circuit inspection shown on matrix chart (See page BE–123).\n\n3   Check for open in harness and connector between ECU and body ground (See page IN–30).\n\nOK\n\nNG   Repair or replace harness or connector.\n\nCheck and repair harness and connector between ECU and battery."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-76",
+  "section_header": "BODY ELECTRICAL SYSTEM — POWER SEAT CONTROL SYSTEM",
+  "title": "SLIDE MOTOR INSPECTION",
+  "ocr_text": "BE–76\nBODY ELECTRICAL SYSTEM – POWER SEAT CONTROL SYSTEM\n\nSLIDE MOTOR INSPECTION\n\n1. INSPECT MOTOR OPERATION\n(a) Connect the positive (+) lead from the battery to terminal 2 and the negative (–) lead to terminal 1, check that the motor turns counterclockwise.\n(b) Reverse the polarity, check that the motor turns clockwise. If operation is not as specified, replace the motor.\n\nND9800\n\n2. INSPECT PTC THERMISTOR OPERATION\n(a) Separate power seat adjuster from front seat.\n(b) Connect the positive (+) lead from the battery to terminal 2, the positive (+) lead from the ammeter to terminal 1, and the negative (–) lead to battery negative (–) terminal, and move the seat front end position.\n(c) Continue to apply voltage, check the current changes to less than 1 ampere within 4 to 90 seconds.\n\nBE2613 NO8242\n207994\n\n(d) Disconnect the lead from terminals.\n(e) Approximately 60 seconds later, connect the positive (+) lead from battery to terminal 1 and the negative (–) lead to terminal 2, check that the seat begins to move backwards.\nIf operation is not as specified, replace the motor.\n\nBE2613 BE3605\n207995"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-587",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "EG–587\n\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nEngine Control Module\nB+\n\nB-R  >>EA2  B-R\n\nGR  >>EA1  GR\n\n24\nE10  M-REL\n\n2\n5\nR/B\nNo.2\n3\n2  2\nEFI Main Relay\n\nB-R  B1  S1  V-Y  35\n5         4   E9  ISC1\n\nB-R\n\nB2  S3  G-O  33\n2    6   E9  ISC3\n\nEO1\n\nB-Y\n2\nR/B\nNo.2\nEFI No.1\n\nS2  G-W  34\n1        E9  ISC2\n\nW-B\n\nS4  R-G  32\n3        E9  ISC4\n\n1  2A\n\nBattery\n\nIAC Valve\n\nFI5935"
+}

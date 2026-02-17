@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-66",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "DTC 13 Short in D Squib Circuit (Between D+ Wire Harness and D− Wire Harness)",
+  "ocr_text": "RS–66\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nDTC 13 Short in D Squib Circuit (Between D+ Wire Harness and D−\nWire Harness)\n\nCIRCUIT DESCRIPTION\n\nThe D squib circuit consists of the center airbag sensor assembly, spiral cable and steering wheel pad.\nIt causes the airbag to deploy when the airbag deployment conditions are satisfied.\nFor details of the function of each component, see FUNCTION OF COMPONENTS on page RS–4.\nDiagnostic trouble code 13 is recorded when a short is detected in the D+ wire harness and D− wire harness\nof the squib circuit.\n\nDTC No. | Diagnosis\n\n13\n• Short circuit between D+ wire harness and D− wire harness of squib.\n• D squib malfunction.\n• Spiral cable malfunction.\n• Center airbag sensor assembly malfunction.\n\nWIRING DIAGRAM\n\nCenter Airbag\nSensor Assembly\n\nPower\nSource\n\nAirbag Squib: D squib\n(Steering Wheel Pad)\n\n1          Y          3\n                    D+\nSpiral\nCable\n              L          4\n2                      D−\n\nSafing\nSensor\n\nTo Front\nAirbag\nSensor\n\nR07091"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "CH-68",
+  "section_header": "CHARGING",
+  "title": "CHARGING",
+  "ocr_text": "CHARGING\n*1 : 2JZ-GTE\n*2 : 2JZ-GE\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n7.5A\nIGN\n\n10A\nGAUGE\n\n8 1E\n\n12 1E\n\nB-O\n\nCHARGE WARNING LIGHT\n[TELLTALE LIGHT RH]\n\nT 6\n\n12\n\nY-G\n\nY\n\nW\n\nI14\n\nY-G\n\nY-G\n\nFROM\nCOMBINATION\nMETER\n\n34 II1\n\n23 II1\n\n4 EA2 (*1)\n2 EA3 (*2)\n\nY-G\n\nY\n\nW\n\nW\n\nW\n\n1 A 2 A 3 A\n\n1 B\n\nL    IG    S\n\nB\n\nIC REGULATOR\n\nG1 B, G2 A\nGENERATOR\n(ALTERNATOR)\n\n2\n\n120A\nALT\n\n2\n\n7.5A\nALT-S\n\n1\n\n1\n\n1 2A\n\nB\n\nBATTERY\n\nW    W    W\n\nW\n\nW\n\n68"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-107",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "Amplifier Troubleshooting",
+  "ocr_text": "BE–107\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n26 | Amplifier | NO POWER COMING IN\n\nIs + B applied to power amplifier?\nNo → Power amplifier faulty.\nYes\n\nIs ACC applied to power amplifier?\nNo → Power amplifier.\nYes\n\nIs there continuity in wire harness?\n(Radio receiver to power amplifier)\nNo → Wire harness faulty.\nYes\n\nCheck if GND to body is OK.\nNo → GND faulty.\nYes\n\nRadio receiver assembly faulty.\n\n27 | Amplifier | POWER COMING IN, BUT POWER AMPLIFIER NOT OPERATING\n\nIs power amplifier operating normally?\nNo → Power amplifier faulty.\nYes\n\nIs there continuity in speaker wire harness?\nNo → Speaker wire harness faulty.\nYes\n\nTemporarily install another speaker.\nFunctions OK?\nYes → Speaker faulty.\nNo\n\nPower amplifier faulty.\n\n28 | Amplifier | EITHER SPEAKER DOES NOT WORK\n\nIs power amplifier operating normally?\nYes → Radio receiver assembly faulty.\nNo\n\nIs hiss produced by non–functioning speaker?\nYes → Radio receiver assembly faulty.\nNo\n\nIs there continuity in speaker wire harness?\nNo → Speaker wire harness faulty.\nYes\n\nTemporarily install another speaker.\nFunctions OK?\nYes → Speaker faulty.\nNo\n\nPower amplifier faulty."
+}

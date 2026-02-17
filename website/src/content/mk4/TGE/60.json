@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-440",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–440\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\n3  Disconnect volume air flow meter connector and check voltage between\n   terminals KS and E1 of engine control module connector.\n\nON\n\nSST\nECM\n\nB 69, 66\n\nE1   KS\n\nBE6653\nFI6502\n\nP  (1) Disconnect the volume air flow meter connector.\n   (2) Turn ignition switch ON.\n\nC  Measure voltage between terminals KS and E1 of\n   engine control module connector.\n\nOK  Voltage:  4.5 — 5.5 V\n\nOK                          NG  Check and replace engine control module.\n\n4  Disconnect volume air flow meter connector and check voltage between\n   terminals VCC and E1 of engine control module connector.\n\nON\n\nSST\nECM\n\nB 69, 41\n\nE1      VCC\n\nSE6653\nFI9508\n\nP  (1) Disconnect the volume air flow meter connector.\n   (2) Turn ignition switch ON.\n\nC  Measure voltage between terminals VCC and E1\n   of engine control module connector.\n\nOK  Voltage:  4.5 — 5.5 V\n\nNG                          OK  Replace volume air flow meter.\n\nCheck and replace engine control module."
+}

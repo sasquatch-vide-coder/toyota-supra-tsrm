@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-39",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AC–39\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check compressor.\n\nP (1) Check compressor drive belt tension.\n(2) Check the compressor does not lock during operation with engine started and blower switch\nand A/C switch ON.\n\nOK\nNG Adjust drive belt tension or repair compressor.\n\n2 Check compressor lock sensor.\n\nP Disconnect compressor lock sensor connector\n\nC Measure resistance between terminals 1 and 2 of\ncompressor lock sensor connector.\n\nOK Resistance: at 20°C (68°F): 160 ~ 210\n\nNC9020\n\nOK\nNG Replace compressor lock sensor.\n\n3 Check for open and short harness and connector between A/C amplifier\nand room temperature sensor (See page IN–30).\n\nOK\nNG Repair or replace harness or connector.\n\nProceed to next circuit inspection shown on matrix\nchart (See page AC–26). However, if the light is still\nblinking, check and replace A/C amplifier."
+}

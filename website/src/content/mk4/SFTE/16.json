@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-273",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GTE)",
+  "title": "INJECTOR ON-VEHICLE INSPECTION",
+  "ocr_text": "ENGINE  –  SFI SYSTEM (2JZ–GTE)\n\nEG–273\n\nINJECTOR\nON–VEHICLE INSPECTION\n\n1.    INSPECT INJECTOR OPERATION\n      Check operation sound from each injector.\n(a)  With the engine running or cranking, use a sound scope to\n      check that there is normal operating noise in proportion to\n      engine speed.\n\nSound Scope\n\nP11358\n\n(b)  If you have no sound scope, you can check the injector\n      transmission operation with your finger.\n      If no sound is heard or unusual vibration is felt, check the wir-\n      ing connector, injector or injection signal from the ECM.\n\nP11359\n\nOhmmeter\n\nP11415\n\n2.    INSPECT INJECTOR RESISTANCE\n(a)  Disconnect the throttle body without disconnecting the water\n      bypass hoses from the air intake chamber.\n      (See throttle body removal)\n(b)  Disconnect the 6 injector connectors.\n(c)  Using an ohmmeter, measure the resistance between the in-\n      jector terminals.\n      Resistance:\n            At 20˚C (68˚F) Approx. 1.95 Ω\n      If the resistance is not as specified, replace the injector.\n(d)  Reconnect the 6 injector connectors.\n(e)  Reinstall the throttle body to the air intake chamber.\n      (See throttle body installation)"
+}

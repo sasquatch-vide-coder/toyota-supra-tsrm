@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-109",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "",
+  "ocr_text": "BR–109\nBRAKE SYSTEM – ANTI-LOCK BRAKE SYSTEM (ABS)\n\n3 Is diagnostic trouble code output?\n\nDo diagnostic trouble code check on page BR–54.\n\nNO\nYES Repair circuit indicated by the code output.\n\n4 Does ABS warning light go off if short pin is removed?\n\nYES\nNO Check for short in harness and connector between warning light and DLC1 and ECU (See page IN–30).\n\n5 Check ABS solenoid relay (See step No.2).\n\nOK\nNG Repair ABS control relay.\n\nRepair or replace and check for short in harness and connector between DLC1 and ABS solenoid relay (See page IN–30)."
+}

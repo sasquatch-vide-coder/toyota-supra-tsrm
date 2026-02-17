@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-147",
+  "section_header": "ENGINE — TURBOCHARGER SYSTEM (2JZ-GTE)",
+  "title": "PRESSURE TANK INSPECTION",
+  "ocr_text": "ENGINE – TURBOCHARGER SYSTEM (2JZ–GTE)\n\nPRESSURE TANK INSPECTION\n1. REMOVE PRESSURE TANK\n2. INSPECT PRESSURE TANK\n(a) Check that air flows from port A to B.\n\nAir\n\nA B\n\nP12057\n\n(b) Check that air does not flow from port B to A.\n\nAir\n\nA B\n\nP12055\n\n(c) Apply 60.0 kPa (450 mmHg, 17.72 in.Hg) of vacuum to port A, and check that there is no change in vacuum after 1 minute.\nIf operation is not as specified, replace the pressure tank.\n\nVacuum\n\nA B\n\nP12056\n\n3. REINSTALL PRESSURE TANK"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-71",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "DTC 13 14 ABS Motor Relay Circuit",
+  "ocr_text": "BR–71\n\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nDTC 13 14 ABS Motor Relay Circuit\n\nCIRCUIT DESCRIPTION\n\nThe ABS motor relay supplies power to the ABS pump motor. While the ABS is activated, the ECU switches\nthe motor relay ON and operates the ABS pump motor.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n\n13\nConditions (1) and (2) continue for 0.2 sec.\nor more:\n(1) ABS motor relay terminal (MR)\n     voltage: Battery positive voltage\n(2) Motor relay monitor terminal (MT)\n     voltage: O V\nABS motor relay\nOpen or short in ABS motor relay circuit\nECU\n\n14\nConditions (1) and (2) continue for 4 sec. or\nmore:\n(1) ABS motor relay terminal (MR)\n     voltage: O V\n(2) Motor relay monitor terminal (MT)\n     voltage: Battery positive voltage\nABS motor relay\nB+ short in ABS motor relay circuit\nECU\n\nFail safe function: If trouble occurs in the motor relay circuit, the ECU cuts off the current to the solenoid relay\n     and prohibits ABS control."
+}

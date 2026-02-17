@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-171",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "DTC 11 14 41 Actuator Motor Circuit",
+  "ocr_text": "BE–171\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nCIRCUIT INSPECTION\n\nDTC 11 14 41 Actuator Motor Circuit\n\nCIRCUIT DESCRIPTION\n\nThe actuator motor is operated by signals from the ECU. Acceleration and deceleration signals are\ntransmitted by changes in the Duty Ratio (See note below).\nDuty Ratio\nThe duty ratio is the ratio of the period of continuity in one cycle. For example, if A is the period of conti-\nnuity in one cycle, and B is the period of non–continuity, then\n\nDuty Ratio = A / (A + B) × 100 (%)\n\nON\nOFF\n1 cycle\n\nCode    Diagnosis    Trouble area\n\n11\n• Overcurrent (short) in motor circuit.\n• Cruise control actuator motor\n• Harness or connector between actuator motor and ECU\n• ECU\n\n14\n• Open in actuator motor circuit.\n\n41\n• Duty ratio of 100 % output to motor acceleration side.\n\nWIRING DIAGRAM\n\nCruise Control Actuator\nMotor\n7 G-R\n9\nIB6 ← G-R MC\n11\nLimit Switch\n6 LG\n15\nIB6 ← LG MO\n12\n\nCruise Control\nECU\n\nN08429"
+}

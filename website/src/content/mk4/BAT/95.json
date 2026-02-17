@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-95",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "DTC 44 Lateral Acceleration Sensor Circuit",
+  "ocr_text": "BR–95\n\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nDTC 44 Lateral Acceleration Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis sensor detects acceleration acting laterally on the vehicle. The sensor signal is used in ABS control. If the\nsensor functions abnormally, the ABS warning light comes on but the ABS still operates.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n\n44\nEither of the following (1) or (2) is detected:\n(1) An open or short is detected in circuit\n    GS1 or GS2 for 1 sec.\n(2) After the ignition is turned ON, the test\n    signal is output by GST. During this time,\n    a trouble signal is detected for 0.5 sec.\nLateral acceleration sensor\nOpen or short in lateral acceleration sensor circuit\nECU\n\nWIRING DIAGRAM\n\nJ/B No.1\n1J  ECU-IG  1K\nB-R\n\nLateral\nAcceleration\nSensor\n4\n3  B-O  12  8  GS1\n             A1B A20\n2\n1  R-L  3  20  GS2\n         A1B A20\n1  W-L  10  6  GST\n         A1B A20\nW-B\n6\n\nABS (& TRAC) ECU\n12 V\n(w/o TRAC)\n(w/ TRAC)\n12 V\nGST\n\nR07341"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-50",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "MEASURE ACCUMULATOR BACK PRESSURE",
+  "ocr_text": "AT2–50\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION  –  TROUBLESHOOTING\n\nMEASURE ACCUMULATOR BACK PRESSURE\n\nNOTICE:\n• Do the test at normal operating fluid temp. 50–80°C (122–176°F).\n• Be careful to prevent the oil pressure gauge hose from interfering with the exhaust pipe.\n(a) Warm up the transmission fluid.\n(b) Remove the test plug on the transmission case rear right side and connect the oil pressure gauge\n(SST)\nSST 09992–00094 (Oil pressure gauge)\nHINT: Connecting the oil pressure gauge will be made easier by moving the RH side head insulator aside.\n\nSST 09992-00094\n\n09992-00150\n\nGauge Assy          Straight Adaptor\n\nSST\n\nAT5184 AT5439                                                                                                                Z13766\n\n(c) Remove the passenger side floor carpet and ECM protector.\n(d) Connect the SST (check harness A) between ECM and connector of vehicle wire harness.\nSST: 09990–01000\n(e) Install one test lead probe into the terminal SLN of the ECM wire harness side connector and take care\nnot to ground the other test lead probe.\nHINT: Prepare test leads which are connected with an approximately 8 W light bulb."
+}

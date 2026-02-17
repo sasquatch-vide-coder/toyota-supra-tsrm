@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-50",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "MANUAL SHIFTING TEST",
+  "ocr_text": "AT1–50\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nSolenoid Wire\n\nQ04307\n\nMANUAL SHIFTING TEST\nHINT: With this test, it can be determined whether the trouble\nis within the electrical circuit or is a mechanical problem in the\ntransmission.\n1. DISCONNECT SOLENOID WIRE\n\nAT5541\n\n2. INSPECT MANUAL DRIVING OPERATION\nCheck that the shift and gear positions correspond with the\ntable below.\n\nShift Position | Gear Position\nD | O/D\n2 | 3rd\nL | 1st\nR | Reverse\nP | Pawl Lock\n\nHINT: If the L, 2 and D position gear positions are difficult to\ndistinguish, do the following road test.\n• While driving, shift through the L, 2 and D positions.\nCheck that the gear change corresponds to the shift\nposition.\nIf any abnormality is found in the above test, the problem is\nin the transmission itself.\n3. CONNECT SOLENOID WIRE\n4. CANCEL OUT DIAGNOSTIC TROUBLE CODE\n(See page AT1–35)"
+}

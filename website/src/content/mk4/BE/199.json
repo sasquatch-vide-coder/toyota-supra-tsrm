@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-199",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "TC Circuit",
+  "ocr_text": "BE-199\n\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nTC Circuit\n\nCIRCUIT DESCRIPTION\n\nThis circuit sends a signal to the ECU that diagnostic code output is required.\n\nWIRING DIAGRAM\n\nCombination Meter\n(Cruise Control Indicator Light)  Cruise Control ECU\n\n7        4    5      12  Y  9      6\nW       B-Y  1J    1E    C10    C12\n                                        0\n4 (1J)\n\n4 (1B)\nW\n\nJ/B No.1 GAUGE\n\n                                    4 IF2\n\n                          A/D  10    0   PI\nDLC2                              7\n\n2                    TC  4    P-B  TC\nAM1         R/B No.2                  8\n2\nW\n                                 11 IF1\n2\nALT         R/B No.2\n(2A)    DLC1     Tc  11   P-B  21   P-B\n                                  II1\nBattery\n\nN12783"
+}

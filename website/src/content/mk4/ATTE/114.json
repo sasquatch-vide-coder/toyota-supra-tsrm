@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-114",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AT2–114\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check voltage between terminal TE1 and E1 of DLC2 or DLC1.\n\nC Measure voltage between terminals TE1 and E1 of DLC2 or DLC1.\n\nOK Voltage: 4 — 6 V\n\nTE1 E1\n\nDLC2          DLC1\n\nS-17-1 laj-23-1\n\nNG\n\nOK Proceed to next circuit inspection shown on matrix chart (See page AT2–64).\n\n2 Check harness and connector between ECM and DLC2, DLC1 and body ground (See page IN–30).\n\nOK\n\nNG Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

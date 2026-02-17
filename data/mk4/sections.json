@@ -1,0 +1,142 @@
+{
+  "IN": {
+    "name": "Introduction",
+    "pages": 44
+  },
+  "ST": {
+    "name": "Starting System",
+    "pages": 13
+  },
+  "AC": {
+    "name": "Air Conditioning",
+    "pages": 111
+  },
+  "ATGE": {
+    "name": "A340 Automatic Trans (GE)",
+    "pages": 98
+  },
+  "ATR": {
+    "name": "ATM Unit Repair",
+    "pages": 275
+  },
+  "ATTE": {
+    "name": "A340 Automatic Trans (GTE)",
+    "pages": 118
+  },
+  "BAT": {
+    "name": "Brakes, ABS & TRAC Systems",
+    "pages": 167
+  },
+  "BE": {
+    "name": "Body Electrical Systems",
+    "pages": 203
+  },
+  "BO": {
+    "name": "Body Mechanical",
+    "pages": 64
+  },
+  "CH": {
+    "name": "Charging System",
+    "pages": 21
+  },
+  "CL": {
+    "name": "Clutch System",
+    "pages": 22
+  },
+  "CO": {
+    "name": "Cooling System",
+    "pages": 30
+  },
+  "CR": {
+    "name": "Collision Repair",
+    "pages": 113
+  },
+  "EGE": {
+    "name": "Emission System 2JZ-GE",
+    "pages": 13
+  },
+  "EGTE": {
+    "name": "Emission System 2JZ-GTE",
+    "pages": 13
+  },
+  "EM": {
+    "name": "Engine Mechanical",
+    "pages": 139
+  },
+  "EMS": {
+    "name": "Engine Mechanical 1997 Supplement",
+    "pages": 126
+  },
+  "IGE": {
+    "name": "Ignition System 2JZ-GE",
+    "pages": 18
+  },
+  "IGS": {
+    "name": "Ignition 1997 Supplement",
+    "pages": 12
+  },
+  "IGTE": {
+    "name": "Ignition System 2JZ-GTE",
+    "pages": 13
+  },
+  "LU": {
+    "name": "Lubrication System",
+    "pages": 23
+  },
+  "MA": {
+    "name": "Maintenance",
+    "pages": 19
+  },
+  "PR": {
+    "name": "Propeller Shaft",
+    "pages": 23
+  },
+  "PS": {
+    "name": "Steering",
+    "pages": 52
+  },
+  "SA": {
+    "name": "Suspension & Axle",
+    "pages": 103
+  },
+  "SFGE": {
+    "name": "SFI System 2JZ-GE",
+    "pages": 71
+  },
+  "SFTE": {
+    "name": "SFI System 2JZ-GTE",
+    "pages": 71
+  },
+  "SRS": {
+    "name": "Supplemental Restraint System",
+    "pages": 102
+  },
+  "TC": {
+    "name": "Turbocharger System 2JZ-GTE",
+    "pages": 23
+  },
+  "TGE": {
+    "name": "Troubleshooting 2JZ-GE",
+    "pages": 105
+  },
+  "TGTE": {
+    "name": "Troubleshooting 2JZ-GTE",
+    "pages": 113
+  },
+  "V160": {
+    "name": "V160/V161 Manual Transmission",
+    "pages": 13
+  },
+  "W58": {
+    "name": "W58 Manual Transmission",
+    "pages": 49
+  },
+  "WD": {
+    "name": "Wiring Diagrams",
+    "pages": 277
+  },
+  "WH": {
+    "name": "Wire Harness",
+    "pages": 414
+  }
+}

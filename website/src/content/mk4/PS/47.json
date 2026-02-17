@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-47",
+  "section_header": "STEERING — ELECTRONIC CONTROL SYSTEM",
+  "title": "ELECTRONIC CONTROL SYSTEM TROUBLESHOOTING FLOW–CHART",
+  "ocr_text": "ELECTRONIC CONTROL SYSTEM\nTROUBLESHOOTING FLOW–CHART\n\nTrouble Symptom\n• Hard steering at idle or low–speed driving.\n• Steering too sensitive during high–speed driving.\n\nPreliminary Check\n• Check tire pressure.\n• Check lubrication of suspension and steering linkage.\n• Check front wheel alignment.\n• Check steering system joint and suspension arm ball joint.\n• Check for bent steering column.\n• Check that all connectors are secure.\n• Check PS pump fluid pressure. (See page SR–37)\n\nTurn ignition switch on.\n\nIs ECU–IG fuse normal?\nNo → Replace fuse.\nIs operation normal?\nNo → Short circuit in wire harness between fuse and ECU terminal +B.\nYes → Fuse faulty.\nYes ↓\n\nDisconnect the ECU connector.\n\nCheck 1.\nCheck that there is battery voltage (10 — 14V) between the ECU terminal +B and body ground.\n\nR07582\n\nYes\nNo\n↓\nOpen circuit in wire harness between the fuse and ECU terminal +B.\n\nCONTINUED ON NEXT PAGE"
+}

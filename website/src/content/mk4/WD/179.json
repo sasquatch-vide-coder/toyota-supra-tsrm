@@ -1,0 +1,6 @@
+{
+  "page_id": "PPS-182",
+  "section_header": "PPS (PROGRESSIVE POWER STEERING)",
+  "title": "PPS (PROGRESSIVE POWER STEERING)",
+  "ocr_text": "PPS (PROGRESSIVE POWER STEERING)\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n10A\nGAUGE\n\n12 1E\n\nY\n\nI14                    I14\n\nY                    Y\n\n1        6\nODO AND TRIP\n7        5\n\nT6\nTELLTALE LIGHT RH\n\nBR             L-R\n\nI14\n\nL-R\n\nL-R\n\n2  II1              23  II1              8  II1\n\nL-R           Y              R\n3              1              2\n\nV10\nVEHICLE SPEED SENSOR\n(SPEED SENSOR) NO. 1\n(FOR COMBINATION METER)\n\nBR\n\nI8\nBR\nIF\n\n10A\nECU-IG\n\n17 1E\n\nB-R\n\nP                                          P\n\n5                                          4\nSPD                                        B\n\nP 4\nPPS ECU\n\nSOL+              SOL-              E\n1                    2                 6\n\nLG-B              LG-R              W-B\n\n4  II1              14  II1\n\nLG-B              LG-R\n\nP 1\nPPS SOLENOID\n1              2\n\nIH\n\nC10 A  C12 B\nSPEEDOMETER\n[COMB. METER]\n\n9 A\n\n11 A    10 A    11 B\n\nY\n\nR\n\nBR\n\n182"
+}

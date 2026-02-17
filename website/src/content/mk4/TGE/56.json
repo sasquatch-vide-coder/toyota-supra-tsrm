@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-436",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "EG–436\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nEngine Control Module\nB+\n3  B-R  20  B-R  4  B-R\nEA3  J2K  C1\nB-R\nGR  GR  24\nM-REL  E10\n2  2\nR-L  9  14  30\n5  1  1C K  R-L  JJ2  R-L  OX3\nEFI Main Relay  8  E10\n2  B-R  E1\nR/B  3\nNo.2  3  2  Sub Heated\nR-B-Y  2  2  Oxygen Sensor\n1\n2\nR/B  4  BR-W  5  36\nNo.2  12  BR-W  JJ2  HT3\nEFI No.1  1C K  E10\nW-B  BR-W\nBR\n12A\nC18\nB\nBR\nBattery\nJJ1 18\nBR\nE01\nFI6940\n\nINSPECTION PROCEDURE\n\nHINT:   When other codes are output in addition to 27 at the same time, check the circuits for other codes first.\n\n1   Check voltage between terminal HT3 of engine control module connector and body ground.\n\nON\nSST\nECM\n\nP   (1)  Connect SST (check harness \"A\").\n         (See page EG–404)\n         SST 09990–01000\n    (2)  Turn ignition switch ON.\n\nC   Measure voltage between terminal HT3 of engine control module connector and body ground.\n\nOK   Voltage:  9 — 14 V\n\nA 36\nHT3\nBE6653\nFI6891\n\nNG                                          OK   Go to step  4  ."
+}

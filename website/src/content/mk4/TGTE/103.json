@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-589",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "Turbo Control Circuit",
+  "ocr_text": "Turbo Control Circuit\n\nCIRCUIT DESCRIPTION\n\n[HINT] This turbocharger system has 3 control valves (Exhaust Bypass Valve, Exhaust Gas Control\nValve, Intake Air control Valve). Each valve is controlled by turbo pressure which is controlled\nby VSV based on signals from ECM.\n\n1. EXHAUST BYPASS VALVE\n\nThis valve controls the opening or closing of the exhaust bypass passage to ensure a smooth\ntransition from 1 turbo operation to 2 turbo operation.\n\n2. EXHAUST GAS CONTROL VALVE\n\nThis valve controls the opening or closing of the No.2 exhaust passage in order to operate No.2\nturbocharger.\n\n3. INTAKE AIR CONTROL VALVE\n\nThis valve controls the opening or closing of the No.2 intake air passage in order to pass the\ncharged air from No.2 turbocharger.\n\nExhaust Gas Control Valve\nActuator\nVSV\n\nExhaust Bypass Valve\nActuator\nVSV\n\nIntake Air Control\nValve\nActuator\nVSV\n\nFI6965"
+}

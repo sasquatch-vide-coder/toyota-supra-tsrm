@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-558",
+  "section_header": "ENGINE — 2JZ–GTE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "EG–558\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check voltage between terminal SP1 of engine control module connector and body ground.\n\nON\nSST\nECM\n(A) 2    SP1\n8E8653\nFI8504\nAT7809\n\nP (1) Shift the shift lever to N position.\n(2) Jack up one of the rear wheels.\n(3) Connect SST (check harness \"A\").\n(See page EG–510)\n(4) Disconnect power steering ECU connector and cruise control ECU connector.\n(5) Turn ignition switch ON.\n\nC Measure voltage between terminal SP1 of engine control module connector and body ground when the wheel is turned slowly.\n\nOK Voltage is generated intermittently.\n\n4 ~ 6 V\n0\nTurn the wheel\n\nNG    OK Check and replace engine control module.\n\n2 Check operation of odometer and trip meter (telltale light RH (See page Be–48)).\n\nNG    OK Repair or replace harness or connector between ECM and telltale light RH.\n\n3 Check operation of No.1 vehicle speed sensor (See page BE–46).\n\nNG    OK Repair or replace harness or connector between telltale light RH and No.1 vehicle speed sensor.\n\nReplace No.1 vehicle speed sensor."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-163",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "Tc Terminal Circuit",
+  "ocr_text": "BR–163\n\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nTc Terminal Circuit\n\nCIRCUIT DESCRIPTION\n\nBy connecting terminals Tc and E1 of DLC1 or DLC2, the ECU displays the diagnostic trouble code\nby blinking the TRAC indicator light.\n\nWIRING DIAGRAM\n\nABS & TRAC ECU                                                    TRAC ECU\n12 V                                                              12 V\nTc  23                P-B    DLC2                    P-B  11  Tc\nA20                                                  T9\n                18\n                IJ1   3    E1  Tc   4    P-B    P-B\n\n         BR        BR\n                        3    E1  Tc   21       11\n                                      II1   11   IF1\n                        DLC1\n\nR07068"
+}

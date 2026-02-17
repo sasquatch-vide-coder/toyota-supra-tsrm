@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-149",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE-149\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1  Check engine hood courtesy switch.\n\nDisconnect\n\nP  (1)  Remove engine hood lock assembly.\n    (2)  Disconnect engine hood courtesy switch connector.\n\nC  Check continuity between terminals 1 and 2 when engine hood lock is locked and unlocked.\n\nOK\n                                          O——O Continuity\n         Terminal          1         2\nEngine hood lock\nLock\nUnlock                    O              O\n\nBE4061\nN08684\n\nOK          NG  Replace engine hood courtesy switch.\n\n2  Check harness and connector between theft deterrent and door lock ECU\n   and switch and body ground (See page IN–30).\n\nOK          NG  Repair or replace harness or connector.\n\nCheck and replace theft deterrent and door lock ECU (See page IN–30)."
+}

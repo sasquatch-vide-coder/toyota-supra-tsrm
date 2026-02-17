@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-17",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Warning for A/C compressor lock",
+  "ocr_text": "AC–17\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\n0.5 Seconds\nON\nOFF\n0.5 Seconds\nAT0716\n\nWarning for A/C compressor lock\nIf compressor lock occurs during air conditioning operation,\nthe [A/C] switch indicator on the air conditioning control as-\nsembly starts blinking.\nWhen this occurs, check for compressor lock using panel\ndiagnosis check then proceed to inspect the circuit or the\ncomponent.\nCompressor lock sensor circuit → page AC–38\n\nLIST OF OPERATION METHODS\nBy operating each of the air conditioning control switches as shown in the diagram below, it is possible to\nenter the diagnosis check mode.\n\nTurn ignition switch ON with AUTO and\nswitches held down.\n\nIf both Auto switch and switch are\nnot pressed at the same time.\n\nIndicator Check\n\nOFF\nDiagnostic\nSensor Check\n(continuous operation)\nAUTO\n\nActuator Check\n(continuous\noperation)\nOFF\n\nREAR\n\nTEMP\n\nOFF\nDiagnostic\nSensor Check\n(stepped operation)\nAUTO\n\nREAR\n\nCancel check mode and can start\nconditioning control\n\nN09008\n\n: Indicates a switch operation"
+}

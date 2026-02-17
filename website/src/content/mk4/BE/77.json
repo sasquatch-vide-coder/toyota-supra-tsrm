@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-77",
+  "section_header": "BODY ELECTRICAL SYSTEM — POWER SEAT CONTROL SYSTEM",
+  "title": "RECLINING MOTOR INSPECTION",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – POWER SEAT CONTROL SYSTEM\n\nBE–77\n\nRECLINING MOTOR INSPECTION\n\n1. INSPECT MOTOR OPERATION\n(a) Connect the positive (+) lead from the battery to terminal 2 and negative (–) lead to terminal 1 and check that the motor turns counterclockwise.\n(b) Reverse the polarity, check that the motor turns clockwise. If operation is not as specified, replace the motor.\n\nN09814\n\nN09815\n\n2. INSPECT PTC THERMISTOR OPERATION\n(a) Connect the positive (+) lead from the battery to terminal 2.\n(b) Connect the positive (+) lead from the ammeter to terminal 1 and the negative (–) lead to battery negative (–) terminal.\n(c) Check that the seat back is reclined to the most forward position.\n(d) Continue to apply voltage, check the current change to less than 1 ampere within 4 to 90 seconds.\n\nN09864\n\n(e) Disconnect the lead from terminals.\n(f) Approximately 60 seconds later, connect the positive (+) lead from the battery to terminal 1 and the negative (–) lead to terminal 2, check that the seat back starts to fall backwards. If operation is not as specified, replace the motor.\n\nN09017"
+}

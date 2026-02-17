@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-409",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "CIRCUIT INSPECTION\nDTC 12 G NE Signal Circuit (No.1)\nCIRCUIT DESCRIPTION",
+  "ocr_text": "CIRCUIT INSPECTION\n\nDTC 12 G NE Signal Circuit (No.1)\n\nCIRCUIT DESCRIPTION\n\nThe distributor in the Engine Control System contains 3 pick–up coils (G1, G2 and NE).\nThe G1, G2 signals inform the ECM of the standard crankshaft angle.\nThe NE signals inform the ECM of the crankshaft angle and the engine speed.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble Area\n\n12 | No \"NE\" or \"G1\" and \"G2\" signal to ECM for 2 sec. or more after cranking | • Open or short in NE, G circuit\n• Distributor\n• Open or short in STA circuit\n• ECM\n\nOpen in \"G ±\" circuit\n\nWIRING DIAGRAM\n\nDistributor\n\nG1 2          R          26 (E9) G1\n\nG2 3          W          25 (E9) G2\n\nNE 1          B          27 (E9) NE\n\nG ⊖ 4          G          7 (E9) G⊖\n\nEngine Control Module\n\nE1\n\nR6543"
+}

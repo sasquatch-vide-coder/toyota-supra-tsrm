@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-98",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "Tc Terminal Circuit",
+  "ocr_text": "RS–98\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nTc Terminal Circuit\n\nCIRCUIT DESCRIPTION\n\nBy connecting terminals Tc and E1 of the DLC1 or DLC2, the center airbag sensor assembly is set in the diagnostic trouble code output mode. The diagnostic trouble codes are displayed by the blinking of the SRS warning light.\n\nWIRING DIAGRAM\n\nDLC1\nBR    3\nE1    Tc    11  P-B    21\nII1    P-B    PB\n\n3\n1E    1G    P-B    7\nTc\nJunction Block No.1\n\nBR    18\nIJ1    BR3    E1    Tc    4  P-B    11\nIF1\nDLC2\n\nPB\n\nBR\n\nED\n\nCenter Airbag\nSensor Assembly\n\nR05910"
+}

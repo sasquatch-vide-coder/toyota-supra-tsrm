@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-166",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "ECU TERMINAL VALUES MEASUREMENT USING TOYOTA BREAK–OUT–BOX AND TOYOTA HAND–HELD TESTER",
+  "ocr_text": "BE–166\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nTOYOTA\nhand–held\ntester\nDLC2\n\nF16397\n\nUsing TOYOTA hand–held tester:\n1. Hook up the TOYOTA hand–held tester to the DLC2.\n2. Monitor the ECU data by following the prompts on the tester\nscreen.\nHINT: TOYOTA hand–held tester has a \"Snapshot\" function\nwhich records the monitored data.\nPlease refer to the TOYOTA hand–held tester operator's\nmanual for further details.\n\nTOYOTA\nhand-held tester\nECU\nTOYOTA\nbreak-out-box\nN09348\n\nECU TERMINAL VALUES\nMEASUREMENT USING TOYOTA\nBREAK–OUT–BOX AND TOYOTA\nHAND–HELD TESTER\n1. Hook up the TOYOTA break–out–box and TOYOTA\nhandheld tester to the vehicle.\n2. Read the ECU input/output values by following the prompts\non the hand–held tester screen.\nHINT: TOYOTA hand–held tester has a \"Snapshot\" function.\nThis records the measured values and is effective in the diag-\nnosis of intermittent problems.\nPlease refer to the TOYOTA hand–held tester/TOYOTA\nbreak–out–box operator's manual for further details."
+}

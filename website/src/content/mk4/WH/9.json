@@ -1,0 +1,6 @@
+{
+  "page_id": "A-8",
+  "section_header": "INTRODUCTION–CIRCUIT PROTECTION",
+  "title": "CIRCUIT PROTECTION",
+  "ocr_text": "A–8\n\nINTRODUCTION–CIRCUIT PROTECTION\n\nCIRCUIT PROTECTION\nAll electrical circuits are protected against excessive loads which might occur because of shorts or\noverloads in the wiring system. Such protection is provided by a fuse, circuit breaker, or fusible link, A\nshort circuit may cause a fuse to blow or a circuit breaker to open.\n\nPush\n\nRESET CIRCUIT BREAKER\n1. Remove Circuit Breaker\n(a) Disconnect the negative (–) cable from the battery.\n(b) Remove the circuit breaker.\n\n2. Reset Circuit Breaker\n(a) Insert the needle into the reset hole and push it.\n\n(b) Using an ohmmeter, check that there is continuity\nbetween both terminals of the circuit breaker.\nIf continuity is not as specified, replace the circuit breaker.\n\nDC12/24V 30A\n\nEqual Amperage Rating\n\nHINT: If replacing the circuit breaker, be sure to replace\nit with a breaker with an equal amperage rating.\n\n3. Install Circuit Breaker\n(a) Install the circuit breaker.\n(b) Connect the negative (–) cable to the battery.\nHINT: If a circuit breaker continues to cut out, a short\ncircuit is indicated. Have the system checked by a qualified\ntechnician.\n\nWire Harness Repair Manual (RM1022E)\n\n9"
+}

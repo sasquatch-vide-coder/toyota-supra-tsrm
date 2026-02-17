@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-189",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "Parking Brake Switch Circuit",
+  "ocr_text": "BE–189\n\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nParking Brake Switch Circuit\n\nCIRCUIT DESCRIPTION\nWhen the parking brake pedal is depressed, the parking brake switch sends a signal to the ECU. When this\nsignal is input to the ECU during cruise control driving, the ECU cancels cruise control.\n\nWIRING DIAGRAM\n\nDaytime Running\nLight ECU\n\nCruise Control\nECU\n\nBR-W  8         18  B-W\n\nB-W\nB-W  (CANADA)\n\nBR-W    BR-W  (USA)    PKB\n\nR-W  1\n(USA\n2JZ-GTE)        BR-W  3\n\nBR-W  (USA 2JZ-GE)\n\nBR-W\n\n14  IB2\nR-W (2JZ-GTE)\n1  BR-W (2JZ-GE)\n\n1\nParking Brake\nSwitch            Brake Fluid Level\n                  Warning Switch\n\nW-B  2\n\nN12775\n\n12 V"
+}

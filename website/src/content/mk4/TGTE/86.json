@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-572",
+  "section_header": "ENGINE — 2JZ–GTE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "EG–572\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1  Check output condition of diagnostic trouble code 51.\n\nP  Setting the test mode.\n(1) Turn ignition switch OFF.\n(2) Connect terminals TE2 and E1 of DLC2.\n(3) Turn ignition switch ON.\n(For checking terminal IDL, disconnect the vacuum hose from the throttle body, then apply vacuum to the throttle opener (See page EG–292)).\n((For checking terminal A/C, start the engine.))\n(4) connect terminals TE1 and E1 of DLC2.\n\nC  Check if code \"51\" is output by the malfunction indicator lamp.\n\nOK\nCondition  Code\nPark/Neutral Position Switch (PNP)  IP or N position  Normal*\nIR, D, 2 or L position  51*\nThrottle Position Sensor (IDL1)  Accelerator pedal released  Normal*\nAccelerator pedal depressed  51*\nA/C Switch (A/C)  A/C SW ON  51\nA/C SW OFF  Normal\n\n*: Before the STA signal is input (ST is not ON), diagnostic trouble code 43 is also output.\n\nHint  Diagnostic trouble code 42 is output with vehicle speed 5 km/h (3 mph) or below.\n\nH6914\nCHECK\n\nOK\nNG  IDL1...Go to step [2].\nPNP....Go to page Eg–574.\nA/C....Go to step [3].\n\nProceed to next circuit inspection shown on matrix chart (See page Eg–514)."
+}

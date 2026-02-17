@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-52",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Back Up Power Source Circuit",
+  "ocr_text": "AC–52\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBack Up Power Source Circuit\n\nCIRCUIT DESCRIPTION\n\nThis is the back up power source for the A/C amplifier. Power is supplied even when the ignition switch is off\nand is used for diagnostic sensor check memory, etc.\n\nWIRING DIAGRAM\n\nR/B No.2                    R/B No.2                         A/C Amplifier\n1                                  POWER\nB   2A    ALT    2      W      2           2      W-L\n\n                                                    2   1B\n\n                                                J/B\n                                                No.1   ECU-B\n\n        Battery                                    13   1E\n\n                                                         W-R    7\n                                                               A14    +B\n\nN13033"
+}

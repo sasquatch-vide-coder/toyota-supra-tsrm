@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-25",
+  "section_header": "IGNITION SYSTEM — (2JZ–GTE)",
+  "title": "CRANKSHAFT POSITION SENSOR INSPECTION",
+  "ocr_text": "IG–25\nIGNITION SYSTEM – (2JZ–GTE)\n\nCRANKSHAFT POSITION SENSOR INSPECTION\n\nNOTICE: \"Cold\" and \"Hot\" in the following sentences express the temperature of the sensors themselves. \"Cold\" is from –10°C (14°F) to 50°C (122°F) and \"Hot\" is from 50°C (122°F) to 100°C (212°F).\n\n1. REMOVE NO.2 AIR TUBE FOR CAC\n2. DISCONNECT CRANKSHAFT POSITION SENSOR CONNECTOR\n3. INSPECT CRANKSHAFT POSITION SENSOR RESISTANCE\nUsing an ohmmeter, measure the resistance between terminals.\nResistance:\n    Cold\n        NIPPONDENSO\n            835–1,400 Ω\n        AISAN\n            985–1,600 Ω\n    Hot\n        NIPPONDENSO\n            1,060–1,645 Ω\n        AISAN\n            1,265–1,890 Ω\n\nIf the resistance is not as specified, replace the crankshaft position sensor.\n4. RECONNECT CRANKSHAFT POSITION SENSOR CONNECTOR\n5. REINSTALL NO.2 AIR TUBE FOR CAC\n\nIGNITER INSPECTION\n(See procedure Spark Test on page IG–22)\n\nOhmmeter\nF12375"
+}

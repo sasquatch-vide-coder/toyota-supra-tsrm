@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-100",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "SOUND QUALITY POOR (VOLUME FAINT)",
+  "ocr_text": "BE–100\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n14  Tape Player  SOUND QUALITY POOR (VOLUME FAINT)\n\nW  : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nFunction OK if different cassette\ntape installed?\nYes → Cassette tape faulty?\nNo\n↓\nOperates normally after cleaning the heads?\n(See MAINTENANCE OF TAPE PLAYER)\nYes → Head dirty.\nNo\n↓\nIs radio operating normally?\nYes → Radio assembly faulty.\nNo\n↓\nIs speaker properly installed?\nNo → Install properly.\nYes\n↓\nTemporarily install another speaker.\nFunctions OK?\nYes → Speaker faulty.\nNo\n↓\nWO  Radio assembly faulty.\nW   Radio assembly or power amplifier faulty.\n\n15  Tape Player  TAPE JAMMED, MALFUNCTION WITH TAPE SPEED\nOR AUTO REVERSE\n\nW  : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nI Functions OK is different tape (less\nt than 120 mins.) is installed?\nYes → Cassette tape faulty.\nNo\n↓\nis there a foreign object inside tape player?\nYes → Remove foreign object.\nNo\n↓\nOperates normally after cleaning the heads?\n(See MAINTENANCE OF TAPE PLAYER)\nYes → Head faulty.\nNo\n↓\nRadio assembly faulty."
+}

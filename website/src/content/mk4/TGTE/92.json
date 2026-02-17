@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-578",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–578\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\n4 Check IGN fuse.\n\nJ/B No.1\nIGN Fuse\n\nNO8417\n\nP Remove IGN fuse from J/B No.1.\nC Check continuity of IGN fuse.\nOK Continuity\n\nOK\nNG Check for short in the harness and all the components connected to IGN fuse (See Electrical Wiring Diagram).\n\n5 Check ignition switch.\n\nLOCK ACC ON\nSTART\n\n3 2 1\n8 7 6 5 4\n\nBE3582\ng-8-2\n\nP (1) Remove finish lower panel and finish lower panel LH.\n(2) Remove heater to register duct No.2.\nC Check continuity between terminals.\nOK\no——o continuity\n\nTerminal         1    2    3    4    5    7    8\nSwitch position\nLOCK\nACC                                    o——o\nON              o——o    o——o——o\nSTART    o——o——o    o         o——o——o\n\nOK\nNG Replace ignition switch.\n\nCheck and repair harness and connector between battery and ignition switch, ignition switch and engine control module."
+}

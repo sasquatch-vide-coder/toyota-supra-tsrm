@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-16",
+  "section_header": "BODY ELECTRICAL SYSTEM — HEADLIGHT AND TAILLIGHT SYSTEM",
+  "title": "HEADLIGHT CONTROL RELAY INSPECTION",
+  "ocr_text": "BE–16\nBODY ELECTRICAL SYSTEM – HEADLIGHT AND TAILLIGHT SYSTEM\n\nHEADLIGHT CONTROL RELAY INSPECTION\nINSPECT RELAY CONTINUITY\n\nCondition | Tester connection to terminal number | Specified condition\nConstant | 3–4 | Continuity\nApply B+ between Terminal 3 and 4. | 1–2 | Continuity\n\nIf continuity is not as specified, replace the relay.\n\nBE1838 BE184C\n209989\n\nTAILLIGHT RELAY INSPECTION\nINSPECT RELAY CONTINUITY\n\nCondition | Tester connection to terminal number | Specified condition\nConstant | 1–2 | Continuity\nApply B+ between Terminals 1 and 2. | 3–5 | Continuity\n\nIf continuity is not as specified, replace the relay.\n\nBE4049 BE184D\n205930"
+}

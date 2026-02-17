@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-79",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "Check TRAC solenoid relay.",
+  "ocr_text": "BR–79\n\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\n3  Check TRAC solenoid relay.\n\nP  Remove TRAC solenoid relay from R/B No. 5.\n\nC  Check continuity between each terminal of TRAC solenoid relay shown below.\n\nOK\nTerminals 4 and 6    Continuity (Reference value 80  )\nTerminals 2 and 3    Continuity\nTerminals 1 and 3    Open\n\nOpen\nContinuity\nContinuity\n\nContinuity\nOpen\n\nC  1.  Apply battery voltage between terminals 4 and 6.\n    2.  Check continuity between terminal shown below.\n\nOK\nTerminals 2 and 3    Open\nTerminals 1 and 3    Continuity\n\nBR5403\nBR5404\nBR5405\n\nOK          NG  Replace TRAC solenoid relay.\n\n4  Check for open and short in harness and connector between TRAC solenoid relay and ABS & TRAC ECU (See page IN–30).\n\nOK          NG  Repair or replace harness or connector.\n\nIf the same code is still output after the diagnostic trouble code is deleted, check the contact condition of each connection.\nIf the connections are normal, the ECU may be defective."
+}

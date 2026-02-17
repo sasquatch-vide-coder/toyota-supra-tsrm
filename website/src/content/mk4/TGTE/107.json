@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-593",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "Check VSV for Intake Air Control Valve",
+  "ocr_text": "EG-593\n\nENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING\n\n3   Check VSV for Intake Air Control Valve\n\nP   (1) Remove VSV.\n    (2) Disconnect VSV connector.\n\nC   (1) Measure resistance between terminals.\n    (2) Measure resistance between each terminal\n        and the body.\n\nOK  (1) Resistance: 38.5 — 44.5   at 20°C (68°F)\n    (2) Resistance: 1 M   or higher\n\nC   Check operation of VSV when battery positive volt-\n    age is applied and released to the VSV terminals.\n\nOK  Battery positive voltage is applied:\n    Air from port E is flowing out through port F.\n\n    Battery positive voltage is not applied:\n    Air from port E is flowing out through the air\n    filter.\n\nAir\n\nE\nF\n\nBattery\n\nAir\n\nAir Filter\n\nE\n\nP11371\nP11372\nP11373\nP11414\n\nOK                  NG   Replace VSV for intake gas control valve."
+}

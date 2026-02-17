@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-63",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AC–63\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check voltage between terminal A/C IN of A/C amplifier connector and body ground.\n\nON\nConnect\nA/C IN\nBE3840\nNO8801\n\nP 1. Remove A/C amplifier with connectors still connected.\n2. Start the engine.\n\nC Check voltage between terminal A/C IN of A/C amplifier connector and body ground when magnetic clutch is on and off by A/C switch.\n\nOK Magnetic Clutch    Voltage\nON    10 – 14 V\nOFF    Below 1 V\n\nOK\nNG Go to step 4 .\n\n2 Check air conditioning compressor magnetic clutch.\n\n4\nE01510\n\nP Disconnect magnetic clutch connector.\n\nC Connect positive (+) lead connected to battery to magnetic clutch connector terminal 4.\n\nOK Magnetic clutch is energized.\n\nOK\nNG Repair air conditioning compressor magnetic clutch.\n\n3 Check for open and short in harness and connector between air conditioner compressor and magnetic clutch relay (See page IN–30).\n\nOK\nNG Repair or replace harness or connector.\n\nGo to step 4 ."
+}

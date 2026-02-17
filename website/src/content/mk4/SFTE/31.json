@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-288",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GTE)",
+  "title": "MAF METER INSPECTION",
+  "ocr_text": "EG–288\nENGINE – SFI SYSTEM (2JZ–GTE)\n\nMAF METER INSPECTION\n\n1. INSPECT MAF METER RESISTANCE\nUsing an ohmmeter, measure the resistance between terminals THA and E2.\n\nBetween terminals | Resistance | Temperature\nTHA–E2 | 10–20 kΩ | –20°C (–4°F)\nTHA–E2 | 4–7 kΩ | 0°C (32°F)\nTHA–E2 | 2–3 kΩ | 20°C (68°F)\nTHA–E2 | 0.9–1.3 kΩ | 40°C (104°F)\nTHA–E2 | 0.4–0.7 kΩ | 60°C (140°F)\n\nIf the resistance is not as specified, replace the MAF meter.\n\nOhmmeter\nE2\nTHA\nF16961\n\n2. INSPECT MAF METER OPERATION\n(a) Connect the MAF meter connector.\n(b) Connect the negative (–) terminal cable to the battery.\n(c) Using a voltmeter, connect the positive (+) tester probe to terminal VG, and negative (–) tester probe to terminal E21.\n(d) Turn the ignition switch ON.\n(e) Blow air into the MAF meter, and check that the voltage fluctuates.\nIf operation is not as specified, replace the MAF meter.\n(f) Turn the ignition switch OFF.\n(g) Disconnect the negative (–) terminal cable from the battery.\n(h) Disconnect the MAF meter connector.\n\nVoltmeter\nAir\nV\nVG\nE21\nP12997"
+}

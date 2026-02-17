@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-93",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "TE1 Terminal Circuit\nCIRCUIT DESCRIPTION",
+  "ocr_text": "AT1-93\n\nAT340E (2JZ-GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nTE1 Terminal Circuit\n\nCIRCUIT DESCRIPTION\n\nECM displays diagnostic trouble codes using the O/D OFF indicator light when terminals TE1 and E1 of the DLC2 or DLC1 are connected.\n\nWIRING DIAGRAM\n\nDLC1\n3  E1     TE1  8          Y-L                    ECM\nBR                                               B+\n                                          20  TE1\nDLC2                                      E10\nTE1     Y-L    5   Y-L      Y-L\n                IJ1\n\nE1   3   BR    18   BR            69  E1\n              IJ1               E9\n         BR\n\nQ04337"
+}

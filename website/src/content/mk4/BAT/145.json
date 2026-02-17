@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-145",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "DTC 43 ABS & TRAC ECU Malfunction",
+  "ocr_text": "BR–145\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nDTC 43 ABS & TRAC ECU Malfunction\n\nCIRCUIT DESCRIPTION\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n\n43 | ABS control system or TRAC (BRAKE) control system or communication circuit is abnormal. | ABS & TRAC ECU\nOpen or short in BRFA circuit\n\nWIRING DIAGRAM\n\nABS & TRAC ECU\n12 V\nBRFA 5\nA21\nP-B\n\nTRAC ECU\n4 BRFA\nT9\n\nR07629\n\nINSPECTION PROCEDURE\n\n1 Is diagnostic trouble code output for the ABS & TRAC (BRAKE)?\n\nPerform diagnostic trouble code check on page BR–128.\n\nNO\n\nYES Repair circuit indicated by the code output."
+}

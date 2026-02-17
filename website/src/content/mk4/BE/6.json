@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-6",
+  "section_header": "BODY ELECTRICAL SYSTEM — POWER SOURCE",
+  "title": "Junction Block No.1",
+  "ocr_text": "BE-6\n\nBODY ELECTRICAL SYSTEM – POWER SOURCE\n\nJunction Block No.1\n\nRELAY\nA. Taillight Relay\nB. Power Main Relay\n\nFUSE\nMedium Current Fuses\na. DOOR          30 A\nb. DEFOG         30 A\n\nFuses\n1. WIPER         20 A\n2. HTR           7.5 A\n3. SEAT-HTR      15 A\n4. ST            7.5 A\n5. IGN           7.5 A\n6. PANEL         10 A\n7. MIR-HTR       10 A\n8. TURN          7.5 A\n9. STOP          15 A\n10. CIG          15 A\n11. RAD No.2     7.5 A\n12. TAIL         10 A\n13. ECU-IG       10 A\n14. GAUGE        10 A\n15. ECU-B        10 A\n\nA\n1  2  3  4  5\n6  7  8  9  10  11\n12  13  14  15\na        b\nB\n\nN08599"
+}

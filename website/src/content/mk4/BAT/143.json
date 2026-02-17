@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-143",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BR–143\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nINSPECTION PROCEDURE\n\n1   Check battery positive voltage.\n\nOK   Voltage: 10 – 14 V\n\nOK                          NG   Check and repair the charging system.\n\n2   Check voltage between terminals IG1 and GND of TRAC ECU connector.\n\nON\n\nP   1.   Remove TRAC ECU with connectors still connected.\n    2.   Turn ignition switch ON.\n\nC   Measure voltage between terminals IG1 and GND of TRAC ECU connector.\n\nOK   Voltage: 10 – 14 V\n\nIG1   GND\n\nBE8653\nR06987\n\nNG                          OK   Check and replace TRAC ECU.\n\n3   Check continuity between terminal GND of TRAC ECU connector and body ground.\n\nLOCK\n\nC   Measure resistance between terminal GND of TRAC ECU connector and body ground.\n\nOK   Resistance: 1   or less\n\nGND\n\nBE8653\nR06988\n\nOK                          NG   Repair or replace harness or connector."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-494",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "DIAGNOSTIC TROUBLE CODE CHART",
+  "ocr_text": "EG-494\nENGINE – 2JZ-GTE ENGINE TROUBLESHOOTING\n\nDIAGNOSTIC TROUBLE CODE CHART\nHINT: Parameters listed in the chart may not be exactly the same as your reading due to type of the instruments or other factors.\n\nDTC No. | Number of MIL Blinks | Circuit | Diagnostic Trouble Code Detecting Condition\n\n– | [waveform] BE3931 | Normal | No code is recorded\n\n12 | [waveform] BE3931 | G, NE Signal (No.1) | No \"NE\" or \"G1\" and \"G2\" signal to ECM for 2 sec. or more after cranking\n\n13 | [waveform] BE3931 | G, NE Signal (No.2) | No NE signal to ECM for 0.1 sec. or more at 1,000 rpm or more\nNE signal does not pulse 12 times to ECM during the interval between G1 and G2 pulses\nDeviation in G (G1, G2) and NE signal continues for 3 sec. during idling (throttle fully closed) after engine warmed up\n\n14 | [waveform] BE3931 | Ignition Signal | No IGF signal to ECM for 4–7 consecutive IGT signals with engine speed less than 3,000 rpm\n\n16 | [waveform] BE3931 | A/T Control Signal | Fault in communications between the engine CPU and A/T CPU in the ECM"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-483",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING7",
+  "title": "Check voltage between terminal FPU of engine control module connector and body ground.",
+  "ocr_text": "EG-483\nENGINE — 2JZ-GE ENGINE TROUBLESHOOTING7\n\n2  Check voltage between terminal FPU of engine control module connector and body ground.\n\nON\n\nSST\nECM\n\nB 36\n\nFPU\n\nBE6653\nFI8892\n\nP  (1)  Connect SST (check harness \"A\").\n        (See page EG-404)\n        SST 09990-01000\n   (2)  Turn ignition switch ON.\n\nC  Measure voltage between terminal FPU of engine control module connector and body ground.\n\nOK  Voltage: 9 — 14 V\n\nNG\n\nOK  Proceed to next circuit inspection shown on matrix chart (See page EG-408).\n\n3  Check for open and short in harness and connector between engine control module and VSV, VSV and EFI main relay (See page IN-30).\n\nOK\n\nNG  Repair or replace harness or connector.\n\nCheck and replace engine control module."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-103",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Stop Light Switch Circuit",
+  "ocr_text": "AT2–103\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nStop Light Switch Circuit\n\n— CIRCUIT DESCRIPTION —\n\nThe purpose of this circuit is to prevent the engine from stalling, while driving in lock–up condition, when brakes are suddenly applied.\nWhen the brake pedal is operated, this switch sends a signal to the ECM. Then the ECM cancels operation of the lock–up clutch while braking is in progress.\n\n— WIRING DIAGRAM —\n\nJ/B No. 1\nW-L    2    10\n        1B        11\n        15 A STOP\n\nStop Light Switch\nW         G-W\n2         1\n\nG-W\n\n1 (1H)\n\n10 (1C)\nJ/B No.1\n\nG-W  7\nLight Failure Sensor\n\nStop Light\n\nPower\n120 A ALT\n\nBattery\n\nTRAC ECU\nABS ECU\nCruise Control ECU\nShift Lock Control ECU\n\nG-W    11      G-W    4    STP\n              J1          E10\n\nECM\n\nC05429"
+}

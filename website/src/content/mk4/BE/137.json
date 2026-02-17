@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-137",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE–137\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\nHINT: The flow chart below is based on the premise that the headlights light up normally whenever the light con–\ntrol switch is operated. If headlight operation is not normal when the light control switch is operated, pro–\nceed to troubleshooting on page BE–11.\n\n1  Check voltage between terminal HEAD of theft deterrent and door lock ECU connector and body ground.\n\nLOCK\n\nDisconnect\n\nHEAD\n\nBE3B43\nN074B1\n\nP  (1)  Remove instrument panel.\n        (See BO section)\n   (2)  Disconnect the ECU connector.\n\nC  Measure voltage between terminal HEAD of theft deterrent ECU connector and body ground.\n\nOK  Voltage:  10 – 14 V\n\nNG\n\nOK  Check and replace theft deterrent and door lock ECU.\n\nCheck and repair harness and connector between theft deterrent and door lock ECU headlight control relay (See page IN–30)."
+}

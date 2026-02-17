@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-88",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "1 Radio NO POWER COMING IN",
+  "ocr_text": "BE–88\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n1 Radio NO POWER COMING IN\n\nW : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nIs tape player operating normally?\nYes → Radio assembly faulty.\nNo\n↓\nCheck if RAD No. 2 fuse is OK?\nNG → Replace fuse.\nOK\n↓\nWO                    W\n                      Is ACC applied to power amplifier?\n                      No → ACC wire harness faulty.\n                      Yes\n                      ↓\n                      Check if GND (wire harness side) to power amplifier is OK?\n                      NG → GND faulty.\n                      OK\n↓\nIs ACC applied to radio assembly?\nNo → WO  ACC wire harness faulty.\n         W   Power amplifier faulty.\nYes\n↓\nCheck if GND (wire harness side) to radio is OK?\nNG → WO  GND faulty.\n          W   Power amplifier faulty.\nOK\n↓\nRadio assembly faulty."
+}

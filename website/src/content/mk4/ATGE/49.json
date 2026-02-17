@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-49",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "SPECIFIED LINE PRESSURE",
+  "ocr_text": "AT1–49\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nSPECIFIED LINE PRESSURE\n\nLine pressure | D position kPa (kgf/cm2,psi) | R position kPa (kgf/cm2, psi)\nIdling | 363–422 (3.7–4.3, 53–61) | 500–598 (5.1–6.1, 73–88)\nStall | 902–1,147 (9.2–11.7, 131–166) | 1,236–1,589 (12.6–16.2, 179–230)\n\nIf the measured pressures are not up to specified values, recheck the throttle cable adjustment and retest.\n\nAT5309\n\nSST\n\nEVALUATION\n\nProblem | Possible cause\nIf the measured values at all positions are higher. | · Throttle cable out of adjustment\n· Throttle valve defective\n· Regulator valve defective\nIf the measured values at all positions are lower. | · Throttle cable out of adjustment\n· Throttle valve defective\n· Regulator valve defective\n· Oil pump defective\n· O/D direct clutch defective\nIf pressure is low in the D position only. | · D position circuit fluid leakage\n· Forward clutch defective\nIf pressure is low in the R position only | · R position circuit fluid leakage\n· Direct clutch defective\n· First and reverse brake defective"
+}

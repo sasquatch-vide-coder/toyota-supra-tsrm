@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-102",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "CD CANNOT BE INSERTED",
+  "ocr_text": "BE–102\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n18 | CD Player | CD CANNOT BE INSERTED\n\nIs CD already installed?\nYes → Eject CD.\nNo\nIs auto search button of radio operating normally?\nYes → Is +B applied to CD player?\nNo → Radio assembly faulty.\nYes\nCheck if GND (wire harness side) to CD player is OK?\nNG → Radio assembly faulty.\nOK\nCD player faulty.\n\nNo\nCheck if RAD No.1 fuse is OK?\nNG → Replace fuse.\nOK\nIs + B applied to power amplifier?\nNo → + B wire harness faulty.\nYes\nCheck if GND (wire harness side) to power amplifier is OK?\nNG → GND faulty.\nOK\nIs + B applied to radio assembly?\nNo → Power amplifier faulty.\nYes\nCheck if GND (wire harness side) to radio assembly is OK?\nNG →\nOK\nRadio assembly faulty."
+}

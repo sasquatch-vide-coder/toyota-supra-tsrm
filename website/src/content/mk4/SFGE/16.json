@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-202",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "INJECTOR ON-VEHICLE INSPECTION",
+  "ocr_text": "EG–202\nENGINE – SFI SYSTEM (2JZ–GE)\n\nINJECTOR\nON–VEHICLE INSPECTION\n\n1. INSPECT INJECTOR OPERATION\nCheck operation sound from each injector.\n(a) With the engine running or cranking, use a sound scope to\ncheck that there is normal operating noise in proportion to\nengine speed.\n\nSound Scope\n\nP02181\n\n(b) If you have no sound scope, you can check the injector\ntransmission operation with your finger.\nIf no sound is heard or unusual vibration is felt, check the wir-\ning connector, injector or injection signal from the ECM.\n\nP02124\n\n2. INSPECT INJECTOR RESISTANCE\n(a) Remove the throttle body together with the intake air\nconnector. (See steps 1 to 9 in injector removal)\n(b) Disconnect the 6 injector connectors.\n(c) Using an ohmmeter, measure the resistance between the\ninjector terminals.\nResistance:\nAt 20°C (68°F) 13.4–14.2 Ω\nIf the resistance is not as specified, replace the injector.\n(d) Reconnect the 6 injector connectors.\n(e) Reinstall the throttle body together with the intake air\nconnector. (See steps 8 to 16 in injector installation)\n\nOhmmeter\n\nP10900"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-150",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BR–150\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nINSPECTION PROCEDURE\nHINT: The main throttle position sensor signal is transmitted to the TRAC ECU from ECM, so if an error occurs\nat the engine side, the TRAC ECU also detects it.\nIf diagnostic trouble code No.41 is being output for the engine troubleshoot the engine first.\n\n1 Is diagnostic trouble code output for the engine?\n\nDo diagnostic trouble code check on page EG–491.\n\nNO\nYES Repair circuit indicated by the code output.\n\n2 Check voltage between terminal IDL1 of TRAC ECU and body ground.\n\nP 1. Remove TRAC ECU with connectors still connected.\n2. Disconnect the vacuum hose from the throttle opener, and apply the vacuum to the throttle opener.\n3. Turn ignition switch ON.\n\nC Measure voltage between terminal IDL1 of TRAC ECU and body ground, when the main throttle valve is fully closed and fully open.\n\nOK\nMain throttle valve position | Voltage\nFully closed | Below 1.0 V\nFully open | 10 – 14 V\n\nON\n\nIDL1\n\nR06991\nBE9653\nR06992\n\nNG\nOK Go to step 6 ."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-73",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "AT2–73\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nGAUGE Fuse\n\nY\n\nECM\n4 ~ 6 V\n\n1\n3 L-R 2 L-R 5\nII1 6 P 11 P 2\nII1 SP1\nE10\nNo. 1 Vehicle\nSpeed Sensor\nOdometer and\nTrip Meter\nTelltale Light RH\n2\nE2\n\nSpeedometer\n\nFI6931\n\nINSPECTION PROCEDURE\n\n1 Check voltage between terminal SP1 of ECM connector and body ground.\n\nON\n\nCheck Harness A\nECM\n\nV\n\nA 2 SP1\n\nBE6653\nFI6504\n\nP 1. Shift the shift lever to N position\n2. Jack up one of the rear wheels.\n3. Connect the Check Harness A.\nSee page EG–510)\n(1) Disconnect power steering ECU connector\nand cruise control ECU connector.\n(5) Turn ignition switch ON.\n\nC Measure voltage between terminal SP1 of ECM\nconnector and body ground when the wheel is\nturned slowly.\n\nOK Voltage is generated intermittently.\n\n4 ~ 6 V\n\nO\nTurn the wheel\n\nAT7809\n\nNG OK Check and replace ECM.\n\n2 Check operation of odometer and trip meter (telltale light RH\n(See page BE–48)).\n\nNG OK Repair or replace harness or connector between\nECM and telltale light RH.\n\nGo to 3 ."
+}

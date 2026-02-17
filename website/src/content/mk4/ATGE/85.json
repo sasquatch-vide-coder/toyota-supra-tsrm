@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-85",
+  "section_header": "AT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING",
+  "title": "Pattern Select Switch Circuit",
+  "ocr_text": "Pattern Select Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nThe ECM memory contains the shift programs for the NORMAL and MANUAL patterns, 2 position, and L position and the lock–up patterns. Following the programs corresponding to the signals from the pattern select switch, the park/neutral position switch and other various sensors the ECM switches the solenoid valves ON and OFF, thereby controlling the transmission gear change and the lock–up clutch operation.\n\nWIRING DIAGRAM\n\nCombination Meter\n\n12    W-L    38    25  M1\n                  II1  W-L  E10\n\nECM\n\nB+\n\nPattern Select\nSwitch\nW-B    3    MANU    4    12    18\n                         IJ2  G-Y  E10  M\n              NORM\nG-Y\n\nIE\n\nINSPECTION PROCEDURE\n\n1    Check A/T fluid temp. sensor.  (See page AT1–64).\n\nOK                        NG    Replace A/T fluid temp. sensor.\n\nGo to  2  ."
+}

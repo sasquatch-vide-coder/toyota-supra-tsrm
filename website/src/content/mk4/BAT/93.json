@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-93",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "INSPECTION PROCEDURE.",
+  "ocr_text": "BR–93\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nINSPECTION PROCEDURE.\n\n1  Check battery positive voltage.\n\nOK  Voltage: 10 — 14 V\n\nOK                    NG  Check and repair the charging system.\n\n2  Check voltage between terminals IG1 and GND of ABS (& TRAC) ECU connector.\n\nw/o TRAC\nON\n\nIG1  GND\n\nBE6653\nR06982\n\nw/ TRAC\nON\n\nIG1\n\nGND\n\nBE8853\nR05827\n\nP  Remove ABS (& TRAC) ECU with connectors still connected.\n\nC  1. Turn ignition switch ON.\n2. Measure voltage between terminals IG1 and GND of ABS (& TRAC) ECU connector.\n\nOK  Voltage: 10 — 14 V\n\nNG                    OK  Check and replace ABS (& TRAC) ECU."
+}

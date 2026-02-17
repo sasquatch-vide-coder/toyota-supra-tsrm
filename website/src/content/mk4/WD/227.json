@@ -1,0 +1,6 @@
+{
+  "page_id": "232",
+  "section_header": "RADIATOR FAN AND AUTOMATIC AIR CONDITIONING",
+  "title": "RADIATOR FAN AND AUTOMATIC AIR CONDITIONING",
+  "ocr_text": "RADIATOR FAN AND AUTOMATIC AIR CONDITIONING\n\nW-B\n\nW-B\n\nH12 A , H13 B\nHEATER CONTROL SW\n\n9 A\n\nRR-\nDEFOG  DEF  F/D  FOOT  B/L  FACE\n\nR-L\n\nA24\nAIR INLET CONTROL SERVO MOTOR\n\nRECIRC\n\nM\n\nFRESH\n\n2    5    3    4\n\nR-L   R-L   G-R   G   GR\n\n10 IF1   16 IG1   13 IG1   15 IG1   14 IG1\n\nR-L\n\nI15\n\nR-L\n\nI15\n\nR-L\n\nG-R   G   GR\n\n8 B        19 B   20 B   17 B\nIG         AIR    AIF    AIM/AMOUT\n\n1 A   6 A   18 A   5 A   6 B   3 B   4 B\n\nR-L   Y   R-Y   BR   Y   BR-W   G\n\n16 C   4 C   10 C   11 C   1 C   2 C\nL-RDEF  L-DEF  L-F/D  L-FOOT  L-B/L  L-FACE\n\nA12 C , A13 A , A14 B\nA/C AMPLIFIER"
+}

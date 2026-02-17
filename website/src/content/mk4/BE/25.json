@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-25",
+  "section_header": "BODY ELECTRICAL SYSTEM — FOG LIGHT SYSTEM",
+  "title": "FOG LIGHT RELAY INSPECTION",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – FOG LIGHT SYSTEM\n\nBE–25\n\nFOG LIGHT RELAY INSPECTION\n\nINSPECT RELAY CONTINUITY\n\nCondition | Tester connection to terminal number | Specified condition\nConstant | 1–2 | Continuity\nApply B+ between terminals 1 and 2. | 3–5 | Continuity\n\nIf continuity is not as specified, replace the relay.\n\nBE4049 BE1B40\n207377\n\n3\n1\n2\n5\n2\n1\n3\n5"
+}

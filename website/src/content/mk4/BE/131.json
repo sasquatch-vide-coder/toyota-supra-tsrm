@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-131",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE–131\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\nHINT: This troubleshooting is based on the premise that engine cranking occurs.\n    If the engine does not crank, proceed to engine troubleshooting on page EG–381 or 487 (Vol. 1).\n\n1  Check voltage between terminal SRLY of theft deterrent and door lock ECU connector and body ground.\n\nSTART\nDisconnect\n\nSRLY\n\nP  (1)  Remove instrument panel panel.\n         (See BO section.)\n   (2)  Disconnect the ECU connector.\n\nC  Measure voltage between terminal SRLY of theft deterrent ECU connector and body ground when ignition switch is turned on.\n\nOK  Voltage: 10 – 14 V\n\nBE3B41\nNO7479\n\nNG\n\nOK )  Check and replace theft deterrent ECU.\n\nCheck and repair harness and connector between starter and theft deterrent and door lock ECU\n(See page IN–30)."
+}

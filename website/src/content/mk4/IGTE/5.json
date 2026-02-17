@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-23",
+  "section_header": "IGNITION SYSTEM — (2JZ-GTE)",
+  "title": "IGNITION COIL INSPECTION",
+  "ocr_text": "IG–23\nIGNITION SYSTEM – (2JZ–GTE)\n\nSPARK PLUG\nCLEANER\nIG0152\n\n6. CLEAN SPARK PLUGS\nIf the electrode has traces of wet carbon, allow it to dry and\nthen clean with a spark plug cleaner.\nAir pressure:\n    Below 588 kPa (6 kgf/cm2, 85 psi)\nDuration:\n    20 seconds or less\nHINT: If there are traces of oil, remove it with gasoline before\nusing the spark plug cleaner.\n7. REINSTALL SPARK PLUGS\nTorque: 18 N·m (180 kgf·cm, 13 ft·lbf)\n8. REINSTALL IGNITION COILS ASSEMBLIES\n(See ignition coils installation)\n\nIGNITION COIL INSPECTION\n\nNOTICE: \"Cold\" and \"Hot\" in the following sentences express\nthe temperature of the coils themselves. \"Cold\" is from –10°C\n(14°F) to 50°C (122°F) and \"Hot\" is from 50°C (122°F) to 100°C\n(212°F).\n1. REMOVE NO.3 TIMING BELT COVER\n2. DISCONNECT IGNITION COIL CONNECTORS\n\nOhmmeter\nF11795\n\n3. INSPECT PRIMARY COIL RESISTANCE\nUsing an ohmmeter, measure the resistance between the\npositive (+) and negative (–) terminals.\nPrimary coil resistance:\n    Cold\n        0.54 – 0.84 Ω\n    Hot\n        0.68 – 0.98 Ω\nIf the resistance is not as specified, replace the ignition coil.\n4. RECONNECT IGNITION COIL CONNECTORS\n5. REINSTALL NO.3 TIMING BELT COVER"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-129",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE–129\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1 Check indicator light\n\nP (2) Remove instrument panel cluster finish panel.\n(3) Disconnect telltale light RH connector.\n\nC Connect positive (+) lead to terminal 10 and negative (–) lead to terminal 9 of indicator light connector.\n\nOK Indicator light comes on.\n\n10                    9\n\nN08428\nN08618\n\nOK                    NG > Replace telltale light RH.\n\n2 Check harness and connector between theft deterrent and door lock ECU and indicator light, indicator light and body ground (See page IN–30).\n\nOK                    NG > Repair or replace harness or connector.\n\nCheck and replace theft deterrent and door lock ECU. *1\n\n*1: When there is a malfunction that the theft deterrent system cannot be set, proceed to the next numbered circuit inspection shown on matrix chart (See page BE–123)."
+}

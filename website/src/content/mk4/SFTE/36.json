@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-293",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GTE)",
+  "title": "Sub–Throttle Actuator, Sub–Throttle Valve and Throttle Position Sensor",
+  "ocr_text": "ENGINE – SFI SYSTEM (2JZ–GTE)\n\nEG–293\n\nTurn\n\n(d) Gradually turn the sensor clockwise until the ohmmeter deflects, and secure it with the 2 set screws.\n\n0.54 or 0.70 mm\n\n(e) Recheck the continuity between terminals IDL and E2.\n\nClearance between lever and stop screw | Continuity (IDL–E2)\n0.54 mm (0.021 in.) | Continuity\n0.70 mm (0.028 in.) | No continuity\n\n(f) Reconnect the vacuum hose to the throttle body.\n\nOhmmeter\n\nE2  IDL\n\nOhmmeter\n\nBCM\nB–\nB\nA–\nA\nACM\n\nSub–Throttle Actuator, Sub–Throttle Valve and Throttle Position Sensor\n\n1. INSPECT SUB–THROTTLE ACTUATOR\nUsing an ohmmeter, measure the resistance between the terminals (ACM to A and A–, BCM to B and B–).\nResistance:\n0.82–0.98 Ω at 20°C (68°F)\nIf the resistance is not as specified, replace the actuator.\n\n2. REMOVE SUB–THROTTLE ACTUATOR\nRemove the 4 screws and sub–throttle actuator."
+}

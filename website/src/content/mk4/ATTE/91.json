@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-91",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Check O/D direct clutch speed sensor.",
+  "ocr_text": "AT2–91\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n2  Check O/D direct clutch speed sensor.\n\nP  Remove the O/D direct clutch speed sensor from the transmission (See page AT2–17).\n\nC  Measure resistance between the terminals 1 and 2 of the O/D direct clutch speed sensor.\n\nOK  Resistance: 560 — 680\n\n<Reference>\nCheck the speed sensor function\n\nC  Check voltage between the terminals 1 and 2 of the speed sensor when a magnet is put close to the front end of the speed sensor then taken away quickly.\n\nOK  Voltage is generated intermittently.\n\nHint  The voltage generated is extremely low.\n\nMagnet\n\nAT5629\nAT8306\n\nOK\n\nNG  Replace O/D direct clutch speed sensor.\n\nCheck and repair harness and connector between ECM and O/D direct clutch speed sensor (See page IN–30)."
+}

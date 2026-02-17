@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-154",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Door Lock Motor Circuit",
+  "ocr_text": "BE–154\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nDoor Lock Motor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis door lock motor locks and unlocks the door according to signals from the ECU.\n\nWIRING DIAGRAM\n\nT8\nTheft Deterrent and\nDoor Lock ECU\n\nDoor Lock Motor RH\nL-Y → 12\n>>IL1  L-Y  2  [M]  4  L-R  11\n                              IL1 ←  L-R  ACT+\n                                              3\n12 V\n\nDoor Lock Motor LH\nL-Y → 16\n>>ID1  L-Y  4  [M]  2  L-R  5\n                              ID1 ←  L-R\n\nACT-\n2\n12 V\n\nL-Y\n\nN08669\n\nINSPECTION PROCEDURES\n\n1  Check operating sound of door lock motor.\n\nC  Check operating sound of door lock motor, when door lock control switch is pushed to the lock side and unlock side.\n\nOK  Can hear operating sound of door lock motor.\n\nHint  Inspect the door which is malfunctioning.\n\nN08716\n\nNG\n\nOK  Repair or replace door lock control link."
+}

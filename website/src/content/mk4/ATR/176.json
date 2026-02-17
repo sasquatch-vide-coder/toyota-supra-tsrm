@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-30",
+  "section_header": "A340E(Others) AUTOMATIC TRANSMISSION - COMPONENT PARTS REMOVAL",
+  "title": "",
+  "ocr_text": "AT-30\n\nA340E(Others) AUTOMATIC TRANSMISSION - COMPONENT PARTS REMOVAL\n\n(b) Remove the race and assembled bearing and race.\n\nAT314B\n\n27. REMOVE OVERDRIVE PLANETARY RING GEAR\n(a) Remove the overdrive planetary ring gear from the trans-\nmission case.\n\nAT5146\n\nRace          Race\n\nBearing\n\nQ00839\n\n(b) Remove the bearing and 2 races from the planetary ring\ngear.\n\n28. CHECK PISTON STROKE OF OVERDRIVE BRAKE\n(a) Place SST and a dial indicator onto the overdrive brake\npiston.\nSST 09350-30020  (09350-06120)\n\nSST\n\nAT5282\n\n(b) Measure the stroke while applying and releasing com-\npressed air (392-785 kPa, 4-8 kgf/cm², 57-114 psi).\nPiston stroke:\n    PREVIA:\n        1.32-1.62 mm (0.0520-0.0638 in.)\n    OTHERS:\n        1.40-1.70 mm (0.0551-0.0669 in.)\nIf the values are non-standard, inspect the disc.\n\nAT5147"
+}

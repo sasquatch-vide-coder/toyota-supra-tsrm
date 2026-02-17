@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-9",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — OPERATION",
+  "title": "",
+  "ocr_text": "AT2–9\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – OPERATION\n\nDLC1\nDLC2\nTE1\nTT\n\nNo.1 Vehicle Speed Sensor\nCombination Meter\nSP1\n\nNo.2 Vehicle Speed Sensor\nSP2⊕\nSP2⊖\n\nO/D Direct Clutch Speed Sensor\nNCO⊕\nNCO⊖\n\nCruise Control ECU\nOD1\n\nKick-Down Switch\nKD\n\nTRAC ECU\nEFI⊕\nEFI⊖\nTRC⊕\nTRC⊖\n\nECM\n\nSTP\nL\n2\nR\nM\nOD2\nE11\nE1\n\nPark/Neutral Position Switch\n(Indicator Switch)\n\nCombination Meter\n*1\n*2\n\nL  2  D  N  R  P\n\nO/D Main Switch\n\nStop Light Switch\n\nFL ALT\n\nBattery\n\n777\n\n*1: Manual Indicator Light\n*2: O/D OFF Indicator Light\n\n906395"
+}

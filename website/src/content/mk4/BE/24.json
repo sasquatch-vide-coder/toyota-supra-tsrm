@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-24",
+  "section_header": "BODY ELECTRICAL SYSTEM — FOG LIGHT SYSTEM",
+  "title": "TROUBLESHOOTING",
+  "ocr_text": "BE–24\nBODY ELECTRICAL SYSTEM – FOG LIGHT SYSTEM\n\nTROUBLESHOOTING\n\nThe table below will be useful for you in troubleshooting these electrical problems. The most likely causes\nof the malfunction are shown in the order of their probability. Inspect each part in the order shown, and\nreplace the part when it is found to be faulty.\n\nTrouble | Parts name | (See page)\n\nFog light does not light with light control SW HEAD\n(Headlight is normal).\n1. HEAD Fuse (BE–5)\n2. Fog Light Relay (BE–25)\n3. Fog Light Switch (BE–24)\n4. Wire Harness\n\nFog light does not light with light control SW HEAD\n(Headlight does not light).\n1. Inspect Headlight system (BE–10)\n2. Wire Harness\n\nOnly one light does not light.\n1. Bulb\n2. Wire Harness\n\nFog Light Adjust Screw\nN08925\n\nFOG LIGHT AIM ADJUSTMENT\n\nAdjust Screw: Vertical Direction\n\nON\n\nFOG LIGHT SWITCH INSPECTION\n\nINSPECT SWITCH CONTINUITY\n\nSwitch position | Tester connection to terminal number | Specified condition\nOFF | – | No continuity\nON | A6–A7 | Continuity\n\nIf continuity is not as specified, replace the switch.\n\n6  5  4       3  2  1\n14 13 12 11 10  9  8  7\n\nConnnector \"A\"\n\nN08902\nN08922\n209368"
+}

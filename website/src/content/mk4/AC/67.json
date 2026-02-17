@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-67",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AC–67\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check the each LED lights up when the applicable switch is operated.\n\nC 1. Push each switch or turn fan sped dial on the A/C control assembly.\n2. Check LED lighting according to switch operation.\n\nNG\nOK Proceed to next circuit inspection shown on matrix chart (See page AC–26).\n\nAll LED OFF YES Check IG switch circuit.\n\nNO\n\n2 Check voltage between terminal for LED (OFF) and terminal H12–9 of A/C control assembly.\n\nC 1. Push the switch on or OFF.\n2. Check voltage between terminal for the LED (OFF) and terminal H12–9 of A/C control assembly.\n\nOK\nSwitch Voltage\nON Below 1.0 V\nOFF 10 ~ 14 V\n\nH12-9 (GND)\nN08864\n\nNG\nOK Repair or replace A/C control assembly.\n\n3 Check continuity of harness between A/C amplifier and A/C control assembly.\n\nOK NG Repair or replace harness or connector.\n\nGo to step 4 ."
+}

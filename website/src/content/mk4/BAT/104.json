@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-104",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "DTC 62 TRAC Vehicle Speed Malfunction",
+  "ocr_text": "BR–104\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nDTC 62 TRAC Vehicle Speed Malfunction\n\nCIRCUIT DESCRIPTION\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n62 | At vehicle speed of 10 km/h (6 mph) or more, pulses are not input for 5 sec. | ECU\n\nHINT: When DTC Nos.31 — 36 are recorded in memory, DTC No.62 is not recorded.\n\nINSPECTION PROCEDURE\n\n1 Are there any other codes (Besides DTC No.62) being output?\n\nNO                                    YES > Go to relevant DTC chart.\n\nReplace ABS & TRAC ECU."
+}

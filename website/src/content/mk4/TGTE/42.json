@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-528",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "Check main heated oxygen sensor heater.",
+  "ocr_text": "EG–528\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\n2  Check main heated oxygen sensor heater.\n\nP  Disconnect main heated oxygen sensor connector.\n\nC  Measure resistance between terminals 1 and 2 of main heated oxygen sensor connector.\n\nOK  Resistance:  11 — 16   at 20˚C (68˚F)\n\nP11993\n\nOK\n\nNG  Replace main heated oxygen sensor.\n\nCheck and repair harness or connector between main relay and main heated oxygen sensor, main heated oxygen sensor and engine control module.\n\n3  Check voltage between terminals HT1 of engine control module connector and body ground.\n\nP  Warm up engine to normal operating temperature.\n\nC  Measure voltage between terminals HT1 of engine control module connector and body ground, when engine is idling and racing at 4,000 rpm.\n\nOK\nVoltage\nIdling  0 V\nRacing at 4,000 rpm  9 – 14 V\n\nHint  In the 4,000 rpm racing check, continue engine racing at 4,000 rpm for approx. 20 seconds or more.\n\nSST\nECM\n(B) 71\nHT1\n\nFI6945\n\nNG\n\nOK  Replace main heated oxygen sensor.*\n\nCheck and replace engine control module.\n\n*:  It is probable the oxygen sensor has deteriorated. Usually, this cannot be confirmed by visual inspection."
+}

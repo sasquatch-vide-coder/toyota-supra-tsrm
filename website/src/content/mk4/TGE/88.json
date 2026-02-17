@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-468",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–468\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\n6  Check voltage between terminal M–REL of engine control module connector and body ground.\n\nON  SST\nECM\nV\nA 24\nM-REL\nBE6653\nFI6491\n\nP  Turn ignition switch ON.\nC  Measure voltage between terminal M–REL of engine control module connector and body ground.\nOK  Voltage: 9 — 14 V\n\nOK\nNG  Check and replace engine control module.\n\n7  Check EFI No.1 Fuse.\n\nEFI No.1 Fuse  R/B No.2\nN08419\n\nP  Remove EFI No.1 fuse from R/B No.2.\nC  Check continuity of EFI No.1 fuse.\nOK  Continuity\n\nOK\nNG  Check for short in the harness and all the components connected to EFI No.1 fuse (See Electrical Wiring Diagram)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-71",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Check No. 2 vehicle speed sensor.",
+  "ocr_text": "AT1-71\n\nAT340E (2JZ-GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n2  Check No. 2 vehicle speed sensor.\n\nP  Remove No. 2 vehicle speed sensor from transmission (See page AT1–14).\n\nC  Measure resistance between terminals 1 and 2 of No. 2 vehicle speed sensor.\n\nOK  Resistance: 560 – 680 Ω\n\n<Reference>\nCheck the vehicle speed sensor's function\n\nC  Check voltage between terminals 1 and 2 of the speed sensor when a magnet is put close to the front end of the vehicle speed sensor then taken away quickly.\n\nOK  Voltage is generated intermittently.\n\nHint  The voltages generated is extremely low.\n\nMagnet\n\nAT5629\nQ04438\n\nOK\n\nNG  Replace No. 2 vehicle speed sensor.\n\nCheck and repair harness and connector between ECM and No. 2 vehicle speed sensor (See page IN–30)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-8",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — OPERATION",
+  "title": "",
+  "ocr_text": "RS–8\nSUPPLEMENTAL RESTRAINT SYSTEM – OPERATION\n\nFig. 1\n\nPower Source\n\nSafing\nSensors\n\nSquibs\n\nFig. 2\n\nCenter Airbag\nSensor\n\nFront\nAirbag\nSensors\n\nN13835\n\nWhen the vehicle is involved in a frontal collision in the hatched area (Fig. 1) and the shock is larger than a predetermined level, the SRS is activated automatically. A safing sensor is designed to go on at a smaller deceleration rate than the front and center airbag sensors. As illustrated in Fig. 2, ignition is caused when current flows to the squib, which happens when a safing sensor and a front airbag sensor and/or the center airbag sensor go on simultaneously. When a deceleration force acts on the sensors, two squibs in the driver airbag and front passenger airbag ignite and generate gas. The gas discharging into the driver and front passenger airbags rapidly increases the pressure inside the bags, breaking open the steering wheel pad and instrument panel door. Bag inflation then ends, and the bags deflate as the gas is discharged through discharge holes at the bag's rear or side."
+}

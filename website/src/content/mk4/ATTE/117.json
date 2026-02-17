@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-117",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — SERVICE SPECIFICATIONS",
+  "title": "LOCK–UP POINT",
+  "ocr_text": "LOCK–UP POINT\n\nNORM Mode\n\nD position Throttle valve opening 5%\tLock–up ON\tkm/h (mph)\tLock–up OFF\tkm/h (mph)\n3rd Gear\t60–66 (37–41)\t50–56 (31–35)\nO/D Gear\t53–59 (33–37)\t50–56 (31–35)\n\nMANU Mode\n\nD position Throttle valve opening 5%\tLock–up ON\tkm/h (mph)\tLock–up OFF\tkm/h (mph)\n2nd Gear (2 position)\t60–66 (37–41)\t57–63 (35–39)\n3rd Gear (D position)\t60–66 (37–41)\t57–63 (35–39)\nO/D Gear (D position)\t181–195 (112–121)\t69–76 (43–47)\n\nHINT:\n(1) There is no lock–up in the L positions.\n(2) In the following cases, the lock–up will be released regardless of the lock–up pattern.\n• When the throttle valve is completely closed.\n• When the brake light switch is ON.\n(3) Shift up to 3rd will not occur when the engine coolant temp. is below 35°C (95°F) and the vehicle speed is below 40 km/h (25 mph).\n(4) Shift–up to O/D will not occur when the engine coolant temp. is below 60°C (140°F) and the vehicle speed is below 60 km/h (37 mph).\n(5) When the vehicle speed drops to 10 km/h (6 mph) or more below the cruise control set vehicle speed, shift down from O/D to 3rd occurs."
+}

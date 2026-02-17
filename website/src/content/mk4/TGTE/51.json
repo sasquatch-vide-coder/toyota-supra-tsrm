@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-537",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "INSPECTION PROCEDURE\n\n1 Check voltage between terminals VF1 and E1 of data link connector .\n\nVF1\nTE1\nE1\nDLC1\n\nP (1) Warm up engine to normal operating temperature.\n(2) Connect terminals TE1 and E1 of data link connector 1.\n(3) Connect positive probe to terminal VF1 and negative probe to terminal E1 of data link connector 1.\n\nC (1) warm up the oxygen sensor by racing engine at 2,500 rpm for about 2 minutes.\n(2) Then, still maintaining engine at 2,500 rpm, count how many times voltmeter fluctuates need between 0 and 5 V.\n\nResult\n\nResult\nNeedle fluctuates 8 times or more for every ten seconds | OK\nContinue at 0 V | NG Type I\nContinue at 5 V | NG Type II\n\nP11364\n\nNG\nType I\n\nNG\nType II Go to step 7 .\n\n2 Check voltage between terminals OX1 and E1 data link connector 1.\n\nE1 OX1\nDLC1\n\nV\n\nFI6652\n\nP Warm up engine to normal operating temperature.\n\nC Measure voltage between terminals OX1 and E1 of data link connector 1 when engine is suddenly raced to full throttle.\n\nOK The voltage should be 0.5 V or higher at least once.\n\nHint Inspection should not take linger than 1 second.\n\nNG\n\nOK Go to step 7 ."
+}

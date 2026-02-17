@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-156",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Door Lock Control Switch Circuit",
+  "ocr_text": "BE–156\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nDoor Lock Control Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nWhen the door lock control switch is pushed to the lock side, Lock terminal of the switch is grounded, and when the switch is pushed to the unlock side, Unlock terminal is grounded (See wiring diagram below).\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\n12 V\n\nDoor Lock Control Switch LH\n(Power Window Master Switch)\n\n2 R-W\n7\nID1 R-W L1\n5\n1 G-R\n1\nID1 G-R UL1\n8\n\nW-B\n1\n10\n1J 1D W-B 8\n\nIE\n\nR-W\n3 R-W\n10\nIL1\nW-B 16\n2 G-R\n9\nIL1 W-B 4\nG-R\n\nIH\n\nDoor Lock Control Switch RH\n\nNO8670"
+}

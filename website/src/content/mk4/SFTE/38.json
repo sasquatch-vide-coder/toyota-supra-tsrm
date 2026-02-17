@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-295",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GTE)",
+  "title": "",
+  "ocr_text": "EG–295\nENGINE – SFI SYSTEM (2JZ–GTE)\n\nE2\nIDL\nP12008\n209129\n\n(d) Connect the tester probe of an ohmmeter to the terminals IDL\nand E2 of the sensor.\n\nTurn\nP12058\n\n(e) Gradually turn the sensor clockwise until the ohmmeter\ndeflects, and secure it with the 2 set screws.\n\nSub-Throttle\nValve\n\nClosed\n0.41 or\n0.48 mm\n\nOhmmeter\n\nE2\nIDL\nP12007\nP12008\nVTA\nVC\n209130\n\n(f) Recheck the continuity between terminals IDL and E2.\n\nClearance between\nlever and stop screw | Continuity (IDL–E2)\n0.41 mm (0.016 in.) | Continuity\n0.48 mm (0.019 in.) | No continuity\n\nP11981\n\n6. REINSTALL SUB–THROTTLE ACTUATOR\nInstall the sub–throttle actuator with the 4 screws."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EM-39",
+  "section_header": "ENGINE MECHANICAL (2JZ-GTE) - CYLINDER HEAD",
+  "title": "INSPECT VALVE SPRINGS",
+  "ocr_text": "EM-39\nENGINE MECHANICAL (2JZ-GTE) - CYLINDER HEAD\n\n75°\n45°\nWidth\nEM0186                                Z02456\n\n• If the seating is too low on the valve face, use 75° and 45° cutters to correct the seat.\n\nP02126\n\n(d) Hand-lap the valve and valve seat with an abrasive compound.\n(e) After hand-lapping, clean the valve and valve seat.\n\nDeviation\nEM0988                                Z02457\n\n12. INSPECT VALVE SPRINGS\n(a) Using a steel square, measure the deviation of the valve spring.\nMaximum deviation: 2.0 mm (0.079 in.)\nIf deviation is greater than maximum, replace the valve spring.\n\nEM0801\n\n(b) Using vernier calipers, measure the free length of the valve spring.\nFree length: 41.70 mm (1.6417 in.)\nIf the free length is not as specified, replace the valve spring.\n\nEM0281\n\n(c) Using a spring tester, measure the tension of the valve spring at the specified installed length.\nInstalled tension:\n186 - 206 N (19.0 - 21.0 kgf, 42 - 46 lbf)\nat 34.5 mm (1.358 in.)\nIf the installed tension is not as specified, replace the valve spring.\n\n1997 SUPRA (RM502U)\n\nAuthor :          Date :          1144"
+}

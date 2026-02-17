@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-563",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "Check knock sensor.",
+  "ocr_text": "EG–563\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\n2  Check knock sensor.\n\nP  Disconnect knock sensor connector.\nC  Measure resistance between the knock sensor terminal and body.\nOK  Resistance: 1 M  or higher\n\nOK\nNG  Replace knock sensor (See page EG–316)\n\n3  Check for open and short in harness and connector between engine control module and knock sensor (See page IN–30).\n\nOK\nNG  Repair or replace harness or connector.\n\n4  Does malfunction disappear when a good knock sensor is installed?\n\nNO\nYES  Replace knock sensor. (See page EG–316)\n\nCheck and replace engine control module.\n\nReference  INSPECTION USING OSCILLOSCOPE\n\nKNK Signal Waveform\n0.5 V/Div.\n0 V\n5 msec./Division\n\n• With the engine racing (4,000 rpm) measure waveform between terminals KNK1, KNK2 of engine cotrol module and body ground.\nHINT:  The correct waveform is as shown.\n\n0.5 V/Div.\n0 V\n100 μ sec./Division\n\n• Spread the time on the horizontal axis, and confirm that the period of the wave is 123 Ω sec. (Normal mode vibration frequency of knock sensor: 8.1 KHz).\nHINT: If normal mode vibration frequency is not 8.1 KHz, the sensor is malfunctioning.\n\nFI6510\nFI6642"
+}

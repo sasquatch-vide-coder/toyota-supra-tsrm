@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-54",
+  "section_header": "BODY ELECTRICAL SYSTEM — COMBINATION METER",
+  "title": "OPEN DOOR WARNING INSPECTION",
+  "ocr_text": "BE-54\nBODY ELECTRICAL SYSTEM – COMBINATION METER\n\nOPEN DOOR WARNING INSPECTION\n1. INSPECT DOOR COURTESY SWITCH\n\nSwitch Position | Tester connection to terminal number | Specified condition\nON (Switch pin released) | 1–2 / 2–3 | Continuity\nOFF (Switch pin pushed in) | – | No continuity\n\nIf continuity is not as specified, replace the switch.\n2. INSPECT WARNING LIGHT\nDisconnect the connector from the door courtesy switch, and\nground terminal 1 on the wire harness side connector and\ncheck that the warning light lights up.\nIf the warning light does not light up, inspect the bulb or wire\nharness.\n\nWarning Light\nIgnition Switch\nBattery\nh-3-1-A BE0044\nZD7427\n\nLIGHT CONTROL RHEOSTAT\nINSPECTION\nINSPECT LIGHT CONTROL RHEOSTAT\n(a) Connect the positive (+) lead from the battery to terminal 1\nand negative lead (–) to terminal 3.\n(b) Connect the positive (+) lead from the voltmeter to terminal\n2 and negative lead to terminal 3.\n(c) Turn the rheostat knob and check that the voltage changes.\n\n270°\n3\n2\n1\nV\nN08958\nN08130"
+}

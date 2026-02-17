@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-46",
+  "section_header": "BODY ELECTRICAL SYSTEM — COMBINATION METER",
+  "title": "SPEEDOMETER INSPECTION",
+  "ocr_text": "BE–46\nBODY ELECTRICAL SYSTEM – COMBINATION METER\n\nSPEEDOMETER INSPECTION\n\nON–VEHICLE\nUsing a speedometer tester, inspect the speedometer for allowable indication error and check the operation of the odometer.\nHINT: Tire wear and tire over or under inflation will increase the indication error.\nIf error is excessive, replace the speedometer.\n\nUSA (mph)\nStandard indication    Allowable range\n20    18–24\n40    38–44\n60    56–66\n80    78–88\n100    98–110\n120    118–132\n\nCANADA (km/h)\nStandard indication    Allowable range\n20    17–24\n40    38–46\n60    57.5–67\n80    77–88\n100    96–109\n120    115–130\n140    134–151.5\n160    153–173\n\nVEHICLE SPEED SENSOR INSPECTION\n\nINSPECT SENSOR OPERATION\n(a) Connect the positive (+) lead from battery to terminal 1 and negative (–) lead to terminal 2.\n(b) Connect the positive (+) lead from tester to terminal 3 and negative (–) lead to terminal 2.\n(c) Rotate shaft.\n(d) Check that there is voltage change from approx. 0 V to 11 V or more between terminals 2 and 3.\nHINT: The voltage change should be 4 times for every revolution of the speed sensor shaft.\nIf operation is not as specified, replace the sensor.\n\nH06334"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-59",
+  "section_header": "AT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT1–59\n\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nAT1–83\nAT1–85\nAT1–88\nAT1–91\nAT1–64\nEG–312\nAT1–56\nAT1–60\nAT1–62\n\nStop light switch circuit\nPattern select switch circuit\nO/D switch O/D OFF indicator light circuit\nO/D cancel signal circuit\nA/T fluid temp. sensor circuit\nEngine coolant temp. switch circuit\nECM\nOn–Vehicle repair matrix chart\nOFF–Vehicle repair matrix chart\n\n1  2\n1  2\n8  5  7\n8  5  7\n1  7  8  11  9  10\n6  5  —\n6  5  —\n7  5  6\n5  8  11  9  10\n5  8  6  7\n2  5  —  —\n2  —  —\n1  2  —  —\n1  4  2  3\n2  7  5  6\n7  5  6\n2  8  6  7\n1  2\n1  2\n1  2\n8  —  7\n6  5  —\n1  2  —  —\n2  4  —  3"
+}

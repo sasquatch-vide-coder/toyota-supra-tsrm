@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-77",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Throttle Position Sensor Circuit",
+  "ocr_text": "AT1–77\n\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nThrottle Position Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThe throttle position sensor detects the throttle valve opening angle and sends signals to ECM.\n\nWIRING DIAGRAM\n\nECM\n4 – 6 V\n\nThrottle Position Sensor\n\n4    L-R\n41\n(E9)  VCC\n4 – 6 V\nB+\n\n3    Y\n43\n(E9)  VTA1\n\n2    R\n64\n(E9)  IDL1\n\n1    BR-B\n65\n(E9)  E2\n\nG04351"
+}

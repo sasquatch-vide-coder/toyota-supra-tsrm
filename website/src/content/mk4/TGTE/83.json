@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-569",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "INSPECTION PROCEDURE\n\n1  Check fuel pump operation.\n\nON\n+B\nSST\nFP\nDLC1\n\nP  (1)  Turn ignition switch ON.\n   (2)  Using SST, connect terminals +B and FP of data link connector 1.\n   SST 09843–18020\n\nC  Check that there is pressure in the hose from the fuel filter.\n\nOK  Fuel pressure can be felt.\n\nFuel Inlet Hose\n\nBE6653\nP11290\nP11446\n\nOK                          NG  Go to step  3 .\n\n2  Check for open and short in harness and connector between terminals +B ↔ +B, FP ↔ FP of the data link connector 1 and fuel pump ECU (See page IN–30).\n\nNG                          OK  Go to step  5 .\n\nRepair or replace harness or connector.\n\n3  Check voltage of terminal +B of data link connector 1.\n\nON\n+B\nV\nDLC1\n\nBE6653\nFI6958\n\nP  Turn ignition switch ON.\n\nC  Measure voltage between terminal +B of data link connector 1 and body ground.\n\nOK  Voltage:  9 — 14 V\n\nOK                          NG  Check for ECM power source circuit (See page EG–576), and check for open in harness and connector between terminal +B of data link connector 1 and main relay."
+}

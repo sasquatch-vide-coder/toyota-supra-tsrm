@@ -1,0 +1,6 @@
+{
+  "page_id": "CH-14",
+  "section_header": "CHARGING SYSTEM — GENERATOR",
+  "title": "Brushes",
+  "ocr_text": "CH–14\nCHARGING SYSTEM – GENERATOR\n\nBrushes\nINSPECT EXPOSED BRUSH LENGTH\nUsing a vernier caliper, measure the exposed length.\nStandard exposed length:\n10.5 mm (0.413 in.)\nMinimum exposed length:\n1.5 mm (0.059 in.)\nIf the exposed length is less than minimum, replace the brush holder.\n\nLength\nP13535\n\nOhmmeter\nPositive (+)\nTerminal\nRectifier\nTerminal\nP10626\n\nRectifiers (Rectifier Holder)\n1. INSPECT POSITIVE RECTIFIER\n(a) Using an ohmmeter, connect one tester probe to the positive (+) terminal and the other to each rectifier terminal.\n(b) Reverse the polarity of the tester probes and repeat step (a).\n(c) Check that one shows continuity and the other shows no continuity. If continuity is not as specified, replace the rectifier holder.\n\nOhmmeter\nNegative (–)\nTerminal\nP10625\n\n2. INSPECT NEGATIVE RECTIFIER\n(a) Using an ohmmeter, connect one tester probe to each negative (–) terminal and the other to each rectifier terminal.\n(b) Reverse the polarity of the tester probes and repeat step (a).\n(c) Check that one shows continuity and the other shows no continuity.\nIf continuity is not as specified, replace the rectifier holder.\n\nP10626\n\nBearings\n1. INSPECT FRONT BEARING\nCheck that the bearing is not rough or worn."
+}

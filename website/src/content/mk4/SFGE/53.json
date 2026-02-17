@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-239",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "VSV FOR EVAP COMPONENTS FOR REMOVAL AND INSTALLATION",
+  "ocr_text": "EG-239\nENGINE – SFI SYSTEM (2JZ-GE)\n\nVSV FOR EVAP\nCOMPONENTS FOR REMOVAL AND\nINSTALLATION\n\nVSV Connector\nVSV\nEVAP Hose\nP11367\n\nOhmmeter\nContinuity\nP02204\n\nOhmmeter\nNo Continuity\nP02205\n\nVSV INSPECTION\n1. REMOVE VSV\n2. INSPECT VSV\nA. Inspect VSV for open circuit\nUsing an ohmmeter, check that there is continuity between\nthe terminals.\nResistance:\n At 20°C (68°F) 27–33 Ω\nIf there is no continuity, replace the VSV.\n\nB. Inspect VSV for ground\nUsing an ohmmeter, check that there is no continuity be-\ntween each terminal and the body.\nIf there is continuity, replace the VSV."
+}

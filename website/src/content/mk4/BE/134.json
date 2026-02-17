@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-134",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Theft Deterrent Horn Circuit",
+  "ocr_text": "BE–134\nBODY ELECTRICAL SYSTEM  –  THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nTheft Deterrent Horn Circuit\nCIRCUIT DESCRIPTION\nWhen the theft deterrent system is activated, contact (a) and contact (b) in the ECU close alternately in cycles of approximately 0.2 sec., causing the theft deterrent horn to blow (See the wiring diagram below).\nIn this condition, if any of the following operations is done, the contact (a) in the ECU opens, thus stopping the theft deterrent horn from blowing:\n(1)  The front LH or RH door is unlocked with a key.\n(2)  The ignition switch is turned to ACC or ON position.\n(3)  Approximately 1 minute elapses.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\nW          7\n>>EA1     (2JZ-GE)\n                W\n\nW-L     22\n          II1<     (2JZ-GE)\n                        W-L\n\nW           1    2\n(2JZ-GTE)      W-L\n\nTheft Deterrent\nHorn\n\n19          W-L    6          W-L 11\nIB6<        >>IF2  (2JZ-GTE)\n                               SH\n\n(a)\n(b)\n\n2\nR/B No.2\nHAZ-HORN\n\n1  2A\n\nB\nBattery\n\nN09783"
+}

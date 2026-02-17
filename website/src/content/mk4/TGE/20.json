@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-400",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "BASIC INSPECTION",
+  "ocr_text": "EG–400\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nBASIC INSPECTION\nIn many cases, by carrying out the basic engine check shown in the following flow chart, the location causing the problem can be found quickly and efficiently. Therefore, use of this check is essential in engine troubleshooting.\nIf there is a problem, and a normal code is displayed, proceed to the matrix chart of problem symptoms on page EG–408. Make sure that every likely cause of the problem is checked.\n\n1 Is battery positive voltage 11 V or more when engine is stopped?\nYES\nNO Charge or replace battery.\n\n2 Is engine cranked?\nYES\nNO Proceed to matrix chart of problem symptoms on page EG–408.\n\n3 Does engine start?\nYES\nNO Go to step 7.\n\n4 Check air filter.\nOutside\nInside\nMAC6BB\nP Remove air filter.\nC Visually check that the air filter is not excessive dirty or oily.\nHint If necessary, clean the air filter with compressed air. First blow from inside thoroughly, then blow from outside of the air filter.\n\nOK\nNG Repair or replace."
+}

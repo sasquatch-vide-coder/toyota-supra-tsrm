@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-107",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Check pattern select switch.",
+  "ocr_text": "AT2–107\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n4   Check pattern select switch.\n\nP   Disconnect the pattern select switch connector.\n\nC   Measure resistance between the terminals 3 and 4\nof the pattern select switch connector when the se-\nlect switch is set to MANU and NORM positions.\n\nOK\nPattern          Resistance\nMANU         0 .  (continuity)\nNORM         ∞ .  (open)\n\nG04387\n\nOK                          NG    Replace pattern select switch.\n\n5   Check harness and connector between battery and pattern select switch,\npattern select switch and ECM (See page IN–30).\n\nOK                          NG    Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

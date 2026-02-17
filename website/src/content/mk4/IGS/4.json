@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-4",
+  "section_header": "IGNITION (2JZ-GTE) - IGNITION SYSTEM",
+  "title": "INSPECT CRANKSHAFT POSITION SENSOR",
+  "ocr_text": "IG-4\nIGNITION (2JZ-GTE)  -  IGNITION SYSTEM\n\nOhmmeter\n\nP12365\n\n(c)    Reconnect the camshaft position sensor connectors.\n5.    INSPECT CRANKSHAFT POSITION SENSOR\n(a)    Remove the No.2 air tube for the CAC.\n(b)    Disconnect the crankshaft position sensor connector.\n(c)    Using an ohmmeter, measure the resistance between ter-\nminals.\nResistance:\n\nCold    835 - 1,400 Ω\nHot    1,060 - 1,645 Ω\n\nIf the resistance is not as specified, replace the sensor.\n(d)    Reconnect the crankshaft position sensor connector.\n(e)    Reinstall the No.2 air tube for the CAC.\n\n1997 SUPRA  (RM502U)\n\nAuthor :    Date :    1498"
+}

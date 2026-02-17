@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-45",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "EVALUATION",
+  "ocr_text": "EVALUATION\n\nProblem | Possible cause\n\n(a) Stall speed low in D and R positions.\n• Engine output may be insufficient.\n• Stator one–way clutch is operating properly\nHINT:\nIf more than 600 rpm below the specified value, the\ntorque converter clutch could be faulty.\n\n(b) Stall speed high in D position.\n• Line pressure too low\n• Forward clutch slipping\n• No.2 one–way clutch not operating properly\n• O/D one–way clutch not operating properly\n\n(c) Stall speed high in R position.\n• Line pressure too low\n• Direct clutch slipping\n• First and reverse brake slipping\n• O/D clutch one–way clutch not operating properly\n\n(d) Stall speed high in D and R positions.\n• Line pressure too low\n• Improper fluid level\n• O/D one–way clutch not operating properly"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-217",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "VOLUME AIR FLOW (VAF) METER",
+  "ocr_text": "EG-217\nENGINE — SFI SYSTEM (2JZ-GE)\n\nVOLUME AIR FLOW (VAF) METER\nON-VEHICLE INSPECTION\n\nINSPECT VAF METER RESISTANCE\n(a) Disconnect the VAF meter connector.\n(b) Using an ohmmeter, measure the resistance between\nterminals THA and E2.\n\nBetween terminals | Resistance | Temperature\nTHA-E2 | 10-20 kΩ | -20°C (-4°F)\nTHA-E2 | 4-7 kΩ | 0°C (32°F)\nTHA-E2 | 2-3 kΩ | 20°C (68°F)\nTHA-E2 | 0.9-1.3 kΩ | 40°C (104°F)\nTHA-E2 | 0.4-0.7 kΩ | 60°C (140°F)\n\nIf the resistance is not as specified, replace the VAF meter.\n(c) Reconnect the VAF meter connector.\n\nCOMPONENTS FOR REMOVAL AND\nINSTALLATION\n\nIntake Air Connector Pipe\nPCV Hose\nVAF Meter\n♦ Gasket\nWire Clamp\nPS Air Hose\nVAF Meter Connector\n\n♦ Non-reusable part\nP11448\nP20889"
+}

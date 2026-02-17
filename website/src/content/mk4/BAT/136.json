@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-136",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "Check sub–throttle actuator.",
+  "ocr_text": "BR–136\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\n3 Check sub–throttle actuator.\n\nP Disconnect sub–throttle actuator connector.\n\nC Check continuity between each terminal of sub–throttle actuator connector shown below.\n\nOK\nTerminals 1 and 2\nTerminals 2 and 3\nTerminals 4 and 5\nTerminals 5 and 6\nContinuity\n(Reference value 0.9 )\n\nThe illustration shows checking for continuity between 4 – 5, and 5 – 6.\n\nR06199\n\nOK\nNG Replace sub–throttle actuator.\n\n4 Check for open and short in harness and connector between TRAC ECU and sub–throttle actuator (See page IN–30).\n\nOK\nNG Repair or replace harness or connector.\n\nCheck and replace TRAC ECU."
+}

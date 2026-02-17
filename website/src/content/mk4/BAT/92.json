@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-92",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "DTC 41 IG Power Source Circuit",
+  "ocr_text": "BR–92\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nDTC 41 IG Power Source Circuit\n\nCIRCUIT DESCRIPTION\n\nThis is the power source for the ECU, hence the CPU and the actuators.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition' | Trouble area\n\n41\nWhen either of the following (1) or (2) is detected:\n(1) Voltage at ECU terminal IG1 is less than 9.5 V for more than 10 sec. while vehicle speed is 3 km/h (1.9 mph) or more.\n(2) Voltage at ECU terminal IG1 is more than 17 V for more than 1.2 sec.\nBattery\nIC regulator\nOpen or short in power source circuit\nECU\n\nFail safe function: If trouble occurs in the power source circuit, the ECU cuts off current to the ABS solenoid relay and prohibits ABS control.\n\nWIRING DIAGRAM\n\nR/B No.2   R/B No.2   J/B No.1   J/B No.1   ABS (& TRAC) ECU\nW          W                                12 (w/o TRAC)\nALT        AM1        1B  1J  W  P-Y  1J  ECU-IG  1K  B-R  A19 A20  24 (w/ TRAC)  IG1\nB\n8\nBattery\nIgnition Switch\n7          4\n\nW-B        W-B\nW-B                    A19 A20  2  25  GND1\nW-B                    A15 A22  15 4   GND2\n                       A22             GND3 (w/ TRAC)\n\nR12468"
+}

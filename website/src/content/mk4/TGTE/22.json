@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-508",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–508\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\n7 Check fuel pressure.\n\nON\n\nSST\n+B\nFP\nDLC1\n\nAB0119\nP11290\nP11446\n\nFuel Inlet Hose\n\nP (1) Be sure that there is enough fuel in the tank.\n(2) Turn ignition switch ON.\n(3) Using SST, connect terminals FP and +B of data link connector 1.\nSST 09843–18020\n\nC Check that there is pressure in the hose from the fuel filter.\n\nHint If there is fuel pressure, you will hear the sound of fuel flowing.\n\nCaution Never make a mistake with the terminal connection position as this will cause a malfunction.\n\nOK\n\nNG Proceed to page EG–264 and continue to troubleshoot.\n\n8 Check for spark.\n\nP11799\n\nP (1) Remove ignition coil (See page IG–26)\n(2) Remove spark plug.\n(3) Install the spark plug to the ignition coil, and connect the ignition coil connector.\n(4) Ground the spark plug.\n\nC Check if spark occurs while engine is being cranked.\n\nHint To prevent excess fuel being injected from the injectors during this test, don't crank the engine for more than 1 — 2 seconds at a time.\n\nOK\n\nNG Proceed to page IG–21 and continue to troubleshoot.\n\nProceed to matrix chart of problem symptoms on page EG–514."
+}

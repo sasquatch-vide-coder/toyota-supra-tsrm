@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-92",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT1–92\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n2 Check voltage between terminal OD of Cruise Control ECU harness side connector and body ground.\n\nON\n\nP 1. Disconnect Cruise Control ECU connector.\n2. Turn ignition switch ON.\n\nC Measure voltage between terminal OD of Cruise Control ECU harness side connector and body ground.\n\nOK Voltage 4 – 6 V\n\nOD\n\nBE6653\nBE6623\n\nNG OK Check and replace Cruise Control ECU.\n\n3 Check harness and connector between Cruise Control ECU and ECM (See page IN–30).\n\nOK NG Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

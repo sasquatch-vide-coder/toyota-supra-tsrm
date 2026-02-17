@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-197",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "Main Switch Circuit (Cruise Control Switch)",
+  "ocr_text": "BE–197\n\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nMain Switch Circuit (Cruise Control Switch)\n\nCIRCUIT DESCRIPTION\nWhen the cruise control main switch is turned off, the cruise control does not operate.\n\nWIRING DIAGRAM\n\nCruise Control\nECU\n\nW-B                    W-B     GND\n                                    13\n\nCruise Control Switch 17\n\n1H\n13\n\n1J  1\n\nMAIN\n\n5    15 R-Y     CMS\n                        19\n\nCANCEL\n\nRESUME/\nACCEL\n\nW-B\n\nSET/COAST        L          CCS\n                                18\n\n⊖ 12 V\n\n⊖ 12 V\n\nN08434"
+}

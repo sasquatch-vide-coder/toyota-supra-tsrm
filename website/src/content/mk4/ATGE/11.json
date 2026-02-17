@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-11",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — OPERATION",
+  "title": "",
+  "ocr_text": "AT1–11\n\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – OPERATION\n\n8\tNo.1 and No.2 Vehicle Speed Sensor\tDetects the vehicle speed. Ordinarily, transmission control uses signals from the No.2 vehicle speed sensor, and the No.1 vehicle speed sensor is used as a back–up.\n\n9\tEngine Coolant Temp. Sensor\tDetects the engine coolant temp.\n\n10\tECM\tControls the engine and transmission actuators based on signals from each sensor.\n\n11\tNo.1 and No.2 Solenoid Valves\tControl the hydraulic pressure applied to each shift valve, and control the gear position and timing.\n\n12\tLock–up Solenoid Valve\n(For lock–up control pressure modula-tion)\tControls the hydraulic pressure applied to the lock–up clutch and controls lock–up timing.\n\n13\tO/D OFF Indicator Light\tBlinks and warns the driver, while the O/D main switch is pushed in, when the electronic control circuit is malfunctioning.\n\n14\tKick–down Switch\tDetects if the accelerator pedal is depressed beyond the full throttle valve opening position.\n\n15\tA/T Fluid Temp. Sensor\tDetects the A/T fluid temp."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "ABS-160",
+  "section_header": "ABS (ANTI-LOCK BRAKE SYSTEM)",
+  "title": "ABS (ANTI–LOCK BRAKE SYSTEM)",
+  "ocr_text": "ABS (ANTI–LOCK BRAKE SYSTEM)\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n1\n60A\nABS NO. 1\n2\n\nR\n\nE18\n\nR\n\nB–R\n\n6\nEA1\nB–R\n\nD 1\nDATA LINK CONNECTOR 1\n(CHECK CONNECTOR)\n23\n\nWB\n(SHORT PIN)\nWA\n\nA9\nA8\nABS RELAY\n\n1 A\n+BM\n2\nBM\n4\nMR\n\n2 B\n+BS\n3 A\nR–\n\n4 B\nW\n1 B\nSR\n\n5 B\nBS\nGND\n6 B\n\nTS\n16\nTC\n11\n22\n\nY\nP–B\nL\n\n15\nIJ1\n21\nII1\n16\nIJ1\n\nP–B\n\n11\nIF1\n\nY\n\nP–B\n\nL\nL–W\nW–B\n\nV\nV–Y\nL–B\nL–W\nW–B\n\n13 IB6\n2 IB6\n1 IB6\n\nV\nV–Y\nL–B\n\n23 A\nMR\n24 A\nR–\n11 A\nSR\n\n15 B\nTS\n\nA18 B, A19 A\nABS ECU\n\nMT\nSFR\nSFL\nSRR\nSRL\nAST\nGND\nGND\n\n6 A\n1 A\n13 A\n26 A\n14 A\n18 A\n2 A\n15 A\n\nL–W\nY\nB–Y\nP\nP–B\nY–G\n\n6 IB6\n7 IB5\n8 IB5\n9 IB5\n10 IB5\n5 IB6\n\nW–B\nW–B\n\nL–W\nY\nB–Y\nP\nP–B\nY–G\n\n4 B\nBS\n3 B\nBM\n5 B\nMT\n1 B\nSFR\n4 B\nSFL\n3 B\nSRR\n6 B\nSRL\n2 B\nAST\n\nI18\n\nW–B\n\nE\n1 A\n\nA6 A, A7 B\nABS ACTUATOR\n\nEA\n\nIG\n\nW–B\n\n160"
+}

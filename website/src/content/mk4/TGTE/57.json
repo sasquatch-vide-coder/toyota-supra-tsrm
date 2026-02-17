@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-543",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG-543\nENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING\n\n2  Check sub heated oxyten sensor heater.\n\nP  Disconnect sub heated oxygen sensor connector.\n(See page EG-321)\n\nC  Measure resistance between terminals 1 and 2 of\nsub heated oxygen sensor connector.\n\nOK  Resistance: 11 — 16  at 20°C (68°F)\n\nP11483\n\nOK\n\nNG  Replace sub heated oxygen sensor.\n\n3  Check for open and short in harness and connector between EFI main\nreplay and engine control module (See page IN-30).\n\nOK\n\nNG  Repair or replace harness or connector.\n\nCheck and replace engine control module.\n\n4  Check voltage between terminal HT2 of engine control module connector\nand body ground.\n\nSST\nECM\n\nB 72\n\nHT2\n\nFI6948\n\nP  Warm up engine to normal operating temperature.\n\nC  Measure voltage between terminal HT2 of engine\ncontrol module connector and body ground, when\nengine is idling and racing at 3,500 rpm.\n\nOK\n                    Voltage\nIdling              0 V\nRacing at 3,500 rpm    9 — 14 V\n\nNG\n\nOK  Replace sub heated oxygen sensor.*\n\n*:  It is probable the oxygen sensor has dete-\nriorated.\nUsually, this cannot be confirmed by visual\ninspection.\n\nCheck and replace engine control module."
+}

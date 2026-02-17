@@ -1,0 +1,6 @@
+{
+  "page_id": "IL-122",
+  "section_header": "ILLUMINATION",
+  "title": "ILLUMINATION",
+  "ocr_text": "ILLUMINATION\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n1\n60A\nPOWER\n2\n\nW-L\n\n2 1B\n1        5\nTAILLIGHT\nRELAY\n2        3\n\n10A\nPANEL\n\n11 1K                    3 1I\n\nG-O\nG-O\n\nI9        G-O        I10        G-O        I10        G-O        I10        G-O        I4        G-O\n\nG-W\n\n5\nTRLY\nI20\nINTEGRATION\nRELAY\nT\n4\nG\n\nG-O        G-O        G-O        G-O        G-O\n\n2\nOFF\nTAIL\nHEAD\nC13\nLIGHT CONTROL SW\n[COMB. SW]\n11\n\nW-B\n\nS 6\nSEAT HEATER SW\n5\n\nT 8\nTRAC OFF SW\n5\n6\n\nE 8\nELECTRONICALLY CONTROLLED\nSELECTION PATTERN\nSELECT SW\n1\n2\n\nO 5\nA/T INDICATOR\nILLUMINATION\n[O.S. MAIN SW]\n2\n\nA28\nASHTRAY\nILLUMINATION\n1\n2\n\nW-G        W-G        W-G        W-G        W-G\n\nI10        W-G        I10        W-G        I10        W-G        I10\n\n5 1K\n\n1 1J        18 1E\n\nW-B        W-B\n\nW-G                    16\nW-G        IF1        W-G\n\nW-B\n\n1E\n\n122"
+}

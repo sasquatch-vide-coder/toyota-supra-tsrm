@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-3",
+  "section_header": "A340E(Others) AUTOMATIC TRANSMISSION - DESCRIPTION",
+  "title": "PREVIA:",
+  "ocr_text": "AT-3\n\nA340E(Others) AUTOMATIC TRANSMISSION - DESCRIPTION\n\nPREVIA:\n\nType of Transmission\tA340E\nType of Engine\t2TZ-FZE\nTorque Converter Clutch Stall Torque Ratio\t2.0 : 1\nLock-up Mechanism\tEquipped\nGear Ratio\t1st Gear\t2.804\n\t2nd Gear\t1.531\n\t3rd Gear\t1.000\n\tO/D Gear\t0.705\n\tReverse Gear\t2.393\nNumber of Discs and Plates\t(Disc and Plate)\n\tO/D Direct Clutch (C0)\t2 / 2\n\tForward Clutch (C1)\t5 / 5\n\tDirect Clutch (C2)\t4 / 4\n\t2nd Brake (B2)\t5 / 5\n\t1st and Reverse Brake (B3)\t6 / 6\n\tO/D Brake (B0)\t3 / 2\nB1 Band Width\tmm (in.)\t40 (1.57)\nATF Type\tATF DEXRON® II\nCapacity (US qts, Imp.qts)\tTotal\t7.2 (7.6, 6.3)\n\tDrain and Refill\t1.6 (1.7, 1.4)"
+}

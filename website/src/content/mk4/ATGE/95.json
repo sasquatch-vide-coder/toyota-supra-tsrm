@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-95",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "TT Terminal Circuit",
+  "ocr_text": "AT1-95\nAT340E (2JZ-GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nTT Terminal Circuit\n\nCIRCUIT DESCRIPTION\n\nChecks of ECM input and output signals related to the throttle position sensor, brakes, shift position and other\ncircuits can be performed by measuring the voltages at terminal TT of the DLC2\n\nWIRING DIAGRAM\n\nDLC2\n\nTT  5\nGR-R\n\nE1  3\nBR\n\n6\nLJ1\n\n18\nLJ1\n\nGR-R\n\nBR\n\nBR\n\nED\n\n17\nE10  TT\n\n69\nE9  E1\n\nECM\n\nB+\n\nQ04358\n\nINSPECTION PROCEDURE\n\n1  Check harness and connector between ECM and DLC2 and body ground\n(See page IN-30).\n\nOK\n\nNG  Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-481",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "VSV Circuit for Fuel Pressure Control (Only for California spec.)",
+  "ocr_text": "EG-481\n\nENGINE — 2JZ-GE ENGINE TROUBLESHOOTING\n\nVSV Circuit for Fuel Pressure Control (Only for California spec.)\n\nCIRCUIT DESCRIPTION\n\nThe ECM turns on a VSV (Vacuum Switching\nValve) to draw air into the diaphragm cham-\nber of the pressure regulator if it detects that\nthe temperature of the engine coolant is too\nhigh during engine starting.\nThe air drawn into the chamber increases the\nfuel pressure to prevent fuel vapor lock at\nhigh engine temperature in order to help the\nengine start when it is warm.\n'Fuel pressure control ends approx. 120 sec.\nafter then engine is started.\n\nFI6897\n\nVSV\nPressure\nRegulator\nECM\nInjectors\nTo\nFuel\nIntake\nTank\nManifold\n(Return)\nFrom Fuel Tank\n\nWIRING DIAGRAM\n\nEngine Control Module\n\nB-R    3         B-R      1    2 W-L  36\n>>EA3                              E9   FPU\n\nGR       8\n        >>EA1\n                    VSV for Fuel\n                    Pressure Control     E01\n                                        B+\n2    2\n5    1\n        R/B\n3    2  No. 2\n        EFI Main Relay\n2    2\n\nB-Y\n2\nR/B\nNo. 2\nEFI No. 1\n2A   W-B\nB\n\nBattery\n\nGR           24\n             E10   M-REL\n\nFI6950"
+}

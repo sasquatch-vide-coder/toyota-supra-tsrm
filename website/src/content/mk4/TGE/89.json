@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-469",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "Check EFI main relay.",
+  "ocr_text": "EG-469\nENGINE — 2JZ-GE ENGINE TROUBLESHOOTING\n\n8   Check EFI main relay.\n\nOpen                    Continuity\n\n1\n3         5\n2\n\nContinuity\n\n1\n3         5\n2\n\nBattery\n\nBE1B41\nP04590\nP04591\n\nP   Remove EFI main relay from R/B No.2.\n\nC   Check continuity between terminals of EFI main relay shown below.\n\nOK   Terminals 3 and 5          Open\n     Terminals 1 and 2          Continuity\n                                (Reference value 72 Ω)\n\nC   (1) Apply battery voltage between terminals 1 and 2.\n    (2) Check continuity between terminals 3 and 5.\n\nOK   Terminals 3 and 5          Continuity\n\nOK                    NG   Replace EFI main relay.\n\n9   Check for open and short in harness and connector between terminal M–REL of engine control module and body ground(See page IN–30).\n\nOK                    NG   Repair or replace harness or connector.\n\nCheck and repair harness or connector between EFI No.1 fuse and battery."
+}

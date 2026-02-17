@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-110",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "ANTENNA – RELATED",
+  "ocr_text": "BE–110\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n32  Antenna  ANTENNA – RELATED\n\nDoes antenna extend when radio\nswitched ON?\nYes\nNo\n\nInspect glass printed antenna.\nNG  Glass printed antenna faulty.\nOK\n\nTemporarily install another antenna\nFunctions OK?\nYes  Motor antenna faulty\nNo\n\nRadio side faulty.\n\nInspect antenna motor.\nNG  Antenna motor faulty.\nOK\n\nInspect antenna motor control relay.\n(Relay circuit)\nOK  Relay faulty.\nNG\n\nIs power released to the antenna being\ninput to the antenna motor control relay?\nYes  Relay circuit faulty.\nNo\n\nCheck continuity between antenna motor\ncontrol relay and radio.\nNG  Wire harness faulty.\nOK\n\nRadio side faulty."
+}

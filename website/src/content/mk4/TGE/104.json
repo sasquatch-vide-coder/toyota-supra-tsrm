@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-484",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "TE1 TE2 Terminal Circuit",
+  "ocr_text": "EG–484\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nTE1 TE2 Terminal Circuit\n\nCIRCUIT DESCRIPTION\nTerminal TE1 is located in data link connectors 1 and 2. Terminal TE2 is located ONLY in data link connector 2.\nThe data link connector 1 is located in the engine compartment and the data link connector 2 is located in the cabin. When these terminals are connected with the E1 terminal, diagnostic trouble codes in normal mode or test mode can be read from the malfunction indicator lamp on the telltale light RH.\n\nWIRING DIAGRAM\n\nEngine Control Module\n\nData Link Connector 1\n\nBR\n3 E1\nTE1 8\nY-L\nY-L\n20\nE10 TE1\nB+\n\nY-L\n5 IJ1\n\nBR\n18\nIJ1 BR\n3 E1\nTE1 1\nY-L\nP-G\n17\nIJ1\nP-G\n19\nE10 TE2\nB+\nTE2 2\n\nData Link Connector 2\n\nBR\n\nF16951"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-37",
+  "section_header": "BODY ELECTRICAL SYSTEM — WIPER AND WASHER SYSTEM",
+  "title": "Washer Linked Operation",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – WIPER AND WASHER SYSTEM\n\nBE–37\n\nWasher Linked Operation\n(a) Connect the positive (+) lead from the battery to terminal B18\nand the negative (–) lead to terminal B16.\n(b) Connect the positive (+) lead from the voltmeter to terminal\nB7 and the negative (–) lead to terminal B16.\n(c) Push in the washer switch, check that the voltage changes\nas shown in the table.\n\nWasher switch ON\nOFF\nApprox. 1 sec.\nApprox. 3 sec.\nBattery positive\nvoltage\n0 volt\n\nIf operation is not as specified, replace the wiper and washer\nswitch.\n\n2. INSPECT REAR WIPER AND WASHER SWITCH\nCONTINUITY\n\nSwitch position | Tester connection to terminal number | Specified condition\nWasher ON (Lower) | B2–B16 | Continuity\nWiper OFF | – | Continuity\nWiper INT | B10–B16 | Continuity\nWiper ON | B1–B16 | Continuity\nWasher ON (Upper) | B1–B2\nB2–B16 | Continuity\n\nIf continuity is not as specified, replace the switch.\n\nWasher ON\nON\nINT\nOFF\nWasher ON\n\nConnector ''A''\nConnector ''B''\nN0885B\nV-34-2\n209287\n\nBE0930"
+}

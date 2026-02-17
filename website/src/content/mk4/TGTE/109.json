@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-595",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "VSV Circuit for Fuel Pressure Control",
+  "ocr_text": "EG-595\nENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING\n\nVSV Circuit for Fuel Pressure Control\n\nCIRCUIT DESCRIPTION\n\nThe ECM turns on a VSV (Vacuum Switching\nValve) to draw air into the diaphragm chamber\nof the pressure regulator if it detects that the\ntemperature of the engine coolant is too high\nduring engine starting.\nThe air drawn into the chamber increases the\nfuel pressure to prevent fuel vapor lock at high\nengine temperature in order to help the en-\ngine start when it is warm.\nFuel pressure control ends approx. 120 sec.\nafter the engine is started.\nFi6969\n\nVSV\nPressure\nRegulator\nECM\nTo\nFuel\nIntake\nTank\nManifold\n(Return)\nFrom Fuel Tank\n\nWIRING DIAGRAM\n\nEngine Control Module\n\nB-R 5\n>>EA2 B-R 1 2 W-L 73 FPU\nE9\nGR 8\n>>EA1\nVSV for Fuel\nPressure Control\nEO1\nB+\n2 2\n5 1\nEFI Main Relay\nR/B\nNo. 2\n3 2\n2 2\nGR 24 M-REL\nE10\nB-Y\n2\nR/B\nNo. 2\nEFI No. 1\n2A\nW-B\nB\nBattery\n\nFi6938"
+}

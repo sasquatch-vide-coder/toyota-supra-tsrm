@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-539",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "Check each item found to be a possible cause of problem.",
+  "ocr_text": "EG-539\n\nENGINE – 2JZ-GTE ENGINE TROUBLESHOOTING\n\n7  Check each item found to be a possible cause of problem.\n\nCheck each circuit found to be a possible cause of trouble according to the results of the check in\n1 . The numbers int he table below show the order in which the checks should be done.\n\nMain heater oxygen sensor signal\ncontinues at 5.0 V | Main heater oxygen sensor\nsignal is normal | Possible Cause | See page\n\n2 | 7 | Injector circuit | EG-583\n  | 3 | Misfire | IG-21\n6 | 4 | Valve timing | EG-33\n  | 1 | Air leakage | EG-261\n1 | 2 | Fuel system | EG-568\n5 | 8 | Characteristics deviation in mass\nair flow meter | EG-544\n3 | 5 | Characteristics deviation\nin engine coolant temp. sensor | EG-530\n4 | 6 | Characteristics deviation\nin intake air temp. sensor | EG-532\n\nOK                          NG  Repair or replace.\n\n8  Check compression (See page EG-9).\n\nOK                          NG  Repair or replace.\n\n9  Does malfunction disappear when a good main heated oxygen sensor is\ninstalled?\n\nNG                          YES  Repair main heated oxygen sensor.\n\nCheck and replace engine control module."
+}

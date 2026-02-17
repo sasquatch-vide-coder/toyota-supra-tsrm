@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-152",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Actuator Power Source Circuit",
+  "ocr_text": "BE–152\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nActuator Power Source Circuit\n\nCIRCUIT DESCRIPTION\n\nThis circuit provides power to drive the door lock motor.\n\nWIRING DIAGRAM\n\nT8\nTheft Deterrent and\nDoor Lock ECU\n\nJ/B No.1 DOOR Fuse\n2        15\n1B       1H\n\nW-L                    L-W        13      L-W    +B2\n                                  IF1            1\n\n2\nPOWER\n2\n\nW\n2\nALT\n2A\n\nB\nBattery\n\n+12 V\n\nDoor Lock Motor\n\nN12779"
+}

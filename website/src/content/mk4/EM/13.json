@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-13",
+  "section_header": "ENGINE — ENGINE MECHANICAL",
+  "title": "",
+  "ocr_text": "EG–13\nENGINE – ENGINE MECHANICAL\n\nEX Side\nSST (B)\nIN Side\nP12860\n\n• Insert SST (B) gently from the inside as shown in the illustration.\n\nSST (B)\nMagnetic Finger\nP10901\n\n• Using a small screwdriver and a magnetic finger, remove the adjusting shim.\n\nEM0494\n\n(b) Determine the replacement adjusting shim size according to the following Formula or Charts on the next 2 pages:\n• Using a micrometer, measure the thickness of the removed shim.\n• Calculate the thickness of a new shim so the valve clearance comes within specified value.\nT ......... Thickness of used shim\nA ......... Measured valve clearance\nN ......... Thickness of new shim\nIntake\n   N = T + (A–0.20 mm (0.008 in.))\nExhaust\n   N = T + (A–0.30 mm (0.012 in.))\n• Select a new shim with a thickness as close as possible to the calculated values.\nHINT: Shims are available in 17 sizes in increments of 0.050 mm (0.0020 in.), from 2.500 mm (0.0984 in.) to 3.300 mm (0.1299 in.).\n\nSST (B)     SST (A)\nP11925\n\n(c) Install a new adjusting shim.\n• Place a new adjusting shim on the valve lifter, with imprinted numbers facing down.\n• Press down the valve lifter with SST (A), and remove SST (B).\nSST 09248–55040\n(d) Recheck the valve clearance."
+}

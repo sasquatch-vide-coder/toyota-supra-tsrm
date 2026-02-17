@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-62",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "MATRIX CHART OF PROBLEM SYMPTOMS",
+  "ocr_text": "AT2–62\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nMATRIX CHART OF PROBLEM SYMPTOMS\n\nIf a normal code is displayed during the diagnostic trouble code check but the trouble still occurs, check\nthe circuits for each symptom in the order given in the charts on the following pages and proceed to the\npage given for troubleshooting.\nThe Matrix Chart is divided into 3 chapters.\nChapter 1: Electronic Circuit Matrix Chart\nChapter 2: On–vehicle Repair Matrix Chart\nChapter 3: Off–vehicle Repair Matrix Chart\nWhen troubleshooting, check Chapter 1 first. If instructions are given in Chapter 1 to proceed to Chapter\n2 or 3, proceed as instructed.\n1. If the instruction \"Proceed to next circuit inspection shown on matrix chart\" is given in the flow chart for each\ncircuit, proceed to the circuit with the next highest number in the table to continue the check.\n2. If the trouble still occurs even though there are no abnormalities in any of the other circuits, then check or\nreplace the ECM."
+}

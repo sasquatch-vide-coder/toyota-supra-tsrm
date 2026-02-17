@@ -1,0 +1,6 @@
+{
+  "page_id": "EL-123",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : W/ STEREO POWER AMPLIFIER\n*2 : W/O STEREO POWER AMPLIFIER\n\nI19\nI14\nI14\nI8\nG–O\nG–O\nG–O\nG–O\nG–O\n\n10 IF3\n\nI12\nG–O\n\nI12\nG–O\n\nI3 : M/T\nI14 : A/T\n\nG–O\n\nG–O\nG–O\nG–O\n(*2)\nG–O\n(*1)\nG–O\nG–O\nG–O\nG–O\n\n10 IH1\n\n10\n(*1)\n\n1\nGLOVE BOX LIGHT\nG 3\n\n2\nHAZARD SW\nH10\n\nRADIO AND PLAYER (*2)\nR 4\n\nRADIO AND PLAYER (*2)\nR 5\n\n10 A\nRADIO AND PLAYER (*1)\nR 6\n5 B\n\nCIGARETTE LIGHTER ILLUMINATION\nC7\n\nHEATER CONTROL SW\nH12\n\nODO AND TRIP ILLUMINATION [TELLTALE LIGHT RH]\nT 6\n\n4\n10\n\nMETER ILLUMINATION [COMB. METER]\nC10\n\n12\n13\n\n1\nG 4\nGLOVE BOX LIGHT SW\n2\n\nW–G\nW–G\n(*2)\nW–G\nW–G\nW–G\nW–G\nW–G\n\n5 IH2\n\nW–G\n(*1)\n\nB\nB\nB\nB\nB\nB\nB\n\nJ 1\nJUNCTION CONNECTOR\n\nW–B\n\nA\nJ 1\nJUNCTION CONNECTOR\nA\n\n2\nILL–\nT\nR 8\nRHEOSTAT\nE\n1\n3\n\nW–B\nW–B\n\nW–B\n\nIH\n\n123"
+}

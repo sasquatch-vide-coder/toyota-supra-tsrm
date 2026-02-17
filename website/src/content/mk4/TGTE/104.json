@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-590",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "EG–590\n\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nEngine Control Module\n\nB+\nVSV3\nE01\n\nB-R\nEA2  5\nB-R\nB-R 1  2 G-R  38\nE9\nVSV for Exhaust\nBypass Valve\n\nGR\nEA1  8\n\nB-R\n\nR/B\nNo.2\n\nEFI Main Relay\n\nB-R 1  2 G-Y  39  VSV2\nE9\nVSV for Exhaust\nGas Control Valve\nE01\n\nB-Y\n\nR/B\nNo.2\n\nEFI No.1\n\nW-B\n\n1  2 G-B  40  VSV1\nE9\nVSV for Intake\nAir Control Valve\nE01\n\nB+\nM-REL\n\nGR  24\nE10\n\n2A\n\nBattery\n\nFI6967"
+}

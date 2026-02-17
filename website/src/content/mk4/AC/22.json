@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-22",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "ACTUATOR CHECK",
+  "ocr_text": "AC–22\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nR/F SW\nN09011\n\nTemperature\nSet Dial\nOFF SW\nN09012\n\nACTUATOR CHECK\n1. After entering the sensor check mode, press the R/F switch.\n2. Turn the temperature set dial and change it to step operation.\nEach time the dial is turned, the actuator operation changes\nby 1 step.\nHINT:\n• Check the change of actuator operation visually and by\nhand.\n• To cancel the check mode, press the OFF switch.\n\nStep No. | Set Temperature °C (°F) | Conditions\n         |                        | Blower Motor | Air Flow vent | Air Inlet damper | Magnetic clutch | Air mix damper\n\n1 | Below 20 (68) | OFF | (FACE) | (RECIRC) | OFF | Cool side (0% open)\n2 | 20~23 (68~73) | LO | (BI-LEVEL) | (R/F) | ON | Cool/Hot (50% open)\n3 | 23~27 (74~80) | M2 | (FOOT) | (FRESH) | † | Hot side (100% open)\n4 | 27~30 (81~86) | † | (FOOT/DEF) | † | † | †\n5 | Over 30 (87) | HI | (DEF) | † | † | †"
+}

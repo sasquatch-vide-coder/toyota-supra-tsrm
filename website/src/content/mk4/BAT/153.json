@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-153",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BR–153\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nINSPECTION PROCEDURE\n\nHINT: The sub–throttle position sensor signal is transmitted to the TRAC ECU from ECM, so if an error occurs\nat the engine side, the TRAC ECU also detects it.\nIf diagnostic trouble code No. 47 is being output for the engine, troubleshoot the engine first.\n\n1 Is diagnostic trouble code output for the engine?\n\nDo diagnostic trouble code check on page EG–491.\n\nNO\n\nYES Repair circuit indicated by the code output.\n\n2 Check voltage between terminal IDL2 of TRAC ECU and body ground.\n\nEngine condition\n\nON\n\nP 1. Remove TRAC ECU with connectors still connected.\n2. Remove intake air duct.\n3. Disconnect step motor connector.\n4. Turn ignition switch ON.\n\nC Measure voltage between terminal IDL2 of TRAC ECU and body ground, when the sub–throttle valve is fully closed and fully open.\n\nOK\nSub–throttle valve position | Voltage\nFully closed | Below 1.0 V\nFully open | 10 – 14 V\n\nIDL2\n\nRO6986\nBE6853\nRO6993\n\nNG\n\nOK Go to step 6."
+}

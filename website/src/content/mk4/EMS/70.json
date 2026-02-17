@@ -1,0 +1,6 @@
+{
+  "page_id": "EM-2",
+  "section_header": "ENGINE MECHANICAL (2JZ-GTE) - CO/HC",
+  "title": "",
+  "ocr_text": "EM-2\nENGINE MECHANICAL (2JZ-GTE) - CO/HC\n\nIf the CO/HC concentration does not comply with regulations, troubleshoot in the order given below.\n(1) Check heated oxygen sensors operation.\n(See page SF-82 )\n(2) See the table below for possible causes, and then inspect and correct the applicable causes if necessary.\n\nCO | HC | Phenomenon | Causes\n\nNormal | High | Rough idle | 1. Faulty ignitions:\n• Incorrect timing\n• Fouled, shorted or improperly gapped plugs\n2. Incorrect valve clearance\n3. Leaky EGR valve\n4. Leaky intake and exhaust valves\n5. Leaky cylinder\n\nLow | High | Rough idle\n(Fluctuating HC reading) | 1. Vacuum leaks:\n• PCV hose\n• EGR valve\n• Intake manifold\n• Air intake chamber\n• Throttle body\n• IAC valve\n• Brake booster line\n2. Lean mixture causing misfire\n\nHigh | High | Rough idle\n(Black smoke from exhaust) | 1. Restricted air filter:\n2. Faulty SFI system:\n• Faulty fuel pressure regulator\n• Clogged fuel return line\n• Defective ECT sensor\n• Defective turbo pressure sensor\n• Faulty ECM\n• Faulty injector\n• Faulty throttle position sensor\n• Faulty MAF meter\n\n1997 SUPRA (RM502U)\nAuthor : Date : 1107"
+}

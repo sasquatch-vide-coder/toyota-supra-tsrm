@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-289",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GTE)",
+  "title": "THROTTLE BODY ON-VEHICLE INSPECTION",
+  "ocr_text": "EG–289\nENGINE – SFI SYSTEM (2JZ–GTE)\n\nTHROTTLE BODY\nON–VEHICLE INSPECTION\nThrottle Body\n\nINSPECT THROTTLE BODY\n(a) Check that the throttle linkage moves smoothly.\n\nP11325\n\n(b) Check the vacuum at the purge port.\n• Start the engine.\n• Check the vacuum with your finger.\n\nPort name | At idle | At 3,000 rpm\nPurge | No vacuum | Vacuum\n\nP12079\n\nDashpot\n\n1. WARM UP ENGINE\nAllow the engine to warm up to normal operating temperature.\n\n2. CHECK IDLE SPEED\nIdle speed (Transmission in neutral position):\n650 ± 50 rpm\n\nTurn\nDashpot\nAdjusting Screw\nPush Rod\nP12560\n\n3. CHECK AND ADJUST DASHPOT SETTING SPEED\n(a) Disconnect the control cables from the throttle body.\n(b) Turn the throttle linkage until the dashpot adjusting screw starts to separate from the push rod. Then keep the throttle linkage at that position.\n(c) Check that the dashpot is set.\nDashpot setting speed:\n2,300 ± 400 rpm\n(d) Reconnect the control cables to the throttle body.\n\n4. CHECK VTV OPERATION\n(a) Maintain the engine speed at 3,500 rpm.\n(b) Release the throttle valve, and check that the engine returns to idle in a few seconds."
+}

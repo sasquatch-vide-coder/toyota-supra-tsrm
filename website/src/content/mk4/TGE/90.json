@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-470",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "Back Up Power Source Circuit",
+  "ocr_text": "EG–470\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nBack Up Power Source Circuit\n\nCIRCUIT DESCRIPTION\nBattery positive voltage is supplied to terminal BATT of the ECM even when the ignition switch is off for use by\nthe diagnostic trouble code memory and air–fuel ratio adaptive control value memory, etc.\n\nWIRING DIAGRAM\n\nEngine Control Module\n\nR/B No.2\n1\n2A\n2\nEFI No.1\nB-Y\n4\nEA1\nB-Y\n33\nE10\nBAT T\n\nB\n\nBattery\n\nF16878"
+}

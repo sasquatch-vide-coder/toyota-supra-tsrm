@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-53",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AC–53\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1  Check voltage between terminal +B of A/C amplifier connector and body ground.\n\nLOCK\nConnect\n\nP  Remove the A/C amplifier with connector still connected.\n\nC  Measure voltage between terminal + B of air conditioner control assembly connector and body ground.\n\nOK  Voltage:  Battery positive voltage\n\n+B\n\nSE3842\nN08810\n\nNG                    OK  Proceed to next circuit inspection shown on matrix chart (See page AC–26).\n\n2  Check ECU–B fuse.\n\nECU-B Fuse\n\nP  Remove ECU–B fuse from J/B No. 1.\n\nC  Check continuity of ECU–B fuse.\n\nOK  Continuity\n\nJ/B No. 1\n\nN08783\n\nOK                    NG  Check for short in all the harness and components to the ECU–B fuse (See attached wiring diagram).\n\nCheck and repair harness and connector between A/C amplifier and battery."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-158",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BR–158\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nINSPECTION PROCEDURE\n\n1 Check for open and short n harness and connector between terminals\nEFI+, EFI–, TRAC+ and TRC– of ECU and ECM (See page IN–30).\n\nON\n\nABSO\n\nBRP BRC\n\nBE6653\nR06984\n\nP Remove TRAC ECU with connectors still connected.\n\nC Measure voltage between terminals ABSO, BRC, BRP of TRAC ECU and body ground when ignition switch is turned ON.\n\nOK Voltage:\nABSO, BRC: 6 — 14 V\nBRP: About 7 V (Pulse)\n(Reference)\n6 – 14 V\n1 V or less\n3 ms 200 ms\n\nNG OK Check and replace TRAC ECU.\n\n2 Check voltage between terminals ABSO, BRC, BRP of TRAC ECU and\nbody ground with TRAC ECU connector disconnected.\n\nON\n\nBRP BRC\n\nBE6653\nRO7628\nABSO\n\nP Disconnect TRAC ECU connector.\n\nC Measure voltage between terminals ABSO, BRC, BRP of TRAC ECU and body ground when ignition switch is turned ON.\n\nOK Voltage: See step 1.\n\nNG OK Check and replace TRAC ECU.\n\n3 Check for open and short in harness and connector between ABS & TRAC\nECU and TRAC ECU (See page IN–30).\n\nOK NG Repair or replace harness or connector.\n\nCheck and replace ABS & TRAC ECU."
+}

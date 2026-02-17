@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-12",
+  "section_header": "STARTING SYSTEM — STARTER RELAY",
+  "title": "STARTER RELAY\nSTARTER RELAY INSPECTION",
+  "ocr_text": "ST–12\nSTARTING SYSTEM – STARTER RELAY\n\nSTARTER RELAY\nSTARTER RELAY INSPECTION\n\n1. REMOVE STARTER RELAY (\"ST\")\nLOCATION: In the engine compartment relay box.\nRemove the relay box cover and starter relay.\n\nStarter\nRelay\n\nP11569\n\nOhmmeter\nContinuity\nNo\nContinuity\n1\n5\n3\nOhmmeter\n2\n\nP07170\n\n2. INSPECT STARTER RELAY\nA. Inspect relay continuity\n(a) Using an ohmmeter, check that there is continuity between\nterminals 1 and 2.\n(b) Check that there is no continuity between terminals 3 and 5.\nIf continuity is not as specified, replace the relay.\n\nOhmmeter\nContinuity\n1\n5\n3\n2\n\nBattery\n\nP07171\n\nB. Inspect relay operation\n(a) Apply battery voltage across terminals 1 and 2.\n(b) Using an ohmmeter, check that there is continuity between\nterminals 2 and 5.\nIf operation is not as specified, replace the relay.\n3. REINSTALL STARTER RELAY"
+}

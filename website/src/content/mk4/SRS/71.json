@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-71",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "Check center airbag sensor assembly.",
+  "ocr_text": "RS–71\n\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\n7  Check center airbag sensor assembly.\n\nCenter Airbag\nSensor Assembly\nP squib\n\nSpiral\nCable\n\nD squib\n\nD–        D+\n\nR05905\nA80068\n\nP  Connector center airbag sensor assembly connector.\n\nC  For the connector (on the center airbag sensor assembly side) between the spiral cable and center airbag sensor assembly, measure he resistance between D+ and D–.\n\nOK  Resistance: 1 k    or higher\n\nOK\n\nNG  >  Replace center airbag sensor assembly.\n\nFrom the results of the above inspection, the malfunctioning part can now be considered normal. To make sure of this, use the simulation method to check."
+}

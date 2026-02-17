@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-70",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "DTC 38 A T Fluid Temperature Sensor Circuit",
+  "ocr_text": "AT2–70\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nCIRCUIT INSPECTION\n\nDTC 38 A T Fluid Temperature Sensor Circuit\n\n— CIRCUIT DESCRIPTION —\n\nThe fluid temp. sensor converts fluid temp. into resistance values which is input into the ECM.\n\nDTC No. | Diagnostic Trouble Code Detection Condition | Trouble Area\n\n38 | Either (a) or (b) are detected for 0.5 sec. or more.\n(a) Temp. sensor resistance less 79\n(b) After the engine has been operating for 15 minutes or more, the resistance at the temp. sensor is more than 156 k | Harness or connector between A/T fluid temp. sensor and ECM\nA/T fluid temp. sensor\nECM\n\n—WIRING DIAGRAM—\n\nA/T Fluid Temp. Sensor\n\n2        O        24\n                  E9        4 – 6 V\n                            OIL\n\n1\n\n         BR-B     65\n                  E9  E2\n\nG04346"
+}

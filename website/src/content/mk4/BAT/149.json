@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-149",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "DTC 45 46 Main Throttle Position Sensor Circuit CIRCUIT DESCRIPTION",
+  "ocr_text": "BR–149\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nDTC 45 46 Main Throttle Position Sensor Circuit\nCIRCUIT DESCRIPTION\n\nThis circuit is not directly related to the TRAC control, but as it has an influence on TRAC control when trouble occurs in this circuit, it is used to switch off the TRAC system as a fail safe function.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n\n45\nConditions (1) and (2) continue for 0.31 sec.:\n(1) CTP switch of main throttle position sensor is ON.\n(2) Input voltage of ECM terminal VTA1:\n1.5 V or more.\nMain throttle position sensor\nShort in IDL1 circuit\nECM\nTRAC ECU\n\n46\nEither of the following (1) or (2) continues for 0.6 sec.:\n(1) Input voltage of ECM terminal VTA1:\n4.9 V or more.\n(2) Input voltage of ECM terminal VTA1:\n0.1 V or less.\nMain throttle position sensor\nOpen or short in VTA1 circuit\nECM\n\nWIRING DIAGRAM\n\nMain Throttle Position Sensor\n1  L-R\n2  Y\n4  BR-B\n3  R\n\nECM\n41 (E9) VCC  ⊕ 5 V\n43 (E9) VTA1\n65 (E9) E2  ⊕ 12 V\n64 (E9) IDL1\n\nEFI+ 27 (E10)\nEFI- 26 (E10)\n\nB\nW\nR\n\nTRAC ECU\n3 (T10) EFI+\n8 (T10) EFI-\n⊕ 5 V\n1 (T10) IDL1\n\nR07198"
+}

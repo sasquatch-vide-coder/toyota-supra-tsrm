@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-8",
+  "section_header": "STARTING SYSTEM — STARTER",
+  "title": "Field Frame (Field Coil)",
+  "ocr_text": "ST–8\nSTARTING SYSTEM – STARTER\n\nOhmmeter\nContinuity\nP10585\n\nField Frame (Field Coil)\n1. INSPECT FIELD COIL FOR OPEN CIRCUIT\nUsing an ohmmeter, check that there is continuity between\nthe lead wire and field coil brush lead.\nIf there is no continuity, replace the field frame.\n\nOhmmeter\nNo Continuity\nP10529\n\n2. INSPECT FIELD COIL FOR GROUND\nUsing an ohmmeter, check that there is no continuity be-\ntween the field coil end and field frame.\nIf there is continuity, replace the field frame.\n\nBrush Holder Side\nLength\nField Frame Side\nP10580\nP10581\nLength\n207019\n\nBrushes\nINSPECT BRUSH LENGTH\nUsing a vernier caliper, measure the brush length.\nStandard length:\n15.5 mm (0.610 in.)\nMinimum length:\n10.0 mm (0.394 in.)\nIf the length is less than minimum, replace the brush holder\nand field frame.\n\nST0019\n\nBrush Springs\nINSPECT BRUSH SPRING LOAD\nTake the pull scale reading the instant the brush spring sepa-\nrates from the brush.\nSpring installed load:\n18–24 N (1.79–2.41 kgf, 3.9–5.3 lbf)\nIf the installed load is not within specification, replace the\nbrush springs."
+}

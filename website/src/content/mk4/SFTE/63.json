@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-320",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GTE)",
+  "title": "INSPECT HEATER RESISTANCE OF MAIN HEATED OXYGEN SENSOR",
+  "ocr_text": "EG–320\nENGINE – SFI SYSTEM (2JZ–GTE)\n\nOhmmeter\n+B  HT\n\nP11993\n\n3. INSPECT HEATER RESISTANCE OF MAIN HEATED OXYGEN SENSOR\n(a) Disconnect the oxygen sensor connector.\n(b) Using an ohmmeter, measure the resistance between the terminals +B and HT.\nResistance:\n    At 20˚C (68˚F) 11–16 Ω\nIf the resistance is not as specified, replace the sensor.\nTorque: 20 N·m (200 kgf·cm, 14 ft·lbf)\n(c) Reconnect the oxygen sensor connector."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "PW-136",
+  "section_header": "POWER WINDOW",
+  "title": "POWER WINDOW",
+  "ocr_text": "POWER WINDOW\n\nFROM POWER SOUCE SYSTEM (SEE PAGE 56)\n\n7.5A\nDOME\n\n10A\nECU-IG\n\n30A\nDOOR\n\n2\n\n17 1E\n\n15 1H\n\nR\n\n5 1B\n\n13\nIF1\nL-W\n\nB-R\n\n12\nIF3\nY\n\n11 1E\n\nR\n\nY\nL-W\n\nT 7 A, T13 B\nTHEFT DETERRENT\nECU\n\n7 1L\n\n1 B    7 A    6 A  9 A\n\n1    5\nPOWER\nMAIN\nRELAY\n\n2    3\n\nKEY OFF POWER CIRCUIT\n\n1J    10 1D    9 1D    2 1J\n\n7 B    19 B    4 A\n\nW-B\n\nL\n\nL\n\nR-B\n\nR-L\n\n3 IF2\n\n4 IF3\n\nR-B\n\nR-L\n\n15 IC2\n\nR-B\n\nW-B\n\nW-B\n\n3\nD10\nDOOR COURTESY SW LH\n2\n\n3\nD11\nDOOR COURTESY SW RH\n2\n\nW-B\n\nW-B\n\nBI    IG    IH    IE\n\nP 8\nPOWER WINDOW MASTER SW\n\n4\n\n8\n\nW-B\n\nL\n\nL\n\n136"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-10",
+  "section_header": "STEERING — ON-VEHICLE INSPECTION",
+  "title": "FLUID PRESSURE CHECK",
+  "ocr_text": "SR–10\nSTEERING – ON–VEHICLE INSPECTION\n\nFLUID PRESSURE CHECK\n\n1. CONNECT OIL PRESSURE GAUGE\n(a) Disconnect the pressure feed tube from the PS vane pump.\n(See page SR–26)\n(b) Connect the gauge over a new gasket, as shown below.\nNOTICE: Check that the valve of the gauge is in the open\nposition.\n\n2JZ-GE:\n2JZ-GTE:\n\nIN\nOil Pressure Gauge\nPressure Feed Tube\nAttachment\nOUT\nIN\nOUT\nAttachment\nPS Vane Pump\nAttachment\nPS Vane Pump\nAttachment\nR11207 R11206\nPressure Feed Tube\nZ13500\n\n2. BLEED POWER STEERING SYSTEM\n(See page SR–9)\n3. BOOST FLUID TEMPERATURE\n(a) Start the engine and run it at idle.\n(b) Turn the steering wheel from lock to lock several times to\nboost fluid temperature.\nFluid temperature:\n80°C (176°F)\n\n4. CHECK FLUID PRESSURE READING WITH VALVE\nCLOSED\nWith the engine idling, close the oil pressure gauge valve and\nobserve the reading on the gauge.\n\nOil\nReservoir\nPS Gear\nClosed\nPS Vane\nPump\nOil Pressure Gauge\nR50130\n\nFluid pressure kPa (kgf/cm2, psi)\nMinimum 7,355 (75, 1,067)\n\nNOTICE:\n• Do not keep the valve closed for more than 10\nseconds.\n• Do not let the fluid temperature become too high."
+}

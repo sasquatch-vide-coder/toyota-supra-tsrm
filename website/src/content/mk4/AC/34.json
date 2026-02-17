@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-34",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Blinking Light F D Engine Coolant Temperature Sensor Circuit",
+  "ocr_text": "AC–34\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBlinking Light F D Engine Coolant Temperature Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis sensor detects the coolant temperature and sends the appropriate signals to the A/C amplifier.\nThese signals are used for warm up control when the engine is cold.\n\nDiagnostic Sensor Check Detecting Condition | Trouble Area\n\nOpen or short in engine coolant temperature sensor circuit. | • Engine coolant temperature sensor\n• Harness or connector between engine coolant temperature sensor and A/C amplifier\n• A/C amplifier\n\nWIRING DIAGRAM\n\nA/C Amplifier\n\n5 V\n\nEngine Coolant Temp.\nSensor (For A/C System)\n\nLG-R          11          LG-R          16     TW\n              IG 1                    A13\n2\n\n1\n          V-W          4          V-W          9      SG\n                        IG 1                    A13\n\nN08816"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-75",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "RS–75\n\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\n3  Check spiral cable.\n\nCenter Airbag\nSensor Assembly\nP squib\n\nSpiral\nCable\n\nD squib\n\nD–        D+\n\nR05899\nAB0068\n\nP  Disconnect connector between center airbag sensor assembly and spiral cable.\n\nC  For connector (on the spiral cable side) between the spiral cable and steering wheel pad, measure the resistance between D+ and D–.\n\nOK  Resistance: Below 1\n\nOK          NG  Repair or replace spiral cable.\n\n4  Check harness between center airbag sensor assembly and spiral cable.\n\nCenter Airbag\nSensor Assembly\nP squib\n\nSpiral\nCable\n\nD squib\n\nD–        D+\n\nR05906\nAB0068\n\nC  For connector (on the center airbag sensor assembly side) between the center airbag sensor assembly and spiral cable, measure the resistance between D+ and D–.\n\nOK  Resistance: Below 1\n\nOK          NG  Repair or replace harness or connector between center airbag sensor assembly and spiral cable."
+}

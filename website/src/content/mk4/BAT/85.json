@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-85",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "Check ABS actuator solenoid.",
+  "ocr_text": "BR–85\n\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\n1  Check ABS actuator solenoid.\n\nC  Check continuity between terminal (A6) 4 and (A7) 1, 3, 4, 6 of the ABS actuator connector.\n\nOK  Continuity\n\nHINT:  Resistance of each solenoid coil is 1.1   .\n\nR06047\n\nOK                          NG  Replace ABS actuator.\n\n2  Check for open and short in harness and connector between ABS (& TRAC) ECU and actuator (See page IN–30).\n\nOK                          NG  Repair or replace harness or connector.\n\nIf the same code is still output after the diagnostic trouble code is deleted, check the contact condition of each connection.\nIf the connections are normal, the ECU may be defective."
+}

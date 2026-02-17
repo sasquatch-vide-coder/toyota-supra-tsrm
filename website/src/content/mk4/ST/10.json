@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-10",
+  "section_header": "STARTING SYSTEM — STARTER",
+  "title": "",
+  "ocr_text": "(b) Using a press, press in a new front bearing.\n\n3. INSPECT REAR BEARING\nTurn each bearing by hand while applying inward force.\nIf resistance is felt or the bearing sticks, replace the bearing.\n\n4. IF NECESSARY, REPLACE REAR BEARING\n(a) Using SST, remove the bearing.\nSST 09286–46011\n\n(b) Using SST and a press, press in a new bearing.\nNOTICE: Be careful of the bearing installation direction.\nSST 09820–00030\n\nUpward\nSST\nDownward\n\nMagnetic Switch\n1. DO PULL–IN COIL OPEN CIRCUIT TEST\nUsing an ohmmeter, check that there is continuity between\nterminals 50 and C.\nIf there is no continuity, replace the magnetic switch.\n\nOhmmeter\nContinuity\nTerminal C\nTerminal 50"
+}

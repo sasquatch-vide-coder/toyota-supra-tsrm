@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-38",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Blinking Light A C Compressor Lock Sensor Circuit",
+  "ocr_text": "AC–38\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBlinking Light A C Compressor Lock Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis sensor sends 1 pulse per engine revolution to the A/C amplifier. If the number ratio of the compressor speed divided by the engine speed is smaller than a predetermined value, the A/C amplifier turns the compressor off. And, the indicator flashes at about 1 second intervals.\n\nDiagnostic Sensor Check Detecting Condition | Trouble Area\n\nAll conditions below are detected for 3 secs. or more\n(a) Engine speed: 450 rpm or more\n(b) Ratio between engine and compressor speed deviates 20% or more in comparison to normal operation.\n\n• Compressor • Compressor drive belt\n• Compressor lock sensor\n• Harness and connector between compressor and A/C amplifier\n• A/C amplifier\n\nWIRING DIAGRAM\n\nA/C Amplifier\n\nG-Y\n26\nII 1\nG-Y\n22\nLOCK-IN\nA12\n\n1\nCompressor\nLock Sensor\n2\n\nV-W\n20\nII 1\nV-W\n9\nSG\nA13\n\nN08776"
+}

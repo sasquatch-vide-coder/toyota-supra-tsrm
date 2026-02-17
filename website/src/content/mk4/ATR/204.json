@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-58",
+  "section_header": "A340E(Others) AUTOMATIC TRANSMISSION - DIRECT CLUTCH",
+  "title": "DIRECT CLUTCH",
+  "ocr_text": "AT-58\nA340E(Others) AUTOMATIC TRANSMISSION - DIRECT CLUTCH\n\n3. CHECK PISTON STROKE OF DIRECT CLUTCH\n(a) Place the direct clutch assembly onto the O/D support assembly.\n\nAT8250\n\n(b) Using SST and a dial indicator, measure the direct clutch piston stroke while applying and releasing compressed air (392-785 kPa, 4-8 kgf/cm2, 57-114 psi).\nSST 09350-30020 (09350-06120)\nPiston stroke:\n1.37-1.60 mm (0.0359-0.0630 in.)\nIf the values are non-standard, inspect the discs.\n\nAT8166\n\n4. REMOVE FLANGE, PLATES AND DISCS\n(a) Using a screwdriver, remove the snap ring from the direct clutch drum.\n(b) Remove the flange, plates and discs.\n\nAT8167\n\n5. REMOVE PISTON RETURN SPRING\n(a) Place SST on the spring retainer and compress the return spring with a shop press.\nSST 09350-30020 (09350-07040)\n(b) Using snap ring pliers, remove the snap ring.\n(c) Remove the piston return spring.\n\nAT8168\n\n6. REMOVE DIRECT CLUTCH PISTON\n(a) Place the direct clutch drum onto the O/D support.\n(b) Hold the direct clutch piston, apply compressed air to the O/D support to remove the direct clutch piston.\n(c) Remove the direct clutch piston.\n(c) Remove the 2 O-rings from the piston.\n\nAT8169"
+}

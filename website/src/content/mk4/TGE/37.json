@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-417",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG-417\n\nENGINE — 2JZ-GE ENGINE TROUBLESHOOTING\n\n8  Disconnect igniter connector and check voltage between terminal IGT of engine control module connector and body ground.\n\nSTART\n\nSST\nECM\n\nB 57\n\nIGT\n\nBE8853\nFI6614\n\nP  Disconnect igniter connector.\n\nC  Measure voltage between terminal IGT of engine control module connector and body ground when engine is cranked.\n\nOK  Voltage: 0.5 — 1.0 V\n(Neither 0 V nor 5 V)\n\nReference  INSPECTION USING OSCILLOSCOPE\n\nIGT Signal Waveform\n\nIGT                    2 V/Div.\n0 V\nIGF\n0 V\n\n5 msec./Division (Idling)\n\nFI6605\n\n• During cranking or idling, check waveforms between terminal IGT and E1 of engine control module.\nHINT: The correct rectangular waveforms are as shown.\n\nNG                    OK  Replace igniter.\n\n9  Check for open and short in harness and connector in IGT signal circuit between engine control module and igniter (See page IN-30).\n\nOK                    NG  Repair or replace harness or connector.\n\nCheck and replace engine control module."
+}

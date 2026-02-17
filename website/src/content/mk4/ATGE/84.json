@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-84",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Check stop light signal.",
+  "ocr_text": "AT1–84\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n2  Check stop light signal.\n\nON\nDLC2\nTT        E1\n\nC  1. Connect a voltmeter to the terminals TT and\n      E1 of the DLC2.\n   2. Turn ignition switch ON (Do not start the en-\n      gine).\n   3. Fully depress the accelerator pedal until the\n      voltmeter indicates 8 V and hold it.\n   4. Depress and release the brake pedal and\n      check the voltage.\n\nOK\nBrake pedal          Voltage\nDepressed             0 V\nReleased              8 V\n\nIG ON\n8 V\nAccelerator Pedal\nBrake Pedal\n0 V\n\n8E3840\nAT5630\nAT1065\n\nNG                    OK  Proceed to next circuit inspection shown on\n                          matrix chart (See page AT1–58).\n\n3  Check harness and connector between ECM and stop light switch\n   (See page IN–30).\n\nOK                    NG  Repair or replace harness or connector\n\nCheck and replace ECM."
+}

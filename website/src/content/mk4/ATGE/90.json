@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-90",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT1–90\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n4  Check O/D main switch.\n\nC  1. Disconnect the O/D main switch connector.\n2. Measure resistance between terminals 2 and 4\nof O/D main switch connector.\n\nOK\n\nO/D Main Switch     Resistance\nON                  ∞ Ω (open)\nOFF                 0 Ω (continuity)\n\nAT5529\n\nOK                  NG  Replace O/D main switch.\n\nCheck and replace combination meter.\n(See combination meter troubleshooting section on\npage BE–41).\n\nO/D OFF indicator light remains ON\n\n1  Check O/D main switch.\n\nOK                  NG  Replace O/D main switch.\n\n2  Check harness and connector between O/D off indicator light and ECM\n(See page IN–30).\n\nOK                  NG  Repair or replace harness or connector.\n\nCheck and replace ECM.\n\nO/D OFF indicator light blinks\n\nDo diagnostic trouble code check (See page AT1–52)."
+}

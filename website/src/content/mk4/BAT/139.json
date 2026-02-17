@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-139",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "BR–139\n\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nWIRING DIAGRAM\n\nABS & TRAC ECU                                    TRAC ECU\n\n                                                  ⊕ 12 V\n\nFRO\n w~  A7  13        LG-B        20  T8  FRO\n                                        w~\nFLO  A7  15         O           6  T9  FLO\nRRO  A7  6         Y-B         19  T9  RRO\nRLO  A7  4         GR-R         7  T9  RLO\n\n        Speed\n        Sensor\n\nBR5402"
+}

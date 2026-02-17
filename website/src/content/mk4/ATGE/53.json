@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-53",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT1-53\n\nAT340E (2JZ-GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nTrouble Area | O/D OFF Light *1 Blinks | Memory *2 | See Page\n\n• Harness or connector between A/T fluid temp. senter and ECM.\n• A/T fluid temp. sensor.\n• ECM\nO | O | AT1-64\n\n• Harness or connector between No. 1 vehicle speed sensor and ECM.\n• No. 1 vehicle speed sensor.\n• Telltale light RH.\n• ECM\nO | O | AT1-66\n\n• Harness or connector between No. 2 vehicle speed sensor and ECM.\n• No. 2 vehicle speed sensor.\n• ECM\nO | O | AT1-69\n\n• Harness or connector between No. 1 solenoid and ECM.\n• No. 1 solenoid valve.\n• ECM\nO | O | AT1-72\n\n• Harness or connector between No. 2 solenoid and ECM.\n• No. 2 solenoid valve.\n• ECM\nO | O | AT1-72\n\n• Harness or connector between lock-up solenoid and ECM.\n• Lock-up solenoid valve.\n• ECM\nX | O | AT1-75"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-79",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Kick-down Switch Circuit",
+  "ocr_text": "AT1-79\nAT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING\n\nKick–down Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nKick-down\nSwitch\nAccelerator Pedal\nQ04246\n\nThe kick–down switch is turned on when the accelerator pedal\nis depressed beyond the full throttle opening and sends signals\nto ECM.\nWhen the kick–down switch is turned on, the ECM controls gear\nshifting according to the programmed shift diagrams.\nIf a short circuit develops in the kick–down switch, the ECM dis-\nregards the kick–down signals and controls shifting at the nor-\nmal shift points.\n\nWIRING DIAGRAM\n\nECM\n\nB+\n\nKick-down Switch\nW-B          Y          3    Y    3  KD\n1  o——o  2    IJ2       E10\n\n1H\n13\n     J/B No.1\n1J\n\nIE\n\nQ04321"
+}

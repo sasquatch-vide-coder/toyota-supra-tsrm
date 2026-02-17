@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-59",
+  "section_header": "BODY ELECTRICAL SYSTEM — SEAT HEATER SYSTEM",
+  "title": "SEAT HEATER INSPECTION",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – SEAT HEATER SYSTEM\nBE–59\n\nConnector \"A\"\nBE1417 e-2-2-A\nConnector \"B\" 209261\n\nSEAT HEATER INSPECTION\n1. INSPECT SEAT CUSHION CONTINUITY\n(a) Heat the thermostat with a light.\n(b) Inspect the seat heater continuity between terminals.\n\nTester connection to terminal number | Condition | Specified condition\nA1–A2 | Constant | Continuity\nA1–B2 | Constant | Continuity\nA2–B2 | Constant | Continuity\nA3–A4 | Seat heater temperature below 25°C(77°F) | Continuity\nA4–B1 | Seat heater temperature below 25°C(77°F) | Continuity\nA3–A4 | Seat heater temperature above 45°C(113°F) | No Continuity\nA4–B1 | Seat heater temperature above 45°C(113°F) | No Continuity\n\nIf continuity is not as specified, replace the seat cushion pad.\n\nSeat Back Side\ne-4-1\n209052\n\n2. INSPECT SEAT BACK CONTINUITY\nInspect the seat heater continuity between terminals, as shown.\n\nTester connection to terminal number | Condition | Specified condition\n1–3 | Constant | Continuity\n2–4 | Constant | Continuity\n\nIf continuity is not as specified, replace the seat back pad."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "221",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : USA\n*2 : CANADA\n*3 : 2JZ-GTE\n*4 : 2JZ-GE\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n10A\nPANEL\n\n3 I1\n\nG-O\n\nG-O\n\nFROM A/T INDICATOR LIGHT SW\n[PARK/NEUTRAL POSITION SW\n(NEUTRAL START SW)]\n\nGR\nR-B\nL\nG-R\nLG-R\nG-B\n\n7 II1  36 II1  1 II1  18 II1  17 II1  27 II1\n\nGR\nR-B\nL\nG-R\nLG-R\nG-B\n\n4 C  10 C  6 C  7 C  8 C  11 C\n\nC10 B  C11 C  C12 A\nCOMBINATION METER\n\nBRAKE\n\nP  R  N  D  2  L\n\nMASTER\n\nDELAY\n\n1 A  13 C  7 B  5 B  4 B  14 A  2 B  1 B\n\nBR-W  W-B  W-B  G  L-W  R-Y  R-G\n\n15 IF1\n\nB-W (*2)\nB-W (*2*3)\nBR-W (*1)\n\nI2\n\nB-W (*2)\n\n10\nOIL\n\nPKB\n\n6\nDAYTIME RUNNING\nLIGHT RELAY\n(MAIN)\n\nBR-W (*2)\n\nI2\n\nBR-W\n(*1*3)\nBR-W\n(*4)\n\nBR-W (*1)\n\nDIODE\n4  1  2  4\n\nBR-W\nR-W\n\nW-B\n\n14 IB2\n\nBR-W (*3)\nR-W (*3)\nBR-W (*4)\n\nW-B\n\n33 II1\n\nG\n\nW-B\n\n2\n\nY-G\n\nE 7\nENGINE OIL\nLEVEL SENSOR\n\nI14\n\nY-G\n\n34 II1\n\nY-G\n\nTO GENERATOR\n(ALTERNATOR)\n\nA\n\nJ 1\nJUNCTION\nCONNECTOR\nBR\n\nB-W (*2)\n6\n\nBR-W\n(*2)\n\nP 5\nPARKING BRAKE\nSW\n\nB 2\nBRAKE FLUID LEVEL\nWARNING SW\n\n2\n\nW-B\n\nEB\n\nW-B\n\nIH\n\nEC\n\nR-G\nY-G\nR-Y\nL-W\n\n221"
+}

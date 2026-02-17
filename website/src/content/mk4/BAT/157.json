@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-157",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "DTC 61 ABS & TRAC ECU Communication Circuit Malfunction",
+  "ocr_text": "BR–157\n\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nDTC 61 ABS & TRAC ECU Communication Circuit Malfunction\n\nCIRCUIT DESCRIPTION\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n\n61 | Malfunction in ABS & TRAC ECU communication circuit. | Open or short in ABSO, BRC, BRP circuit\nABS & TRAC ECU\nTRAC ECU\n\nWIRING DIAGRAM\n\nABS & TRAC ECU                                    TRAC ECU\n\n12 V\n16\nABSO          R-B          17  ABSO\n\n12 V\nBRC 8\n          V-R          16  BRC\n\n12 V\nBRP 11\n          B-Y          21  BRP\n\nR07089"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-65",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "DTC 11 12 ABS Solenoid Relay Circuit",
+  "ocr_text": "CIRCUIT INSPECTION\n\nDTC 11 12 ABS Solenoid Relay Circuit\n\nCIRCUIT DESCRIPTION\n\nThis relay supplies power to each ABS solenoid. After the ignition switch is turned ON, if the initial check is OK, the relay goes on.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n\n11\nConditions (1) and (2) continue for 0.2 sec. or more:\n(1) ABS solenoid relay terminal (SR)\n    voltage: Battery positive voltage\n(2) Solenoid relay monitor terminal (AST)\n    voltage: O V\nABS solenoid relay\nOpen or short in ABS solenoid relay circuit\nECU\n\n12\nConditions (1) and (2) continue for 0.2 sec. or more:\n(1) ABS solenoid relay terminal (SR)\n    voltage: O V\n(2) Solenoid relay monitor terminal (AST)\n    voltage: Battery positive voltage\nABS solenoid relay\nB+ short in ABS solenoid relay circuit\nECU\n\nFail safe function: If trouble occurs in the solenoid relay circuit, the ECU cuts off current to the solenoid relay and prohibits ABS control."
+}

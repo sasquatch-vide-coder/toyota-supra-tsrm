@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-179",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "DTC 32 34 Control Switch Circuit (Cruise Control Switch)",
+  "ocr_text": "BE-179\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nDTC 32 34 Control Switch Circuit (Cruise Control Switch)\n\nCIRCUIT DESCRIPTION\nThis circuit carries the SET/COAST, RESUME/ACCEL and CANCEL signals (each voltage) to the ECU.\n\nCode No. | Diagnosis | Trouble area\n32 | Short in, control switch circuit. | • Cruise control switch.\n• Harness or connector between control switch and ECU.\n• ECU\n34 | Voltage abnormality in control switch\n\nWIRING DIAGRAM\n\nCruise Control\nECU\n\nW-B          W-B     GND\n                              13\nCruise Control Switch  17\n\n1H\n13\n\n1J  1     CANCEL    RESUME/        MAIN\n                        ACCEL\n                                    5    15  R-Y    CMS\nW-B                 SET/COAST              19\nE7\n                                    L      CCS\n                                              18\n\nN08434"
+}

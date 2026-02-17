@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-145",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Door Unlock Detection Switch Circuit",
+  "ocr_text": "BE–145\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nDoor Unlock Detection Switch Circuit\n\nCIRCUIT DESCRIPTION\nThe door unlock detection switch goes off when the door lock knob is operated to the lock position, and comes\non when the door lock knob is operated to the unlock position.\n\nWIRING DIAGRAM\n\nDoor Lock Motor and\nUnlock Detection Switch RH\n\n4  M  2 L-Y\n\nW-B  16        W-B  3  o  o  1 G-B  8\n         IL1                        IL1  G-B LSWP\n                                              21\nIH\n\n2  M  4\n\nW-B  1        10        W-B 3  o  o  1 L-W  6\n         IJ        ID                    ID1  LSWD\n                                              L-W  15\nIE\n\nDoor Lock Motor and\nUnlock Detection Switch LH\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\n12 V\n\n12 V\n\nN0B665"
+}

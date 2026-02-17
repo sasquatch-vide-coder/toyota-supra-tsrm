@@ -25,6 +25,7 @@ ERRORS_LOG = ROOT_DATA_DIR / "errors.log"
 MODEL_YEAR = {
     "mk2": "1986",
     "mk3": "1990",
+    "mk4": "1997",
 }
 
 MODEL = "claude-sonnet-4-5-20250929"
@@ -97,7 +98,7 @@ def build_messages(image_path: Path, year: str) -> list[dict]:
                     "type": "image",
                     "source": {
                         "type": "base64",
-                        "media_type": "image/gif",
+                        "media_type": "image/png" if image_path.suffix.lower() == ".png" else "image/gif",
                         "data": b64,
                     },
                 },
@@ -105,6 +106,59 @@ def build_messages(image_path: Path, year: str) -> list[dict]:
             ],
         }
     ]
+
+
+def repair_json(text: str) -> str:
+    """Fix unescaped quotes and control characters in JSON string values.
+
+    Claude sometimes returns ocr_text with literal quotes like "G ⊕" or
+    unescaped control characters (tabs) inside JSON string values. We exploit
+    the known 4-key structure to extract raw values, then properly re-encode.
+    """
+    import re
+
+    keys = ["page_id", "section_header", "title", "ocr_text"]
+
+    # Find each key's value-start position (right after the opening quote)
+    key_positions = []
+    for key in keys:
+        pattern = f'"{key}"\\s*:\\s*"'
+        match = re.search(pattern, text)
+        if match:
+            key_positions.append((key, match.end()))
+
+    if len(key_positions) != 4:
+        return text
+
+    # Extract raw value strings using key anchoring
+    raw_values = {}
+    for idx, (key, value_start) in enumerate(key_positions):
+        if idx < len(key_positions) - 1:
+            next_key = key_positions[idx + 1][0]
+            end_pattern = f'",\\s*"{next_key}"'
+            end_match = re.search(end_pattern, text[value_start:])
+            if not end_match:
+                return text
+            raw_value = text[value_start:value_start + end_match.start()]
+        else:
+            end_match = re.search(r'"\s*}\s*$', text[value_start:])
+            if not end_match:
+                return text
+            raw_value = text[value_start:value_start + end_match.start()]
+
+        # Decode existing escape sequences so we don't double-escape
+        raw_value = raw_value.replace('\\\\', '\x00BACKSLASH\x00')
+        raw_value = raw_value.replace('\\n', '\n')
+        raw_value = raw_value.replace('\\t', '\t')
+        raw_value = raw_value.replace('\\"', '"')
+        raw_value = raw_value.replace('\\/', '/')
+        raw_value = raw_value.replace('\x00BACKSLASH\x00', '\\')
+
+        raw_values[key] = raw_value
+
+    # Reconstruct as valid JSON using json.dumps for proper escaping
+    obj = {k: raw_values[k] for k in keys}
+    return json.dumps(obj, indent=2, ensure_ascii=False)
 
 
 def process_response(text: str, code: str, page: int, processed_dir: Path) -> dict | None:
@@ -122,6 +176,15 @@ def process_response(text: str, code: str, page: int, processed_dir: Path) -> di
 
     try:
         data = json.loads(cleaned)
+        return data
+    except json.JSONDecodeError:
+        pass
+
+    # Try repairing unescaped quotes in string values
+    try:
+        repaired = repair_json(cleaned)
+        data = json.loads(repaired)
+        print(f"  {code}-{page}: Repaired JSON (unescaped quotes)")
         return data
     except json.JSONDecodeError as e:
         log_error(f"{code}-{page}: JSON parse failed: {e}")
@@ -240,14 +303,27 @@ async def process_file_async(
 
 
 def find_images(raw_dir: Path, section: str | None = None) -> list[Path]:
-    """Find all GIF images to process."""
+    """Find all GIF/PNG images to process."""
     if section:
         section_dir = raw_dir / section
         if not section_dir.exists():
             print(f"Section directory not found: {section_dir}", file=sys.stderr)
             return []
-        return sorted(section_dir.glob("*.gif"))
-    return sorted(raw_dir.glob("*/*.gif"))
+        return sorted(
+            list(section_dir.glob("*.gif")) + list(section_dir.glob("*.png"))
+        )
+    return sorted(
+        list(raw_dir.glob("*/*.gif")) + list(raw_dir.glob("*/*.png"))
+    )
+
+
+def _find_raw_image(raw_dir: Path, code: str, stem: str) -> Path | None:
+    """Find raw image file (GIF or PNG) for a given code and stem."""
+    for ext in (".gif", ".png"):
+        path = raw_dir / code / f"{stem}{ext}"
+        if path.exists():
+            return path
+    return None
 
 
 def find_failed(processed_dir: Path, raw_dir: Path) -> list[Path]:
@@ -258,9 +334,9 @@ def find_failed(processed_dir: Path, raw_dir: Path) -> list[Path]:
         stem = raw_file.stem.replace(".raw", "")
         json_file = raw_file.parent / f"{stem}.json"
         if not json_file.exists():
-            gif_file = raw_dir / code / f"{stem}.gif"
-            if gif_file.exists():
-                failed.append(gif_file)
+            img = _find_raw_image(raw_dir, code, stem)
+            if img:
+                failed.append(img)
     # Also check errors.log for processor errors
     if ERRORS_LOG.exists():
         log_text = ERRORS_LOG.read_text(encoding="utf-8")
@@ -270,9 +346,9 @@ def find_failed(processed_dir: Path, raw_dir: Path) -> list[Path]:
                 if match:
                     code, page = match.group(1), int(match.group(2))
                     out = output_path(code, page, processed_dir)
-                    gif = raw_dir / code / f"{code}_{page:03d}.gif"
-                    if gif.exists() and not out.exists() and gif not in failed:
-                        failed.append(gif)
+                    img = _find_raw_image(raw_dir, code, f"{code}_{page:03d}")
+                    if img and not out.exists() and img not in failed:
+                        failed.append(img)
     return sorted(set(failed))
 
 
@@ -326,11 +402,11 @@ def main() -> None:
         sys.exit(0 if success else 1)
 
     if args.section and args.page:
-        gif = raw_dir / args.section / f"{args.section}_{args.page:03d}.gif"
-        if not gif.exists():
-            print(f"File not found: {gif}", file=sys.stderr)
+        img = _find_raw_image(raw_dir, args.section, f"{args.section}_{args.page:03d}")
+        if not img:
+            print(f"File not found: {raw_dir / args.section / f'{args.section}_{args.page:03d}.[gif|png]'}", file=sys.stderr)
             sys.exit(1)
-        success = process_file_sync(gif, processed_dir, force=args.force, year=year)
+        success = process_file_sync(img, processed_dir, force=args.force, year=year)
         sys.exit(0 if success else 1)
 
     if args.retry:

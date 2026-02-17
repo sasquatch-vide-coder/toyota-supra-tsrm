@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-181",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "Check control switch.",
+  "ocr_text": "BE-181\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\n3 Check control switch.\n\nDisconnect\n\nP (1) Remove steering wheel center pad.\n(2) Disconnect control switch connector (See page RS Section).\n\nC Measure resistance between terminals 3 and 4 of control switch connector when control switch is operated.\n\nOK\nSwitch position          Resistance\nNeutral                  1 MΩ or higher\nRES/ACC                  60 – 80 Ω\nSET/COAST                180 – 220 Ω\nCANCEL                   400 – 440 Ω\n\nHint When diagnostic trouble code 34 is displayed, carefully check that resistance is always ∞ in neutral position, particularly when switching between RES/ACC and SET/COAST.\n\nBE4061\nN08856\n\nOK                       NG ) Replace cruise control switch.\n\n4 Check for open and short in harness and connector between ECU and control switch (See page IN–30).\n\nOK                       NG ) Repair or replace harness or connector.\n\nCheck and replace ECU."
+}

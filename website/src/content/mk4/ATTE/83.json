@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-83",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "AT2–83\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nTransmission\n\nNo.1 Solenoid Valve\nW\n000\n\n4    W-R    10\nE9\nS1\n\nB+\n\nNo.2 Solenoid Valve\nB    B    R-L    R-L    9\n000                              E9\nS2\n\nB+\n\nR-L\nCruise Control\nECU\n\nECM\n\nAT8617"
+}

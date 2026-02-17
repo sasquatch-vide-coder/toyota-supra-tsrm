@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-49",
+  "section_header": "STEERING — ELECTRONIC CONTROL SYSTEM",
+  "title": "PPS SOLENOID VALVE INSPECTION",
+  "ocr_text": "Yes\nCONTINUED FROM PREVIOUS PAGE\n\nSOL⊖  SOL⊕\n\nCheck 5.\nMeasure the resistance between terminal SOL (+) and SOL (–).\nStandard resistance:    6 — 11 Ω\n\nR07588\n\nYes         No\n\n• Open circuit in wire harness between the terminals SOL (+)\n  and SOL (–).\n• Solenoid valve faulty.\n\nCheck 6.     Bad    Replace ECU.\nInspect ECU.\n\nW05684\n\nPPS SOLENOID VALVE INSPECTION\n\nSR4680\n\nSOL⊖   SOL⊕\n\nSR4881\n\n1.  DISCONNECT PPS SOLENOID CONNECTOR\n    (See page SR–33)\n2.  MEASURE RESISTANCE\n    Measure the resistance between SOL ⊕ and SOL ⊖.\n    Resistance:\n        6–11 Ω\n3.  CHECK PPS SOLENOID OPERATION\n(a) Connect the battery positive terminal to the solenoid terminal\n    SOL ⊕.\n(b) Connect the battery negative terminal to the solenoid\n    terminal SOL ⊖.\n(c) Check that the solenoid makes a 'clicks' sound.\n    If faulty, replace the pressure control valve with the solenoid\n    valve.\n    NOTICE:\n    • Do not apply voltage for more than 30 seconds to avoid\n      burning out the solenoid.\n    • If repeating this step, wait until the solenoid cools down\n      enough that it can be touched by hand.\n4.  CONNECT PPS SOLENOID CONNECTOR"
+}

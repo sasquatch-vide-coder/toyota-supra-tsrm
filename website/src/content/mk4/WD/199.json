@@ -1,0 +1,6 @@
+{
+  "page_id": "SRS-202",
+  "section_header": "SRS (SUPPLEMENTAL RESTRAINT SYSTEM)",
+  "title": "SRS (SUPPLEMENTAL RESTRAINT SYSTEM)",
+  "ocr_text": "SRS (SUPPLEMENTAL RESTRAINT SYSTEM)\n\nA27 YELLOW\n\nA28 YELLOW\n\nC 5 YELLOW\n\n(2JZ-GTE) D 1 BLACK\n\n1  2\n\n1  2\n\n1  2  A B  3  4\n5  6  7  8  9  10  11  12  13  14\n\n(2JZ-GE) D 1 BLACK\n\n(2JZ-GTE) D 5 DARK GRAY\n\n(2JZ-GE A/T) D 5 DARK GRAY\n\nX 5 X\nX 11\n\nX  X\nX 12\n4\n\nX X  X\nX 12\n4\n\n(2JZ-GE M/T) D 5 DARK GRAY\n\nF 1 YELLOW\n\nF 2 YELLOW\n\nT 6\n\nX X  X\nX 12\nX  4\n\n1  2\n\n1  2\n\n2\n15\n\n202"
+}

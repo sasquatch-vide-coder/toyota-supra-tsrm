@@ -1,0 +1,6 @@
+{
+  "page_id": "IN-18",
+  "section_header": "INTRODUCTION — PRECAUTION",
+  "title": "IF VEHICLE IS EQUIPPED WITH MOBILE COMMUNICATION SYSTEM",
+  "ocr_text": "IN–18\nINTRODUCTION – PRECAUTION\n\nIF VEHICLE IS EQUIPPED WITH MOBILE COMMUNICATION SYSTEM\n\nFor vehicles with mobile communication systems such as two–way radios and cellular telephones, observe the following precautions.\n(1) Install the antenna as far as possible away from the ECM, ECU and sensors of the vehicle's electronic system.\n(2) Install the antenna feeder at least 20 cm (7.87 in.) away from the ECM, ECU and sensors of the vehicle's electronics systems. For details about ECM, ECU and sensors locations, refer to the section on the applicable component.\n(3) Do not wind the antenna feeder together with the other wiring. As much as possible, also avoid running the antenna feeder parallel with other wire harnesses.\n(4) Confirm that the antenna and feeder are correctly adjusted.\n(5) Do not install powerful mobile communications system."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-150",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "CIRCUIT INSPECTION\nECU Power Source–Circuit",
+  "ocr_text": "BE–150\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nCIRCUIT INSPECTION\nECU Power Source–Circuit\nCIRCUIT DESCRIPTION\nThis circuit provides power to operate the theft deterrent and door lock ECU.\n\nWIRING DIAGRAM\n\nR/B No.2\n1        DOME\n2A              2\nB\n\nR\n5        11\n1B        1E\nR\n+B1\n1\n\nW-B\nE\n4\n\nTheft Deterrent and\nDoor Lock ECU\nT9\nT8\n\nN08667"
+}

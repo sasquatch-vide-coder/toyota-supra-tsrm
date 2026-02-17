@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-576",
+  "section_header": "ENGINE — 2JZ–GTE ENGINE TROUBLESHOOTING",
+  "title": "ECM Power Source Circuit",
+  "ocr_text": "EG–576\n\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nECM Power Source Circuit\n\nCIRCUIT DESCRIPTION\n\nWhen the ignition switch is turned on, battery volt-age is applied to the terminal IGSW of the ECM, and the main relay control circuit in the ECM sends a signal to the terminal M–REL of the ECM, switch-ing on the main relay. This signal causes current to flow to the coil, closing the contacts of the main relay and supplying power to the terminal + B of the ECM.\nIf the ignition switch is turned off, the ECM contin-ues to switch on the main relay for a maximum of 2 seconds for the initial setting of the IAC valve.\n\nEngine Control Module\nEFI\nNo.1\nFuse\nEFI\nMain\nRelay\n+B\nM-REL\nIGSW\nAM2\nFuse\nIgnition\nSwitch\nMain Relay\nControl\nCircuit\nBattery\nE1\n\nP18745\n\nWIRING DIAGRAM\n\nEngine Control Module\n\nW-R  2    3  B-O\nIgnition\nSwitch\n1J    1E  IGN\nJ/B No.1\nB-O\nII1\nB-O  1  IGSW\nE18\nE1\n\nB-R  31  +B\nE10\n\nIB1\nB-Y\n2      2\n3\n5\nB-R\nEA2\nB+\n\nW-R\n2      2\n1\nGR\nEA1\nGR  24\nE10\nM-REL\n\nEF1 Main Relay\nR/B No.2\n\n2    2\nAM2\nEF1 No.1\n\n2A\nB\nBattery\n\nW-B\n\nBR  69\nE9  E1\n\nP18746"
+}

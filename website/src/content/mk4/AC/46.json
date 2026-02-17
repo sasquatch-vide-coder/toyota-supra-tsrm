@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-46",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Air Inlet Damper Control Servo Motor Circuit",
+  "ocr_text": "AC–46\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nAir Inlet Damper Control Servo Motor Circuit\n\nCIRCUIT DESCRIPTION\n\nThe air inlet damper control servo motor is controlled by the A/C amplifier and signals the air inlet damper to move to the desired position.\n\nCondition | Trouble Area\nAir mix damper position sensor value does not change even if A/C amplifier signals the air mix damper control servo motor to operate. | • Air inlet damper position sensor\n• Harness or connector between air inlet damper control servo motor assembly and A/C amplifier\n• A/C amplifier\n\nWIRING DIAGRAM\n\nFrom HTR Fuse\n\nA/C Amplifier\n\n(M)\n2 R-L 16\n>> IG 1\nRECIRC FRESH\n5 G-R 13\n>> IG 1 G-R 19 MREC\nA14\n3 G 15 G 20 MFRS\n>> IG 1\nA14\n4 GR 14 GR 17\n>> IG 1\nA14\n9\nA14\nGND\n\nAir Inlet\nDamper Control\nServo Motor\n\nW-B A J1 A W-B\nJunction\nConnector\n\nNC8778"
+}

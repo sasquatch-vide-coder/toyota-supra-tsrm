@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-83",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "RS–83\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURES\n[P] Preparation [C] Check\n\nHINT: If SRS warning light does not light up, perform the following troubleshooting:\n\n1 Check ECU–B Fuse.\n\nP Remove ECU–B fuse.\nC Check continuity of ECU–B fuse.\nOK Continuity\nHint • Fuse may be burnt out even if it appears to be OK during visual inspection.\n• If fuse is OK, install it.\n\nFuse\nFI0044\n\nOK\nNG Go to step 6 .\n\n2 Check connection of center airbag sensor assembly connector.\n\nOK\nNG Repair.\n\n3 Preparation.\n\nLOCK\nP squib\nCenter Airbag\nSensor Assembly\nSpiral\nCable\nD squib\nAB0117\nR05902\n\nP (1) Disconnect negative (–) terminal cable from the battery, and wait at least 90 seconds.\n(2) Remove steering wheel pad (See page RS–10).\n(3) Disconnect connector of front passenger airbag assembly (See page RS–20).\n\nCaution\nStore the steering wheel pad with the front surface facing upward."
+}

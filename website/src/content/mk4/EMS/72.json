@@ -1,0 +1,6 @@
+{
+  "page_id": "EM-13",
+  "section_header": "ENGINE MECHANICAL (2JZ-GTE) - IDLE SPEED",
+  "title": "IDLE SPEED",
+  "ocr_text": "EM-13\nENGINE MECHANICAL (2JZ-GTE) - IDLE SPEED\n\nIDLE SPEED\nINSPECTION\nEM0AB-01\n1. INITIAL CONDITIONS\n(a) Engine at normal operating temperature\n(b) Air cleaner installed\n(c) All pipes and hoses of air induction system connected\n(d) All accessories switched OFF\n(e) All vacuum lines properly connected\nHINT:\nAll vacuum hoses for EGR system, etc. should be properly connected.\n(f) SFI system wiring connectors fully plugged\n(g) Ignition timing checked correctly\n(h) Transmission in neutral position\n2. CONNECT TOYOTA HAND-HELD TESTER OR OBDII SCAN TOO (See page EM-1 1)\n3. INSPECT IDLE SPEED\n(a) Race the engine speed at 2,500 rpm for approx. 90 seconds.\n(b) Check the idle speed.\n    Idle speed: 650 ± 50 rpm\nIf the idle speed is not as specified, check the IAC valve.\n4. DISCONNECT TOYOTA HAND-HELD TESTER OR OBDII SCAN TOOL\n\n1997 SUPRA (RM502U)\nAuthor :          Date :          1118"
+}

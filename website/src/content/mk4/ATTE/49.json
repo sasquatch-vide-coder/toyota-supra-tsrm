@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-49",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "SPECIFIED LINE PRESSURE",
+  "ocr_text": "SPECIFIED LINE PRESSURE\nLine pressure:\n\nCondition | D position  kPa (kgf/cm2 psi) | R position  kPa (kgf/cm2, psi)\nIdling | 471–530 (4.8–5.4, 68–77) | 686–785 (7.0–8.0, 100–114)\nStall | 1,334–1,470 (13.6–15.0, 193–213) | 1,697–2,030 (17.3–20.7, 246–294)\n\nIf the measured pressures are not up to specified values, check the No.5 solenoid valve and retest.\n\nEVALUATION\n\nProblem | Possible cause\nIf the measured values at all positions are higher. | Throttle cable out of adjustment\nThrottle valve defective\nRegulator valve defective\nIf the measured values at all positions are lower. | Throttle cable out of adjustment\nThrottle valve defective\nRegulator valve defective\nOil pump defective\nO/D direct clutch defective\nIf pressure is low in the D position only. | D position circuit fluid leakage\nForward clutch defective\nIf pressure is low in the R position only. | R position circuit fluid leakage\nDirect clutch defective\nFirst and reverse brake defective"
+}

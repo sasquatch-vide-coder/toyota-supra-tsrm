@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-101",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Park Neutral Position Switch Circuit",
+  "ocr_text": "AT2–101\n\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nPark Neutral Position Switch Circuit\n\n— CIRCUIT DESCRIPTION —\n\nThe park/neutral position switch detects the shift lever position and sends signal to ECM.\nThe ECM receives signals (R, NSW, 2 and L) from the park/neutral position switch. When the signal is not\nsent to the ECM from the park/neutral position switch, the ECM judges that the shift lever is in the D position.\n\n— WIRING DIAGRAM —\n\nCombination Meter\nL  2  D  N  R  P\n1  8  7  6  10  4\n\nA/T Indicator\nLight Switch\n27  7  8  36  7\nI|1  I|1  I|1  I|1  I|1\n\nECM\n10\nL C  3  G-B  E10  2\n2  LG-R  LG-R\nD O  9  G-R  9\nN O  10  L  7\nR O  8  R-B  R-B  E10\nP C  7  GR\n\n10A GAUGE\nY  23  Y  4\nII1\n\nA/T Indicator\nLight Switch\n(Park/Neutral\nPosition Switch)\n\nIG SW\n4\nB-W\n7.5A ST\nB-W\n\nPark/Neutral\nPosition Switch\n13  77\nIJ2  B-W  B  E9  STA\n8  5\n\nQ04323"
+}

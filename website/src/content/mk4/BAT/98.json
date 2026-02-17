@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-98",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "DTC 55 Brake Fluid Level Warning Switch Circuit",
+  "ocr_text": "BR–98\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nDTC 55 Brake Fluid Level Warning Switch Circuit\nCIRCUIT DESCRIPTION\n\nThe brake fluid level warning switch sends the appropriate signal to the ECU when the brake fluid level drops.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n\n55 | Voltage at ECU terminal LBL is 0 V continuously for 10 sec. or more. | Brake fluid level\nBrake fluid level warning switch\nShort in brake fluid level warning switch circuit\nECU\n\nFail safe function: If trouble occurs in this circuit, the ECU cuts off current to the TRAC solenoid relay and prohibits TRAC control.\n\nWIRING DIAGRAM\n\nW\n1B 1J\nJ/B No.1\nW B-Y\n4\nJ/B No.1\n1J 1E\nGAUGE\nABS & TRAC ECU\n\n12 V\n\nAM1\nR/B\nNo.2\nALT\nIgnition Switch\nBrake Warning Light\nC10 C17 BR-W IF1\n9 1 15\nB-W (Canada)\nBR-W (USA)\n1\nDiode\n2\nR-W 10 LBL\nA-20\n\nB2 14\n6\nBrake Fluid Level Warning Switch\n2\nE6\n\nBattery\n\nRG7064"
+}

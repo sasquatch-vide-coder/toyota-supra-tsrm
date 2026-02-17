@@ -1,0 +1,6 @@
+{
+  "page_id": "CL-5",
+  "section_header": "CLUTCH — CLUTCH PEDAL",
+  "title": "",
+  "ocr_text": "Clutch Start Switch\n\n000185\n\n7. CHECK CLUTCH START SYSTEM\n(a) Check that the engine does not start when the clutch pedal is released.\n(b) Check that the engine starts when the clutch pedal is fully depressed.\nIf necessary, adjust or replace the clutch start switch.\n\n8 ± 0.5 mm\n(0.31 ± 0.020 in.)\n\nQ00617\n\n8. INSPECT CONTINUITY OF CLUTCH START SWITCH\n(a) Check that there is continuity between terminals when the switch is ON (pushed).\n(b) Check that there is no continuity between terminals when the switch is OFF (free).\nIf continuity is not as specified, replace the switch."
+}

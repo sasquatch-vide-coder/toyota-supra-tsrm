@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-58",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "PARTS LOCATION",
+  "ocr_text": "BR-58\nBRAKE SYSTEM – ANTI-LOCK BRAKE SYSTEM (ABS)\n\nPARTS LOCATION\n\nw/o TRAC\n\nDLC1\nABS ECU\nLateral Acceleration Sensor\nABS Actuator\nControl Relay\n\nDLC2\nRear Speed\nSensor Rotor\nRear Speed Sensor\n\nFront Speed Sensor\nFront Speed Sensor Rotor\n\nw/ TRAC\n\nECM\nTRAC Solenoid\nRelay\nTRAC ECU\nABS & TRC ECU\nTRAC Cut Switch\nABS Actuator\nLateral Acceleration Sensor\nABS Solenoid\nTRAC Motor\nRelay\nRelay\nABS Motor\nRelay\n\nDLC2\n\nRear Speed\nSensor Rotor\nTRAC Actuator\nRear Speed Sensor\nDLC1\nTRAC Pump\n\nFront Speed Sensor\nFront Speed Sensor Rotor\n\n807368\n807369\n\n209026"
+}

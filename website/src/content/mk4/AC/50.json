@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-50",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Blinking Light HI Air Outlet Damper Control Servo Motor Circuit",
+  "ocr_text": "AC–50\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBlinking Light HI Air Outlet Damper Control Servo Motor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis circuit turns the servo motor and changes each mode damper position by the signals from the A/C amplifier. When the AUTO switch is on, the A/C amplifier changes the mode automatically between (FACE) (BI–LEVEL) an (FOOT) according to the temperature setting.\n\nDiagnostic Sensor Check Detecting Condition | Trouble Area\n\nAir outlet damper position sensor value does not change even if A/C amplifier signals the air outlet damper control servo motor.\n• Air outlet damper control servo motor\n• Air outlet damper position sensor\n• Harness or connector between A/C amplifier and air outlet damper control servo motor, air outlet damper position sensor\n• A/C amplifier\n\nWIRING DIAGRAM\n\nHTR Fuse\nR-L\nA14\nIG\n\nY-L\n2\nY-L\n7\nIG 1\n8\nA12\nMDEF\n\nAir Outlet Damper Control Servo Motor\nM\n\nW\n1\nW\n1\nIG 1\n9\nA12\nMFAC\n\nW-B\nJ1\nW-B\n9\nA\nA\nA14\nGND\nJunction Connector\n\nN08818"
+}

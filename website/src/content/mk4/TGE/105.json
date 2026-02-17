@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-485",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "EG-485\nENGINE — 2JZ-GE ENGINE TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\nHINT: If terminals TE1 and TE2 are connected with terminal E1, diagnostic trouble code is not output or test\nmode is not activated.\nEven though terminal TE1 is not connected with terminal E1, the malfunction indicator lamp blinks.\nFor the above phenomenon, the likely cause is an open or short in the wire harness, or malfunction inside\nthe ECM.\n\n1 Check voltage between terminals TE1, TE2 and E1 of data link connectors\n1 and 2.\n\nON\n\nE1 DLC1\n\nTE1\n\nDLC2 TE2\n\nE1 TE1\n\nBE6853\nFI5956\nFI4412\n\nP Turn ignition switch ON.\n\nC (1) For DLC1, measure voltage between terminal\nTE1 and E1.\n(2) For DLC2, measure voltage between terminals\nTE1, TE2 nd E1.\n\nOK Voltage: 9 — 14 V\n\nNG\n\nOK Check and replace engine control module.\n\n2 Check continuity between terminal E1 of data link connectors1, 2 and body\nground.\n\nOK\n\nNG Repair or replace harness or connector.\n\n3 Check for open and short in harness and connector between engine control\nmodule and data link connectors1, 2 (See page IN–30).\n\nOK\n\nNG Repair or replace harness or connector.\n\nCheck and replace engine control module."
+}

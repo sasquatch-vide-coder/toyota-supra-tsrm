@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-73",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "DTC 14 Open in D Squib Circuit",
+  "ocr_text": "RS–73\n\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nDTC 14 Open in D Squib Circuit\n\nCIRCUIT DESCRIPTION\n\nThe D squib circuit consists of the center airbag sensor assembly, spiral cable and the steering wheel pad. It causes the airbag to deploy when the airbag deployment conditions are satisfied.\nFor details of the function of each component, see FUNCTION OF COMPONENTS on page RS–4. Diagnostic trouble code 14 is recorded when an open is detected in the squib circuit.\n\nDTC No. | Diagnosis\n14 | • Open circuit in D+ wire harness or D– wire harness of squib.\n• D Squib malfunction.\n• Spiral cable malfunction.\n• Center airbag sensor assembly malfunction.\n\nWIRING DIAGRAM\n\nCenter Airbag\nSensor Assembly\n\nPower\nSource\n\nAirbag Squib: D squib\n(Steering Wheel Pad)\n\n1          Y          3\n                      D+        Safing\n                                Sensor\n          L          4\n2                    D–\n\nTo Front\nAirbag\nSensor\n\nR07091"
+}

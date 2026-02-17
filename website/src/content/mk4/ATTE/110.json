@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-110",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT2–110\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n4  Check O/D main switch.\n\nC  1.  Disconnect O/D main switch connector.\n    2.  Measure resistance between terminals 2 and\n        4 of O/D main switch connector.\n\nOK\nO/D Main Switch          Resistance\nON                       ∞ .  (open)\nOFF                      0 .  (continuity)\n\nAT5529\n\nOK\n\nNG    Replace O/D main switch.\n\nCheck and replace combination meter. (See\ncombination meter troubleshooting section on\npage BE–41).\n\nO/D OFF indicator light remains ON\n\n1  Check O/D main switch.\n\nOK\n\nNG    Replace O/D main switch.\n\n2  Check harness and connector between O/D off indicator light and ECM (See\n   page IN–30).\n\nOK\n\nNG    Repair or replace harness or connector.\n\nCheck and replace ECM.\n\nO/D OFF indicator light blinks\n\nDo diagnostic trouble code check (See page AT2–34)."
+}

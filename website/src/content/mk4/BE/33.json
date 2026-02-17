@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-33",
+  "section_header": "BODY ELECTRICAL SYSTEM — STOP LIGHT SYSTEM",
+  "title": "TROUBLESHOOTING",
+  "ocr_text": "BE–33\nBODY ELECTRICAL SYSTEM – STOP LIGHT SYSTEM\n\nTROUBLESHOOTING\n\nThe table below will be useful for you in troubleshooting these electrical problems. The most likely causes\nof the malfunction are shown in the order of their probability. Inspect each part in the order shown, and\nreplace the part when it is found to be faulty.\n\nTrouble | Parts name | (See page)\n\nStop light does not light up\n1. STOP Fuse (BE–6)\n2. Stop Light Switch (BE–33)\n3. Wire Harness\n4. Bulb\n\nStop light remains always on\n1. Stop Light Switch (BE–33)\n2. Wire Harness\n\nOnly one light does not light up\n1. Wire Harness\n2. Bulb\n\nSTOP LIGHT SWITCH INSPECTION\n\nINSPECT SWITCH CONTINUITY\n\nSwitch position | Tester connection to terminal number | Specified condition\n\nSwitch pin free\n(Pedal depressed) | 1–2 | Continuity\n\nSwitch pin pushed in\n(Pedal released) | 3–4 | Continuity\n\nIf continuity is not as specified, replace the switch.\n\nN09044"
+}

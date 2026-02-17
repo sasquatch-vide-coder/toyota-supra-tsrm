@@ -1,0 +1,6 @@
+{
+  "page_id": "EL-108",
+  "section_header": "LIGHT AUTO TURN OFF",
+  "title": "LIGHT AUTO TURN OFF",
+  "ocr_text": "LIGHT AUTO TURN OFF\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n1\n7. 5A\nDOME\n2\n\n1\n10A\nGAUGE\n\n2\n\n2 1B\n\n5 1\nTAILLIGHT\nRELAY\n3 2\n11 1K\n\nR-Y\n\nW-L\n\n2\n\n2\n60A POWER\n\n1\n\n2\n\nW\n\n2\n\nHEADLIGHT\nRELAY\n\n4 2\n\n2\n50A MAIN\n\n1\n\n2\n120A ALT\n\n1\n\n1 2A\n\nB\n\nBATTERY\n\nR-Y\n\nG-W\n\n13 IB2\n\nR-Y\n\nR\n\n5 1B\n1\n\n5 A\n6 A\n7\n\nS\nR\nQ\n\nS\nR\nQ\n\nI20 A\nINTEGRATION RELAY\n\n7 A\n4 A\n6\n\n16 I1\n\nR\nG\n\n13 2\n\nC13\nLIGHT CONTROL SW\n[COMB. SW]\n\nOFF\nTAIL\nHEAD\n\n11\n\nW-B\n\n1 5\n1J 1K\n\nW-B\n\nIE\n\nR-B\n\n15 IC2\n\nR-B\n\n3\nD10\nDOOR COURTESY\nSW LH\n\n2\n\nW-B\n\nBI\n\n108"
+}

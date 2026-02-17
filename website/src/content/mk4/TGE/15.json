@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-395",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–395\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nTrouble Area | Malfunction Indicator Lamp*1 | Memory*2 | See page\nNormal Mode | Test Mode\n\n• Open or short in volume air flow meter circuit\n• Volume air flow meter\n• ECM\nON | N.A. | ○ | EG–438\n\n• ECM\nON | ON | ○ | EG–441\n\n• Open or short in throttle position sensor circuit\n• Throttle position sensor\n• ECM\nON | ON | ○ | EG–442\n\n• No.1 vehicle speed sensor\n• Telltale light RH\n• Open or short in No.1 vehicle speed sensor circuit\n• ECM\nOFF | OFF | ○ | EG–445\n\n• Open or short in starter signal circuit\n• Open or short in ignition switch or starter relay circuit\n• ECM\nN.A. | OFF | X | EG–448\n\n• Open or short in No.1 knock sensor circuit\n• No.1 knock sensor (looseness)\n• ECM\nON | N.A. | ○ | EG–450\n\n• ECM\nON | N.A. | X | EG–450\n\n• Open or short in No.2 knock sensor circuit\n• No.2 knock sensor (looseness)\n• ECM\nON | N.A. | ○ | EG–450\n\n*1, 2: See page EG–396."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "IN-13",
+  "section_header": "INTRODUCTION — PRECAUTION",
+  "title": "Front Passenger Airbag Assembly",
+  "ocr_text": "IN–13\nINTRODUCTION – PRECAUTION\n\n5. When using electric welding, first disconnect the airbag connector (yellow color and 2 pins) under the steering column near the combination switch connector before starting work.\n6. When disposing of a vehicle or the steering wheel pad alone, the airbag should be deployed using an SST before disposal (See page RS–13). Perform the operation in a safe place away from electrical noise.\n\nExample:\nCorrect\nO\nWrong\nX\n\nN01560\nZ13963\n\nExample:\n\nR06842 R06843 R06952\nZ13950\n\nFront Passenger Airbag Assembly\n\n1. Always store a removed or new front passenger airbag assembly with the airbag door facing up. Storing the airbag assembly with the airbag door facing down could cause a serious accident if the airbag inflates.\n2. Never measure the resistance of the airbag squib. (This may cause the airbag deploy, which is very dangerous.)\n3. Grease should not be applied to the front passenger airbag assembly and the airbag door should not be cleaned with detergents of any kind.\n4. Store the airbag assembly where the ambient temperature remains below 93˚C (200˚F), without high humidity and away from electrical noise."
+}

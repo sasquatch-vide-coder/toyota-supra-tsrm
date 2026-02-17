@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-175",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "DTC 13 14 Actuator Position Sensor Circuit",
+  "ocr_text": "BE–175\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nDTC 13 14 Actuator Position Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis circuit detects the rotation position of the actuator control plate and sends a signal to the ECU.\n\nCode No. | Diagnosis | Trouble area\n13 | • Position sensor detects abnormal voltage. | • Cruise control actuator position sensor.\n• Harness or connector between actuator position sensor and body ground.\n• ECU\n14 | • Position sensor signal value does not change when the motor operates. |\n\nWIRING DIAGRAM\n\nCruise Control Actuator\n1\nR-B\n2\nLG-R\n3\nP-G\n\nPosition Sensor\n\n10\nIB6 R-B VR1\n23\n7\nIB6 LG-R VR2\n24\n16\nIB6 P-G VR3\n25\n\nCruise Control ECU\n\nN08431"
+}

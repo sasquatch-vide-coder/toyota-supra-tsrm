@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-182",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "Stop Light Switch Circuit",
+  "ocr_text": "BE–182\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nStop Light Switch Circuit\n\nCIRCUIT DESCRIPTION\nWhen the brake is on, battery voltage normally applies through the stop fuse and stop switch to terminal STP–of\nthe ECU, and the ECU turns the cruise control off.\nA fail–safe function is provided so that cancel functions normally, even if there is a malfunction in the stop light\nsignal circuit.\n(1) If the harness connected to terminal STP–has an open, terminal STP–will have battery positive voltage\nand the cruise control will be turned off, also SET not occurring.\n(2) If the stop fuse is open, terminal STP + becomes approx.\n0 V when the brake is turned on, so the ECU performs cancel function normally.\nAlso, when the brake is on, the magnetic clutch is cut mechanically by the stop light switch, turning the cruise\ncontrol off. (See page BE–173 for operation of the magnetic clutch.)\n\nWIRING DIAGRAM\n\nCruise Control ECU\nBR-B\nL-\n26\n12V\nBR-B\nW\nSTP+\n1\n12V\nStop Light Switch\n2    1\nSTP-\n17 IB6\n8\nR-L 4\n3 B-W\n16\nR-L\nIB6\nL\nG-W 10\n5\n1H\nBR-B\n10\n1C\n4\n7 G-W\nR-W\nR-W\n2\nLight\n3\n3\nFailure\nSensor\nLH\nRH\n5 W-B Stop Light 5 W-B\nNG8439"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-181",
+  "section_header": "ENGINE — EMISSION CONTROL SYSTEMS (2JZ-GTE)",
+  "title": "EGR VACUUM MODULATOR INSPECTION",
+  "ocr_text": "EG–181\nENGINE – EMISSION CONTROL SYSTEMS (2JZ–GTE)\n\nEngine Stopped\nP\nQ\nAir\nP12319\n\nEngine at\n3,500 rpm\nP\nQ\nAir\nP12373\n\nEGR VACUUM MODULATOR INSPECTION\n1. DISCONNECT VACUUM HOSES FROM EGR VACUUM MODULATOR\nDisconnect the 2 vacuum hoses from ports P and Q of the EGR vacuum modulator.\n2. INSPECT EGR VACUUM MODULATOR OPERATION\n(a) Block port P with your finger.\n(b) Blow air into port Q, and check that the air passes through to the air filter side freely.\n(c) Start the engine, and maintain speed at 3,500 rpm.\n(d) Repeat the above test. Check that there is a strong resistance to air flow.\n3. RECONNECT VACUUM HOSES TO EGR VACUUM MODULATOR\nReconnect the 2 vacuum hoses to the proper locations.\n\nP12366\n\nEGR VALVE INSPECTION\n1. REMOVE EGR PIPE\n(a) Loosen the union nut of the EGR pipe.\n(b) Remove the 2 bolts, EGR pipe and gasket.\n2. REMOVE EGR GAS TEMPERATURE SENSOR\n\nDisconnect\n(1)\n(2)\nDisconnect\nP12324\n\n3. REMOVE EGR VALVE\n(a) Disconnect these hoses from the EGR valve:\n(1) Vacuum hose\n(2) Pressure hose\n\nP12325\n\n(b) Remove the 2 nuts, EGR valve and gasket."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-411",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "Check air gap.",
+  "ocr_text": "3  Check air gap.\n\nG1 Pickup\nSST\nG2 Pickup\nNE Pickup\nThickness Gauge\nP10579\nP10580\n\nP  Remove distributor cap & rotor.\n\nC  Using SST (G1 and G2 pickups) and a thickness gauge\n(NE pickup), measure the air gap between the signal ro-\ntor and pickup coil projection.\nSST 09240-00020 for G1 and G2 pickups\n\nOK  Air gap:  0.2 — 0.5 mm (0.008 — 0.020 in.)\n\nOK                    NG  Replace distributor housing assembly\n\nCheck and replace engine control module."
+}

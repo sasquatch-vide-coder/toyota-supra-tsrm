@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-499",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–499\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nTrouble Area | Malfunction Indicator Lamp*1 | Memory*2 | See page\nNormal Mode | Test Mode\n\n• Open or short in injector circuit\n• Fuel line pressure (injector leak, blockage)\n• Mechanical system malfunction (skipping teeth of timing belt)\n• Ignition system\n• Compression pressure (foreign object caught in valve)\n• Mass air flow meter (air intake)\n• ECM\nON | ON | ○ | EG–534\n\n• Open or short in heater circuit of sub heated oxygen sensor.\n• Sub heated oxygen sensor\n• ECM\nON | N.A. |\n○ | EG–540\n\n• Open or short in sub heated oxygen sensor circuit\n• Sub heated oxygen sensor\n• ECM\nON | ON |\n\n• Open or short in mass air flow meter circuit\n• Mass air flow meter\n• ECM\nON | N.A. | ○ | EG–544\n\n• Actuator (for waste gate valve)\n• Short in VSV for waste gate valve circuit\n• ECM\nON | N.A. | ○ | EG–546\n\n• Open or short in turbo pressure sensor circuit\n• Turbo pressure sensor\n• ECM\nON | ON | ○ | EG–549\n\n• ECM\nON | ON | ○ | EG–549\n\n*1, 2: See page EG–502."
+}

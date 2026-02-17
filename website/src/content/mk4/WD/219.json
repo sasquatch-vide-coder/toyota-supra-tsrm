@@ -1,0 +1,6 @@
+{
+  "page_id": "223",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : USA\n*2 : CANADA\n*3 : 2JZ–GTE\n*4 : 2JZ–GE\n\nY\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n7, 5A\nIGN\n10A\nECU-B\n\n8 1E    13 1E\n\nB-O        W-R\n\nT 6\nTELLTALE LIGHT RH\n3        2\n\nSEAT BELT\nREAR LIGHT\nCHRGE\nSRS\n\n16    18    12    15\n\nY-R    V    Y-G    B-Y\n\n5 IE1\n4 1E\n9 1G\n\nY-G\nR-Y\nL-W\n\nTO INTEGRATION RELAY\nTO LIGHT FAILURE SENSOR\nTO CENTER AIRBAG SENSOR ASSEMBLY\n\nY\n\nT 5\nTELLTALE LIGHT LH\n2                              10\n\nOIL LEVEL\nABS\nMALFUNCTION INDICATOR LAMP (CHECK ENGINE)\nOIL\nTRAC OFF\nSECURITY\n\n6    4    3    5    8    9\nL-W  R-Y  L  L-B  Y-B  LG-R (*3)  W-B\n\n12 IF2\n15 II1\n25 II1\n2 IF2\n18 1E\n1 1J\n\nL (*4)\nL (*3)\n\nTO ABS ECU\nTO ABS AND TRACTION ECU\nTO ENGINE CONTROL MODULE (ENGINE ECU)\nTO TRACTION ECU\n\nL-B\n\nY-B\n\nLG-R\n\n1\nO 2\nOIL PRESSURE SW\n\nW-B\n\nIE\n\nFROM THEFT DETERRENT ECU\n\nW-L\n\n223"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-40",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Blinking Light FRS Pressure Switch Circuit",
+  "ocr_text": "AC–40\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBlinking Light FRS Pressure Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nThe pressure switch sends the appropriate signals to the A/C amplifier when the air conditioning refrigerant pressure drops too low or rises too high. When the A/C amplifier receives these signals, it outputs signals via the ECM to switch OFF the compressor relay and turns the magnetic clutch OFF.\n\nDiagnostic Sensor Check Detecting Condition | Trouble Area\n\nOpen in pressure sensor circuit\nAbnormal refrigerant pressure\n  below 196 kPa (2.0 kgf/cm², 28 psi)\n  over 3,140 kPa (32.0 kgf/cm², 455 psi)\n\n• Pressure switch\n• Harness or connector between pressure switch and A/C amplifier\n• Refrigerant pipe line\n• A/C amplifier\n\nWIRING DIAGRAM\n\nA/C Amplifier\n\n12 V\n\nW-B    L-Y  12    L-Y   6   L-Y  14\n#2  o——o  #1   IB6       IF3    A13\n                                    PSW\nPressure Switch\n\nTerminal | 2JZ-GTE | 2JZ-GE\n#1       |    1    |   2\n#2       |    4    |   1\n\nAC2924"
+}

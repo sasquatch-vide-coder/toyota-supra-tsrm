@@ -1,0 +1,6 @@
+{
+  "page_id": "CH-20",
+  "section_header": "CHARGING SYSTEM — SERVICE SPECIFICATIONS",
+  "title": "SERVICE SPECIFICATIONS",
+  "ocr_text": "CH–20\nCHARGING SYSTEM – SERVICE SPECIFICATIONS\n\nSERVICE SPECIFICATIONS\n\nSERVICE DATA\n\nBattery | Voltage (Maintenance–free battery) at 20°C (68°F) | 12.7–12.9 V\nSpecific gravity (Except maintenance–free battery)\nat 20°C(68°F) | 1.27–1.29\n\nGenerator | Rated output\n2JZ–GE | 12 V 90 A\n2JZ–GTE | 12 V 100 A\nRotor coil resistance at 20°C (68°C) | 2.8–3.0 Ω\nSlip ring diameter STD | 14.2–14.4 mm (0.559–0.567 in.)\nMinimum | 12.8 mm (0.504 in.)\nBrush exposed length STD | 10.5 mm (0.413 in.)\nMinimum | 1.5 mm (0.059 in.)\n\nVoltage regulator | Regulating voltage\nat 25°C (77°F) | 13.6–14.8 V\nat 115°C (239°F) | 13.2–14.0 V\n\nTORQUE SPECIFICATIONS\n\nPart tightened | N·m | kgf·cm | ft·lbf\nRectifier end frame X Drive end frame | 4.5 | 46 | 40 in.·lbf\nGenerator pulley X Rotor | 110 | 1,125 | 81\nRectifier holder X Coil lead on rectifier end frame | 2.0 | 20 | 17 in.·lbf\nRear end cover X Rectifier holder | 4.5 | 46 | 40 in.·lbf\nPlate terminal X Rectifier holder | 3.9 | 40 | 35 in.·lbf\nTerminal insulator X Rectifier holder | 6.5 | 66 | 58 in.·lbf\nGenerator X Water pump | 37 | 380 | 27\nGenerator X Cylinder block | 37 | 380 | 27"
+}

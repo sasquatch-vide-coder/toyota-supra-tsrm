@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-107",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "ABS Warning Light Circuit",
+  "ocr_text": "BR–107\n\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nABS Warning Light Circuit\n    CIRCUIT DESCRIPTION\n\nIf the ECU detects trouble, it lights the ABS warning light while at the same time prohibiting ABS control.\nAt this time, the ECU records a diagnostic trouble code in memory.\nAfter removing the short pin of the DLC1, connect terminals Tc and E1 of the DLC1 or DLC2 to make the\nABS warning light to blink and output the diagnostic trouble code.\n\nWIRING DIAGRAM\n\nw/o TRAC\n\nBattery\nABS Control Relay\nJ/B No.1\nABS ECU\n(Motor\nRelay)\n1\n4\n1J\n1E\nGAUGE\n2\nABS\nWarning\nLight\n3\n2\n4\nL\nA9\nW-B\n12\nIF2\n1\n4\nShort Pin\n12 V\n(Solenoid\nRelay)\nA9\nB-R\nEA1\nB-R\nL\n16\nL\n13\nWA\n23\n22\nIJ1\nA18\nDLC1\n2\n5\nABS Actuator\n\nw/ TRAC\n\nBattery\nJ/B No.1\nABS & TRAC ECU\nABS Solenoid\nRelay (R/B No.5)\n1J\n1E\n1\nGAUGE\n2\nABS\nWarning\nLight\n2\n6\nABS & TRAC\n4\nECU\n4\nW-B\nL\n12\nIF2\n3\nShort Pin\n12 V\n5\nB-R\n6\nB-R\nL\n16\nL\n5\nWA\nEA1\n23\n22\nIJ1\nA22\nDLC1\nABS\nActuator\n\nR07066\nR07067"
+}

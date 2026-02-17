@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-74",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "Check ABS motor relay.",
+  "ocr_text": "BR–74\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\n3 Check ABS motor relay.\n\nC Check continuity between each terminal of ABS motor relay shown below.\n\nOK\nTerminals (AB) 3 and (AB) 4 | Continuity (Reference value 62 )\nTerminals (AB) 1 and (AB) 2 | Open\n\nOpen\nA8  A9\nContinuity\n2\n4\n3\n1\n\nContinuity\nA8  A9\n2\n4\n3\n1\n\nC (1) Apply battery voltage between terminals (A8) 3 and (A8) 4.\n(2) Check continuity between each terminal of ABS motor relay shown below.\n\nOK\nTerminals (AB) 1 and (AB) 2 | Continuity\n\nBE1840\nR00894\nR00893\n\nOK                    NG > Replace ABS control relay.\n\n4 Check for open and short in harness and connector between ABS motor relay and ABS ECU (See page IN–30).\n\nOK                    NG > Repair or replace harness or connector.\n\nIf the same code is still output after the diagnostic trouble code is deleted, check the contact condition of each connection.\nIf the connections are normal, the ECU may be defective."
+}

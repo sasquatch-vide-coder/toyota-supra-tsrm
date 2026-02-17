@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-412",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "DTC 13 G NE Signal Circuit (No.2)",
+  "ocr_text": "EG–412\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nDTC 13 G NE Signal Circuit (No.2)\n\nCIRCUIT DESCRIPTION\nSee G, NE signal circuit (No. 1) on page EG–409.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble Area\n\n13\nNo NE signal to ECM for 0.1 sec. or more at 1,000 rpm or more\nNE signal does not pulse 12 times to ECM during the interval between G1 and G2 pulses\n• Open or short in NE circuit\n• Distributor\n• ECM\n\nDIAGNOSIS\n\nThis code indicates that a intermittent problems of the G, NE signal from the distributor to the ECM has occurred, but that it has returned to normal. Note that although this problem may not necessarily appear at the time of inspection, it cannot be ignored because this diagnostic trouble code is output, indicating that there is or was a malfunction in the G, NE signal circuit; this \"malfunction\" is usually a loose connector.\nThe distributor connector and the NE terminal of the ECM connector must therefore be checked for the following:\n1. Loose connectors\n2. Dirty connector terminals\n3. Loose connector terminals"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-22",
+  "section_header": "BODY ELECTRICAL SYSTEM — TURN SIGNAL AND HAZARD WARNING SYSTEM",
+  "title": "HAZARD WARNING SWITCH INSPECTION",
+  "ocr_text": "BE–22\nBODY ELECTRICAL SYSTEM – TURN SIGNAL AND HAZARD WARNING SYSTEM\n\nHAZARD WARNING SWITCH INSPECTION\n\nINSPECT SWITCH CONTINUITY\n\nCondition | Tester connection to terminal number | Specified condition\nSwitch OFF | 7–10 | Continuity\nSwitch ON | 7–8\n4–5–6–9 | Continuity\nIllumination circuit | 2–3 | Continuity\n\nIf continuity is not as specified, replace the switch.\n\nN08901 #-10-2\nZ09334\n\nTURN SIGNAL FLASHER INSPECTION\n\nINSPECT FLASHER OPERATION\n(a) Connect the terminal 2 to battery positive (+) terminal and the terminal 3 to battery negative (–) terminal.\n(b) Connect the 2 turn signal light bulbs parallel to each other to terminals 1 and 3, check that the bulbs flash.\nHINT: The turn signal lights should flash between 60 and 120 times per minute.\n\nTurn Signal Light Bulbs (21W)\nBE1843"
+}

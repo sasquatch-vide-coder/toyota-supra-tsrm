@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-155",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "DTC 51 Engine Malfunction Detection Circuit",
+  "ocr_text": "BR–155\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nDTC 51 Engine Malfunction Detection Circuit\n\nCIRCUIT DESCRIPTION\nIf trouble in the engine control system causes the malfunction indicator light to light up, this information is transmitted from the ECM to the TRAC ECU. The TRAC ECU may prohibit TRAC control as a result.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n51 | Conditions (1) and (2) continue for more than 1 sec.:\n(1) Engine speed: 500 rpm or more\n(2) Malfunction information is input from the ECM. | Engine control system\n\nINSPECTION PROCEDURE\n\n1 Check the diagnostic trouble code for the engine (See page EG–491).\n\nMalfunction indicator light remains ON. | Output NG code | Repair engine control system according to the code output.\n\nCheck for short in all the harness and ECU connected to malfunction indicator light."
+}

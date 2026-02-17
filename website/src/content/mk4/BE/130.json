@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-130",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Starter Relay Circuit",
+  "ocr_text": "BE–130\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nStarter Relay Circuit\n\nCIRCUIT DESCRIPTION\n\nWhen the theft deterrent system is activated, contact (a) in the ECU becomes open, creating an open circuit in terminal ST circuit and making the starter inoperative (starter cut).\nIn this condition, if one of the following operations is done, the contact (a) in the ECU is grounded, thus cancelling the starter cut:\n(1) The front LH and RH door is unlocked with a key.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\n13\nLJ2\nBW6\nB\nB\n(A/T)\nR/B No. 2\nB\nB-W\nB-W\nL-O\nL-O\n10\nIF2\nSRLY\n25\nEA1\n(M/T)\n2\n2\n1\n1\nMAIN 3\n2\nB\nStarter Relay\n8\n4\n1K\nJ/B No. 1\nST\n6\n1J\nB-W\n8\n7\nW\n4\n4\n1J\n1B\nW\nJ/B No. 1\n1\nEA2 2JZ-GTE\n2\nEA3 2JZ-GE\nIgnition\nSwitch\n2\nAM1\n2\n2\nALT\n2\nB\nS2\n1\nS3\nB\n∞\nB\n6\nIB2 : 2JZ-GE\n*1\n8\nIB3 : 2JZ-GTE\nBattery\n\nN12776"
+}

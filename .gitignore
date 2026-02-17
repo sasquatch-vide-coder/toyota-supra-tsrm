@@ -9,6 +9,7 @@ data/*/raw/
 data/*/diagrams/
 data/*/processed/
 data/*/forum/
+data/*/pdfs/
 
 # Python
 __pycache__/

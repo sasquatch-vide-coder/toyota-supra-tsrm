@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-582",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "EG–582\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check EFI No.1 Fuse.\n\nEFI No.1 Fuse    R/B No.2\n\nN08419\n\nP  Remove EFI No.1 fuse from R/B No.2.\n\nC  Check continuity of EFI No.1 fuse.\n\nOK  Continuity\n\nOK\n\nNG  Check for short in the harness and all the components connected to EFI No.1 fuse (See attached wiring diagram).\n\n2 Check voltage between terminal BATT of engine control module connector and body ground.\n\nLOCK\nSST\nECM\n\nA 33\n\nBATT\n\nBE6653\nFI6490\n\nP  Connect SST (check harness \"A\").\nSee page EG–510)\nSST 09990–01000\n\nC  Measure voltage between terminal BATT of engine control module connector and body ground.\n\nOK  Voltage: 9 — 14 V\n\nOK\n\nNG  Check and repair harness or connector between engine control module and EFI No.1 fuse, EFI No.1 fuse and battery.\n\n3 Are the diagnostic trouble codes still in the memory when the ignition switch is turned OFF?\n\nYES\n\nNO  Check and replace engine control module.\n\nProceed to next circuit inspection shown on matrix chart (See page EG–514)."
+}

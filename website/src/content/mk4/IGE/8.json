@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-8",
+  "section_header": "IGNITION SYSTEM — (2JZ-GE)",
+  "title": "IGNITER INSPECTION",
+  "ocr_text": "IG–8\nIGNITION SYSTEM – (2JZ–GE)\n\nG1 Pickup\nSST\nG2 Pickup\nNE Pickup\nFeeler Gauge\nP10579\nP10580\n207020\n\n3. INSPECT AIR GAP\nUsing SST (G1 and G2 pickups) and a feeler gauge (NE pick-\nup), measure the air gap between the signal rotor and pickup\ncoil projection.\nSST 09240–00020 for G1 and G2 pickups\nAir gap:\n0.2–0.5 mm (0.008–0.020 in.)\nIf the air gap is not as specified, replace the distributor hous-\ning assembly.\n4. DISCONNECT DISTRIBUTOR CONNECTOR\n\nOhmmeter\nNE\nG1\nG2\nG⊖\nP10581\n\n5. INSPECT SIGNAL GENERATOR (PICKUP COIL)\nRESISTANCE\nUsing an ohmmeter, measure the resistance between termi-\nnals.\nPickup coil resistance:\nCold\nG1 and G⊖\n125 – 200 Ω\nG2 and G⊖\n125 – 200 Ω\nNE and G⊖\n155 – 250 Ω\nHot\nG1 and G⊖\n160 – 235 Ω\nG2 and G⊖\n160 – 235 Ω\nNE and G⊖\n190 – 290 Ω\nIf the resistance is not as specified, replace the distributor\nhousing assembly.\n6. RECONNECT DISTRIBUTOR CONNECTOR\n7. REINSTALL ROTOR\n8. REINSTALL DISTRIBUTOR CAP\n\nIGNITER INSPECTION\n\n(See procedure Spark Test on page IG–4)"
+}

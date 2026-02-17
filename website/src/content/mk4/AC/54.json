@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-54",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "IG Power Source Circuit",
+  "ocr_text": "AC–54\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nIG Power Source Circuit\nCIRCUIT DESCRIPTION\n\nThis is the power source for the A/C amplifier and servo motors, etc.\n\nWIRING DIAGRAM\n\nJ/B No.1\n4\n1J\nW\n7\n4 B-Y\nJ/B No.1\n5\n1J\nHTR\n2\n1K\nR-L\nA/C Amplifier\n\n4\n1B\n\nR/B No.2\nW\n2\nAM1\n2\n\n10 IF1\n\nR/B No.2\nB\n1\n2A\nALT\n2\n\nR-L\n8\nA14\nIG +\n\nW\n\nJ1\nA\nA\n9\nA14\nGND\n\nBattery\nJunction\nConnector\n\nN13034\n\nINSPECTION PROCEDURE\n\nCheck voltage between terminals IG and GND of A/C amplifier connector.\n\nON\nConnect\n\nIG GND\n\nBE3840\nN08811\n\nP\nRemove the A/C amplifier with connector still connected\n\nC\n1. Turn ignition switch ON.\n2. Measure voltage between terminals IG and GND of A/C amplifier.\n\nOK Voltage: Battery positive voltage\n\nNG\n\nOK Proceed to next circuit inspection shown on matrix chart (See page AC–26).\n\nGo to step ."
+}

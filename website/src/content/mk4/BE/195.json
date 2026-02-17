@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-195",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "Back up Power Source Circuit",
+  "ocr_text": "BE-195\n\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nBack up Power Source Circuit\n\nCIRCUIT DESCRIPTION\n\nThe ECU back–up power source provides power even when the ignition switch is off and is used for diagnostic code memory, etc.\n\nWIRING DIAGRAM\n\nALT\n2A\n2\nW\nPOWER\n2\n2\nW-L\n2\n1B\n8\n1H\nCruise Control\nECU\nBATT\nW-R\n15\nR/B No.2\nR/B No.2\nB\nBattery\n\nN12782"
+}

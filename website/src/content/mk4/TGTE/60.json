@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-546",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "DTC 34 Turbo Pressure Malfunction",
+  "ocr_text": "EG–546\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nDTC 34 Turbo Pressure Malfunction\n\nCIRCUIT DESCRIPTION\n\nTo control maximum turbocharging pressure the turbocharger system includes a waste gate valve controlled by an actuator. The actuator is controlled by the manifold pressure which is duty controlled by the VSV based on signals from the ECM.\nIf the ECM detects the below diagnosis conditions, it operates the fail safe function in which the ECM stops fuel injection.\n\nECM\nVSV for Waste Gate Valve\nWaste Gate Valve\nAir Cleaner\nActuator\n\nFI6974\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble Area\n\n34\nAll conditions below are detected continuously for 2 sec. or more:\n(a) Manifold absolute pressure:\n200 kPa (2.0 kgf/cm², 29 psi) or more\n(b) Throttle valve opening angle:\n20° or more\n(c) Engine speed: 2,400 rpm or more\n• Actuator (for waste gate valve)\n• Short in VSV for waste gate valve circuit\n• ECM"
+}

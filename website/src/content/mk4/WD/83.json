@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-85",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : CALIFORNIA\n*2 : EXCEPT CALIFORNIA\n*3 : ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU\n\nB-O\n\nI20\n\nB-O\n\n9\nIJ1\n\nB-O\n\nE28\n\nB-O\n\nB-W\n\nBR\n\nTO COMBINATION\nMETER\n\nB-O\n\n3 IJ\n\n7.5A\nIGN\n\n8 IE\n\nB-O\n\n13 II1\n\nB-W\n\n29 II1\n\nB-W\n\nE28\n\nB-O\n\nFROM IGNITION\nCOIL\n\nB-W (A*1)\n\nB-Y\n\nGR\n\nGR\n\nB-Y\n\nB-W\n(A/T)\n\nB-O\n\n1 A\n\n24 A  M-REL\n\n33 A  BATT\n\n76 B  NSW\n\nIGSW\n\nB-W\n\n4\nEXT\n\nB-R\n\nC-\n\n3\n+B\n\nI 4\nIGNITER\n\nIGT\n\nIGF\n\nR-W\n\n2\n\nR-Y\n\n57 B  IGT\n\n58 B  IGF\n\nE 9 B  E10 A\nENGINE CONTROL MODULE\n(*3)\n\nB-R\n\nFPC\n\n22 A\n\nDI\n21 A\n\n77 B\n\nSTA\n31 A\n\nEGR\n75 B\n\nL-R\n\n8 IJ1\n\nB-W\n\nL-R\n\nV-W\n\nG\n\nB\n\nP\n1\nV 2\nVSV (FOR EGR)\n2\n\nB-R\n\nHT3\n36 A\n\nOX3\n30 A\n\nBR-W (*1)\n\nR-L (*1)\n\n(SHIELDED)\n\n5 IJ2\n\n14 IJ2\n\n4 IJ2\n\nBR-W (*1)\n\nR-L (*1)\n\n(SHIELDED)\n\n4 IC1\n\n12 IC1\n\n9 IC1\n\n10 IC1\n\nBR-W (*1)\n\nR-L (*1)\n\n(SHIELDED)\n\n2\n+B\n\n1\nHT\n\n3\nOX\n\nE1\n\n4\n\nS16\nSUB HEATED OXYGEN SENSOR\n(FOR CALIFORNIA)\n\nE25\n\nB-R\n\nE25\n\nB-R\n\nE26\n\nB-R\n\n20\nIJ1\n(*1)\n\nB-R (*1)\n\nB-R (*1)\n\n(*1) BR\n\nB-W\n\nL-R\n\nBR\n\nED\n\nV-W\nG\nB\n\n85"
+}

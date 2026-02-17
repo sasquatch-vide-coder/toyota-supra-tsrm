@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-178",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "BE–178\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nWIRING DIAGRAM\n\nCruise Control\nECU\n⊕ 12 V\n\nTelltail Light RH\n\n5\nL-R\nOD & TRIP\nMETER CIRCUIT\n6 P\n5\nIF2 << P SPD\n20\n\n2 II1\n\nL-R\n3\n\nVehicle Speed Sensor\n\nNC9786\n\nINSPECTION PROCEDURE\n\n1 Input signal check.\n\nVehicle speed | Indicator light blinking pattern\n\nAbove 40 km/h\n(25 mph)\nON Blinks\nOFF\n0.25 sec 0.25 sec\n\nBelow 40 km/h\n(25 mph)\nON Stays ON\nOFF\n\nBE4006\n\nC (1) See input signal check on page BE–169.\n(2) Check indicator light operation when driving with\nvehicle speed above 40 km/h (25 mph), and with\nvehicle speed below 40 km/h (25 mph).\n\nOK Vehicle speed above 40 km/h (25 mph):\nIndicator light blinks\nVehicle speed below 40 km/h (25 mph):\nIndicator light stays on\n\nNG OK Proceed to next circuit inspection shown on\nmatrix chart (See page BE–170).\n\n2 Check speedometer circuit (See combination meter troubleshooting on\npage BE–41).\n\nOK NG Repair or replace speed sensor, harness,\nconnector or combination meter assembly.\n\nCheck harness and connector for loose connection.\nIf connection is normal, check and replace ECU."
+}

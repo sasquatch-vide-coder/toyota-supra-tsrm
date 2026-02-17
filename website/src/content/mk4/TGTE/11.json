@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-497",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–497\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nTrouble Area | Malfunction Indicator Lamp*1 | Memory*2 | See page\nNormal Mode | Test Mode\n\n• Open or short in heater circuit of main heated oxygen sensor\n• Main heated oxygen sensor heater\n• ECM\nON | N.A.\n\n• Main heated oxygen sensor circuit\n• Main heated oxygen sensor\nON | ON | ○ | EG–525\n\n• Open or short in engine coolant temp. sensor circuit\n• Engine coolant temp. sensor\n• ECM\nON | ON | ○ | EG–530\n\n• Open or short in intake air temp. sensor circuit\n• Intake air temp. sensor\n• ECM\nON | ON | ○ | EG–532\n\n• Open or short in Main heated oxygen sensor circuit\n• Main heated oxygen sensor\n• Ignition system\n• ECM\n\n• Onen or short in injector circuit\n• Fuel line pressure (injector leak, blockage)\n• Mechanical system malfunction (skipping teeth of timing belt)\n• Ignition system\n• Compression pressure (foreign object caught in valve)\n• Mass air flow meter (air intake)\n• ECM\nON | ON | ○ | EG–534\n\n*1, 2: See page EG–502"
+}

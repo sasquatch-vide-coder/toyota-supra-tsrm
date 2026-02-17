@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-96",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "CASSETTE TAPE CANNOT BE INSERTED",
+  "ocr_text": "BE–96\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n9    Tape Player         CASSETTE TAPE CANNOT BE INSERTED\n\nW  : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nIs there a foreign object inside tape player?\nYes → Remove foreign object.\nNo\n↓\nIs auto search button of radio operating normally?\nYes → Radio assembly faulty.\nNo\n↓\nCheck if RAD No. 1 fuse is OK?\nNG → Replace fuse.\nOK\n↓\n                              W\n                    Is +B applied to power amplifier?\n                    No → +B wire harness faulty.\n                    Yes\n                    ↓\n                    Check if GND (wire harness side) to power amplifier faulty.\n                    NG → GND faulty.\n                    OK\nWO ↙\n↓\nIs +B applied to radio assembly?\nNo → WO  +B wire harness faulty.\n         W   Power amplifier faulty.\nYes\n↓\nCheck if GND (wire harness side) to power amplifier faulty.\nNG → WO  GND faulty.\n        W   Power amplifier faulty.\nOK\n↓\nRadio assembly faulty."
+}

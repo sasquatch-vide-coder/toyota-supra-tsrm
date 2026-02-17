@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-142",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Luggage Compartment Door Key Lock and Unlock Switch Circuit",
+  "ocr_text": "BE–142\n\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nLuggage Compartment Door Key Lock and Unlock Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nThe luggage compartment door key lock and unlock switch goes on when the back door key cylinder is turned to the unlock side with the key.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\n12 V\n\nLuggage Compartment Door\nKey Lock and Unlock Switch\n\n2  1  L\n\n4\nIE1  L  LUG\n9\n\nW-B\n\nBJ\n\nN08551"
+}

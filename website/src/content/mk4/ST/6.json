@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-6",
+  "section_header": "STARTING SYSTEM — STARTER",
+  "title": "STARTER INSPECTION AND REPAIR",
+  "ocr_text": "ST–6\nSTARTING SYSTEM – STARTER\n\n(b) Remove these parts from the magnetic switch:\n(1) Starter housing\n(2) Return spring\n(3) Idler gear\n(4) Bearing\n(5) Clutch assembly\n\n4. REMOVE STEEL BALL\nUsing a magnetic finger, remove the steel ball from the clutch shaft hole.\n\nMagnetic Finger\n\n5. REMOVE BRUSH HOLDER\n(a) Remove the 2 screws, 2 O–rings and end cover from the field frame.\nASSEMBLY HINT: Use 2 new O–rings.\nTorque: 1.5 N·m (15 kgf·cm, 13 in.·lbf)\n(b) Remove the O–ring from the field frame.\nASSEMBLY HINT: Use a new O–ring.\n\n(c) Using a screwdriver, hold the spring back and disconnect the brush from the brush holder. Disconnect the 4 brushes, and remove the brush holder.\nASSEMBLY NOTICE: Check that the positive (+) lead wires are not grounded.\n6. REMOVE ARMATURE FROM FIELD FRAME\n\nSTARTER INSPECTION AND REPAIR\nArmature Coil\n1. INSPECT COMMUTATOR FOR OPEN CIRCUIT\nUsing an ohmmeter, check that there is continuity between the segments of the commutator.\nIf there is no continuity between any segment, replace the armature.\n\nOhmmeter\nContinuity"
+}

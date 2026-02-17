@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-529",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION USING OSCILLOSCOPE",
+  "ocr_text": "Reference\n\nINSPECTION USING OSCILLOSCOPE\n\nOx Signal Waveform\n\n1 V\n\n0 V\n\n200 msec./Division\n\n• With the engine racing (4,000 rpm) measure\nwaveform between terminals OX1 and E1 of\nengine control module.\nHINT: The correct waveform is as shown oscillating\nbetween approx. 0.1 V and 0.9 V\n\n1 V\n\n0 V\n\n200 msec./Division\n\nIf the oxygen sensor has deteriorated, the amplitude of the\nvoltage will be reduced as shown on the left.\n\nFI8514\nFI8515"
+}

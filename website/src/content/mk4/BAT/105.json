@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-105",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "Stop Light Switch Circuit",
+  "ocr_text": "BR–105\n\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nStop Light Switch Circuit\n\nCIRCUIT DESCRIPTION\nThe stop light switch senses whether the brake pedal is depressed or released, and spends a signal\nto the ECU.\n\nWIRING DIAGRAM\n\nW-L\nJ/B No.1\n1B STOP 1I W 2 1 G-W 6 6 STP ABS (& TRAC) ECU\n(w/o TRAC)\n(w/ TRAC)\nA18 A22\n\nR/B\nNo.2\nPOWER\n\nStop\nLight\nSwitch\n1H\n\nALT\n1C\n10\n7\nLight\nFailure\nSensor\nB\n2\nBattery\nStop Light\n\nR07065"
+}

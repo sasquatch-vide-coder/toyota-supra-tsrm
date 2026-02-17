@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-10",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — OPERATION",
+  "title": "ARRANGEMENT OF COMPONENTS",
+  "ocr_text": "AT1–10\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – OPERATION\n\nARRANGEMENT OF COMPONENTS\n\nThrottle Position Sensor\nECM\nO/D Main Switch\nCamshaft Position\nSensor\nEngine Coolant Temp. Sensor\nCruise Control ECU\nPattern Select Switch\nKick-down Switch\nStop Light Switch\nNo. 1 Vehicle Speed Sensor\nNo. 2 Vehicle Speed Sensor\nNo. 2 Solenoid Valve\nNo. 1 Solenoid Valve\nLock-up Solenoid Valve\nPark/Neutral Position Switch\nA/T Fluid Temp. Sensor\n\n004300\n\nNo. | Components | Function\n1 | Pattern Select Switch | Selects the Manual mode or the Normal mode for shift and lock–up timing.\n2 | Crankshaft Position Sensor | Detects the engine speed.\n3 | Park/Neutral Position Switch | Detects the shift lever position.\n4 | Stop Light Switch | Detects if the brake pedal is depressed.\n5 | Throttle Position Sensor | Detects the throttle valve opening angle.\n6 | O/D Main Switch | Prevents up–shift to the O/D gear if the O/D main switch is off.\n7 | Cruise Control ECU | This ECU prevents the transmission from shifting into O/D and prohibits lock–up control when the vehicle's speed drops below the cruise control set speed parameter."
+}

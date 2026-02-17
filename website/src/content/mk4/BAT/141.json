@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-141",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "Check sensor rotor and sensor installation.",
+  "ocr_text": "BR–141\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\n4   Check sensor rotor and sensor installation.\n\nFront\n\nFront\nP   Remove front speed sensor rotor\n    (See page SA–15).\n\nC   Check sensor rotor serrations.\n\nOK  No scratches or missing teeth.\n\nC   Check the front speed sensor installation.\n\nOK  The installation bolt is tightened properly.\n\nRear\n\nRear\nP   Remove the drive shaft (See page SA–45).\n\nC   Check the sensor rotor serrations.\n\nOK  No scratches or missing teeth.\n\nC   Check the rear speed sensor installation.\n\nOK  The installation bolt is tightened properly and\n    there is no clearance between the sensor and rear\n    axle carrier.\n\nOK                    NG\n\nBR3719\nBR3720\nBR3795\n\nOK          NG  Replace speed sensor or rotor.\n\nNOTICE: Check the speed sensor signal last (See page BR–62).\n\nCheck and replace ABS (& TRAC) ECU."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-297",
+  "section_header": "ENGINE – SFI SYSTEM (2JZ-GTE)",
+  "title": "IAC VALVE REMOVAL",
+  "ocr_text": "EG–297\nENGINE – SFI SYSTEM (2JZ–GTE)\n\nIAC VALVE REMOVAL\n1. DRAIN ENGINE COOLANT\n2. DISCONNECT IAC VAVE CONNECTOR\n3. REMOVE IAC VALVE\n(a) Remove the 2 bolts, and disconnect the IAC valve from the air intake chamber.\n(b) Remove the gasket.\n\nConnector\nP11386\n\n(c) Disconnect these hoses from the IAC valve, and remove the IAC valve:\n(1) Air hose\n(2) Water bypass hose (from No.2 water bypass pipe)\n(3) Water bypass hose (from No.4 water bypass pipe)\n\n(2)\n(1)\n(3)\nP11418\n\n(d) Remove the seal washer and check valve.\n\nCheck Valve\nSeal Washer\nP12820\n\nIAC VALVE INSPECTION\nINSPECT IAC VALVE OPERATION\n(a) Apply battery voltage to terminals B1 and B2, and while repeatedly grounding S1–S2–S3–S4–S 1 in sequence, and check that the valve moves toward the closed position.\n\nClosed\nB1\nS3\nS1\nS4\nS2\nB2\nBattery\nP11389\n\n(b) Apply battery voltage to terminals B1 and B2, and while repeatedly grounding S4–S3–S2–S1–S 4 in sequence, check that the valve moves toward the open position.\nIf operation is not as specified, replace the IAC valve.\n\nOpen\nB1\nS3\nS1\nS4\nS2\nB2\nBattery\nP11386"
+}

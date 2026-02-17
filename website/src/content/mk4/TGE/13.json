@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-393",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–393\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nTrouble Area | Malfunction Indicator Lamp*1 | Memory*2 | See page\nNormal Mode | Test Mode\n\n• Open or short in injector circuit\n• Fuel line pressure (injector leak, blockage)\n• Mechanical system malfunction (skipping teeth of timing belt)\n• Ignition system\n• Compression pressure (foreign object caught in valve)\n• Volume air flow meter (air intake)\n• ECM\nON | ON | ○ | EG–428\n\n• Open or short in injector circuit\n• Fuel line pressure (injector leak, blockage)\n• Mechanical system malfunction (skipping teeth of timing belt)\n• Ignition system\n• Compression pressure (foreign object caught in valve)\n• Volume air flow meter (air intake)\n• ECM\n\n• Open or short in heater circuit of sub heated oxygen sensor\n• Sub heated oxygen sensor\n• ECM\nON | N.A.\n\n• Open or short in sub heated oxygen sensor circuit\n• Sub heated oxygen sensor\n• ECM\nON | ON | ○ | EG–434\n\n• Open or short in heater circuit of main heated oxygen sensor (Rr)\n• Main heated oxygen sensor (Rr) heater\n• ECM\nON | N.A.\n\n• (Main heated*3) oxygen sensor (Rr) circuit\n• (Main heated*3) oxygen sensor (Rr)\nON | ON | ○ | EG–419\n\n*1, 2, 3: See page EG–396."
+}

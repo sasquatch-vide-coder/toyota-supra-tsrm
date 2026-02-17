@@ -1,0 +1,6 @@
+{
+  "page_id": "EL-21",
+  "section_header": "J/B No. 1 Inner Circuit",
+  "title": "[J/B No. 1 Inner Circuit]",
+  "ocr_text": "[J/B No. 1 Inner Circuit]\n\n1B  2\n1B  4\n\n10A ECU-B\n15A STOP\n\n1A  1\n1A  4\n1A  7\n1A  5\n\n1J  5\n1J  8\n1J  3\n1J  6\n\n30A DOOR  *1\n\n10A MIR-HTR\n\n1A  3\n1B  5\n\n7.5A IGN\n7.5A ST\n\n30A DEFOG\n*2\n\n10A TAIL\n10A PANEL\n\nDIODE\n\n1I  7\n1J  4\n1H  5\n1H  1\n1K  2\n\n20A WIPER\n15A SEAT-HTR\n10A GAUGE\n7.5A TURN\n10A ECU-IG\n7.5A HTR\n\n1I  9\n1K  13\n1K  11\n1J  10\n1H  11\n1H  7\n1H  16\n1H  12\n1I  3\n\n15A CIG\n7.5A RAD No. 2\n\n1C  7\n1G  16\n1G  2\n1G  4\n1C  3\n1C  10\n\n1C  6\n\n1K  7\n1H  9\n\n1C  1\n\n1C  12\n\n1H  15\n1I  14\n1I  3\n1K  12\n1H  8\n1H  4\n1J  1\n1J  16\n1J  2\n1I  1\n1I  6\n1D  15\n1K  5\n1K  6\n1H  13\n1K  4\n1G  3\n1G  4\n1G  7\n\n1D  1\n1D  10\n\n1D  9\n1G  6\n1D  2\n\n1E  6\n\nIntegration\nRelay\n\n5  2  12  1  8  3\n4\n6\n7\n11\n\n1G  6\n1G  10\n\n1G  9\n1F  6\n1D  4\n1F  2\n1F  8\n\n1E  4\n1E  3\n1E  17\n\n1E  11\n1E  8\n\n1E  1\n1E  19\n1E  14\n\n1E  12\n1E  13\n1E  7\n1E  2\n1E  9\n1E  10\n1E  18\n\n*1: Power Main Relay\n*2: Taillight Relay\n\n21"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-389",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–389\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nIf a malfunction code is displayed during the diagnostic trouble code check in test mode, check the circuit for that code listed in the table below (Proceed to the page given for that circuit).\n\nTrouble Area | Malfunction Indicator Lamp*1 | Memory*2 | See page\nNormal Mode | Test Mode\n\n• Open or short in NE, G circuit\n• Distributor\n• Open or short in STA circuit\n• ECM\nON | N.A. | ○ | EG–409\n\n• Open or short in NE circuit\n• Distributor\n• ECM\nON | N.A.\n○ | EG–412\n\n• Open or short in NE circuit\n• Distributor\n• ECM\nN.A. | ON\n\n• Open or short in IGT or IGT circuit from igniter to ECM\n• Igniter\n• ECM\nON | N.A. | ○ | EG–413\n\n• ECM\nON | N.A. | × | EG–418\n\n• Open or short in heater circuit of main heated oxygen sensor (Fr)\n• Main heated oxygen sensor (Fr) heater\n• ECM\nON | N.A.\n\n○ | EG–419\n\n• (Main heated*3) oxygen sensor (Fr) circuit\n• (Main heated*3) oxygen sensor (Fr)\nON | ON\n\n*1, 2, 3: See page EG–396"
+}

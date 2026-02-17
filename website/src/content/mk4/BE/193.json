@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-193",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "ECU Power Source Circuit",
+  "ocr_text": "BE–193\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nECU Power Source Circuit\n\nCIRCUIT DESCRIPTION\n\nThe ECU power source supplies power to the actuator and sensors, etc. Terminal GND and the cruise control ECU case are grounded.\n\nWIRING DIAGRAM\n\nIgnition Switch\nJ/B No.1  ECU-IG\nCruise Control ECU\n\n4    4\n1B ←→ 1J    W    B-Y    5    9    B-R    B\n7    4    1J ←→ 1I    14\n\nAM1\n2\n2\n\nALT\n2\n2A\n\nBattery\n\n1    13\n1J ←→ 1H    W-B    GND\n13\n\nW-B\n\nN12781\n\nINSPECTION PROCEDURE\n\n1    Check ECU–IG fuse.\n\nJ/B No.1\nECU-IG Fuse\n\nN08843\n\nP    Remove ECU–IG fuse from J/B No.1.\n\nOK    Check continuity of ECU–IG fuse.\n\nOK    Continuity\n\nOK\n\nNG    Check for short in all the harness and components connected to the ECU–IG fuse (See attached wiring diagram)."
+}

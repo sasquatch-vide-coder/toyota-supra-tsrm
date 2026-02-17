@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-89",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "BR-89\n\nBRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)\n\nWIRING DIAGRAM\n\nRight Front\nSpeed Sensor\n\nLeft Front\nSpeed Sensor\n\nRight Rear\nSpeed Sensor\n\nLeft Rear\nSpeed Sensor\n\n2\nR\n1\nR\n16 12  FR+\nA19 A23\nL\nIB5\nL\n3  4  FR-\nA19 A20\n3\nIB5\nBR-B 10  FSS (w/o TRAC)\nw/o TRAC  IB5  w/ TRAC  IB2\nA19\n2\nW\n5\nIB5 IB2\nW\n9  5  FL+\nA18 A23\nB\n5\nIB5 IB2\nB\n22 18  FL-\nA18 A20\n1\n8  2  RR+\nA18 A21\n2\nP\n16 10  RR-\nA18 A20\nBR-W 7  RSS (w/o TRAC)\nA18\n1\nV\n4\nIC2\nV\n9  9  RL+\nA18 A23\nLG\n5\nIC2\nLG\n1  1  RL-\nA18 A23\n2\n8\nIC2\nV-Y  12  R- (w/ TRAC)\nA20\n\n(w/o TRAC)\n(w/ TRAC)\n\nABS (& TRAC) ECU\n5V\n\nFSS (w/o TRAC)\nRSS (w/o TRAC)\nR- (w/ TRAC)\n\nR07087"
+}

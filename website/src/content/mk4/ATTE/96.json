@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-96",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AT2–96\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check harness and connector between ECM and TRAC ECU (See page IN–30).\n\nOK                              NG    Repair or replace harness or connector.\n\n2 Check diagnostic trouble code of TRAC ECU (See page BR–128).\n\nOK                              NG    Substitute another TRAC ECU.\n\nIf the same code is still output after the diagnostic trouble code is deleted, check the contact condition of each connection.\nIf the connections are normal, the TRAC ECU may be defective."
+}

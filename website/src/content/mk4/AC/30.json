@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-30",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Blinking Light B L Ambient Temperature Sensor Circuit",
+  "ocr_text": "AC–30\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBlinking Light B L Ambient Temperature Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis sensor detects the ambient temperature and sends the appropriate signals to the A/C amplifier.\n\nDiagnostic Sensor Check Detecting Condition | Trouble Area\n\nOpen or short in ambient temperature sensor circuit. | • Ambient temperature sensor\n• Harness or connector between ambient tempera–\nture sensor and A/C amplifier\n• A/C amplifier\n\nWIRING DIAGRAM\n\nA/C Amplifier\n\n5 V\n\nP-B  11  P-B  7  P-B  6\nIB6  IF3  A13  TAM\n\n2\nAmbient Temp. Sensor\n\n1\nV-W  3  V-W  8  V-W  9\nIB6  IF3  A13  SG\n\nN08814"
+}

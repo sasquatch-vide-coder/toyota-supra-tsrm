@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-553",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "ENGINE — 2JZ–GTE ENGINE TROUBLESHOOTING\nEG–553\n\nWIRING DIAGRAM\n\nEngine Control Module\n⊕ 5 V\n\nThrottle Position Sensor\n1    L-R\n41\nE9  VCC\n⊕ B+\n2    Y\n43\nE9  VTA1\n3    R\n64\nE9  IDL1\n4    BR-B\n65\nE9  E2\n↓ E1\n\nSub-Throttle Position Sensor\n4    L-R\n⊕ 5 V\n⊕ B+\n3    Y-L\n42\nE9  VTA2\n2    GR-R\n63\nE9  IDL2\n1    BR-B\n↓ E1\n\nFi6879"
+}

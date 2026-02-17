@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-159",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE-159\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1  Check door key lock and unlock switch.\n\nP  (1)  Remove the door trim and service hole cover.\n    (2)  Disconnect the door key lock and unlock switch connector.\n\nC  Check continuity between terminals 1, 2 and 3 of door key lock and unlock switch connector, when door key lock and unlock switch is turned to the lock side, unlock side and not turned.\n\nOK                                          O—O Continuity\n\nTerminal          1     2     3\nSwitch position\nLock side                   O——O\nUnlock side         O——O\nOFF\n\nN08675\n\nOK          NG  Replace door key lock and unlock switch.\n\n2  Check harness and connectors between ECU and switch, switch and body ground (See page IN–30).\n\nOK          NG  Repair or replace harness or connector.\n\nProceed to next circuit inspection shown on matrix chart (See page BE–123)."
+}

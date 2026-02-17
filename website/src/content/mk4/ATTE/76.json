@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-76",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "AT2–76\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nNo.2 R/B\nEFI No.2\n\nNo.2 R/B\nEFI No.2 Relay\nB-O\n2  3  o  o  5  2\nFuel Pump\nECU\nECM ←  1  ↓↓↓  2  2\n\nW-B → Body\nGround\n\nECM\n\nEFI MAIN Relay\nECM ←  1  ↓↓↓  2  2\n\nNo.2 R/B\nEFI No.1\n\nNo.2 R/B\nEFI No.1\n\nB-Y\n2  3  o  o  5  2\n\nB-R\n\nNo.3 Solenoid\n5\n>>EA2\nB-R\n2  R  ↓↓↓  L  6\nY-G  E9  13  SLN-\n\nNo.4 Solenoid\n\nG04741"
+}

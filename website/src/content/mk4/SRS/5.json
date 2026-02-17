@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-5",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — OPERATION",
+  "title": "CENTER AIRBAG SENSOR ASSEMBLY",
+  "ocr_text": "RS–5\nSUPPLEMENTAL RESTRAINT SYSTEM – OPERATION\n\n6. CENTER AIRBAG SENSOR ASSEMBLY\nThe center airbag sensor assembly is mounted on the floor inside the console box. The center airbag sensor assembly consists of a center airbag sensor, safing sensor, diagnosis circuit and ignition control, drive circuit, etc. It receives signals from the airbag sensors and judges whether the SRS must be activated or not.\n\n7. SRS CONNECTORS\n\nFront Airbag Sensor RH\nFront Passenger Airbag Assembly\nSteering Wheel Pad\nJunction Block No.1\nFront Airbag Sensor LH\n\n② \n④\n⑤ Spiral Cable ⑥\n⑦\n③\n①\n\nCenter Airbag Sensor Assembly\n\nNo. | Item | Application\n(1) | Terminal Twin–Lock Mechanism | Connectors (1), (2), (3), (4), (5), (6), (7)\n(2) | Airbag Activation Prevention Mechanism | Connectors (1), (4), (5), (6)\n(3) | Electrical Connection Check Mechanism | Connectors (1), (2), (3)\n(4) | Connector Twin–Lock Mechanism | Connectors (4), (5), (6)\n\nAll connectors in the SRS are colored yellow to distinguish them from other connectors. Connectors having special functions and specifically designed for SRS are used in the locations shown below to ensure high reliability. These connectors use durable gold–plated terminals."
+}

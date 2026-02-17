@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-112",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "Tc Terminal Circuit",
+  "ocr_text": "BR–112\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nTc Terminal Circuit\n\nCIRCUIT DESCRIPTION\n\nConnecting terminals Tc and E1 of the DLC1 or the DLC2 causes the ECU to display the diagnostic\ntrouble code by flashing the ABS warning light.\n\nWIRING DIAGRAM\n\nw/o TRAC\n\nABS ECU\n12 V\nTc\nDLC2\nBR 3 4\nE1 Tc\nP-B 5\nA13\n18 IJ1\nBR DLC1\nP-B 21 11 IF1 P-B\nBR\n3 E1 Tc 11 II1\nP-B\n\nw/ TRAC\n\nABS & TRAC ECU TRAC ECU\n12 V\nTc 23 P-B DLC2 P-B 11 Tc 12 V\nA20 18 3 4 P-B T9\nIJ1 E1 Tc\nBR\nBR\n3 E1 Tc P-B II1 IF1\n3 DLC1 21 11\n\nR07068\nR07069"
+}

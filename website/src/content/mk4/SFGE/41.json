@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-227",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "IAC VALVE REMOVAL",
+  "ocr_text": "EG–227\nENGINE – SFI SYSTEM (2JZ–GE)\n\nIAC VALVE REMOVAL\n1. REMOVE THROTTLE BODY\n(See throttle body removal)\n2. REMOVE IAC VALVE FROM THROTTLE BODY\nRemove the 2 screws, IAC valve and O–ring.\n\nP11467\n\nIAC VALVE INSPECTION\nINSPECT IAC VALVE OPERATION\n(a) Apply battery voltage to terminals B1 and B2, and while\nrepeatedly grounding S1–S2–S3–S4–S 1 in sequence, and\ncheck that the valve moves toward the closed position.\n\nClosed\nB1\nS3\nS1\nS4\nS2\nB2\nBattery\nP10701\n\n(b) Apply battery voltage to terminals B1 and B2, and while\nrepeatedly grounding S4–S3–S2–S1–S 4 in sequence,\ncheck that the valve moves toward the open position.\nIf operation is not as specified, replace the IAC valve.\n\nOpen\nB1\nS3\nS1\nS4\nS2\nB2\nBattery\nP10700\n\nIAC VALVE INSTALLATION\n1. INSTALL IAC VALVE TO THROTTLE BODY\n(a) Install a new O–ring on the throttle body.\n(b) Install the IAC valve with the 2 screws.\n2. INSTALL THROTTLE BODY\n(See throttle body installation)\n\nNew O-Ring\nP11468"
+}

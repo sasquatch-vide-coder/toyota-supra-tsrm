@@ -1,0 +1,6 @@
+{
+  "page_id": "231",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : 2JZ-GTE\n*2 : 2JZ-GE\n\nW-B\n\nR-L                                                                                                                    R-L\n\nE10\nENGINE CONTROL MODULE\n(ENGINE AND ELECTRONICALLY\nCONTROLLED TRANSMISSION ECU)\n\nACMG        A/C        TACO\n23           34          16\n\nW-G          L-R        B-W  (*1)\n\n2  EA1\n\nW-G                                                              W-G\n\nI 4\nIGNITER\n\nEXT\n4\n\nB-W\n(*2)\n\n31  II1    29  II1\n\nL-W\n\nL-R        B-W\n\nW-G\nL-W\nL\nL\n\nW-B\nW-B\nW-B\n\nII5\nW-B\n\nJ        L\n\n9  B    13  B    7  C    15  B    16  B    6  B    21  C\nGND      VER1     A/C-IN     BLW        HR       MGC      IGN\n\nW-B\nW-B\n\nA         A\n\nJ1\nJUNCTION\nCONNECTOR\n\nIH\n\nA12  C , A13  A , A14  B\nA/C AMPLIFIER\n\n231"
+}

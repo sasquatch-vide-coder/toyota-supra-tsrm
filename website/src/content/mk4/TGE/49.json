@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-429",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "CIRCUIT DESCRIPTION (Cont'd)",
+  "ocr_text": "CIRCUIT DESCRIPTION (Cont'd)\n\nDIAGNOSTIC TROUBLE CODE DETECTION DRIVING PATTERN\n\nPurpose of the driving pattern.\n(a) To simulate diagnostic trouble code detecting condition after diagnostic trouble code is recorded.\n(b) To check that the malfunction is corrected when the repair is completed confirming that diagnostic trouble code is no longer detected.\n\nMalfunction: Open or Short in (Main Heated*) Oxygen Sensor\n\n(rpm)\n4,000 rpm\n2,000 rpm\nIdling\nIG SW OFF\n\n④\n⑤\nDetection\n②\n③\n①\n3 min.\n90 sec.\n(Time)\n\nFI6485\n\nHINT: Before this test, check the feedback voltage for oxygen sensor.\n(1) Disconnect the EFI No.1 fuse (30 A) for 10 sec. or more, with IG switch OFF. Initiate test mode (Connect terminal TE2 and E1 of data link connector 2 with IG switch OFF).\n(2) Start the engine and warm up.\n(3) Idle the engine for 3 min.\n(4) Race the engine at 2,000 rpm for 90 sec.\n\nHINT: If a malfunction exists, the malfunction indicator lamp will light up during step (4).\n\nNOTICE: If the conditions in this test are not strictly followed, detection of the malfunction will not be possible.\n\n*: Only for California specification vehicles"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-36",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Blinking Light DEF Solar Sensor Circuit",
+  "ocr_text": "AC–36\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBlinking Light DEF Solar Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nA photo diode in the solar sensor detects solar radi–\nation and sends signals to the A/C amplifier.\n\nResistance of photodiode\nHigh\nLow\nWeak          Strong\nStrength of\nsolar radiation\n\nDiagnostic Sensor Check Detecting Condition          Trouble Area\n\nOpen or short in solar sensor circuit.\nPlease not that blinking of the LED for DEF is not\nabnormal when the sensor is not receiving solar\nradiation.\n• Solar sensor\n• Harness or connector between solar sensor and\n  A/C amplifier\n• A/C amplifier\n\nWIRING DIAGRAM\n\nA/C Amplifier\n\n5 V\n\nBR-W          2\nA13          S5\n\nSolar Sensor          2\n\n1\nY-G          17\nA13          TS\n\nV-W          9\n← – –          A13          SG\n\nNO8813"
+}

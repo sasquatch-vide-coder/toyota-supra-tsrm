@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-300",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ–GTE)",
+  "title": "SOLENOID RESISTOR COMPONENTS FOR REMOVAL AND INSTALLATION",
+  "ocr_text": "EG–300\n\nENGINE – SFI SYSTEM (2JZ–GTE)\n\nSOLENOID RESISTOR\nCOMPONENTS FOR REMOVAL AND\nINSTALLATION\n\nCover\nSolenoid Resistor\nSolenoid Resistor\nAssembly\nBracket\nSolenoid\nResistor\nConnector\n\nP11345\n\nSOLENOID RESISTOR INSPECTION\n1. DISCONNECT SOLENOID RESISTOR CONNECTOR\n2. INSPECT SOLENOID RESISTOR\nUsing an ohmmeter, measure the resistance between terminal +B and other terminals.\nResistance:\nAt 20˚C (68˚F) Approx. 6 Ω\nIf the resistance is not as specified, replace the resistor.\n3. RECONNECT SOLENOID RESISTOR CONNECTOR\n\n#20\n#10\n+B\n#30\nOhmmeter\n#40\n#50 #60\n\nP11451"
+}

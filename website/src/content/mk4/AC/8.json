@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-8",
+  "section_header": "AIR CONDITIONING SYSTEM — DESCRIPTION",
+  "title": "DAMPERS OPERATION",
+  "ocr_text": "AC–8\nAIR CONDITIONING SYSTEM – DESCRIPTION\n\nDAMPERS OPERATION\n\nE Side Defroster\nD Front Defroster\nE Side Defroster\nAir Inlet Dampers\nFresh Air\nC Front Heat\nHeat Damper\nAir Mix Damper\nRecirc. Air\nRecirc. Air\n8\n10\n8\n6\n7\n5\n3\nHeater Core\n4\nBlower Fan\nC Front Heat\nVent Damper\nEvaporator\n2\nCenter Vent Damper\n1\nB Side Vent\nA Center Vent\nB Side Vent\n\nMode | Mode Control Damper Position | Vent A Center | Vent B Side | Heat C Front | Def. D Front | Def. E Side\nFace | 1 3 5 7 | O | O | | |\nBi–Level | 1 3 6 7 | O | O | O | |\nFoot* I | 2 4 6 8 | | O | O | O | O\nFoot* II | 2 4 6 7 | | O | O | |\nFoot/Def. | 2 4 6 9 | | O | O | O | O\nDef. | 2 4 5 10 | | O | | O | O\n\nThe size of the circle O indicates the proportion of air flow volume.\n\n* Foot I indicates the status during automatic control and Foot II indicates the status during manual control.\n\nN08539\nN08540\nZ09409"
+}

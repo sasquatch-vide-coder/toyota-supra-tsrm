@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-132",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Horn Relay Circuit",
+  "ocr_text": "BE–132\n\nBODY ELECTRICAL SYSTEM  –  THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nHorn Relay Circuit\n\nCIRCUIT DESCRIPTION\n\nWhen the theft deterrent system is activated, it causes the Tr in the ECU to switch on and off in approximately\n0.2 sec. cycles. This switches the horn relay on and off, thus the horns blow (See the wiring diagram below).\nIn this condition, if any of the following operations is done, the Tr in the ECU goes off and the horn relay switches\noff, thus stopping the horns from blowing:\n(1) The front LH or RH door is unlocked with a key.\n(2) The ignition switch is turned to ACC or ON position.\n(3) Approximately 1 minute elapses.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\nR/B NO.2\nHORN Relay\n\nW\n2    2    1    2    L-R    16    L-R    14    L-R  HORN\n                                    IB2         IF2        24\n              3    2    L-B\n\nL-R\n\nHorn Switch\n\nR/B No.2\nHAZ-HORN\n\nL-B\n\nL-B\n\n2A\n1\n\nB\nBattery\n\nHorn\n\nN08546"
+}

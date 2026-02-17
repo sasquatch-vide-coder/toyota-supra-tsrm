@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-128",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Indicator Light Circuit",
+  "ocr_text": "BE–128\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nCIRCUIT INSPECTION\nIndicator Light Circuit\nCIRCUIT DESCRIPTION\n\nWhen the theft deterrent system is preparing to set, this circuit lights up the indicator light. When the system has been set, it continually turns the indicator light on for 1 second and turns it off for 1 second, thus blinking the indicator light.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\nIndicator Light\n(Telltale Light LH)\n\nW-B  9\nW-L  IND\n10\n12\n\n18  1E\n\n1  1J\n\nIE\n\nN08544"
+}

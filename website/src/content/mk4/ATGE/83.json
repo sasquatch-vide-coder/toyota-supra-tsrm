@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-83",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Stop Light Switch Circuit",
+  "ocr_text": "Stop Light Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nThe purpose of this circuit is to prevent the engine from stalling, while driving in lock–up condition, when brakes are suddenly applied.\nWhen the brake pedal is operated, this switch sends a signal to ECM. Then the ECM cancels operation of the lock–up clutch while braking is in progress.\n\nWIRING DIAGRAM\n\nECM\n·ABS ECU\n·Cruise Control ECU\nJ/B No.1  Stop Light Switch·Shift Lock Control ECU\nW-L  10  W  G-W  G-W  11  G-W  4  STP\n1B  1I  2  1  J1  E10\nSTOP\nG-W\n2  0H\nPOWER  J/B No.1\n1  0C\n2\nW  G-W\n2\nALT  7  Light Failure\nSensor\n1  2\n2A\nB  R-W\nBattery  Stop Light\nW-B\nQ06895\n\nINSPECTION PROCEDURE\n\n1  Check operation of stop light.\n\nC  Check if the stop lights go on and off normally when the brake pedal is depressed and released.\n\nOK                    NG  Check and repair stop light circuit.\n\nGo to  2  ."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-36",
+  "section_header": "A340E (2JZ-GTE) AUTOMATIC TRANSMISSION - OVERDRIVE DIRECT CLUTCH",
+  "title": "OVERDRIVE DIRECT CLUTCH",
+  "ocr_text": "AT-36\nA340E (2JZ-GTE)  AUTOMATIC TRANSMISSION  -  OVERDRIVE DIRECT CLUTCH\n\nAT5188\n\n3.  CHECK PISTON STROKE OF OVERDRIVE DIRECT CLUTCH\n(a)  Place the oil pump onto the torque converter clutch, and then place the O/D direct clutch assembly onto the oil pump.\n\nSST\n\nAT5189\n\n(b)  Using SST and a dial indicator, measure the O/D direct clutch piston stroke while applying and releasing compressed air (392-785 kPa, 4-8 kgf/cm2 or 57-114 psi).\nSST 09350-30020  (09350-06120)\nPiston stroke:\n1.45-1.70 mm (0.057-0.067 in.)\nIf the values are non-standard, inspect the discs.\n\nAT5270\n\n4.  REMOVE FLANGE, PLATES AND DISCS\n(a)  Using a screwdriver, remove the snap ring from the O/D direct clutch drum.\n\nAT5190\n\n(b)  Remove the flange, 2 plates and 2 discs.\n\nSST\nSST\n\nAT5204\n\n5.  REMOVE PISTON RETURN SPRING\n(a)  Place SST on the spring retainer and compress the return spring with a shop press.\nSST 09350-30020  (09350-07040)\n(b)  Using SST, remove the snap ring.\nSST 09350-30020  (09350-07070)"
+}

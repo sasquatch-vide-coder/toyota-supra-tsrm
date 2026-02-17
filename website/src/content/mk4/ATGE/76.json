@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-76",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Check lock-up solenoid valve.",
+  "ocr_text": "AT1–76\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n1 Check lock–up solenoid valve.\n\nElectrical Check\nP 1. Jack up the vehicle.\n2. Remove the oil pan.\n3. Disconnect the lock–up solenoid valve connector.\n\nC Measure resistance between lock–up solenoid connector and solenoid body.\n\nOK Resistance: 10 – 16 Ω\n\nC Connect lock–up solenoid valve operation noise when battery positive voltage is applied to the solenoid connector terminal and solenoid body.\n\nOK The lock–up solenoid valve makes operation noise.\n\nMechanical Check\nP Remove lock–up solenoid valve from valve body.\n\nC 1. Applying 490 kPa (5 kgf/cm2, 71 psi) of compressed air, check that the solenoid valve does not leak air.\n2. When battery positive voltage is supplied to the solenoid valve, check that the solenoid valve opens.\n\nQ04439\nQ04440\nQ04441\n\nOK NG Replace lock–up solenoid valve.\n\n2 Check harness and connector between lock–up solenoid valve and ECM (See page IN–30).\n\nOK NG Repair or replace harness or connector.\n\nProceed to next circuit inspection shown on matrix chart (See page AT1–58). However, when diagnostic trouble code 64 is displayed, check and replace ECM."
+}

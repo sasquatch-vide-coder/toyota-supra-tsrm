@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-415",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–415\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\n4  Check voltage between terminal IGT of engine control module connector and body ground.\n\nSTART\n\nSST\nECM\n\nB 57\n\nIGT\n\nBE6653\nFI0614\n\nP  Connect SST (check harness \"A\").\nSee page EG–404)\nSST 09990–01000\n\nC  Measure voltage between terminal IGF of engine control module connector and body ground when engine is cranked.\n\nOK  Voltage:  0.5 — 1.0 V\n(Neither 0 V nor 5 V)\n\nReference  INSPECTION USING OSCILLOSCOPE\n\nIGT signal waveform\n2 V/Div.\n\nIGT\n0 V\nIGF\n0 V\n\n5 m sec/Division (Idling)\n\nFI6605\n\n• During cranking or idling, check waveforms between terminal IGT and E1 of engine control module.\n\nHINT:  The correct rectangular waveforms are as shown.\n\nOK                                          NG  Go to step  8 .\n\n5  Check voltage between terminal 3 of igniter connector and body ground.\n\nON and START\n\nBE6653\nFI6438\n\nP  Disconnect igniter connector.\n\nC  Measure voltage between terminal 3 of igniter connector and body ground, when ignition switch is turned to \"ON\" and \"START\" position.\n\nOK  Voltage: 9 — 14 V\n\nOK                                          NG  Check and repair igniter power source circuit."
+}

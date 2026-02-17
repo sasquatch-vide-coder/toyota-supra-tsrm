@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-31",
+  "section_header": "BODY ELECTRICAL SYSTEM — BACK–UP LIGHT SYSTEM",
+  "title": "TROUBLESHOOTING",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – BACK–UP LIGHT SYSTEM\n\nBE–31\n\nTROUBLESHOOTING\n\nThe table below will be useful for you in troubleshooting these electrical problems. The most likely causes\nof the malfunction are shown in the order of their probability. Inspect each part in the order shown, and\nreplace the part when it is found to be faulty.\n\nTrouble | Parts name | (See page)\n\nBack Up Light does not light up\n1. GAUGE Fuse (BE–6)\n2. Ignition Switch (BE–8)\n3. Back–up Light Switch (M/T) (BE–31)\n4. Park/ Neutral Position Switch (A/T) (AT1–Section)\n5. Wire Harness\n6. Bulb\n\nBack Up Light remains always on\n1. Wire Harness\n\nOnly one light does not light up\n1. Wire Harness\n2. Bulb\n\n2JZ-GE\n\n2JZ-GTE 209343\n\nle-2-1-U\nN08963 le-2-1-M\n\nBACK UP LIGHT SWITCH INSPECTION\nINSPECT SWITCH CONTINUITY\n\nSwitch position | Tester connection to terminal number | Specified condition\nFree | 1–2 | No continuity\nPush | 1–2 | Continuity\n\nIf continuity is not as specified, replace the switch.\n\nPARK/NEUTRAL POSITION SWITCH\nINSPECTION\nSee AT section"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-56",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "ACC Power Source Circuit\nCIRCUIT DESCRIPTION",
+  "ocr_text": "AC–56\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nACC Power Source Circuit\nCIRCUIT DESCRIPTION\n\nThis circuit supplies power to the A/C amplifier.\n\nWIRING DIAGRAM\n\nJ/B No.1\n4\n1J\nW\n7\nIgnition Switch\n5\nR-L\nJ/B No.1\n8\nCIG\n2\n1J\n1E\nL-R\nA/C Amplifier\n\n4\n1B\n\nR/B No.2\n2\nAM1\n2\n\nR/B No.2\nB\n1\nALT\n2\n2A\n\nBattery\n\n20\nA12\nACC\n\nN13035"
+}

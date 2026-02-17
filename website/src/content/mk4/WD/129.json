@@ -1,0 +1,6 @@
+{
+  "page_id": "131",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : 2JZ-GE\n*2 : 2JZ-GTE\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n2\nHORN\nRELAY\n3\n2  2  2\nL-B  L-R\nW  W\n16 IB2\nL-R\nI2  L-R  TO HORN SW\n[COMB. SW]\nL-R\n14 IF2\nL-R\n24 B\nHORN\n\n1\n15A\nHAZ-HORN\n2\n7\nEA1\nW\n(*2)\nW\n(*1)\n6\nIF2\nW-L\n(*2)\nW-L\n(*2)\nI1 B\nSH\n\nT 1\nTHEFT DETERRENT\nHORN\n1\n2\nW-L\n(*2)\nW-L\n(*1)\n19 IB6\n22 II1\nW-L\n(*1)\n\nT 7 A, T13 B\nTHEFT DETERRENT ECU\n\nL1  UL1\n5 B  8 B\nG-Y  R-W\nL-Y  G-R\nG-B\nI21\nR-W  G-R\nI21  I19\nR-W  G-R\n7 ID1  1 ID1\nDOOR LOCK\nSW LH\n[POWER WINDOW\nMASTER SW]\nLOCK  UNLOCK\nP 8\nB\n8\nW-B\nL-R\nW-B\n\nUL12\n16 B\nG-B\nL-Y\nR-W\nG-R\nA R-W\n9 IL1  10 IL1\nDOOR LOCK\nCONTROL SW RH\nUNLOCK  LOCK\nD14\n4\nW-B\nW-B\n\nLSWP\n21 B\nG-Y\nW\n7 IL1  2 IL1\nDOOR KEY LOCK AND\nUNLOCK SW RH\nLOCK  UNLOCK\nD13\n3\nW-B\nL-R\nW-B\nB2\nW-B\n\nACT-\n2 A\nL-Y\nG-B\nI21\nG-B\nL-Y\n8 IL1  12 IL1\nDOOR LOCK MOTOR AND\nUNLOCK DETECTION\nSW RH\nG-B  L-Y\nD16\nL-R  4\n1 IL1\nL-R\nI21\nL-R\nB2\nW-B  16\nIL1\nW-B\n\nACT+\n3 A\nL-R\n\nE\n4 A\nW-B\n\nM\n\nIH\nW-B\nI21\n\n131"
+}

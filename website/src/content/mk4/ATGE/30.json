@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-30",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — SHIFT LOCK SYSTEM",
+  "title": "",
+  "ocr_text": "AT1–30\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION  –  SHIFT LOCK SYSTEM\n\n3.  INSPECT KEY INTERLOCK SOLENOID\n(a)  Disconnect the solenoid connector.\n(b)  Using an ohmmeter, measure the resistance between terminals 1 and 2.\nStandard resistance:\n12–17 Ω\nIf resistance value is not as specified, replace the solenoid.\n\n(c)  Touch the solenoid with your finger and check that solenoid operation can be felt when battery positive voltage is applied intermittently to the terminals 1 and 2.\nIf the solenoid does not operated, replace the solenoid.\n\n4.  INSPECT SHIFT LOCK CONTROL SWITCH\nInspect that there is continuity between each terminal.\n\nShift position | Tester condition to terminal number | Specified value\nP position (Release button is not pushed) | P–P1 | Continuity\nR, N, D, 2, L position | P–P2 | Continuity\n\n004304\n004305\n004306"
+}

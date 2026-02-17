@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-304",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GTE)",
+  "title": "VSV FOR WASTE GATE VALVE COMPONENTS FOR REMOVAL AND INSTALLATION",
+  "ocr_text": "EG–304\nENGINE – SFI SYSTEM (2JZ–GTE)\n\nVSV FOR WASTE GATE VALVE\nCOMPONENTS FOR REMOVAL AND\nINSTALLATION\n\nEngine Wire\nNo.1 Air Hose\nVSV Assembly\nBracket and\nVSV for Exhaust\nGas Control Valve\nVSV for Waste\nGate Valve\nVSV Connector\nfor Exhaust Gas\nControl Valve\nVSV Connector\nfor Waste Gate\nValve\nAir Hose\nAir Hose\n\nP11346\n\nContinuity    Ohmmeter\n\nP11378\n\nNo Continuity    Ohmmeter\n\nP11379\n\nVSV INSPECTION\n1.    REMOVE VSV ASSEMBLY\n2.    INSPECT VSV\nA.    Inspect VSV for open circuit\nUsing an ohmmeter, check that there is continuity between\nthe terminals.\nResistance:\n     At 20˚C (68˚F) 22–26 Ω\nIf there is no continuity, replace the VSV.\n\nB.    Inspect VSV for ground\nUsing an ohmmeter, check that there is no continuity be-\ntween each terminal and the body.\nIf there is continuity, replace the VSV."
+}

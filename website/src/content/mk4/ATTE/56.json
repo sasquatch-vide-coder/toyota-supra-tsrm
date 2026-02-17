@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-56",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "AT2–56\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nDTC. No. | Blinking Pattern | Circuit | Diagnostic Trouble Code Detection Condition\n\n67 | BE3936 | O/D direct clutch speed sensor | All conditions below are detected for 4 secs. or more:\n(2 trip detection logic)*3\n(a) Gear change not being performed.\n(b) Gear position: 1st, 2nd or 3rd\n(c) T/M input shaft rpm: Less than 300 rpm\n(d) T/M output shaft rpm: 1000 rpm or more\n\n77 | BE3937 | No.5 solenoid circuit | Any of condition below are detected:\n(2 trip detection logic)*3\n(a) SLT⁻ terminal: 0 V or 5 V for 1 sec. or more.\n\n89 | R05005 | TRAC ECU circuit | All conditions below are detected for 5 secs. or more:\n(a) No.1 vehicle speed sensor: 9 km/h (5.6 mph) or more\n(b) Mirror check of TRAC ECU input signal is abnormal.\n(c) TRAC ECU input signal does not inform to ECM.\n(d) TRAC ECU input signal order is abnormal."
+}

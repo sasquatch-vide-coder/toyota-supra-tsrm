@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-161",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "Check TRAC solenoid relay.",
+  "ocr_text": "BR–161\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\n5 Check TRAC solenoid relay.\n\nOpen\n\nContinuity\n\nContinuity\n\nP Remove solenoid relay from R/B No.5.\n\nC Check continuity between each terminal of TRAC solenoid relay shown below.\n\nOK\nTerminals 4 and 6    Continuity (Reference value 80 )\nTerminals 2 and 3    Continuity\nTerminals 1 and 3    Open\n\nContinuity\n\nOpen\n\nC 1. Apply battery positive voltage between terminals 4 and 6.\n2. Check continuity between each terminal of TRAC solenoid relay shown below.\n\nOK\nTerminals 2 and 3    Open\nTerminals 1 and 3    Continuity\n\nC Connect the ⊕ test lead to terminal 5 and the ⊖ lead to terminal 3. Check continuity between the terminals.\n\nOK Continuity\nIf there is no continuity, connect the ⊖ test lead to terminal 5 and the ⊕ lead to terminal 3. Recheck continuity between terminals.\n\nBR5404\nBR5405\nR07081\n\nOK          NG Replace TRAC solenoid relay.\n\n6 Check for open and short in harness and connector between terminal WT of TRAC ECU and battery or TRAC solenoid relay (See page IN–30).\n\nOK          NG Repair or replace harness or connector.\n\nCheck and replace TRAC ECU."
+}

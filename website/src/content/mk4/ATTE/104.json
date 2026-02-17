@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-104",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AT2–104\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check operation of stop light.\n\nC Check if the stop lights go on and off normally when the brake pedal is depressed and released.\n\nOK\nNG Check and repair stop light circuit.\n\n2 Check stop light signal.\n\nON\nDLC2\nTT\nE1\nIG ON\n8 V\nAccelerator Pedal\nBrake Pedal\n0 V\n8E3B40\nAT5630\nAT1085\n\nC 1. Connect the voltmeter to the terminals TT and E1 of the DLC2.\n2. Turn ignition switch ON.\n3. Fully depress the accelerator pedal until the voltmeter indicates 8 V and hold it.\n4. Depress and release the brake pedal and check the voltage.\n\nOK\nBrake pedal Voltage\nDepressed 0 V\nReleased 8 V\n\nNG\nOK Proceed to next circuit inspection shown on matrix chart (See page AT2–64).\n\n3 Check harness and connector between ECM and stop light switch (See page IN–30).\n\nOK\nNG Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

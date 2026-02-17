@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-116",
+  "section_header": "BODY ELECTRICAL SYSTEM — CLOCK",
+  "title": "CLOCK LOSES OR GAINS TIME",
+  "ocr_text": "BE–116\nBODY ELECTRICAL SYSTEM – CLOCK\n\n2    CLOCK LOSES OR GAINS TIME\n\n(a)    Check that the battery positive voltage is 10 — 16 V.\n        If voltage is not as specified, replace the battery.\n(b)    Inspect the error of the clock.\n        Allowable error (per day):  ×2.0 seconds.\n        If the error exceeds the allowable error, replace the\n        clock assembly.\n(c)    check if the clock adjusting button is sticking in position\n        and has failed to return.\n        If the button has not returned, repair or replace the\n        clock assembly.\n(d)    Troubleshoot the clock as follows:\n        HINT:  Inspect the connector on the wire harness side.\n\n+B    GND\n\n+5·1\n\nIs there 10–16 V between terminal +B\nand body ground?\n        Yes\nAdjust or replace clock assembly.\n\nBelow 10 V    Locate cause, and repair or recharge bat-\n                      tery."
+}

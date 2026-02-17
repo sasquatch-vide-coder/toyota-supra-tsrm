@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-184",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "Idle Switch Circuit",
+  "ocr_text": "BE–184\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nIdle Switch Circuit\n\nCIRCUIT DESCRIPTION\nWhen the idle switch is turned ON, a signal is sent to the ECU. The ECU uses this signal to correct the discrepancy between the throttle valve position and the actuator position sensor value to enable accurate cruise control at the set speed. If the idle switch is malfunctioning, problem symptoms also occur in the engine, so also inspect the engine.\n\nWIRING DIAGRAM\n\nECM\nIDL1\nE9\n64\nR\nR\n2 (2JZ-GE)\n3 (2JZ-GTE)\nThrottle Position Sensor\n3\nIJ1\nCruise Control ECU\n12 V\nIDL\n21\nR\n\nN08435"
+}

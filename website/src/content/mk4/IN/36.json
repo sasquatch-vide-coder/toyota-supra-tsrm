@@ -1,0 +1,6 @@
+{
+  "page_id": "IN-35",
+  "section_header": "INTRODUCTION — HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS",
+  "title": "Check and Replace ECU",
+  "ocr_text": "IN–35\nINTRODUCTION – HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS\n\nCheck and Replace ECU\nFirst check the ECU ground circuit. If it is faulty, repair it. If it is nor-\nmal, the ECU could be faulty, so replace the ECU with a known\ngood one and check if the symptoms appear.\n\nExample\nGround\nIN0383\n\n(1) Measure the resistance between the ECU ground terminal\nand the body body ground.\nResistance: 1 Ω or less\n\nECU Side\nGround\nW/H Side\nGround\nGround\nIN0384\n\n(2) Disconnect the ECU connector, check the ground terminals\non the ECU side and wire harness side for bend and check\nthe contact pressure."
+}

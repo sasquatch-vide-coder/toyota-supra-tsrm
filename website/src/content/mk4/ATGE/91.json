@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-91",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "O D Cancel Signal Circuit",
+  "ocr_text": "AT1-91\nAT340E (2JZ-GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nO D Cancel Signal Circuit\n\nCIRCUIT DESCRIPTION\n\nWhile driving with cruise control activated, in order to minimize gear shifting and provide smooth uphill cruising, overdrive may be prohibited temporarily in some conditions.\nThe Cruise Control ECU sends O/D cut signals to the ECM as necessary and the ECM cancels overdrive shifting until these signals are discontinued.\n(For details, see the cruise control section, page BE–162)\n\nWIRING DIAGRAM\n\nCruise Control ECU\nOD\n9\nBR-B\n11\nBR-B\n12 OD1\nC10\nIJ2\nE10\n4 – 6 V\nECM\n\nINSPECTION PROCEDURE\n\n1\nCheck voltage between terminal OD1 of ECM connector and body ground.\n\nON\nCheck and replace ECM.\nCheck Harness A\nECM\nA 12\nOD1\nBE6663\nAT8774\n\nP\n1. Connect the Check Harness A to the ECM (See page EG–404).\n2. Turn ignition switch ON.\n\nC\nMeasure voltage between terminal OD1 of ECM connector and body ground.\n\nOK\nVoltage: 4 – 6 V\n\nNG\n\nOK\nProceed to next circuit inspection shown on matrix chart (See page AT1–58)."
+}

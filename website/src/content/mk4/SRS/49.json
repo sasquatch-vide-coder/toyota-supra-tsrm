@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-49",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "RS–49\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\n2 HEAT METHOD: When the problem seems to occur when the suspect area is heated.\n\nHeat the component that is likely the cause of the malfunction with a hair dryer or similar object. Check to see if the malfunction will occur.\nNOTICE:\n• Do not heat to more than 60°C (140°F) (Temperature limit that the component can be touched with a hand.).\n• Do not apply heat directly to any part in the ECU.\n\nR06854\n\n3 WATER SPRINKLING METHOD: When the malfunction seems to occur on a rainy day or in a high–humidity condition.\n\nSprinkle water onto the vehicle and check to see if the malfunction will occur.\nNOTICE: Never apply water directly onto the electronic components.\nHINT:\n• If the vehicle leaks water, the water may contaminate the ECU. When testing a vehicle with a water leakage problem, special caution must be paid.\n\nR06855\n\n4 OTHER: When the malfunction seems to occur when electrical load is excessive.\n\nTurn on all electrical loads including the heater blower, headlights, rear window defogger, etc. and check to see if the malfunction will occur.\n\nAB0234"
+}

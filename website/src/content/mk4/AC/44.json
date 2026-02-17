@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-44",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Blinking Light M2 Air Mix Damper Control Servo Motor Circuit",
+  "ocr_text": "AC–44\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBlinking Light M2 Air Mix Damper Control Servo Motor Circuit\n\nCIRCUIT DESCRIPTION\n\nThe air mix damper control servo motor is controlled by the A/C amplifier and signals the air mix damper to move to the desired position.\n\nDiagnostic Sensor Check Detecting Condition | Trouble Area\n\nAir mix damper position sensor value does not change even if A/C amplifier signals the air mix damper control servo motor to operate.\n• Air mix damper control servo motor\n• Air mix damper position sensor\n• Harness or connector between A/C amplifier and A/M damper control servo motor, A/M damper position sensor\n• A/C amplifier\n\nWIRING DIAGRAM\n\nHTR Fuse\n\nA/C Amplifier\n\nR-L    8\n        A14    IG\n\nV              9         V    3\n              IG1              A13    MH\n\nAir Mix Damper\nControl Servo Motor\n\n2                    V\n\nR-Y              2    R-Y    1\n              IG1              A13    MC\n\n1\n\nW-B    A    J1    A    W-B         9\n              Junction                  A14    GND\n              Connector\n\nNO8777"
+}

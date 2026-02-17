@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-8",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — OPERATION",
+  "title": "SYSTEM DIAGRAM",
+  "ocr_text": "AT2–8\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – OPERATION\n\nSYSTEM DIAGRAM\n\nA/T Fluid Temp. Sensor\nNo.4 Solenoid Valve\nNo.3 Solenoid Valve\nNo.5 Solenoid Valve\nNo.1 Solenoid Valve\nNo.2 Solenoid Valve\nCamshaft Position Sensor No.1\nCamshaft Position Sensor No.2\nCrankshaft Position Sensor\n\nSLN-\nSLU-\nSLT⊕\nSLT⊖\nS1\nS2\nG1⊕\nG1⊖\nG2⊕\nG2⊖\nNE⊕\nNE⊖\n\nOIL\nNSW\n\nECM\n\nSTA\nM-REL\nB+\nB+\nM\nVTA1\nIDL1\nE1\nVTA2\nIDL2\n\nPark/Neutral Position Switch\nPattern Select Switch\nThrottle Position Sensor\nSub-Throttle Position Sensor\n\nST\nGAUGE\n\nEFI NO.2\nEFI No.2 Relay\nEFI NO.1\nEFI MAIN Relay\n\nIgnition Switch\n\nFL\nAM1\nFL ALT\n\n006395"
+}

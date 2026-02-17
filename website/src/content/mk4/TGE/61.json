@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-441",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "DTC 35 Barometric Pressure Sensor Circuit",
+  "ocr_text": "DTC 35 Barometric Pressure Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThe BARO sensor is built into the ECM. This is a semiconductor pressure sensor with properties which cause its electrical resistance to change when stress is applied to the sensor's crystal (silicon) (piezoelectric effect). This sensor is used to detect the atmospheric (absolute) pressure and outputs corresponding electrical signals. Fluctuations in the air pressure cause changes in the intake air density, which can cause deviations in the air–fuel ratio. The signals from BARO sensor are used to make corrections for these fluctuations. If the ECM detects diagnostic trouble code \"35\", the fail safe function operates and the atmospheric pressure is set at a constant 101.3 kPa (760 mmHg, 29.92 in.Hg).\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble Area\n35 | Open or short in BARO sensor circuit for 0.5 sec. or more | • ECM\n\nINSPECTION PROCEDURE\n\n1  Are there any other codes (besides Code 35) being output?\n\nNO                            YES  Go to relevant diagnostic trouble code chart.\n\n! Replace engine control module."
+}

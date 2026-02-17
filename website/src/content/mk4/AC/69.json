@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-69",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Temperature Set Dial Circuit",
+  "ocr_text": "AC–69\n\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nTemperature Set Dial Circuit\n\nCIRCUIT DESCRIPTION\n\nWhen temperature set dial is turned, the voltage of TSET terminal will change. A/C amplifier searches for this change and controls the room temperature according to the temperature set.\n\nWIRING DIAGRAM\n\nA/C Control Assembly\n\nA/C Amplifier\n\n5 V\n\nS5\nH12          BR-W          A13\n10                             2\n\nTSET\nH12          L-B           A14\n2                             11\n\nSG\nH12          V-W          A13\n11                            9\n\n777\n\nNO8885"
+}

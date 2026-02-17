@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-391",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–391\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nTrouble Area | Malfunction Indicator Lamp*1 | Memory*2 | See page\nNormal Mode | Test Mode\n\n• Open or short in engine coolant temp. sensor circuit\n• Engine coolant temp. sensor\n• ECM\nON | ON | ○ | EG–424\n\n• Open or short in intake air temp. sensor circuit\n• Intake air temp. sensor\n• ECM\nON | ON | ○ | EG–426\n\n• Open or short in (main heated*3) oxygen sensor circuit\n• (Main heated*3) oxygen sensor\n• Ignition system\n• ECM\n\n• Open or short in injector circuit\n• Fuel line pressure (injector leak, blockage)\n• Mechanical system malfunction (skipping teeth of timing belt)\n• Ignition system\n• Compression pressure (foreign object caught in valve)\n• Volume air flow meter (air intake)\n• ECM\nON | ON | ○ | EG–428\n\n• Open or short in injector circuit\n• Fuel line pressure (injector leak, blockage)\n• Mechanical system malfunction (skipping teeth of timing belt)\n• Ignition system\n• Compression pressure (foreign object caught in valve)\n• Volume air flow meter (air intake)\n• ECM\n\n*1, 2, 3: See page EG–396."
+}

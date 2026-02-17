@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-480",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–480\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\n2  Check voltage between terminal ACIS of engine control module connector\n   and body ground.\n\nON\n\nSST\nECM\n\nB 39\nACIS\n\nBE6653\nFI6896\n\nP  (1) Connect SST (check harness \"A\").\n       (See page EG–404)\n   SST 09990–01000\n   (2) Turn ignition switch ON.\n\nC  Measure voltage between terminal ACIS of en-\n   gine control module connector and body ground.\n\nOK  Voltage: 9 — 14 V\n\nNG                          OK  Check for vacuum tank. (See page EG–230)\n\n3  Check for open and short in harness and connector between EFI main relay\n   and engine control module (See page IN–30).\n\nOK                          NG  Repair or replace harness or connector.\n\nCheck and replace engine control module."
+}

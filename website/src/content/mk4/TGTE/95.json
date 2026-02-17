@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-581",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "Back Up Power Source Circuit",
+  "ocr_text": "Back Up Power Source Circuit\n\nCIRCUIT DESCRIPTION\nBattery positive voltage is supplied to terminal BATT of the ECM even when the ignition switch is off for use by the diagnostic trouble code memory and air–fuel ratio adaptive control value memory, etc.\n\nWIRING DIAGRAM\n\nEngine Control Module\n\nR/B No.2\n2A          2\nEFI No.1\nB-Y    4\nEA1\nB-Y    33\nE10    BATT\n\nB\n\nBattery\n\nFI6878"
+}

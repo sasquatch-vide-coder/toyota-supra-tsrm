@@ -4,9 +4,9 @@ import { loadSections } from "@/lib/sections";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col">
       {/* Hero */}
-      <section className="relative bg-gray-900 overflow-hidden">
+      <section className="relative bg-gray-900 overflow-hidden flex-1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] bg-red-600/[0.04] rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-600/40 to-transparent" />
@@ -52,11 +52,11 @@ export default function LandingPage() {
                       {model.year}
                     </span>
                   </div>
-                  <h2 className="text-xl font-semibold text-white mb-2 group-hover:text-red-400 transition-colors">
+                  <h2 className="text-xl font-semibold text-white mb-1 group-hover:text-red-400 transition-colors">
                     {model.name}
                   </h2>
-                  <p className="text-sm text-gray-500 mb-4">
-                    {model.description}
+                  <p className="text-sm text-gray-400 mb-3">
+                    Toyota Supra Factory Service Manual — Digitized and AI Upscaled
                   </p>
                   <div className="flex items-center gap-4 text-xs text-gray-600">
                     {sections.length > 0 && (

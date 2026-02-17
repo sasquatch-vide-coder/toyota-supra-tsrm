@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-60",
+  "section_header": "BODY ELECTRICAL SYSTEM — SEAT HEATER SYSTEM",
+  "title": "SEAT HEATER RELAY INSPECTION",
+  "ocr_text": "BE-60\nBODY ELECTRICAL SYSTEM – SEAT HEATER SYSTEM\n\nSEAT HEATER RELAY INSPECTION\nINSPECT RELAY CONTINUITY\n\nCondition | Tester connection to terminal number | Specified condition\nConstant | 1–3 | Continuity\nApply B+ between Terminals 1 and 3. | 2–4 | Continuity\n\nIf continuity is not as specified, replace the relay.\n\nBE1643 BE1575\n200063"
+}

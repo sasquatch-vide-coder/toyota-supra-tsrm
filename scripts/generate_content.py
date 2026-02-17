@@ -65,13 +65,13 @@ def generate_section(code: str, sections: dict, processed_dir: Path, diagrams_di
         for f in diagrams_section.glob("*.png"):
             shutil.copy2(f, dest / f.name)
 
-    # Copy original GIFs
+    # Copy original images (GIFs or PNGs)
     raw_section = raw_dir / code
     if raw_section.exists():
         dest = public_originals / code
         dest.mkdir(parents=True, exist_ok=True)
-        for gif in raw_section.glob("*.gif"):
-            shutil.copy2(gif, dest / gif.name)
+        for img in list(raw_section.glob("*.gif")) + list(raw_section.glob("*.png")):
+            shutil.copy2(img, dest / img.name)
 
     print(f"  Section {code}: {len(page_index)} pages generated")
     return len(page_index)

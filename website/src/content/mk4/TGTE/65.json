@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-551",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "Check voltage between terminals PM1 and E2 of engine control module.",
+  "ocr_text": "EG-551\nENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING\n\n2  Check voltage between terminals PM1 and E2 of engine control module.\n\nON\n\nSST\nECM\n\nB 65, 62\n\nE2    PM1\n\nBE8653\nF46954\n\nP  Turn ignition switch ON.\n\nC  Measure voltage between terminals PM1 and E2 of engine control module.\n\nOK  Voltage: 2.3 — 3.0 V\n\nNG\n\nOK  Check and replace engine control module.\n\n3  Check for open and short in harness and connector between engine control module and turbo pressure sensor (See page IN–30).\n\nOK\n\nNG  Repair or replace harness or connector.\n\nReplace turbo pressure sensor."
+}

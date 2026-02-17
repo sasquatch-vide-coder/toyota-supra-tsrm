@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-4",
+  "section_header": "A340E(Others) AUTOMATIC TRANSMISSION - OPERATION",
+  "title": "OPERATION",
+  "ocr_text": "AT-4\nA340E(Others) AUTOMATIC TRANSMISSION - OPERATION\n\nOPERATION\n1. OPERATING CONDITIONS\n\nAT02T-0E\n\nO/D Direct Clutch (C0)\n2nd Coast Brake (B1)\nForward Clutch (C1)\n1st & Reverse Brake (B3)\nDirect Clutch (C2)\n2nd Brake (B2)\nRear Planetary Carrier\nRear Planetary Ring Gear\nO/D Brake (B0)\n\nO/D Planetary Ring Gear\nNo. 1 One-Way Clutch (F1)\nO/D Input Shaft\nO/D Planetary Carrier\nOutput Shaft\nO/D One-Way Clutch (F0)\nFront Planetary Ring Gear\nFront & Rear Planetary Sun Gear\nO/D Planetary Sun Gear\nFront Planetary Carrier\nNo. 2 One-Way Clutch (F2)\nInput Shaft\n\nAT2157\n\nO ..... Operating\n\nShift lever position | Gear position | C0 | C1 | C2 | B0 | B1 | B2 | B3 | F0 | F1 | F2\n\nP | Parking | O\nR | Reverse | O | | O | | | | O | O\nN | Neutral | O\n\nD\n1st | O | O | | | | | | O | | O\n2nd | O | O | | | | O | | O | O\n3rd | O | O | O | | | O | | O\nO/D | | O | O | O | | O\n\n2\n1st | O | O | | | | | | O | | O\n2nd | O | O | | | O | O | | O | O\n3rd | O | O | O | | | O | | O\n\nL\n1st | O | O | | | | | O | O | | O\n*2nd | O | O | | | O | O | | O | O\n\n* Down-shift only in the L position and 2nd gear — no up-shift.\n\nV03089"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-138",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Taillight Control Relay Circuit",
+  "ocr_text": "BE–138\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nTaillight Control Relay Circuit\n\nCIRCUIT DESCRIPTION\nWhen the theft deterrent system is activated, it causes the Tr in the ECU to switch on and off at approximately 0.2 sec. intervals. This switches the taillight control relay on and off, thus flashing the taillights (See the wiring diagram below).\nIn this condition, if any of the following operations is done, the Tr in the ECU goes off and the taillight control relay switches off, thus stopping the taillights flashing:\n(1) The front LH or RH door is unlocked with a key.\n(2) The ignition switch is turned to ACC or ON position.\n(3) Approximately 1 minute elapses.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\nJ/B No.1\n2 Taillight Control Relay\n1  2  11\nW-L\n1B\nG-W\n15  TAIL\nIF2  G-W\n23\nTAIL  16  G\n5  3  1C\nG-W\nLight Control Switch\n\nLight\nFailure\nSensor\n\nLG\n1  LG\nTail\nLight\n5  5\nW-B  W-B\nW-B\n\n2\nPOWER\n2\n\nW\n2\nALT\n2A\n\nB\nBattery\n\nN12777"
+}

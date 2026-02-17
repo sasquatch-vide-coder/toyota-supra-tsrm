@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-224",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "",
+  "ocr_text": "EG–224\n\nENGINE – SFI SYSTEM (2JZ–GE)\n\n0.50 mm\n\nP12050                                                     Z09169\n\n(b)    Insert a 0.50 mm (0.020 in.) feeler gauge between the throttle\n        stop screw and stop lever.\n\nOhmmeter\n\nE2\nIDL\n\nP12010                                                     Z09132\n\n(c)    Connect the tester probe of an ohmmeter to the terminals IDL\n        and E2 of the sensor.\n\nTurn\n\nP11464\n\n(d)    Gradually turn the sensor clockwise until the ohmmeter\n        deflects, and secure it with the 2 set screws.\n\n0.40 or\n0.60 mm\n\nOhmmeter\n\nE2\nIDL\n\nP12050\nP12010                                                     Z09133\n\n(e)    Recheck the continuity between terminals IDL and E2.\n\nClearance between\nlever and stop screw          Continuity (IDL–E2)\n\n0.40 mm (0.016 in.)                    Continuity\n\n0.60 mm (0.024 in.)                 No continuity"
+}

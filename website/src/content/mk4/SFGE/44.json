@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-230",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "VACUUM TANK INSPECTION",
+  "ocr_text": "EG–230\nENGINE – SFI SYSTEM (2JZ–GE)\n\n(b) Disconnect the connector and hoses, and remove the\nvacuum tank and VSV assembly:\n(1) VSV connector\n(2) Vacuum hose (from air intake chamber) from port B of\nvacuum tank\n(3) Vacuum hose (from actuator) from VSV\n3. REMOVE VSV FROM VACUUM TANK\n(a) Disconnect the vacuum hose from port A of the vacuum tank.\n(b) Remove the screw and VSV.\n\nVACUUM TANK INSPECTION\nINSPECT VACUUM TANK\n(a) Check that air flows from port A to B.\n\nAir\n\n(b) Check that air does not flow from port B to A.\n\nAir\n\n(c) Plug port B with your finger, and apply 53.3 kPa (400 mmHg,\n15.75 in.Hg) of vacuum to port A, and check that there is no\nchange in vacuum after 1 minute.\nIf operation is not as specified, replace the vacuum tank.\n\nVacuum\n\nVSV INSPECTION\n(See VSV for ACIS)\n\nP11471\nP12000\nP12081\nP02198"
+}

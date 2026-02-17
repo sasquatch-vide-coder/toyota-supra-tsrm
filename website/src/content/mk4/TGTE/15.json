@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-501",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG-501\nENGINE – 2JZ-GTE ENGINE TROUBLESHOOTING\n\nTrouble Area | Malfunction Indicator Lamp*1 | Memory*2 | See page\n             | Normal Mode | Test Mode |          |\n\n• Open or short in throttle position sensor circuit\n• Throttle position sensor\n• ECM\nON | ON | ○ | EG-552\n\n• No.1 vehicle speed sensor\n• Telltale light RH\n• Open or short in No.1 vehicle speed sensor circuit\n• ECM\nOFF | OFF | ○ | EG-556\n\n• Open or short in starter signal circuit\n• Open or short in ignition switch or starter relay circuit\n• ECM\nN.A | OFF | X | EG-559\n\n• Open or short sub-throttle position sensor circuit\n• Sub-throttle position sensor\n• ECM\nOFF | ON | ○ | EG-552\n\n• Open or short in No.1 knock sensor circuit\n• No.1 Knock sensor (loosensess)\n• ECM\nON | N.A | ○ | EG-561\n\n• ECM\nON | N.A | X | EG-561\n\n• Open or short in No.2 knock sensor circuit\n• No.2 Knock sensor (looseness)\n• ECM\nON | N.A | ○ | EG-561\n\n*1, 2: See page EG-502."
+}

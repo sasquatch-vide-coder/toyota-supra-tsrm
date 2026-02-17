@@ -1,0 +1,6 @@
+{
+  "page_id": "AT-51",
+  "section_header": "A340E (2JZ-GTE) AUTOMATIC TRANSMISSION - DIRECT CLUTCH",
+  "title": "CHECK PISTON STROKE OF DIRECT CLUTCH",
+  "ocr_text": "AT-51\n\nA340E (2JZ-GTE) AUTOMATIC TRANSMISSION - DIRECT CLUTCH\n\nD4832\n\n(c) Using a screwdriver, install the snap ring. Be sure the end gap of the snap ring is not aligned with the cutout portion of the direct clutch drum.\n\nD5151\n\n4. CHECK PISTON STROKE OF DIRECT CLUTCH\n(a) Place the direct clutch assembly onto the O/D support assembly.\n\nSST\n\nAT8493\n\n(b) Using SST and a dial indicator, measure the direct clutch pack clearance while applying and releasing compressed air (186-206 kPa, 1.9-2.1 kgf/cm2, 27-30 psi).\nSST 09350-30020 (09350-06120)\nPack clearance:\n0.50 - 0.80 mm (0.0197 - 0.0315 in.)\nIf the pack clearance is less than the limit, parts may have been assembled incorrectly, so check and reassemble again.\nIf the pack clearance is non-standard, select another flange.\nHINT: There are 9 different flange thicknesses.\nFlange thickness\nmm (in.)\n\nNo.    Thickness        No.    Thickness\n86     2.7 (0.106)      30     3.3 (0.130)\n85     2.8 (0.110)      29     3.4 (0.134)\n84     2.9 (0.114)      28     3.5 (0.138)\n33     3.0 (0.118)      27     3.6 (0.142)\n32     3.1 (0.122)      34     3.7 (0.146)\n31     3.2 (0.126)       -         -"
+}

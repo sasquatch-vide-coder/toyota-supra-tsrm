@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-113",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "MOTOR ANTENNA CONTROL RELAY INSPECTION",
+  "ocr_text": "Wire Harness Side\n\ne·8·1\nN07694\n\nMOTOR ANTENNA CONTROL RELAY INSPECTION\n\nINSPECT RELAY CIRCUIT\nDisconnect the connector from the relay and inspect connector on wire harness side, as shown in the chart.\n\nTester connection to terminal number | Condition | Specified condition\n6–Ground | Constant | Continuity\n2–3 | Constant | Continuity\n1–Ground | Constant | Battery positive voltage\n4–Ground | Ignition switch position ON | Battery positive voltage\n5–Ground | Ignition switch position ACC or ON | Battery positive voltage\n7–Ground | Ignition switch position ACC or ON and radio switch ON | Battery positive voltage\n8–Ground | Ignition switch position ACC or ON | Battery positive voltage\n\nIf circuit is not as specified, replace the relay."
+}

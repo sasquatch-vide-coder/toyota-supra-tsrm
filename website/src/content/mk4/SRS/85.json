@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-85",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "RS–85\n\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nHINT: If diagnostic trouble code 22 is output, do the following troubleshooting:\n\n1 Is diagnostic trouble code 22 output again?\n\nACC ON\nor\n\nDLC 1\n\nE1 Tc\n\nCode 22\n\nDLC2\n\nTc E1\n\nAB0118 AB0119\nIm-23-1-A FI1392\nS-17-1\n\nC (1) Turn ignition switch to LOCK, and wait at least 2 seconds.\n(2) Turn ignition switch to ACC or ON, and wait at least 20 seconds.\n(3) Clear malfunction code stored in memory. (See page RS–47)\n(4) Turn ignition switch to LOCK, and wait at least 20 seconds.\n(5) Turn ignition switch to ACC or ON, and wait at least 20 seconds.\n(6) Using SST, connect terminals Tc and E1 of DLC1 or DLC2.\nSST 09843–18020\n(7) Check diagnostic trouble code.\n\nYES\n\nNO Using simulation method, reproduce malfunction symptoms (See page RS–48).\n\nReplace center airbag sensor assembly."
+}

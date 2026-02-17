@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-80",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "AT2–80\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nECM\n\nR                    SP2+\n                     E9\n                     23\n1\nNo. 2 Vehicle\nSpeed Sensor\n2\n\nG                    SP2–\n                     E9\n                     3\n\nAT5510\n\nINSPECTION PROCEDURE\n\nCheck resistance between terminals SP2+ and SP2– of ECM connector.\n\nOFF\nCheck Harness A\nECM\n\nSP2–\nB 3, 23        SP2+\n\nBE6653\nAT8758\n\nP    Connect the Check Harness A to the ECM. (See page EG–510).\n\nC    Check resistance between terminals SP2+ and SP2– of ECM.\n\nOK   Resistance: 560 — 680 .\n\nNG\n\nOK   Proceed to next circuit inspection shown on matrix chart (See page AT2–64).\n\nGo to step [2]."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-28",
+  "section_header": "BODY ELECTRICAL SYSTEM — INTERIOR LIGHT SYSTEM",
+  "title": "LUGGAGE ROOM LIGHT INSPECTION",
+  "ocr_text": "BE–28\nBODY ELECTRICAL SYSTEM – INTERIOR LIGHT SYSTEM\n\nLUGGAGE ROOM LIGHT INSPECTION\nINSPECT ROOM LIGHT CONTINUITY\n\nSwitch position | Tester connection to terminal number | Specified condition\nOFF | 1–2 | No continuity\nON | 1–2 | Continuity\n\nIf continuity is not as specified, replace the light.\n\nDOOR COURTESY SWITCH INSPECTION\nINSPECT SWITCH CONTINUITY\n\nSwitch position | Tester connection to terminal number | Specified condition\nON (Switch pin released) | 1–2–3 | Continuity\nOFF (Switch pin pushed in) | – | No continuity\n\nIf continuity is not as specified, replace the switch\n\nLUGGAGE ROOM LIGHT SWITCH INSPECTION\nINSPECT ROOM LIGHT CONTINUITY\n\nCondition | Tester connection | Specified condition\nON (Switch pin released) | 1–Switch body | Continuity\nOFF (Switch pin pushed in) | 1–Switch body | No continuity\n\nIf continuity is not as specified, replace the switch."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-97",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "RS–97\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURES\n[P] Preparation [C] Check\n\n1 Does SRS warning light turn off?\n\nLOCK\n\nCenter Airbag Sensor Assembly\n\nAB0117\nRC6298\n\nP (1) Turn ignition switch to LOCK.\n(2) Disconnect negative (–) terminal cable from the battery, and wait at least 90 seconds.\n(3) Disconnect center airbag sensor assembly connector.\n(4) Connect negative (–) terminal cable to battery.\n\nC Check operation of SRS warning light.\n\nYES\n\nNO Check SRS warning light circuit or terminal AB circuit of DLC1 or DLC2.\n\nReplace center airbag sensor assembly."
+}

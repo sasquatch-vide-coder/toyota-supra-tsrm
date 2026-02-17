@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-225",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "IDLE AIR CONTROL (IAC) VALVE ON-VEHICLE INSPECTION",
+  "ocr_text": "EG-225\nENGINE – SFI SYSTEM (2JZ-GE)\n\nIDLE AIR CONTROL (IAC) VALVE\nON–VEHICLE INSPECTION\n\n1. INSPECT IAC VALVE FOR OPERATING SOUND\nCheck that there is a clicking sound immediately after stopping the engine.\nIf operation is not as specified, check the IAC valve, wiring and ECM.\n\n2. California only:\nINSPECT AIR ASSIST SYSTEM\n\nA. Warm up engine\nAllow the engine to warm up to normal operating temperature.\n\nB. Check idle speed\nIdle speed (Transmission in neutral position):\n700 ± 50 rpm\n\nC. Check IAC valve operation\nWith engine idling, pinch the air hose and check that engine speed drops, and then returns back up to idle speed.\nIf operation is not as specified, check the IAC valve, wiring and ECM.\n\nPinch\nAir Hose\nP11466\n\n3. INSPECT IAC VALVE RESISTANCE\nUsing an ohmmeter, measure the resistance between the terminals (B1 (or B2) to others).\nResistance:\nAt 20°C (68°F) 18–22 Ω\nIf the resistance is not as specified, replace the IAC valve.\n\nOhmmeter\nS3  S4\nB1  B2\nS1  S2\nP11980\n\nP11465"
+}

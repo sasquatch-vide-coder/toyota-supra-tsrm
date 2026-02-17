@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-53",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "RS–53\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURES\n[P] Preparation [C] Check\n\n1 Preparation.\n\nON\n\nCenter Airbag Sensor Assembly\n\nACC  IG2\n\nAB0119\nRO5262\n\nP (1) Turn ignition switch to LOCK.\n(2) Disconnect center airbag sensor assembly con–\nnector.\n(3) Turn ignition switch ON. But do not start engine.\n(4) Measure voltage at IG2 or ACC on connector\nwire harness side of center airbag sensor as–\nsembly and operate electric system (defogger,\nwiper, headlight, heater blower, etc.).\nVoltage: 6 V — 11.5 V at IG2 and ACC.\n(5) Turn electric system switch OFF.\n(6) Turn ignition switch to LOCK.\n(7) Remove voltmeter and connect center sensor\nassembly connector.\n\n2 Does SRS warning light turn off?\n\nON\n\nAB0119\nAB0234\n\nP Turn ignition switch ON.\n\nC Operate electric system checked in [1] (4) and\ncheck that SRA warning light goes off.\n\nTurn ignition switch ON.\n\nYES\n\nNO Check diagnostic trouble code, and if a malfunction code is output, perform troubleshooting according to malfunction code. If a normal code is output, replace center airbag sensor assembly.\n\nCheck battery and charging system.\n(See charging system section)"
+}

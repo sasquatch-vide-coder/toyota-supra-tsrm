@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-65",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AT1-65\nAT340E (2JZ-GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1  Check A/T fluid temp. sensor.\n\nATF\n\n20°C (68°F) and 110°C (230°F)\nQ04314\n\nCheck sensor resistance\n\nP  Remove A/T fluid temp. sensor.\n\nC  Measure resistance between terminals of A/T fluid\ntemp. sensor at 20°C (68°F) and 110°C (230°F).\n\nOK  Resistance:\n20°C (68°F)    Approx. 12.08 kΩ\n110°C (230°F)  Approx. 0.78 kΩ\n\nOK                    NG  Replace A/T fluid temp. sensor.\n\n2  Check harness and connector between battery and A/T fluid temp. sensor\nA/T fluid temp. sensor and ECM.  (See page IN–30).\n\nOK                    NG  Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

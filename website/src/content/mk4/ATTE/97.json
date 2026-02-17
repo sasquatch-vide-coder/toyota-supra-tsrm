@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-97",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "Throttle Position Sensor Circuit",
+  "ocr_text": "AT2–97\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nThrottle Position Sensor Circuit\n\n— CIRCUIT DESCRIPTION —\n\nThe throttle position sensor detects the throttle valve opening angle and sends signals to ECM.\n\n— WIRING DIAGRAM —\n\nECM\n4 – 6V\n\nTurbo Pressure Sensor\n3    L-R\n41\nE9    VCC\n4 – 6V\n2    B-Y\n62\nE9    PM1\n1    BR-B\nL-Y\n\nMain-Throttle Position Sensor\n1    L-Y\n4 – 6V\nB+\n2    Y\n43\nE9    VTA1\n3    R\n64\nE9    IDL1\n4    BR-B\n65\nE9    E2\n\nSub-Throttle Position Sensor\n4    L-R\n4 – 6V\nB+\n3    Y-L\n42\nE9    VTA2\n2    GR-R\n63\nE9    IDL2\n1    BR-B\nGR-R\nTRAC ECU\n\n006403"
+}

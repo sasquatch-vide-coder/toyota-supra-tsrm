@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-32",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Blinking Light FOOT Evaporator Temperature Sensor Circuit",
+  "ocr_text": "AC–32\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nBlinking Light FOOT Evaporator Temperature Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThis sensor detects the temperature inside the cooling unit and sends the appropriate signals to the A/C amplifier.\n\nDiagnostic Sensor Check Detecting Condition | Trouble Area\n\nOpen or short in evaporator temperature sensor circuit. | • Evaporator temperature sensor\n• Harness or connector between evaporator temperature sensor and A/C amplifier\n• A/C amplifier\n\nWIRING DIAGRAM\n\nA/C Amplifier\n\n5 V\n\nL-Y    3\n2          IG1         L-Y         7\nA13    TE\nEvaporator\nTemp. Sensor\n\n1\nV-W    4\nIG1         V-W         9\nA13    SG\n\nN08815"
+}

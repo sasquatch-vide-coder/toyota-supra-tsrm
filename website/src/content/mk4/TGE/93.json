@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-473",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "INSPECTION PROCEDURE\n\n1  Check voltage between terminals # 10 ~ 60 of engine control module and body ground.\n\nON\nSST\nECM\n\nB 20, 19, 18, 17,\n16, 15\n\n# 10, 20, 30, 40, 50, 60\n\nBE6663\nFI6619\n\nP  (1)  Connect SST check harness \"A\").\n       (See page EG-404)\n       SST 09990-01000\n   (2)  Turn ignition switch ON.\n\nC  Measure voltage between terminals #10 ~ 60 of engine control module and body ground.\n\nOK  Voltage: 9 — 14 V\n\nNG\n\nOK  Go to step 3 .\n\n2  Check AM2 Fuse.\n\nAM2 Fuse\nR/B No.2\n\nNO8419\n\nP  Remove AM2 fuse from R/B No.2.\n\nC  Check continuity of AM2 fuse.\n\nOK  Continuity\n\nOK\n\nNG  Check for short in the harness and all the components connected to AM2 fuse.\n\nCheck and repair harness or connector between engine control module and battery."
+}

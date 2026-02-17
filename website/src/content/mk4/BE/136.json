@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-136",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Headlight Control Relay Circuit",
+  "ocr_text": "BE–136\nBODY ELECTRICAL SYSTEM  –  THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nHeadlight Control Relay Circuit\n\nCIRCUIT DESCRIPTION\n\nWhen the theft deterrent system is activated, it causes the Tr in the ECU to switch on and off at approximately 0.2 sec. intervals. This switches the headlight control relay on and off, thus flashing the headlights (See the wiring diagram below).\nIn this condition, if any of the following operations is done, the Tr in the ECU goes off and the headlight control relay switches off, thus stopping the headlights flashing:\n(1) The front LH or RH door is unlocked with a key.\n(2) The ignition switch is turned to ACC or ON position.\n(3) Approximately 1 minute elapses.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\nR/B No.2\nHeadlight Relay\n2A  4  3  2\nFL MAIN\n2  1  2\n\nR-Y  13\nIB2  R-Y  R-Y  16  HEAD\nIF2  R-Y\n10\nR\nLight Control\nSwitch\n\nB\n\n2\nR/B No.2\nHEAD\n(LH)*1\nHEAD\n(LH-LWR)*2\n\n2\nR/B No.2\nHEAD\n(RH)*1\nHEAD\n(RH-LWR)*2\n\nBattery\n\n2\n2\nR-G\n1  W-B\nW-B\nEA\n\n2\n2\nR-B\n1\n\n*1:  USA Models\n*2:  CANADA Models\n\nN0854B"
+}

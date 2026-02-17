@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-402",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–402\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\n7 Check fuel pressure.\n\nON\n\nSST\n+B\nFP\nDLC1\n\nP (1) Be sure that there is enough fuel in the tank.\n(2) Turn ignitiion switch ON.\n(3) Using SST, connect terminals FP and +B of data link connector 1.\nSST 09834–18020\n\nC Check that there is pressure in the hose from the fuel filter.\n\nHint If there is fule pressure, you will hear the sound of fuel flowing.\n\nCaution Never make a mistake with the terminal connection position as this will cause a malfunction.\n\nFuel Inlet Hose\n\nA80119\nP11280\nP11440\n\nOK\n\nNG Proceed to page EG–193 and continue to troubleshoot.\n\n8 Check for spark.\n\nC Disconnect the high–tension cord from the distributor and hold the end about 12.5 mm (1/2\") from the ground. See if spark occurs while the engine is being cranked.\n\nHint To prevent excess fuel being injected from the injectors during this test, don't crank the engine for more than 1 — 2 seconds at a time.\n\nOK\n\nNG Proceed to page IG–4 and continue to troubleshoot.\n\nProceed to matrix chart of problem symptoms on page EG–408."
+}

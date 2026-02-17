@@ -1,0 +1,6 @@
+{
+  "page_id": "EC-88",
+  "section_header": "ENGINE CONTROL (FOR 2JZ-GE)",
+  "title": "ENGINE CONTROL (FOR 2JZ–GE)",
+  "ocr_text": "ENGINE CONTROL (FOR 2JZ–GE)\n\nTO A/C AMPLIFIER\nTO A/C MAGNETIC CLUTCH RELAY\nTO CRUISE CONTROL ECU\n\nL–R\nW–G\nBR–B\n\n31 II1\n2 EA1\n11 IU2\n\nL–R\nW–G\nBR–B (A/T)\n\n34 A\n23 A\n12 A\n\nA/C\nACMG\nOD1\n\nE9 A, E10 B\nENGINE CONTROL MODULE (*3)\n\nB–R\nB–R\nB–R\nB–R\nB–R\nB–R\nB–R\n\nE24\nE24\nE24\n\nI1\nIDLE AIR CONTROL VALVE\n(ISC VALVE)\n\n2\n3\n4\n5\n6\n\nB–R\nB–R\nB–R\nB–R\nB–R\n\nG–W\nB–G\nV–Y\nG–O\n\n34 B\n32 B\n35 B\n33 B\n\nISC2\nISC4\nISC1\nISC3\n\nV1\nVSV (FOR ACIS)\n\n2\n1\n\nB–R\nG–Y\n\n39 B\n\nACIS\n\nV3\nVSV (FOR EVAP)\n\n2\n1\n\nB–R\n(blue wire)\n\n74 B\n\nEVAP\n\nGR–R\n(A/T)\n\n17 A\n\nTT\n\n28 B\nVF2\n\n20 A\nTE1\n\n19 A\nTE2\n\n29 B\nE1\n\n69 B\nW\n\n6 A\nSP1\n\n2 A\n\n80 B\nEO1\n\n79\nEO2\n\nL–O\nY–Y\nP–G\nLG\nBR\nL–B\nP\nBR\nBR\nB–R\n\nD 1\nDATA LINK CONNECTOR 1\n(CHECK CONNECTOR)\n\nVF2 14\n15 OX2\nTE1 8\n12 +B\n20\n19 IG–\n1 FP\nVF1 13\n4 OX1\n3 E1\nBR\n\n(SHIELDED)\nR–L\nB–R\nB–W\nL–R\n(SHIELDED)\nW\n\nY–L\nP–G\nLG\nL–B\nP\nBR\n\nII7\nII7\nII7\nII7\n\nY–L 5\nIJ1\n\nP–G 17\nIJ1\n\nLG 13\nIJ1\n\nBR 18\nIJ1\n\nBR 8\nIC1\n\nY–L\nP–G\nLG\n\nBR\nBR\n(*1)\n\nB–R\nBR\n(*1)\n\nED\n\n88"
+}

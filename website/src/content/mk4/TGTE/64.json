@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-550",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "EG–550\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nEngine Control Module\n5 V\nTurbo Pressure Sensor\n3    L-R    41\nE9    VCC\n5 V\n2    B-Y    62\nE9    PM1\n1    BR-B    65\nE9    E2\n777 E1\nBARO\nSensor\nFI6963\n\nINSPECTION PROCEDURE\n\nHINT:  DTC 35 indicates trouble in the BARO sensor circuit or turbo pressure sensor circuit. Because all func–\ntions of the BARO sensor circuit are built into the ECM, it is not possible to check this circuit.\nHowever, if no problem is found in the turbo pressure sensor circuit, it can be concluded that the problem\nis in the BARO sensor circuit.\n\n1    Check voltage between terminals VCC and E1 of engine control module\nconnector.\n\nON    SST\nECM\nP    (1) Connect SST (check harness \"A\").\n(See page EG–510)\nSST 09990–01000\n(2) Turn ignition switch ON.\nB 69, 41\nC    Measure voltage between terminals VCC and E1\nof engine control module.\nOK    Voltage:  4.5 — 5.5 V\nBE6853\nFI6508\nE1    VCC\n\nOK    NG    Check and replace engine control module."
+}

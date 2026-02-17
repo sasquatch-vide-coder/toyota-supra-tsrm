@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-94",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "Check continuity between terminal GND of ABS (& TRAC) ECU connector and body ground.",
+  "ocr_text": "BR–94\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nCheck continuity between terminal GND of ABS (& TRAC) ECU connector and body ground.\n\nw/o TRAC\nLOCK\nGND GND\n\nBE8853\nR06983\n\nw/ TRAC\nLOCK\nGND GND\nGND\n\nBE8853\nR06928\n\nC Measure resistance between terminals GND of ABS (& TRAC) ECU connector and body ground.\n\nOK Resistance: 1 or less\n\nOK\n\nNG Repair or replace harness or connector.\n\nCheck ECU–IG fuse.\n\nJ/B No.1\n\nECU-IG\n\nR07407\n\nP Remove ECU–IG fuse from J/B No. 1.\n\nC Check continuity of ECU–IG fuse.\n\nOK Continuity\n\nOK\n\nNG Check for short in all the harness and components connected to ECU–IG fuse (See attached wiring diagram).\n\nCheck for open in harness and connector between ABS (& TRAC) ECU and battery (See page IN–30)."
+}

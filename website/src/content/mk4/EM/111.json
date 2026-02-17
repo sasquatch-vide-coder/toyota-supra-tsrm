@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-111",
+  "section_header": "ENGINE — ENGINE MECHANICAL",
+  "title": "INSPECT CONNECTING ROD",
+  "ocr_text": "ENGINE – ENGINE MECHANICAL\n\nEG–111\n\n3. INSPECT CONNECTING ROD\nA. Inspect connecting rod alignment\nUsing a feeler gauge and rod aligner, check the connecting\nrod alignment.\n• Check for out–of–alignment\nMaximum out–of–alignment:\n0.05 mm (0.0020 in.) per 100 mm (3.94 in.)\nIf out–of–alignment is greater than maximum, replace the\nconnecting rod assembly.\n\n• Check for twist\nMaximum twist:\n0.15 mm (0.0059 in.) per 100 mm (3.94 in.)\nIf twist is greater than maximum, replace the connecting rod\nassembly.\n\nB. Inspect piston pin oil clearance\n(a) Using a caliper gauge, measure the inside diameter of the\nconnecting rod bushing.\nBushing inside diameter:\n22.005–22.014 mm (0.8663–0.8667 in.)\n\n(b) Using a micrometer, measure the piston pin diameter.\nPiston pin diameter:\n21.997–22.006 mm (0.8660–0.8664 in.)\n(c) Subtract the piston pin diameter measurement from the\nbushing inside diameter measurement.\nStandard oil clearance:\n0.005–0.011 mm (0.0002–0.0004 in.)\nMaximum oil clearance:\n0.05 mm (0.0020 in.)\nIf the oil clearance is greater than maximum, replace the\nbushing. If necessary, replace the piston and piston pin as a\nset.\n\nP02270 EM028B Z02381\nP02277 EM0290 Z02382\nP02275\nEM0227"
+}

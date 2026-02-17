@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-92",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "DTC 54 Open in P Squib Circuit",
+  "ocr_text": "RS–92\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nDTC 54 Open in P Squib Circuit\n\nCIRCUIT DESCRIPTION\n\nThe P squib circuit consists of the center airbag sensor assembly and front passenger airbag assembly. It causes the airbag to deploy when the airbag deployment conditions are satisfied.\nFor details of the function of each component see FUNCTION OF COMPONENTS on page RS–4. Diagnostic trouble code 54 is recorded when an open is detected in the P squib circuit.\n\nDTC No. | Diagnosis\n54\n• Open circuit in P+ wire harness P– wire harness of squib.\n• P squib malfunction.\n• Center airbag sensor assembly malfunction.\n\nWIRING DIAGRAM\n\nCenter Airbag\nSensor Assembly\n\nPower\nSource\n\nAirbag Squib: P squib\n(Front Passenger Airbag Assembly)\n1    G    2\n          P+\nSafing\nSensor\n2    BR   1\n          P–\n\nTo Front\nAirbag\nSensor\n\nR07093"
+}

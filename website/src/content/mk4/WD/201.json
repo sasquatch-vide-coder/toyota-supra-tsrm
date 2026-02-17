@@ -1,0 +1,6 @@
+{
+  "page_id": "204",
+  "section_header": "REAR WIPER AND WASHER",
+  "title": "REAR WIPER AND WASHER",
+  "ocr_text": "REAR WIPER AND WASHER\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n20A\nWIPER\n\n5 1H    1 1A\n\nE 9 : 2JZ-GTE\nE21 : 2JZ-GE\n\nW 1\nWASHER MOTOR\n2  M  3    LG    1 IB2\n\nTO\nFRONT WIPER MOTOR\n\n1 IC2\n\n5 BM1\n\n4 BO1\n\nC14\nREAR WIPER AND WASHER SW\n[COMB. SW]\n\nWASHER1\nOFF\nINT\nON\nWASHER2\n\n2    1    10    16\nLG   LG-R   LG-B   W-B\n\n13 IC2   4 IC2\n\nLG-R      LG-B\n\n4 BM1   3 BM1\n\nLG-R      LG-B\n\n2 BO1   5 BO1\n\nLG-R      LG-B\n\n12 1K\n\n1 1J\n\nW-B\n\nR15\nREAR WIPER MOTOR AND RELAY\n\n3         2\nL         C1\n\nREAR WIPER RELAY\n\nLS    C1\n\n+B\n\nLM    L    SM\n\n1 B\n\nR    L    Y\n\nLM   +B   SM\n\nM         REAR WIPER\n          MOTOR\n\nIE\n\n204"
+}

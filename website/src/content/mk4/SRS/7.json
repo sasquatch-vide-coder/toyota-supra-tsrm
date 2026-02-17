@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-7",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — OPERATION",
+  "title": "",
+  "ocr_text": "RS–7\n\nSUPPLEMENTAL RESTRAINT SYSTEM — OPERATION\n\nResistor\nConnection\nDetection\nPin\n⊕\n⊖\nFront Airbag Sensor\n205954\n\n(3) Electrical Connection Check Mechanism\nThis mechanism is designed to electrically check if connectors are connected correctly and completely. The electrical connection check mechanism is designed so that the connection detection pin connects with the diagnosis terminals when the connector housing lock is in the locked condition.\n\n● Half Connection\n● Complete Connection\nConnection Detection Pin\nTerminal for Diagnosis\nSlope\nConnection Detection Pin Contacting Terminal\nT R10586\n\n(4) Connector Twin–Lock Mechanism\nWith this mechanism the male and female connectors are locked by two locking devices to increase connection reliability. If the primary lock is incomplete, ribs interfere and prevent the secondary lock.\n\nSecondary Lock\nRibs\nPrimary Lock\n● Primary Lock Incomplete\n(Secondary Lock Prevented)\n\nLock\n● Primary Lock Complete\n(Secondary Lock Permitted)\n\nLock\n● Twin-Lock Completed\n\nAB0089\n205490"
+}

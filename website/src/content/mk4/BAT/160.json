@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-160",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BR–160\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nINSPECTION PROCEDURE\n\n1 Is diagnostic trouble code output?\n\nDo diagnostic trouble code check on page BR 126.\n\nNO\nYES Repair circuit indicated by the code output.\n\n2 Check TRAC cut switch.\n\nP 1. Remove TRAC cut switch.\n2. Disconnect TRAC cut switch connector.\n\nC Measure resistance between terminals 1 and 2 of TRAC cut switch when TRAC cut switch is on and off.\n\nOK\nTRAC car switch    Resistance\nPushed in          Continuity\nReleased           1 M   or higher\n\nR07082\n\nOK\nNG Replace TRAC cut switch.\n\n3 Check for open and short in harness and connector between terminal CSW of TRAC ECU and TRAC cut switch and body ground (See page IN–30).\n\nOK\nNG Repair or replace harness or connector.\n\n4 Check TRAC OFF indicator light.\n\nSee Combination Meter Troubleshooting on page BR–43.\n\nOK\nNG Repair or replace combination meter."
+}

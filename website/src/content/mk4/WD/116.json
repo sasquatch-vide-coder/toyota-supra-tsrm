@@ -1,0 +1,6 @@
+{
+  "page_id": "IL-118",
+  "section_header": "INTERIOR LIGHT",
+  "title": "INTERIOR LIGHT",
+  "ocr_text": "INTERIOR LIGHT\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n7.5A\nRAD\nNO. 2\n\n10A\nGAUGE\n\n7.5A\nDOME\n\n1\n\n2\n\nR\nR\nR\nR\nR\nR\n\n5 1B    1 1C    11 1E    8 1F    6 1D    9 1H\n\n11        7        1\nACC      IG       B\n\nFADE OUT\nCONTROL CIRCUIT\n\nI20 A\nINTEGRATION\nRELAY\n\nPLCK         LOCK         DOOR              SW                E                LP\n\n2 A      3 A\n\nG-B         L-W\n\n8 IF2      9 IF2\n\nG-B         L-W\n\n8 IL1       6 ID1\n\nG-B         L-W\n\nDOOR UNLOCK\nDETECTION SW/RH\n[DOOR LOCK MOTOR RH]\n\nDOOR UNLOCK\nDETECTION SW LH\n[DOOR LOCK MOTOR LH]\n\n4              3             10              2\n\n6 1I    9 1E    2 1D    10 1D    1 1J    6 1F    2 1F    4 1D    1 1K\n\nR-W         R-W                L-B         W-B         W-B\n\nD16\n\nD15\n\nROOM LIGHT SW\n[DOOR KEY LOCK AND\nUNLOCK SW]\n\nD12\n\nW-B\n\nB.1\n\nW-G\nW-G\nG\nW-B\nR-B\nLG\n\nD7\nDIODE\n(FOR INTERIOR LIGHT)\n\nW-B         R-B\n\nW-B\n\nLG\n\n1\n\n16 IL1\n\nW-B\n\nI4 : *1\nI11 : EXCEPT *1\n\nR-W\n\nIC2\n2\n\nR-W         R-W\n\nDOOR COURTESY\nSW RH\n\nDOOR COURTESY\nSW LH\n\nD11\n\nD10\n\nW-B         W-B\n\nW-B\n\nIG              BI              IE\n\n1H\n\n118"
+}

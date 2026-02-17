@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-416",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG–416\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\n6  Check for open and short in harness and connector between ignitioin switch\nand ignition coil, ignition coil and igniter (See page IN–30).\n\nOK\n\nNG  Repair or replace harness or connector.\n\n7  Check ignition coil.\n\nPrimary Coil\n\nP  Disconnect ignition coil connector.\n\nC  (1) Check primary coil.\nMeasure resistance between terminals of ignition coil\nconnector.\n(2) Check secondary coil.\nMeasure resistance between terminal (+) of ignition coil\nconnector and high–tension terminal.\n\nOK\n\n                              Resistance\n(a)  Primary Coil    Cold    0.36 ~ 0.55 Ω\n                      Hot     0.45 ~ 0.65 Ω\n(b)  Secondary       Cold    9.0 ~ 11.1 kΩ\n     Coil             Hot     11.4 ~ 18.1 kΩ\n\n\"Cold\" is from — 10°C (14°F) to 50°C (122°F) and\n\"Hot\" is from 50°C (122°F) to 100°C (212°F).\n\nSecondary Coil\n\n(+)\n\nP11567\nP11573\n\nOK\n\nNG  Replace ignition coil.\n\nReplace igniter."
+}

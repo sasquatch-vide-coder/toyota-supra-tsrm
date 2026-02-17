@@ -1,0 +1,6 @@
+{
+  "page_id": "IN-34",
+  "section_header": "INTRODUCTION — HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS",
+  "title": "",
+  "ocr_text": "IN–34\n\nINTRODUCTION  –  HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS\n\n(a)  Continuity Check with Ground\n(1)  Disconnect connectors (A) and (C) and measure the resistance between terminals 1 and 2 of connector\n(A) and body ground.\nIn the case of Fig. 6,\nBetween terminal 1 of connector (A) and body ground → Continuity\nBetween terminal 2 of connector (A) and body ground → No continuity (open)\nTherefore, it is found out that there is a short circuit between terminal 1 of connector (A) and terminal 1 of\nconnector (C).\n\nFig. 6\n\nSensor\nC\n1\n2\nB\n1\n2\nA\n1\n2\nECU\n\nBE4068\n\n(2)  Disconnect connector (B) and measure the resistance between terminal 1 of connector (A) and body\nground, and terminal 1 of connector (B) and body ground.\nBetween terminal 1 of connector (A) and body ground → No continuity (open)\nBetween terminal 1 of connector (B) and body ground → Continuity\nTherefore, it is found out that there is a short circuit between terminal 1 of connector (B) and terminal 1 of\nconnector (C).\n\nFig. 7\n\nSensor\nC\n1\n2\nB\n1\n2\nB\n1\n2\nA\n1\n2\nECU\n\nBE4069"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "132",
+  "section_header": "THEFT DETERRENT AND DOOR LOCK CONTROL",
+  "title": "THEFT DETERRENT AND DOOR LOCK CONTROL",
+  "ocr_text": "THEFT DETERRENT AND DOOR LOCK CONTROL\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n10A\nECU-IG\n\n15A\nCIG\n\n7. 5A\nDOME\n\n30A\nDOOR\n\n17 1E\n\n2 1E\n\n1\n\n2\n\n15 1H\n\nB-R\n\nL-R\n\nR\n\nL-W\n\n5 1B\n\n11 1E\n\n13 IF1\n\nR\n\nL-W\n\n7 A\nIG\n\n8 A\nACC\n\n1 B\n+B1\n\n9 A\n+B2\n\nT 7\nTHEFT DETERRENT ECU\n\nDSWD\nDSWP\nDSWH\nLUG\nDSWL\nPRLY\n\n7 B\n19 B\n14 B\n9 B\n4 B\n6 A\n\nR-B\n\nR-L\n\nV-R\n\nL\n\nLG\n\nY\n\n3 IF2\n\n9 IF3\n\n12 IF3\n\nR-B\n\nR-L\n\nV-R\n\nY\n\n15 IC2\n\n4 IF3\n\n4 IB6\n\n4 IE1\n\n8 IE1\n\n7 IJ\n\nR-B\n\nR-L\n\nV-R\n\nL\n\nLG\n\nPOWER MAIN\nRELAY\n\n3\n3\n1\n1\n1\n\nD10\nDOOR COURTESY\nSW LH\n\nD11\nDOOR COURTESY\nSW RH\n\nE 6\nENGINE HOOD\nCOURTESY SW\n\nL 3\nLUGGAGE\nCOMPARTMENT\nKEY UNLOCK SW\n\nL 5\nLUGGAGE\nCOMPARTMENT\nLIGHT SW\n\n1 IJ\n9 1D\n2 IJ\n\n2\n2\n2\n2\n\nL\nL\n\nW-B\n\nW-B\n\nW-B\n\nW-B\n\nW-B\n\nBI\nIG\nEA\nBJ\nIE\n\n132"
+}

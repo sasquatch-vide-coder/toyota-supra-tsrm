@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-255",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "FUEL CUT RPM\nFUEL CUT RPM INSPECTION",
+  "ocr_text": "ENGINE – SFI SYSTEM (2JZ–GE)\nEG–255\n\nFUEL CUT RPM\nFUEL CUT RPM INSPECTION\n\n1. WARM UP ENGINE\nAllow the engine to warm up to normal operating temperature.\n\nIG–\nTachometer\nDLC1\nBattery\nP11291\n\n2. CONNECT TACHOMETER TO ENGINE\nConnect the tester probe of a tachometer to terminal IG⊖ of the DLC1.\nNOTICE:\n• Never allow the tachometer terminal to touch ground as it could result in damage to the igniter and/or ignition coil.\n• As some tachometers are not compatible with this ignition system, we recommend that you confirm the compatibility of your unit before use.\n\nSound Scope\nP02581\n\n3. INSPECT FUEL CUTOFF OPERATION\n(a) Increase the engine speed to at least 3,000 rpm.\n(b) Check for injector operating noise.\n(c) Check that when the throttle lever is released, injector operation noise stops momentarily and then resumes.\nHINT: Measure with the A/C OFF.\nFuel return speed:\n1,400 rpm\n\n4. DISCONNECT TACHOMETER"
+}

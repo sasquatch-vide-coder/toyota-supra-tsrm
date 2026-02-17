@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-434",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "DTC 27 Sub Heated Oxygen Sensor Circuit (Only for California spec.)\nCIRCUIT DESCRIPTION",
+  "ocr_text": "EG–434\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nDTC 27 Sub Heated Oxygen Sensor Circuit (Only for California spec.)\nCIRCUIT DESCRIPTION\n\nThe sub heated oxygen sensor is installed on the exhaust pipe. Its construction and operation is the same as the main heated oxygen sensor on page EG–419.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble Area\n\n27\n(1) Open or short in heater circuit of sub heated oxygen sensor for 0.5 sec. or more\n• Open or short in heater circuit of sub heated oxygen sensor\n• Sub heated oxygen sensor heater\n• ECM\n\n(2) Main heated oxygen sensor signal is 0.45 V or more and sub heated oxygen sensor signal is 0.45 V or less under conditions (a) ~ (c):\n(2 trip detection logic)*\n(a) Engine coolant temp.: 80°C (176°F) or more\n(b) Engine speed: 1,500 rpm or more\n(c) Accel. pedal: Fully depressed for 2 sec. or more\n• Open or short in sub heated oxygen sensor circuit\n• Sub heated oxygen sensor\n• ECM\n\n*: See page EG–397."
+}

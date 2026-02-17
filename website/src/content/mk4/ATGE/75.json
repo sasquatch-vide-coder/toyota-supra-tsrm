@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-75",
+  "section_header": "AT340E (2JZ–GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "DTC 64 Lock–up Solenoid valve Circuit",
+  "ocr_text": "DTC 64 Lock–up Solenoid valve Circuit\n\nCIRCUIT DESCRIPTION\n\nThe SL solenoid valve is turned ON and OFF by signals from the ECM to control the hydraulic pressure acting\non the lock–up relay valve, which then controls operation of the lock–up clutch.\nIf a malfunction occurs in this circuit and diagnostic trouble code 64 is stored in memory, the O/D OFF indicator\nlight does not blink.\nFail Safe Function\nIf the ECM detects a malfunction, it turns the lock–up solenoid valve OFF.\n\nDTC No. | Diagnostic Trouble Code Detection Condition | Trouble Area\n\n64\n(a) Solenoid resistance is 8 Ω or lower\n(short circuit) when solenoid energized.\n(b) Solenoid resistance is 100 kΩ or higher (open\ncircuit) when solenoid is not energized.\nECM memorizes diag. trouble code 64 if about (a) or (b)\ncondition is detected once or more, but ECM does not\nstart O/D OFF indicator light blinking.\n· Lock–up solenoid valve\n· Harness or connector between\nlock–up solenoid valve and ECM\n· ECM\n\nWIRING DIAGRAM\n\nTransmission\nLock–up\nSolenoid Valve\nY 3    B-R    8\nE9 S3\nECM\nB+\n\nQ04350"
+}

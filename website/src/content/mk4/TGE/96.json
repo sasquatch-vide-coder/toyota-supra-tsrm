@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-476",
+  "section_header": "ENGINE — 2JZ-GE ENGINE TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "EG–476\n\nENGINE – 2JZ–GE ENGINE TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nEngine Control Module\nB+\n\nB-R  3\n>>EA3  B-R\n24\nGR  8\n>>EA1  GR  E10  M-REL\n\nR/B\nNo.2\n2  2\n5\n6\n3  2\n2  2\n\nB-R B1  S1 V-Y  35\n5  4  E9  ISC1\n\nEFI Main Relay\n\nB-R\nB2  S3 G-O  33\n2  6  E9  ISC3\n\nEO1\n\nB-Y\n\nR/B\nNo.2\n2\n\nS2 G-W  34\n1  E9  ISC2\n\nEFI No.1\n\nW-B\n1 2A\n\nS4 R-G  32\n3  E9  ISC4\n\nB\n\nBattery\n\nIAC Valve\n\nFI6935"
+}

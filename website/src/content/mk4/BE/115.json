@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-115",
+  "section_header": "BODY ELECTRICAL SYSTEM — CLOCK",
+  "title": "CLOCK TROUBLESHOOTING",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – CLOCK\n\nBE–115\n\nCLOCK\nTROUBLESHOOTING\n\nHINT: Troubleshoot the clock according to the table below.\n\nClock will not operate | 1\nClock loses or gains time | 2\n\n1 | CLOCK WILL NOT OPERATE\n\n+B GND\n\n●5-1\n\n(a) Check that the battery positive voltage is 10 — 16 V.\n    If voltage is not as specified, replace the battery.\n(b) Check that the DOME fuse is not blown.\n    If the fuse is blown, replace the fuse and check for short.\n(c) Troubleshoot the clock as follows.\n    HINT: Inspect the connector on the wire harness side.\n\nIs there battery positive voltage between\nterminal +B and body ground?\n\nNo    Open or short circuit in wire harness be-\n      tween terminal +B and DOME fuse.\n\nYes\n\nIs there continuity between terminal\nGND and body ground?\n\nNo    Open circuit in wire harness between ter-\n      minal GND and body ground.\n\nYes\n\nReplace clock assembly."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-108",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "O D Main Switch & O D OFF Indicator Light Circuit",
+  "ocr_text": "AT2–108\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nO D Main Switch & O D OFF Indicator Light Circuit\n\n— CIRCUIT DESCRIPTION —\n\nThe O/D main switch contacts go off when the switch is pushed in and comes on when it is pushed out.\nIn O/D main switch OFF position the O/D OFF indicator lights up, and the ECM prohibits shifting to over-\ndrive. The ECM also causes the O/D OFF indicator light to blink when a malfunction is detected. In this\ncase, connecting the terminals in the DLC2 or DLC1 can display the malfunction code.\n\n— WIRING DIAGRAM —\n\n5 1J\nGAUGE\nJ/B No.1\n12 1E\n\nO/D OFF\nIndicator Light\n\nY    1    2\n\nV-G         5    V-G    28  OD2\n                  II1         E10\nV-G\nIF3  3\n\nV-G    V-G → To DLC2\n2\nO/D Main (*)\nSwitch\n4\nW-B\n1E\n\nECM\n\n(*) O/D Main Switch\n    Contacts go off with button pushed in.\n    Contacts go on with button pushed out.\n\nQ06898"
+}

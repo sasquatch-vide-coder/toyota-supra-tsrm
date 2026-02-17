@@ -1,0 +1,6 @@
+{
+  "page_id": "211",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : W/ STEREO POWER AMPLIFIER\n*2 : W/O STEREO POWER AMPLIFIER\n\nS8 (A), S9 (B)\nSTEREO POWER\nAMPLIFIER\n\nGR (*1)\n\nL-Y (*1)\n\nI24\n\nL-Y (*2)\nGR (*2)\nP-L (*1)\nP-L (*2)\nB-R (*1)\nB-R\n(*2)\n\nIH1  8\nIH1  9\n\nI16\n\nGR  3  (A)  ACC\n(*1)\n\nL-Y  6\n(*1)  (A)  +B1\n\nL-Y  2\n(*1)  (A)  +B2\n\nP-L  1\n(*1)  (B)  AMP+\n\n(SHIELDED)\nV  9\n(*1)  (B)  OUT\n\nLG  3\n(*1)  (B)  OUT\n\n(SHIELDED)\n10\n(B)  GND\n\nGND\n4  (A)\n\nBR\n\n11  IF3\n\nBR\n\nIF\n\nB-R (*2)\nB-R (*1)\nP-L (*2)\nP-L (*1)\nGR (*2)\nV (*1)\nL-Y (*2)\nLG (*1)\n\n8 (A)  1 (A)  3 (A)  4 (A) (*1)\n8 (B)  9 (B)  3 (B)  4 (B) (*2)\n\nR4 (B), R6 (A)\nRADIO AND PLAYER\n\n211"
+}

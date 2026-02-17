@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-44",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "DIAGNOSIS INSPECTION",
+  "ocr_text": "RS–44\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nDIAGNOSIS INSPECTION\n\nSRS warning light check\n(a) Turn the ignition switch to ACC or ON and check that the SRS warning light lights up.\n(b) Check that the SRS warning light goes out after approx. 6 seconds.\nHINT:\n• When the ignition switch is at ACC or ON and the SRS warning light remains on or flashes, the center airbag sensor assembly has detected a malfunction code.\n• If, after approx. 6 seconds have elapsed, the SRS warning light sometimes lights up or the SRS warning light light up even when the ignition switch is OFF, a short in the SRS warning light circuit can be considered likely. Proceed to \"SRS warning light system\" on page RS–97.\n\nDiagnostic trouble code check\nUsing diagnosis check wire:\n1. OUTPUT DIAGNOSTIC TROUBLE CODE\n(a) Turn the ignition switch to ACC or ON position and wait approx. 20 seconds.\n(b) Using SST, connect terminals Tc and E1 of the DLC1 or DLC2.\nSST 09843–18020\nNOTICE: Never make a mistake with the terminal connection position as this will cause a malfunction.\n\nDLC 1\nE1\nTc\n\nDLC 2\nTc\nE1\n\nR08853\n\nlei-23-1-A\nS-17-1"
+}

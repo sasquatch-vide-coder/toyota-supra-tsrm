@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-72",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "BR–72\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\nWIRING DIAGRAM\n\nw/o TRAC\n\nABS ECU\n12 V\nR    R\nABS Control Relay\n1 A8    4    V    2    V    23    MR\n                        IB6        A18\nMotor\nRelay    3    V-Y    13    V-Y    24    R–\nA8        IB6        A18\n2\nA9\nABS\nA9\nNo.1    5\nR/B\nNo.2    ALT\nSolenoid    1    L-B    1    L-B    11    12 V\nRelay    A9    IB6        A18    SR\n2 A9  A9 5\nDLC1\nB\n3 A6  A6 4\nW-B\nW-B 1\nA6\nBattery    M\nEA                ABS EUC\nY-G    5    Y-G    18    AST\nIB6        A18\nL-W        L-W    1    MT\nA7    IB6        A18\nABS Actuator\n\nw/ TRAC\n\nABS & TRAC ECU\nR\nABS Motor\nRelay (R/B No.5)    12 V\n1\n4    V    2    V    2    MR\nIB6        A20\nABS\n3    V-Y    13    V-Y    12    R–\nNo.1        IB6        A20\nR/B\nNo.2    ALT    2\nB\n3 A6\n5    L-W    6    L-W    9    MT\nA7        IB6        A20\nBattery    W-B 1\nA6\nABS Pump Motor\nEA\n\nR07056\nR07058"
+}

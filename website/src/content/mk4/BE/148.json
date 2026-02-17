@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-148",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Engine Hood Courtesy Switch Circuit",
+  "ocr_text": "BE–148\n\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nEngine Hood Courtesy Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nThe engine hood courtesy switch is built into the engine hood lock assembly and goes on when the engine hood is opened and goes off when the engine hood is closed.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\n12 V\n\nEngine Hood\nCourtesy Switch\n2      1 V-R\n\n4\nIB6    V-R\n\n9\nIF3    V-R    FOD\n14\n\nW-B\n\nEA\n\nN08553"
+}

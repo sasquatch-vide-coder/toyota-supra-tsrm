@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-142",
+  "section_header": "BRAKE SYSTEM — TRACTION CONTROL SYSTEM (TRAC)",
+  "title": "DTC 41 IG Power Source Circuit\nCIRCUIT DESCRIPTION",
+  "ocr_text": "BR–142\nBRAKE SYSTEM – TRACTION CONTROL SYSTEM (TRAC)\n\nDTC 41 IG Power Source Circuit\nCIRCUIT DESCRIPTION\n\nThis is the power source for the ECU, hence the CPU and the actuators.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble area\n\n41 | When either of the following (1) or (2) is detected:\n(1) Voltage at ECU terminal IG1 is less than\n9.5 V for more than 10 sec. while engine\nspeed is 500 RPM or higher.\n(2) Voltage at ECU terminal IG1 is more than\n17 V for more than 5 sec. | Battery\nIC regulator\nOpen or short in power source circuit\nECU\n\nWIRING DIAGRAM\n\nR/B No.2   R/B No.2   J/B No.1         J/B No.1              TRAC ECU\nW          W                    W        B-Y              B-R    26\nALT        AM1       1B    1J        1J       ECU-IG     1K    T9   IG1\n                              7        4\n                         Ignition\n                          Switch\nB\n                                        W-B           14\nBattery                                              T9  GND\n\nIG\n\nR12468"
+}

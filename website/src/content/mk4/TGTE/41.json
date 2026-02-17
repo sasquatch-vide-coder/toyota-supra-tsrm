@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-527",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "WIRING DIAGRAM",
+  "ocr_text": "EG–527\n\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nWIRING DIAGRAM\n\nEngine Control Module\nB+\nE10 M-REL\n\nB-R\n\nGR\nGR EA1\nGR\n24\nE10\n\n4B\nE9 OX1\n\nR/B No.2\nEF1 Main Relay\nB-R\nB-R 5 B-R\nEA3\nW\n\nMain Heated\nOxygen Sensor\n2\n3\n\n1\n4\n\nE1\n\n71\nE9 HT1\n\nEO1\n\nB-L\n\nR-L\n47\nE9 OX2\n\nEO1\n\nR/B No.2\nEFI No.1\n\nB-R\nR-L 9 R-L 14\nIC1 IC K IJ2\n\nW\n\nData Link\nConnector 2\nENG LG\n7\n\nE1\n\n2\nEA2\n2O J1\n\nB-R\n\nSub Heated\nOxygen\nSensor\n\n4 IC1\nB\n2\n3\n\n13 J1\n72\nE9 HT2\n\n5V\nEO1\n\n4 BR-W 12 BR-W 5\nIC1 K IC K IJ2\n\nBR-W\n\nLG\n\n29\nE9 VF1\n\nEO1\n\nBR\nBR\n\nBR 8 BR 18 BR\nIC1 K IC K IJ1\n\n4 15\nOX1 OX2\nVF1\n13\n\nLG LG\n\nE1\n\nData Link\nConnector 1\n\nB\nW-B\n\nBattery\n\nFI6918\n\nINSPECTION PROCEDURE\n\n1\nCheck voltage between terminals HT1 of engine control module\nconnector and body ground.\n\nON\n\nSST\nECM\n\n(B) 71\n\nHT1\n\nBE6853\nFI6945\n\nP Connect SST (check harness \"A\").\n(See page EG–510)\nSST 09990–01000\n\nC Measure voltage between terminals HT1 of engine\ncontrol module connector and body ground.\n\nOK Voltage: 9 — 14 V\n\nNG\n\nOK Go to step 3 ."
+}

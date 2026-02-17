@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-524",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "DTC 16 A T Control Signal Malfunction",
+  "ocr_text": "EG–524\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nDTC 16 A T Control Signal Malfunction\n\nCIRCUIT DESCRIPTION\n\nThe signal from the A/T CPU retards the ignition timing of the engine during A/T gear shifting, thus momentarily reducing torque output of the engine for smooth clutch operation inside the transmission and reduced shift shock.\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble Area\n16 | Fault in communications between the engine CPU and A/T CPU in the ECM | • ECM\n\nIf the ECM detects the diagnostic trouble code \"16\" in memory, it prohibits the torque control of the A/T which performs smooth gear shifting.\n\nINSPECTION PROCEDURE\n\n1 Are there any other codes (besides Code 16) being output?\n\nNO\n\nYES Go to relevant diagnostic trouble code chart.\n\nReplace engine control module."
+}

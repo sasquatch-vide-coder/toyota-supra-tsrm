@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-91",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "EITHER SPEAKER DOES NOT WORK",
+  "ocr_text": "BE-91\n\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n4  Radio  EITHER SPEAKER DOES NOT WORK\n\nW  : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nIs tape player operating normally?\nYes → Radio assembly faulty.\n\nNo\n↓\nIs this produced by non–functioning speaker?\nYes → WO  Radio assembly faulty.\n        W   Radio assembly faulty.  Recheck system after repair.\n\nNo\n↓\nIs there continuity in speaker wire harness?\nNo → Speaker wire harness faulty.\n\nYes\n↓\nTemporarily install another speaker.\nFunctions OK?\nYes → Speaker faulty.\n\nNo\n↓\nWO  Radio assembly faulty.\nW   Power amplifier faulty.  Recheck system after repair."
+}

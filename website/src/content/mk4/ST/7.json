@@ -1,0 +1,6 @@
+{
+  "page_id": "ST-7",
+  "section_header": "STARTING SYSTEM — STARTER",
+  "title": "Commutator",
+  "ocr_text": "ST–7\nSTARTING SYSTEM – STARTER\n\nOhmmeter\nNo Continuity\nP10585\n\n2. INSPECT COMMUTATOR FOR GROUND\nUsing an ohmmeter, check that there is no continuity between the commutator and armature coil core.\nIf there is continuity, replace the armature.\n\nCommutator\n1. INSPECT COMMUTATOR FOR DIRTY AND BURNT SURFACE\nIf the surface is dirty or burnt, correct it with sandpaper (No.400) or on a lathe.\n\nP10586\n\n2. INSPECT COMMUTATOR CIRCLE RUNOUT\n(a) Place the commutator on V–blocks.\n(b) Using a dial gauge, measure the circle runout.\nMaximum circle runout:\n0.05 mm (0.0020 in.)\nIf the circle runout is greater than maximum, correct it on a lathe.\n\nP10587\n\n3. INSPECT COMMUTATOR DIAMETER\nUsing a vernier caliper, measure the commutator diameter.\nStandard diameter:\n30.0 mm (1.181 in.)\nMinimum diameter:\n29.0 mm (1.412 in.)\nIf the diameter is less than minimum, replace the armature.\n\nST0040\n\n4. INSPECT UNDERCUT DEPTH\nCheck that the undercut depth is clean and free of foreign materials. Smooth out the edge.\nStandard undercut depth:\n0.6 mm (0.024 in.)\nMinimum undercut depth:\n0.2 mm (0.008 in.)\nIf the undercut depth is less than minimum, correct it with a hacksaw blade."
+}

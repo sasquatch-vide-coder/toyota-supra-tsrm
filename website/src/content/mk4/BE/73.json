@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-73",
+  "section_header": "BODY ELECTRICAL SYSTEM — POWER WINDOW CONTROL SYSTEM",
+  "title": "POWER MAIN RELAY INSPECTION",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – POWER WINDOW CONTROL SYSTEM\n\nBE–73\n\nPOWER MAIN RELAY INSPECTION\n\nINSPECT RELAY CONTINUITY\n\nCondition | Tester connection to terminal number | Specified condition\n\nConstant | 1–2 | Continuity\n\nApply B+ between terminals 1 and 2. | 3–5 | Continuity\n\nIf continuity is not as specified, replace the relay.\n\nBE4049 BE1840\n205930"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-99",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURES",
+  "ocr_text": "RS–99\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURES\n[P] Preparation [C] Check\n\nHINT: If the diagnostic trouble code is not displayed, do the following troubleshooting:\n\n1 Does SRS warning light light up for approx. 6 seconds?\n\nLOCK ACC ON\nor\n\nAB0117 AB0118 AB0119\nRO6803\n\nC Check operation of SRS warning light after ignition switch turned from LOCK position to ACC or ON position.\n\nYES\n\nNO Check SRS warning light system.\n(See page RS–44)\n\n2 Check voltage between terminals Tc and E1 of DLC1 and DLC2.\n\nACC ON\nor\n\nDLC 1 DLC 2\n\nE1 Tc Tc\nE1\n\nAB0118 AB0119\nfa-23-1-A S-17-1\n\nP Turn ignition switch to ACC or ON.\n\nC Measure voltage between terminals Tc and E1 of DLC1 or DLC2.\n\nOK Voltage: Battery positive voltage\n\nNG\n\nOK Go to step 4."
+}

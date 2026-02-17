@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-191",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "Park Neutral Position Switch Circuit",
+  "ocr_text": "BE-191\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nPark Neutral Position Switch Circuit\n\nCIRCUIT DESCRIPTION\nWhen the shift position is put in EXCEPT D RANGE, a signal is sent from the park/neutral position switch to the\nECU. When this signal is input during cruise control driving, the ECU cancels the cruise control\n\nWIRING DIAGRAM\n\nJ/B No.1\n12\n1H\nY\n1\nClutch Switch\n2\nG-R\n(M/T)\nCruise Control ECU\n12 V\nB-Y\n5 GAUGE\n12\n1J\n1E\nY\n23\nII1\nY\n4\n9 G-R\n7 23\nIJ2 II1\nG-R\n(A/T)\nD\n2\n*1 *2\nPark/Neutral\nPosition Switch\n4\nIgnition Switch\n7 W\n4 1J\n4 1B\nW\n2\nAM1\n2\n2\nALT\n2A\nB\nBattery\n\n*1: OSA Models\n*2: CANADA Models\n\nN12780"
+}

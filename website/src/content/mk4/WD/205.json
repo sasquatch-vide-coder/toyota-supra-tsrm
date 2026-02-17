@@ -1,0 +1,6 @@
+{
+  "page_id": "EL-208",
+  "section_header": "REAR WINDOW DEFOGGER AND MIRROR HEATER",
+  "title": "REAR WINDOW DEFOGGER AND MIRROR HEATER",
+  "ocr_text": "REAR WINDOW DEFOGGER AND MIRROR HEATER\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n3\n10A\nGAUGE\n\n30A\nDEFOG\n4\n\n12 1H    7 1K\n\n>\n\nW–L\n\n4    4\n1    3\nREAR WINDOW\nDEFOGGER\nRELAY\n2    5\n4    4\n\nB                B\n\n8 IF1\n\nB\n\n18 DEF\n\nA13 B  A14 A\nA/C AMPLIFIER\nSW5    SW1    GND\n3 A    4 B    9 A\n\nR–W        P–B        W–B\n\n10        7\n\nH13\nREAR WINDOW\nDEFOGGER SW\n[HEATER CONTROL SW]\n\nB\n\nN 2\nNOISE\nFILTER\n\nW–B\n\nJ 1\nJUNCTION\nCONNECTOR\nA\n\nW–B\n\n7 1C    4 1H    1 1D\n\n10A\nMIR–HTR\n\nB\n\nI 6\n\nB\n\n5 IC2    6 BM1\n\nB\n\n1 BO1\n\nB\n\n1\nN 3 A\nNOISE\nFILTER\n\nB\n\n1 B\nR18 B, R19 C\nREAR\nWINDOW\nDEFOGGER\n\n1 C\n\nB–W\n\nNOISE\nFILTER\n\nI 4\n\nL–R\n\n3 IF1\n\nL–R\n\n13 IL1\n\nL–R\n\n2\nR17\nMIRROR\nHEATER RH\n[REMOTE CONTROL\nMIRROR RH]\n\nW–B\n\n16 IL1\n\nW–B\n\nL–R\n\n2\nR16\nMIRROR\nHEATER LH\n[REMOTE CONTROL\nMIRROR LH]\n\nW–B\n\n10 1D\n\n1 1J\n\nW–B\n\nW–B\n\nIH                IE\n\n208"
+}

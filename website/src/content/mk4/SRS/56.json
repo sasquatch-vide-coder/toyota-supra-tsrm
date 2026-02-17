@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-56",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "RS–56\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\n4  Check D squib circuit.\n\nCenter Airbag\nP squib          Sensor Assembly\n\nSpiral\nCable\nD squib\n\nD–        D+\n\nR06894\nAB0070\n\nC  For the connector (on the spiral cable side) between the spiral cable and steering wheel pad, measure the resistance between D+, D– and body ground.\n\nOK  Resistance: 1 MΩ or Higher\n\nOK\n\nNG  Go to step 10 .\n\n5  Check P squib circuit.\n\nCenter Airbag\nP squib          Sensor Assembly\n\nSpiral\nCable\nD squib\n\nP–        P+\n\nR05898\nAB0070\n\nC  For the connector (on the center airbag sensor assembly side) between the center airbag sensor assembly and front passenger airbag assembly, measure the resistance between P+, P– and body ground.\n\nOK  Resistance: 1 MΩ or Higher\n\nOK\n\nNG  Repair or replace harness or connector between center airbag sensor assembly and front airbag sensor."
+}

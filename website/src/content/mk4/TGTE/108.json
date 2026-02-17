@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-594",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "EG-594\n\nENGINE – 2JZ-GTE ENGINE TROUBLESHOOTING\n\n4  Check voltage between terminal VSV1, VSV2, VSV3 of engine control module connector and body ground.\n\nON\n\nSST\nECM\n\n(B) 40, 39, 38\n\nVSV1, VSV2, VSV3\n\nBE6653\nFI0971\n\nP  (1) Connect SST (check harness \"A\").\n        (See page EG-510)\n    (2) Turn ignition switch ON.\n\nC  Measure voltage between terminal VSV1, VSV2, VSV3 of engine control module connector and body ground.\n\nVoltage:  9 — 14 V\n\nOK\n\nNG                    OK    Check actuator. (See page EG-144, 158)\n\n5  Check for open and short in harness and connector between EFI main replay and engine control module (See page IN-30).\n\nOK                    NG    Repair or replace harness or connector.\n\nCheck and replace engine control module."
+}

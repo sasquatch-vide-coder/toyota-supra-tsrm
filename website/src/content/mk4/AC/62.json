@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-62",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "Compressor Circuit\nCIRCUIT DESCRIPTION",
+  "ocr_text": "AC–62\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nCompressor Circuit\n\nCIRCUIT DESCRIPTION\n\nThe A/C amplifier outputs the magnetic clutch ON signal from terminal MGC to the ECM. When the ECM receives this signal, it sends a signal from terminal ACMG and switches the air conditioning magnetic clutch relay ON, thus turning the air conditioning compressor magnetic clutch ON.\n\nWIRING DIAGRAM\n\nHTR Fuse\n\nR-L\nR/B No.2\n\n3\n1\nA/C\nMagnetic\nClutch\nRelay\n\n5\n2\n\nW-G\nEA1\nW-G\nE10\n\n2\n23\nACMG\n\nECM\n\n34\nE10\nA/C\n\n31\nII1\nL-R\n\nL-R\n\n6\nA12\nMGC\n\nA/C Amplifier\n\nL\n1\nEA1\nL\n\nL\n\n10\nII1\nL\n\n7\nA12\nA/C IN\n\n4\n\nCompressor\n(A/C Magnetic Clutch)\n\nN09824"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BR-45",
+  "section_header": "BRAKE SYSTEM — ANTI-LOCK BRAKE SYSTEM (ABS)",
+  "title": "INSPECT BATTERY POSITIVE VOLTAGE",
+  "ocr_text": "BR–45\nBRAKE SYSTEM – ANTI–LOCK BRAKE SYSTEM (ABS)\n\n1. INSPECT BATTERY POSITIVE VOLTAGE\nBattery positive voltage:\n10–14 V\n2. DISCONNECT CONNECTORS\n(a) Disconnect the 2 connectors from the actuator.\n(b) w/o TRAC:\nDisconnect the 2 connectors from the control relay.\n3. CONNECT ACTUATOR CHECKER (SST) TO ACTUATOR\n(a) Connect the actuator checker (SST) to the actuator side wire harnesses via the sub–wire harnesses (SST), as shown.\nw/o TRAC:\nSST 09990–00150, 09990–00200, and 09990–00210\nw/ TRAC:\nSST 09990–00150, 09990–00210, 09990–00250, and 09990–00280\n(b) Connect the red cable of the checker to the battery positive (+) terminal and the black cable to negative (–) terminal. Connect the black cable of the sub–wire harnesses to the battery negative (–) terminal or body ground.\nSST 09990–00163\n(c) Place \"SHEET A\" (SST) on the actuator checker.\n\nw/o TRAC\nSub-Wire Harness C\n(SST)\nTo body\nTo body\nMAIN\nABS\nActuator\nSub-Wire Harness E\nSUB (Non connected)\n\nw/ TRAC\nSub-Wire Harness G\n(SST)\nMAIN\nSub-Wire Harness H\nABS\nActuator\nSub-Wire Harness E\nSUB (Non connected)\n\nR00951\nR01110\nZI3512"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-187",
+  "section_header": "BODY ELECTRICAL SYSTEM — CRUISE CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE–187\nBODY ELECTRICAL SYSTEM – CRUISE CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1   Check operation of overdrive.\n\nP   Test drive after engine warm up.\n\nC   Check that overdrive ON ↔ OFF occurs with operation of OD switch ON–OFF.\n\nOK                          NG   Check and Repair Electronically controlled transmission (See AT section).\n\n2   Check voltage between terminal OD of harness side connector ECU and body ground.\n\nON\n\nP   Remove ECU with connector still connected.\n\nC   (1)  Disconnect ECU connector.\n    (2)  Turn ignition switch ON.\n    (3)  Measure voltage between terminal OD of harness side connector of ECU and body ground.\n\nOK  Voltage:  10 – 14 V\n\nOD\n\nBE3841\nNO8760\n\nOK                          NG   Go to step  5  .\n\nGo to step  3  ."
+}

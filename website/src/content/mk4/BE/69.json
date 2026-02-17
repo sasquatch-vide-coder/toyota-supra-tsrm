@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-69",
+  "section_header": "BODY ELECTRICAL SYSTEM — POWER WINDOW CONTROL SYSTEM",
+  "title": "POWER WINDOW MASTER SWITCH INSPECTION",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – POWER WINDOW CONTROL SYSTEM\n\nBE–69\n\nPOWER WINDOW MASTER SWITCH INSPECTION\n\n1. INSPECT SWITCH CONTINUITY\n\nDriver's Switch\n\nSwitch position | Tester connection to terminal number | Specified condition\nUP | 4–10\n8–9 | Continuity\nOFF | 8–10\n8–9 | Continuity\nDOWN | 4–9\n8–10 | Continuity\n\nPassenger's Switch (Window unlock)\n\nSwitch position | Tester connection to terminal number | Specified condition\nUP | 4–5\n7–8 | Continuity\nOFF | 5–8\n7–8 | Continuity\nDOWN | 4–7\n5–8 | Continuity\n\nPassenger's Switch (Window lock)\n\nSwitch position' | Tester connection to terminal number | Specified condition\nUP | 4–5 | Continuity\nOFF | 5–7 | Continuity\nDOWN | 4–7 | Continuity\n\nIf continuity is not as specified, replace the switch.\n\nNO8853\n*10-2\n209149\n\n2. INSPECT SWITCH ILLUMINATION\nConnect the positive (+) lead from the battery to terminal 4\nand the negative (–) lead to terminal 8, check that the illumination lights up.\nIf operation is not as specified, replace the master switch.\n\n4\n8\nNO8854"
+}

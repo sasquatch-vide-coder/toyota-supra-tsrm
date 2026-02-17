@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-532",
+  "section_header": "ENGINE — 2JZ-GTE ENGINE TROUBLESHOOTING",
+  "title": "DTC 24 Intake Air Temp. Sensor Circuit",
+  "ocr_text": "EG–532\n\nENGINE – 2JZ–GTE ENGINE TROUBLESHOOTING\n\nDTC 24 Intake Air Temp. Sensor Circuit\n\nCIRCUIT DESCRIPTION\n\nThe intake air temp. sensor is built into the mass air flow meter and senses the intake air temperature. The structure of the sensor and connection to the ECM is the same as in the engine coolant temp. sensor shown on page EG–530.\nIf the ECM detects the diagnostic trouble code \"24\", it operates the fail safe function in which the intake air temperature is assumed to be 20°C (68°F).\n\nDTC No. | Diagnostic Trouble Code Detecting Condition | Trouble Area\n\n24 | Open or short in intake air temp. sensor circuit for 0.5 sec. or more | • Open or short in intake air temp. sensor\n• Circuit\n• Intake air temp. sensor\n• ECM\n\nWIRING DIAGRAM\n\nIntake Air Temp. Sensor\n(Inside the Mass Air Flow Meter)\n\n3     P-L\n\n4     BR-B\n\nEngine Control Module\n\n5 V\n\n45\nE9  THA\n\n65\nE9  E2\n\nE1\n\nFI6448"
+}

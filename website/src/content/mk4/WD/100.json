@@ -1,0 +1,6 @@
+{
+  "page_id": "EL-102",
+  "section_header": "TAILLIGHT",
+  "title": "TAILLIGHT",
+  "ocr_text": "TAILLIGHT\n\n2\n1B\n1  5\nTAILLIGHT\nRELAY\n2  3\n11  1K\n\n10A\nTAIL\n2\nDIODE\n3  1A    16  1C\n\nW-L\n\n2\n60A POWER\n2\n\nW\n\n2\n120A ALT\n1\n1  2A\n\nB\n\nBATTERY\n\nG-W\n\n5\nI20\nINTEGRATION\nRELAY\n4\nC13\nLIGHT CONTROL SW\n[COMB. SW]\nOFF\nTAIL\nHEAD\n2\n11\n\nW-B\n\n5  1K\n1  1J\n\nW-B\n\nIE\n\nG\n\nE 2 : 2JZ-GTE\nE18 : 2JZ-GE\n\nF 3\nLH\n3\n1\nW-B\n\nPARKING LIGHT\n[FRONT FOG LIGHT]\nF 4\nLH\n3\n1\nW-B\n\nF 5\nRH\n3\n1\nW-B\n\nFRONT SIDE\nMARKER LIGHT\nF 6\nRH\n2\n1\nW-B\n\nE 2 : 2JZ-GTE\nE18 : 2JZ-GE\n\nW-B\n\nEB\n\nG\n\nG\n\nG\n\nG\n\nB6\n\nG\n\nE 2 : 2JZ-GTE\nE18 : 2JZ-GE\n\nL4\nLICENSE PLATE\nLIGHT\n1\n2\nW-B\n\nW-B\n\nEA\n\nW-B\n\n102"
+}

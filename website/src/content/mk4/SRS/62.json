@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-62",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "",
+  "ocr_text": "RS–62\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\n4  Check D squib circuit.\n\nON\nP squib\nCenter Airbag\nSensor Assembly\nSpiral\nCable\nD squib\nD+\nAB0119\nR05901\nAB0067\n\nP  Disconnect center airbag sensor assembly connector.\n\nC  For the connector (on the spiral cable side) between the spiral cable and steering wheel pad, measure the voltage between D+ and body ground.\n\nOK  Voltage: 0 V\n\nOK\nNG  Go to step 9.\n\n5  Check P squib circuit.\n\nON\nP squib\nCenter Airbag\nSensor Assembly\nSpiral\nCable\nD squib\nP+\nAB0119\nR05896\nAB0067\n\nC  For the connector for the center airbag sensor assembly side) between center airbag sensor assembly and front passenger airbag assembly, measure the voltage between P+ and body ground.\n\nOK  Voltage: 0 V\n\nOK\nNG  Repair or replace harness or connector between the center airbag sensor assembly and front passenger airbag sensor assembly."
+}

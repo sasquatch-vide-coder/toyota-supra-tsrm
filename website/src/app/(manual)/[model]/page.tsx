@@ -52,7 +52,7 @@ export default async function ModelLandingPage({
         <div className="w-px h-8 bg-gray-200" />
         <div className="text-center">
           <div className="text-2xl font-bold text-gray-900 font-mono">{modelDef.year}</div>
-          <div className="text-xs uppercase tracking-wider mt-0.5">Model Year</div>
+          <div className="text-xs uppercase tracking-wider mt-0.5">Model Years</div>
         </div>
       </div>
 

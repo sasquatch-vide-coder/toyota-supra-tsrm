@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-160",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Key Unlock Warning Switch Circuit",
+  "ocr_text": "BE–160\n\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nKey Unlock Warning Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nThe key unlock warning switch goes on when the ignition key is inserted in the key cylinder and goes off when the ignition key is removed.\nThe ECU operates the key confinement prevention function while the key unlock warning switch is on.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\n12 V\n\nKey Unlock\nWarning Switch\n\n1        12\n1J      1K\n\nW-B    1    2    Y         11    Y    KSW\n                            IF1         20\n\nW-B\n\nE\n\nN09871"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-238",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GE)",
+  "title": "VSV INSPECTION",
+  "ocr_text": "EG–238\nENGINE – SFI SYSTEM (2JZ–GE)\n\nVSV INSPECTION\n1. REMOVE VSV\n2. INSPECT VSV\nA. Inspect VSV for open circuit\nUsing an ohmmeter, check that there is continuity between the terminals.\nResistance:\nAt 20°C (68°F) 33–39 Ω\nIf there is no continuity, replace the VSV.\n\nB. Inspect VSV for ground\nUsing an ohmmeter, check that there is no continuity between each terminal and the body.\nIf there is continuity, replace the VSV.\n\nOhmmeter\nContinuity\nP10487\n\nOhmmeter\nNo Continuity\nP10487\n\nC. Inspect VSV operation\n(a) Check that air flows from port E to G.\n\nAir\nE\nG\nP10485\n\n(b) Apply battery voltage across the terminals.\n(c) Check that air flows from port E to the filter.\nIf operation is not as specified, replace the VSV.\n3. REINSTALL VSV\n\nAir\nBattery\nE\nFilter\nP10486"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-115",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "TT Terminal Circuit",
+  "ocr_text": "TT Terminal Circuit\n\n— CIRCUIT DESCRIPTION —\n\nChecks of ECM input and output signals related to the throttle position sensor, brakes, shift position and\nother circuits can be performed by measuring the voltages at terminal TT of the DLC2\n\n— WIRING DIAGRAM —\n\nECM\n\nB+\n\nDLC2\nTT  GR-R  6        GR-R    17  TT\n5        IJ1                    E10\n\nE1   BR   18   BR      BR   69  E1\n3        IJ1                E9\n\nEO       EO\n\nO04731\n\nINSPECTION PROCEDURE\n\n1   Check harness and connector between ECM and DLC2, DLC1 and body\n    ground (See page IN–30).\n\nOK                          NG    Repair or replace harness or connector.\n\nCheck and replace ECM."
+}

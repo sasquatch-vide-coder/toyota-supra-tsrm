@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-144",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "Luggage Compartment Door Courtesy Switch Circuit",
+  "ocr_text": "BE–144\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nLuggage Compartment Door Courtesy Switch Circuit\n\nCIRCUIT DESCRIPTION\n\nThe luggage compartment door courtesy switch goes on when the back door is opened and goes off when the back door is closed.\n\nWIRING DIAGRAM\n\nT9\nTheft Deterrent and\nDoor Lock ECU\n\n12 V\n\nLuggage Compartment Door\nCourtesy Switch\n\n1  LG\n\n8\nIE1  LG  DSWL\n4\n\nN08552\n\nINSPECTION PROCEDURE\n\n1  Check operation of luggage room light.\n\nC  Check that luggage room light goes off when luggage room light switch is pushed, and comes on when switch is not pushed.\n\nOK\nNG  Check and repair luggage compartment door courtesy light circuit (See page BE–28).\n\n2  Check for open in harness and connector between theft deterrent and door lock ECU and luggage compartment door courtesy switch (See page IN–30).\n\nOK\nNG  Repair or replace harness or connectors.\n\nCheck and replace theft deterrent ECU. *1.\n\n*1: When there is a malfunction that the theft deterrent system cannot be set, proceed to the next numbered circuit inspection shown on matrix chart (See page BE–123)."
+}

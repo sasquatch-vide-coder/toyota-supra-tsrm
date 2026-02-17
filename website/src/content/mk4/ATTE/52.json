@@ -1,0 +1,6 @@
+{
+  "page_id": "AT2-52",
+  "section_header": "A340E (2JZ—GTE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "SPECIFIED ACCUMULATOR BACK PRESSURE (D position, Idling)",
+  "ocr_text": "AT2–52\nA340E (2JZ—GTE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\n0 – 245 kPa\n(0 – 2.5 kgf/cm², 0 – 36 psi)\n\nPress firmly on the brake pedal\nFully apply the parking brake\n\nSST\n\nNot Ground\n\nECM\n\nGround\n\n0 kg/cm²\n\nRPM\nIdling\n\nSST\n\nAT5459\nZ09091\n\nSPECIFIED ACCUMULATOR BACK PRESSURE (D position, Idling)\n\nCondition of ECM terminal SLN | Not ground | Ground\nAccumulator back pressure kPa (kgf/cm², psi) | 177–255 (1.8–2.6, 26–37) | 0\n\nEVALUATION\n\nProblem | Possible cause\nThe accumulator back pressure is not as specified (high or low) when the terminal SLN is not ground. | Throttle cable out of adjustment\nThrottle valve defective\nSolenoid modulator valve defective\nSLN solenoid valve defective\nAccumulator control valve defective\nThe accumulator back pressure does not become 0 kgf/cm² when the terminal SLN is grounded. | SLN solenoid valve defective"
+}

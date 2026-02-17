@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-80",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AT1–80\nAT340E (2JZ–GE) AUTOMATIC TRANSMISSION – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1 Check voltage between terminal KD of ECM connector and body ground.\n\nON\nCheck Harness A\nECM\n\nP 1. Connect the Check Harness A to the ECM (See page EG–404).\n2. Turn ignition switch ON.\n\nC Measure voltage between terminal KD of ECM connector and body ground when accel. pedal is fully depressed or not.\n\nOK\nAccel. pedal | Voltage\nFully depressed (Kick–down SW is ON) | Below 3 V\nReleased (Kick–down SW is OFF) | 9 – 14 V\n\nA 3    KD\n\nBE6653\nAT8770\n\nNG\nOK Proceed to next circuit inspection shown on matrix chart (See page AT1–58).\n\n2 Check kick–down switch.\n\n2  1\n\nC 1. Disconnect kick–down switch connector (See page AT1–15).\n2. Measure voltage between terminals 1 and 2 of kick–down switch connector when kick–down switch is on and off.\n\nOK\nKick–down switch | Resistance\nON | C Ω (continuity)\nOFF | ∞ Ω (open)\n\nAT5524\n\nOK\nNG Replace kick–down switch.\n\n3 Check harness and connector between ECM and kick–down switch, kick–down switch and body ground (See page IN–30).\n\nOK\nNG Repair or replace harness connector.\n\nCheck and replace ECM."
+}

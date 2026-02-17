@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-15",
+  "section_header": "BODY ELECTRICAL SYSTEM — HEADLIGHT AND TAILLIGHT SYSTEM",
+  "title": "COMBINATION SWITCH DISASSEMBLY AND ASSEMBLY",
+  "ocr_text": "BODY ELECTRICAL SYSTEM – HEADLIGHT AND TAILLIGHT SYSTEM\n\nBE–15\n\nCOMBINATION SWITCH DISASSEMBLY\nAND ASSEMBLY\n\nConnector\nLight Control Switch\nDimmer Switch\nBall\nWiper and Washer\nSwitch\nN08898\nSpiral Cable\nZ13462\n\nCOMBINATION SWITCH INSPECTION\n\nHEAD\nTAIL\nFlash\n\n1. INSPECT LIGHT CONTROL SWITCH CONTINUITY\n\nSwitch position | Tester connection to terminal number | Specified condition\nOFF | – | No continuity\nTAIL | A2–A11 | Continuity\nHEAD | A2–A11–A13 | Continuity\n\nIf continuity is not as specified, replace the switch.\n\n2. INSPECT DIMMER SWITCH CONTINUITY\n\nSwitch position | Tester connection to terminal number | Specified condition\nFlash | A9–A12–A14 | Continuity\nLow beam | A3–A9 | Continuity\nHigh beam | A9–A12 | Continuity\n\nIf continuity is not as specified, replace the switch.\n\n8 5 4 3 2 1\n14 13 12 11 10 9 8 7\nConnector \"A\"\nN06902\nN06922\n209366"
+}

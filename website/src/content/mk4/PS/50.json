@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-50",
+  "section_header": "STEERING — ELECTRONIC CONTROL SYSTEM",
+  "title": "PPS ECU INSPECTION",
+  "ocr_text": "SR–50\nSTEERING – ELECTRONIC CONTROL SYSTEM\n\nPPS ECU INSPECTION\n\nRegister No.4 Duct\nRegister No.5 Duct\nPPS ECU\nInstrument Panel Box\nR11308\n\nGND SOL ⊖\nR07587\n\n1. JACK UP VEHICLE AND SUPPORT IT ON STANDS\n2. START ENGINE\n3. MEASURE VOLTAGE OF ECU\n(a) Using a voltmeter, measure the voltage between ECU terminals SOL ⊖ and GND while the engine is idling.\nStandard voltage:\n0.15–0.20 V\n\n37 mph (60km/h)\nGND SOL ⊖\nR07588\n\n(b) Place the transmission in gear and while running at about 37 mph (60 km/h), measure the voltage between ECU terminals SOL ⊖ and GND.\nStandard voltage:\nVoltage measured in (a) above, minus\n2JZ–GE: 0.02–0.08 V\n2JZ–GTE: 0.01–0.07 V\nIf no voltage, try another ECU.\n4. LOWER VEHICLE"
+}

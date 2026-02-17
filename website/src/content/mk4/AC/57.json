@@ -1,0 +1,6 @@
+{
+  "page_id": "AC-57",
+  "section_header": "AIR CONDITIONING SYSTEM — TROUBLESHOOTING",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "AC–57\nAIR CONDITIONING SYSTEM – TROUBLESHOOTING\n\nINSPECTION PROCEDURE\n\n1  Check voltage between terminal ACC of A/C amplifier connector and body ground.\n\nACC\nConnect\n\nP  Remove the A/C amplifier with connector still connected\n\nC  1.  Turn ignition switch To ACC.\n    2.  Measure voltage between terminals ACC of A/C amplifier connector and body ground.\n\nOK  Voltage:  Battery positive voltage\n\nACC\n\nB63840\nN08813\n\nNG\n\nOK  Proceed to next circuit inspection shown on matrix chart (See page AC–26).\n\n2  Check CIG fuse.\n\nJ/B No. 1\n\nCIG Fuse\n\nN09022\n\nP  Remove CIG fuse from J/B No. 1.\n\nC  Check continuity of CIG fuse.\n\nOK  Continuity\n\nOK\n\nNG  Check for short in all the harness and components to the CIG fuse (See attached wiring diagram).\n\nCheck and repair harness and connector between A/C amplifier and battery."
+}

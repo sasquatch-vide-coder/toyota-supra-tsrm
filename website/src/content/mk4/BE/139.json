@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-139",
+  "section_header": "BODY ELECTRICAL SYSTEM — THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM",
+  "title": "INSPECTION PROCEDURE",
+  "ocr_text": "BE-139\nBODY ELECTRICAL SYSTEM – THEFT DETERRENT AND DOOR LOCK CONTROL SYSTEM\n\nINSPECTION PROCEDURE\n\n1  Check voltage between terminal TAIL of theft deterrent door lock ECU connector and body ground.\n\nLOCK\n\nDisconnect\n\nP  (1) Remove instrument panel.\n      (See BO section)\n   (2) Disconnect the ECU connector.\n\nC  Measure voltage between terminal TAIL of theft deterrent and door lock ECU connector and body ground.\n\nOK  Voltage: 10 – 14 V\n\nTAIL\n\nBE3843\nN07482\n\nNG                    OK  Check and replace theft deterrent ECU.\n\nCheck and repair harness and connector between theft deterrent and door lock ECU taillight control relay (See page IN–30)."
+}

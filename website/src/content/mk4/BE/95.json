@@ -1,0 +1,6 @@
+{
+  "page_id": "BE-95",
+  "section_header": "BODY ELECTRICAL SYSTEM — AUDIO SYSTEM",
+  "title": "CANNOT SET STATION SELECT BUTTON, PRESET MEMORY DISAPPEARS",
+  "ocr_text": "BE-95\n\nBODY ELECTRICAL SYSTEM – AUDIO SYSTEM\n\n8 | Radio | CANNOT SET STATION SELECT BUTTON, PRESET MEMORY DISAPPEARS\n\nW : w/ Power Amplifier\nWO : w/o Power Amplifier\n\nCan cassette tape be installed in tape player? --Yes--> Radio assembly faulty.\n|\nNo\n|\nCheck RAD No. 1 fuse is OK? --NG--> Replace fuse.\n|\nOK\n|\n        W\n        Is +B applied to power amplifier? --No--> +B wire harness faulty.\n        |\n        Yes\n        |\n        Check if GND (wire harness side) to power amplifier. --NG--> GND faulty.\n        |\n        OK\n|\nIs +B applied to radio assembly? --No--> WO +B wire harness faulty.\n|                                         W  Power amplifier faulty.\nYes\n|\nCheck if GND (wire harness side) to radio assembly? --NG--> WO GND faulty.\n|                                                             W  Power amplifier faulty.\nOK\n|\nRadio assembly faulty."
+}

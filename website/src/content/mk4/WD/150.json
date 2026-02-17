@@ -1,0 +1,6 @@
+{
+  "page_id": "153",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n10A\nGAUGE\n\n12 1E\n\nY\n\nI14\n\nY\n\nFROM CRUISE CONTROL\nECU\n\nBR-B\n\n11 IJ2\n\nBR-B\n\nLG-R\n\nV-G\n\n12 A     9 A     10 A\n\nOD1          2          L\n\nE 9  B, E10  A\nENGINE CONTROL MODULE\n(*1)\n\nE1    EO1    EO2    OD2    MI    SP1\n69 B  80 B   79 B   28     25 A   2 A\n\nBR    BR    BR\n\nJ2\nJUNCTION\nCONNECTOR\n(SHIELDED)\nA\nA\n\nBR\n\nBR  E27   BR  I17\n\nBR    BR    BR\n\nED\n\nLG-R\nG-B\nG-R\n\nY\n\n1\nT 6\nTELLTALE\nLIGHT RH\n\nODO AND\nTRIP\n\n6     5\n\nP      L-R\n\nG-B\n\nV-G\n\nW-L\nV-G\n\n5 II1   38 II1   11 II1\n\nV-G\n\nW-L\n\nP\n\nP\n\n7 IJ2\n\nG-R\n\n2\nD\n\nC16\nCRUISE CONTROL ECU\n\nL-R\n\nW-L\nV-G\n\nV-G\n\n153"
+}

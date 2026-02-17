@@ -1,0 +1,6 @@
+{
+  "page_id": "EC-72",
+  "section_header": "ENGINE CONTROL (FOR 2JZ-GTE)",
+  "title": "ENGINE CONTROL (FOR 2JZ–GTE)",
+  "ocr_text": "ENGINE CONTROL (FOR 2JZ–GTE)\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\nB–O\n\n1\nEFI\n30A\nNO. 2\n\n1\n30A\nEFI\nNO. 1\n\n2\nB–O\n\n2\nB–Y\n\n4\nE 7\n\nB–Y\nEA1\nB–Y\n(A/T)\nB–W\n\nACC\n7 AM1\nIG1\nIG2 3\nST1 8\n\nB–O\n\nI19\nIGNITION SW\n\n6 IJ\n\n7. 5A\nST\n\n4 IK\n\nB–R\n\n2\n2\n\nB–Y\n\nB–R\nGR\n\n3\n2\n1\n\nEFI NO. 2\nRELAY\n\n2\n2\nEFI MAIN\nRELAY\n\nB–R\nE 9\nB–R\n\nW–R\n\n4 IJ\n4 IB1\n\n4 IB\n\nW–R\n\nW\n\n14\nB\n\n13\nIJ2\n\nB–W\nE16\n\n5\n2\n\n2\n2\n\nL–O\n\nW–B\nB–R\n\n2 AM2\n\nB–W\n(A/T)\n\nB–W\n(M/T)\n\nB–W\n(A/T)\n\nB–R\nE 7\nB–R\n\nC 9\nCLUTCH\nSTART SW\n\n1\n\nB–W\n(M/T)\n\nP 2\nPARK/NEUTRAL POSITION SW\n(NEUTRAL START SW)\n\n6\nP\nN\n5\n\n5 IB1\n\nG\n\nL–O\n\n2 IJ1\n\nB\n(M/T)\n\nB\n(A/T)\n\n10 IC2\n12 IC2\n\nF15\nFUEL PUMP\nECU\n\nL–O\n\nG\n\n+B\nDI\n\nE\nFPC\nFP\n\n8\n2\n\nW–B\n\nY–W\nL–R\n\n2\n50A AM1\n(FOR USA)\n60A AM1\n(FOR CANADA)\n\n2\n120A ALT\n\n2\n30A AM2\n\n11 IC2\n\nB6\n\nL–R\n\nV–W\n\n1\n1\n\n6 BP1\n\n2A\n\nB\n\nF14\nFUEL PUMP\n\n4\nM\n5\n\nB\n\nBATTERY\n\nE16 : M/T\nE13 : A/T\n\nTO STARTER\nRELAY\n\nB\n\nW–B\n2\nW–B\n\nBP1\n\nW–B\n\nBI\nEB\n\nW–B\n\nL–R\n\nG\n\nW–B\n\n72"
+}

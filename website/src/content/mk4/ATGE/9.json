@@ -1,0 +1,6 @@
+{
+  "page_id": "AT1-9",
+  "section_header": "AT340E (2JZ-GE) AUTOMATIC TRANSMISSION — OPERATION",
+  "title": "SYSTEM DIAGRAM",
+  "ocr_text": "AT1-9\nAT340E (2JZ-GE) AUTOMATIC TRANSMISSION – OPERATION\n\nSYSTEM DIAGRAM\n\nA/T Fluid Temp. Sensor\nS1\nS2\nS3\nData Link Connector 1\nData Link Connector 2\nNo.1 Vehicle Speed Sensor\nCombination Meter\nNo.2 Vehicle Speed Sensor\nCruise Control ECU\nKick-down Switch\n\nOIL\nS1\nS2\nS3\nTE1\nTT\nSP1\nSP2+\nSP2-\nOD1\nKD\n\nECM\n\nNSW\nSTA\n+B\n+B1\nM-REL\nM\nSTP\nN\n2\nM1\nOD2\nE11\nE1\n\nPark/Neutral Position Switch\nPattern Select Switch\nPark/Neutral Position Switch\nComb.Meter\nMANU\nO/D OFF\nL\n2\n\nO/D Main Switch\n\nStop Light Switch\n\nST\nGAUGE\n\nEFI MAIN Relay\nEFI\n\nIgnition Switch\n\nAM1\nALT\n\nBattery\n\n006357"
+}

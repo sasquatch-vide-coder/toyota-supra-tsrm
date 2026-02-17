@@ -1,0 +1,6 @@
+{
+  "page_id": "230",
+  "section_header": "RADIATOR FAN AND AUTOMATIC AIR CONDITIONING",
+  "title": "RADIATOR FAN AND AUTOMATIC AIR CONDITIONING",
+  "ocr_text": "RADIATOR FAN AND AUTOMATIC AIR CONDITIONING\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n1\n50A\nHTR\n2\n\n1\n7.5A\nHTR\n2\n5 1A  2 1K\n\n1\n30A\nFAN\n2\n\nR-L\nR-L\nR-L\nE9\nR-L\n(*1)\nW-R (*1)\n\nR3\nRADIATOR FAN\nRELAY NO. 2\n\nE9\nR-L\n(*1)\n\n3  W-B\n6  5\nW-B  E3\n\nL-R\n\nR-L\n\n4  2\nR2\nRADIATOR FAN\nRELAY NO. 1\n\nE9:*1\nE20:*2\n\n3  1\nL  L-B\n\nE3\n\n2\n2  2\n\nHEATER RELAY\n\nA/C MAGNETIC\nCLUTCH RELAY\n\nA3\nA/C SINGLE\nPRESSURE SW.\n\nL-B\n\nL-B\n\nW-G\n\nL-R  L-W\n\n2  2\n1 IB4\n\n3\nIB2\n\nL-W  5\nIF1\nL-W\n\nW-G\n\nL-W\n\n2  5\nA/C MAGNETIC\nCLUTCH\n\n1  EAT\n\nW-G\n\nL\n\n13\nIF3\nL\n\nL\n\nE11:*1\nE26:*2\n\n10\nII1\nL\n\nL\n\nL\n\n3  IK1  2  IK1\n\nL-R\n\nB4 A , B5 B\nBLOWER MOTOR\nCONTROL RELAY\n\n2 A  3 A\n+B  SI\n\nM+  M-  GND\n\n2 B  1 A\n\nB\n\n4\nA4\nMAGNETIC\nCLUTCH\n\nR-L\n\nE5\nENGINE COOLANT\nWATER TEMP. SW.\n\nR1\nRADIATOR\nFAN MOTOR\n\nA2\nCONDENSER\nFAN MOTOR\n\nBR  W-B\n\n2 M 1\nB3\nBLOWER MOTOR\n\n1  IK1\n\nW-B\n\nIG\n\nW-B\n\nM\n\nW-B\n\nM\n\nL-B\n\nL-B\n\nE2\n\nEB\n\nW-B  W-B\nE5  EA\n\nEB\n\n230"
+}

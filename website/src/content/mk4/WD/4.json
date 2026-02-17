@@ -1,0 +1,6 @@
+{
+  "page_id": "4-50",
+  "section_header": "HOW TO USE THIS MANUAL",
+  "title": "HOW TO USE THIS MANUAL",
+  "ocr_text": "HOW TO USE THIS MANUAL\n\n* The system shown here is an EXAMPLE ONLY. It is different to the actual circuit shown in the SYSTEM CIRCUITS SECTION.\n\nA\nPOWER WINDOW\n\n20A\nDOOR\n\nB\n\nI3\n\n2 IH1\n\nB4\nF\nTO DOOR LOCK CONTROL RELAY\n\nB4\n\nH P4\nPOWER WINDOW MASTER SW\n\n4 3D\n\nI\n\n15 3D\n\nC P2\n\nP3 GREEN\n\nD\n\nP4\n\nP5 P6\n\nE\nL (B/D)\nR (W/B)\n\n3 ID1\nG\n\nDRIVER'S\nUP DOWN\n(AUTO)\n\nPASSENGER'S\nWINDOW\nLOCK SW\nLOCK\nNORMAL\nUP\nDOWN\n\n2 9 8 4 6 1\n\nJ W-B\n\n5 IH1 1 IH1\n\nB-L\n\n15 ID1 11 ID1\n\nK\n\n3 W-B 15\n\nGND\n\nW-B\n\n15 IH1\n\nW-B\n\n3 7 4\nUP DOWN L\n\nO\n\nP2\nPOWER WINDOW\nCONTROL RELAY\n\nDOWN UP\n4\n\n1 2\n\n(SHIELDED)\nB3\n\nW-B\n\nW-B\n\nL\n\nP5\nPOWER WINDOW\nMOTOR LH\n\nM\n\nN\n\n1c\n\nP3\nPOWER WINDOW\nSW RH\nDOOR LOCK\nCONTROL SWI\n\nUP\n\n3 9\n\nP6\nPOWER WINDOW\nMOTOR RH\n\nP\n\n4 50"
+}

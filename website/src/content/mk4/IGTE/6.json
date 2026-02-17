@@ -1,0 +1,6 @@
+{
+  "page_id": "IG-24",
+  "section_header": "IGNITION SYSTEM — (2JZ-GTE)",
+  "title": "CAMSHAFT POSITION SENSORS INSPECTION",
+  "ocr_text": "IG–24\nIGNITION SYSTEM – (2JZ–GTE)\n\nCAMSHAFT POSITION SENSORS INSPECTION\n\nNOTICE: \"Cold\" and \"Hot\" in the following sentences express the temperature of the sensors themselves. \"Cold\" is from –10°C (14°F) to 50°C (122°F) and \"Hot\" is from 50°C (122°F) to 100°C (212°F).\n\n1. DISCONNECT CAMSHAFT POSITION SENSOR CONNECTORS\n\n2. INSPECT CAMSHAFT POSITION SENSOR RESISTANCE\nUsing an ohmmeter, measure the resistance between terminals.\nResistance:\n    Cold\n        NIPPONDENSO\n            835–1,400 Ω\n        AISAN\n            985–1,600 Ω\n    Hot\n        NIPPONDENSO\n            1,060–1,645 Ω\n        AISAN\n            1,265–1,890 Ω\n\nIf the resistance is not as specified, replace the camshaft position sensor.\n\n3. RECONNECT CAMSHAFT POSITION SENSOR CONNECTORS\n\nOhmmeter\nP12177"
+}

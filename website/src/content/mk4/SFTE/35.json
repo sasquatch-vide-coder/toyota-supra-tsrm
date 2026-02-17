@@ -1,0 +1,6 @@
+{
+  "page_id": "EG-292",
+  "section_header": "ENGINE — SFI SYSTEM (2JZ-GTE)",
+  "title": "Throttle Position Sensor",
+  "ocr_text": "EG–292\n\nENGINE – SFI SYSTEM (2JZ–GTE)\n\nVacuum\nDisconnect\nFeeler\nGauge\n\nP11989\n\nOhmmeter\nVTA\nVC\nE2 IDL\nZ09088\n\nP11453\n\n0.65 mm\nP17005\nZ09125\n\nOhmmeter\nE2 IDL\nZ09091\n\nThrottle Position Sensor\n1. INSPECT THROTTLE POSITION SENSOR\n(a) Disconnect the throttle opener vacuum hose from the throttle body.\n(b) Apply vacuum to the throttle opener.\n(c) Insert a 0.54 mm (0.021 in.) or 0.70 mm (0.028 in.) feeler gauge between the throttle stop screw and stop lever.\n\n(d) Using an ohmmeter, measure the resistance between each terminal.\n\nClearance between lever and stop screw | Between terminals | Resistance\n0 mm (0 in.) | VTA–E2 | 0.34–6.3 Ω\n0.54 mm (0.021 in.) | IDL–E2 | 0.5 kΩ or less\n0.70 mm (0.028 in.) | IDL–E2 | Infinity\nThrottle valve fully Open | VTA–E2 | 2.4–11.2 kΩ\n– | VC–E2 | 3.1–7.2 kΩ\n\n2. IF NECESSARY, ADJUST THROTTLE POSITION SENSOR\n(a) Loosen the 2 set screws of the sensor.\n\n(b) Insert a 0.65 mm (0.026 in.) feeler gauge between the throttle stop screw and stop lever.\n\n(c) Connect the tester probe of an ohmmeter to the terminals IDL and E2 of the sensor."
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "IN-33",
+  "section_header": "INTRODUCTION — HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS",
+  "title": "",
+  "ocr_text": "(b) Voltage Check\nIn a circuit in which voltage is applied (to the ECU connector terminal), an open circuit can be checked for\nby conducting a voltage check.\n(1) As shown in Fig. 4, with each connector still connected, measure the voltage between body ground\nand terminal 1 of connector (A) at the ECU 5V output terminal, terminal 1 of connector (B), and terminal\n1 of connector (C), in that order.\nIf the results are:\n5 V: Between Terminal 1 of connector (A) and Body Ground\n5 V: Between Terminal 1 of connector (B) and Body Ground\n0 V: Between Terminal 1 of connector (C) and Body Ground\nthen it is found out that there is an open circuit in the wire harness between terminal 1 of (B) and termi-\nnal 1 of (C).\n\nFig. 4\n\n0V\n5V\nSensor C\n1\n2\nB\n1\n2\nA\n1\n2\nECU\n5V\n5V\n\nBE4066\n\n2. SHORT CIRCUIT CHECK\nIf the wire harness is ground shorted as in Fig. 5, locate the section by conducting a \"continuity check with\nground\".\n\nFig. 5\n\nC\n1\n2\nSHORT\nB\n1\n2\nA\n1\n2\n\nBE4067"
+}

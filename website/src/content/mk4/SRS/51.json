@@ -1,0 +1,6 @@
+{
+  "page_id": "RS-51",
+  "section_header": "SUPPLEMENTAL RESTRAINT SYSTEM — TROUBLESHOOTING",
+  "title": "CENTER AIRBAG SENSOR ASSEMBLY CONNECTOR",
+  "ocr_text": "RS–51\n\nSUPPLEMENTAL RESTRAINT SYSTEM – TROUBLESHOOTING\n\nCENTER AIRBAG SENSOR ASSEMBLY CONNECTOR\n\n4  3    B A    2  1\n14 13 12  11 10  9  8  7  6  5\n\nNo.    Symbol    Terminal Name\nA    —    Electrical Connection Check Mechanism\nB    —    Electrical Connection Check Mechanism\n1    P–    Squib ⊖ (Front Passenger)\n2    P+    Squib ⊕ (Front Passenger)\n3    D+    Squib ⊕ (Driver)\n4    D–    Squib ⊖ (Driver)\n5    E1    Ground\n6    E2    Ground\n7    Tc    Diagnosis\n8    +SL    Front Airbag Sensor LH ⊕\n9    –SL    Front Airbag Sensor LH ⊖\n10    –SR    Front Airbag Sensor RH ⊖\n11    +SR    Front Airbag Sensor RH ⊕\n12    LA    SRS Warning Light\n13    IG2    Power Source (IGN Fuse)\n14    ACC    Power Source (CIG Fuse)"
+}

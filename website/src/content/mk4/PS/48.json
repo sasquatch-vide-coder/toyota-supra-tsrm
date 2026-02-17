@@ -1,0 +1,6 @@
+{
+  "page_id": "SR-48",
+  "section_header": "STEERING — ELECTRONIC CONTROL SYSTEM",
+  "title": "",
+  "ocr_text": "SR–48\nSTEERING – ELECTRONIC CONTROL SYSTEM\n\nYes          CONTINUED FROM PREVIOUS PAGE\n\nCheck 2.\nCheck that there is continuity between the ECU terminal GND and\nbody ground.\n\nGND\n\nR07683\n\nYes          No\n\n• Open circuit in wire harness between the ECU terminal\n  GND and body ground.\n• Body ground faulty.\n\nCheck 3.\n(a) Jack up one of the rear wheels.\n(b) Connect a voltmeter between the ECU connector terminals\n    SPD and GND.\n(c) Spin the rear wheel and check that the meter needle deflects\n    0 V → 5 V or more → 0 V.\n\nGND  SPD\n\nR07584\n\nYes          No\n\n• Open or short circuit in wire harness between the ECU\n  terminal SPD and speed sensor.\n• Speed sensor faulty (See BE section.)\n\nCheck 4.\nCheck that there is no continuity between terminals SOL (+) or\nSOL (–) and GND.\n\nSOL ⊖ ——— SOL ⊕\n\nGND\n\nR07585\n\nYes          No\n\n• Short circuit in wire harness between the terminals\n  SOL (+) and SOL (–).\n• Solenoid valve faulty.\n\nCONTINUED ON NEXT PAGE"
+}
