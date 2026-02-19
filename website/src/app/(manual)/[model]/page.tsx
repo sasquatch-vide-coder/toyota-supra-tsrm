@@ -1,6 +1,5 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
-import SectionGrid from "@/components/SectionGrid";
-import LandingSearchBar from "@/components/LandingSearchBar";
 import { loadSections } from "@/lib/sections";
 import { getModel, getModelIds } from "@/lib/models";
 
@@ -21,55 +20,221 @@ export default async function ModelLandingPage({
   const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
 
   return (
-    <div>
-      <div className="mb-8">
-        <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 border border-gray-200 rounded-full text-xs tracking-widest uppercase text-gray-500">
-          <span className="w-1.5 h-1.5 rounded-full bg-red-600" />
-          {modelDef.year} {modelDef.name}
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      {/* Model hero */}
+      <div
+        style={{
+          padding: "40px 32px 32px",
+          position: "relative",
+          overflow: "hidden",
+          borderBottom: "1px solid #D4C9B8",
+        }}
+      >
+        {/* Ghost generation watermark */}
+        <div
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            top: "-20px",
+            right: "24px",
+            fontSize: "200px",
+            fontWeight: "900",
+            color: "#C41E3A",
+            opacity: 0.08,
+            lineHeight: 1,
+            fontFamily: "Georgia, 'Times New Roman', serif",
+            userSelect: "none",
+            letterSpacing: "-0.05em",
+          }}
+        >
+          {modelDef.generation}
         </div>
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">
-          {modelDef.name} Technical Service Repair Manual
-        </h1>
-        <p className="text-gray-500">
-          {modelDef.description}. {sections.length} sections, {totalPages.toLocaleString()} pages.
-        </p>
-      </div>
 
-      <div className="mb-8 max-w-2xl">
-        <LandingSearchBar model={model} />
-      </div>
-
-      <div className="flex items-center gap-8 mb-8 text-gray-500">
-        <div className="text-center">
-          <div className="text-2xl font-bold text-gray-900 font-mono">{sections.length}</div>
-          <div className="text-xs uppercase tracking-wider mt-0.5">Sections</div>
-        </div>
-        <div className="w-px h-8 bg-gray-200" />
-        <div className="text-center">
-          <div className="text-2xl font-bold text-gray-900 font-mono">{totalPages.toLocaleString()}</div>
-          <div className="text-xs uppercase tracking-wider mt-0.5">Pages</div>
-        </div>
-        <div className="w-px h-8 bg-gray-200" />
-        <div className="text-center">
-          <div className="text-2xl font-bold text-gray-900 font-mono">{modelDef.year}</div>
-          <div className="text-xs uppercase tracking-wider mt-0.5">Model Years</div>
-        </div>
-      </div>
-
-      {sections.length > 0 ? (
-        <SectionGrid sections={sections} model={model} />
-      ) : (
-        <div className="text-center py-16 text-gray-500">
-          <p className="text-lg mb-2">No content generated yet.</p>
-          <p className="text-sm">
-            Run{" "}
-            <code className="bg-gray-100 px-2 py-1 rounded font-mono text-xs">
-              python scripts/generate_content.py --model {model} --all
-            </code>{" "}
-            to generate website content.
+        <div style={{ position: "relative" }}>
+          <p
+            style={{
+              fontFamily: "monospace",
+              fontSize: "10px",
+              letterSpacing: "0.35em",
+              color: "#8B7355",
+              textTransform: "uppercase",
+              marginBottom: "12px",
+            }}
+          >
+            {modelDef.generation} · {modelDef.year}
           </p>
+          <h1
+            style={{
+              fontFamily: "Georgia, 'Times New Roman', serif",
+              fontSize: "48px",
+              fontWeight: "900",
+              lineHeight: 1,
+              color: "#1A1A1A",
+              marginBottom: "6px",
+              letterSpacing: "-0.02em",
+            }}
+          >
+            {modelDef.name}
+          </h1>
+          <p
+            style={{
+              fontFamily: "Georgia, serif",
+              fontSize: "18px",
+              fontWeight: "300",
+              color: "#8B7355",
+              fontStyle: "italic",
+              marginBottom: "24px",
+            }}
+          >
+            {modelDef.description}
+          </p>
+
+          {/* Stats row */}
+          <div
+            style={{
+              display: "flex",
+              gap: "32px",
+              fontFamily: "monospace",
+              fontSize: "11px",
+              color: "#8B7355",
+            }}
+          >
+            <div>
+              <span style={{ color: "#C41E3A", fontWeight: "900", fontSize: "20px", display: "block" }}>
+                {sections.length}
+              </span>
+              Sections
+            </div>
+            <div style={{ borderLeft: "1px solid #D4C9B8", paddingLeft: "32px" }}>
+              <span style={{ color: "#C41E3A", fontWeight: "900", fontSize: "20px", display: "block" }}>
+                {totalPages.toLocaleString()}
+              </span>
+              Pages
+            </div>
+            {modelDef.hasForum && (
+              <div style={{ borderLeft: "1px solid #D4C9B8", paddingLeft: "32px" }}>
+                <span style={{ color: "#1A6B8B", fontWeight: "900", fontSize: "20px", display: "block" }}>✓</span>
+                Forum Indexed
+              </div>
+            )}
+          </div>
         </div>
-      )}
+      </div>
+
+      {/* Racing divider stripe */}
+      <div style={{ display: "flex", height: "4px", flexShrink: 0 }}>
+        <div style={{ flex: 6, background: "#C41E3A" }} />
+        <div style={{ flex: 1, background: "#1A1A1A" }} />
+        <div style={{ flex: 3, background: "#8B7355" }} />
+      </div>
+
+      {/* Section grid */}
+      <div style={{ padding: "32px", flex: 1 }}>
+        <p
+          style={{
+            fontFamily: "monospace",
+            fontSize: "10px",
+            letterSpacing: "0.3em",
+            color: "#8B7355",
+            textTransform: "uppercase",
+            marginBottom: "20px",
+          }}
+        >
+          — Browse Sections
+        </p>
+
+        {sections.length > 0 ? (
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+              gap: "16px",
+            }}
+          >
+            {sections.map((section) => (
+              <Link
+                key={section.code}
+                href={`/${model}/${section.code}`}
+                style={{
+                  display: "block",
+                  background: "#FFFFFF",
+                  border: "1px solid #D4C9B8",
+                  padding: "20px 20px 20px 24px",
+                  position: "relative",
+                  overflow: "hidden",
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+              >
+                {/* Red left accent bar */}
+                <div
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    bottom: 0,
+                    width: "4px",
+                    background: "#C41E3A",
+                  }}
+                />
+                <div
+                  style={{
+                    fontFamily: "monospace",
+                    fontSize: "24px",
+                    fontWeight: "900",
+                    color: "#C41E3A",
+                    marginBottom: "6px",
+                    letterSpacing: "-0.02em",
+                  }}
+                >
+                  {section.code}
+                </div>
+                <h2
+                  style={{
+                    fontFamily: "Georgia, 'Times New Roman', serif",
+                    fontSize: "14px",
+                    fontWeight: "700",
+                    color: "#1A1A1A",
+                    marginBottom: "10px",
+                    lineHeight: 1.4,
+                  }}
+                >
+                  {section.name}
+                </h2>
+                <span
+                  style={{
+                    fontFamily: "monospace",
+                    fontSize: "10px",
+                    color: "#8B7355",
+                    letterSpacing: "0.1em",
+                  }}
+                >
+                  {section.pages} {section.pages === 1 ? "page" : "pages"}
+                </span>
+              </Link>
+            ))}
+          </div>
+        ) : (
+          <div
+            style={{
+              textAlign: "center",
+              padding: "64px 0",
+              fontFamily: "Georgia, serif",
+              color: "#8B7355",
+              fontStyle: "italic",
+            }}
+          >
+            <p style={{ marginBottom: "8px" }}>No content generated yet.</p>
+            <p style={{ fontSize: "13px", fontStyle: "normal" }}>
+              Run{" "}
+              <code style={{ fontFamily: "monospace", background: "#EDE8DC", padding: "2px 8px" }}>
+                python scripts/generate_content.py --model {model} --all
+              </code>{" "}
+              to generate website content.
+            </p>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

@@ -4,134 +4,205 @@ import { loadSections } from "@/lib/sections";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* Hero */}
-      <section className="relative bg-gray-900 overflow-hidden flex-1">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] bg-red-600/[0.04] rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-600/40 to-transparent" />
-        </div>
+    <div style={{ background: "#F5F0E8", color: "#1A1A1A", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+      {/* Triple racing stripe */}
+      <div style={{ display: "flex", height: "10px", flexShrink: 0 }}>
+        <div style={{ flex: 4, background: "#C41E3A" }} />
+        <div style={{ flex: 1, background: "#1A1A1A" }} />
+        <div style={{ flex: 2, background: "#8B7355" }} />
+      </div>
 
-        <div className="relative max-w-5xl mx-auto px-6 pt-24 pb-20 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-8 border border-gray-700 rounded-full text-xs tracking-widest uppercase text-gray-500">
-            <span className="w-1.5 h-1.5 rounded-full bg-red-600" />
-            Technical Service Repair Manual
+      {/* Top bar */}
+      <div style={{ background: "#1A1A1A", padding: "12px 48px", display: "flex", justifyContent: "space-between", alignItems: "center", flexShrink: 0 }}>
+        <span style={{ fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.25em", color: "#8B7355", textTransform: "uppercase" }}>
+          Toyota Supra · Technical Service Repair Manual
+        </span>
+        <span style={{ fontFamily: "monospace", fontSize: "14px", fontWeight: "900", letterSpacing: "0.3em", color: "#C41E3A" }}>
+          TSRM
+        </span>
+      </div>
+
+      {/* Hero */}
+      <div style={{ flex: 1, maxWidth: "1200px", width: "100%", margin: "0 auto", padding: "72px 48px 56px", boxSizing: "border-box" }}>
+        <div style={{ display: "flex", alignItems: "flex-start", gap: "48px" }}>
+          {/* Ghost engine code watermarks — JZ, 7M, 5M */}
+          <div
+            aria-hidden="true"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              flexShrink: 0,
+              marginTop: "-16px",
+              lineHeight: 0.9,
+              userSelect: "none",
+              letterSpacing: "-0.05em",
+            }}
+          >
+            {["JZ", "7M", "5M"].map((code) => (
+              <div
+                key={code}
+                style={{
+                  fontSize: "clamp(90px, 12vw, 140px)",
+                  fontWeight: "900",
+                  color: "#C41E3A",
+                  opacity: 0.1,
+                  fontFamily: "Georgia, 'Times New Roman', serif",
+                }}
+              >
+                {code}
+              </div>
+            ))}
+          </div>
+          <div style={{ paddingTop: "8px", flex: 1 }}>
+            <p style={{ fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.35em", color: "#8B7355", textTransform: "uppercase", marginBottom: "20px" }}>
+              Factory Service Manual — Digitized &amp; AI-Enhanced
+            </p>
+            <h1 style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "clamp(64px, 8vw, 100px)", fontWeight: "900", lineHeight: 1, color: "#1A1A1A", marginBottom: "8px", letterSpacing: "-0.02em" }}>
+              TSRM
+            </h1>
+            <p style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "clamp(18px, 2.5vw, 26px)", fontWeight: "300", color: "#8B7355", fontStyle: "italic", marginBottom: "28px" }}>
+              Toyota Supra
+            </p>
+            <p style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "16px", color: "#5A4A3A", maxWidth: "480px", lineHeight: 1.8 }}>
+              The complete factory service manuals for three generations of Toyota Supra —
+              digitized, AI-upscaled, and fully searchable. Built for owners, mechanics, and enthusiasts.
+            </p>
           </div>
 
-          <h1 className="mb-4">
-            <span className="block text-7xl sm:text-8xl font-black tracking-tighter text-red-600 font-mono">
-              TSRM
-            </span>
-            <span className="block mt-3 text-xl sm:text-2xl font-light text-gray-300 tracking-wide">
-              Toyota Supra
-            </span>
-          </h1>
+          {/* Supra generations illustration */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/supras.png"
+            alt="Toyota Supra MK2, MK3, and MK4 side profile illustrations"
+            style={{
+              flexShrink: 0,
+              width: "clamp(280px, 32vw, 480px)",
+              objectFit: "contain",
+              objectPosition: "top",
+              alignSelf: "stretch",
+              opacity: 0.25,
+            }}
+          />
+        </div>
 
-          <p className="max-w-lg mx-auto text-gray-500 text-sm leading-relaxed mb-12">
-            Factory service manuals — digitized, searchable, and modernized.
-            Select your model to get started.
-          </p>
+        {/* Divider stripe */}
+        <div style={{ display: "flex", height: "3px", margin: "56px 0" }}>
+          <div style={{ flex: 6, background: "#C41E3A" }} />
+          <div style={{ flex: 1, background: "#1A1A1A" }} />
+          <div style={{ flex: 3, background: "#8B7355" }} />
+        </div>
 
-          {/* Model cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto mt-8">
-            {MODELS.map((model) => {
-              const sections = loadSections(model.id);
-              const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
-
-              return (
-                <Link
-                  key={model.id}
-                  href={`/${model.id}`}
-                  className="group block bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 text-left hover:border-red-500/50 hover:bg-white/10 transition-all"
+        {/* Model cards */}
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "24px" }}>
+          {MODELS.map((model) => {
+            const sections = loadSections(model.id);
+            const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
+            return (
+              <Link
+                key={model.id}
+                href={`/${model.id}`}
+                style={{
+                  display: "block",
+                  background: "#FFFFFF",
+                  border: "1px solid #D4C9B8",
+                  padding: "32px",
+                  position: "relative",
+                  overflow: "hidden",
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+              >
+                {/* Ghost generation watermark */}
+                <div
+                  aria-hidden="true"
+                  style={{
+                    position: "absolute",
+                    top: "-10px",
+                    right: "-8px",
+                    fontSize: "110px",
+                    fontWeight: "900",
+                    color: "#C41E3A",
+                    opacity: 0.06,
+                    lineHeight: 1,
+                    fontFamily: "Georgia, serif",
+                    userSelect: "none",
+                    letterSpacing: "-0.05em",
+                  }}
                 >
-                  <div className="flex items-baseline gap-3 mb-3">
-                    <span className="text-3xl font-black text-red-600 font-mono">
-                      {model.id.toUpperCase()}
-                    </span>
-                    <span className="text-lg font-light text-gray-400">
-                      {model.year}
-                    </span>
-                  </div>
-                  <h2 className="text-xl font-semibold text-white mb-1 group-hover:text-red-400 transition-colors">
+                  {model.generation}
+                </div>
+
+                {/* Left accent bar */}
+                <div style={{ position: "absolute", top: 0, left: 0, bottom: 0, width: "4px", background: "#C41E3A" }} />
+
+                <div style={{ position: "relative", paddingLeft: "4px" }}>
+                  <p style={{ fontFamily: "monospace", fontSize: "15px", letterSpacing: "0.3em", color: "#8B7355", textTransform: "uppercase", marginBottom: "10px" }}>
+                    {model.year}
+                  </p>
+                  <h2 style={{ fontFamily: "Georgia, serif", fontSize: "20px", fontWeight: "700", color: "#1A1A1A", marginBottom: "12px" }}>
                     {model.name}
                   </h2>
-                  <p className="text-sm text-gray-400 mb-3">
-                    Toyota Supra Factory Service Manual — Digitized and AI Upscaled
+                  <p style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "#6B5A4A", lineHeight: 1.6, marginBottom: "16px" }}>
+                    {model.description}
                   </p>
-                  <div className="flex items-center gap-4 text-xs text-gray-600">
-                    {sections.length > 0 && (
+                  <div style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355", display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "20px" }}>
+                    {sections.length > 0 ? (
                       <>
                         <span>{sections.length} sections</span>
-                        <span className="text-gray-700">&middot;</span>
+                        <span style={{ color: "#D4C9B8" }}>·</span>
                         <span>{totalPages.toLocaleString()} pages</span>
                       </>
-                    )}
-                    {sections.length === 0 && (
-                      <span className="text-gray-600">Coming soon</span>
+                    ) : (
+                      <span>Coming soon</span>
                     )}
                     {model.hasForum && (
                       <>
-                        <span className="text-gray-700">&middot;</span>
-                        <span className="text-blue-400">Forum indexed</span>
+                        <span style={{ color: "#D4C9B8" }}>·</span>
+                        <span style={{ color: "#1A6B8B" }}>Forum indexed</span>
                       </>
                     )}
                   </div>
-                  <div className="mt-4 flex items-center gap-1 text-sm font-medium text-red-500 group-hover:text-red-400">
-                    Browse manual
-                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#C41E3A", fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: "700" }}>
+                    Browse Manual
+                    <span style={{ fontSize: "14px" }}>→</span>
                   </div>
-                </Link>
-              );
-            })}
-          </div>
-
-          {/* Tech features */}
-          <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 text-left">
-            <div className="flex items-start gap-3">
-              <svg className="w-5 h-5 mt-0.5 text-red-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714a2.25 2.25 0 00.659 1.591L19 14.5M14.25 3.104c.251.023.501.05.75.082M19 14.5l-1.47 4.41a2.25 2.25 0 01-2.133 1.59H8.603a2.25 2.25 0 01-2.134-1.59L5 14.5m14 0H5" />
-              </svg>
-              <div>
-                <div className="text-sm font-semibold text-gray-300">AI-Upscaled Diagrams</div>
-                <div className="text-xs text-gray-600 mt-0.5">All factory manual diagrams upscaled using AI</div>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <svg className="w-5 h-5 mt-0.5 text-red-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-              </svg>
-              <div>
-                <div className="text-sm font-semibold text-gray-300">Full-Text Search</div>
-                <div className="text-xs text-gray-600 mt-0.5">Hybrid semantic + keyword search across every page</div>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <svg className="w-5 h-5 mt-0.5 text-red-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-              </svg>
-              <div>
-                <div className="text-sm font-semibold text-gray-300">Community Forum</div>
-                <div className="text-xs text-gray-600 mt-0.5">Thousands of SupraForums threads indexed</div>
-              </div>
-            </div>
-          </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
-      </section>
+
+        {/* Features */}
+        <div style={{ marginTop: "64px", paddingTop: "48px", borderTop: "1px solid #D4C9B8", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "40px" }}>
+          {[
+            { code: "01", label: "AI-Upscaled Diagrams", desc: "All factory manual diagrams upscaled using AI for crisp, modern clarity" },
+            { code: "02", label: "Full-Text Search", desc: "Hybrid semantic + keyword search across every page of every manual" },
+            { code: "03", label: "Community Forum", desc: "Thousands of SupraForums threads indexed and cross-referenced" },
+          ].map((f) => (
+            <div key={f.label}>
+              <div style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.3em", color: "#C41E3A", textTransform: "uppercase", marginBottom: "10px" }}>
+                — {f.code}
+              </div>
+              <div style={{ fontFamily: "Georgia, serif", fontSize: "16px", fontWeight: "700", color: "#1A1A1A", marginBottom: "8px" }}>
+                {f.label}
+              </div>
+              <div style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "#6B5A4A", lineHeight: 1.7 }}>
+                {f.desc}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
 
       {/* Footer */}
-      <footer className="bg-gray-900 border-t border-gray-800">
-        <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-600">
-          <div className="flex items-center gap-2">
-            <span className="font-mono font-bold text-red-600">TSRM</span>
-            <span className="text-gray-700">|</span>
-            <span>Toyota Supra factory service manuals — digitized</span>
-          </div>
-          <div className="text-gray-700">
-            Not affiliated with Toyota Motor Corporation
-          </div>
+      <footer style={{ background: "#1A1A1A", padding: "24px 48px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "16px", flexShrink: 0 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+          <span style={{ fontFamily: "monospace", fontWeight: "900", fontSize: "16px", letterSpacing: "0.2em", color: "#C41E3A" }}>TSRM</span>
+          <span style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "#8B7355" }}>Toyota Supra factory service manuals — digitized</span>
         </div>
+        <span style={{ fontFamily: "monospace", fontSize: "10px", color: "#4A3A2A", letterSpacing: "0.15em", textTransform: "uppercase" }}>
+          Not affiliated with Toyota Motor Corporation
+        </span>
       </footer>
     </div>
   );

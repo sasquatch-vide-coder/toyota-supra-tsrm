@@ -1,8 +1,8 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
-import SectionSidebar from "@/components/SectionSidebar";
-import SearchDialog from "@/components/SearchDialog";
 import { loadSections } from "@/lib/sections";
 import { getModel, getModelIds } from "@/lib/models";
+import V1Sidebar from "@/components/V1Sidebar";
 
 export function generateStaticParams() {
   return getModelIds().map((model) => ({ model }));
@@ -20,17 +20,116 @@ export default async function ModelLayout({
   if (!modelDef) notFound();
 
   const sections = loadSections(model);
+  const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
 
   return (
-    <>
-      <SectionSidebar sections={sections} model={model} />
-      <div className="ml-64">
-        <header className="sticky top-0 z-10 bg-white border-b border-gray-200 px-6 py-2 flex items-center justify-between">
-          <div />
-          <SearchDialog model={model} />
-        </header>
-        <main className="p-6">{children}</main>
+    <div
+      style={{
+        height: "100dvh",
+        display: "flex",
+        flexDirection: "column",
+        overflow: "hidden",
+        background: "#F5F0E8",
+        color: "#1A1A1A",
+        fontFamily: "Georgia, 'Times New Roman', serif",
+      }}
+    >
+      {/* Triple racing stripe */}
+      <div style={{ display: "flex", height: "10px", flexShrink: 0 }}>
+        <div style={{ flex: 4, background: "#C41E3A" }} />
+        <div style={{ flex: 1, background: "#1A1A1A" }} />
+        <div style={{ flex: 2, background: "#8B7355" }} />
       </div>
-    </>
+
+      {/* Top nav bar */}
+      <div
+        style={{
+          background: "#1A1A1A",
+          padding: "12px 24px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          flexShrink: 0,
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "16px",
+            fontFamily: "monospace",
+            fontSize: "11px",
+            color: "#8B7355",
+            letterSpacing: "0.15em",
+          }}
+        >
+          <Link
+            href="/"
+            style={{ color: "#C41E3A", textDecoration: "none", fontWeight: "700", letterSpacing: "0.3em" }}
+          >
+            TSRM
+          </Link>
+          <span style={{ color: "#3A2A1A" }}>›</span>
+          <Link
+            href={`/${model}`}
+            style={{ color: "#8B7355", textDecoration: "none", textTransform: "uppercase" }}
+          >
+            {modelDef.name}
+          </Link>
+          <span style={{ color: "#3A2A1A" }}>›</span>
+          <span style={{ color: "#F5F0E8" }}>Browse Manual</span>
+        </div>
+      </div>
+
+      {/* Body: sidebar + main */}
+      <div style={{ display: "flex", flex: 1, overflow: "hidden" }}>
+        <V1Sidebar sections={sections} model={model} totalPages={totalPages} />
+        <main style={{ flex: 1, overflowY: "auto", background: "#F5F0E8" }}>
+          {children}
+        </main>
+      </div>
+
+      {/* Footer */}
+      <footer
+        style={{
+          background: "#1A1A1A",
+          padding: "20px 24px",
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "space-between",
+          alignItems: "center",
+          gap: "12px",
+          flexShrink: 0,
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+          <span
+            style={{
+              fontFamily: "monospace",
+              fontWeight: "900",
+              fontSize: "16px",
+              letterSpacing: "0.2em",
+              color: "#C41E3A",
+            }}
+          >
+            TSRM
+          </span>
+          <span style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "#8B7355" }}>
+            Toyota Supra factory service manuals — digitized
+          </span>
+        </div>
+        <span
+          style={{
+            fontFamily: "monospace",
+            fontSize: "10px",
+            color: "#4A3A2A",
+            letterSpacing: "0.15em",
+            textTransform: "uppercase",
+          }}
+        >
+          Not affiliated with Toyota Motor Corporation
+        </span>
+      </footer>
+    </div>
   );
 }
