@@ -80,7 +80,8 @@ export default function LandingPage() {
               objectFit: "contain",
               objectPosition: "top",
               alignSelf: "stretch",
-              opacity: 0.25,
+              opacity: 0.15,
+              marginTop: "1cm",
             }}
           />
         </div>
