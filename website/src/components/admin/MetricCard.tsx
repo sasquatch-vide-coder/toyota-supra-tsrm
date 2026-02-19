@@ -1,26 +1,43 @@
-const colorMap = {
-  red: "text-red-400",
-  green: "text-green-400",
-  blue: "text-blue-400",
-  amber: "text-amber-400",
-  gray: "text-gray-100",
-} as const;
-
 export function MetricCard({
   label,
   value,
-  color = "gray",
 }: {
   label: string;
   value: string | number;
-  color?: keyof typeof colorMap;
 }) {
   return (
-    <div className="bg-gray-900 border border-gray-800 rounded-xl p-5">
-      <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">
+    <div
+      style={{
+        background: "#FFFFFF",
+        border: "1px solid #D4C9B8",
+        borderRadius: "8px",
+        padding: "20px",
+        borderLeft: "4px solid #C41E3A",
+        display: "flex",
+        flexDirection: "column",
+        gap: "6px",
+      }}
+    >
+      <p
+        style={{
+          fontFamily: "Georgia, serif",
+          fontSize: "13px",
+          color: "#8B7355",
+          margin: 0,
+        }}
+      >
         {label}
       </p>
-      <p className={`text-3xl font-bold font-mono ${colorMap[color]}`}>
+      <p
+        style={{
+          fontFamily: "monospace",
+          fontSize: "32px",
+          fontWeight: 900,
+          color: "#1A1A1A",
+          margin: 0,
+          lineHeight: 1,
+        }}
+      >
         {value}
       </p>
     </div>

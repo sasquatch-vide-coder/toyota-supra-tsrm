@@ -2,10 +2,25 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { MetricCard } from "@/components/admin/MetricCard";
-import { TopPages } from "@/components/admin/TopPages";
 import { TopReferrers } from "@/components/admin/TopReferrers";
+import { TrafficChart } from "@/components/admin/TrafficChart";
+import { PeakHoursChart } from "@/components/admin/PeakHoursChart";
+import { NewVsReturning } from "@/components/admin/NewVsReturning";
 
 type Period = "today" | "7d" | "30d" | "all";
+
+interface TimeseriesPoint {
+  ts: string;
+  mk4: number;
+  mk3: number;
+  mk2: number;
+  other: number;
+}
+
+interface HourData {
+  hour: number;
+  views: number;
+}
 
 interface Metrics {
   total_views: number;
@@ -13,8 +28,11 @@ interface Metrics {
   active_now: number;
   bounce_rate: number;
   avg_duration_seconds: number;
-  top_pages: { path: string; views: number }[];
+  new_sessions: number;
+  returning_sessions: number;
   top_referrers: { referrer: string; count: number }[];
+  timeseries: TimeseriesPoint[];
+  peak_hours: HourData[];
 }
 
 const periods: { value: Period; label: string }[] = [
@@ -56,26 +74,63 @@ export default function AdminDashboard() {
     fetchMetrics();
   }, [fetchMetrics]);
 
-  // Auto-refresh every 60s
   useEffect(() => {
     const interval = setInterval(fetchMetrics, 60_000);
     return () => clearInterval(interval);
   }, [fetchMetrics]);
 
+  const bucket = period === "today" ? "hour" : "day";
+
   return (
     <div>
-      <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold">Dashboard</h1>
-        <div className="flex gap-1 bg-gray-900 border border-gray-800 rounded-lg p-1">
+      {/* Header row */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          marginBottom: "28px",
+        }}
+      >
+        <h1
+          style={{
+            fontFamily: "Georgia, serif",
+            fontSize: "22px",
+            fontWeight: 700,
+            color: "#1A1A1A",
+            margin: 0,
+            letterSpacing: "0.02em",
+          }}
+        >
+          Dashboard
+        </h1>
+
+        {/* Period selector */}
+        <div
+          style={{
+            display: "flex",
+            gap: "2px",
+            background: "#FFFFFF",
+            border: "1px solid #D4C9B8",
+            borderRadius: "6px",
+            padding: "3px",
+          }}
+        >
           {periods.map((p) => (
             <button
               key={p.value}
               onClick={() => setPeriod(p.value)}
-              className={`px-3 py-1 text-sm rounded-md transition-colors ${
-                period === p.value
-                  ? "bg-red-600/20 text-red-400"
-                  : "text-gray-400 hover:text-gray-200"
-              }`}
+              style={{
+                fontFamily: "monospace",
+                fontSize: "12px",
+                padding: "5px 12px",
+                borderRadius: "4px",
+                border: "none",
+                cursor: "pointer",
+                background: period === p.value ? "#C41E3A" : "transparent",
+                color: period === p.value ? "#FFFFFF" : "#8B7355",
+                transition: "all 0.15s",
+              }}
             >
               {p.label}
             </button>
@@ -84,57 +139,80 @@ export default function AdminDashboard() {
       </div>
 
       {error && (
-        <div className="bg-red-900/20 border border-red-800 rounded-lg p-4 mb-6 text-red-400 text-sm">
+        <div
+          style={{
+            background: "rgba(196,30,58,0.08)",
+            border: "1px solid rgba(196,30,58,0.3)",
+            borderRadius: "6px",
+            padding: "12px 16px",
+            marginBottom: "24px",
+            fontFamily: "monospace",
+            fontSize: "13px",
+            color: "#C41E3A",
+          }}
+        >
           {error}
         </div>
       )}
 
       {loading && !metrics ? (
-        <div className="grid grid-cols-5 gap-4 mb-6">
+        /* Skeleton */
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "16px", marginBottom: "24px" }}>
           {Array.from({ length: 5 }).map((_, i) => (
             <div
               key={i}
-              className="bg-gray-900 border border-gray-800 rounded-xl p-5 animate-pulse"
-            >
-              <div className="h-3 bg-gray-800 rounded w-20 mb-3" />
-              <div className="h-8 bg-gray-800 rounded w-16" />
-            </div>
+              style={{
+                background: "#FFFFFF",
+                border: "1px solid #D4C9B8",
+                borderRadius: "8px",
+                padding: "20px",
+                borderLeft: "4px solid #D4C9B8",
+                height: "90px",
+              }}
+            />
           ))}
         </div>
       ) : metrics ? (
         <>
-          <div className="grid grid-cols-5 gap-4 mb-6">
-            <MetricCard
-              label="Visitors"
-              value={metrics.unique_sessions.toLocaleString()}
-              color="blue"
-            />
-            <MetricCard
-              label="Page Views"
-              value={metrics.total_views.toLocaleString()}
-              color="green"
-            />
-            <MetricCard
-              label="Active Now"
-              value={metrics.active_now}
-              color="red"
-            />
-            <MetricCard
-              label="Bounce Rate"
-              value={`${metrics.bounce_rate}%`}
-              color="amber"
-            />
-            <MetricCard
-              label="Avg Duration"
-              value={formatDuration(metrics.avg_duration_seconds)}
-              color="gray"
-            />
+          {/* Row 1: 5 metric cards */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(5, 1fr)",
+              gap: "16px",
+              marginBottom: "24px",
+            }}
+          >
+            <MetricCard label="Visitors" value={metrics.unique_sessions.toLocaleString()} />
+            <MetricCard label="Page Views" value={metrics.total_views.toLocaleString()} />
+            <MetricCard label="Active Now" value={metrics.active_now} />
+            <MetricCard label="Bounce Rate" value={`${metrics.bounce_rate}%`} />
+            <MetricCard label="Avg Duration" value={formatDuration(metrics.avg_duration_seconds)} />
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            <TopPages pages={metrics.top_pages} />
-            <TopReferrers referrers={metrics.top_referrers} />
+          {/* Row 2: Traffic chart (full width) */}
+          <div style={{ marginBottom: "24px" }}>
+            <TrafficChart data={metrics.timeseries} bucket={bucket} />
           </div>
+
+          {/* Row 3: New vs Returning + Peak Hours */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 2fr",
+              gap: "16px",
+              marginBottom: "24px",
+            }}
+          >
+            <NewVsReturning
+              newSessions={metrics.new_sessions}
+              returningSessions={metrics.returning_sessions}
+            />
+            <PeakHoursChart data={metrics.peak_hours} />
+          </div>
+
+          {/* Row 4: Top Referrers (full width) */}
+          <TopReferrers referrers={metrics.top_referrers} />
         </>
       ) : null}
     </div>

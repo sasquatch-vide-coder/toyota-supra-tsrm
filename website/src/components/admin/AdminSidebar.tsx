@@ -11,38 +11,94 @@ export function AdminSidebar() {
   const pathname = usePathname();
 
   return (
-    <div className="fixed inset-y-0 left-0 w-56 bg-gray-900 border-r border-gray-800 flex flex-col">
-      <div className="p-4 border-b border-gray-800">
-        <Link href="/admin" className="text-red-600 font-mono font-black text-xl">
-          TSRM
-        </Link>
-        <p className="text-gray-500 text-xs mt-0.5">Admin</p>
+    <div
+      style={{
+        width: "240px",
+        flexShrink: 0,
+        background: "#1A1A1A",
+        display: "flex",
+        flexDirection: "column",
+        overflowY: "auto",
+        borderRight: "1px solid #2A2A2A",
+      }}
+    >
+      <div
+        style={{
+          padding: "20px 16px 12px",
+          borderBottom: "1px solid #2A2A2A",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "monospace",
+            fontSize: "9px",
+            letterSpacing: "0.3em",
+            color: "#8B7355",
+            textTransform: "uppercase",
+            marginBottom: "4px",
+          }}
+        >
+          Navigation
+        </p>
       </div>
 
-      <nav className="flex-1 py-2">
+      <nav style={{ flex: 1, padding: "8px 0" }}>
         {navItems.map((item) => {
           const isActive = pathname === item.href;
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`flex items-center gap-2 px-4 py-2 text-sm transition-colors ${
-                isActive
-                  ? "text-white bg-gray-800 border-r-2 border-red-500"
-                  : "text-gray-400 hover:text-gray-200 hover:bg-gray-800/50"
-              }`}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "10px",
+                padding: "10px 16px",
+                textDecoration: "none",
+                borderLeft: isActive ? "3px solid #C41E3A" : "3px solid transparent",
+                background: isActive ? "rgba(196,30,58,0.08)" : "transparent",
+              }}
             >
-              <span>{item.icon}</span>
-              {item.label}
+              <span
+                style={{
+                  fontFamily: "monospace",
+                  fontSize: "13px",
+                  color: "#C41E3A",
+                }}
+              >
+                {item.icon}
+              </span>
+              <span
+                style={{
+                  fontFamily: "Georgia, serif",
+                  fontSize: "14px",
+                  color: isActive ? "#F5F0E8" : "#8B7355",
+                }}
+              >
+                {item.label}
+              </span>
             </Link>
           );
         })}
       </nav>
 
-      <div className="p-4 border-t border-gray-800">
+      <div
+        style={{
+          padding: "12px 16px",
+          borderTop: "1px solid #2A2A2A",
+        }}
+      >
         <Link
           href="/"
-          className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-300 transition-colors"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "6px",
+            textDecoration: "none",
+            fontFamily: "monospace",
+            fontSize: "12px",
+            color: "#4A3A2A",
+          }}
         >
           ← Back to site
         </Link>

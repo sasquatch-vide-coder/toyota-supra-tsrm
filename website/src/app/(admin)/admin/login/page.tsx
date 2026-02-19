@@ -40,55 +40,173 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-950 flex items-center justify-center p-4">
-      <div className="w-full max-w-sm">
-        <div className="text-center mb-8">
-          <h1 className="text-red-600 font-mono font-black text-3xl">TSRM</h1>
-          <p className="text-gray-500 text-sm mt-1">Admin Dashboard</p>
+    <div
+      style={{
+        minHeight: "100dvh",
+        background: "#F5F0E8",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      {/* Racing stripe */}
+      <div style={{ display: "flex", height: "10px" }}>
+        <div style={{ flex: 1, background: "#1A1A1A" }} />
+        <div style={{ flex: 1, background: "#C41E3A" }} />
+        <div style={{ flex: 1, background: "#F5F0E8", borderTop: "1px solid #D4C9B8" }} />
+      </div>
+
+      {/* Centered card */}
+      <div
+        style={{
+          flex: 1,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          padding: "24px",
+        }}
+      >
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "360px",
+            background: "#FFFFFF",
+            border: "1px solid #D4C9B8",
+            borderRadius: "10px",
+            padding: "36px 32px",
+          }}
+        >
+          {/* Logo */}
+          <div style={{ textAlign: "center", marginBottom: "28px" }}>
+            <h1
+              style={{
+                fontFamily: "monospace",
+                fontSize: "28px",
+                fontWeight: 900,
+                color: "#C41E3A",
+                margin: 0,
+                letterSpacing: "0.1em",
+              }}
+            >
+              TSRM
+            </h1>
+            <p
+              style={{
+                fontFamily: "Georgia, serif",
+                fontSize: "13px",
+                color: "#8B7355",
+                margin: "6px 0 0 0",
+              }}
+            >
+              Admin Dashboard
+            </p>
+          </div>
+
+          <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+            <div>
+              <label
+                htmlFor="email"
+                style={{
+                  display: "block",
+                  fontFamily: "Georgia, serif",
+                  fontSize: "12px",
+                  color: "#8B7355",
+                  marginBottom: "6px",
+                }}
+              >
+                Email
+              </label>
+              <input
+                id="email"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                placeholder="admin@tsrm.local"
+                style={{
+                  width: "100%",
+                  padding: "10px 12px",
+                  background: "#F5F0E8",
+                  border: "1px solid #D4C9B8",
+                  borderRadius: "6px",
+                  fontFamily: "monospace",
+                  fontSize: "13px",
+                  color: "#1A1A1A",
+                  outline: "none",
+                  boxSizing: "border-box",
+                }}
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="password"
+                style={{
+                  display: "block",
+                  fontFamily: "Georgia, serif",
+                  fontSize: "12px",
+                  color: "#8B7355",
+                  marginBottom: "6px",
+                }}
+              >
+                Password
+              </label>
+              <input
+                id="password"
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+                style={{
+                  width: "100%",
+                  padding: "10px 12px",
+                  background: "#F5F0E8",
+                  border: "1px solid #D4C9B8",
+                  borderRadius: "6px",
+                  fontFamily: "monospace",
+                  fontSize: "13px",
+                  color: "#1A1A1A",
+                  outline: "none",
+                  boxSizing: "border-box",
+                }}
+              />
+            </div>
+
+            {error && (
+              <p
+                style={{
+                  fontFamily: "monospace",
+                  fontSize: "12px",
+                  color: "#C41E3A",
+                  margin: 0,
+                }}
+              >
+                {error}
+              </p>
+            )}
+
+            <button
+              type="submit"
+              disabled={loading}
+              style={{
+                width: "100%",
+                padding: "11px",
+                background: loading ? "#8B7355" : "#C41E3A",
+                border: "none",
+                borderRadius: "6px",
+                fontFamily: "monospace",
+                fontSize: "13px",
+                fontWeight: 700,
+                color: "#FFFFFF",
+                cursor: loading ? "not-allowed" : "pointer",
+                letterSpacing: "0.08em",
+                marginTop: "4px",
+                transition: "background 0.15s",
+              }}
+            >
+              {loading ? "Signing in..." : "Sign In"}
+            </button>
+          </form>
         </div>
-
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="email" className="block text-xs text-gray-400 mb-1">
-              Email
-            </label>
-            <input
-              id="email"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-              className="w-full px-3 py-2 bg-gray-900 border border-gray-700 rounded-lg text-gray-100 text-sm placeholder-gray-600 focus:outline-none focus:border-red-500 transition-colors"
-              placeholder="admin@tsrm.local"
-            />
-          </div>
-
-          <div>
-            <label htmlFor="password" className="block text-xs text-gray-400 mb-1">
-              Password
-            </label>
-            <input
-              id="password"
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-              className="w-full px-3 py-2 bg-gray-900 border border-gray-700 rounded-lg text-gray-100 text-sm placeholder-gray-600 focus:outline-none focus:border-red-500 transition-colors"
-            />
-          </div>
-
-          {error && (
-            <p className="text-red-400 text-sm">{error}</p>
-          )}
-
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full py-2 bg-red-600 hover:bg-red-700 disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors"
-          >
-            {loading ? "Signing in..." : "Sign In"}
-          </button>
-        </form>
       </div>
     </div>
   );

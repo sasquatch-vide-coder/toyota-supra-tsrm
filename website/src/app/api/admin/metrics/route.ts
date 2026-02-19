@@ -33,14 +33,23 @@ export async function GET(request: NextRequest) {
       break;
   }
 
-  const { data, error } = await supabaseAdmin.rpc("get_dashboard_metrics", {
-    since,
-  });
+  // Use 'hour' bucket for today, 'day' for longer periods
+  const bucket = period === "today" ? "hour" : "day";
 
-  if (error) {
-    console.error("Dashboard metrics error:", error);
+  const [metricsResult, timeseriesResult, peakHoursResult] = await Promise.all([
+    supabaseAdmin.rpc("get_dashboard_metrics", { since }),
+    supabaseAdmin.rpc("get_traffic_timeseries", { since, bucket }),
+    supabaseAdmin.rpc("get_peak_hours", { since }),
+  ]);
+
+  if (metricsResult.error) {
+    console.error("Dashboard metrics error:", metricsResult.error);
     return NextResponse.json({ error: "Failed to fetch metrics" }, { status: 500 });
   }
 
-  return NextResponse.json(data);
+  return NextResponse.json({
+    ...metricsResult.data,
+    timeseries: timeseriesResult.data ?? [],
+    peak_hours: peakHoursResult.data ?? [],
+  });
 }
