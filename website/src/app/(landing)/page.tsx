@@ -171,8 +171,8 @@ export default function LandingPage() {
         <div style={{ marginTop: "64px", paddingTop: "48px", borderTop: "1px solid #D4C9B8", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "40px" }}>
           {[
             { code: "01", label: "AI-Upscaled Diagrams", desc: "All factory manual diagrams upscaled using AI for crisp, modern clarity" },
-            { code: "02", label: "Full-Text Search", desc: "Hybrid semantic + keyword search across every page of every manual" },
-            { code: "03", label: "AI-Generated FAQs", desc: "Hundreds of Q&A pairs generated from manual content for quick answers" },
+            { code: "02", label: "Full-Text Search", desc: "Search across every page of every manual" },
+            { code: "03", label: "Three Generations", desc: "Complete coverage across MK2, MK3, and MK4 Supra manuals from 1982 to 2002" },
           ].map((f) => (
             <div key={f.label}>
               <div style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.3em", color: "#C41E3A", textTransform: "uppercase", marginBottom: "10px" }}>
