@@ -58,9 +58,8 @@ ssh tsrm "pm2 logs tsrm --lines 50"
 
 ## Key Patterns
 
-- **HTTP client for SupraForums**: Must use `curl` subprocess (not httpx/requests) due to TLS fingerprinting returning 409
 - **Claude API import**: `sys.path.insert(0, str(Path(__file__).resolve().parent.parent))` then `from claude_code_api import AsyncClaudeClient`
-- **Supabase search**: FTS (full-text search) via RPC functions (`hybrid_search`, `search_faqs`, `search_forum_threads`)
+- **Supabase search**: ILIKE substring matching via `hybrid_search` RPC function
 
 ## Manual Data Pipeline
 
@@ -90,19 +89,13 @@ python scripts/generate_content.py --model mk2 --all
 ```
 Copies processed JSON to `website/src/content/{model}/` and images to `website/public/images/{model}/`. Builds sections index and search index.
 
-### 5. Generate FAQs
-```bash
-python scripts/generate_faqs.py --model mk2
-```
-Generates FAQ Q&A pairs from content and inserts into Supabase `faqs` table.
-
-### 6. Ingest to Supabase for search
+### 5. Ingest to Supabase for search
 ```bash
 python scripts/ingest_to_supabase.py --model mk2
 ```
-Upserts page content into `manual_pages` table for FTS search.
+Upserts page content into `manual_pages` table for search.
 
-### 7. Deploy
+### 6. Deploy
 ```bash
 ssh tsrm "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"
 ```
@@ -111,3 +104,31 @@ ssh tsrm "cd ~/app && git pull origin main && cd website && npm run build && pm2
 - Pages with `ocr_text` (and no `content` array): Shows the full page scan image with hidden OCR text for search/SEO
 - Pages with structured `content` array: Renders individual content blocks (text, diagrams, tables, etc.)
 - Both MK2 and MK3 use the OCR approach (full page images)
+
+## Fresh Server Setup
+
+To set up a new server from scratch:
+
+### 1. Install Supabase
+Follow the [Supabase self-hosting guide](https://supabase.com/docs/guides/self-hosting) to get a local instance running (API on port 54321, PostgreSQL on port 54322).
+
+### 2. Run the database setup
+```bash
+PGPASSWORD=postgres psql -h 127.0.0.1 -p 54322 -U postgres -d postgres -f scripts/setup.sql
+```
+This creates all tables (`manual_pages`, `page_views`, `sessions`, `stats_daily`), indexes, RLS policies, and RPC functions in one shot.
+
+### 3. Clone the repo and install dependencies
+```bash
+git clone <repo-url> ~/app
+cd ~/app/website && npm install
+```
+
+### 4. Run the data pipeline
+Follow the [Manual Data Pipeline](#manual-data-pipeline) steps 1-5 to crawl, process, and ingest content.
+
+### 5. Build and start
+```bash
+cd ~/app/website && npm run build
+pm2 start npm --name tsrm -- start
+```
