@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
 import { getModel, getModelIds } from "@/lib/models";
 import V1Sidebar from "@/components/V1Sidebar";
+import SearchDialog from "@/components/SearchDialog";
 
 export function generateStaticParams() {
   return getModelIds().map((model) => ({ model }));
@@ -79,6 +80,7 @@ export default async function ModelLayout({
           <span style={{ color: "#3A2A1A" }}>›</span>
           <span style={{ color: "#F5F0E8" }}>Browse Manual</span>
         </div>
+        <SearchDialog model={model} />
       </div>
 
       {/* Body: sidebar + main */}

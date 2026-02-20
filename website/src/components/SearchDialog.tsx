@@ -162,13 +162,35 @@ export default function SearchDialog({ model }: { model: string }) {
     return (
       <button
         onClick={() => setIsOpen(true)}
-        className="flex items-center gap-2 px-3 py-1.5 text-sm text-gray-500 border border-gray-300 rounded-lg hover:border-gray-400 transition-colors"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "8px",
+          padding: "4px 12px",
+          fontFamily: "monospace",
+          fontSize: "11px",
+          letterSpacing: "0.15em",
+          color: "#8B7355",
+          background: "transparent",
+          border: "1px solid #3A2A1A",
+          borderRadius: "4px",
+          cursor: "pointer",
+        }}
       >
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
-        Search
-        <kbd className="hidden sm:inline-block px-1.5 py-0.5 text-xs bg-gray-100 border border-gray-200 rounded">
+        SEARCH
+        <kbd
+          style={{
+            padding: "1px 6px",
+            fontSize: "10px",
+            color: "#4A3A2A",
+            background: "#2A2A2A",
+            border: "1px solid #3A2A1A",
+            borderRadius: "3px",
+          }}
+        >
           Ctrl+K
         </kbd>
       </button>
