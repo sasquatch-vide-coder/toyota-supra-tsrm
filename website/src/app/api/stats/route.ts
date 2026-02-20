@@ -41,12 +41,14 @@ export async function GET(request: NextRequest) {
     dailyVisitorsResult,
     liveSessionsResult,
     heatmapResult,
+    systemMetricsResult,
   ] = await Promise.all([
     supabaseAdmin.rpc("get_stats_metrics", { since }),
     supabaseAdmin.rpc("get_stats_content", { since }),
     supabaseAdmin.rpc("get_stats_visitors", { since }),
     supabaseAdmin.rpc("get_live_sessions"),
     supabaseAdmin.rpc("get_hourly_heatmap", { since }),
+    supabaseAdmin.rpc("get_system_metrics", { since }),
   ]);
 
   if (metricsResult.error) {
@@ -61,6 +63,7 @@ export async function GET(request: NextRequest) {
     content_breakdown: contentResult.data ?? [],
     daily_visitors: dailyVisitorsResult.data ?? [],
     hourly_heatmap: heatmapResult.data ?? [],
+    system_metrics: systemMetricsResult.data ?? [],
   };
 
   cache.set(period, { data, ts: Date.now() });

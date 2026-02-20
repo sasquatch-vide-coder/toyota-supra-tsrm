@@ -7,6 +7,7 @@ import { GrowthChart } from "@/components/stats/GrowthChart";
 import { ContentBreakdown } from "@/components/stats/ContentBreakdown";
 import { HourlyHeatmap } from "@/components/stats/HourlyHeatmap";
 import { CumulativeChart } from "@/components/stats/CumulativeChart";
+import { SystemMetricsChart } from "@/components/stats/SystemMetricsChart";
 
 type Period = "today" | "7d" | "30d" | "all";
 
@@ -17,6 +18,7 @@ interface Stats {
   content_breakdown: { model: string; views: number; pct: number }[];
   daily_visitors: { day: string; visitors: number; views: number }[];
   hourly_heatmap: { dow: number; hour: number; views: number }[];
+  system_metrics: { recorded_at: string; cpu_pct: number; mem_pct: number; net_rx_mb: number; net_tx_mb: number }[];
 }
 
 const periods: { value: Period; label: string }[] = [
@@ -191,6 +193,9 @@ export default function StatsPage() {
             </div>
             <div style={{ marginBottom: "24px" }}>
               <GrowthChart data={stats.daily_visitors} period={period} />
+            </div>
+            <div style={{ marginBottom: "24px" }}>
+              <SystemMetricsChart data={stats.system_metrics} />
             </div>
 
             {/* Content breakdown and heatmap side by side */}
