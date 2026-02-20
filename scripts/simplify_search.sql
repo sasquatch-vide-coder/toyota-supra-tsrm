@@ -1,5 +1,6 @@
 -- Replace hybrid_search with plain ILIKE substring matching.
 -- Title matches score 3, section_header matches score 2, content-only matches score 1.
+DROP FUNCTION IF EXISTS hybrid_search(text, integer, text);
 CREATE OR REPLACE FUNCTION hybrid_search(
   query_text TEXT,
   match_count INT DEFAULT 20,
