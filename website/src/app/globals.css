@@ -149,4 +149,8 @@ body {
   .stats-bottom-grid {
     grid-template-columns: 1fr !important;
   }
+  .stats-bottom-grid > * {
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
 }
