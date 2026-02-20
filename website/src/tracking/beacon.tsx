@@ -40,7 +40,7 @@ export function TrackingBeacon() {
 
   useEffect(() => {
     try {
-      if (pathname.startsWith("/admin")) return;
+      if (pathname.startsWith("/stats")) return;
       if (pathname === lastPath.current) return;
 
       const isNew = isNewSession();

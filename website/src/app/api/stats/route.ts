@@ -1,18 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createClient } from "@/lib/supabase/server";
 import { supabaseAdmin } from "@/lib/supabase/admin";
 
 export async function GET(request: NextRequest) {
-  // Auth check
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
   const period = request.nextUrl.searchParams.get("period") || "today";
 
   let since: string;
@@ -33,23 +22,31 @@ export async function GET(request: NextRequest) {
       break;
   }
 
-  // Use 'hour' bucket for today, 'day' for longer periods
-  const bucket = period === "today" ? "hour" : "day";
-
-  const [metricsResult, timeseriesResult, peakHoursResult] = await Promise.all([
+  const [
+    metricsResult,
+    contentResult,
+    dailyVisitorsResult,
+    liveSessionsResult,
+    heatmapResult,
+  ] = await Promise.all([
     supabaseAdmin.rpc("get_dashboard_metrics", { since }),
-    supabaseAdmin.rpc("get_traffic_timeseries", { since, bucket }),
-    supabaseAdmin.rpc("get_peak_hours", { since }),
+    supabaseAdmin.rpc("get_content_breakdown", { since }),
+    supabaseAdmin.rpc("get_daily_visitors", { since }),
+    supabaseAdmin.rpc("get_live_sessions"),
+    supabaseAdmin.rpc("get_hourly_heatmap", { since }),
   ]);
 
   if (metricsResult.error) {
-    console.error("Dashboard metrics error:", metricsResult.error);
+    console.error("Stats metrics error:", metricsResult.error);
     return NextResponse.json({ error: "Failed to fetch metrics" }, { status: 500 });
   }
 
   return NextResponse.json({
-    ...metricsResult.data,
-    timeseries: timeseriesResult.data ?? [],
-    peak_hours: peakHoursResult.data ?? [],
+    unique_sessions: metricsResult.data.unique_sessions,
+    prev_unique_sessions: metricsResult.data.prev_unique_sessions,
+    active_now: (liveSessionsResult.data ?? []).length,
+    content_breakdown: contentResult.data ?? [],
+    daily_visitors: dailyVisitorsResult.data ?? [],
+    hourly_heatmap: heatmapResult.data ?? [],
   });
 }
