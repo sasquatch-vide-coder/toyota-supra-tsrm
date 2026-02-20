@@ -5,6 +5,7 @@ import { MetricCard } from "@/components/stats/MetricCard";
 import { GrowthChart } from "@/components/stats/GrowthChart";
 import { ContentBreakdown } from "@/components/stats/ContentBreakdown";
 import { HourlyHeatmap } from "@/components/stats/HourlyHeatmap";
+import { CumulativeChart } from "@/components/stats/CumulativeChart";
 
 type Period = "today" | "7d" | "30d" | "all";
 
@@ -102,6 +103,19 @@ export default function StatsPage() {
             )}
           </div>
 
+          {/* Metric cards inline in header */}
+          {stats && (
+            <div style={{ display: "flex", gap: "12px" }}>
+              <MetricCard
+                label="Total Visitors"
+                value={stats.unique_sessions.toLocaleString()}
+                currentValue={stats.unique_sessions}
+                prevValue={stats.prev_unique_sessions}
+              />
+              <MetricCard label="Active Now" value={stats.active_now} />
+            </div>
+          )}
+
           {/* Period selector */}
           <div
             style={{
@@ -157,28 +171,6 @@ export default function StatsPage() {
           <div>
             <div
               style={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr",
-                gap: "14px",
-                marginBottom: "24px",
-              }}
-            >
-              {Array.from({ length: 2 }).map((_, i) => (
-                <div
-                  key={i}
-                  style={{
-                    background: "#FFFFFF",
-                    border: "1px solid #D4C9B8",
-                    borderRadius: "8px",
-                    padding: "20px",
-                    borderLeft: "4px solid #D4C9B8",
-                    height: "80px",
-                  }}
-                />
-              ))}
-            </div>
-            <div
-              style={{
                 background: "#FFFFFF",
                 border: "1px solid #D4C9B8",
                 borderRadius: "8px",
@@ -189,25 +181,10 @@ export default function StatsPage() {
           </div>
         ) : stats ? (
           <>
-            {/* Metric cards side by side */}
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr",
-                gap: "14px",
-                marginBottom: "24px",
-              }}
-            >
-              <MetricCard
-                label="Total Visitors"
-                value={stats.unique_sessions.toLocaleString()}
-                currentValue={stats.unique_sessions}
-                prevValue={stats.prev_unique_sessions}
-              />
-              <MetricCard label="Active Now" value={stats.active_now} />
+            {/* Charts full width */}
+            <div style={{ marginBottom: "24px" }}>
+              <CumulativeChart data={stats.daily_visitors} period={period} />
             </div>
-
-            {/* Growth chart full width */}
             <div style={{ marginBottom: "24px" }}>
               <GrowthChart data={stats.daily_visitors} period={period} />
             </div>

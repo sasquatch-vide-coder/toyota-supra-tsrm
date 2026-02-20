@@ -23,7 +23,7 @@ const periodLabels: Record<string, string> = {
   all: "All Time",
 };
 
-export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period?: string }) {
+export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; period?: string }) {
   if (!data || data.length === 0) {
     return (
       <div
@@ -45,15 +45,16 @@ export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period
     );
   }
 
-  const chartData = data.map((d) => ({
-    ...d,
-    label: new Date(d.day).toLocaleDateString([], { month: "short", day: "numeric" }),
-  }));
+  let cumulative = 0;
+  const chartData = data.map((d) => {
+    cumulative += d.visitors;
+    return {
+      label: new Date(d.day).toLocaleDateString([], { month: "short", day: "numeric" }),
+      total: cumulative,
+    };
+  });
 
-  // Calculate total and average
-  const totalVisitors = data.reduce((s, d) => s + d.visitors, 0);
-  const activeDays = data.filter((d) => d.visitors > 0).length;
-  const avgDaily = activeDays > 0 ? (totalVisitors / activeDays).toFixed(1) : "0";
+  const totalVisitors = cumulative;
 
   return (
     <div
@@ -81,23 +82,18 @@ export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period
             letterSpacing: "0.02em",
           }}
         >
-          Daily Visitors — {periodLabels[period] ?? period}
+          Total Visitors — {periodLabels[period] ?? period}
         </h3>
-        <div style={{ display: "flex", gap: "16px" }}>
-          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355" }}>
-            Total: <strong style={{ color: "#1A1A1A" }}>{totalVisitors}</strong>
-          </span>
-          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355" }}>
-            Daily avg: <strong style={{ color: "#1A1A1A" }}>{avgDaily}</strong>
-          </span>
-        </div>
+        <span style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355" }}>
+          Total: <strong style={{ color: "#1A1A1A" }}>{totalVisitors.toLocaleString()}</strong>
+        </span>
       </div>
       <ResponsiveContainer width="100%" height={220}>
         <AreaChart data={chartData} margin={{ top: 4, right: 8, left: -20, bottom: 0 }}>
           <defs>
-            <linearGradient id="growthGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#C41E3A" stopOpacity={0.15} />
-              <stop offset="95%" stopColor="#C41E3A" stopOpacity={0} />
+            <linearGradient id="cumulativeGradient" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="5%" stopColor="#8B7355" stopOpacity={0.2} />
+              <stop offset="95%" stopColor="#8B7355" stopOpacity={0} />
             </linearGradient>
           </defs>
           <CartesianGrid strokeDasharray="3 3" stroke="#F0EBE0" vertical={false} />
@@ -126,13 +122,13 @@ export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period
           />
           <Area
             type="monotone"
-            dataKey="visitors"
-            name="Visitors"
-            stroke="#C41E3A"
-            strokeWidth={1.5}
-            fill="url(#growthGradient)"
+            dataKey="total"
+            name="Total Visitors"
+            stroke="#8B7355"
+            strokeWidth={2}
+            fill="url(#cumulativeGradient)"
             dot={false}
-            activeDot={{ r: 4, fill: "#C41E3A" }}
+            activeDot={{ r: 4, fill: "#8B7355" }}
           />
         </AreaChart>
       </ResponsiveContainer>

@@ -34,12 +34,6 @@ export function MetricCard({
         {arrow} {Math.abs(change).toFixed(0)}%
       </span>
     );
-  } else if (prevValue !== undefined) {
-    trendEl = (
-      <span style={{ fontFamily: "monospace", fontSize: "11px", color: "#D4C9B8" }}>
-        —
-      </span>
-    );
   }
 
   return (
@@ -47,31 +41,28 @@ export function MetricCard({
       style={{
         background: "#FFFFFF",
         border: "1px solid #D4C9B8",
-        borderRadius: "8px",
-        padding: "20px",
-        borderLeft: "4px solid #C41E3A",
+        borderRadius: "6px",
+        padding: "10px 14px",
         display: "flex",
-        flexDirection: "column",
-        gap: "6px",
+        alignItems: "center",
+        gap: "10px",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-        <p
-          style={{
-            fontFamily: "Georgia, serif",
-            fontSize: "13px",
-            color: "#8B7355",
-            margin: 0,
-          }}
-        >
-          {label}
-        </p>
-        {trendEl}
-      </div>
+      <p
+        style={{
+          fontFamily: "Georgia, serif",
+          fontSize: "12px",
+          color: "#8B7355",
+          margin: 0,
+          whiteSpace: "nowrap",
+        }}
+      >
+        {label}
+      </p>
       <p
         style={{
           fontFamily: "monospace",
-          fontSize: "28px",
+          fontSize: "18px",
           fontWeight: 900,
           color: "#1A1A1A",
           margin: 0,
@@ -80,6 +71,7 @@ export function MetricCard({
       >
         {value}
       </p>
+      {trendEl}
     </div>
   );
 }
