@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
+import Link from "next/link";
 import { MetricCard } from "@/components/stats/MetricCard";
 import { GrowthChart } from "@/components/stats/GrowthChart";
 import { ContentBreakdown } from "@/components/stats/ContentBreakdown";
@@ -77,13 +78,16 @@ export default function StatsPage() {
           }}
         >
           <div>
+            <Link href="/" style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355", textDecoration: "none", letterSpacing: "0.15em", textTransform: "uppercase" }}>
+              ← TSRM
+            </Link>
             <h1
               style={{
                 fontFamily: "Georgia, serif",
                 fontSize: "22px",
                 fontWeight: 700,
                 color: "#1A1A1A",
-                margin: 0,
+                margin: "4px 0 0 0",
                 letterSpacing: "0.02em",
               }}
             >
