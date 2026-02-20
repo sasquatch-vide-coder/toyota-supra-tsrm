@@ -45,7 +45,10 @@ export async function GET(request: NextRequest) {
     unique_sessions: metricsResult.data.unique_sessions,
     prev_unique_sessions: metricsResult.data.prev_unique_sessions,
     active_now: (liveSessionsResult.data ?? []).length,
-    content_breakdown: contentResult.data ?? [],
+    content_breakdown: (contentResult.data ?? []).filter(
+      (r: { model: string }) =>
+        r.model === "MK4 Supra" || r.model === "MK3 Supra" || r.model === "MK2 Celica-Supra"
+    ),
     daily_visitors: dailyVisitorsResult.data ?? [],
     hourly_heatmap: heatmapResult.data ?? [],
   });
