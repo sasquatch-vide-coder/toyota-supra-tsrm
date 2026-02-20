@@ -1,8 +1,37 @@
 import { NextRequest } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase/admin";
 
-// IPs excluded from analytics
-const EXCLUDED_IPS = new Set(["66.219.215.116"]);
+// CIDR ranges excluded from analytics (owner IPs)
+const EXCLUDED_RANGES: { network: number; mask: number }[] = [];
+
+function parseIp(ip: string): number | null {
+  const parts = ip.split(".");
+  if (parts.length !== 4) return null;
+  let n = 0;
+  for (const p of parts) {
+    const v = parseInt(p, 10);
+    if (isNaN(v) || v < 0 || v > 255) return null;
+    n = (n << 8) | v;
+  }
+  return n >>> 0; // unsigned
+}
+
+function addCidr(cidr: string) {
+  const [ipStr, bitsStr] = cidr.split("/");
+  const ip = parseIp(ipStr);
+  if (ip === null) return;
+  const bits = parseInt(bitsStr, 10);
+  const mask = bits === 0 ? 0 : (~0 << (32 - bits)) >>> 0;
+  EXCLUDED_RANGES.push({ network: (ip & mask) >>> 0, mask });
+}
+
+addCidr("66.219.208.0/20");
+
+function isExcludedIp(ip: string): boolean {
+  const n = parseIp(ip);
+  if (n === null) return false;
+  return EXCLUDED_RANGES.some((r) => (n & r.mask) >>> 0 === r.network);
+}
 
 // In-memory rate limiting
 const rateMap = new Map<string, { count: number; resetAt: number }>();
@@ -31,7 +60,7 @@ setInterval(() => {
 export async function POST(request: NextRequest) {
   try {
     const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
-    if (EXCLUDED_IPS.has(ip)) {
+    if (isExcludedIp(ip)) {
       return new Response(null, { status: 204 });
     }
     if (isRateLimited(ip)) {
