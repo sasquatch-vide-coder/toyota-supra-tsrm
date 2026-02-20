@@ -7,7 +7,7 @@ function getSessionId(): string {
   if (typeof document === "undefined") return "";
   const match = document.cookie.match(/(?:^|; )tsrm_sid=([^;]*)/);
   if (match) return match[1];
-  const id = Date.now() + "-" + Math.random().toString(36).slice(2, 10);
+  const id = crypto.randomUUID();
   document.cookie = `tsrm_sid=${id}; path=/; max-age=1800; SameSite=Lax`;
   return id;
 }

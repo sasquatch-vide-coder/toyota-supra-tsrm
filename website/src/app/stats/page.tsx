@@ -63,7 +63,7 @@ export default function StatsPage() {
     <div
       style={{
         minHeight: "100vh",
-        background: "#FAF8F4",
+        background: "var(--color-bg)",
         padding: "32px 24px",
       }}
     >
@@ -78,7 +78,7 @@ export default function StatsPage() {
           }}
         >
           <div>
-            <Link href="/" style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355", textDecoration: "none", letterSpacing: "0.15em", textTransform: "uppercase" }}>
+            <Link href="/" style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)", textDecoration: "none", letterSpacing: "0.15em", textTransform: "uppercase" }}>
               ← TSRM
             </Link>
             <h1
@@ -86,7 +86,7 @@ export default function StatsPage() {
                 fontFamily: "Georgia, serif",
                 fontSize: "22px",
                 fontWeight: 700,
-                color: "#1A1A1A",
+                color: "var(--color-dark)",
                 margin: "4px 0 0 0",
                 letterSpacing: "0.02em",
               }}
@@ -98,7 +98,7 @@ export default function StatsPage() {
                 style={{
                   fontFamily: "monospace",
                   fontSize: "10px",
-                  color: "#D4C9B8",
+                  color: "var(--color-border)",
                   margin: "4px 0 0 0",
                 }}
               >
@@ -126,7 +126,7 @@ export default function StatsPage() {
               display: "flex",
               gap: "2px",
               background: "#FFFFFF",
-              border: "1px solid #D4C9B8",
+              border: "1px solid var(--color-border)",
               borderRadius: "6px",
               padding: "3px",
             }}
@@ -142,8 +142,8 @@ export default function StatsPage() {
                   borderRadius: "4px",
                   border: "none",
                   cursor: "pointer",
-                  background: period === p.value ? "#C41E3A" : "transparent",
-                  color: period === p.value ? "#FFFFFF" : "#8B7355",
+                  background: period === p.value ? "var(--color-red)" : "transparent",
+                  color: period === p.value ? "#FFFFFF" : "var(--color-tan)",
                   transition: "all 0.15s",
                 }}
               >
@@ -163,7 +163,7 @@ export default function StatsPage() {
               marginBottom: "24px",
               fontFamily: "monospace",
               fontSize: "13px",
-              color: "#C41E3A",
+              color: "var(--color-red)",
             }}
           >
             {error}
@@ -176,7 +176,7 @@ export default function StatsPage() {
             <div
               style={{
                 background: "#FFFFFF",
-                border: "1px solid #D4C9B8",
+                border: "1px solid var(--color-border)",
                 borderRadius: "8px",
                 height: "300px",
                 marginBottom: "24px",

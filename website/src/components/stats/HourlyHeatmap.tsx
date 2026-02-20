@@ -23,7 +23,7 @@ export function HourlyHeatmap({ data }: { data: HeatmapPoint[] }) {
       <div
         style={{
           background: "#FFFFFF",
-          border: "1px solid #D4C9B8",
+          border: "1px solid var(--color-border)",
           borderRadius: "8px",
           padding: "20px",
           display: "flex",
@@ -32,7 +32,7 @@ export function HourlyHeatmap({ data }: { data: HeatmapPoint[] }) {
           minHeight: "200px",
         }}
       >
-        <p style={{ fontFamily: "Georgia, serif", color: "#8B7355", fontSize: "14px" }}>
+        <p style={{ fontFamily: "Georgia, serif", color: "var(--color-tan)", fontSize: "14px" }}>
           No heatmap data yet
         </p>
       </div>
@@ -51,7 +51,7 @@ export function HourlyHeatmap({ data }: { data: HeatmapPoint[] }) {
     <div
       style={{
         background: "#FFFFFF",
-        border: "1px solid #D4C9B8",
+        border: "1px solid var(--color-border)",
         borderRadius: "8px",
         padding: "20px",
       }}
@@ -60,7 +60,7 @@ export function HourlyHeatmap({ data }: { data: HeatmapPoint[] }) {
         style={{
           fontFamily: "Georgia, serif",
           fontSize: "15px",
-          color: "#1A1A1A",
+          color: "var(--color-dark)",
           margin: "0 0 16px 0",
         }}
       >
@@ -77,7 +77,7 @@ export function HourlyHeatmap({ data }: { data: HeatmapPoint[] }) {
               style={{
                 fontFamily: "monospace",
                 fontSize: "8px",
-                color: "#8B7355",
+                color: "var(--color-tan)",
                 textAlign: "center",
               }}
             >
@@ -92,7 +92,7 @@ export function HourlyHeatmap({ data }: { data: HeatmapPoint[] }) {
                 style={{
                   fontFamily: "monospace",
                   fontSize: "10px",
-                  color: "#8B7355",
+                  color: "var(--color-tan)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "flex-end",
@@ -112,7 +112,7 @@ export function HourlyHeatmap({ data }: { data: HeatmapPoint[] }) {
                       borderRadius: "2px",
                       background:
                         intensity === 0
-                          ? "#F5F0E8"
+                          ? "var(--color-cream)"
                           : `rgba(196, 30, 58, ${(intensity * 0.85 + 0.15).toFixed(3)})`,
                       minHeight: "14px",
                       cursor: "default",
@@ -136,7 +136,7 @@ export function HourlyHeatmap({ data }: { data: HeatmapPoint[] }) {
           marginTop: "8px",
         }}
       >
-        <span style={{ fontFamily: "monospace", fontSize: "9px", color: "#8B7355" }}>Less</span>
+        <span style={{ fontFamily: "monospace", fontSize: "9px", color: "var(--color-tan)" }}>Less</span>
         {[0, 0.25, 0.5, 0.75, 1].map((v) => (
           <div
             key={v}
@@ -144,11 +144,11 @@ export function HourlyHeatmap({ data }: { data: HeatmapPoint[] }) {
               width: "12px",
               height: "12px",
               borderRadius: "2px",
-              background: v === 0 ? "#F5F0E8" : `rgba(196, 30, 58, ${(v * 0.85 + 0.15).toFixed(2)})`,
+              background: v === 0 ? "var(--color-cream)" : `rgba(196, 30, 58, ${(v * 0.85 + 0.15).toFixed(2)})`,
             }}
           />
         ))}
-        <span style={{ fontFamily: "monospace", fontSize: "9px", color: "#8B7355" }}>More</span>
+        <span style={{ fontFamily: "monospace", fontSize: "9px", color: "var(--color-tan)" }}>More</span>
       </div>
     </div>
   );

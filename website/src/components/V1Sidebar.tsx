@@ -31,7 +31,7 @@ export default function V1Sidebar({ sections, model, totalPages }: V1SidebarProp
       style={{
         width: "240px",
         flexShrink: 0,
-        background: "#1A1A1A",
+        background: "var(--color-dark)",
         display: "flex",
         flexDirection: "column",
         overflowY: "auto",
@@ -40,7 +40,7 @@ export default function V1Sidebar({ sections, model, totalPages }: V1SidebarProp
       <div
         style={{
           padding: "20px 16px 12px",
-          borderBottom: "1px solid #2A2A2A",
+          borderBottom: "1px solid var(--color-dark-border)",
         }}
       >
         <p
@@ -48,7 +48,7 @@ export default function V1Sidebar({ sections, model, totalPages }: V1SidebarProp
             fontFamily: "monospace",
             fontSize: "9px",
             letterSpacing: "0.3em",
-            color: "#8B7355",
+            color: "var(--color-tan)",
             textTransform: "uppercase",
             marginBottom: "4px",
           }}
@@ -59,7 +59,7 @@ export default function V1Sidebar({ sections, model, totalPages }: V1SidebarProp
           style={{
             fontFamily: "monospace",
             fontSize: "10px",
-            color: "#4A3A2A",
+            color: "var(--color-brown)",
           }}
         >
           {sections.length} sections · {totalPages.toLocaleString()} pages
@@ -79,7 +79,7 @@ export default function V1Sidebar({ sections, model, totalPages }: V1SidebarProp
                 gap: "10px",
                 padding: "8px 16px",
                 textDecoration: "none",
-                borderLeft: isActive ? "3px solid #C41E3A" : "3px solid transparent",
+                borderLeft: isActive ? "3px solid var(--color-red)" : "3px solid transparent",
               }}
             >
               <span
@@ -87,7 +87,7 @@ export default function V1Sidebar({ sections, model, totalPages }: V1SidebarProp
                   fontFamily: "monospace",
                   fontSize: "12px",
                   fontWeight: "900",
-                  color: "#C41E3A",
+                  color: "var(--color-red)",
                   minWidth: "28px",
                   letterSpacing: "0.05em",
                 }}
@@ -98,7 +98,7 @@ export default function V1Sidebar({ sections, model, totalPages }: V1SidebarProp
                 style={{
                   fontFamily: "Georgia, serif",
                   fontSize: "14px",
-                  color: isActive ? "#F5F0E8" : "#8B7355",
+                  color: isActive ? "var(--color-cream)" : "var(--color-tan)",
                   lineHeight: 1.3,
                 }}
               >

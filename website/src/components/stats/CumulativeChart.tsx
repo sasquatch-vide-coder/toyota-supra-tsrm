@@ -29,7 +29,7 @@ export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; pe
       <div
         style={{
           background: "#FFFFFF",
-          border: "1px solid #D4C9B8",
+          border: "1px solid var(--color-border)",
           borderRadius: "8px",
           padding: "20px",
           display: "flex",
@@ -38,7 +38,7 @@ export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; pe
           height: "280px",
         }}
       >
-        <p style={{ fontFamily: "Georgia, serif", color: "#8B7355", fontSize: "14px" }}>
+        <p style={{ fontFamily: "Georgia, serif", color: "var(--color-tan)", fontSize: "14px" }}>
           No growth data yet
         </p>
       </div>
@@ -60,7 +60,7 @@ export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; pe
     <div
       style={{
         background: "#FFFFFF",
-        border: "1px solid #D4C9B8",
+        border: "1px solid var(--color-border)",
         borderRadius: "8px",
         padding: "20px",
       }}
@@ -77,15 +77,15 @@ export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; pe
           style={{
             fontFamily: "Georgia, serif",
             fontSize: "15px",
-            color: "#1A1A1A",
+            color: "var(--color-dark)",
             margin: 0,
             letterSpacing: "0.02em",
           }}
         >
           Total Visitors — {periodLabels[period] ?? period}
         </h3>
-        <span style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355" }}>
-          Total: <strong style={{ color: "#1A1A1A" }}>{totalVisitors.toLocaleString()}</strong>
+        <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)" }}>
+          Total: <strong style={{ color: "var(--color-dark)" }}>{totalVisitors.toLocaleString()}</strong>
         </span>
       </div>
       <ResponsiveContainer width="100%" height={220}>
@@ -113,12 +113,12 @@ export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; pe
           <Tooltip
             contentStyle={{
               background: "#FFFFFF",
-              border: "1px solid #D4C9B8",
+              border: "1px solid var(--color-border)",
               borderRadius: "6px",
               fontFamily: "monospace",
               fontSize: "12px",
             }}
-            labelStyle={{ color: "#1A1A1A", marginBottom: "4px" }}
+            labelStyle={{ color: "var(--color-dark)", marginBottom: "4px" }}
           />
           <Area
             type="monotone"

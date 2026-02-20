@@ -7,13 +7,13 @@ interface ContentItem {
 }
 
 const modelColors: Record<string, string> = {
-  "MK4 Supra": "#C41E3A",
-  "MK3 Supra": "#8B7355",
-  "MK2 Celica-Supra": "#4A3A2A",
+  "MK4 Supra": "var(--color-red)",
+  "MK3 Supra": "var(--color-tan)",
+  "MK2 Celica-Supra": "var(--color-brown)",
   "Homepage": "#6B8E7B",
   "Landing Variants": "#7B9BAE",
   "Search": "#B8860B",
-  "Other": "#D4C9B8",
+  "Other": "var(--color-border)",
 };
 
 export function ContentBreakdown({ data }: { data: ContentItem[] }) {
@@ -22,7 +22,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
       <div
         style={{
           background: "#FFFFFF",
-          border: "1px solid #D4C9B8",
+          border: "1px solid var(--color-border)",
           borderRadius: "8px",
           padding: "20px",
           display: "flex",
@@ -31,7 +31,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
           minHeight: "200px",
         }}
       >
-        <p style={{ fontFamily: "Georgia, serif", color: "#8B7355", fontSize: "14px" }}>
+        <p style={{ fontFamily: "Georgia, serif", color: "var(--color-tan)", fontSize: "14px" }}>
           No data yet
         </p>
       </div>
@@ -45,7 +45,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
     <div
       style={{
         background: "#FFFFFF",
-        border: "1px solid #D4C9B8",
+        border: "1px solid var(--color-border)",
         borderRadius: "8px",
         padding: "20px",
       }}
@@ -54,7 +54,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
         style={{
           fontFamily: "Georgia, serif",
           fontSize: "15px",
-          color: "#1A1A1A",
+          color: "var(--color-dark)",
           margin: "0 0 6px 0",
           letterSpacing: "0.02em",
         }}
@@ -65,7 +65,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
         style={{
           fontFamily: "monospace",
           fontSize: "11px",
-          color: "#8B7355",
+          color: "var(--color-tan)",
           margin: "0 0 16px 0",
         }}
       >
@@ -112,7 +112,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
               style={{
                 fontFamily: "Georgia, serif",
                 fontSize: "13px",
-                color: "#1A1A1A",
+                color: "var(--color-dark)",
                 width: "140px",
                 flexShrink: 0,
               }}
@@ -124,7 +124,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
                 style={{
                   position: "absolute",
                   inset: 0,
-                  background: "#F5F0E8",
+                  background: "var(--color-cream)",
                   borderRadius: "3px",
                 }}
               />
@@ -144,7 +144,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
               style={{
                 fontFamily: "monospace",
                 fontSize: "12px",
-                color: "#8B7355",
+                color: "var(--color-tan)",
                 width: "80px",
                 textAlign: "right",
                 flexShrink: 0,

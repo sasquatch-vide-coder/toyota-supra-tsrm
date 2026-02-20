@@ -4,20 +4,20 @@ import { loadSections } from "@/lib/sections";
 
 export default function LandingPage() {
   return (
-    <div style={{ background: "#F5F0E8", color: "#1A1A1A", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+    <div style={{ background: "var(--color-cream)", color: "var(--color-dark)", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
       {/* Triple racing stripe */}
       <div style={{ display: "flex", height: "10px", flexShrink: 0 }}>
-        <div style={{ flex: 4, background: "#C41E3A" }} />
-        <div style={{ flex: 1, background: "#1A1A1A" }} />
-        <div style={{ flex: 2, background: "#8B7355" }} />
+        <div style={{ flex: 4, background: "var(--color-red)" }} />
+        <div style={{ flex: 1, background: "var(--color-dark)" }} />
+        <div style={{ flex: 2, background: "var(--color-tan)" }} />
       </div>
 
       {/* Top bar */}
-      <div style={{ background: "#1A1A1A", padding: "12px 48px", display: "flex", justifyContent: "space-between", alignItems: "center", flexShrink: 0 }}>
-        <span style={{ fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.25em", color: "#8B7355", textTransform: "uppercase" }}>
+      <div style={{ background: "var(--color-dark)", padding: "12px 48px", display: "flex", justifyContent: "space-between", alignItems: "center", flexShrink: 0 }}>
+        <span style={{ fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.25em", color: "var(--color-tan)", textTransform: "uppercase" }}>
           Toyota Supra · Technical Service Repair Manual
         </span>
-        <span style={{ fontFamily: "monospace", fontSize: "14px", fontWeight: "900", letterSpacing: "0.3em", color: "#C41E3A" }}>
+        <span style={{ fontFamily: "monospace", fontSize: "14px", fontWeight: "900", letterSpacing: "0.3em", color: "var(--color-red)" }}>
           TSRM
         </span>
       </div>
@@ -44,7 +44,7 @@ export default function LandingPage() {
                 style={{
                   fontSize: "clamp(90px, 12vw, 140px)",
                   fontWeight: "900",
-                  color: "#C41E3A",
+                  color: "var(--color-red)",
                   opacity: 0.1,
                   fontFamily: "Georgia, 'Times New Roman', serif",
                 }}
@@ -54,13 +54,13 @@ export default function LandingPage() {
             ))}
           </div>
           <div style={{ paddingTop: "8px", flex: 1 }}>
-            <p style={{ fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.35em", color: "#8B7355", textTransform: "uppercase", marginBottom: "20px" }}>
+            <p style={{ fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.35em", color: "var(--color-tan)", textTransform: "uppercase", marginBottom: "20px" }}>
               Factory Service Manual — Digitized &amp; AI-Enhanced
             </p>
-            <h1 style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "clamp(64px, 8vw, 100px)", fontWeight: "900", lineHeight: 1, color: "#1A1A1A", marginBottom: "8px", letterSpacing: "-0.02em" }}>
+            <h1 style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "clamp(64px, 8vw, 100px)", fontWeight: "900", lineHeight: 1, color: "var(--color-dark)", marginBottom: "8px", letterSpacing: "-0.02em" }}>
               TSRM
             </h1>
-            <p style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "clamp(18px, 2.5vw, 26px)", fontWeight: "300", color: "#8B7355", fontStyle: "italic", marginBottom: "28px" }}>
+            <p style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "clamp(18px, 2.5vw, 26px)", fontWeight: "300", color: "var(--color-tan)", fontStyle: "italic", marginBottom: "28px" }}>
               Toyota Supra
             </p>
             <p style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "16px", color: "#5A4A3A", maxWidth: "480px", lineHeight: 1.8 }}>
@@ -88,9 +88,9 @@ export default function LandingPage() {
 
         {/* Divider stripe */}
         <div style={{ display: "flex", height: "3px", margin: "56px 0" }}>
-          <div style={{ flex: 6, background: "#C41E3A" }} />
-          <div style={{ flex: 1, background: "#1A1A1A" }} />
-          <div style={{ flex: 3, background: "#8B7355" }} />
+          <div style={{ flex: 6, background: "var(--color-red)" }} />
+          <div style={{ flex: 1, background: "var(--color-dark)" }} />
+          <div style={{ flex: 3, background: "var(--color-tan)" }} />
         </div>
 
         {/* Model cards */}
@@ -105,7 +105,7 @@ export default function LandingPage() {
                 style={{
                   display: "block",
                   background: "#FFFFFF",
-                  border: "1px solid #D4C9B8",
+                  border: "1px solid var(--color-border)",
                   padding: "32px",
                   position: "relative",
                   overflow: "hidden",
@@ -122,7 +122,7 @@ export default function LandingPage() {
                     right: "-8px",
                     fontSize: "110px",
                     fontWeight: "900",
-                    color: "#C41E3A",
+                    color: "var(--color-red)",
                     opacity: 0.06,
                     lineHeight: 1,
                     fontFamily: "Georgia, serif",
@@ -134,30 +134,30 @@ export default function LandingPage() {
                 </div>
 
                 {/* Left accent bar */}
-                <div style={{ position: "absolute", top: 0, left: 0, bottom: 0, width: "4px", background: "#C41E3A" }} />
+                <div style={{ position: "absolute", top: 0, left: 0, bottom: 0, width: "4px", background: "var(--color-red)" }} />
 
                 <div style={{ position: "relative", paddingLeft: "4px" }}>
-                  <p style={{ fontFamily: "monospace", fontSize: "15px", letterSpacing: "0.3em", color: "#8B7355", textTransform: "uppercase", marginBottom: "10px" }}>
+                  <p style={{ fontFamily: "monospace", fontSize: "15px", letterSpacing: "0.3em", color: "var(--color-tan)", textTransform: "uppercase", marginBottom: "10px" }}>
                     {model.year}
                   </p>
-                  <h2 style={{ fontFamily: "Georgia, serif", fontSize: "20px", fontWeight: "700", color: "#1A1A1A", marginBottom: "12px" }}>
+                  <h2 style={{ fontFamily: "Georgia, serif", fontSize: "20px", fontWeight: "700", color: "var(--color-dark)", marginBottom: "12px" }}>
                     {model.name}
                   </h2>
-                  <p style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "#6B5A4A", lineHeight: 1.6, marginBottom: "16px" }}>
+                  <p style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "var(--color-brown-mid)", lineHeight: 1.6, marginBottom: "16px" }}>
                     {model.description}
                   </p>
-                  <div style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355", display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "20px" }}>
+                  <div style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)", display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "20px" }}>
                     {sections.length > 0 ? (
                       <>
                         <span>{sections.length} sections</span>
-                        <span style={{ color: "#D4C9B8" }}>·</span>
+                        <span style={{ color: "var(--color-border)" }}>·</span>
                         <span>{totalPages.toLocaleString()} pages</span>
                       </>
                     ) : (
                       <span>Coming soon</span>
                     )}
                   </div>
-                  <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#C41E3A", fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: "700" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "var(--color-red)", fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: "700" }}>
                     Browse Manual
                     <span style={{ fontSize: "14px" }}>→</span>
                   </div>
@@ -168,20 +168,20 @@ export default function LandingPage() {
         </div>
 
         {/* Features */}
-        <div style={{ marginTop: "64px", paddingTop: "48px", borderTop: "1px solid #D4C9B8", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "40px" }}>
+        <div style={{ marginTop: "64px", paddingTop: "48px", borderTop: "1px solid var(--color-border)", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "40px" }}>
           {[
             { code: "01", label: "AI-Upscaled Diagrams", desc: "All factory manual diagrams upscaled using AI for crisp, modern clarity" },
             { code: "02", label: "Full-Text Search", desc: "Search across every page of every manual" },
             { code: "03", label: "Three Generations", desc: "Complete coverage across MK2, MK3, and MK4 Supra manuals from 1982 to 2002" },
           ].map((f) => (
             <div key={f.label}>
-              <div style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.3em", color: "#C41E3A", textTransform: "uppercase", marginBottom: "10px" }}>
+              <div style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.3em", color: "var(--color-red)", textTransform: "uppercase", marginBottom: "10px" }}>
                 — {f.code}
               </div>
-              <div style={{ fontFamily: "Georgia, serif", fontSize: "16px", fontWeight: "700", color: "#1A1A1A", marginBottom: "8px" }}>
+              <div style={{ fontFamily: "Georgia, serif", fontSize: "16px", fontWeight: "700", color: "var(--color-dark)", marginBottom: "8px" }}>
                 {f.label}
               </div>
-              <div style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "#6B5A4A", lineHeight: 1.7 }}>
+              <div style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "var(--color-brown-mid)", lineHeight: 1.7 }}>
                 {f.desc}
               </div>
             </div>
@@ -190,17 +190,17 @@ export default function LandingPage() {
       </div>
 
       {/* Footer */}
-      <footer style={{ background: "#1A1A1A", padding: "24px 48px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "16px", flexShrink: 0 }}>
+      <footer style={{ background: "var(--color-dark)", padding: "24px 48px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "16px", flexShrink: 0 }}>
         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-          <span style={{ fontFamily: "monospace", fontWeight: "900", fontSize: "16px", letterSpacing: "0.2em", color: "#C41E3A" }}>TSRM</span>
-          <span style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "#8B7355" }}>Toyota Supra factory service manuals — digitized</span>
+          <span style={{ fontFamily: "monospace", fontWeight: "900", fontSize: "16px", letterSpacing: "0.2em", color: "var(--color-red)" }}>TSRM</span>
+          <span style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "var(--color-tan)" }}>Toyota Supra factory service manuals — digitized</span>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-          <span style={{ fontFamily: "monospace", fontSize: "10px", color: "#4A3A2A", letterSpacing: "0.15em", textTransform: "uppercase" }}>
+          <span style={{ fontFamily: "monospace", fontSize: "10px", color: "var(--color-brown)", letterSpacing: "0.15em", textTransform: "uppercase" }}>
             Not affiliated with Toyota Motor Corporation
           </span>
-          <span style={{ color: "#4A3A2A" }}>·</span>
-          <Link href="/stats" style={{ fontFamily: "monospace", fontSize: "10px", color: "#4A3A2A", letterSpacing: "0.15em", textTransform: "uppercase", textDecoration: "none" }}>
+          <span style={{ color: "var(--color-brown)" }}>·</span>
+          <Link href="/stats" style={{ fontFamily: "monospace", fontSize: "10px", color: "var(--color-brown)", letterSpacing: "0.15em", textTransform: "uppercase", textDecoration: "none" }}>
             Site Stats
           </Link>
         </div>

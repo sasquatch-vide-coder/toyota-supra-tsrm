@@ -3,6 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --color-red: #C41E3A;
+  --color-dark: #1A1A1A;
+  --color-tan: #8B7355;
+  --color-border: #D4C9B8;
+  --color-cream: #F5F0E8;
+  --color-bg: #FAF8F4;
+  --color-brown: #4A3A2A;
+  --color-brown-dark: #3A2A1A;
+  --color-brown-mid: #6B5A4A;
+  --color-dark-border: #2A2A2A;
+  --color-grid: #F0EBE0;
+  --color-green: #2D8A4E;
 }
 
 @theme inline {

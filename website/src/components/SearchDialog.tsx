@@ -133,9 +133,9 @@ export default function SearchDialog({ model }: { model: string }) {
           fontFamily: "monospace",
           fontSize: "11px",
           letterSpacing: "0.15em",
-          color: "#8B7355",
+          color: "var(--color-tan)",
           background: "transparent",
-          border: "1px solid #3A2A1A",
+          border: "1px solid var(--color-brown-dark)",
           borderRadius: "4px",
           cursor: "pointer",
         }}
@@ -148,9 +148,9 @@ export default function SearchDialog({ model }: { model: string }) {
           style={{
             padding: "1px 6px",
             fontSize: "10px",
-            color: "#4A3A2A",
-            background: "#2A2A2A",
-            border: "1px solid #3A2A1A",
+            color: "var(--color-brown)",
+            background: "var(--color-dark-border)",
+            border: "1px solid var(--color-brown-dark)",
             borderRadius: "3px",
           }}
         >

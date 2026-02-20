@@ -29,7 +29,7 @@ export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period
       <div
         style={{
           background: "#FFFFFF",
-          border: "1px solid #D4C9B8",
+          border: "1px solid var(--color-border)",
           borderRadius: "8px",
           padding: "20px",
           display: "flex",
@@ -38,7 +38,7 @@ export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period
           height: "280px",
         }}
       >
-        <p style={{ fontFamily: "Georgia, serif", color: "#8B7355", fontSize: "14px" }}>
+        <p style={{ fontFamily: "Georgia, serif", color: "var(--color-tan)", fontSize: "14px" }}>
           No growth data yet
         </p>
       </div>
@@ -59,7 +59,7 @@ export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period
     <div
       style={{
         background: "#FFFFFF",
-        border: "1px solid #D4C9B8",
+        border: "1px solid var(--color-border)",
         borderRadius: "8px",
         padding: "20px",
       }}
@@ -76,7 +76,7 @@ export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period
           style={{
             fontFamily: "Georgia, serif",
             fontSize: "15px",
-            color: "#1A1A1A",
+            color: "var(--color-dark)",
             margin: 0,
             letterSpacing: "0.02em",
           }}
@@ -84,11 +84,11 @@ export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period
           Daily Visitors — {periodLabels[period] ?? period}
         </h3>
         <div style={{ display: "flex", gap: "16px" }}>
-          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355" }}>
-            Total: <strong style={{ color: "#1A1A1A" }}>{totalVisitors}</strong>
+          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)" }}>
+            Total: <strong style={{ color: "var(--color-dark)" }}>{totalVisitors}</strong>
           </span>
-          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "#8B7355" }}>
-            Daily avg: <strong style={{ color: "#1A1A1A" }}>{avgDaily}</strong>
+          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)" }}>
+            Daily avg: <strong style={{ color: "var(--color-dark)" }}>{avgDaily}</strong>
           </span>
         </div>
       </div>
@@ -117,12 +117,12 @@ export function GrowthChart({ data, period = "7d" }: { data: DailyData[]; period
           <Tooltip
             contentStyle={{
               background: "#FFFFFF",
-              border: "1px solid #D4C9B8",
+              border: "1px solid var(--color-border)",
               borderRadius: "6px",
               fontFamily: "monospace",
               fontSize: "12px",
             }}
-            labelStyle={{ color: "#1A1A1A", marginBottom: "4px" }}
+            labelStyle={{ color: "var(--color-dark)", marginBottom: "4px" }}
           />
           <Area
             type="monotone"
