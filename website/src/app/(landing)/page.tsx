@@ -201,9 +201,15 @@ export default function LandingPage() {
           <span style={{ fontFamily: "monospace", fontWeight: "900", fontSize: "16px", letterSpacing: "0.2em", color: "#C41E3A" }}>TSRM</span>
           <span style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "#8B7355" }}>Toyota Supra factory service manuals — digitized</span>
         </div>
-        <span style={{ fontFamily: "monospace", fontSize: "10px", color: "#4A3A2A", letterSpacing: "0.15em", textTransform: "uppercase" }}>
-          Not affiliated with Toyota Motor Corporation
-        </span>
+        <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+          <span style={{ fontFamily: "monospace", fontSize: "10px", color: "#4A3A2A", letterSpacing: "0.15em", textTransform: "uppercase" }}>
+            Not affiliated with Toyota Motor Corporation
+          </span>
+          <span style={{ color: "#4A3A2A" }}>·</span>
+          <Link href="/stats" style={{ fontFamily: "monospace", fontSize: "10px", color: "#4A3A2A", letterSpacing: "0.15em", textTransform: "uppercase", textDecoration: "none" }}>
+            Site Stats
+          </Link>
+        </div>
       </footer>
     </div>
   );
