@@ -5,7 +5,6 @@ export interface ModelDef {
   year: string;
   generation: string;
   description: string;
-  hasForum: boolean;
 }
 
 export const MODELS: ModelDef[] = [
@@ -17,7 +16,6 @@ export const MODELS: ModelDef[] = [
     generation: "A80",
     description:
       "Complete factory service manual — digitized from Toyota PDF",
-    hasForum: false,
   },
   {
     id: "mk3",
@@ -26,7 +24,6 @@ export const MODELS: ModelDef[] = [
     year: "1986.5–1992",
     generation: "A70",
     description: "Complete 1990 factory service manual — digitized from Toyota PDF",
-    hasForum: true,
   },
   {
     id: "mk2",
@@ -35,7 +32,6 @@ export const MODELS: ModelDef[] = [
     year: "1982–1986",
     generation: "A60",
     description: "Complete 1986 factory service manual — digitized from hand scans",
-    hasForum: false,
   },
 ];
 

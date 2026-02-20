@@ -2,16 +2,15 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import type { SearchResult, FAQResult, ForumResult, SearchResponse } from "@/types";
+import type { SearchResult, FAQResult, SearchResponse } from "@/types";
 
-type SourceFilter = "all" | "manual" | "faq" | "forum";
+type SourceFilter = "all" | "manual" | "faq";
 
 export default function SearchDialog({ model }: { model: string }) {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [faqs, setFaqs] = useState<FAQResult[]>([]);
-  const [forum, setForum] = useState<ForumResult[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -21,7 +20,7 @@ export default function SearchDialog({ model }: { model: string }) {
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const router = useRouter();
 
-  const totalItems = faqs.length + results.length + forum.length;
+  const totalItems = faqs.length + results.length;
 
   // Ctrl+K to open
   useEffect(() => {
@@ -45,7 +44,6 @@ export default function SearchDialog({ model }: { model: string }) {
       setQuery("");
       setResults([]);
       setFaqs([]);
-      setForum([]);
       setSelectedIndex(0);
       setError(null);
       setActiveFilter("all");
@@ -59,7 +57,6 @@ export default function SearchDialog({ model }: { model: string }) {
     if (q.length < 2) {
       setResults([]);
       setFaqs([]);
-      setForum([]);
       setIsLoading(false);
       setError(null);
       return;
@@ -83,7 +80,6 @@ export default function SearchDialog({ model }: { model: string }) {
       if (!controller.signal.aborted) {
         setFaqs(data.faqs ?? []);
         setResults(data.results ?? []);
-        setForum(data.forum ?? []);
         setSelectedIndex(0);
         setIsLoading(false);
       }
@@ -93,7 +89,6 @@ export default function SearchDialog({ model }: { model: string }) {
         setError("Search is temporarily unavailable");
         setResults([]);
         setFaqs([]);
-        setForum([]);
         setIsLoading(false);
       }
     }
@@ -108,7 +103,6 @@ export default function SearchDialog({ model }: { model: string }) {
       if (!q.trim()) {
         setResults([]);
         setFaqs([]);
-        setForum([]);
         setIsLoading(false);
         setError(null);
         return;
@@ -135,14 +129,9 @@ export default function SearchDialog({ model }: { model: string }) {
     if (index < faqs.length) {
       const faq = faqs[index];
       navigateToPage(faq.section, faq.page);
-    } else if (index < faqs.length + results.length) {
+    } else {
       const result = results[index - faqs.length];
       if (result) navigateToPage(result.section, result.page);
-    } else {
-      const forumThread = forum[index - faqs.length - results.length];
-      if (forumThread) {
-        window.open(forumThread.url, "_blank", "noopener,noreferrer");
-      }
     }
   };
 
@@ -201,7 +190,6 @@ export default function SearchDialog({ model }: { model: string }) {
     { key: "all", label: "All" },
     { key: "manual", label: "Manual" },
     { key: "faq", label: "FAQ" },
-    { key: "forum", label: "Forum" },
   ];
 
   return (
@@ -332,79 +320,6 @@ export default function SearchDialog({ model }: { model: string }) {
                             )}
                           </div>
                         )}
-                      </button>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          )}
-
-          {/* Forum Thread Results */}
-          {forum.length > 0 && (
-            <div className="py-2">
-              {(faqs.length > 0 || results.length > 0) && (
-                <div className="px-4 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider border-t border-gray-100">
-                  Forum Threads
-                </div>
-              )}
-              <ul>
-                {forum.map((thread, i) => {
-                  const itemIndex = faqs.length + results.length + i;
-                  return (
-                    <li key={`forum-${thread.id}`}>
-                      <button
-                        onClick={() => handleSelect(itemIndex)}
-                        className={`w-full text-left px-4 py-2.5 text-sm hover:bg-gray-50 ${
-                          itemIndex === selectedIndex ? "bg-red-50 text-red-900" : ""
-                        }`}
-                      >
-                        <div className="flex items-start gap-2">
-                          <span className="mt-0.5 shrink-0">
-                            <span className="inline-block px-1.5 py-0.5 text-[10px] font-bold uppercase bg-blue-100 text-blue-700 rounded">
-                              Forum
-                            </span>
-                          </span>
-                          <div className="min-w-0 flex-1">
-                            <div className="flex items-center gap-1.5">
-                              <span className="font-medium text-gray-900 truncate">
-                                {thread.title}
-                              </span>
-                              {/* External link icon */}
-                              <svg className="w-3 h-3 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                              </svg>
-                            </div>
-                            {thread.issue_summary && (
-                              <p className="text-xs text-gray-500 mt-0.5 line-clamp-1">
-                                {thread.issue_summary}
-                              </p>
-                            )}
-                            {thread.fix_summary && (
-                              <p className="text-xs text-gray-600 mt-0.5 line-clamp-1">
-                                Fix: {thread.fix_summary}
-                              </p>
-                            )}
-                            <div className="flex items-center gap-2 mt-1 flex-wrap">
-                              {thread.is_resolved && (
-                                <span className="inline-flex items-center gap-0.5 text-[10px] font-medium text-green-700 bg-green-50 px-1.5 py-0.5 rounded">
-                                  <svg className="w-2.5 h-2.5" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                  </svg>
-                                  Resolved
-                                </span>
-                              )}
-                              <span className="text-[10px] text-gray-400">
-                                {thread.reply_count} replies
-                              </span>
-                              {thread.author && (
-                                <span className="text-[10px] text-gray-400">
-                                  by {thread.author}
-                                </span>
-                              )}
-                            </div>
-                          </div>
-                        </div>
                       </button>
                     </li>
                   );

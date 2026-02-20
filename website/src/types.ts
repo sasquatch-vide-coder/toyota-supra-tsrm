@@ -125,28 +125,8 @@ export interface FAQResult {
   score: number;
 }
 
-export interface ForumResult {
-  id: number;
-  thread_id: string;
-  title: string;
-  url: string;
-  author: string;
-  date_posted: string;
-  reply_count: number;
-  issue_summary: string;
-  fix_summary: string;
-  key_takeaway: string;
-  related_systems: string[];
-  parts_mentioned: string[];
-  thread_type: string;
-  is_resolved: boolean;
-  score: number;
-  match_type: "fts" | "semantic" | "both";
-}
-
 export interface SearchResponse {
   results: SearchResult[];
   faqs: FAQResult[];
-  forum: ForumResult[];
   error?: string;
 }

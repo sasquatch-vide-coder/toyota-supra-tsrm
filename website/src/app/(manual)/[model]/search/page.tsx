@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback, Suspense } from "react";
 import { useSearchParams, useRouter, useParams } from "next/navigation";
-import type { SearchResult, FAQResult, ForumResult, SearchResponse } from "@/types";
+import type { SearchResult, FAQResult, SearchResponse } from "@/types";
 
 function SearchPageContent() {
   const searchParams = useSearchParams();
@@ -14,7 +14,6 @@ function SearchPageContent() {
   const [query, setQuery] = useState(initialQuery);
   const [results, setResults] = useState<SearchResult[]>([]);
   const [faqs, setFaqs] = useState<FAQResult[]>([]);
-  const [forum, setForum] = useState<ForumResult[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -27,7 +26,6 @@ function SearchPageContent() {
     if (q.length < 2) {
       setResults([]);
       setFaqs([]);
-      setForum([]);
       setIsLoading(false);
       setError(null);
       return;
@@ -47,7 +45,6 @@ function SearchPageContent() {
       if (!controller.signal.aborted) {
         setFaqs(data.faqs ?? []);
         setResults(data.results ?? []);
-        setForum(data.forum ?? []);
         setIsLoading(false);
       }
     } catch (err) {
@@ -56,7 +53,6 @@ function SearchPageContent() {
         setError("Search is temporarily unavailable");
         setResults([]);
         setFaqs([]);
-        setForum([]);
         setIsLoading(false);
       }
     }
@@ -79,7 +75,6 @@ function SearchPageContent() {
     if (!value.trim()) {
       setResults([]);
       setFaqs([]);
-      setForum([]);
       setIsLoading(false);
       setError(null);
       router.replace(`/${model}/search`);
@@ -94,8 +89,7 @@ function SearchPageContent() {
   };
 
   const hasQuery = query.trim().length >= 2;
-  const manualCount = faqs.length + results.length;
-  const forumCount = forum.length;
+  const resultCount = faqs.length + results.length;
 
   // Empty state — no query
   if (!hasQuery && !isLoading) {
@@ -110,7 +104,7 @@ function SearchPageContent() {
           <svg className="w-12 h-12 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
-          <p className="text-lg">Search the TSRM manual and community forum</p>
+          <p className="text-lg">Search the TSRM manual</p>
           <p className="text-sm mt-1">Enter at least 2 characters to search</p>
         </div>
       </div>
@@ -130,8 +124,8 @@ function SearchPageContent() {
         <p className="text-sm text-red-500 text-center py-8">{error}</p>
       )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
-        {/* Left column — TSRM Manual */}
+      <div className="mt-6">
+        {/* TSRM Manual results */}
         <div>
           <div className="flex items-center gap-2 mb-4">
             <h2 className="text-lg font-semibold text-gray-900">TSRM Manual</h2>
@@ -139,7 +133,7 @@ function SearchPageContent() {
               <Spinner />
             ) : (
               <span className="text-sm text-gray-500">
-                {manualCount} result{manualCount !== 1 ? "s" : ""}
+                {resultCount} result{resultCount !== 1 ? "s" : ""}
               </span>
             )}
           </div>
@@ -198,87 +192,12 @@ function SearchPageContent() {
           ))}
 
           {/* No results */}
-          {!isLoading && manualCount === 0 && !error && (
-            <p className="text-sm text-gray-400 text-center py-8">No manual results found</p>
+          {!isLoading && resultCount === 0 && !error && (
+            <p className="text-sm text-gray-400 text-center py-8">No results found</p>
           )}
 
           {/* Loading placeholder */}
-          {isLoading && manualCount === 0 && (
-            <p className="text-sm text-gray-400 text-center py-8">Searching...</p>
-          )}
-        </div>
-
-        {/* Right column — Community Forum */}
-        <div>
-          <div className="flex items-center gap-2 mb-4">
-            <h2 className="text-lg font-semibold text-gray-900">Community Forum</h2>
-            {isLoading ? (
-              <Spinner />
-            ) : (
-              <span className="text-sm text-gray-500">
-                {forumCount} result{forumCount !== 1 ? "s" : ""}
-              </span>
-            )}
-          </div>
-
-          {forum.map((thread) => (
-            <a
-              key={`forum-${thread.id}`}
-              href={thread.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block border border-gray-200 rounded-lg p-4 mb-3 hover:border-red-500 hover:shadow-md transition-all"
-            >
-              <div className="flex items-start gap-2">
-                <span className="inline-block px-1.5 py-0.5 text-[10px] font-bold uppercase bg-blue-100 text-blue-700 rounded shrink-0 mt-0.5">
-                  Forum
-                </span>
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-1.5">
-                    <span className="font-medium text-gray-900">{thread.title}</span>
-                    <svg className="w-3.5 h-3.5 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </div>
-                  {thread.issue_summary && (
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-2">{thread.issue_summary}</p>
-                  )}
-                  {thread.fix_summary && (
-                    <p className="text-sm text-gray-600 mt-1 line-clamp-1">
-                      <span className="font-medium">Fix:</span> {thread.fix_summary}
-                    </p>
-                  )}
-                  <div className="flex items-center gap-2 mt-2 flex-wrap">
-                    {thread.is_resolved && (
-                      <span className="inline-flex items-center gap-0.5 text-xs font-medium text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
-                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
-                        Resolved
-                      </span>
-                    )}
-                    <span className="text-xs text-gray-400">{thread.reply_count} replies</span>
-                    {thread.author && (
-                      <span className="text-xs text-gray-400">by {thread.author}</span>
-                    )}
-                    {thread.thread_type && (
-                      <span className="text-xs text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded">
-                        {thread.thread_type}
-                      </span>
-                    )}
-                  </div>
-                </div>
-              </div>
-            </a>
-          ))}
-
-          {/* No results */}
-          {!isLoading && forumCount === 0 && !error && (
-            <p className="text-sm text-gray-400 text-center py-8">No forum results found</p>
-          )}
-
-          {/* Loading placeholder */}
-          {isLoading && forumCount === 0 && (
+          {isLoading && resultCount === 0 && (
             <p className="text-sm text-gray-400 text-center py-8">Searching...</p>
           )}
         </div>
@@ -310,7 +229,7 @@ const SearchInput = forwardRef<
         type="text"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Search the TSRM manual and community forum..."
+        placeholder="Search the TSRM manual..."
         className="w-full pl-12 pr-12 py-3 text-base border border-gray-300 rounded-lg outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 transition-colors"
       />
       {isLoading && (

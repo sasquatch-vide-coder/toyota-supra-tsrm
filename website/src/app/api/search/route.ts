@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
-import type { SearchResult, FAQResult, ForumResult } from "@/types";
+import type { SearchResult, FAQResult } from "@/types";
 import { getModel } from "@/lib/models";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
@@ -15,7 +15,7 @@ export async function GET(request: NextRequest) {
 
   if (query.length < 2) {
     return NextResponse.json(
-      { results: [], faqs: [], forum: [], error: "Query must be at least 2 characters" },
+      { results: [], faqs: [], error: "Query must be at least 2 characters" },
       { status: 400 }
     );
   }
@@ -23,14 +23,12 @@ export async function GET(request: NextRequest) {
   const modelDef = getModel(model);
 
   try {
-    // Run searches in parallel, conditionally based on source filter
     const searchManual = !source || source === "manual";
     const searchFaq = !source || source === "faq";
-    const searchForum = (!source || source === "forum") && (modelDef?.hasForum ?? false);
 
     const empty = { data: [] as unknown[], error: null };
 
-    const [pagesResult, faqsResult, forumResult] = await Promise.all([
+    const [pagesResult, faqsResult] = await Promise.all([
       searchManual
         ? supabase.rpc("hybrid_search", {
             query_text: query,
@@ -45,12 +43,6 @@ export async function GET(request: NextRequest) {
             filter_model: model,
           })
         : empty,
-      searchForum
-        ? supabase.rpc("search_forum_threads", {
-            query_text: query,
-            match_count: 10,
-          })
-        : empty,
     ]);
 
     if (pagesResult.error) {
@@ -59,15 +51,11 @@ export async function GET(request: NextRequest) {
     if (faqsResult.error) {
       console.error("search_faqs error:", faqsResult.error);
     }
-    if (forumResult.error) {
-      console.error("search_forum_threads error:", forumResult.error);
-    }
 
     const results: SearchResult[] = (pagesResult.data ?? []) as SearchResult[];
     const faqs: FAQResult[] = (faqsResult.data ?? []) as FAQResult[];
-    const forum: ForumResult[] = (forumResult.data ?? []) as ForumResult[];
 
-    const response = NextResponse.json({ results, faqs, forum });
+    const response = NextResponse.json({ results, faqs });
     response.headers.set(
       "Cache-Control",
       "public, s-maxage=3600, stale-while-revalidate=86400"
@@ -76,7 +64,7 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error("Search API error:", error);
     return NextResponse.json(
-      { results: [], faqs: [], forum: [], error: "Search failed" },
+      { results: [], faqs: [], error: "Search failed" },
       { status: 500 }
     );
   }

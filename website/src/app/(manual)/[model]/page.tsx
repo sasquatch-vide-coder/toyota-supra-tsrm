@@ -111,12 +111,6 @@ export default async function ModelLandingPage({
               </span>
               Pages
             </div>
-            {modelDef.hasForum && (
-              <div style={{ borderLeft: "1px solid #D4C9B8", paddingLeft: "32px" }}>
-                <span style={{ color: "#1A6B8B", fontWeight: "900", fontSize: "20px", display: "block" }}>✓</span>
-                Forum Indexed
-              </div>
-            )}
           </div>
         </div>
       </div>

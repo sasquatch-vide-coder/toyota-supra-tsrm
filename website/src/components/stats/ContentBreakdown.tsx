@@ -13,7 +13,6 @@ const modelColors: Record<string, string> = {
   "Homepage": "#6B8E7B",
   "Landing Variants": "#7B9BAE",
   "Search": "#B8860B",
-  "Forums": "#5C4B8A",
   "Other": "#D4C9B8",
 };
 

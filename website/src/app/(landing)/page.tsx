@@ -156,12 +156,6 @@ export default function LandingPage() {
                     ) : (
                       <span>Coming soon</span>
                     )}
-                    {model.hasForum && (
-                      <>
-                        <span style={{ color: "#D4C9B8" }}>·</span>
-                        <span style={{ color: "#1A6B8B" }}>Forum indexed</span>
-                      </>
-                    )}
                   </div>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#C41E3A", fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: "700" }}>
                     Browse Manual
@@ -178,7 +172,7 @@ export default function LandingPage() {
           {[
             { code: "01", label: "AI-Upscaled Diagrams", desc: "All factory manual diagrams upscaled using AI for crisp, modern clarity" },
             { code: "02", label: "Full-Text Search", desc: "Hybrid semantic + keyword search across every page of every manual" },
-            { code: "03", label: "Community Forum", desc: "Thousands of SupraForums threads indexed and cross-referenced" },
+            { code: "03", label: "AI-Generated FAQs", desc: "Hundreds of Q&A pairs generated from manual content for quick answers" },
           ].map((f) => (
             <div key={f.label}>
               <div style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.3em", color: "#C41E3A", textTransform: "uppercase", marginBottom: "10px" }}>
