@@ -17,7 +17,12 @@ def parse_page_id(path: Path) -> tuple[str, int]:
     return parts[0], int(parts[1])
 
 
-def convert_page(image_path: Path, diagrams_dir: Path, force: bool = False) -> int:
+def convert_page(
+    image_path: Path,
+    diagrams_dir: Path,
+    force: bool = False,
+    target_width: int | None = None,
+) -> int:
     """Convert a GIF/PNG page to PNG in diagrams dir. Returns 1 on success."""
     code, page = parse_page_id(image_path)
     png_path = diagrams_dir / code / f"{code}_{page:03d}.png"
@@ -28,17 +33,17 @@ def convert_page(image_path: Path, diagrams_dir: Path, force: bool = False) -> i
 
     png_path.parent.mkdir(parents=True, exist_ok=True)
 
-    if image_path.suffix.lower() == ".png":
-        # Already PNG — just copy instead of re-encoding
-        import shutil
-        shutil.copy2(image_path, png_path)
-        img = Image.open(png_path)
-        print(f"  Copied {code}-{page} -> {png_path.name} ({img.width}x{img.height})")
-        img.close()
-    else:
-        img = Image.open(image_path).convert("RGB")
-        img.save(png_path, format="PNG")
-        print(f"  Converted {code}-{page} -> {png_path.name} ({img.width}x{img.height})")
+    img = Image.open(image_path)
+    if img.mode != "RGB":
+        img = img.convert("RGB")
+
+    if target_width and img.width != target_width:
+        ratio = target_width / img.width
+        new_height = round(img.height * ratio)
+        img = img.resize((target_width, new_height), Image.LANCZOS)
+
+    img.save(png_path, format="PNG")
+    print(f"  {'Converted'} {code}-{page} -> {png_path.name} ({img.width}x{img.height})")
     return 1
 
 
@@ -55,11 +60,16 @@ def find_images(raw_dir: Path, section: str | None = None) -> list[Path]:
     )
 
 
-def process_batch(images: list[Path], diagrams_dir: Path, force: bool = False) -> None:
+def process_batch(
+    images: list[Path],
+    diagrams_dir: Path,
+    force: bool = False,
+    target_width: int | None = None,
+) -> None:
     """Convert multiple GIF pages to PNG."""
     total = 0
     for image_path in images:
-        total += convert_page(image_path, diagrams_dir, force=force)
+        total += convert_page(image_path, diagrams_dir, force=force, target_width=target_width)
     print(f"\nBatch complete: {total} page(s) converted")
 
 
@@ -70,6 +80,7 @@ def main() -> None:
     parser.add_argument("--section", help="Convert all pages in a section")
     parser.add_argument("--all", action="store_true", help="Convert all downloaded pages")
     parser.add_argument("--force", action="store_true", help="Re-convert existing PNGs")
+    parser.add_argument("--target-width", type=int, help="Resize to this width (preserving aspect ratio)")
     args = parser.parse_args()
 
     data_dir = ROOT_DATA_DIR / args.model
@@ -81,7 +92,7 @@ def main() -> None:
         if not path.exists():
             print(f"File not found: {path}", file=sys.stderr)
             sys.exit(1)
-        count = convert_page(path, diagrams_dir, force=args.force)
+        count = convert_page(path, diagrams_dir, force=args.force, target_width=args.target_width)
         print(f"Converted {count} page(s)")
         return
 
@@ -97,7 +108,7 @@ def main() -> None:
         print("No images found to convert.")
         return
 
-    process_batch(images, diagrams_dir, force=args.force)
+    process_batch(images, diagrams_dir, force=args.force, target_width=args.target_width)
 
 
 if __name__ == "__main__":

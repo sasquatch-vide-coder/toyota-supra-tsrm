@@ -2,15 +2,18 @@
 
 ## Deployment
 
-The production server is defined in `.env`:
-- **Host**: `10.13.37.10` (SSH alias: `tsrm`)
-- **User**: `supratsrm`
-- **SSH key**: `~/.ssh/tsrm_server` (configured in `~/.ssh/config` as `Host tsrm`)
+### Production Server
+
+- **Host**: `129.153.65.234` / `tsrm.sasquatchvc.com` (SSH alias: `tsrm-prod`)
+- **User**: `ubuntu`
+- **SSH key**: `~/.ssh/tsrm_prod` (configured in `~/.ssh/config` as `Host tsrm-prod`)
 - **App directory**: `~/app/` (git clone of this repo)
 - **Website directory**: `~/app/website/`
 - **Process manager**: PM2 (process name: `tsrm`)
-- **Supabase**: Local instance at `http://127.0.0.1:54321` on the server
+- **Supabase**: Local instance at `http://127.0.0.1:54321` on the server (project dir: `~/supabase/`)
 - **PostgreSQL**: Port `54322` on the server, user `postgres`, password `postgres`
+- **Nginx**: Reverse proxy with Let's Encrypt SSL on `tsrm.sasquatchvc.com`
+- **Static images**: Served directly by Nginx from `~/app/website/public/images/`
 
 ### Deploy steps
 
@@ -19,35 +22,38 @@ The production server is defined in `.env`:
 git add <files> && git commit -m "message" && git push origin main
 
 # 2. Pull on production server
-ssh tsrm "cd ~/app && git pull origin main"
+ssh tsrm-prod "cd ~/app && git pull origin main"
 
 # 3. Build the Next.js app
-ssh tsrm "cd ~/app/website && npm run build"
+ssh tsrm-prod "cd ~/app/website && npm run build"
 
 # 4. Restart the PM2 process
-ssh tsrm "pm2 restart tsrm"
+ssh tsrm-prod "pm2 restart tsrm"
 ```
 
 ### Quick one-liner deploy
 ```bash
-ssh tsrm "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"
+ssh tsrm-prod "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"
 ```
 
 ### Run SQL on production database
 ```bash
-ssh tsrm "cd ~/app && PGPASSWORD=postgres psql -h 127.0.0.1 -p 54322 -U postgres -d postgres -f scripts/some_file.sql"
-```
-
-Or via Python:
-```python
-import psycopg2
-conn = psycopg2.connect(host="10.13.37.10", port=54322, dbname="postgres", user="postgres", password="postgres")
+ssh tsrm-prod "cd ~/app && PGPASSWORD=postgres psql -h 127.0.0.1 -p 54322 -U postgres -d postgres -f scripts/some_file.sql"
 ```
 
 ### Check production logs
 ```bash
-ssh tsrm "pm2 logs tsrm --lines 50"
+ssh tsrm-prod "pm2 logs tsrm --lines 50"
 ```
+
+### Dev Server (Legacy)
+
+- **Host**: `10.13.37.10` (SSH alias: `tsrm`)
+- **User**: `supratsrm`
+- **SSH key**: `~/.ssh/tsrm_server` (configured in `~/.ssh/config` as `Host tsrm`)
+- **App directory**: `~/app/`
+- **Supabase**: Local instance at `http://127.0.0.1:54321`
+- **PostgreSQL**: Port `54322`, user `postgres`, password `postgres`
 
 ## Project Structure
 
@@ -97,7 +103,7 @@ Upserts page content into `manual_pages` table for search.
 
 ### 6. Deploy
 ```bash
-ssh tsrm "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"
+ssh tsrm-prod "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"
 ```
 
 ### How the website displays pages
