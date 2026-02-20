@@ -1,6 +1,9 @@
 import { NextRequest } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase/admin";
 
+// IPs excluded from analytics
+const EXCLUDED_IPS = new Set(["66.219.215.116"]);
+
 // In-memory rate limiting
 const rateMap = new Map<string, { count: number; resetAt: number }>();
 const RATE_LIMIT = 120;
@@ -28,6 +31,9 @@ setInterval(() => {
 export async function POST(request: NextRequest) {
   try {
     const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+    if (EXCLUDED_IPS.has(ip)) {
+      return new Response(null, { status: 204 });
+    }
     if (isRateLimited(ip)) {
       return new Response(null, { status: 429 });
     }
