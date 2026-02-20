@@ -22,17 +22,10 @@ function loadPage(model: string, section: string, page: number): PageData | null
   }
 }
 
+// Return empty array — pages are rendered on-demand and cached as static HTML.
+// This avoids pre-rendering ~5,200 pages on every build.
 export function generateStaticParams() {
-  const params: { model: string; section: string; page: string }[] = [];
-  for (const model of getModelIds()) {
-    const sections = loadSections(model);
-    for (const s of sections) {
-      for (const p of s.page_index || []) {
-        params.push({ model, section: s.code, page: String(p.page) });
-      }
-    }
-  }
-  return params;
+  return [];
 }
 
 export default async function ManualPageRoute({

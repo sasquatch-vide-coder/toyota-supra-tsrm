@@ -21,8 +21,8 @@ git add <files> && git commit -m "message" && git push origin main
 # 2. Pull on production server
 ssh tsrm "cd ~/app && git pull origin main"
 
-# 3. Build the Next.js app (must use webpack — Turbopack has runtime bugs with @supabase/ssr)
-ssh tsrm "cd ~/app/website && NEXT_DISABLE_TURBOPACK=1 npm run build"
+# 3. Build the Next.js app
+ssh tsrm "cd ~/app/website && npm run build"
 
 # 4. Restart the PM2 process
 ssh tsrm "pm2 restart tsrm"
@@ -30,7 +30,7 @@ ssh tsrm "pm2 restart tsrm"
 
 ### Quick one-liner deploy
 ```bash
-ssh tsrm "cd ~/app && git pull origin main && cd website && NEXT_DISABLE_TURBOPACK=1 npm run build && pm2 restart tsrm"
+ssh tsrm "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"
 ```
 
 ### Run SQL on production database
@@ -104,7 +104,7 @@ Upserts page content into `manual_pages` table for FTS search.
 
 ### 7. Deploy
 ```bash
-ssh tsrm "cd ~/app && git pull origin main && cd website && NEXT_DISABLE_TURBOPACK=1 npm run build && pm2 restart tsrm"
+ssh tsrm "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"
 ```
 
 ### How the website displays pages
