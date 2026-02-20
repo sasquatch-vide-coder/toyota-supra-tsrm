@@ -14,7 +14,7 @@ export function MetricCard({
   invertTrend?: boolean;
 }) {
   let trendEl = null;
-  if (prevValue !== undefined && currentValue !== undefined && prevValue > 0) {
+  if (prevValue !== undefined && currentValue !== undefined && prevValue > 0 && currentValue !== prevValue) {
     const change = ((currentValue - prevValue) / prevValue) * 100;
     const isPositive = change > 0;
     const isGood = invertTrend ? !isPositive : isPositive;
