@@ -52,7 +52,7 @@ export default function CompareView({
 
   return (
     <div className="h-screen flex flex-col">
-      <div className="flex items-center justify-between px-4 py-2 bg-gray-100 border-b border-gray-200">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-2 md:gap-0 px-4 py-2 bg-gray-100 border-b border-gray-200">
         <div className="flex items-center gap-4">
           <Link href={`/${model}/${section}/${page}`} className="text-sm text-red-600 hover:underline">
             Back to page
@@ -94,8 +94,8 @@ export default function CompareView({
         </div>
       </div>
 
-      <div className="flex-1 flex overflow-hidden">
-        <div className="w-1/2 border-r border-gray-300 flex flex-col">
+      <div className="flex-1 flex flex-col md:flex-row overflow-hidden">
+        <div className="w-full md:w-1/2 border-b md:border-b-0 md:border-r border-gray-300 flex flex-col">
           <div className="px-4 py-1 bg-gray-50 border-b border-gray-200 text-xs font-medium text-gray-500">
             ORIGINAL SCAN
           </div>
@@ -112,7 +112,7 @@ export default function CompareView({
           </div>
         </div>
 
-        <div className="w-1/2 flex flex-col">
+        <div className="w-full md:w-1/2 flex flex-col">
           <div className="px-4 py-1 bg-gray-50 border-b border-gray-200 text-xs font-medium text-gray-500">
             MODERNIZED
           </div>

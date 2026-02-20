@@ -63,6 +63,7 @@ export default function StatsPage() {
 
   return (
     <div
+      className="stats-container"
       style={{
         minHeight: "100vh",
         background: "var(--color-bg)",
@@ -72,6 +73,7 @@ export default function StatsPage() {
       <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
         {/* Header row */}
         <div
+          className="stats-header"
           style={{
             display: "flex",
             alignItems: "center",
@@ -111,7 +113,7 @@ export default function StatsPage() {
 
           {/* Metric cards inline in header */}
           {stats && (
-            <div style={{ display: "flex", gap: "12px" }}>
+            <div className="stats-metrics" style={{ display: "flex", gap: "12px" }}>
               <MetricCard
                 label="Total Visitors"
                 value={stats.unique_sessions.toLocaleString()}
@@ -200,6 +202,7 @@ export default function StatsPage() {
 
             {/* Content breakdown and heatmap side by side */}
             <div
+              className="stats-bottom-grid"
               style={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr",

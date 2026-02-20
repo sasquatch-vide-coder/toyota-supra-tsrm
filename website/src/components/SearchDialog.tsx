@@ -145,6 +145,7 @@ export default function SearchDialog({ model }: { model: string }) {
         </svg>
         SEARCH
         <kbd
+          className="hidden md:inline"
           style={{
             padding: "1px 6px",
             fontSize: "10px",

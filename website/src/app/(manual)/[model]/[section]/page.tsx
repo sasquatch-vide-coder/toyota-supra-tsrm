@@ -30,12 +30,14 @@ export default async function SectionPage({
     <div style={{ display: "flex", flexDirection: "column" }}>
       {/* Section hero */}
       <div
+        className="section-hero"
         style={{
           padding: "40px 32px 32px",
           borderBottom: "1px solid #D4C9B8",
         }}
       >
         <div
+          className="section-code"
           style={{
             fontFamily: "monospace",
             fontSize: "48px",
@@ -79,7 +81,7 @@ export default async function SectionPage({
       </div>
 
       {/* Page list */}
-      <div style={{ padding: "32px", flex: 1 }}>
+      <div className="section-page-list" style={{ padding: "32px", flex: 1 }}>
         <p
           style={{
             fontFamily: "monospace",

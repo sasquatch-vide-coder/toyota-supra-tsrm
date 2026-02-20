@@ -23,6 +23,7 @@ export default async function ModelLandingPage({
     <div style={{ display: "flex", flexDirection: "column" }}>
       {/* Model hero */}
       <div
+        className="model-hero"
         style={{
           padding: "40px 32px 32px",
           position: "relative",
@@ -64,6 +65,7 @@ export default async function ModelLandingPage({
             {modelDef.generation} · {modelDef.year}
           </p>
           <h1
+            className="model-hero-title"
             style={{
               fontFamily: "Georgia, 'Times New Roman', serif",
               fontSize: "48px",
@@ -91,6 +93,7 @@ export default async function ModelLandingPage({
 
           {/* Stats row */}
           <div
+            className="model-stats"
             style={{
               display: "flex",
               gap: "32px",
@@ -123,7 +126,7 @@ export default async function ModelLandingPage({
       </div>
 
       {/* Section grid */}
-      <div style={{ padding: "32px", flex: 1 }}>
+      <div className="model-sections-grid" style={{ padding: "32px", flex: 1 }}>
         <p
           style={{
             fontFamily: "monospace",

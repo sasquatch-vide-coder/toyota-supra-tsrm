@@ -4,6 +4,7 @@ import { loadSections } from "@/lib/sections";
 import { getModel, getModelIds } from "@/lib/models";
 import V1Sidebar from "@/components/V1Sidebar";
 import SearchDialog from "@/components/SearchDialog";
+import MobileSidebarWrapper from "@/components/MobileSidebarWrapper";
 
 export function generateStaticParams() {
   return getModelIds().map((model) => ({ model }));
@@ -44,6 +45,7 @@ export default async function ModelLayout({
 
       {/* Top nav bar */}
       <div
+        className="manual-topbar"
         style={{
           background: "#1A1A1A",
           padding: "12px 24px",
@@ -64,6 +66,9 @@ export default async function ModelLayout({
             letterSpacing: "0.15em",
           }}
         >
+          <MobileSidebarWrapper>
+            <V1Sidebar sections={sections} model={model} totalPages={totalPages} />
+          </MobileSidebarWrapper>
           <Link
             href="/"
             style={{ color: "#C41E3A", textDecoration: "none", fontWeight: "700", letterSpacing: "0.3em" }}
@@ -85,7 +90,9 @@ export default async function ModelLayout({
 
       {/* Body: sidebar + main */}
       <div style={{ display: "flex", flex: 1, overflow: "hidden" }}>
-        <V1Sidebar sections={sections} model={model} totalPages={totalPages} />
+        <div className="sidebar-desktop">
+          <V1Sidebar sections={sections} model={model} totalPages={totalPages} />
+        </div>
         <main style={{ flex: 1, overflowY: "auto", background: "#F5F0E8" }}>
           {children}
         </main>
@@ -93,6 +100,7 @@ export default async function ModelLayout({
 
       {/* Footer */}
       <footer
+        className="manual-footer"
         style={{
           background: "#1A1A1A",
           padding: "20px 24px",

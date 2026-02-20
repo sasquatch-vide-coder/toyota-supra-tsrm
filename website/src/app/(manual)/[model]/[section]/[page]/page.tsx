@@ -54,7 +54,7 @@ export default async function ManualPageRoute({
   const imageSrc = `/images/${model}/${section}/${section}_${paddedPage}.png`;
 
   return (
-    <div style={{ padding: "32px", display: "flex", flexDirection: "column" }}>
+    <div className="page-container" style={{ padding: "32px", display: "flex", flexDirection: "column" }}>
       {/* Breadcrumb */}
       <div
         style={{
@@ -107,6 +107,7 @@ export default async function ManualPageRoute({
           <span />
         )}
         <span
+          className="page-nav-label"
           style={{
             fontFamily: "monospace",
             fontSize: "11px",

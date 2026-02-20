@@ -13,7 +13,7 @@ export default function LandingPage() {
       </div>
 
       {/* Top bar */}
-      <div style={{ background: "var(--color-dark)", padding: "12px 48px", display: "flex", justifyContent: "space-between", alignItems: "center", flexShrink: 0 }}>
+      <div className="landing-topbar" style={{ background: "var(--color-dark)", padding: "12px 48px", display: "flex", justifyContent: "space-between", alignItems: "center", flexShrink: 0 }}>
         <span style={{ fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.25em", color: "var(--color-tan)", textTransform: "uppercase" }}>
           Toyota Supra · Technical Service Repair Manual
         </span>
@@ -23,10 +23,11 @@ export default function LandingPage() {
       </div>
 
       {/* Hero */}
-      <div style={{ flex: 1, maxWidth: "1200px", width: "100%", margin: "0 auto", padding: "72px 48px 56px", boxSizing: "border-box" }}>
-        <div style={{ display: "flex", alignItems: "flex-start", gap: "48px" }}>
+      <div className="landing-hero" style={{ flex: 1, maxWidth: "1200px", width: "100%", margin: "0 auto", padding: "72px 48px 56px", boxSizing: "border-box" }}>
+        <div className="landing-hero-content" style={{ display: "flex", alignItems: "flex-start", gap: "48px" }}>
           {/* Ghost engine code watermarks — JZ, 7M, 5M */}
           <div
+            className="landing-hero-codes"
             aria-hidden="true"
             style={{
               display: "flex",
@@ -72,6 +73,7 @@ export default function LandingPage() {
           {/* Supra generations illustration */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
+            className="landing-hero-image"
             src="/supras.png"
             alt="Toyota Supra MK2, MK3, and MK4 side profile illustrations"
             style={{
@@ -190,7 +192,7 @@ export default function LandingPage() {
       </div>
 
       {/* Footer */}
-      <footer style={{ background: "var(--color-dark)", padding: "24px 48px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "16px", flexShrink: 0 }}>
+      <footer className="landing-footer" style={{ background: "var(--color-dark)", padding: "24px 48px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "16px", flexShrink: 0 }}>
         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
           <span style={{ fontFamily: "monospace", fontWeight: "900", fontSize: "16px", letterSpacing: "0.2em", color: "var(--color-red)" }}>TSRM</span>
           <span style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "var(--color-tan)" }}>Toyota Supra factory service manuals — digitized</span>

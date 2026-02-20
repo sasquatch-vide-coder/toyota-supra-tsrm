@@ -30,3 +30,123 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ── Mobile overrides (768px and below) ── */
+@media (max-width: 768px) {
+  /* Desktop sidebar: hide on mobile */
+  .sidebar-desktop {
+    display: none !important;
+  }
+
+  /* Mobile sidebar overlay: hidden by default, slides in when open */
+  .sidebar-overlay {
+    display: none !important;
+  }
+  .sidebar-overlay.sidebar-open {
+    display: flex !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 260px !important;
+    z-index: 100 !important;
+    flex-direction: column !important;
+    background: var(--color-dark) !important;
+    overflow-y: auto !important;
+  }
+  .sidebar-backdrop {
+    display: none;
+  }
+  .sidebar-backdrop.sidebar-open {
+    display: block !important;
+    position: fixed !important;
+    inset: 0 !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    z-index: 99 !important;
+  }
+  .hamburger-btn {
+    display: flex !important;
+  }
+
+  /* Landing page */
+  .landing-topbar {
+    padding: 12px 16px !important;
+  }
+  .landing-hero {
+    padding: 32px 16px 32px !important;
+  }
+  .landing-hero-content {
+    flex-direction: column !important;
+    gap: 24px !important;
+  }
+  .landing-hero-codes {
+    display: none !important;
+  }
+  .landing-hero-image {
+    display: none !important;
+  }
+  .landing-footer {
+    flex-direction: column !important;
+    padding: 16px !important;
+    text-align: center !important;
+    gap: 8px !important;
+  }
+
+  /* Manual layout */
+  .manual-topbar {
+    padding: 10px 12px !important;
+  }
+  .manual-footer {
+    padding: 12px 12px !important;
+  }
+
+  /* Manual pages */
+  .page-container {
+    padding: 16px !important;
+  }
+  .page-nav-label {
+    display: none !important;
+  }
+
+  /* Model landing page */
+  .model-hero {
+    padding: 24px 16px 24px !important;
+  }
+  .model-hero-title {
+    font-size: 32px !important;
+  }
+  .model-stats {
+    gap: 16px !important;
+  }
+  .model-sections-grid {
+    padding: 16px !important;
+  }
+
+  /* Section page */
+  .section-hero {
+    padding: 24px 16px 24px !important;
+  }
+  .section-code {
+    font-size: 32px !important;
+  }
+  .section-page-list {
+    padding: 16px !important;
+  }
+
+  /* Stats page */
+  .stats-container {
+    padding: 16px 12px !important;
+  }
+  .stats-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+  .stats-metrics {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .stats-bottom-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
