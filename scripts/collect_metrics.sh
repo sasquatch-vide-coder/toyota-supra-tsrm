@@ -10,7 +10,7 @@ DB_PORT="54322"
 DB_USER="postgres"
 DB_NAME="postgres"
 STATE_FILE="/tmp/collect_metrics_net.state"
-NET_IFACE="eth0"
+NET_IFACE="${TSRM_NET_IFACE:-enp0s6}"
 
 # --- CPU usage (%) from /proc/stat snapshot over 1 second ---
 read_cpu() {

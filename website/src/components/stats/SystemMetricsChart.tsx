@@ -130,7 +130,7 @@ export function SystemMetricsChart({ data }: { data: MetricPoint[] }) {
             labelStyle={{ color: "var(--color-dark)", marginBottom: "4px" }}
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             formatter={((value: number, name: string) => {
-              if (name === "Bandwidth") return [`${value.toFixed(2)} MB/min`, name];
+              if (name === "Bandwidth") return [`${value.toFixed(2)} MB`, name];
               return [`${value.toFixed(1)}%`, name];
             }) as any}
           />

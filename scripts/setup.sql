@@ -425,8 +425,8 @@ BEGIN
           AS recorded_at,
         ROUND(AVG(cpu_pct)::NUMERIC, 1)::REAL AS cpu_pct,
         ROUND(AVG(mem_pct)::NUMERIC, 1)::REAL AS mem_pct,
-        ROUND(AVG(net_rx_mb)::NUMERIC, 3)::REAL AS net_rx_mb,
-        ROUND(AVG(net_tx_mb)::NUMERIC, 3)::REAL AS net_tx_mb
+        ROUND(SUM(net_rx_mb)::NUMERIC, 3)::REAL AS net_rx_mb,
+        ROUND(SUM(net_tx_mb)::NUMERIC, 3)::REAL AS net_tx_mb
       FROM system_metrics
       WHERE recorded_at >= since
       GROUP BY 1
@@ -439,8 +439,8 @@ BEGIN
         date_trunc('hour', recorded_at) AS recorded_at,
         ROUND(AVG(cpu_pct)::NUMERIC, 1)::REAL AS cpu_pct,
         ROUND(AVG(mem_pct)::NUMERIC, 1)::REAL AS mem_pct,
-        ROUND(AVG(net_rx_mb)::NUMERIC, 3)::REAL AS net_rx_mb,
-        ROUND(AVG(net_tx_mb)::NUMERIC, 3)::REAL AS net_tx_mb
+        ROUND(SUM(net_rx_mb)::NUMERIC, 3)::REAL AS net_rx_mb,
+        ROUND(SUM(net_tx_mb)::NUMERIC, 3)::REAL AS net_tx_mb
       FROM system_metrics
       WHERE recorded_at >= since
       GROUP BY 1
