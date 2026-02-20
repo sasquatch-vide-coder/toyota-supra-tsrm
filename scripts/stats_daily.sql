@@ -99,8 +99,15 @@ CREATE OR REPLACE FUNCTION get_stats_visitors(
   since TIMESTAMPTZ DEFAULT NOW() - INTERVAL '90 days'
 )
 RETURNS JSON LANGUAGE plpgsql SECURITY DEFINER AS $$
-DECLARE result JSON;
+DECLARE
+  result JSON;
+  effective_since DATE;
 BEGIN
+  -- Clamp to earliest data day so "all time" doesn't generate 20k empty rows
+  SELECT GREATEST(since::DATE, COALESCE(MIN(day), CURRENT_DATE))
+  INTO effective_since
+  FROM stats_daily;
+
   SELECT COALESCE(json_agg(row_to_json(t) ORDER BY t.day), '[]'::json)
   INTO result
   FROM (
@@ -109,7 +116,7 @@ BEGIN
       COALESCE(sd.visitors, 0) AS visitors,
       COALESCE(sd.views, 0) AS views
     FROM generate_series(
-      since::DATE,
+      effective_since,
       CURRENT_DATE,
       '1 day'::INTERVAL
     ) AS d(day)
