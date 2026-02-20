@@ -111,22 +111,9 @@ export interface SearchResult {
   section_name: string;
   content_text: string;
   score: number;
-  match_type: "fts" | "semantic" | "both";
-}
-
-export interface FAQResult {
-  id: number;
-  question: string;
-  answer: string;
-  section: string;
-  page: number;
-  section_name: string;
-  category: string;
-  score: number;
 }
 
 export interface SearchResponse {
   results: SearchResult[];
-  faqs: FAQResult[];
   error?: string;
 }

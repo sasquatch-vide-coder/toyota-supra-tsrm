@@ -2,25 +2,21 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import type { SearchResult, FAQResult, SearchResponse } from "@/types";
-
-type SourceFilter = "all" | "manual" | "faq";
+import type { SearchResult, SearchResponse } from "@/types";
 
 export default function SearchDialog({ model }: { model: string }) {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
-  const [faqs, setFaqs] = useState<FAQResult[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [activeFilter, setActiveFilter] = useState<SourceFilter>("all");
   const inputRef = useRef<HTMLInputElement>(null);
   const abortRef = useRef<AbortController | null>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const router = useRouter();
 
-  const totalItems = faqs.length + results.length;
+  const totalItems = results.length;
 
   // Ctrl+K to open
   useEffect(() => {
@@ -43,20 +39,17 @@ export default function SearchDialog({ model }: { model: string }) {
       inputRef.current?.focus();
       setQuery("");
       setResults([]);
-      setFaqs([]);
       setSelectedIndex(0);
       setError(null);
-      setActiveFilter("all");
     }
   }, [isOpen]);
 
-  const fetchResults = useCallback(async (q: string, filter: SourceFilter) => {
+  const fetchResults = useCallback(async (q: string) => {
     // Cancel any in-flight request
     abortRef.current?.abort();
 
     if (q.length < 2) {
       setResults([]);
-      setFaqs([]);
       setIsLoading(false);
       setError(null);
       return;
@@ -68,17 +61,13 @@ export default function SearchDialog({ model }: { model: string }) {
     setError(null);
 
     try {
-      let url = `/api/search?q=${encodeURIComponent(q)}&model=${model}`;
-      if (filter !== "all") {
-        url += `&source=${filter}`;
-      }
+      const url = `/api/search?q=${encodeURIComponent(q)}&model=${model}`;
       const res = await fetch(url, { signal: controller.signal });
       if (!res.ok) {
         throw new Error("Search request failed");
       }
       const data: SearchResponse = await res.json();
       if (!controller.signal.aborted) {
-        setFaqs(data.faqs ?? []);
         setResults(data.results ?? []);
         setSelectedIndex(0);
         setIsLoading(false);
@@ -88,37 +77,27 @@ export default function SearchDialog({ model }: { model: string }) {
       if (!controller.signal.aborted) {
         setError("Search is temporarily unavailable");
         setResults([]);
-        setFaqs([]);
         setIsLoading(false);
       }
     }
   }, []);
 
   const search = useCallback(
-    (q: string, filter?: SourceFilter) => {
-      const f = filter ?? activeFilter;
+    (q: string) => {
       setQuery(q);
       setSelectedIndex(0);
       if (debounceRef.current) clearTimeout(debounceRef.current);
       if (!q.trim()) {
         setResults([]);
-        setFaqs([]);
         setIsLoading(false);
         setError(null);
         return;
       }
       setIsLoading(true);
-      debounceRef.current = setTimeout(() => fetchResults(q.trim(), f), 250);
+      debounceRef.current = setTimeout(() => fetchResults(q.trim()), 250);
     },
-    [fetchResults, activeFilter]
+    [fetchResults]
   );
-
-  const handleFilterChange = (filter: SourceFilter) => {
-    setActiveFilter(filter);
-    if (query.trim().length >= 2) {
-      search(query, filter);
-    }
-  };
 
   const navigateToPage = (section: string, page: number) => {
     setIsOpen(false);
@@ -126,13 +105,8 @@ export default function SearchDialog({ model }: { model: string }) {
   };
 
   const handleSelect = (index: number) => {
-    if (index < faqs.length) {
-      const faq = faqs[index];
-      navigateToPage(faq.section, faq.page);
-    } else {
-      const result = results[index - faqs.length];
-      if (result) navigateToPage(result.section, result.page);
-    }
+    const result = results[index];
+    if (result) navigateToPage(result.section, result.page);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -186,12 +160,6 @@ export default function SearchDialog({ model }: { model: string }) {
     );
   }
 
-  const filterButtons: { key: SourceFilter; label: string }[] = [
-    { key: "all", label: "All" },
-    { key: "manual", label: "Manual" },
-    { key: "faq", label: "FAQ" },
-  ];
-
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center pt-[20vh]">
       <div className="absolute inset-0 bg-black/50" onClick={() => setIsOpen(false)} />
@@ -220,110 +188,42 @@ export default function SearchDialog({ model }: { model: string }) {
           </kbd>
         </div>
 
-        {/* Filter pills */}
-        <div className="flex items-center gap-1.5 px-4 py-2 border-b border-gray-100">
-          {filterButtons.map((f) => (
-            <button
-              key={f.key}
-              onClick={() => handleFilterChange(f.key)}
-              className={`px-2.5 py-1 text-xs font-medium rounded-full transition-colors ${
-                activeFilter === f.key
-                  ? "bg-red-600 text-white"
-                  : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-              }`}
-            >
-              {f.label}
-            </button>
-          ))}
-        </div>
-
         <div className="max-h-96 overflow-y-auto">
-          {/* FAQ Results */}
-          {faqs.length > 0 && (
-            <div className="py-2">
-              <div className="px-4 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">
-                Quick Answers
-              </div>
-              <ul>
-                {faqs.map((faq, i) => (
-                  <li key={`faq-${faq.id}`}>
-                    <button
-                      onClick={() => handleSelect(i)}
-                      className={`w-full text-left px-4 py-2.5 text-sm hover:bg-gray-50 ${
-                        i === selectedIndex ? "bg-red-50" : ""
-                      }`}
-                    >
-                      <div className="flex items-start gap-2">
-                        <span className="mt-0.5 text-amber-500 shrink-0">
-                          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
-                          </svg>
-                        </span>
-                        <div className="min-w-0">
-                          <div className="font-medium text-gray-900">{faq.question}</div>
-                          <div className="text-xs text-gray-500 mt-0.5 line-clamp-2">
-                            {faq.answer}
-                          </div>
-                          <div className="flex items-center gap-2 mt-1">
-                            <span className="font-mono text-xs text-red-600">
-                              {faq.section}-{faq.page}
-                            </span>
-                            {faq.section_name && (
-                              <span className="text-xs text-gray-400">{faq.section_name}</span>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
           {/* Page Results */}
           {results.length > 0 && (
             <div className="py-2">
-              {faqs.length > 0 && (
-                <div className="px-4 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider border-t border-gray-100">
-                  Manual Pages
-                </div>
-              )}
               <ul>
-                {results.map((entry, i) => {
-                  const itemIndex = faqs.length + i;
-                  return (
-                    <li key={`page-${entry.id}`}>
-                      <button
-                        onClick={() => handleSelect(itemIndex)}
-                        className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 ${
-                          itemIndex === selectedIndex ? "bg-red-50 text-red-900" : ""
-                        }`}
-                      >
-                        <div className="flex items-center gap-2">
-                          <span className="font-mono text-red-600 shrink-0">
-                            {entry.section}-{entry.page}
-                          </span>
-                          <span className="font-medium truncate">
-                            {entry.title || entry.section_header || `Page ${entry.page}`}
-                          </span>
+                {results.map((entry, i) => (
+                  <li key={`page-${entry.id}`}>
+                    <button
+                      onClick={() => handleSelect(i)}
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 ${
+                        i === selectedIndex ? "bg-red-50 text-red-900" : ""
+                      }`}
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className="font-mono text-red-600 shrink-0">
+                          {entry.section}-{entry.page}
+                        </span>
+                        <span className="font-medium truncate">
+                          {entry.title || entry.section_header || `Page ${entry.page}`}
+                        </span>
+                      </div>
+                      {(entry.section_name || entry.content_text) && (
+                        <div className="ml-[calc(3ch+0.5rem)] mt-0.5">
+                          {entry.section_name && (
+                            <span className="text-xs text-gray-400">{entry.section_name}</span>
+                          )}
+                          {entry.content_text && (
+                            <p className="text-xs text-gray-500 line-clamp-1 mt-0.5">
+                              {entry.content_text}
+                            </p>
+                          )}
                         </div>
-                        {(entry.section_name || entry.content_text) && (
-                          <div className="ml-[calc(3ch+0.5rem)] mt-0.5">
-                            {entry.section_name && (
-                              <span className="text-xs text-gray-400">{entry.section_name}</span>
-                            )}
-                            {entry.content_text && (
-                              <p className="text-xs text-gray-500 line-clamp-1 mt-0.5">
-                                {entry.content_text}
-                              </p>
-                            )}
-                          </div>
-                        )}
-                      </button>
-                    </li>
-                  );
-                })}
+                      )}
+                    </button>
+                  </li>
+                ))}
               </ul>
             </div>
           )}
