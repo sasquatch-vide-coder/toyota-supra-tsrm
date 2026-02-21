@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { MODELS } from "@/lib/models";
 import { loadSections } from "@/lib/sections";
+
+export const metadata: Metadata = {
+  title: "TSRM — Toyota Supra Technical Service Repair Manual",
+  description:
+    "Complete factory service manuals for MK2, MK3, and MK4 Toyota Supra — digitized, AI-upscaled, and fully searchable.",
+  alternates: { canonical: "/" },
+};
 
 export default function LandingPage() {
   return (

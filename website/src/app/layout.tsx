@@ -19,9 +19,25 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "TSRM — MK3 Toyota Supra Technical Service Repair Manual",
+  metadataBase: new URL("https://tsrm.sasquatchvc.com"),
+  title: {
+    default: "TSRM — Toyota Supra Technical Service Repair Manual",
+    template: "%s | TSRM",
+  },
   description:
-    "Modernized digital version of the 1990 MK3 Toyota Supra Technical Service Repair Manual",
+    "Complete factory service manuals for MK2, MK3, and MK4 Toyota Supra — digitized, AI-upscaled, and fully searchable.",
+  openGraph: {
+    type: "website",
+    siteName: "TSRM",
+    locale: "en_US",
+    images: ["/supras.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
@@ -34,6 +50,19 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "TSRM",
+              url: "https://tsrm.sasquatchvc.com",
+              description:
+                "Complete factory service manuals for MK2, MK3, and MK4 Toyota Supra",
+            }),
+          }}
+        />
         {children}
         <TrackingBeacon />
       </body>

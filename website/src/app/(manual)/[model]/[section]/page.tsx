@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
@@ -14,13 +15,34 @@ export function generateStaticParams() {
   return params;
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ model: string; section: string }>;
+}): Promise<Metadata> {
+  const { model, section } = await params;
+  const modelDef = getModel(model);
+  if (!modelDef) return {};
+
+  const sections = loadSections(model);
+  const sectionInfo = sections.find((s) => s.code === section);
+  if (!sectionInfo) return {};
+
+  return {
+    title: `${sectionInfo.name} (${section}) — ${modelDef.name} Manual`,
+    description: `${sectionInfo.name} section of the ${modelDef.name} service manual — ${sectionInfo.pages} pages.`,
+    alternates: { canonical: `/${model}/${section}` },
+  };
+}
+
 export default async function SectionPage({
   params,
 }: {
   params: Promise<{ model: string; section: string }>;
 }) {
   const { model, section } = await params;
-  if (!getModel(model)) notFound();
+  const modelDef = getModel(model);
+  if (!modelDef) notFound();
 
   const sections = loadSections(model);
   const sectionInfo = sections.find((s) => s.code === section);
@@ -153,6 +175,36 @@ export default async function SectionPage({
           </p>
         )}
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "TSRM",
+                item: "https://tsrm.sasquatchvc.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: modelDef.name,
+                item: `https://tsrm.sasquatchvc.com/${model}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: sectionInfo.name,
+                item: `https://tsrm.sasquatchvc.com/${model}/${section}`,
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

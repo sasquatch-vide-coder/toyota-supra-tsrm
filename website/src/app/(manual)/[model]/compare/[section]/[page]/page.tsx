@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import CompareView from "@/components/CompareView";
 import { PageData } from "@/types";
@@ -26,6 +27,26 @@ function loadPage(model: string, section: string, page: number): PageData | null
 // This avoids pre-rendering ~5,200 pages on every build.
 export function generateStaticParams() {
   return [];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ model: string; section: string; page: string }>;
+}): Promise<Metadata> {
+  const { model, section, page: pageStr } = await params;
+  const modelDef = getModel(model);
+  if (!modelDef) return {};
+
+  const pageNum = parseInt(pageStr, 10);
+  const sections = loadSections(model);
+  const sectionInfo = sections.find((s) => s.code === section);
+  if (!sectionInfo) return {};
+
+  return {
+    title: `Compare: ${sectionInfo.name} p.${pageNum} — ${modelDef.name}`,
+    robots: { index: false, follow: true },
+  };
 }
 
 export default async function ComparePage({

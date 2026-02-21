@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
@@ -26,6 +27,33 @@ function loadPage(model: string, section: string, page: number): PageData | null
 // This avoids pre-rendering ~5,200 pages on every build.
 export function generateStaticParams() {
   return [];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ model: string; section: string; page: string }>;
+}): Promise<Metadata> {
+  const { model, section, page: pageStr } = await params;
+  const modelDef = getModel(model);
+  if (!modelDef) return {};
+
+  const pageNum = parseInt(pageStr, 10);
+  const sections = loadSections(model);
+  const sectionInfo = sections.find((s) => s.code === section);
+  if (!sectionInfo) return {};
+
+  const data = loadPage(model, section, pageNum);
+  const desc =
+    data?.title && data.title !== data.section_header
+      ? `${data.title} — ${sectionInfo.name}, ${modelDef.name} service manual`
+      : `${sectionInfo.name} page ${pageNum} — ${modelDef.name} service manual`;
+
+  return {
+    title: `${sectionInfo.name} p.${pageNum} — ${modelDef.name} Manual`,
+    description: desc,
+    alternates: { canonical: `/${model}/${section}/${pageNum}` },
+  };
 }
 
 export default async function ManualPageRoute({
@@ -169,6 +197,41 @@ export default async function ManualPageRoute({
           {data.ocr_text}
         </div>
       )}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "TSRM",
+                item: "https://tsrm.sasquatchvc.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: modelDef.name,
+                item: `https://tsrm.sasquatchvc.com/${model}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: sectionInfo.name,
+                item: `https://tsrm.sasquatchvc.com/${model}/${section}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                name: `Page ${pageNum}`,
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

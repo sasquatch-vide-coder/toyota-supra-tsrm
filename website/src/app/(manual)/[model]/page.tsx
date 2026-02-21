@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
@@ -5,6 +6,25 @@ import { getModel, getModelIds } from "@/lib/models";
 
 export function generateStaticParams() {
   return getModelIds().map((model) => ({ model }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ model: string }>;
+}): Promise<Metadata> {
+  const { model } = await params;
+  const modelDef = getModel(model);
+  if (!modelDef) return {};
+
+  const sections = loadSections(model);
+  const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
+
+  return {
+    title: `${modelDef.name} Service Manual — ${modelDef.year}`,
+    description: `${modelDef.description} Browse ${sections.length} sections and ${totalPages.toLocaleString()} pages.`,
+    alternates: { canonical: `/${model}` },
+  };
 }
 
 export default async function ModelLandingPage({
@@ -232,6 +252,30 @@ export default async function ModelLandingPage({
           </div>
         )}
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "TSRM",
+                item: "https://tsrm.sasquatchvc.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: modelDef.name,
+                item: `https://tsrm.sasquatchvc.com/${model}`,
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }
