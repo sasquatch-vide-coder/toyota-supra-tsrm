@@ -78,6 +78,31 @@ export default async function ManualPageRoute({
   const prevPage = currentIdx > 0 ? pageIndex[currentIdx - 1].page : null;
   const nextPage = currentIdx < pageIndex.length - 1 ? pageIndex[currentIdx + 1].page : null;
 
+  const currentSectionIdx = sections.findIndex((s) => s.code === section);
+
+  let prevLink: { section: string; page: number; sectionName?: string } | null = null;
+  let nextLink: { section: string; page: number; sectionName?: string } | null = null;
+
+  if (prevPage !== null) {
+    prevLink = { section, page: prevPage };
+  } else if (currentSectionIdx > 0) {
+    const prevSec = sections[currentSectionIdx - 1];
+    const prevSecPages = prevSec.page_index || [];
+    if (prevSecPages.length > 0) {
+      prevLink = { section: prevSec.code, page: prevSecPages[prevSecPages.length - 1].page, sectionName: prevSec.name };
+    }
+  }
+
+  if (nextPage !== null) {
+    nextLink = { section, page: nextPage };
+  } else if (currentSectionIdx < sections.length - 1) {
+    const nextSec = sections[currentSectionIdx + 1];
+    const nextSecPages = nextSec.page_index || [];
+    if (nextSecPages.length > 0) {
+      nextLink = { section: nextSec.code, page: nextSecPages[0].page, sectionName: nextSec.name };
+    }
+  }
+
   const paddedPage = String(pageNum).padStart(3, "0");
   const imageSrc = `/images/${model}/${section}/${section}_${paddedPage}.png`;
 
@@ -116,9 +141,9 @@ export default async function ManualPageRoute({
           marginBottom: "20px",
         }}
       >
-        {prevPage !== null ? (
+        {prevLink ? (
           <Link
-            href={`/${model}/${section}/${prevPage}`}
+            href={`/${model}/${prevLink.section}/${prevLink.page}`}
             style={{
               fontFamily: "monospace",
               fontSize: "12px",
@@ -129,7 +154,7 @@ export default async function ManualPageRoute({
               letterSpacing: "0.1em",
             }}
           >
-            ← {String(prevPage).padStart(3, "0")}
+            ← {prevLink.sectionName || String(prevLink.page).padStart(3, "0")}
           </Link>
         ) : (
           <span />
@@ -145,9 +170,9 @@ export default async function ManualPageRoute({
         >
           {section} · {paddedPage}
         </span>
-        {nextPage !== null ? (
+        {nextLink ? (
           <Link
-            href={`/${model}/${section}/${nextPage}`}
+            href={`/${model}/${nextLink.section}/${nextLink.page}`}
             style={{
               fontFamily: "monospace",
               fontSize: "12px",
@@ -158,7 +183,7 @@ export default async function ManualPageRoute({
               letterSpacing: "0.1em",
             }}
           >
-            {String(nextPage).padStart(3, "0")} →
+            {nextLink.sectionName || String(nextLink.page).padStart(3, "0")} →
           </Link>
         ) : (
           <span />
