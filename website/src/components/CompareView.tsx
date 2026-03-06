@@ -54,7 +54,7 @@ export default function CompareView({
     <div className="h-screen flex flex-col">
       <div className="flex flex-col md:flex-row items-center justify-between gap-2 md:gap-0 px-4 py-2 bg-gray-100 border-b border-gray-200">
         <div className="flex items-center gap-4">
-          <Link href={`/${model}/${section}/${page}`} className="text-sm text-red-600 hover:underline">
+          <Link href={`/${model}/tsrm/${section}/${page}`} className="text-sm text-red-600 hover:underline">
             Back to page
           </Link>
           <span className="text-sm text-gray-600">
@@ -76,7 +76,7 @@ export default function CompareView({
           <div className="flex gap-2">
             {page > 1 && (
               <Link
-                href={`/${model}/compare/${section}/${page - 1}`}
+                href={`/${model}/tsrm/compare/${section}/${page - 1}`}
                 className="px-3 py-1 text-sm border border-gray-300 rounded hover:bg-white"
               >
                 Prev
@@ -84,7 +84,7 @@ export default function CompareView({
             )}
             {page < totalPages && (
               <Link
-                href={`/${model}/compare/${section}/${page + 1}`}
+                href={`/${model}/tsrm/compare/${section}/${page + 1}`}
                 className="px-3 py-1 text-sm border border-gray-300 rounded hover:bg-white"
               >
                 Next

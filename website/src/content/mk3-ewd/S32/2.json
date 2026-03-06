@@ -1,0 +1,6 @@
+{
+  "page_id": "S32-2",
+  "section_header": "ELECTRONIC FUEL INJECTION SYSTEM",
+  "title": "",
+  "ocr_text": "32\n\nFROM  TCS + ECU\nTCS + CONTROL COMPUTER\nECT ECU\n\nY+B\n6 B\n\nFUEL\n\nFUEL GAUGE\n\nSPEED SENSOR\n\nOIL\n\nWATER TEMP.\n\n10 B\n4 C\n6 C\n5 B\n4 D\n2 A\n3 A\n\nLG\nL+R\nBR\nBR\nY+B\nY+G\nBR\n\n6 H1\n5 H1\n7 H1\n9 H1\n6 H1\n\nLG\nL+R\nY+B\nY+G\nBR\n\n2\n3\nK\n\nL\n1\nN\n1\n\nFUEL SENSOR\n\nOIL PRESSURE\n\nWATER TEMP. SENSOR\n\n1\n4\n\nW+B\nBR\n\nBR\nBR\nBR\n\n16 H1\nBR\n\nBACK PANEL CENTER\n\nFLOOR CENTER\n\nINTAKE MANIFOLD"
+}

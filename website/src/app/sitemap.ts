@@ -14,16 +14,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   for (const model of getModelIds()) {
-    // Model page
+    // Model page (redirects to /tsrm)
     entries.push({
       url: `${baseUrl}/${model}`,
       changeFrequency: "monthly",
       priority: 0.9,
     });
 
+    // Repair manual
+    entries.push({
+      url: `${baseUrl}/${model}/tsrm`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    });
+
     // Search page
     entries.push({
-      url: `${baseUrl}/${model}/search`,
+      url: `${baseUrl}/${model}/tsrm/search`,
       changeFrequency: "monthly",
       priority: 0.3,
     });
@@ -32,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const section of sections) {
       // Section page
       entries.push({
-        url: `${baseUrl}/${model}/${section.code}`,
+        url: `${baseUrl}/${model}/tsrm/${section.code}`,
         changeFrequency: "monthly",
         priority: 0.7,
       });
@@ -41,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       if (section.page_index) {
         for (const page of section.page_index) {
           entries.push({
-            url: `${baseUrl}/${model}/${section.code}/${page.page}`,
+            url: `${baseUrl}/${model}/tsrm/${section.code}/${page.page}`,
             changeFrequency: "yearly",
             priority: 0.5,
           });

@@ -1,0 +1,992 @@
+[
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 1
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 2
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 3
+  },
+  {
+    "section": "A",
+    "subpage": "",
+    "title": "INTRODUCTION",
+    "pdf_page": 4
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "REAR WINDOW DEFOGGER",
+    "pdf_page": 5
+  },
+  {
+    "section": "B",
+    "subpage": "",
+    "title": "HOW TO USE THIS MANUAL",
+    "pdf_page": 6
+  },
+  {
+    "section": "B",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 7
+  },
+  {
+    "section": "B",
+    "subpage": "",
+    "title": "HOW TO USE THIS MANUAL",
+    "pdf_page": 8
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "B",
+    "pdf_page": 9
+  },
+  {
+    "section": "C",
+    "subpage": "",
+    "title": "TROUBLESHOOTING",
+    "pdf_page": 10
+  },
+  {
+    "section": "C",
+    "subpage": "",
+    "title": "FINDING A SHORT CIRCUIT",
+    "pdf_page": 11
+  },
+  {
+    "section": "D",
+    "subpage": "",
+    "title": "GLOSSARY OF TERMS AND SYMBOLS",
+    "pdf_page": 12
+  },
+  {
+    "section": "D",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 13
+  },
+  {
+    "section": "1",
+    "subpage": "1",
+    "title": "POWER SOURCE (Power-Load Reference)",
+    "pdf_page": 14
+  },
+  {
+    "section": "1",
+    "subpage": "1",
+    "title": "",
+    "pdf_page": 15
+  },
+  {
+    "section": "1",
+    "subpage": "2",
+    "title": "POWER SOURCE",
+    "pdf_page": 16
+  },
+  {
+    "section": "1",
+    "subpage": "2",
+    "title": "",
+    "pdf_page": 17
+  },
+  {
+    "section": "2",
+    "subpage": "",
+    "title": "STARTING AND IGNITION SYSTEMS",
+    "pdf_page": 18
+  },
+  {
+    "section": "2",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 19
+  },
+  {
+    "section": "2",
+    "subpage": "",
+    "title": "STARTING AND IGNITION SYSTEMS",
+    "pdf_page": 20
+  },
+  {
+    "section": "2",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 21
+  },
+  {
+    "section": "3",
+    "subpage": "1",
+    "title": "EFI SYSTEM(7M-GTE)",
+    "pdf_page": 22
+  },
+  {
+    "section": "3",
+    "subpage": "1",
+    "title": "",
+    "pdf_page": 23
+  },
+  {
+    "section": "3",
+    "subpage": "1",
+    "title": "EFI SYSTEM(7M-GTE)",
+    "pdf_page": 24
+  },
+  {
+    "section": "3",
+    "subpage": "1",
+    "title": "",
+    "pdf_page": 25
+  },
+  {
+    "section": "3",
+    "subpage": "1",
+    "title": "EFI SYSTEM(7M-GTE)",
+    "pdf_page": 26
+  },
+  {
+    "section": "3",
+    "subpage": "1",
+    "title": "",
+    "pdf_page": 27
+  },
+  {
+    "section": "3",
+    "subpage": "2",
+    "title": "EFI SYSTEM(7M-GE)",
+    "pdf_page": 28
+  },
+  {
+    "section": "3",
+    "subpage": "2",
+    "title": "",
+    "pdf_page": 29
+  },
+  {
+    "section": "3",
+    "subpage": "2",
+    "title": "EFI SYSTEM(7M-GE)",
+    "pdf_page": 30
+  },
+  {
+    "section": "3",
+    "subpage": "2",
+    "title": "",
+    "pdf_page": 31
+  },
+  {
+    "section": "3",
+    "subpage": "2",
+    "title": "EFI SYSTEM(7M-GE)",
+    "pdf_page": 32
+  },
+  {
+    "section": "3",
+    "subpage": "2",
+    "title": "",
+    "pdf_page": 33
+  },
+  {
+    "section": "4",
+    "subpage": "",
+    "title": "CHARGING SYSTEM",
+    "pdf_page": 34
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 35
+  },
+  {
+    "section": "5",
+    "subpage": "",
+    "title": "LIGHT AUTO TURN OFF SYSTEM",
+    "pdf_page": 36
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 37
+  },
+  {
+    "section": "6",
+    "subpage": "",
+    "title": "TURN SIGNAL AND HAZARD WARNING LIGHTS",
+    "pdf_page": 38
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 39
+  },
+  {
+    "section": "7",
+    "subpage": "",
+    "title": "HEADLIGHTS",
+    "pdf_page": 40
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 41
+  },
+  {
+    "section": "7",
+    "subpage": "",
+    "title": "HEADLIGHTS",
+    "pdf_page": 42
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "FOG LIGHTS",
+    "pdf_page": 43
+  },
+  {
+    "section": "9",
+    "subpage": "",
+    "title": "INTERIOR LIGHTS",
+    "pdf_page": 44
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 45
+  },
+  {
+    "section": "9",
+    "subpage": "",
+    "title": "INTERIOR LIGHTS",
+    "pdf_page": 46
+  },
+  {
+    "section": "",
+    "subpage": "10",
+    "title": "BACK-UP LIGHTS",
+    "pdf_page": 47
+  },
+  {
+    "section": "11",
+    "subpage": "",
+    "title": "STOP LIGHTS",
+    "pdf_page": 48
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 49
+  },
+  {
+    "section": "12",
+    "subpage": "",
+    "title": "TAILLIGHTS AND ILLUMINATION",
+    "pdf_page": 50
+  },
+  {
+    "section": "12",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 51
+  },
+  {
+    "section": "12",
+    "subpage": "",
+    "title": "TAILLIGHTS AND ILLUMINATION",
+    "pdf_page": 52
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 53
+  },
+  {
+    "section": "12",
+    "subpage": "",
+    "title": "TAILLIGHTS AND ILLUMINATION",
+    "pdf_page": 54
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "REMOTE CONTROL MIRRORS",
+    "pdf_page": 55
+  },
+  {
+    "section": "14",
+    "subpage": "",
+    "title": "REAR WINDOW DEFOGGER AND MIRROR HEATER",
+    "pdf_page": 56
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 57
+  },
+  {
+    "section": "15",
+    "subpage": "",
+    "title": "FRONT WIPERS AND WASHER",
+    "pdf_page": 58
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 59
+  },
+  {
+    "section": "16",
+    "subpage": "",
+    "title": "DOOR LOCKS",
+    "pdf_page": 60
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 61
+  },
+  {
+    "section": "16",
+    "subpage": "",
+    "title": "DOOR LOCKS",
+    "pdf_page": 62
+  },
+  {
+    "section": "",
+    "subpage": "17",
+    "title": "REAR WIPER AND WASHER",
+    "pdf_page": 63
+  },
+  {
+    "section": "18",
+    "subpage": "",
+    "title": "POWER WINDOWS",
+    "pdf_page": 64
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 65
+  },
+  {
+    "section": "19",
+    "subpage": "",
+    "title": "POWER SEAT",
+    "pdf_page": 66
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 67
+  },
+  {
+    "section": "20",
+    "subpage": "",
+    "title": "CRUISE CONTROL",
+    "pdf_page": 68
+  },
+  {
+    "section": "20",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 69
+  },
+  {
+    "section": "20",
+    "subpage": "",
+    "title": "CRUISE CONTROL",
+    "pdf_page": 70
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "20",
+    "pdf_page": 71
+  },
+  {
+    "section": "21",
+    "subpage": "",
+    "title": "ECT SYSTEM",
+    "pdf_page": 72
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 73
+  },
+  {
+    "section": "21",
+    "subpage": "",
+    "title": "ECT SYSTEM",
+    "pdf_page": 74
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 75
+  },
+  {
+    "section": "22",
+    "subpage": "",
+    "title": "A.B.S. (ANTI-LOCK BRAKE SYSTEM)",
+    "pdf_page": 76
+  },
+  {
+    "section": "22",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 77
+  },
+  {
+    "section": "22",
+    "subpage": "",
+    "title": "A.B.S. (ANTI-LOCK BRAKE SYSTEM)",
+    "pdf_page": 78
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 79
+  },
+  {
+    "section": "23",
+    "subpage": "",
+    "title": "HEADLIGHT CLEANER",
+    "pdf_page": 80
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "CIGARETTE LIGHTER AND CLOCK",
+    "pdf_page": 81
+  },
+  {
+    "section": "25",
+    "subpage": "",
+    "title": "TEMS (TOYOTA ELECTRONIC MODULATED",
+    "pdf_page": 82
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "SUSPENSION",
+    "pdf_page": 83
+  },
+  {
+    "section": "25",
+    "subpage": "",
+    "title": "TEMS(TOYOTA ELECTRONIC MODULATED",
+    "pdf_page": 84
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "SUSPENSION",
+    "pdf_page": 85
+  },
+  {
+    "section": "25",
+    "subpage": "",
+    "title": "TEMS(TOYOTA ELECTRONIC MODULATED SUSPENSION)",
+    "pdf_page": 86
+  },
+  {
+    "section": "",
+    "subpage": "26",
+    "title": "UNLOCK AND SEAT BELT WARNING",
+    "pdf_page": 87
+  },
+  {
+    "section": "27",
+    "subpage": "",
+    "title": "SUPER MONITOR",
+    "pdf_page": 88
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 89
+  },
+  {
+    "section": "27",
+    "subpage": "",
+    "title": "SUPER MONITOR",
+    "pdf_page": 90
+  },
+  {
+    "section": "",
+    "subpage": "28",
+    "title": "HORNS",
+    "pdf_page": 91
+  },
+  {
+    "section": "29",
+    "subpage": "",
+    "title": "THEFT DETERRENT SYSTEM",
+    "pdf_page": 92
+  },
+  {
+    "section": "2",
+    "subpage": "9",
+    "title": "",
+    "pdf_page": 93
+  },
+  {
+    "section": "29",
+    "subpage": "",
+    "title": "THEFT DETERRENT SYSTEM",
+    "pdf_page": 94
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 95
+  },
+  {
+    "section": "30",
+    "subpage": "",
+    "title": "AUTO ANTENNA",
+    "pdf_page": 96
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 97
+  },
+  {
+    "section": "31",
+    "subpage": "",
+    "title": "RADIO AND TAPE PLAYER",
+    "pdf_page": 98
+  },
+  {
+    "section": "31",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 99
+  },
+  {
+    "section": "32",
+    "subpage": "",
+    "title": "COMBINATION METER",
+    "pdf_page": 100
+  },
+  {
+    "section": "3",
+    "subpage": "2",
+    "title": "",
+    "pdf_page": 101
+  },
+  {
+    "section": "32",
+    "subpage": "",
+    "title": "COMBINATION METER",
+    "pdf_page": 102
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 103
+  },
+  {
+    "section": "33",
+    "subpage": "",
+    "title": "AUTOMATIC AIR CONDITIONER",
+    "pdf_page": 104
+  },
+  {
+    "section": "33",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 105
+  },
+  {
+    "section": "33",
+    "subpage": "",
+    "title": "AUTOMATIC AIR CONDITIONER",
+    "pdf_page": 106
+  },
+  {
+    "section": "33",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 107
+  },
+  {
+    "section": "33",
+    "subpage": "",
+    "title": "AUTOMATIC AIR CONDITIONER",
+    "pdf_page": 108
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 109
+  },
+  {
+    "section": "33",
+    "subpage": "",
+    "title": "AUTOMATIC AIR CONDITIONER",
+    "pdf_page": 110
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 111
+  },
+  {
+    "section": "34",
+    "subpage": "",
+    "title": "GROUND POINTS",
+    "pdf_page": 112
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 113
+  },
+  {
+    "section": "34",
+    "subpage": "",
+    "title": "GROUND POINTS",
+    "pdf_page": 114
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 115
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "RELAY LOCATIONS",
+    "pdf_page": 116
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "RELAY LOCATIONS",
+    "pdf_page": 117
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "RELAY LOCATIONS",
+    "pdf_page": 118
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "ELECTRICAL WIRING ROUTING",
+    "pdf_page": 119
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 120
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 121
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 122
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "ELECTRICAL WIRING ROUTING",
+    "pdf_page": 123
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "SYSTEM INDEX",
+    "pdf_page": 124
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 125
+  },
+  {
+    "section": "3",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 126
+  },
+  {
+    "section": "4",
+    "subpage": "5",
+    "title": "",
+    "pdf_page": 127
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 128
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 129
+  },
+  {
+    "section": "2",
+    "subpage": "",
+    "title": "TOYOTA SUPRA (Cont'd)",
+    "pdf_page": 130
+  },
+  {
+    "section": "2",
+    "subpage": "",
+    "title": "Combination Meter",
+    "pdf_page": 131
+  },
+  {
+    "section": "4",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 132
+  },
+  {
+    "section": "6",
+    "subpage": "",
+    "title": "ECM (Electronic Controlled Transmission)",
+    "pdf_page": 133
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 134
+  },
+  {
+    "section": "1",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 135
+  },
+  {
+    "section": "3",
+    "subpage": "",
+    "title": "Wiper and Washer",
+    "pdf_page": 136
+  },
+  {
+    "section": "4",
+    "subpage": "",
+    "title": "Turn Signal and Hazard",
+    "pdf_page": 137
+  },
+  {
+    "section": "6",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 138
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 139
+  },
+  {
+    "section": "4",
+    "subpage": "",
+    "title": "TOYOTA SUPRA",
+    "pdf_page": 140
+  },
+  {
+    "section": "1",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 141
+  },
+  {
+    "section": "4",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 142
+  },
+  {
+    "section": "",
+    "subpage": "6",
+    "title": "Door Locks",
+    "pdf_page": 143
+  },
+  {
+    "section": "8",
+    "subpage": "",
+    "title": "THEFT DETERRENT SYSTEM",
+    "pdf_page": 144
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "TOYOTA SUPRA (Cont'd)",
+    "pdf_page": 145
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "STOP LIGHTS",
+    "pdf_page": 146
+  },
+  {
+    "section": "4",
+    "subpage": "5",
+    "title": "Taillights and Illumination",
+    "pdf_page": 147
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 148
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 149
+  },
+  {
+    "section": "6",
+    "subpage": "",
+    "title": "TOYOTA SUPRA",
+    "pdf_page": 150
+  },
+  {
+    "section": "2",
+    "subpage": "3",
+    "title": "Interior Lights",
+    "pdf_page": 151
+  },
+  {
+    "section": "4",
+    "subpage": "",
+    "title": "Clock",
+    "pdf_page": 152
+  },
+  {
+    "section": "6",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 153
+  },
+  {
+    "section": "7",
+    "subpage": "",
+    "title": "Remote Control Mirrors with Heater",
+    "pdf_page": 154
+  },
+  {
+    "section": "1",
+    "subpage": "",
+    "title": "TOYOTA SUPRA (Cont'd)",
+    "pdf_page": 155
+  },
+  {
+    "section": "3",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 156
+  },
+  {
+    "section": "4",
+    "subpage": "5",
+    "title": "Air Conditioner, Cooler and Heater",
+    "pdf_page": 157
+  },
+  {
+    "section": "",
+    "subpage": "6",
+    "title": "HEATER CONTROL ASSEMBLY",
+    "pdf_page": 158
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "TOYOTA SUPRA 7",
+    "pdf_page": 159
+  },
+  {
+    "section": "8",
+    "subpage": "",
+    "title": "TOYOTA SUPRA (Cont'd)",
+    "pdf_page": 160
+  },
+  {
+    "section": "2",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 161
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "Starting",
+    "pdf_page": 162
+  },
+  {
+    "section": "",
+    "subpage": "6",
+    "title": "",
+    "pdf_page": 163
+  },
+  {
+    "section": "7",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 164
+  },
+  {
+    "section": "",
+    "subpage": "",
+    "title": "",
+    "pdf_page": 165
+  }
+]

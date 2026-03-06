@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-40",
+  "section_header": "TCCS (7M-GTE)",
+  "title": "",
+  "ocr_text": "TCCS\nTCCS (7M-GTE)\n6\nTo Cru\n15A\nEFI\n2\nB-Y\nB-O\n(A/T)\nY-L\nEFI MAIN\nRELAY\nTo\nECT ECU (2-6)\nWATER THERMO SENS\nY-L\nBR\nBR\nTHROTTLE POSITION SENSOR\nAC SENSOR\nL-R\n2\nW-B\nB-R\nB-H\nBr Wr\nB-Y-R\nRELAY No.1\nL-R\nL-R\nRELAY\nCIRCUIT\nOPENING RELAY\nL-G-R\nL-B\nFUEL PUMP CONTROL\nY\nBR\nBR\nBR\nL-G\nW-B\nBR\nLG\nAIR FLOW\nMETER\nKNOCK SENSOR No. 1\nW\nBr\nB\nY\nKNOCK SENSOR No. 2\nW\nFUEL PUMP\nRESISTOR\nB-R\nB-R\nR-L\nOX\nSENSOR\nW\nB-R\nCHECK\nCONNECTOR\nB-R\nB-H\nVF\nGR\nB\nB-R\nW\nFP\nOX\nM\nFUEL PUMP\nR-G\nT\nBR\nE1\nE2\n+B\nECT TEM\nR-G\nW-B\nFrom Super Monitor Computer (2-8)\nV\nFrom TEMS Computer (3-7)\nY-B\nFrom ECT ECU (2-6)\nB\nFrom Igniter (8-8)\nBR\nW-B\nW-B\nW-B"
+}

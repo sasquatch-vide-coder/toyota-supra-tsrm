@@ -101,7 +101,7 @@ export default function SearchDialog({ model }: { model: string }) {
 
   const navigateToPage = (section: string, page: number) => {
     setIsOpen(false);
-    router.push(`/${model}/${section}/${page}`);
+    router.push(`/${model}/tsrm/${section}/${page}`);
   };
 
   const handleSelect = (index: number) => {
@@ -256,7 +256,7 @@ export default function SearchDialog({ model }: { model: string }) {
               <button
                 onClick={() => {
                   setIsOpen(false);
-                  router.push(`/${model}/search?q=${encodeURIComponent(query)}`);
+                  router.push(`/${model}/tsrm/search?q=${encodeURIComponent(query)}`);
                 }}
                 className="text-sm text-red-600 hover:text-red-700 font-medium"
               >

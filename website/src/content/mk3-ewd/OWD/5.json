@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-5",
+  "section_header": "IGNITION SYSTEM",
+  "title": "IGNITION SYSTEM CIRCUIT",
+  "ocr_text": "6\n7\n\nControl Clutch S/W (5-2)\nB-Y\nB/W\nB-Y\nB/W\nO\nB\nO\nB\nNGW\nBATT\nIDL\nVSV1\nLG-B\nINTAKE AIR CONTROL VSV\nLG-B\nB-R\nG\nVSV2\nTHW\nFUEL PRESSURE UP VSV\nR-L\nB-R\nVSV3\nEGR VSV\nR-B\nB-R\nR\nVSV\nVTA\nB-O\nSTA\nW-Y\nB-R\nB-R\n+B\nISC1\nL-R\n+B1\nISC3\nR-B\nB-R\nVC\nISC4\nG-W\nISC2\nISC VALVE\nKS\nCHECK ENGINE\n(COMB. METER)\nE2\nGR-G\nFrom \"GAUGE\" Fuse\n(2-5)\nW\nTHA\nGR-G\nFrom Super Monitor\nB-O\nB-O\nComputer (2-8)\nKNK\nIG\nL-R\nL-R\nFrom \"IGN\" Fuse (1-7)\nA/C\nR-W\nR-W\nFrom A/C Amplifier (7-7)\nTDCS\nR\nTo TEMS\nB\nComputer (3-7)\nV\nL1\nB\nFP\nL2\nB\nTo ECT ECU (2-5)\nL3\nR-W\nDEF\nY\nR-Y\nR-G\nFrom Defogger Relay (2-4)\nR\nL4\nR\nFrom Headlight Relay (5-7)\nVF\nSPD\nR-Y\nTo Speed Sensor (2-1)\nECT\nR\nR-Y\nTo ECT ECU (2-5)\nOX\nIGT\nLG\nIGF\nLG-B\nT\nE1\nR\nG1\nNE\nB\nG\nB\nG2\nY\n#30\n#40\n#10\nEO1\nW-B\nST1\nEO2\nW-B\n\nIGNITION COIL\nW/ IGNITER\n\nIGNITION\nCOOL\n\nB-O\n\nNOISE FILTER\nB\n\nIGNITER\n\nLG\nB\nB\nLG-B\nB\nB\nB\nL\nL\nY\n\nDISTRIBUTOR\n\nWB\n\nTo Super Moni\nTo Tachometer\nTo Check Cont"
+}

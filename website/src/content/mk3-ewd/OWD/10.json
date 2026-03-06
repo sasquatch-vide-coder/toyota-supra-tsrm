@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-10",
+  "section_header": "ECT (Electronic Controlled Transmission)",
+  "title": "ECT Electronic Controled Transmission",
+  "ocr_text": "ECT Electronic Controled Transmission\n\nT/M SPEED SENSOR\nO/D M/T\n\nFrom A.B.S. Computer (8-2)\n[W/ A.B.S.]\n\nFrom TCCS ECU (1-6) (8-7)\n\nFrom TCCS ECU (1-6)(8-7)\n\nFrom Cruise Control Computer (5-2)\n\nTo Check Connector (1-5)(8-6)\n\nFrom Throttle Position Sensor (1-5) (8-6)\n\nFrom Speed Sensor (2-1)\n\nG-B\nG-B\nL-Y\n\nR-G\nR-G\n\nG-W\n\nECT ECU\n\nR-W\nR-W\n\nR\nR\n\nB\nB\n\nR-Y\nR-Y\n\nR-Y\n\nY-B\nY-B\n\nY-B\n\nY-L\n\nP\n\nBR\nBR\n\nP-G\nP-G\n\nG-O\nPWR\n\nW-B\nW-B\nR-G\nP-G\n\nO/D MAIN S/W O/D OFF INDICATOR LIGHT (COMB. METER)\n\nPATTERN SELECT S/W\n\nG-O\nG-O\nPWR\n\nW-B\n\nR-G\nR-G\nNORM\n\nW-B\n\nW-B\n\nW-B\n\nNEUTRAL START S/W (A/T)\n\nTrans case part S/W (A/T)\n\n(For A.B.S.)\n\nT/O A.B.S Computer T/O A.B.S (8-2) Computer (8-2)\n\nNEUTRAL START S/W (A/T)\n\n2L\n\nL\n\nN\nH\nR\n\n2\nW\n\nW\n\nC\nC\n\nZ\nN\nR\nF\nP\n\nC"
+}

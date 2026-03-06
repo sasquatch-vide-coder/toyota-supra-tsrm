@@ -1,0 +1,6 @@
+{
+  "page_id": "TRBL-1",
+  "section_header": "TROUBLESHOOTING",
+  "title": "C TROUBLESHOOTING",
+  "ocr_text": "C TROUBLESHOOTING\n\nVOLTAGE CHECK\n(a) Establish conditions in which voltage is present at the check point.\n\nExample:\nⒶ- Ignition S/W on\nⒷ- Ignition S/W and S/W 1 on\nⒸ- Ignition S/W, S/W 1 and Relay on (S/W 2 off)\n(b) Using a voltmeter, connect the negative lead to a good ground point or negative battery terminal, and the positive lead to the connector or component terminal. This check can be done with a test light instead of a voltmeter.\n\nTo Ignition S/W\nIG Terminal\nFuse\nⒶ\nS/W 1\nVoltmeter\nⒷ\nRelay\nⒸ\nS/W 2\nSolenoid\n\nCONTINUITY AND RESISTANCE CHECK\n(a) Disconnect the battery terminal or wire so there is no voltage between the check points.\n(b) Contact the two leads of an ohmmeter to each of the check points.\n\nOhmmeter\nS/W\n\nOhmmeter\nDiode\n\nIf the circuit has diodes, reverse the two leads and check again.\nWhen contacting the negative lead to the diode positive side and the positive lead to the negative side, there should be continuity.\nWhen contacting the two leads in reverse, there should be no continuity.\n\nDigital Type\nAnalog Type\nTOYOTA DIGITAL AUTO\n\n(c) Use a volt/ohmmeter with high impedance (10 kΩ/V minimum) for troubleshooting of the electrical circuit."
+}

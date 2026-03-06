@@ -1,0 +1,6 @@
+{
+  "page_id": "S32-3",
+  "section_header": "COMBINATION METER",
+  "title": "COMBINATION METER",
+  "ocr_text": "32 COMBINATION METER\n\nCOMBINATION METER\n① 2-GROUND: 12 VOLTS WITH IGNITION S/W ON\n② B-GROUND: 12 VOLTS WITH IGNITION S/W ON\n③+, ④+, ⑤+, ⑥+-GROUND: ALWAYS CONTINUITY\nFUEL LEVEL GAUGE\n① B-© 4 : APPROX. 167.2Ω\n① B-© 5 : APPROX. 102.7Ω\n① 4-© 8 : APPROX. 64.5Ω\nOIL PRESSURE GAUGE\n② B-⑩ 4 : APPROX. 42Ω\nWATER TEMP. GAUGE\n① B-⑪ 2 : APPROX. 56Ω\n① B-⑪ 3 : APPROX. 145.8Ω\n① 2-⑪ 3 : APPROX. 201.8Ω\n\n⑨ PARKING BRAKE S/W\n1-GROUND: CLOSED WITH PARKING BRAKE\n         LEVER PULLED UP\n⑧ BRAKE FLUID LEVEL S/W\n1-2     : CLOSED WITH FLOAT DOWN\n⑥ FUEL SENDER\n3-4     : APPROX. 4Ω WITH FUEL FULL\n         APPROX. 32.5Ω WITH FUEL HALF FULL\n         APPROX. 110.0Ω WITH FUEL EMPTY\n⑪ WATER TEMP. SENDER\n(NIPPON DENSO MAKE)\n1-GROUND: APPROX. 226Ω AT 50°C(122°F)\n         APPROX. 28Ω AT 115°C(239°F)\n\n① ⑤GRAY ©BLUE\n[Connector diagrams showing pin layouts]\n\n⑩BROWN ⑥ ⑨BLACK ⑦⑧ ⑪GREEN ⑨GRAY ⑫\n[Multiple connector diagrams with pin numbers]\n\n©BLACK ⑪\n[Connector diagrams]\n\n⑬ ⑰ ⑳ ㉑\n[Multiple connector diagrams with pin numbers]"
+}

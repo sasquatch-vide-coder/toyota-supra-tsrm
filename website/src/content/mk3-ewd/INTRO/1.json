@@ -1,0 +1,6 @@
+{
+  "page_id": "INTRO-1",
+  "section_header": "INTRODUCTION",
+  "title": "A INTRODUCTION",
+  "ocr_text": "A INTRODUCTION\n\nThis manual is composed of the following 5 elements.\n\nPower Source\nCircuit from battery to each fuse\n\nSystem Circuit\nEach circuit classified by system\n\nGround Points\nRelation between ground points of each component\n\nRelay Location & Wiring Routing\nRelay & Connector location\nConnector Illustration\n\nOver all Wiring Diagram\nShows relation between each system\n\nSystem No.   System Title\n8  HEADLIGHTS\n\nHEADLIGHT RELAY\nREQUIRED WHEN THE TOTAL WATTAGE OF THE LIGHTS EXCEEDS 60\nOTHERS: FOR AT FLASH PROTECTION\nDIM: 30 AMP FLASH PROTECTION\nDIM: TO PROTECT DIMMER SWITCH\nDIM: TO PROTECT COMBINATION SWITCH\nDIM: TO PROTECT THE BULB TYPE FLASH PROTECTION\n\nHEADLIGHT\nLH\n\nELECTRICAL WIRING ROUTING\n(OVERALL)\n\nComponents  |  Circuit  |  Connector  |  Location\n\n[Headlight component illustration]  |  HEADLIGHT LH  |  D (Wire Harness Side) 1 2 3  |  3G Headlight LH /Wiring routing com- ponents listed in alphabetical order\n\nJunction Block No. 2\nNote: The number indicates the number of the junction block.  |  4(2C)  |  2C (Wire Harness Side)  |  2C Engine Room Main Wire & Junction Block No. 2\n\nWire to Wire Connector\nMale\nFemale  |  4(E1)\nMale\nFemale  |  E1 Female Male  |  E1 Engine Room Main Wire & Cowl Wire"
+}

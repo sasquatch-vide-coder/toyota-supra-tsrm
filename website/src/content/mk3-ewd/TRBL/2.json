@@ -1,0 +1,6 @@
+{
+  "page_id": "TRBL-2",
+  "section_header": "FINDING A SHORT CIRCUIT",
+  "title": "FINDING A SHORT CIRCUIT",
+  "ocr_text": "C\n\nFINDING A SHORT CIRCUIT\n\n(a) Remove the blown fuse and disconnect all loads of the fuse.\n(b) Connect a test light in place of the fuse.\n(c) Establish conditions in which the test light comes on. Example:\n    A - Ignition S/W on\n    B - Ignition S/W and S/W 1 on\n    C - Ignition S/W, S/W 1 and Relay on (Connect the Relay) and S/W 2 off (or Disconnect S/W 2)\n(d) Disconnect and reconnect the connectors while watching the test light.\n    The short lies between the connector where the test light stays lit and the connector where the light goes out.\n(e) Find the exact location of the short by lightly shaking the problem wire along the body.\n\nTo Ignition S/W IG Terminal\nTest Light\nFuse Case\nShort A\nS/W 1\nShort B\nDisconnect\nLight\nRelay\nShort C\nDisconnect\nS/W 2\nSolenoid\nDisconnect"
+}

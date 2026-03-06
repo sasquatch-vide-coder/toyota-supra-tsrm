@@ -1,0 +1,6 @@
+{
+  "page_id": "S29-1",
+  "section_header": "THEFT DETERRENT SYSTEM",
+  "title": "THEFT DETERRENT SYSTEM",
+  "ocr_text": "29 THEFT DETERRENT SYSTEM\n\n15A RADIO NO.1\n5 2B\nL-Y\nL-Y\n14 D5\n10 C5\nL-Y\n5\n\n15A CIG\n2 1N\nL-R\n4\n\nTO STARTER RELAY MAIN START S/A\nFROM IGNITION SW S1\nFROM CLUTCH START S/A\nSW NO.2 (M/T)\nSW (A/T)\n\n2 1\n4 3\nSTARTER RELAY\nB-H\n\nL-B\n\n3\n\nB THEFT DETERRENT COMPUTER\n\n10 2 6 9 1\nW-B G-A P-B Y-Y L-G\n\n8 E1\nG-A\n\n9 E2\nP-B\n\n2 E2\nP-B\n\n4 E2\nY-Y\n\n3 E2\nY-Y\n\n7 7D\n\n12 7A\nL-G\n\n1 F2\nV-L\n\nSECURITY INDICATOR\n\n3 O\n\nW-B\n\n8 O\n\nW-B\n\n6 3D\n\nJ/B NO.3\n\nW-B\n\n3 E3\n\nW-B\n\n14 E1\n\nW-B\n\n14 E1\n\nW-B\n\n7 1D\n\n3 1F\n\n5 1D\n\n4 N1\n\nW-B\n\nJ/B NO.1 SET BOLT\n\nR/B NO.4 SET BOLT\n\nDOOR LOCK S/A\n1 7\n2\nLH\nW-B\n\nC\n\nDOOR LOCK S/A\n1 7\n2\nRH\nW-B\n\nC\n\nDOOR KEY S/A\n5 7\n4\nLH\nW-B\n\nC\n\nDOOR KEY S/A\n5 7\n4\nRH\nW-B\n\nH\n\nDOOR LOCK SOLENOID LN\n2 C\n1\nW-B\n\nI\n\nTO DOOR LOCK CONTROL RELAY\n\nL-R\n\n4 C\n3\nW-B\n\nTO DOOR LOCK CONTROL RELAY\n\nW-B\n\nL-B"
+}

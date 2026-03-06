@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-4",
+  "section_header": "TCCS (7M-GE)",
+  "title": "",
+  "ocr_text": "TCCS\nTCCS (7M-GE)\n4\n5\nTo Cruise C\n1-FA\nEFI\n2\nB-O\nB-Y\n(AZT)\nY-L\nY\nEFI MAIN\nRELAY\nTo\nECT ECU (2-6)\nY-L\nBR\nBR\nTHROTTLE POSITION SENSOR\nWATER THERMO\nSENSOR\nL-R\n2\nW\nW-B\nBR\nB\nB\nB\nB-R\nL\nL-R\nG\nLG-R\nLG\nB-R (A/T)\nBL (A/T)\nBR\nB\nB-B\nB-R\nLG\nL\nRELAY CONTROL\nRELAY\nCIRCUIT\nOPENING RELAY\nKNOCK SENSOR\nL-Y\nW\nAIR FLOW\nMETER\nW-B\nOX SENSOR\nB-Y\nB-Y\nB\nLG\nW-B\nG\nFUEL PUMP\nRESISTOR\nCHECK\nCONNECTOR\nB-R\nL\nVF\nGR\n+B\nB-R\nFP\nOX\nB\nR-G\nT\nT\nW-B\nE2\nE1\nBR\nIG\nECT TEM\nR-G\nFrom Super Monitor Computer (2-8)\nV\nFrom TEMS Computer (3-7)\nY-B\nFrom ECT, ECU (2-6)\nB\nFrom Igniter (1-7)\nW\nW\nW-B\nBR\nW-B\nW-B\nM\nFUEL PUMP\nW-B"
+}

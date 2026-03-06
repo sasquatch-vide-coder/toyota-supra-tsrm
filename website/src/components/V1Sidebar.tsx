@@ -13,18 +13,28 @@ interface V1SidebarProps {
   sections: Section[];
   model: string;
   totalPages: number;
+  basePath?: string; // e.g. "/mk3/ewd" — overrides default /{model} link base
 }
 
-export default function V1Sidebar({ sections, model, totalPages }: V1SidebarProps) {
+export default function V1Sidebar({ sections, model, totalPages, basePath: basePathProp }: V1SidebarProps) {
   const pathname = usePathname();
 
-  // Detect if we're in a /v1/* route to build correct links
-  const basePath = pathname.startsWith("/v1") ? "/v1" : "";
+  // Use explicit basePath if provided, otherwise detect from route
+  const basePath = basePathProp || (pathname.startsWith("/v1") ? `/v1/${model}` : `/${model}`);
 
-  // Determine active section from path: find model segment then take next part
+  // Determine active section from path
   const pathParts = pathname.split("/").filter(Boolean);
+  const ewdIdx = pathParts.indexOf("ewd");
+  const tsrmIdx = pathParts.indexOf("tsrm");
   const modelIdx = pathParts.indexOf(model);
-  const activeSection = modelIdx >= 0 ? pathParts[modelIdx + 1] : undefined;
+  // For EWD/TSRM routes, active section is after the segment; fallback to after model
+  const activeSection = ewdIdx >= 0
+    ? pathParts[ewdIdx + 1]
+    : tsrmIdx >= 0
+      ? pathParts[tsrmIdx + 1]
+      : modelIdx >= 0
+        ? pathParts[modelIdx + 1]
+        : undefined;
 
   return (
     <div
@@ -72,7 +82,7 @@ export default function V1Sidebar({ sections, model, totalPages }: V1SidebarProp
           return (
             <Link
               key={s.code}
-              href={`${basePath}/${model}/${s.code}`}
+              href={`${basePath}/${s.code}`}
               style={{
                 display: "flex",
                 alignItems: "center",

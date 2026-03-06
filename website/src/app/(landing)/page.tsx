@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { MODELS } from "@/lib/models";
 import { loadSections } from "@/lib/sections";
+import { getDocuments } from "@/lib/documents";
 
 export const metadata: Metadata = {
   title: {
@@ -110,10 +111,10 @@ export default function LandingPage() {
           {MODELS.map((model) => {
             const sections = loadSections(model.id);
             const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
+            const documents = getDocuments(model.id);
             return (
-              <Link
+              <div
                 key={model.id}
-                href={`/${model.id}`}
                 style={{
                   display: "block",
                   background: "#FFFFFF",
@@ -121,8 +122,6 @@ export default function LandingPage() {
                   padding: "32px",
                   position: "relative",
                   overflow: "hidden",
-                  textDecoration: "none",
-                  color: "inherit",
                 }}
               >
                 {/* Ghost generation watermark */}
@@ -169,12 +168,20 @@ export default function LandingPage() {
                       <span>Coming soon</span>
                     )}
                   </div>
-                  <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "var(--color-red)", fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: "700" }}>
-                    Browse Manual
-                    <span style={{ fontSize: "14px" }}>→</span>
+                  <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                    {documents.map((doc) => (
+                      <Link
+                        key={doc.type}
+                        href={doc.type === "manual" ? `/${model.id}/tsrm` : `/${model.id}/ewd`}
+                        style={{ display: "flex", alignItems: "center", gap: "8px", color: "var(--color-red)", fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: "700", textDecoration: "none" }}
+                      >
+                        {doc.label}
+                        <span style={{ fontSize: "14px" }}>→</span>
+                      </Link>
+                    ))}
                   </div>
                 </div>
-              </Link>
+              </div>
             );
           })}
         </div>

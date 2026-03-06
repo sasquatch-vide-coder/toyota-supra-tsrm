@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-38",
+  "section_header": "STARTING SYSTEM",
+  "title": "STARTING SYSTEM CIRCUIT",
+  "ocr_text": "Power Sourse\n2\n3\nIGNITION S/W\nACC\nW\nAM1\nIG1\nST1\nB-W\nW-R\nAM2\nIG2\nB-O\nFuse (2-1)\nFrom Neutral Start S/W (2-6)\nW\nFrom \"ECU-IG\" Fuse (3-6)\nW-R\nFrom \"STOP\" Fuse (5-3)\n2\nDAR-FL-AM1\nDAR-FL-AM2\n2\n2\nB\nW\nB\nB/W Canada A/T)\nL-O\nB-W\nPL\nN\n+B\nBAT\nFL-ALT-2BR\nW-FL-ALT-2BR\nPKB\nSTP\nECT\nB-W (W-T)\nB-W (W-T)\nB\nG-Y\nL-Y\nFrom Cruise Control Computer\nor Cruise Control Clutch S/W\nB-W\nB-W\n(5-2)\nFrom TEMS\nComputer (3-7) (A/T)\nB-W\nW\nW\nB-W\nNEUTRAL START\nS/W (A/T)\nB-L (W-T)\nTo Parking Brake S/W (2-2)\n& Brake Fluid Level (3-6)\nTo Stop Light (3-5)\nTo T/M Speed Sensor (3-6)\nB-L\nFL-BAN A-7AU\nB-L\nB\nBATTERY\nB\nSTARTER\nder left front pillar\nd = Located under right front pillar\nf = Located on back panel"
+}

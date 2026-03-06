@@ -1,0 +1,6 @@
+{
+  "page_id": "RL-2",
+  "section_header": "RELAY LOCATIONS",
+  "title": "RELAY LOCATIONS",
+  "ocr_text": "RELAY LOCATIONS\n\nA/C Relay Box (In Front of Heater Unit)\nA/C Amplifier\nTCCS ECU\nA.B.S. Computer\nWiper Relay\nTheft Deterrent Computer\nCruise Control Computer\nJ/B No. 7 (Inside of Cowl Wire)\nSuper Monitor Computer\nR/B No. 4\nR/B No. 5\nJ/B No. 3\nJ/B No. 1\nECT ECU\nFog Light Relay\n15A Fog Fuse\nIntegration Relay No. 2 (Retract Control and Light Auto Turn-off System)\nIntegration Relay No. 1 (for Interior Light Fade-out, Unlock and Seat Belt Warning System)\n\n[J/B No. 1]\n1M\n1L\n1M\n1N\n1K\n1J\n1I\nDiode (Front Wiper System)\nINTEGRATION RELAY No. 1 Interior Light Fade-out Unlock Seat Belt Warning\n\n[J/B No. 1]\n1B\n1A\n1F\n30A DEFOG C.B.\n1G\nDEFOGGER RELAY\nTAILLIGHT RELAY\nC/OPN\n2 GAUGE\n3 DOME\n4 DOME\n5 STOP\n6 TAIL\n7 TAIL\nC OPN\nD ST\nE OPN 2\nF OPN 2 GAUGE\nG DEF\nH DEF\nI RR\nJ DEF\nK DOME\nL TAIL\nM ST\nN ST\nENGINE\nWIPER 1\nWIPER 2\nREAR\nCIG\nFOG\nSEAT\nTURN\nA/C\nDEF\n1D\n\n[R/B No. 5]\nTURN SIGNAL FLASHER\nPOWER MAIN RELAY\n30A POWER CB\nHORN RELAY"
+}

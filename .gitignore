@@ -10,6 +10,7 @@ data/*/diagrams/
 data/*/processed/
 data/*/forum/
 data/*/pdfs/
+data/ewd/
 
 # Python
 __pycache__/

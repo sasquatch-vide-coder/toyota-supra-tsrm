@@ -1,0 +1,6 @@
+{
+  "page_id": "S33-4",
+  "section_header": "AIR CONDITIONING SYSTEM",
+  "title": "AIR CONDITIONING SYSTEM CIRCUIT",
+  "ocr_text": "33\n\nL-R\n\n2\n\n⑦\n10A\nA/C\n\nG-B\n\n15A\nCIG\n\n1\n\n2 13\n\nL HEATER CONTROL ASSEMBLY\n\nV-R\n\n9 7 5\n\nL-R\n\nV-R\n\nP-B P-B\n\n7 A1\n\n11 E4\n\nP-B\n\n5 A5\n\nV-R\n\nR 1\n\nP-Wh\n\nN 1\n\nY\n\n1\n\nV-R\n\n5 DUAL PRESSURE SW.\n3\n\nL-R\n\n2\n\n2 1\n\n30 71 ②\n\nMAGNET\nCLUTCH\nRELAY\n\nY\n\n4 3\n\nBR-Y BR-Y\n\n12 E4\n\nY\n\n6\n\nBR\nL\n\nL L\n\n2\n\nP-G\n\nY\n\n5 A5\n\n2 A5\n\n3 K3 2 K3\n\nC-G\n\nV-R\n\nY\n\nBR\n\n9 L1\n\n5 L1\n\n6 L1\n\n8 L1\n\nV-Y V-R\n\nV-W V-R\n\nV-W\n\nB-R\n\nL\n\n2 5 4 7\n\n1 9\n\nX A/C AMPLIFIER\n\nCHECK\nCONNECTORS\n\n1 10\n\n10 9 8 11\n\nV-G\n\nV-W V-G Y-G B-W\n\n1 11\n\nW-B\n\n⑨ 1\n\nTHERMISTOR\n\n11 L1\n\nY\n\n7 L1\n\nV-B\n\n2\n\nL-R\n\nY-G\n\n13 B1\n\nL-R\n\nN 1\n\nMAGNET\nCLUTCH\n\nTO TYPE ECU\nVAC.SW.\n\nH-B\n\nH-B"
+}

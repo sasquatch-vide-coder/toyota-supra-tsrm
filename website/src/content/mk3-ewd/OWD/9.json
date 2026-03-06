@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-9",
+  "section_header": "REAR WINDOW DEFOGGER",
+  "title": "Rear Window Defogger",
+  "ocr_text": "Rear Window Defogger\n4\nB\n5\nA\n30A\nDEFOG\nCB\nY\nTo Heater Relay, A/C Relay Box & I\nun Relay (4:1)\nY\nY\nY\n1\nY\nY\n3\nDEFOGGER\nRELAY\n30A\nFrom \"ECU-IG\" Fuse (3:6)\nFrom \"RAC\n1\nE\nTo TCCS ECU \"DEF\"\n(1:6)(6:7)\n1\nB\nR-Y\nBR\nIG\nV\nB\nNOISE\nFILTER\nS3\nS2\nR-L\nG-Y\nV\nWNG Thrmst\nTIMER\nV\nG-Y\nR-L\nG-Y\nDEFOGGER S/W\nB\nCHOKE COIL\nB\n30A\n30A\nTo Cruise Control Computer (15:2)\nREAR WINDOW\nGLASS\nDEFOGGER\nT/M SOLENC\nB\nW-B\n3\nW-B\n1\n* Located on back panel\nTo Check Engine (8:6)(8:7)\nTo Seat Belt Warning Light (6:1)\nTo \"Main\" Fuse-WSU (7:2)\nTo Integration Relay No. 1\n(5:5)\nTo \"Main HTR\" Fuse (6:3)"
+}

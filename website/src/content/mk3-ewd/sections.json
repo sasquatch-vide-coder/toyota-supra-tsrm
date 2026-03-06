@@ -1,0 +1,1092 @@
+[
+  {
+    "code": "INTRO",
+    "name": "Introduction & How To Use",
+    "pages": 6,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "A INTRODUCTION",
+        "section_header": "INTRODUCTION"
+      },
+      {
+        "page": 2,
+        "title": "14 REAR WINDOW DEFOGGER",
+        "section_header": "REAR WINDOW DEFOGGER"
+      },
+      {
+        "page": 3,
+        "title": "HOW TO USE THIS MANUAL",
+        "section_header": "HOW TO USE THIS MANUAL"
+      },
+      {
+        "page": 4,
+        "title": "HEADLIGHT CIRCUIT TROUBLESHOOTING",
+        "section_header": "LIGHTING SYSTEM"
+      },
+      {
+        "page": 5,
+        "title": "HOW TO USE THIS MANUAL",
+        "section_header": "HOW TO USE THIS MANUAL"
+      },
+      {
+        "page": 6,
+        "title": "HEADLIGHT SYSTEM TROUBLESHOOTING AND DIAGRAM REFERENCE",
+        "section_header": "HEADLIGHT SYSTEM"
+      }
+    ]
+  },
+  {
+    "code": "TRBL",
+    "name": "Troubleshooting",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "C TROUBLESHOOTING",
+        "section_header": "TROUBLESHOOTING"
+      },
+      {
+        "page": 2,
+        "title": "FINDING A SHORT CIRCUIT",
+        "section_header": "FINDING A SHORT CIRCUIT"
+      }
+    ]
+  },
+  {
+    "code": "GLOS",
+    "name": "Glossary of Terms and Symbols",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "D GLOSSARY OF TERMS AND SYMBOLS",
+        "section_header": "GLOSSARY OF TERMS AND SYMBOLS"
+      },
+      {
+        "page": 2,
+        "title": "ELECTRICAL SYMBOLS AND DEFINITIONS - PAGE D",
+        "section_header": "ELECTRICAL SYMBOLS AND DEFINITIONS"
+      }
+    ]
+  },
+  {
+    "code": "S1",
+    "name": "Power Source",
+    "pages": 4,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "J/B No.1 (Left Kick Panel)",
+        "section_header": "POWER SOURCE (Power-Load Reference)"
+      },
+      {
+        "page": 2,
+        "title": "J/B No.1 (Left Kick Panel), J/B No.2 (Engine Compartment), J/B No.4 (Right Kick Panel), Fusible Links (Near the Battery), J/B No.5 (Near the J/B No.1), Fuse (Near the J/B No.1)",
+        "section_header": "FUSE AND RELAY LOCATIONS"
+      },
+      {
+        "page": 3,
+        "title": "POWER SOURCE",
+        "section_header": "POWER SOURCE"
+      },
+      {
+        "page": 4,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S2",
+    "name": "Starting and Ignition Systems",
+    "pages": 4,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "STARTING AND IGNITION SYSTEMS",
+        "section_header": "STARTING AND IGNITION SYSTEMS"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      },
+      {
+        "page": 3,
+        "title": "STARTING AND IGNITION SYSTEMS",
+        "section_header": "STARTING AND IGNITION SYSTEMS"
+      },
+      {
+        "page": 4,
+        "title": "CONNECTORS",
+        "section_header": "CONNECTORS"
+      }
+    ]
+  },
+  {
+    "code": "S3",
+    "name": "EFI System",
+    "pages": 12,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "EFI SYSTEM(7M-GTE)",
+        "section_header": "EFI SYSTEM(7M-GTE)"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": "ENGINE CONTROL SYSTEM"
+      },
+      {
+        "page": 3,
+        "title": "EFI SYSTEM(7M-GTE)",
+        "section_header": "EFI SYSTEM"
+      },
+      {
+        "page": 4,
+        "title": "EFI MAIN RELAY AND COMPONENT RESISTANCE SPECIFICATIONS",
+        "section_header": "EFI COMPONENTS AND RESISTANCE VALUES"
+      },
+      {
+        "page": 5,
+        "title": "EFI SYSTEM(7M-GTE)",
+        "section_header": "EFI SYSTEM (7M-GTE)"
+      },
+      {
+        "page": 6,
+        "title": "CONNECTOR DIAGRAMS",
+        "section_header": "CONNECTOR DIAGRAMS"
+      },
+      {
+        "page": 7,
+        "title": "EFI SYSTEM (7M-GE)",
+        "section_header": "EFI SYSTEM (7M-GE)"
+      },
+      {
+        "page": 8,
+        "title": "",
+        "section_header": "ENGINE CONTROL SYSTEM"
+      },
+      {
+        "page": 9,
+        "title": "EFI SYSTEM (7M-GE)",
+        "section_header": "EFI SYSTEM (7M-GE)"
+      },
+      {
+        "page": 10,
+        "title": "EFI MAIN RELAY AND TCCS ECU VOLTAGE SPECIFICATIONS",
+        "section_header": "EFI MAIN RELAY / TCCS ECU DIAGNOSTICS"
+      },
+      {
+        "page": 11,
+        "title": "EFI SYSTEM (7M-GE)",
+        "section_header": "EFI SYSTEM (7M-GE)"
+      },
+      {
+        "page": 12,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S4",
+    "name": "Charging System",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "CHARGING SYSTEM",
+        "section_header": "CHARGING SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S5",
+    "name": "Light Auto Turn Off System",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "LIGHT AUTO TURN OFF SYSTEM",
+        "section_header": "LIGHT AUTO TURN OFF SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S6",
+    "name": "Turn Signal and Hazard Warning Lights",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "6 TURN SIGNAL AND HAZARD WARNING LIGHTS",
+        "section_header": "TURN SIGNAL AND HAZARD WARNING LIGHTS"
+      },
+      {
+        "page": 2,
+        "title": "CONNECTOR DIAGRAMS",
+        "section_header": "TURN SIGNAL FLASHER"
+      }
+    ]
+  },
+  {
+    "code": "S7",
+    "name": "Headlights",
+    "pages": 3,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "HEADLIGHTS",
+        "section_header": "HEADLIGHTS"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      },
+      {
+        "page": 3,
+        "title": "HEADLIGHTS",
+        "section_header": "HEADLIGHTS"
+      }
+    ]
+  },
+  {
+    "code": "S8",
+    "name": "Fog Lights",
+    "pages": 1,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "FOG LIGHTS 8",
+        "section_header": "FOG LIGHTS"
+      }
+    ]
+  },
+  {
+    "code": "S9",
+    "name": "Interior Lights",
+    "pages": 3,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "INTERIOR LIGHTS",
+        "section_header": "INTERIOR LIGHTS"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      },
+      {
+        "page": 3,
+        "title": "INTERIOR LIGHTS",
+        "section_header": "INTERIOR LIGHTS"
+      }
+    ]
+  },
+  {
+    "code": "S10",
+    "name": "Back-Up Lights",
+    "pages": 1,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "BACK-UP LIGHTS",
+        "section_header": "BACK-UP LIGHTS"
+      }
+    ]
+  },
+  {
+    "code": "S11",
+    "name": "Stop Lights",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "STOP LIGHTS",
+        "section_header": "STOP LIGHTS"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S12",
+    "name": "Taillights and Illumination",
+    "pages": 5,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "TAILLIGHTS AND ILLUMINATION",
+        "section_header": "TAILLIGHTS AND ILLUMINATION"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      },
+      {
+        "page": 3,
+        "title": "TAILLIGHTS AND ILLUMINATION",
+        "section_header": "TAILLIGHTS AND ILLUMINATION"
+      },
+      {
+        "page": 4,
+        "title": "",
+        "section_header": ""
+      },
+      {
+        "page": 5,
+        "title": "TAILLIGHTS AND ILLUMINATION",
+        "section_header": "TAILLIGHTS AND ILLUMINATION"
+      }
+    ]
+  },
+  {
+    "code": "S13",
+    "name": "Remote Control Mirrors",
+    "pages": 1,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "REMOTE CONTROL MIRRORS",
+        "section_header": "REMOTE CONTROL MIRRORS"
+      }
+    ]
+  },
+  {
+    "code": "S14",
+    "name": "Rear Window Defogger and Mirror Heater",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "REAR WINDOW DEFOGGER AND MIRROR HEATER",
+        "section_header": "REAR WINDOW DEFOGGER AND MIRROR HEATER"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S15",
+    "name": "Front Wiper and Washer",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "FRONT WIPERS AND WASHER",
+        "section_header": "FRONT WIPERS AND WASHER"
+      },
+      {
+        "page": 2,
+        "title": "WIPER AND WASHER S/M",
+        "section_header": "WIPER AND WASHER SYSTEM"
+      }
+    ]
+  },
+  {
+    "code": "S16",
+    "name": "Door Locks",
+    "pages": 3,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "DOOR LOCKS",
+        "section_header": "DOOR LOCKS"
+      },
+      {
+        "page": 2,
+        "title": "DOOR LOCK CONTROL RELAY",
+        "section_header": ""
+      },
+      {
+        "page": 3,
+        "title": "DOOR LOCKS",
+        "section_header": "DOOR LOCKS"
+      }
+    ]
+  },
+  {
+    "code": "S17",
+    "name": "Rear Wiper and Washer",
+    "pages": 1,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "REAR WIPER AND WASHER",
+        "section_header": "REAR WIPER AND WASHER"
+      }
+    ]
+  },
+  {
+    "code": "S18",
+    "name": "Power Windows",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "POWER WINDOWS",
+        "section_header": "POWER WINDOWS"
+      },
+      {
+        "page": 2,
+        "title": "POWER WINDOW MASTER S/W AND CONNECTORS",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S19",
+    "name": "Power Seat",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "POWER SEAT",
+        "section_header": "POWER SEAT"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S20",
+    "name": "Cruise Control",
+    "pages": 4,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "CRUISE CONTROL",
+        "section_header": "CRUISE CONTROL"
+      },
+      {
+        "page": 2,
+        "title": "CRUISE CONTROL SYSTEM CIRCUIT",
+        "section_header": "CRUISE CONTROL SYSTEM"
+      },
+      {
+        "page": 3,
+        "title": "CRUISE CONTROL COMPUTER CONNECTORS",
+        "section_header": "CRUISE CONTROL"
+      },
+      {
+        "page": 4,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S21",
+    "name": "ECT System",
+    "pages": 4,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "ECT SYSTEM",
+        "section_header": "ECT SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      },
+      {
+        "page": 3,
+        "title": "ECT SYSTEM",
+        "section_header": "ECT SYSTEM"
+      },
+      {
+        "page": 4,
+        "title": "CONNECTOR DIAGRAMS",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S22",
+    "name": "Anti-Lock Brake System (ABS)",
+    "pages": 4,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "22 A.B.S. (ANTI-LOCK BRAKE SYSTEM)",
+        "section_header": "A.B.S. (ANTI-LOCK BRAKE SYSTEM)"
+      },
+      {
+        "page": 2,
+        "title": "ANTI-LOCK BRAKE SYSTEM",
+        "section_header": "ANTI-LOCK BRAKE SYSTEM"
+      },
+      {
+        "page": 3,
+        "title": "A.B.S. (ANTI-LOCK BRAKE SYSTEM)",
+        "section_header": "A.B.S. (ANTI-LOCK BRAKE SYSTEM)"
+      },
+      {
+        "page": 4,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S23",
+    "name": "Headlight Cleaner",
+    "pages": 1,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "HEADLIGHT CLEANER",
+        "section_header": "HEADLIGHT CLEANER"
+      }
+    ]
+  },
+  {
+    "code": "S24",
+    "name": "Cigarette Lighter and Clock",
+    "pages": 1,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "CIGARETTE LIGHTER AND CLOCK",
+        "section_header": "CIGARETTE LIGHTER AND CLOCK"
+      }
+    ]
+  },
+  {
+    "code": "S25",
+    "name": "TEMS",
+    "pages": 5,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "25 TEMS (TOYOTA ELECTRONIC MODULATED SUSPENSION)",
+        "section_header": "TEMS (TOYOTA ELECTRONIC MODULATED SUSPENSION)"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": "SUSPENSION"
+      },
+      {
+        "page": 3,
+        "title": "TEMS AND PPS COMPUTER",
+        "section_header": "TEMS (TOYOTA ELECTRONIC MODULATED SUSPENSION)"
+      },
+      {
+        "page": 4,
+        "title": "",
+        "section_header": "SUSPENSION"
+      },
+      {
+        "page": 5,
+        "title": "TEMS (TOYOTA ELECTRONIC MODULATED SUSPENSION)",
+        "section_header": "TEMS (TOYOTA ELECTRONIC MODULATED SUSPENSION)"
+      }
+    ]
+  },
+  {
+    "code": "S26",
+    "name": "Unlock and Seat Belt Warning",
+    "pages": 1,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "UNLOCK AND SEAT BELT WARNING",
+        "section_header": "UNLOCK AND SEAT BELT WARNING"
+      }
+    ]
+  },
+  {
+    "code": "S27",
+    "name": "Super Monitor",
+    "pages": 3,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "SUPER MONITOR",
+        "section_header": "SUPER MONITOR"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      },
+      {
+        "page": 3,
+        "title": "SUPER MONITOR",
+        "section_header": "SUPER MONITOR"
+      }
+    ]
+  },
+  {
+    "code": "S28",
+    "name": "Horns",
+    "pages": 1,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "HORNS",
+        "section_header": "HORNS"
+      }
+    ]
+  },
+  {
+    "code": "S29",
+    "name": "Theft Deterrent System",
+    "pages": 4,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "THEFT DETERRENT SYSTEM",
+        "section_header": "THEFT DETERRENT SYSTEM"
+      },
+      {
+        "page": 2,
+        "title": "THEFT DETERRENT SYSTEM CIRCUIT",
+        "section_header": "THEFT DETERRENT SYSTEM"
+      },
+      {
+        "page": 3,
+        "title": "THEFT DETERRENT SYSTEM",
+        "section_header": "THEFT DETERRENT SYSTEM"
+      },
+      {
+        "page": 4,
+        "title": "",
+        "section_header": "CONNECTOR DIAGRAMS"
+      }
+    ]
+  },
+  {
+    "code": "S30",
+    "name": "Auto Antenna",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "AUTO ANTENNA",
+        "section_header": "AUTO ANTENNA"
+      },
+      {
+        "page": 2,
+        "title": "CONTROL RELAY",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S31",
+    "name": "Radio and Tape Player",
+    "pages": 2,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "31 RADIO AND TAPE PLAYER",
+        "section_header": "RADIO AND TAPE PLAYER"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S32",
+    "name": "Combination Meter",
+    "pages": 4,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "32 COMBINATION METER",
+        "section_header": "COMBINATION METER"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": "ELECTRONIC FUEL INJECTION SYSTEM"
+      },
+      {
+        "page": 3,
+        "title": "COMBINATION METER",
+        "section_header": "COMBINATION METER"
+      },
+      {
+        "page": 4,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S33",
+    "name": "Automatic Air Conditioner",
+    "pages": 8,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "AUTOMATIC AIR CONDITIONER",
+        "section_header": "AUTOMATIC AIR CONDITIONER"
+      },
+      {
+        "page": 2,
+        "title": "HEATER CONTROL ASSEMBLY / AIR VENT MODE CONTROL SERVO MOTOR",
+        "section_header": "HEATER CONTROL ASSEMBLY"
+      },
+      {
+        "page": 3,
+        "title": "AUTOMATIC AIR CONDITIONER",
+        "section_header": "AUTOMATIC AIR CONDITIONER"
+      },
+      {
+        "page": 4,
+        "title": "AIR CONDITIONING SYSTEM CIRCUIT",
+        "section_header": "AIR CONDITIONING SYSTEM"
+      },
+      {
+        "page": 5,
+        "title": "AUTOMATIC AIR CONDITIONER",
+        "section_header": "AUTOMATIC AIR CONDITIONER"
+      },
+      {
+        "page": 6,
+        "title": "CONNECTOR DIAGRAMS PAGE 33",
+        "section_header": "CONNECTOR DIAGRAMS"
+      },
+      {
+        "page": 7,
+        "title": "AUTOMATIC AIR CONDITIONER",
+        "section_header": "AUTOMATIC AIR CONDITIONER"
+      },
+      {
+        "page": 8,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  },
+  {
+    "code": "S34",
+    "name": "Ground Points",
+    "pages": 4,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "GROUND POINTS",
+        "section_header": "GROUND POINTS"
+      },
+      {
+        "page": 2,
+        "title": "",
+        "section_header": ""
+      },
+      {
+        "page": 3,
+        "title": "GROUND POINTS",
+        "section_header": "GROUND POINTS"
+      },
+      {
+        "page": 4,
+        "title": "CONNECTOR DIAGRAMS",
+        "section_header": "CONNECTORS"
+      }
+    ]
+  },
+  {
+    "code": "RL",
+    "name": "Relay Locations",
+    "pages": 3,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "RELAY LOCATIONS",
+        "section_header": "RELAY LOCATIONS"
+      },
+      {
+        "page": 2,
+        "title": "RELAY LOCATIONS",
+        "section_header": "RELAY LOCATIONS"
+      },
+      {
+        "page": 3,
+        "title": "RELAY LOCATIONS",
+        "section_header": "RELAY LOCATIONS"
+      }
+    ]
+  },
+  {
+    "code": "EWR",
+    "name": "Electrical Wiring Routing",
+    "pages": 5,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "ELECTRICAL WIRING ROUTING",
+        "section_header": "ELECTRICAL WIRING ROUTING"
+      },
+      {
+        "page": 2,
+        "title": "CONNECTOR LOCATIONS AND COMPONENT LIST",
+        "section_header": "ENGINE ROOM WIRING"
+      },
+      {
+        "page": 3,
+        "title": "INSTRUMENT PANEL WIRING DIAGRAM",
+        "section_header": "INSTRUMENT PANEL"
+      },
+      {
+        "page": 4,
+        "title": "WIRE HARNESS ROUTING AND GROUND POINTS",
+        "section_header": "BODY ELECTRICAL"
+      },
+      {
+        "page": 5,
+        "title": "ELECTRICAL WIRING ROUTING",
+        "section_header": "ELECTRICAL WIRING ROUTING"
+      }
+    ]
+  },
+  {
+    "code": "OWD",
+    "name": "Overall Wiring Diagram",
+    "pages": 42,
+    "page_index": [
+      {
+        "page": 1,
+        "title": "SYSTEM INDEX",
+        "section_header": "SYSTEM INDEX"
+      },
+      {
+        "page": 2,
+        "title": "TOYOTA SUPRA ELECTRICAL WIRING DIAGRAM-1987 Model (Page",
+        "section_header": "STARTING SYSTEM"
+      },
+      {
+        "page": 3,
+        "title": "STARTING SYSTEM CIRCUIT",
+        "section_header": "STARTING SYSTEM"
+      },
+      {
+        "page": 4,
+        "title": "",
+        "section_header": "TCCS (7M-GE)"
+      },
+      {
+        "page": 5,
+        "title": "IGNITION SYSTEM CIRCUIT",
+        "section_header": "IGNITION SYSTEM"
+      },
+      {
+        "page": 6,
+        "title": "TOYOTA SUPRA 1",
+        "section_header": "CHARGING SYSTEM"
+      },
+      {
+        "page": 7,
+        "title": "",
+        "section_header": "2 TOYOTA SUPRA (Cont'd)"
+      },
+      {
+        "page": 8,
+        "title": "Combination Meter",
+        "section_header": "Combination Meter"
+      },
+      {
+        "page": 9,
+        "title": "Rear Window Defogger",
+        "section_header": "REAR WINDOW DEFOGGER"
+      },
+      {
+        "page": 10,
+        "title": "ECT Electronic Controled Transmission",
+        "section_header": "ECT (Electronic Controlled Transmission)"
+      },
+      {
+        "page": 11,
+        "title": "Back-up Lights / Super Monitor",
+        "section_header": "TOYOTA SUPRA"
+      },
+      {
+        "page": 12,
+        "title": "TOYOTA SUPRA (Cont'd)",
+        "section_header": "WIPER AND WASHER SYSTEM"
+      },
+      {
+        "page": 13,
+        "title": "Headlight Cleaner",
+        "section_header": "Wiper and Washer"
+      },
+      {
+        "page": 14,
+        "title": "Turn Signal and Hazard / Horn",
+        "section_header": "Turn Signal and Hazard / Horn"
+      },
+      {
+        "page": 15,
+        "title": "",
+        "section_header": ""
+      },
+      {
+        "page": 16,
+        "title": "TOYOTA SUPRA 3",
+        "section_header": "TEMS"
+      },
+      {
+        "page": 17,
+        "title": "4 TOYOTA SUPRA (Cont'd)",
+        "section_header": "POWER WINDOWS"
+      },
+      {
+        "page": 18,
+        "title": "POWER SEAT CIRCUIT",
+        "section_header": "POWER SEAT"
+      },
+      {
+        "page": 19,
+        "title": "POWER SEAT MOTOR",
+        "section_header": "POWER SEAT"
+      },
+      {
+        "page": 20,
+        "title": "Door Locks",
+        "section_header": "DOOR LOCKS"
+      },
+      {
+        "page": 21,
+        "title": "THEFT DETERRENT SYSTEM",
+        "section_header": "THEFT DETERRENT SYSTEM"
+      },
+      {
+        "page": 22,
+        "title": "Cruise Control",
+        "section_header": "TOYOTA SUPRA (Cont'd)"
+      },
+      {
+        "page": 23,
+        "title": "",
+        "section_header": "STOP LIGHTS"
+      },
+      {
+        "page": 24,
+        "title": "Taillights and Illumination",
+        "section_header": "Taillights and Illumination"
+      },
+      {
+        "page": 25,
+        "title": "RETRACTABLE HEADLIGHT SYSTEM",
+        "section_header": "BODY ELECTRICAL"
+      },
+      {
+        "page": 26,
+        "title": "TOYOTA SUPRA 5",
+        "section_header": "LIGHTING SYSTEM"
+      },
+      {
+        "page": 27,
+        "title": "Unlock and Seat Belt Warning",
+        "section_header": "6 TOYOTA SUPRA (Cont'd)"
+      },
+      {
+        "page": 28,
+        "title": "Interior Lights",
+        "section_header": "Interior Lights"
+      },
+      {
+        "page": 29,
+        "title": "Clock and Cigarette Lighter Wiring Diagram",
+        "section_header": "CLOCK AND CIGARETTE LIGHTER"
+      },
+      {
+        "page": 30,
+        "title": "Auto Antenna Radio and Tape Player",
+        "section_header": "AUTO ANTENNA AND RADIO/TAPE PLAYER"
+      },
+      {
+        "page": 31,
+        "title": "TOYOTA SUPRA - Remote Control Mirrors with Heater",
+        "section_header": "REMOTE CONTROL MIRRORS WITH HEATER"
+      },
+      {
+        "page": 32,
+        "title": "TOYOTA SUPRA (Cont'd)",
+        "section_header": "TOYOTA SUPRA (Cont'd)"
+      },
+      {
+        "page": 33,
+        "title": "AIR VENT MODE CONTROL SERVO MOTOR",
+        "section_header": "AIR CONDITIONING SYSTEM"
+      },
+      {
+        "page": 34,
+        "title": "",
+        "section_header": "Air Conditioner, Cooler and Heater"
+      },
+      {
+        "page": 35,
+        "title": "",
+        "section_header": "HEATED IGNITION ASSEMBLY"
+      },
+      {
+        "page": 36,
+        "title": "TOYOTA SUPRA 7",
+        "section_header": "TOYOTA SUPRA"
+      },
+      {
+        "page": 37,
+        "title": "A.B.S. (Anti-Lock Brake System)",
+        "section_header": "8 TOYOTA SUPRA (Cont'd)"
+      },
+      {
+        "page": 38,
+        "title": "STARTING SYSTEM CIRCUIT",
+        "section_header": "STARTING SYSTEM"
+      },
+      {
+        "page": 39,
+        "title": "STARTING SYSTEM CIRCUIT",
+        "section_header": "STARTING SYSTEM"
+      },
+      {
+        "page": 40,
+        "title": "",
+        "section_header": "TCCS (7M-GTE)"
+      },
+      {
+        "page": 41,
+        "title": "TOYOTA SUPRA",
+        "section_header": "IGNITION SYSTEM"
+      },
+      {
+        "page": 42,
+        "title": "",
+        "section_header": ""
+      }
+    ]
+  }
+]

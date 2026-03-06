@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-20",
+  "section_header": "DOOR LOCKS",
+  "title": "Door Locks",
+  "ocr_text": "DOOR LOCK CONTROL S/W RH\nLOCK\nG-Y\nW-B\nUNLOCK\nL-B\n\nDOOR LOCK KEY\nS/W RH\nLOCK\nG-Y\nW-B\nW-B\nUNLOCK\nL-B\nL-B\nB-W\n\nDOOR LOCK CONTROL RELAY\n\nDOOR LOCK SOLENOID LH\nW-B\nW-L\nW-L\nL-R\nL\nL\n\nW-L\n\nDOOR LOCK SOLENOID RH\nL-R\nL\nW-B\nL\nL\n\nU55A\n\nL-R\n\nUNLOCK WARNING S/W\nW-B\nG-W\nG-W\n\nG-W\n\nFrom Integration Relay No. 1 (6-1)\n\nTo Door Courtesy S/W RH (6-2)\nR-B\nR-W\n\nTo Door Courtesy S/W LH (6-2)\nR-G\n\nDoor Locks\n6"
+}

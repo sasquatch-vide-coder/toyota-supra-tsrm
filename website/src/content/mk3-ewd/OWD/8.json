@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-8",
+  "section_header": "Combination Meter",
+  "title": "Combination Meter",
+  "ocr_text": "Combination Meter\n2\n3\nH\n7.5A\nGAUGE\nTo Power Window M\nFrom TCCS ECU (8-7)\nY\n3\nW\n1\nY-B\nW\n1\nOIL\nOIL\nPRESSURE SENDER\nY-B\nL-R\nFUEL\nFUEL SENDER\nBR\nL-R\nBR\nTURBO\nBR\nPRESSURE SENSOR\nTURBO\nW\nO\nBR\nDRIVE\nCIRCUIT\nTACH\nB\nFrom Igniter (1-7) (8-8)\nW-B\nVOLT\n3\nWATER\nTEMP. SENDER\nWATER TEMP.\nY-G\nW-B\n1\nW-B\nW-B\nBR\nBR\nBR\n1\na = Located under left front pillar\nd = Located under right front pillar\ne = Located behind radio\nf\nTo Light Failure Sensor (5-1)"
+}

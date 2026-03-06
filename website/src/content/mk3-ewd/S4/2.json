@@ -1,0 +1,6 @@
+{
+  "page_id": "S4-2",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "4\n\nALTERNATOR\n⊕ 1-GROUND: 13.5-15.1 VOLTS WITH ENGINE\nRUNNING AT 2000RPM\n⊕ 2-GROUND: 0-4 VOLTS WITH IGNITION S/W\nAT IG POSITION AND ENGINE\nNOT RUNNING\n\nⒶBLACK    ⒷBROWN    ⒸBLACK    Ⓓ\n[Connector diagrams with numbered pins]\n1 2\n1 2\n1\n2 3\n(J/B NO.2)\n\nⒾⒼ    ⒾⒾ    21BLACK    28BLACK\n[Connector diagrams with numbered pins]\n1  9\n16\n4\n\n2D    2F\n[Connector diagrams with numbered pins]\n8\n\nA1    E1\n[Connector diagrams with numbered pins]\n8    8\n18    18\n17    17\n\nE2\n[Connector diagrams with numbered pins]\n10"
+}

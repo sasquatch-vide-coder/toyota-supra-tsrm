@@ -1,0 +1,6 @@
+{
+  "page_id": "S2-2",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "2\n\nB-0    B-0\n\n⑨ IGNITION COIL\nB-0\n↑000↓ ↑000↓ ↑000↓\n000  000  000\n4  1  2  3\n\nB-B  L-R  L-Y  Y\n\nB-0\nB-B\n3⑮  2⑮  1⑮  4⑮\n\nB    B\nG    IGNITER\n\n5⑯  4⑯  1⑯  2⑯\n\n(7M-GTE)\nL-Y  L-B  LG-B  LG\n\n6⑯ 12⑰  2⑰  3⑰\nIGDB IGDA IGF  IGT\n\nTCCS ECU (7M-GTE)\n\nB    B    B → TO TACHO METER\nD1←\n      1B\n         IG-  E1  CHECK CONNECTOR ⑪\n         3\n         B-R\n\nW-B            W-B\n\n⑨ CAM POSITION SENSOR\n\n1  2  3  4\n\nSEALER\nL  R  B  Y\n\n4⑰  6⑰  7⑰  5⑰\nNE  G1  G-  G2\n\nB-B\n\n⑪ NOISE FILTER\n1\n2\nW-B\n\n(7M-GTE)\n\n∇ INTAKE MANIFOLD\n⏚"
+}

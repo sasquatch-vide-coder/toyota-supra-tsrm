@@ -46,15 +46,6 @@ ssh tsrm-prod "cd ~/app && PGPASSWORD=postgres psql -h 127.0.0.1 -p 54322 -U pos
 ssh tsrm-prod "pm2 logs tsrm --lines 50"
 ```
 
-### Dev Server (Legacy)
-
-- **Host**: `10.13.37.10` (SSH alias: `tsrm`)
-- **User**: `supratsrm`
-- **SSH key**: `~/.ssh/tsrm_server` (configured in `~/.ssh/config` as `Host tsrm`)
-- **App directory**: `~/app/`
-- **Supabase**: Local instance at `http://127.0.0.1:54321`
-- **PostgreSQL**: Port `54322`, user `postgres`, password `postgres`
-
 ## Project Structure
 
 - `scripts/` - Python crawlers, processors, and ingestion scripts

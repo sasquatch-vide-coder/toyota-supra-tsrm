@@ -1,0 +1,6 @@
+{
+  "page_id": "S27-2",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "27\n\n15A\nTAIL\n\nG 10\n\nB\n\n18\nLSW\n\nE2                    DG                    0/D2\n15                    6                     3                     8\n\nL4/Y1                                      L4/Y1\n\n                                           P-G\n                                           L-G\n\nW-B        W-B        P-B        P-B\n\n           13         5          1          5\n           ECT        0/D2       0/D        LP\n                                 MAIN\n                                 SW\n           ECT ECU (A/T)          (A/T)\n                                 3\n\n8 10\n\nW-B\n\nJ/B NO.1\nSET BOLT\n\nRA010\nLEFT\n\nA SUPER MONITOR COMPUTER\n(DISCONNECT WIRING CONNECTOR FROM COMPUTER)\n4-GROUND      + 12 VOLTS WITH IGNITION S/W AT ACC POSITION\n5-GROUND      + 12 VOLTS WITH IGNITION S/W AT IG POSITION\n7-GROUND      + ALWAYS 12 VOLTS\n18-GROUND     + 12 VOLTS WITH TAILLIGHT S/W ON\n20-GROUND     + 12 VOLTS WITH IGNITION S/W ON\n14-GROUND     + 1 PULSE EACH 40CM(15.75IN)(IGNITION S/W ON.DRIVE VEHICLE SLOWLY)\n15,17-GROUND CONTINUITY\n\nA\n\n1 2 3 4 5 6 7 8 9\n10 12 13 14 15 17 18 19 20\n\nB GRAY\n\n5 6\n\nC YELLOW\n\n15\n\nD YELLOW\n\n19\n\nE YELLOW\n\n4\n\nJ A.B.S.\nCOMPUTER"
+}
