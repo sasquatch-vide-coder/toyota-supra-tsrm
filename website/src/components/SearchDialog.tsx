@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import type { SearchResult, SearchResponse } from "@/types";
 
-export default function SearchDialog({ model }: { model: string }) {
+export default function SearchDialog({ model, docType = "tsrm" }: { model: string; docType?: "tsrm" | "ewd" }) {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -61,7 +61,8 @@ export default function SearchDialog({ model }: { model: string }) {
     setError(null);
 
     try {
-      const url = `/api/search?q=${encodeURIComponent(q)}&model=${model}`;
+      const searchModel = docType === "ewd" ? `${model}-ewd` : model;
+      const url = `/api/search?q=${encodeURIComponent(q)}&model=${searchModel}`;
       const res = await fetch(url, { signal: controller.signal });
       if (!res.ok) {
         throw new Error("Search request failed");
@@ -101,7 +102,7 @@ export default function SearchDialog({ model }: { model: string }) {
 
   const navigateToPage = (section: string, page: number) => {
     setIsOpen(false);
-    router.push(`/${model}/tsrm/${section}/${page}`);
+    router.push(`/${model}/${docType}/${section}/${page}`);
   };
 
   const handleSelect = (index: number) => {
@@ -251,7 +252,7 @@ export default function SearchDialog({ model }: { model: string }) {
           )}
 
           {/* View all results link */}
-          {!isLoading && totalItems > 0 && (
+          {!isLoading && totalItems > 0 && docType === "tsrm" && (
             <div className="px-4 py-2.5 border-t border-gray-100 text-center">
               <button
                 onClick={() => {

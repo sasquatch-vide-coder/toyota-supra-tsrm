@@ -65,7 +65,7 @@ export default async function EwdLayout({
           <span style={{ color: "#3A2A1A" }}>›</span>
           <span style={{ color: "#F5F0E8" }}>Wiring Diagrams</span>
         </div>
-        <SearchDialog model={model} />
+        <SearchDialog model={model} docType="ewd" />
       </div>
 
       {/* Body: sidebar + main */}
