@@ -90,7 +90,7 @@ export default async function ModelLayout({
 
       {/* Body: sidebar + main */}
       <div style={{ display: "flex", flex: 1, overflow: "hidden" }}>
-        <div className="sidebar-desktop">
+        <div className="sidebar-desktop" style={{ overflowY: "auto" }}>
           <V1Sidebar sections={sections} model={model} totalPages={totalPages} />
         </div>
         <main style={{ flex: 1, overflowY: "auto", background: "#F5F0E8" }}>
