@@ -8,6 +8,20 @@ export interface DocumentDef {
 }
 
 const MODEL_DOCUMENTS: Record<string, DocumentDef[]> = {
+  mk2: [
+    {
+      type: "manual",
+      label: "Repair Manual",
+      description: "1986 Factory Service Manual",
+      contentDir: "mk2",
+    },
+    {
+      type: "ewd",
+      label: "Wiring Diagrams",
+      description: "36705A (USA-1985)",
+      contentDir: "mk2-ewd",
+    },
+  ],
   mk3: [
     {
       type: "manual",
