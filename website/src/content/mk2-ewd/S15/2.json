@@ -1,0 +1,6 @@
+{
+  "page_id": "S15-2",
+  "section_header": "",
+  "title": "REAR WIPER RELAY",
+  "ocr_text": "15\n\nⓓ REAR WIPER RELAY\n1-GROUND: 12 VOLTS WITH IGNITION S/W ON\n3-GROUND: 12 VOLTS EVERY 12 SECONDS INTERMITTENTLY WITH IGNITION S/W ON AND WIPER S/W AT INT POSITION\n3-GROUND: 12 VOLTS WITH IGNITION S/W AND WASHER S/W ON AND FOR 4 SECONDS AFTER WASHER S/W TURNED OFF\n2-GROUND: 12 VOLTS WITH IGNITION S/W ON UNLESS WIPER MOTOR AT STOP POSITION\n3-GROUND: 12 VOLTS WITH IGNITION S/W ON AND AFTER WIPER S/W OFF UNTIL WIPER MOTOR STOPS\n\nⒶ\n[Connector diagram showing pins 1,2,3,4,5,6]\n\nⒷ\n[Connector diagram showing pins 1,2]\n\nⒸ\n[Connector diagram showing pins 3,4]\n\nⒹ\n[Connector diagram showing pins 1,2,3,4,5,6]\n\n20\n[Connector diagram showing pins 1,2]\n\n20\n[Connector diagram showing multiple pins]\n\n24 GREEN\n[Connector diagram showing pins with number 9]\n\n24 YELLOW\n[Connector diagram showing pin 8]\n\nD1 GREEN\n[Two connector diagrams showing pins 4,9,10,12,13 and 4,13,12,10,9]\n\n(JUNCTION CONNECTOR) J1\n[Connector diagram showing pins 1,2,3]\n\nE1\n[Two connector diagrams showing pins 3,4 and 1,4,3]\n\n- 45 -"
+}

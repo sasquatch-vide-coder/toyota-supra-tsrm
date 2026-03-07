@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-3",
+  "section_header": "EFI",
+  "title": "EFI CIRCUIT DIAGRAM",
+  "ocr_text": "o Page 5)\n\nEFI\n\n3                                   4\n\nB-Y\nC                                      B\n                                                                From Cold Start Injector H\n7.5A                     1.5A\nIGN                      EFI\n                                        B-Y          To Trip Computer (4-7)\nB-Y\n2\nB-R                     B-R\n\nB\nIGR\nIGN\nEFI MAIN RELAY NO. 2\nW\n3                    3\nC\nEFI MAIN RELAY NO. 1\nB-Y\nW-B\nB-Y\nB-Y\nB\n\nCHECK CONNECTOR\nB-R\n\nEFI SERVICE CONNECTOR\nB-R                                          GR\nB\nB-Y\nB-Y\nB\n\nB-R\n\nAIR FLOW METER\nG\nL-R\n\nB\nY-L\n\nCIRCUIT OPENING RELAY\nB-R\nC\nB-R\nY-B\nY-I\nOX CHECK CONNECTOR\nFUEL PUMP CHECK CONNECTOR\nG\nW-B\nW\nW\nOX SENSOR\nCHECK ENGINE CONNECTOR\nB-R\nY-B\n\nB-R\nRESISTOR\n\nDISTRIBUTOR\n\nFUEL PUMP\nM\n\nDISTRIBUTOR\nR\nW\nB\nW\nIGN\nIGN\nIGN\nIGN\nIGN\nIGN\nW\nW\nW\nW\nW\nW\n2\n2\nINJECTOR\nW-B\n\nW\n\nW-B\nW-B\nW-B\nW-B\nW-B\nB-R\nTo Trip Computer (4-7)\n\na\nb\nc\nd\ne\nf\n\nGround points\na = Located under right front pillar                    b = Located under left front pillar"
+}

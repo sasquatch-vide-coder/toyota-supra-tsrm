@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-9",
+  "section_header": "METERS AND GAUGES",
+  "title": "Rear Window Defogger and Back-up Lights Wiring Diagram",
+  "ocr_text": "Rear Window Defogger\nBack-up Lights\n7\n8\nA\nB\nD\nW\n2\nE\nG\nH\nJ\nF\n30A\nDEFOG\nCB\nTo Power Window\nMain Relay (3-1)\n2\n2\n2\nFrom TCCS ECU\n(1-5)\n(Analog Meter)\nY\nTo A/T Indicator\nY\nY\nS/W (1-7)\nOIL\nOIL PRESSURE SENDER\nY-B\nY\nTo Auto Antenna\nControl Relay (5-1)\nDEFOGGER RELAY\nWATER TEMP.\nWATER TEMP. SENDER\nY-G\n2\n2\nB\n2\nFUEL\nFUEL SENDER\nY-R\nL-B\nBR\nW\nBACK-UP LIGHT S/W\nBG\nVOLT\nTIMER\nTACH\nBR\nDEFOGGER S/W\nREAR WINDOW DEFOGGER\nBR\nW-B\nW-B\nLH\nBACK-UP LIGHT\nBACK-UP LIGHT\nRH\nRH\nW-B\nW-R\nLH\nW-B\nW-B\n2\nFrom Ignition (3-2)\n2\n2\n2\nW-B\nBR\nBR\nBR\nW-B\na\nb\nc\nd"
+}

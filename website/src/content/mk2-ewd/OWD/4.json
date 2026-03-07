@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-4",
+  "section_header": "ENGINE CONTROL SYSTEM",
+  "title": "ECT",
+  "ocr_text": "ECT\n5\n6\n\nion Cold Start Injector (1-2)\n\nFrom \"STOP\" Fuse (3-4)\n\nFrom \"ECU-IG\" Fuse (3-2)\n\nR-Y\nG-W\nLG-B\nG\nW-Y\nG-W\nB-R\nEGR VSV\nL-Y\nL-R\nB-B\nGR\nR-B\nISC VALVE\n\nB-Y\nB-Y\nL-Y\nTo Oil Pressure S/W (2-5)\nBR\nY-B\nTo Oil Pressure Sender (2-7)\nB-W\nTo Magnet Clutch (2-1)\nL-R\nGR\nW-R\nY-L\nY-R\nY-R\nR-Y\nR-Y\nB-R\nY-L\n\nTCCS ECU\nL-W\nY-B\nTo Speed Sensor (3-3)\nB-W\nTo Cruise Control Clutch\nS/W (3-3)\nLGT\nB\nB\nL\nBR\nTHROTTLE POSITION\nSENSOR\nG\n\nWATER THERMO SENSOR\nBR\nBR\nG\n\nDISTRIBUTOR\nG-W\nR\nW\nG\nFrom Igniter (1-2)\nB\nL-R\nW-B\n\nW\nCHECK ENGINE\n(COMB. METER)\nW\nW-B\n2\nW-B\nW-B\nBR\n\nc* Located in left front fender near battery\nd* Located on left front fender apron near junction block No. 3\n\nR-Y CHECK\nCONNECTOR\n\nY-B\nCHECK ENGINE\nCONNECTOR\n\nBR\n\nR\nB\nY\nBR\nECT SOLENOID\nDOOR METER\nCOOLER METER\n\nR\nN\nB\nY\nBR-W\n\nECT ECU\n\nA/T IND\nS/W\nS\nL\nN\n\nR-Y\nW-L\nBR\nL-W\n\nTPS-Cruise Control\nConnector (3-3)\n\nfrom \"ECU-IG\" Fuse (3-1)\n\nTo Speed Sensor (3-4)"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "S7-1",
+  "section_header": "LIGHT AUTO TURN OFF SYSTEM",
+  "title": "LIGHT AUTO TURN OFF SYSTEM",
+  "ocr_text": "7 LIGHT AUTO TURN OFF SYSTEM\n\nFL\n1-OY\n\nHEADLIGHT\nRELAY\n\nTAILLIGHT\nRELAY\n\n15A\nECU-B\n\n15A\nECU-IG\n\n2 G3\n\n7 G3\n\n3 G20\n\n11 G4\n\nL-B\n\nL-B\n\nL-B\n\nL-B\n\n14 G2\n\n13 G2\n\n5 E1\n\n8 G2\n\nR-L\n\nG-B\n\nW-L\n\nL-R\n\nB\n\n1\n\n7\n\n4\n\nB LIGHT RETAINER RELAY\n\n2\n\n3\n\n6\n\n*\n\n*\n\nA\nFUSIBLE\nLINKBOX\n\n2\n\nB G2\n\nB G2\n\nFL-2\n\n+\n\n+\n\n11\n\nP-W\n\n*\n\nJ11\nJUNCTION\nCONNECTOR\n\nBATTERY\n\n4\n\nC\n(COMB.METR)\n\n4\n\n11\n\n1\n\n*\n\n*\nD\nLH\n\nLIGHT\nCONTROL\nSW\n\nOFF\n\n0\n\nTAIL\n\nHEAD\n\nDOOR COURTESY S/W\n\n10\n\nW\n\n5\n\nJ11\nJUNCTION\nCONNECTOR\n\n14\n\nW\n\n14 G8\n\n2 C6\n\nW\n\nUNDER\nJ/B NO.3\n\n- 28 -"
+}

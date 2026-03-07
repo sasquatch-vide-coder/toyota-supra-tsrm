@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-11",
+  "section_header": "Sun Roof and Cruise Control",
+  "title": "Sun Roof and Cruise Control Wiring Diagram",
+  "ocr_text": "Sun Roof\n2\nCruise Control\n3\n30A\nAWB\nCB\nTo Door Lock Relay (5-3)\nFrom ECT ECU (1-8)\nSUN ROOF S/W\nY-R\nOPEN\nCLOSE\nOPEN\nW-B\nW-B\nY-W\nXR\nY-W\nSUN ROOF MOTOR\nM\nDOWN\nUP\nY-W\nW-B\nTANT\nW-B\n15A\nECU-IG\n2\nLG-B\nLG-R\nLG-B\nP-1 TO CS ECU (1-5)\nTCL Light Reinforc Relay (4-3)\nP-1 ECT ECU (1-7)\nCRUISE CONTROL MAIN S/W\nM-BN\nLG-B\nCRUISE CONTROL COMPUTER\nB+\nIG\nSDE\nIDL\nCK\nCRUISE CONTROL\nSW\nB/W\nMAG\nBRK\nACT\nM-W\nCRUISE CONTROL ACTUATOR\nXVL\nOPN\nB-W\nBCL\nMAG\nB-W\nB-W\n2\nW-B\nX-R\nB2Y\nB-Y\nFrom TCCS ECU (1-8)\nFrom ECT ECU (1-8)\nCRUISE CONTROL\nINDICATOR LIGHT\nBAT1\nB-W\nW-B\nTo Starter N MTI\n(Neutral Start S/W-ACT) (1-11)\n(Digital Mirror)\nFrom ACT (1-11)\nB-W\nM-W\nFrom TCCS ECU (1-8)\nGROUND POINT\nCRUISE CONTROL\nSW INDICATOR LIGHT\n2\nTo Park Brake SW (1-5)\n& Brake Fluid Level SW (1-5)\nFrom TCCS ECU (1-5)\n2\nW-B\nb = Located under left front pillar\n= Located in left front fender near battery"
+}

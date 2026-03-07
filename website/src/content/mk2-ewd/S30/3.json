@@ -1,0 +1,6 @@
+{
+  "page_id": "S30-3",
+  "section_header": "GROUND POINTS",
+  "title": "30 ≡ GROUND POINTS",
+  "ocr_text": "30 ≡ GROUND POINTS\n\nB4 GREEN\n1\n1\n\nE1 YELLOW\n\nE1 BLUE\n\nD2\n18\n18\n\nG3\n9\n9\n\n12\n12\n12\n\nJUNCTION CONNECTOR J1\n5 7\n12 13 14\n\nJUNCTION CONNECTOR J3\n5 6 7\n12 13 14\n\nJ4\n1 2 3\n4 5 6\n3 2 1\n6 5 4\n\nK1 BLUE\n14\n14\n\nG1 D2\n\nH1 YELLOW\n12 14\n14 12\n\nD1\n1\n1"
+}

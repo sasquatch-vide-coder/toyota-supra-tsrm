@@ -1,0 +1,6 @@
+{
+  "page_id": "S1-3",
+  "section_header": "POWER SOURCE",
+  "title": "POWER SOURCE",
+  "ocr_text": "1-2 POWER SOURCE\n\nFL2-OL\nFL1-OY\nFL0-SP\n\nFUSIBLE LINK BOX\nA\n\nBATTERY\n\n1\nW\nW\n5\nBL\nW\nFL0.3P\nW\nFL1.0Y\n2\nSP\nW-R\n\n15A STOP\n\nTAILLIGHT RELAY\n\n15A TAIL\n\n7\n3A\nB-R\n\nIG MAIN RELAY\n\n3\nSF\n20A WIPER\n\n15A ENGINE\n\n15A HAZ-HORN\n\n15A EFI\n\nHEADLIGHT RELAY\n\nW-B\nB-R\n\nLEFT FENDER\n\nSHORT PIN\n\nIGNITION S/W\nACC\nIG2\nIG1\nST\n1 2\n3 6\nLock 5 4\nB-R\n\n9 21\n8 20\n3 23\n1 22\n\n15A HEAD LH\n\n15A HEAD RH\n\nB 30A HEATER CB\nW\n1\n2\n\nW\n3\nFLD.3P\n11\nW-R\n1\nB1\nW\n20A FOG\n25\nW\n\n2 24\n\n7.5A DOME\n\n15A ECU +B\n\n30A DEFOG CB\n\n3 26\nC 30A PWR CB\nW\n1\n2\n\nB\n1\n26\nB\n\nDEFOGGER RELAY\n\n4 25\n\n10A HTR-HTR\n\n7.5A GAUGE\n\n7.5A TURN\n\n15A ECU-IG\n\n15A CIG\n\n7.5A RADIO\n\n7.5A IGN\n\n- 14 -"
+}

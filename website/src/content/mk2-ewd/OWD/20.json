@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-20",
+  "section_header": "REMOTE CONTROL MIRRORS WITH HEATER",
+  "title": "Remote Control Mirrors with Heater",
+  "ocr_text": "Unlock and Seat Belt Warning\n7\nTrip Computer\nRemote Control Mirrors with Heater\n8\n\nL-R\n2\nG\nF\nG\nFrom Defogger Relay (2-8)\n15A\nECU-B\n15A\nCIG\n10A\nHTR\nMTR\n2\nR-G\nTo Theft Deterrent Computer (6-5)\nW-L\nW-L\nTo Cigarette\nLighter (5-1)\n2\n2\n2\n2\nR\nR-G\nTo ECU (Digital) (5-1)\nREMOTE CONTROL MIRROR S/W\nTo ECU (IG)\nD\nE\nH1\nV1\nC\nV2\nH2\nTo Cruise Control Relay (6-2)\nFrom EFI Main Relay No.1 (1-4)\nFrom Power Relay (4-4)\n(IG) From Ignition Switch\nUP\nDOWN\nRH\nRIGHT\nLEFT\nDOWN\nLH\nRIGHT\nLEFT\nSEAT BELT\nWARNING RELAY\nFrom Door Lock Via Control Relay (5-4)\nB-Y\nW-L\nR-G\nBY\nTRIP COMPUTER\nLH\nW\nL-W\nBR\nMIRROR HEATERS\nMIRROR HEATERS\nL-W\nL-W\nW-L\nRH\nW-L\nOW\nR\nUNLOCK WARNING\nFrom Taillight Relay (5-4)\nFrom TDCS ECU (1-3)\nTo Cruise Control Computer (3-1)\nBR-W\nBR-Y\nLG-R\nLG\nLG-B\nBR-B\nE\nH\nLG-B\nLG\nM\nM\nM\nM\nLG-B\nMIRROR MOTORS LH\nMIRROR MOTORS RH\nLG-R\nBUCKLE S/W\nW-B\nB-L\n2\n2\nB-L\nW-B\nW-B\nW-B\nBR\nW-B\nB\nB\nC\nD\nE\nF"
+}

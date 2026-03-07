@@ -1,0 +1,6 @@
+{
+  "page_id": "S19-1",
+  "section_header": "DOOR LOCKS",
+  "title": "DOOR LOCKS",
+  "ocr_text": "19 DOOR LOCKS\n\n1\nA\n30A\nFBR\nCB\n2\n\nY 11 Y\nF1\n\nB\nDOOR LOCK\nRELAY\n2\n\n1 4 3 6\n\nC DOOR LOCK CONTROL RELAY\n\n4 3 9 10 7 6 13\n\nL W Y-L B C-R W-L Y-R\n\nG-Y 6\nF1\n\nH 5\nF1\n\nG G\n\nG-B G-B\n\nG-R\n\nC-B D Y-L W-L Y-R C-R Y-R C-R\n\n2 E1 1 E1\n\nG-B D Y-L C-R Y-R Y-R C-R\n\n8 F2 4 F2 5 F4\n\nC-R Y-R C-R\n\n2 D 1 D 1 D\n2 C 3 C 2 C\n\nDOOR LOCK\nMOTOR\n3 D\n\n30A\nFSB UNLOCK\nLINIT\n2 C\nLOCK\n8 4 B\n8\nUNLOCK SW.\n\nCONTROL RELAY\nDRIVER SW.\n2 H 1\n\nDIODE 1 DIODE\n2\n\nW-B W-B W-B W-B W-B G-R G-R G-R\n\nFROM THEFT\nDETERRENT\nCOMPUTER\n\nW-B\n\n14 F1\n\nJ3\nW-B 12 5 W-B\n\n2 J4\n\nJUNCTION\nCONNECTOR\n\nRIGHT\nKICK\nPANEL\n\n- 52 -"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-19",
+  "section_header": "BODY ELECTRICAL",
+  "title": "DOOR COURTESY LIGHT AND SEAT BELT WARNING SYSTEM",
+  "ocr_text": "rior Lights\n6\nUnlock and Seat Belt Warning\n7\nTrip Computer\nL-R\nF\nF\nFrom \"GAUGE\" Fuse [2-6]\n7.5A DOME\nTo Clock (Digital) [5-1]\nTo Theft Deterrent Computer [5-8]\n15A ECU-B\n2\nR-G\nW-L\n2\nR\n2\nR-W\nY\n3\n4\nB\nB\nLIGHT CONTROL\nRH\nDOOR WARNING LIGHT\nSTOP LIGHT\nR-W\nINTERIOR LIGHT AND S/W\nDOOR WARNING LIGHT\nR-W\nR\nDOOR COURTESY LIGHT RH\nR\nR-W\nBACK DOOR LIGHT AND S/W\n1\nSEAT BELT WARNING LIGHT\n(DOWN VISR WETY)\nY\nFrom ECU Main Relay (No. 1) [4-4]\nFrom ECU Main Relay (No. 1) [4-4]\nTo ECU [4-6]\nTo Cruise Control Resistor Relay (A-L)\nTo Light Retainer Relay (A-L)\nUP\nRH\nDOWN\nRIGHT\nLH\nLEFT\nDOWN\nGW\nR\nRIGHT\nSEAT BELT WARNING RELAY\nBY\nW-L\nR-G\nLEFT\nFrom Door Lock Control Relay [5-4]\nTRIP COMPUTER\nFrom Main Computer [5-9]\nRB\nY-G\nBR\nW\nL-W\nBR\n2\nR-W\n2\n2\nR-W\nFrom ECU [3-1]\nTo Cruise Control Computer [3-4]\nR-W\nP-W\nP-W\nB-W\nBACK DOORS S/W\nUNLOCK WARNING S/W\nWB\nBUCKLE S/W\nWB\nWB\nRH\nLH\nFrom Light Retainer Relay [4-3]\n2\n2\nDOOR COURTESY S/W\nWB\nWB\nBR\nMIRR\n2\nf = Located in back panel near door key cylinder.\nWB"
+}
