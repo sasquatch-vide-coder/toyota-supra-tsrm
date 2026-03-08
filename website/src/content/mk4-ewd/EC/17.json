@@ -1,0 +1,6 @@
+{
+  "page_id": "EC-17",
+  "section_header": "ENGINE CONTROL",
+  "title": "ENGINE CONTROL (FOR 2JZ-GE)",
+  "ocr_text": "ENGINE CONTROL (FOR 2JZ-GE)\n\nB-O\nBR\n\nB-O\nE58\nB-O\nE26\nB-O\nE25\nB-O\nE28\nB-O\nE59\n\nINJECTOR NO. 6\nI17\n1\nR-B\n\nINJECTOR NO. 3\nI18\n1\nB-G\n\nINJECTOR NO. 5\nI14\n1\nL-G\n\nINJECTOR NO. 4\nI15\n1\nB-W\n\nINJECTOR NO. 2\nI16\n1\nB-R\n\nINJECTOR NO. 1\nI12\n1\nB-L\n\n15 C\n#60\n\n18 C\n#20\n\n13 C\n#30\n\n17 C\n#40\n\n16 C\n#50\n\n20 C\n#10\n\nFPU\nKNK1\nKNK2\nNE\nG1\nG2\nG-\n\n32 C\n50 C\n49 C\n27 C\n26 C\n25 C\n7 C\n\nW-L\n(Y)\nW\nW\nB\nR\nW\nG\n\nFOR FUEL PRESSURE (UP)\nV-B\n2\n\n(SHIELDED)\n(SHIELDED)\n(SHIELDED)\n(SHIELDED)\n\nB-R\nK-1\nKNOCK SENSOR\n(for Bank 1)\n\n(SHIELDED)\nK-2\nKNOCK SENSOR\n(for Bank 2)\n\nNE\nG1\nG2\nG-\n1\n2\n3\n\nD4\nDISTRIBUTOR\n\nJ-2\nIGNITION CONNECTOR\n\n(SHIELDED)\n(SHIELDED)\n(SHIELDED)\n(SHIELDED)\n(SHIELDED)\n\n(SHIELDED)\nB-R\nE24\nBR-B\nBR\nB-R\n(*1)\nBR\nBR\n(*1)\nBB\nB-W\nB-W\nL-R\nL-R\n\nBR-B\nE27\nBR-B\n\nBR-B\n\nV14 (2P) 2BW\nMANI FLOW METER\nVANE FLOW\n\nLG-B\nL-R\n\n1\n3\n4\n2\n\nE2\nL-R\nL-R\nBR-B\n\n06 C\n41 C\n46 C\n65 C\nKS\nVCC\nTHA\n\nE9 D\nE10 A\nENGINE CONTROL MODULE (*3)\n\n86"
+}

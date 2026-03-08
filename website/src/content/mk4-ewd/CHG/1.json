@@ -1,0 +1,6 @@
+{
+  "page_id": "CHG-1",
+  "section_header": "CHARGING",
+  "title": "CHARGING",
+  "ocr_text": "CHARGING\n*1 : 2JZ-GTE\n*2 : 2JZ-GE\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n7.5A IGN\n10A GAUGE\n\nB 15\n12 15\n\nW W W W W\n\nW W\n\nTF [P 56 WARNING LIGHT]\n(TELLTALE LIGHT,FR)\n\n120A ALT\n7.5A ALT-S\n\n12\n\nY+G\n\nY\n\nW\n\n114\n\nX+G\n\nY-G\nFROM JUNCTION METER\n\nY\n\n34 III\n\nY-G\n\n24 III\n\nEA2 (*1)\nEA3 (*2)\n\nBATTERY\n\nY-G\n\nY\n\nW\n\nW\n\nW\n\nL\nIG\nS\n\nB\n\nIC REGULATOR\n\nG1 G\nG2 G\nGENERATOR\n(ALTERNATOR)\n\n68"
+}

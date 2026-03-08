@@ -1,0 +1,6 @@
+{
+  "page_id": "SL-1",
+  "section_header": "STOP LIGHT",
+  "title": "STOP LIGHT",
+  "ocr_text": "STOP LIGHT\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n15A\nSTOP\n\n10A\nGAUGE\n\n1 H1\n\n2\n\n8 C8\n\n12 L5\n\nB11\nSTOP LIGHT SW\n\nY\n\nY\n\nG-W\n\nT6\nREAR LIGHT WARNING LIGHT\n[REARTALE LIGHT RH]\n\n1 H1\n\n16\n\n10 L5\n\nY\n\nG-W\n\n5 BM1\n\nG-W\n\nB5\n\nG-W\n\nY\n\nY\n\nG-W\n\nL2\nLIGHT FAILURE SENSOR\n\n7\n\n8\n\n1\n\nI.C.O\nCO\nOUT\n\n1 BM1\n\nG-W\n\n3\n\n11\n\n6 B01\n\nG-W\n\nG-W\n\nB7\n\nR-W\n\n1\n\nIH1\nHIGH MOUNTED\nSTOP LIGHT\n\nR-W\n\nR-W\n\nB-W\n\n2\n\nR17\nSTOP LIGHT LH\n[REAR COMB.\nLIGHT LH]\n\nR18\nSTOP LIGHT RH\n[REAR COMB.\nLIGHT RH]\n\n3 B01\n\n5\n\n5\n\nB-W\n\nB-W\n\nB-W\n\n2 BM1\n\nB-W\n\nW-B\n\nB4\n\nB5\n\nW-B\n\nW-B\n\nB3\n\nW-B\n\nW-B\n\nE7\n\n114"
+}

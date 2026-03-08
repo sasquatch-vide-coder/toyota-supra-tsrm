@@ -1,0 +1,6 @@
+{
+  "page_id": "EC-8",
+  "section_header": "ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU",
+  "title": "",
+  "ocr_text": "*1 : ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n10A\nGAUGE\n\nI4\n\nTELLTALE LIGHT\n(RED ENGINE OIL PRESSURE\nINDICATOR LAMP)\nT4\n\nI14\nY\nI14\nY\nI14\nY\n\n2\n\nCH10\nCH12\n8\n9\nSPEEDOMETER\n(FOR COMBINATION\nMETER)\n10\n8\n\nGR-R\n(A)(1)\n\nL-R\nI14\n\nL-R\nL-R\n\nL-B\nI5\n\nL-R\nL-R\n\nB\nB\n\nB\n\nB\n\nD5\nTELLTALE LINK\nCONNECTOR 2\n(TD-CL)\n\nT6 TELLTE LIGHT\n\nODO AND\nTRIP\n\n2\n1\n2\n1\n6\n1\n\nL-R\n\nB\nP\n\n0\nW\n\nL-R\n\nX\n\nX\n\n3\n4\n2\n\nTT\n\nE1\nTE2\nTE1\nENG\n\nV10\nVEHICLE SPEED SENSOR\n(SPEED SENSOR NO. 1\nFOR COMBINATION METER)\n\n3\n2\n1\n\nBR\n\nP-G\n\n17\n5\n15\n14\n\nL-B\n\nP\n\nBR\n\nY-L\nLG\n\n15\n11\n\nL-B\n\nP\n\nP-G\n\nY-L\n\nLG\n\nL-B\n\nP\n\nBR\n\nBR\n\nI8\n\nBR\n\n77"
+}

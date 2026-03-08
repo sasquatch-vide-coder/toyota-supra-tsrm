@@ -1,0 +1,6 @@
+{
+  "page_id": "EC-15",
+  "section_header": "ENGINE CONTROL (FOR 2JZ-GE)",
+  "title": "ENGINE CONTROL (FOR 2JZ-GE)",
+  "ocr_text": "ENGINE CONTROL (FOR 2JZ-GE)\n\nB-O\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\nACC\n80A\nEFI NO. 1\nAM1\nIG1\nST1\nB\nB-W\nB-O\n\nAM2\nIG2\nB-O\nB\n\nH19\nIGNITION SW\nB\nI4\nB\n\nB-W\n7.5A\nST\n(A/T)\nB-Y\nE20\n4\nB-Y\nEA1\nB-W\nAM1\nW-B\nGR\nB\nGR\nEA1\nI4\nI15\nB\nI3\nB\nB-W\nJ4\nJ2\nJ1\nM2\n(A/T)\n(A/T)\n\nW-R\n4\nIB1\nB\nI14\n\nW\n(M/T)\nB\n(A/T)\nEFI\nMAIN\nRELAY\nW-B\nB\n5\nW-R\nJ2\nJ1\nP\nPOWER\nSOURCE\nCONTROL\nIGNITER SWITCH\n(M/T)\nW-B\nB-R\nB-R\nN\n3\nE20\nEA3\n\nJ2\nJ1\nB\nL-R\nL-R\nE22\n50A\n5\nAM1\nL-R\n6\nB5\nIB11\nOL-1 AM START (M/T)\n2\nB\n(M/T)\nW\nB\n(M/T)\n10\nE22\nB\nJ1\nW-B\n5\nI1\nB-B\n4\nF15\nFUEL PUMP ECU\n+B\nFP\nFUEL PUMP\nE\nDI\nFPC\nM\nJ2\nB\n1\n2\n3\nW-B\nG\n(A/T)\nB\n12\nE22\n11\nE23\nJ1\nG\n(A/T)\nW\nW-B\n12\nV-W\nM1\nG\nV-W\nE28 : M/T\nE27 : A/T\nB\nBATTERY\nW-B\n\nB\nTO STARTER\nRELAY\nW-B\nW-B\nW-B\nIB11\nE27\nE28\n\n84"
+}

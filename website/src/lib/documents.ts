@@ -36,6 +36,14 @@ const MODEL_DOCUMENTS: Record<string, DocumentDef[]> = {
       contentDir: "mk3-ewd",
     },
   ],
+  mk4: [
+    {
+      type: "ewd",
+      label: "Wiring Diagrams",
+      description: "EWD230U (USA-1995)",
+      contentDir: "mk4-ewd",
+    },
+  ],
 };
 
 export function getDocuments(model: string): DocumentDef[] {

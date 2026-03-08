@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-27",
+  "section_header": "OVERALL ELECTRICAL WIRING DIAGRAM",
+  "title": "OVERALL ELECTRICAL WIRING DIAGRAM",
+  "ocr_text": "OVERALL ELECTRICAL WIRING DIAGRAM\n\n(Cont. next page)\n\nB-L\nB-L\nL-Y\nL-Y\nL-B\nL-B-R\n\n4\n\nABS and Traction Control\n\n3\n\nTRACTION/ECU\n\nABS/IND LAMP/RELAY\n\nABS ECU\n\nVCC-2\n\n2\n\nTo Data Link\nConnector (DLC1)\n(Check Connector)\nJ/B 3c\n\nL-B\nB-R\nL-B\nL-B\n\nTRACTION SOLENOID RELAY\nABS SOLENOID RELAY\n\nVCC-1\nVCC-2\n\nFRONT TRACTION LIGHT\nFOR 20A ABS NO. 1\n\nC1\nC2\n\n1\n\nPower Source\n\nIG\nIG1\nAC\nC2\n\nIGNITION SW\nBATTERY\n\nB-Y\nL-Y\nB\nL-Y\nR\n\nABS ABS NO. 1\n50A TRAC\n\n50A ABS NO. 2\n7.5A TRAC\n\n50A AM (Hvy USA)\n60A AM (Hvy Canada)\nW\nW-R\n10A ECU-B\nW-L\n60A POWER\n120A ALT\nB\nBATTERY\n\n19 SUPRA\n\nCHG-2\nTRACTION INDICATOR\nLOCATION INDICATOR\nY\nW\nW\nDashless\nYellow-CCI\n(TOD-1/2-25)\nY-G\nW\nTRAC OFF\nL\nL\nTraction 4W Connector\nABS\nLG-R\nLG-R\nY\nY\nLG-R\nLG-R\nTRAC IND\n\nTRACTION IND\n\nABS IND LAMP RELAY\n\nFRONT ABS ACTUATOR\n\nREAR ABS ACTUATOR\n\nVCC-1\n\nW-B\nW-B\nB-W\nY-Y\nW-B\nL-W\nY-Y\nL\n\nVCC ABS NO. 2 TRACTION PUMP AND MOTOR\nY\nL-Y\nY\nY\nL-Y\nR\nABS MOTOR RELAY\nY-Y\nL-Y\nY-Y\nR\nL\nW\nW\nW\nW\nW\nB\n\nB-W\nB-W\nL-B\nL-B\nG-B\nG-L"
+}

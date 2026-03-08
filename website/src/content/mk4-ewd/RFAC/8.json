@@ -1,0 +1,6 @@
+{
+  "page_id": "RFAC-8",
+  "section_header": "AIR CONDITIONING SYSTEM",
+  "title": "A/C REMIX CONTROL SERVO MOTOR",
+  "ocr_text": "*1 : 2JZ-GTE\n*2 : 2JZ-GE\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n10A\nECU-B\n\n15A\nCIG\n\n10A\nGAUGE\n\n12\nI3\n\nA09\nREMIX CONTROL\nSERVO MOTOR\n\n13 I5\n2 I6\n12 I11\n\nI14\n\nY\n\nI14\n\nY\n\nWA-H\n\nL-R\n\nY\n\nM\n\nWARM\n\nCOOL\n\nWA-H\n\nU-Y\nREDO/AFTER RELAY\n\nCHG CT2\n\nCOOLER\nHOUSE METER\nREF/SENSOR SW\n\nLI O\nLI O\n\n8 I7\n23 I7\n\nL-R\n\nBR\n\nY\n\nBR-W\n\nG-W\n\nL-V\n\nR-Y\n\nWH-R\nREF/SENSOR MOTOR\nVENT SENSOR\nLO-PHOTO METER\n\nV-W\n\nTE\nTELL-LIGHT\n\nCDQ AND\nAMB\n\n9 I6\n\nB\n\nL-R\n\nP\n\nL-R\n\nI14\n\n2\nI7\n\nL-R\n\nG-W\n\nV\n\nR-Y\n\nB\n\nG-W\nI9\n\nV\nI9\n\nR-Y\nI9\n\nL-Y\n\n12 I6\n\nI8\nG-W\n\n9\nC-11\n\n2\nC-11\n\n8\nC-11\n\n6 I9\n\nL-Y\n\nI O(*1)\nI O(*2)\n\nI S-W\nACTUAL PRESSURE SW\n\nI O(*1)\nI O(*2)\n\nWH-R\n\nL-R\n\nB\n\nP\n\nL-Y\n\n18 O\nTP\n\n3 O\nAMH\n\n1 O\nAMC\n\n7 O\n+B\n\n20 O\nACC\n\n18 O\nRDE/GR\n\n11 O\nSPEED\n\n14 O\nPSW\n\nWH-B\n\nBR\n\nA12 O , A13 O , A14 O\nA/C AMPLIFIER\n\nWH-B\n\nBR\n\n235"
+}

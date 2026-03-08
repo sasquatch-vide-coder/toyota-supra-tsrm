@@ -1,0 +1,6 @@
+{
+  "page_id": "RAP-2",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : W/ WOOFER (SPEAKER)\n*2 : W/O WOOFER (SPEAKER)\n\nS 8 X · S 9 Y · S10 Z · D\nSTEREO POWER AMPLIFIER\n\nFADE    BEEP    MUTE    F. L    F. R    R. L    R. R    GND    OUT    OUT    AMP+\n11 A - 7 B - 4 C - 5 D - 6 E - 13 F - 14 G - 10 H - 2 I - 3 J - 1 K (*2)\n11 A - 12 B - 4 C - 5 D - 6 E - 13 F - 14 G - 10 H - 2 I - 3 J - 1 K (*2)\n\nB    G    Y    L    R    W    BR\n(SHIELDED)    (SHIELDED)    V    LG\n\n116\n\nP-L    P+L    P-L    P-L\n\n11    12    13    5    6    7    14    15    3    4    1\nGND    FADE    BEEP    MUTE    F. L    F. R    R. L    R. R    ACC    B    AMP\n\nR 6\nRADIO AND PLAYER\n\nANT\n\nB-R\n\n8 TM1    9 TM1\n\nB-R    P-L\n\n7    6\nANT    AMP\n\nA30\nAUTO ANTENNA\nCONTROL RELAY\n\n215"
+}

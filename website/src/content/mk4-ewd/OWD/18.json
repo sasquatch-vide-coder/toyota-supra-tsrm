@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-18",
+  "section_header": "12 SUPRA",
+  "title": "",
+  "ocr_text": "12 SUPRA\n\nPower Source\n1\nW-L POWER W CCA B BATTERY\n2\nL-W W-L DOOR LOCK RELAY\nFrom THEFT DETERRENT ECU-I4-4c Y L W-B W-B W-B AM radio speaker\n\nPower Window\n2\nL L L\nR-W W-B\nDOWN UP POWER WINDOW RELAY\n3\nDOWN POWER WINDOW MASTER SW\nL\nL L\nG-W R-L G-W R-L G-W R-L\nP7 POWER WINDOW CONTROL SW RH MOTOR RH\nG-Y R-W R G-Y R POWER WINDOW MOTOR RH\nR-W POWER WINDOW MOTOR LH\n\nPower Seat\n4\nL-W L-W L-W\nP10 POWER SEAT CONTROL SW\nREAR FRONT\nREAR FRONT\nW-B R-W RECLINING MOTOR\nL-B L POWER SEAT MOTOR (Except Canada)\nP4\nW-B W-B AM radio speaker"
+}

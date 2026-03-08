@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-17",
+  "section_header": "OVERALL ELECTRICAL WIRING DIAGRAM",
+  "title": "OVERALL ELECTRICAL WIRING DIAGRAM",
+  "ocr_text": "OVERALL ELECTRICAL WIRING DIAGRAM\n\n11 SUPRA\n\n1 Power Source\n\nIG2\nIG1\nST\nAM1\n+B\n50A AM1 fuse (USA)\n60A AM1 fuse (Canada)\n120A ALT\n7.5A DOME\nBATTERY\nB\nW\nW\nW\nR\n\n2 Light Auto Turn Off\n\nINTEGRATION RELAY\n\nINTEGRATION RELAY\n\nDA1CE\nRELAY\nR\n+B\nIG\nDA1CE\nRELAY\nIG\nLG\nIG2\nDZ2\nG-B\nLG2\nG-B\nTO Door Lock Motor and Door Unlock Detection SW RH, LH <L>\nL-W\nL-W\nTO Door Lock Motor and Door Unlock Detection SW LH, LH <L>\nR-B\nR-B\nDID\nDOOR COURTESY SW LH\nW-B\nW-R3\nSee Taillight System <7,1>\nR\nTO Combination SW <8,12>,<8,2>\nSee Taillight System <7,1>\nR-Y\nR-Y\nFrom Headlight Relay <8,2>,<7,6,2>\n\n3\n\nCR\nDA1CE\nRELAY\nE\n\n4 Remote Control Mirror\n\nREMOTE CONTROL MIRROR SW\nREMOTE CONTROL MIRROR SW\nOPEN\nCLOSE\nDOWN\nRIGHT\nL-W\nUP\nDOWN\nRIGHT\nLEFT\nR3\nWHD\nLH\nL-W\nBR-Y\nBR-B\nLG-R\nLG-B\nLG\nBR-Y\nBR-B\nLG-R\nLG-B\nLG\nBR-Y\nBR-B\nLG-R\nLG-R\nLG-B\nLG-B\nLG\nLG\nRETRACTOR CONTROL\nMIRROR RH\nRETRACTOR CONTROL\nMIRROR LH\nW-B\nRear speaker"
+}

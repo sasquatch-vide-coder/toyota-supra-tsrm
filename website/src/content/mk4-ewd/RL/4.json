@@ -1,0 +1,6 @@
+{
+  "page_id": "RL-4",
+  "section_header": "JUNCTION BLOCK",
+  "title": "[J/B No. 1 Inner Circuit]",
+  "ocr_text": "[J/B No. 1 Inner Circuit]\n\n*1: Power Main Relay\n*2: Taillight Relay\n\nIGN\n7.5A\nSA\n\n30A ECU-B\nIGN\n15A ECU-IG\n\n30A DEF/CC\n10A TAIL\n10A PANEL\n\n10A WIPER\n10A DI-AT,HTR\n10A GAUGE\n7.5A\nTURN\n10A ACC-IG\n7.5A\nECU-IG\n\n10A MIR-HTR\n\nDRDE5\n\n15A IG\n7.5A RAD NO. 2\n\nIntegration Relay\n\nConnector Pin Numbers:\nTB: 2, 4\nTA: 1, 4, 7, 5\nT4: 3, 5\nT4: 5, 8, 3, 6\nT1: 7, 4, 5, 1, 2\nT1: 9, 13, 11, 10, 11, 7, 16, 12, 3\nT5: 7, 9\nTH: 15, 14, 3, 12, 8, 4, 1, 16, 2, 1, 6, 15, 5, 6, 13, 4, 3, 4, 7\nTG: 6, 10\nTD: 9, 6, 4, 2, 8\nTE: 4, 3, 17\nTE: 11, 8\nTE: 7, 16, 2, 4, 3, 10\nTE: 6\nTE: 1\nTE: 12\nTB: 1, 10\nTB: 9, 6, 2\nTE: 6\nTE: 1, 19, 14\nTE: 12, 13, 7, 2, 9, 10, 18"
+}

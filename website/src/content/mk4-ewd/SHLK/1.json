@@ -1,0 +1,6 @@
+{
+  "page_id": "SHLK-1",
+  "section_header": "SHIFT LOCK",
+  "title": "SHIFT LOCK",
+  "ocr_text": "SHIFT LOCK\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n15A CIG\n10A ECU-IG\n15A STOP\n\n14\n8\n10\n\nL-R\nB-R\nW\n\nC\n1\n2\n\nS11\nSTOP LIGHT\nSW\n\n4\n1\n\nG-W\n\nS7\nSHIFT LOCK ECU\n\nACC\nIG\nSTP\n\nSHIFT LOCK\nCONTROL SW\nP1\nG-R\n\nP\nG\n\nP2\nG-W\n\nSLS-\nL\n\nSHIFT LOCK\nSOLENOID\n\nSLS+\nL-R\n\nKLS+\nE\n\nC\n4\n\nW=R\n\n3\n\n4\n\n2\n\nK3\nKEY INTERLOCK\nSOLENOID\n\n1\n\nW-B\n\n92\n100\n\n1\n\nW-B\n\nW-B\n\n184"
+}

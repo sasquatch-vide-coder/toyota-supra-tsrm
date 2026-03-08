@@ -1,0 +1,6 @@
+{
+  "page_id": "ABS-11",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "FROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\nLG-R\n\n7.5A TRAC\n10A ECU-B\n10A ECU-IG\n15A STOP\n10A GAUGE\n\n9\n13\n10\n12\n11\n\n3 IR3\n\nL-Y\nW-R\nB-R\nG-W\n\nW-R\nB\nW\nG-W\n\n5\nS11\nSTOP LIGHT\nSW\n\nBR-W\nL\n\nY\n\nY\nY\n\nW\n\nLG-R\nBR-W\n\nT5\nTELLTALE\nLIGHT LH\n\n2\nTRAC\nOFF\n3\nABS\n\n2\nTRAC\n3\nBRAKE\n\nC12 G\nCOMBINATION\nMETER\n\n9\n\n7 G\n1 G\n\n8\n4\n\nLG-R\nL\n\nW\nBR-W\n\nW\nL\nLG-R\n\n2 IF2\n12 IF2\n\n1 IF2\n14 IF1\n\nL\nW\n\nW\nBR-W\n\nUSA\nCANADA\n\nI2: USA\nI10: CANADA\n\nBR-W\n\nBR-W (USA)\nBR-W (CANADA)\n\nBR-W (USA)\n\nI2\n\n8\nPKB\nD6\nDAYTIME\nRUNNING\nLIGHT\nRELAY\n(MAIN)\n\nOIL\n\nCANADA\n\n10\n\nBR-W\n\nP5\nPARKING\nBRAKE SW\n\nBR-W (USA)\nB-W (CANADA)\n\nB-W (CANADA)\nI2\n\n169"
+}

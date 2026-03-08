@@ -1,0 +1,6 @@
+{
+  "page_id": "EC-7",
+  "section_header": "ENGINE CONTROL (FOR 2JZ–GTE)",
+  "title": "ENGINE CONTROL (FOR 2JZ–GTE)",
+  "ocr_text": "ENGINE CONTROL (FOR 2JZ–GTE)\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n10A MIR–HTR\n10A FUEL PANEL\n15A STOP\n\n4 M1\n6 M5\n10 M7\n\nL–R\nL–G\nTO TRACTION ECU\n\nP–L\n\nD 8 DIODE (FOR IDLE E–UP)\n\nTO POWER CIRCUIT CONTROL UNIT (A/T)\nTO CRUISE CONTROL ECU\nTO RADAR SENSOR (RADIATOR FAN ECU)\n\nW\n\n2 M2\nB\n\nW–R\n\nL–R\n\n6\n\n9\nV–L\nG\nW–R\nC\n\n3 EAT\n1\n6\nG–O\n\n14 L/I1\n\nSTOP LIGHT SW\n\nGR–R (A/T)\n\n6 M6\n\n2 M2\n4\n\nW–L\n2 E/A1\n\n14 L/I1\nG–W\n5 E/B1\n\nP–R\nW–G\nBR–W\nR\nW–L\nR\nBR–W\n\nG–R\n(A/T)\n\nY–R\n\n38 NEO\n27 EFI\n33 EFI\n14 TRC\n15 TRC\n\n32 M1\nP–L\n\n3 M3\nL\n\n34 ACMG\n24 ODI\n15 ABS\n1 STP\n17 T19\n\nE1S\nA/C\nACMG\nOD1\nABS\nSTP\nGB–B\n(A/T)\n\nE–9\nE10\nENGINE CONTROL MODULE (*1)\n\nE1\nE01\nE02\nTE1\nVF1\nIGT1\nIGT2\nIGT3\nIGT4\nIGT5\nIGT6\nIGF\nW\nSPI\nTE2\n\n8\n9\n20\n2\n29\n57\n56\n55\n54\n53\n52\n51\n1\n2\n19\n\nBR\nBR\nV–L\nL–G\nB–LG\nGR–B\nGR–B\nP–B\nL–G\nB–Y\nL–B\nBR\nP–G\nBR\n\nI/T1\n\n1\nIGT1\n2\nIGT2\n3\nIGT3\n4\nIGT4\n5\nIGT5\n6\nIGT6\n7\nIGF\n\nBR\nBR\n\nTACH\n\n8 M4\n\nI 2\nI 3\nIGNITER\n\nBR\nBR\nBR\nBR\n\nI/T2\n\nY–L\nY–L\nY–L\nY–L\n\nLG\nLG\nLG\nLG\n\nE6\n\nP\nL–B\n\nP–G\nY–L\n\n16 M7\nB\n\nI/T7\n\nBR\nBR\nBR\nBR\n\nI/T3\nBR\n\nI/T10\nBR\n\n76"
+}

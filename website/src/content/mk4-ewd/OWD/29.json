@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-29",
+  "section_header": "OVERALL ELECTRICAL WIRING DIAGRAM",
+  "title": "OVERALL ELECTRICAL WIRING DIAGRAM",
+  "ocr_text": "OVERALL ELECTRICAL WIRING DIAGRAM\n\n20 SUPRA\n\nPower Source\n1\nIGN SW\nIG2\nIG1\nST\nAM2\nAM1\nSTARTER SW\nR\n60A AM1(For USA)\n60A AM1(For Canada)\nW\nW\n60A POWER\nW-L\nW\n120A ALT\nB\nBATTERY\n\nRear Window Defogger and Mirror Heater\n2\n10A GAUGE\nW-L\nY\nB-Y\nB\nB\nB\nB\nREAR WINDOW DEFOGGER RELAY\nTo A/C Amplifier <26-3>\n\nNOISE FILTER\nN\nO\nREAR WINDOW DEFOGGER\nRH\nO\nRH\nO\nLH\nVIEW\nRIGHT\nLEFT\n\nClock\n3\nBATTERY RELAY\n10A IG2\nDO\nCLOCK\nDO\nCLOCK\nL-R\n\nPPS/Progressive Power Steering\n4\n10A EFI\nPS ECU\nP-1\nPPS-SO1 PUMP\nC2\nLG-R\nLG-R\nC2\nLG-R\nLG-R\nC1\nP\nFrom Taillight Light RH <25-1>\nW-B\nW\nG-O\nR\nG-O\nC2\nENGINE CONTROL ECU\nG-O\nW-B\nL-R\nB-Y\nB-V\nRH-W\nD-B\nDiode(No.14e)\nTo Engine Control Module <01-2>\nW-B\nElectronically Controlled Suspension <30-2>\nL-R\nLH\nRH-W\nW-B\nMERCURY SWITCH\nVEHICLE CONTROL MIRROR\nW-B\nL-R\nW-B\nLH RH\n\nElectric Tension Reducer\n4\nSpeed Height System <31-1>\nB-R\nTENSION REDUCER SOLENOID\nC1\nB-W\nC1\nC2\nBUCKLE SW\nB-R\nC2\nB-W\nC2\nB-W\nC2\n\nExhaust gas\n7-5A DOME\nW-L\nW-L\nW-B\nW-B\nW-B\nW-B"
+}

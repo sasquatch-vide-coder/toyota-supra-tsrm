@@ -1,0 +1,6 @@
+{
+  "page_id": "ABS-2",
+  "section_header": "ABS (ANTI-LOCK BRAKE SYSTEM)",
+  "title": "ABS (ANTI-LOCK BRAKE SYSTEM)",
+  "ocr_text": "ABS (ANTI-LOCK BRAKE SYSTEM)\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n60A\nABS NO. 1\n\n2\n\nB-R\n\nC16\n\nR\n\nR\n\nB-R\n\n6\nE41\n\nB-R\n\nB-R\n\nD 1\nDATA LINK CONNECTOR 1\n(CHECK CONNECTOR)\n\n1\n\n23\n\nWB\n\nABS ECU M\n\nA8\n\nABS HEA M\n\n+BM\n\n+BS\n\nBM\n\nMR\n\nR\n\nSR\n\nBS\n\nGND\n\nSHORT PIN\n\nTS\n\nTC\n\nWA\n\n2\n\n3\n\n1\n\n5\n\n6\n\n16\n\n11\n\n22\n\nB\n\nL\n\nB-T\n\nL-W\n\nW-B\n\nL-W\n\nL\n\nW-B\n\nB\n\nP-B\n\nL\n\nL-W\n\nW-B\n\n15\nB11\n\n21\nJ/B\n\n16\nJ/B\n\nB\n\n11\nB P4\n\nW-B\n\n13\nB50\n\n2\nB54\n\nB55\n\nY\n\nP-B\n\nL-B\n\nY\n\n23\n\n24\n\n11\n\n19\n\n15\n\nMR\n\nR+\n\nSR\n\nA18\n\nA19\n\nD\n\nABS ECU\n\nSPL\n\nMT\n\nSFR\n\nSFL\n\nSRR\n\nAST\n\nGND\n\nGND\n\n6\n\n7\n\n13\n\n26\n\n14\n\n16\n\n2\n\n15\n\nL-W\n\nY\n\nB-L\n\nP\n\nP-B\n\nY-G\n\nB\n\nL-W\n\n2\nB56\n\n7\nB53\n\n8\nB54\n\n1\nB54\n\n10\nB52\n\n5\nB57\n\nY\n\nL-W\n\nB-L\n\nP\n\nP-B\n\nY-G\n\nW-B\n\nW-B\n\n4\n\n3\n\n5\n\n4\n\n4\n\n3\n\n6\n\n2\n\nBS\n\nBM\n\nMT\n\nSFR\n\nSFL\n\nSRR\n\nSPL\n\nAST\n\nM\n\nH8\n\nW-B\n\nE\n\n1\n\nA 6\n\nA 7\n\nD\n\nABS ACTUATOR\n\nW-B\n\nW-B\n\n160"
+}

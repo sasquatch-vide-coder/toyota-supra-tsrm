@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-24",
+  "section_header": "Electronically Controlled Transmission and A/T Indicator (for 2JZ-GE)",
+  "title": "Back-Up Light (for 2JZ-GE)",
+  "ocr_text": "16 SUPRA (Cont. d)\n\nElectronically Controlled Transmission and A/T Indicator\n(for 2JZ-GE)\n\n5\n\n6\n\n7\n\n8\n\nBack-Up Light (for 2JZ-GE)\n\nB-G\nLG-B\nB-G\nB-G\nLG-W\nLG-Y\nV-G\nG-B\nLG-B\nV-G\nW-G\nV-L\nG-W\nW-B\n\nMAIN BODY ECU\n\nP-2\nBACK-UP LIGHT SWITCH 7 INDICATOR\n\n(A/T)\n\nY\nY\n\nY\nY\n\nB\nP\n\n3\nG\n\nB-G\nLG-B\nG-R\nL\n\n(M/T)\nG\nR\nB\nGR\n(A/T)\nGR\n\nP-2\nBack-UP Light Switch\nECU B-25\n\nThrottle Position\nSensor\n(TDC-S-2)\n\nG-B\nLG-R\nG-R\nL\nR-B\nGR\nY\n\nE2\n2J\nVG1\nVC\nVTA\nIDL\nE2\n\nC4\nG1\nG2\nG7\n\nV-G\nV-L\nV-G\n\nLG-R\nG-R\nR-B\n\nMANUAL\n\nD DOWN\nD UP OFF\n\nG\nG1\nG\nW-L\n\nELECTRONICALLY CONTROLLED\nTRANSMISSION\nECU-S-63-D-PATTERN\nMANUAL\nD DOWN\nD UP\n\nW-B\nW-B\nW-B\nW-B\n\nSee Combination Meter\n<25-B>\n\nA/T INDICATOR\n(ON COMBINATION\nMETER)\n\nLEFT SPEAKER\n\nLEFT SPEAKER\n\nBACK-UP LIGHT\n(REAR COMBL. LIGHT)\n\nR-B\nR-B\nW-B\nR-B\nW-B\nR-B\nR-B\nR-B\nW-B\n\nP-2\nL1"
+}

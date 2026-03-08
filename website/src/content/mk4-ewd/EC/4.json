@@ -1,0 +1,6 @@
+{
+  "page_id": "EC-4",
+  "section_header": "ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU",
+  "title": "*1 : ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU",
+  "ocr_text": "*1 : ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU\n\nB-O\nB-O\nB-O\nB\nB-O\n60\nM1\nB-O\n\nB-R\nB-R\n\nS 1\n(S1 RESISTOR\nSFI RESISTOR)\n\nB-O\nB-O\n\n7. 5A\nIGN\n\n# 10\n# 20\n# 30\n# 40\n# 50\n# 60\n2\n3\n4\n5\n7\n6\nB\n+B\n\nB-Y\nB-W (A/T)\nB-R\n5\nB-R\nEA2\nGR\n8\nGR\nEA1\n\nIG\nG\nR\n+B\n+B\n\nINJECTOR No. 1\nINJECTOR No. 2\nINJECTOR No. 3\nINJECTOR No. 4\nINJECTOR No. 5\nINJECTOR No. 6\n\n#2\n#3\n#4\n#5\n#6\n\nB-R\nB-R\nEA4\n\nBR\nB-W\n(A/T)\nG-Y\n\nR-L\nR-L\nR-G\nR-W\nR\nR-B\n\n13\nM\n\n24\n78\n33\n1\n20\n19\n18\n17\n16\n15\nM-REL\nIGSW\nNSW\nBATT\n# 10\n# 20\n# 30\n# 40\n# 50\n# 60\n\nE 9\nE10\nENGINE CONTROL MODULE (*1)\n\nB\nDI\nFPC\nSTA\n+B EGR\n+B EVAP\nISC1\nISC3\nISC2\nISC4\n\n3\n21\n22\n77\n75\n74\n36\n33\n34\n32\n\nB-R\n\nG\nV-W\nB\nP\nV\nV-Y\nG-W\nG-W\nR-G\n\nE12\n\nB-R\n\nV-R\nCREGR\nV-R\nFI EGR EVAP\n\n12\nG\nG\nD1\n\n7\n8\nL-R\nL-R\nC2\nD1\n\n4\nV-W\nV-W\nI1\n\nTHE AIR CONTROL VALVE\n(ISC VALVE)\n\n4\n5\n1\n3\n\n5\n2\n\nB\n\nB-R\nB-R\nB-R\nB-R\nB-R\nB-R\n\nE15\nB-R\nE14\nB-R\nE14\nB-R\n\nB-R\nL-R\nB-R\n\n73"
+}

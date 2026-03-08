@@ -1,0 +1,6 @@
+{
+  "page_id": "OWD-4",
+  "section_header": "1.SUPRA ELECTRICAL WIRING DIAGRAM",
+  "title": "1.SUPRA ELECTRICAL WIRING DIAGRAM",
+  "ocr_text": "1.SUPRA ELECTRICAL WIRING DIAGRAM\n\nPower Source\nSTARTER\nBATTERY\n+B\nB\nE-13\nE-04\nB-45\nIG SW1\nIG SW2\nAS\nIG1 IG2 ST B\nB-W\nB-W\nB-O\nW-R\nW-R\nW-H\nW\nW\nW\nW\nW\nW\nB\nE-02\nMAIN FUSE (AM1)\nMAIN FUSE (AM2)\nMAIN FUSE\n(MAIN)\nB-W\nB-W\nMAIN\nFUSE\nMAIN\nFUSE\nB\nB-BLACK\nB\nB\nStarting\n(A/T)\nB\nB-W\nB-W\nB-W\nB-7A\nB\nST\n(MAT1)\n(A/T)\n(MAT1)\n(MAT1)\nB\nB-7A\n(MAT1)\nB-W\nB\nB\nB\nSTARTING SYSTEM\nAM2\nIGNITION\nSWITCH\nNEUTRAL START\nSWITCH (A/T)\nB-W\nB-W\nB\nB-W\nB-W\nP\nR\nN\nD\n2\nL\nD3\n(A/T)\n(A/T)\nB\nB\nB\nB\nB\nW\nB\n(A/T)\n(MAT1)\nB\nB-W\nB\nB\nB\nB\nB\nB\nB\nTo Engine Control Module\nF-28,29,30\n・Charge Warning Light\n・Gauge & Meter-Refe-\n・Speed Sensor\n(T1)\n(2)\nL-10\n(T1)\n(2)\nTo Data System\nEBCU-5→\nTR-7\n3→STARTER\nB-BLACK\nRELAY\nSTARTER\nB\nB\nB\nMAIN\nFUSE\nBACK\nMAIN\nFUSE\nCharging\n4\nB-5\nCHARGING SYSTEM\nB-Y\nY\nY\nY\nB-O\nY-G\nY-O\nY-G\nY-O\nT6\nCHARGE WARNING LIGHT\n(TELL TALE LAMP LH)\nG\nFrom Combination\nMeter→G-25,26\nTo Daytime Running\nLight Relay(M/T)\n<EG-11>\nW\nW\nW\nG-LOCK\nSOL\nCHG\nL2\n1\n2\n3\n4\n5\n6\nALTERNATOR\nMAGNETIC CLUTCH\nALTERNATOR\nW\nW\n+B(24V)\n+B(12V)\nIG\nCHG\nW\nW"
+}

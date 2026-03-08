@@ -1,0 +1,6 @@
+{
+  "page_id": "LATO-1",
+  "section_header": "LIGHT AUTO TURN OFF",
+  "title": "LIGHT AUTO TURN OFF",
+  "ocr_text": "LIGHT AUTO TURN OFF\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n7. 5A DOME\n10A GAUGE\n\n2\nF15\n15 E2\nR\n\nTAILLIGHT RELAY\n2 1\n3 2\n\n15\n1\n\nR-Y\nW-L\nR-Y\n\nR\nH\nG-W\nH\nR\n\n2\n8W POWER\n2\n1\nR\n3\n1\n2\nW\nHEADLIGHT RELAY\n4 2\nF 15\n3SM MAIN\n8DV ALT\n5 G\n7 4\nB\nB20 A\nINTEGRATION RELAY\n7 O\nE\n\nBATTERY\n\n13 C\n2 E\n4 O\nG\nR-B\n15 D11\n\nOFF\nTAIL\nC13 LIGHT CONTROL SW [COMB. SW]\n15 E2\nHEAD\nR-B\n\n11\n\nW-B\n\n1M 4 1K\n4 7 D10 DOOR COURTESY SW LH\n2\n\nW-B\nB\nW-B\n\n108"
+}

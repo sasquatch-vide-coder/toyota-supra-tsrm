@@ -1,0 +1,6 @@
+{
+  "page_id": "AA-1",
+  "section_header": "AUTO ANTENNA",
+  "title": "AUTO ANTENNA",
+  "ocr_text": "AUTO ANTENNA\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n20A\nRAD\nNO.1\n\n15A\nECU-IG\n\n7.5A\nRAD\nNO.2\n\n1Y 1B 3 1W\n\n2B\n\nGR (*1)\n\nB\nE11\n\nL-Y (*1)\n\n12\nL-Y\n(*1)\n\n1\nL-Y\n(*2)\nL-Y (*2)\n\nE1\n\nGR (*2)\n\nGR\n\nP-L (*1)\n\n1R\nGR\n(*2)\nP-L (*2)\n\nB-R (*1)\n\nL-Y\nB-R\nGR\nB-R (*2)\n\n*1 (*2)\n*1 (*2)\nB-R (*2)\n\nB\nIG\nACC\nAMP\nANT\nGND\n\nW-B\n\nUP\nDOWN\n\nA30\nAUTO ANTENNA CONTROL RELAY\n\n3\n2\n\n2\n6\nE1\nE1\n\nM\n5\n4\n1\n\nA33\nAUTO ANTENNA MOTOR\n\nJ 1\nJUNCTION\nCONNECTION\nA\nW-B\n\nW\n\n210"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "EC-3",
+  "section_header": "ENGINE CONTROL (FOR 2JZ-GTE)",
+  "title": "ENGINE CONTROL (FOR 2JZ-GTE)",
+  "ocr_text": "ENGINE CONTROL (FOR 2JZ-GTE)\n\nB-O\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\nACC\n7 AM1\nIG1\nST1 8\n\n30A\nEFI\nNO. 2\n\n30A\nEFI\nNO. 1\n\n2 AM2\nIG2 5\nB-W\n\nM9\nIGNITION SW\n\nE1\nB-Y\nEA1\nB-Y\n(A/T) B-W\n\nW-R\n\n7.5A\nST\n\nB-R\nB-R\nGR\n\nB-W\n(A/T)\nB-R\n\nE9\nB-R\n\nERIN 2\n13\nB-W\nEFI MAIN\nRELAY\nW\n4 M\n\nM1\n\nB-R\n\nBM1\n\n14\nB-W\nM2\nE10\nB\n(A/T)\n4 M\n\nB-R\n\nW\n(M/T)\nW-B B\nB\n\nW-R\n\nE5\nW\nB-R\nB-R\n\nE7\n\nW\n\nC9\nCLUTCH\nSTART SW\n\nB-W\n(M/T)\n\n8 BM1\nB-W\n\nG\n\n(M/T)\n\nNEUTRAL START SW\n(INHIBITOR SW)\n(A/T)\nP\nN\n10 IG2\n12 IG2\n\nFROM ECM\n(FOR CANADA)\n\n5\n\n+B\nDI\n\nW-B\n\nF15\nFUEL PUMP\nECU\nG\n\n30A ALT\n30A AM2\n\nP-2\n\nB\n(M/T)\nB\n(A/T)\n\n2\nBM1\n\nG\n\nE\nFPC\nFP\nW-B\nL-R\nL-R\n\n11 IG2\nB-6\nL-R\n\nV-W\n\n1\n20\n\n6 BM1\n\nBATTERY\n\nE16 : M/T\nE13 : A/T\n\nF14\nFUEL PUMP\nM\n\nB\nB\n\nW-B\n\nTO STARTER\nRELAY\n\nW-B\nW-B\nBM1\n\nW-B\n\n72"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "RFAC-4",
+  "section_header": "",
+  "title": "",
+  "ocr_text": "*1 : 2JZ-GTE\n*2 : 2JZ-GE\n\nW-B\n\nR-L\nR-L\n\nE10\nENGINE CONTROL MODULE\n(ENGINE AND ELECTRONICALLY\nCONTROLLED TRANSMISSION ECU)\n\nACMG\nA/C\nTACO\n23\n34\n10\n\nW-G\nL\nB-W\nC\n\n2\nEAT\n\nI 4\nIGNITER\n\nW-G\n\nEXT\n4\n\nL-W\n\nB-W\n(*2)\n\nL\n\n31\nIN1\n29\nIN1\n\nL\n\nW-B\n\nL\nL-W\nL-R\nB-W\n\nI15\nW-B\n\nW-B\n\nJ\n13\n7\n1\n14\n6\n21\nW-B\nW-B\nGND\nVERT\nAC-IN\nBLW\nHR\nMGC\nIGN\n\nA12\nA13\nA14\nA/C AMPLIFIER\n\nA\nA\n\nJ1\nJUNCTION\nCONNECTOR\n\nW-B\n\n231"
+}

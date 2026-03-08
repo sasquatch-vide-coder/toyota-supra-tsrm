@@ -1,0 +1,6 @@
+{
+  "page_id": "EC-11",
+  "section_header": "ENGINE CONTROL (FOR 2JZ-GTE)",
+  "title": "ENGINE CONTROL (FOR 2JZ-GTE)",
+  "ocr_text": "ENGINE CONTROL (FOR 2JZ-GTE)\n\nA 5 GRAY\nC 1 BLACK\nC 2 BLACK\nC 3 DARK GRAY\nC 9\n\n1 2\n1 2\n1 2\n1 2\n1 2\n\nC10 BLUE\nC12\n\nD 1 BLACK\nD 5 DARK GRAY\nD 8 ORANGE\nE 1 DARK GRAY\n\n1 X 3\n4 X X\nX 8 X\n12 3 X\n\nX\nX •\nB\n•\n•\nX\n• X\n• • • •\n\n1 2 3\n1 2\n\nE 3 DARK GRAY\nE 9 DARK GRAY\nE10 DARK GRAY\n\n• X • X 5 6 7 X • •\n• X • • 29 28 27 26 25 X\n11 12 24 23 22 21 20 19 18 17 16 15 14 13 12 11\nX X 53 52 51 50 49 48 X X X 69 X\n\nX • • • 13 14 15 17 18 19 20\n• 23 33 34 35 X X 36 37 38 40\n11 X 53 54 55 56 57 58 59 X 60\n17 72 73 74 75 76 77 X 79 80\n\n1 2 • 4 X 6 • X • •\n11 21 31 41 51 61 71 • • 91 20\n2 12 22 32 42 • 52 62 72 • X X\nX • 33 43 53 54 • X X • 63 X\n\nF14 DARK GRAY\nF15 BLACK\nH 5 DARK GRAY\nH11 DARK GRAY\nI 1 BLACK\n\n• • • •\n7 5 3\n\nX X 5 6 X 8\n\n1 2\n3 4\n\n1 2\n3 4\n\n1 2\n3 4 5 6\n\nI 2 BLACK\nI 3 BLACK\nI12, I14, I16 DARK GRAY I13, I15, I17 BROWN\nI19\n\n1 2\n3 4\n\n1 2 3 4 5 6\n7 8 9 10 11 12\n\nX 1\n• • • 7 8\n\n2 3\n\n80"
+}

@@ -1,0 +1,6 @@
+{
+  "page_id": "TRBL-1",
+  "section_header": "TROUBLESHOOTING",
+  "title": "TROUBLESHOOTING",
+  "ocr_text": "TROUBLESHOOTING\n\nTo Ignition SW\nIG Terminal\nFuse\nA\nSW 1\nVoltmeter\nB\nRelay\nC\nSW 2\nSolenoid\n\nVOLTAGE CHECK\n(a) Establish conditions in which voltage is present at the check point.\nExample:\nA - Ignition SW on\nB - Ignition SW and SW 1 on\nC - Ignition SW, SW 1 and Relay on (SW 2 off)\n(b) Using a voltmeter, connect the negative lead to a good ground point or negative battery terminal, and the positive lead to the connector or component terminal. This check can be done with a test light instead of a voltmeter.\n\nOhmmeter\nSW\n\nCONTINUITY AND RESISTANCE CHECK\n(a) Disconnect the battery terminal or wire so there is no voltage between the check points.\n(b) Contact the two leads of an ohmmeter to each of the check points.\n\nOhmmeter\nDiode\n\nIf the circuit has diodes, reverse the two leads and check again.\nWhen contacting the negative lead to the diode positive side and the positive lead to the negative side, there should be continuity.\nWhen contacting the two leads in reverse, there should be no continuity.\n\nDigital Type\nAnalog Type\n.000\n\n(c) Use a volt/ohmmeter with high impedance (10 kΩ/V minimum) for troubleshooting of the electrical circuit.\n\n10"
+}

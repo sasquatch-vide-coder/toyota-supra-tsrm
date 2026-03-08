@@ -1,0 +1,6 @@
+{
+  "page_id": "ECT-4",
+  "section_header": "ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU",
+  "title": "",
+  "ocr_text": "*1 : ENGINE AND ELECTRONICALLY CONTROLLED TRANSMISSION ECU\n\nFROM POWER SOURCE SYSTEM (SEE PAGE 56)\n\n10A GAUGE\n\nI12 I13\n\nI14\n\nY\n\nY\n\nY\n\nR–B\n\nLG–R\n\nG–B\n\nG–R\n\nFROM CRUISE CONTROL ECU\n\nB5–B\n\nR–B\n\nLG–R\n\nG–B\n\nI11 V–G\n\nB5–B\n\nV–G\n\nI12 O\nOD1\n\nR 7 O\n\nL 10 O\n\n9 O\n\nI2 I32\n\nE9 E10 X\n\nENGINE CONTROL MODULE (*1)\n\nG–R\n\nODO AND TRIP\n\nT6 TELL TALE I/F\n\nE1\nOD2\nM\nSP1\n\n69 O\n80 O\n79 O\n28 O\n29 O\n2 O\n\n6\n5\n\nCRUISE CONTROL ECU\n\nD\n\nBR\nBR\nBR\nV–G\nW–L\nP\nV–G\n\nP\nL–R\n\nJUNCTION CONNECTOR (SIDE OD/ECU)\n\n5 J11\n38 J11\n11 J11\n\nV–G\nW–L\nP\n\nBR\n\nW–L\n\nV–G\n\nI17\n\nV–G\n\nBR\nBR\nBR\n\nE0\n\n143"
+}
