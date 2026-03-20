@@ -16,8 +16,15 @@ const modelColors: Record<string, string> = {
   "Other": "var(--color-border)",
 };
 
+const modelOrder = ["MK2 Celica-Supra", "MK3 Supra", "MK4 Supra"];
+
 export function ContentBreakdown({ data }: { data: ContentItem[] }) {
-  if (!data.length) {
+  const sorted = [...data].sort((a, b) => {
+    const ai = modelOrder.indexOf(a.model);
+    const bi = modelOrder.indexOf(b.model);
+    return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+  });
+  if (!sorted.length) {
     return (
       <div
         style={{
@@ -38,8 +45,8 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
     );
   }
 
-  const total = data.reduce((sum, d) => sum + d.views, 0);
-  const maxViews = Math.max(...data.map((d) => d.views));
+  const total = sorted.reduce((sum, d) => sum + d.views, 0);
+  const maxViews = Math.max(...sorted.map((d) => d.views));
 
   return (
     <div
@@ -82,7 +89,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
           marginBottom: "16px",
         }}
       >
-        {data.map((item) => (
+        {sorted.map((item) => (
           <div
             key={item.model}
             style={{
@@ -97,7 +104,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
 
       {/* Legend rows */}
       <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-        {data.map((item) => (
+        {sorted.map((item) => (
           <div key={item.model} style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <div
               style={{
