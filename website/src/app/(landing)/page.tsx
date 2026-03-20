@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MODELS } from "@/lib/models";
 import { loadSections } from "@/lib/sections";
 import { getDocuments } from "@/lib/documents";
+import { getDownloadInfo } from "@/lib/downloads";
 
 export const metadata: Metadata = {
   title: {
@@ -112,6 +113,7 @@ export default function LandingPage() {
             const sections = loadSections(model.id);
             const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
             const documents = getDocuments(model.id);
+            const download = getDownloadInfo(model.id);
             return (
               <div
                 key={model.id}
@@ -179,6 +181,30 @@ export default function LandingPage() {
                         <span style={{ fontSize: "14px" }}>→</span>
                       </Link>
                     ))}
+                    {download && (
+                      <a
+                        href={download.url}
+                        download
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: "8px",
+                          marginTop: "8px",
+                          padding: "8px 14px",
+                          background: "var(--color-dark)",
+                          color: "var(--color-cream)",
+                          fontFamily: "monospace",
+                          fontSize: "10px",
+                          letterSpacing: "0.2em",
+                          textTransform: "uppercase",
+                          fontWeight: "700",
+                          textDecoration: "none",
+                          border: "none",
+                        }}
+                      >
+                        ↓ Download All · {download.sizeFormatted}
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

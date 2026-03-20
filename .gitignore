@@ -25,3 +25,6 @@ Thumbs.db
 
 # Errors log
 data/errors.log
+
+# Generated download archives (too large for git)
+website/public/downloads/*.zip

@@ -1,0 +1,20 @@
+{
+  "mk2": {
+    "filename": "MK2-Supra-Manual.zip",
+    "size": 1171018594,
+    "images": 944,
+    "built": "2026-03-20T22:37:26.026345+00:00"
+  },
+  "mk3": {
+    "filename": "MK3-Supra-Manual.zip",
+    "size": 1191280913,
+    "images": 1505,
+    "built": "2026-03-20T22:37:33.517158+00:00"
+  },
+  "mk4": {
+    "filename": "MK4-Supra-Manual.zip",
+    "size": 1830566477,
+    "images": 3348,
+    "built": "2026-03-20T22:37:50.303817+00:00"
+  }
+}

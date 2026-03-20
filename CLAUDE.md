@@ -92,7 +92,13 @@ python scripts/ingest_to_supabase.py --model mk2
 ```
 Upserts page content into `manual_pages` table for search.
 
-### 6. Deploy
+### 6. Build download archives
+```bash
+python scripts/build_downloads.py --all
+```
+Generates per-model ZIP files with all images and an offline HTML viewer. Output: `website/public/downloads/*.zip` + `manifest.json`. Only needs to run when content changes (new images processed), not on every deploy. ZIP files are gitignored (~1-2 GB each).
+
+### 7. Deploy
 ```bash
 ssh tsrm-prod "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"
 ```
