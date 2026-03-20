@@ -218,9 +218,9 @@ export default function StatsClient() {
             {(() => {
               const countMap = Object.fromEntries(stats.download_counts.map((d) => [d.model, d.downloads]));
               const models = [
-                { id: "mk4", label: "MK4 Supra" },
-                { id: "mk3", label: "MK3 Supra" },
                 { id: "mk2", label: "MK2 Supra" },
+                { id: "mk3", label: "MK3 Supra" },
+                { id: "mk4", label: "MK4 Supra" },
               ];
               return (
                 <div
