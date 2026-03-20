@@ -216,7 +216,12 @@ export default function StatsClient() {
 
             {/* Download counts */}
             {(() => {
-              const totalDownloads = stats.download_counts.reduce((sum, d) => sum + d.downloads, 0);
+              const countMap = Object.fromEntries(stats.download_counts.map((d) => [d.model, d.downloads]));
+              const models = [
+                { id: "mk4", label: "MK4 Supra" },
+                { id: "mk3", label: "MK3 Supra" },
+                { id: "mk2", label: "MK2 Supra" },
+              ];
               return (
                 <div
                   style={{
@@ -227,41 +232,30 @@ export default function StatsClient() {
                     padding: "20px 24px",
                   }}
                 >
-                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
-                    <p style={{ fontFamily: "Georgia, serif", fontSize: "14px", fontWeight: 700, color: "var(--color-dark)", margin: 0 }}>
-                      ZIP Downloads
-                    </p>
-                    <p style={{ fontFamily: "monospace", fontSize: "18px", fontWeight: 900, color: "var(--color-dark)", margin: 0 }}>
-                      {totalDownloads.toLocaleString()}
-                    </p>
+                  <p style={{ fontFamily: "Georgia, serif", fontSize: "14px", fontWeight: 700, color: "var(--color-dark)", margin: "0 0 16px 0" }}>
+                    Downloads
+                  </p>
+                  <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+                    {models.map((m) => (
+                      <div
+                        key={m.id}
+                        style={{
+                          flex: "1 1 120px",
+                          padding: "12px 16px",
+                          background: "var(--color-bg)",
+                          borderRadius: "6px",
+                          border: "1px solid var(--color-border)",
+                        }}
+                      >
+                        <p style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--color-tan)", margin: "0 0 4px 0" }}>
+                          {m.label}
+                        </p>
+                        <p style={{ fontFamily: "monospace", fontSize: "20px", fontWeight: 900, color: "var(--color-dark)", margin: 0 }}>
+                          {(countMap[m.id] || 0).toLocaleString()}
+                        </p>
+                      </div>
+                    ))}
                   </div>
-                  {totalDownloads === 0 ? (
-                    <p style={{ fontFamily: "monospace", fontSize: "12px", color: "var(--color-tan)", margin: 0 }}>
-                      No downloads in this period
-                    </p>
-                  ) : (
-                    <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
-                      {stats.download_counts.map((d) => (
-                        <div
-                          key={d.model}
-                          style={{
-                            flex: "1 1 120px",
-                            padding: "12px 16px",
-                            background: "var(--color-bg)",
-                            borderRadius: "6px",
-                            border: "1px solid var(--color-border)",
-                          }}
-                        >
-                          <p style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--color-tan)", margin: "0 0 4px 0" }}>
-                            {d.model}
-                          </p>
-                          <p style={{ fontFamily: "monospace", fontSize: "20px", fontWeight: 900, color: "var(--color-dark)", margin: 0 }}>
-                            {d.downloads.toLocaleString()}
-                          </p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
                 </div>
               );
             })()}
