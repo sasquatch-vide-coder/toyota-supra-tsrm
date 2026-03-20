@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
 import { PageData } from "@/types";
 import { getModel, getModelIds } from "@/lib/models";
+import PageImage from "@/components/PageImage";
 
 function loadPage(model: string, section: string, page: number): PageData | null {
   const filePath = path.join(
@@ -105,7 +106,6 @@ export default async function ManualPageRoute({
 
   const paddedPage = String(pageNum).padStart(3, "0");
   const imageSrc = `/images/${model}/${section}/${section}_${paddedPage}.png`;
-
   return (
     <div className="page-container" style={{ padding: "32px", display: "flex", flexDirection: "column" }}>
       {/* Breadcrumb */}
@@ -200,20 +200,10 @@ export default async function ManualPageRoute({
       </div>
 
       {/* Page image */}
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={imageSrc}
-          alt={`${sectionInfo.name} page ${pageNum}`}
-          style={{
-            maxWidth: "100%",
-            border: "1px solid #D4C9B8",
-            boxShadow: "0 4px 24px rgba(0,0,0,0.10)",
-            background: "#FFFFFF",
-            display: "block",
-          }}
-        />
-      </div>
+      <PageImage
+        imageSrc={imageSrc}
+        alt={`${sectionInfo.name} page ${pageNum}`}
+      />
 
       {/* Hidden OCR text for SEO */}
       {data.ocr_text && (

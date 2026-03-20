@@ -104,7 +104,6 @@ export default async function EwdPageRoute({
 
   const paddedPage = String(pageNum).padStart(3, "0");
   const imageSrc = `/images/${model}-ewd/${section}/${section}_${paddedPage}.png`;
-
   return (
     <div className="page-container" style={{ padding: "32px", display: "flex", flexDirection: "column", height: "100%", minHeight: 0 }}>
       {/* Breadcrumb */}
