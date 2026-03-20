@@ -51,7 +51,7 @@ export default function LandingPage() {
               letterSpacing: "-0.05em",
             }}
           >
-            {["JZ", "7M", "5M"].map((code) => (
+            {["5M", "7M", "JZ"].map((code) => (
               <div
                 key={code}
                 style={{

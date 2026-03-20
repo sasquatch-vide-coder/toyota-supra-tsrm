@@ -9,13 +9,12 @@ export interface ModelDef {
 
 export const MODELS: ModelDef[] = [
   {
-    id: "mk4",
-    name: "MK4 Supra",
+    id: "mk2",
+    name: "MK2 Supra",
     make: "Toyota",
-    year: "1993–2002",
-    generation: "A80",
-    description:
-      "Complete factory service manual — digitized from Toyota PDF",
+    year: "1982–1986",
+    generation: "A60",
+    description: "Complete 1986 factory service manual — digitized from hand scans",
   },
   {
     id: "mk3",
@@ -26,12 +25,13 @@ export const MODELS: ModelDef[] = [
     description: "Complete 1990 factory service manual — digitized from Toyota PDF",
   },
   {
-    id: "mk2",
-    name: "MK2 Supra",
+    id: "mk4",
+    name: "MK4 Supra",
     make: "Toyota",
-    year: "1982–1986",
-    generation: "A60",
-    description: "Complete 1986 factory service manual — digitized from hand scans",
+    year: "1993–2002",
+    generation: "A80",
+    description:
+      "Complete factory service manual — digitized from Toyota PDF",
   },
 ];
 
