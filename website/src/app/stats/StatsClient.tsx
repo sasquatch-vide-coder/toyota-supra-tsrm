@@ -19,6 +19,7 @@ interface Stats {
   daily_visitors: { day: string; visitors: number; views: number }[];
   hourly_heatmap: { dow: number; hour: number; views: number }[];
   system_metrics: { recorded_at: string; cpu_pct: number; mem_pct: number; net_rx_mb: number; net_tx_mb: number }[];
+  download_counts: { model: string; downloads: number }[];
 }
 
 const periods: { value: Period; label: string }[] = [
@@ -200,7 +201,7 @@ export default function StatsClient() {
               <SystemMetricsChart data={stats.system_metrics} />
             </div>
 
-            {/* Content breakdown and heatmap side by side */}
+            {/* Downloads, content breakdown, and heatmap */}
             <div
               className="stats-bottom-grid"
               style={{
@@ -212,6 +213,58 @@ export default function StatsClient() {
               <ContentBreakdown data={stats.content_breakdown} />
               <HourlyHeatmap data={stats.hourly_heatmap} />
             </div>
+
+            {/* Download counts */}
+            {(() => {
+              const totalDownloads = stats.download_counts.reduce((sum, d) => sum + d.downloads, 0);
+              return (
+                <div
+                  style={{
+                    marginTop: "24px",
+                    background: "#FFFFFF",
+                    border: "1px solid var(--color-border)",
+                    borderRadius: "8px",
+                    padding: "20px 24px",
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
+                    <p style={{ fontFamily: "Georgia, serif", fontSize: "14px", fontWeight: 700, color: "var(--color-dark)", margin: 0 }}>
+                      ZIP Downloads
+                    </p>
+                    <p style={{ fontFamily: "monospace", fontSize: "18px", fontWeight: 900, color: "var(--color-dark)", margin: 0 }}>
+                      {totalDownloads.toLocaleString()}
+                    </p>
+                  </div>
+                  {totalDownloads === 0 ? (
+                    <p style={{ fontFamily: "monospace", fontSize: "12px", color: "var(--color-tan)", margin: 0 }}>
+                      No downloads in this period
+                    </p>
+                  ) : (
+                    <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+                      {stats.download_counts.map((d) => (
+                        <div
+                          key={d.model}
+                          style={{
+                            flex: "1 1 120px",
+                            padding: "12px 16px",
+                            background: "var(--color-bg)",
+                            borderRadius: "6px",
+                            border: "1px solid var(--color-border)",
+                          }}
+                        >
+                          <p style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--color-tan)", margin: "0 0 4px 0" }}>
+                            {d.model}
+                          </p>
+                          <p style={{ fontFamily: "monospace", fontSize: "20px", fontWeight: 900, color: "var(--color-dark)", margin: 0 }}>
+                            {d.downloads.toLocaleString()}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
           </>
         ) : null}
       </div>

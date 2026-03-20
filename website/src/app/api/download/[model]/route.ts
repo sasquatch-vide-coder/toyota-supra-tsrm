@@ -1,0 +1,33 @@
+import { NextRequest, NextResponse } from "next/server";
+import { supabaseAdmin } from "@/lib/supabase/admin";
+import { getDownloadInfo } from "@/lib/downloads";
+
+const VALID_MODELS = new Set(["mk2", "mk3", "mk4"]);
+
+export async function GET(
+  request: NextRequest,
+  { params }: { params: Promise<{ model: string }> }
+) {
+  const { model } = await params;
+
+  if (!VALID_MODELS.has(model)) {
+    return NextResponse.json({ error: "Invalid model" }, { status: 404 });
+  }
+
+  const download = getDownloadInfo(model);
+  if (!download) {
+    return NextResponse.json(
+      { error: "Download not available" },
+      { status: 404 }
+    );
+  }
+
+  // Log the download event (fire-and-forget, don't block the redirect)
+  supabaseAdmin
+    .from("download_events")
+    .insert({ model })
+    .then();
+
+  // Redirect to the static ZIP file
+  return NextResponse.redirect(new URL(download.url, request.url), 302);
+}

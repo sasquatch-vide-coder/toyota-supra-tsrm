@@ -183,8 +183,7 @@ export default function LandingPage() {
                     ))}
                     {download && (
                       <a
-                        href={download.url}
-                        download
+                        href={`/api/download/${model.id}`}
                         style={{
                           display: "inline-flex",
                           alignItems: "center",
