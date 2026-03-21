@@ -4,101 +4,112 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{MODEL_NAME}} — TSRM Offline Viewer</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
-/* ── Color Variables ── */
+/* ── Kinetic Tokyo Design System ── */
 :root {
-  --color-red: #C41E3A;
-  --color-dark: #1A1A1A;
-  --color-tan: #8B7355;
-  --color-border: #D4C9B8;
-  --color-cream: #F5F0E8;
-  --color-bg: #FAF8F4;
-  --color-brown: #4A3A2A;
-  --color-brown-mid: #6B5A4A;
-  --color-dark-border: #2A2A2A;
+  --color-surface: #0e0e13;
+  --color-surface-low: #131318;
+  --color-surface-mid: #19191f;
+  --color-surface-high: #1f1f26;
+  --color-surface-highest: #25252c;
+  --color-surface-bright: #2c2b33;
+  --color-primary: #de8eff;
+  --color-primary-dim: #b90afc;
+  --color-secondary: #00f1fd;
+  --color-tertiary: #ff6e81;
+  --color-text: #f8f5fd;
+  --color-text-muted: #acaab1;
+  --color-text-faint: #76747b;
+  --color-border: rgba(72, 71, 77, 0.15);
+  --color-border-faint: rgba(72, 71, 77, 0.08);
 }
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: Arial, Helvetica, sans-serif; background: var(--color-cream); color: var(--color-dark); height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
+body { font-family: 'Manrope', sans-serif; background: var(--color-surface); color: var(--color-text); height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
+::selection { background: var(--color-secondary); color: #00565a; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-surface-highest); border-radius: 3px; }
 
 /* ── Top Bar ── */
-.topbar { background: var(--color-dark); padding: 10px 20px; display: flex; align-items: center; gap: 16px; flex-shrink: 0; }
-.topbar-brand { font-family: monospace; font-size: 14px; font-weight: 900; letter-spacing: 0.3em; color: var(--color-red); }
-.topbar-model { font-family: monospace; font-size: 11px; letter-spacing: 0.25em; color: var(--color-tan); text-transform: uppercase; }
-.topbar-sep { color: var(--color-dark-border); }
-.hamburger { display: none; background: none; border: none; color: var(--color-cream); font-size: 20px; cursor: pointer; padding: 4px 8px; }
+.topbar { background: var(--color-surface-low); padding: 10px 20px; display: flex; align-items: center; gap: 16px; flex-shrink: 0; backdrop-filter: blur(16px); }
+.topbar-brand { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 900; font-style: italic; letter-spacing: -0.02em; background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dim)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; padding-right: 4px; }
+.topbar-model { font-family: 'Space Grotesk', sans-serif; font-size: 11px; letter-spacing: 0.12em; color: var(--color-text-muted); text-transform: uppercase; }
+.topbar-sep { color: var(--color-text-faint); opacity: 0.4; }
+.hamburger { display: none; background: none; border: none; color: var(--color-primary); font-size: 20px; cursor: pointer; padding: 4px 8px; }
 
-/* ── Racing Stripe ── */
-.stripe { display: flex; height: 4px; flex-shrink: 0; }
-.stripe-red { flex: 4; background: var(--color-red); }
-.stripe-dark { flex: 1; background: var(--color-dark); }
-.stripe-tan { flex: 2; background: var(--color-tan); }
+/* ── Accent Stripe ── */
+.stripe { height: 3px; flex-shrink: 0; background: linear-gradient(to right, var(--color-primary), var(--color-primary-dim), var(--color-secondary)); }
 
 /* ── Layout ── */
 .main { display: flex; flex: 1; min-height: 0; }
 
 /* ── Sidebar ── */
-.sidebar { width: 260px; flex-shrink: 0; background: var(--color-dark); display: flex; flex-direction: column; overflow-y: auto; }
-.sidebar-header { padding: 16px 16px 12px; border-bottom: 1px solid var(--color-dark-border); }
-.sidebar-label { font-family: monospace; font-size: 9px; letter-spacing: 0.3em; color: var(--color-tan); text-transform: uppercase; margin-bottom: 4px; }
-.sidebar-meta { font-family: monospace; font-size: 10px; color: var(--color-brown); }
+.sidebar { width: 260px; flex-shrink: 0; background: var(--color-surface-low); display: flex; flex-direction: column; overflow-y: auto; border-right: 1px solid var(--color-border-faint); }
+.sidebar-header { padding: 16px 20px 12px; border-bottom: 1px solid var(--color-border-faint); background: linear-gradient(180deg, rgba(0, 241, 253, 0.03) 0%, transparent 100%); }
+.sidebar-label { font-family: 'Space Grotesk', sans-serif; font-size: 9px; letter-spacing: 0.2em; color: var(--color-text-muted); text-transform: uppercase; margin-bottom: 4px; }
+.sidebar-meta { font-family: 'Space Grotesk', sans-serif; font-size: 10px; color: var(--color-text-faint); }
 
 /* ── Doc Type Tabs ── */
-.doc-tabs { display: flex; border-bottom: 1px solid var(--color-dark-border); }
-.doc-tab { flex: 1; padding: 10px 12px; font-family: monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; text-align: center; cursor: pointer; background: none; border: none; color: var(--color-tan); border-bottom: 2px solid transparent; }
-.doc-tab:hover { color: var(--color-cream); }
-.doc-tab.active { color: var(--color-red); border-bottom-color: var(--color-red); }
+.doc-tabs { display: flex; border-bottom: 1px solid var(--color-border-faint); }
+.doc-tab { flex: 1; padding: 10px 12px; font-family: 'Space Grotesk', sans-serif; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; text-align: center; cursor: pointer; background: none; border: none; color: var(--color-text-muted); border-bottom: 2px solid transparent; transition: color 0.2s; }
+.doc-tab:hover { color: var(--color-text); }
+.doc-tab.active { color: var(--color-secondary); border-bottom-color: var(--color-secondary); }
 
 /* ── Section List ── */
-.section-list { flex: 1; padding: 8px 0; overflow-y: auto; }
-.section-item { display: flex; align-items: center; gap: 10px; padding: 8px 16px; cursor: pointer; border-left: 3px solid transparent; text-decoration: none; }
+.section-list { flex: 1; padding: 4px 0; overflow-y: auto; }
+.section-item { display: flex; align-items: center; gap: 12px; padding: 8px 20px; cursor: pointer; border-left: 3px solid transparent; text-decoration: none; transition: background-color 0.2s; }
 .section-item:hover { background: rgba(255,255,255,0.03); }
-.section-item.active { border-left-color: var(--color-red); }
-.section-code { font-family: monospace; font-size: 12px; font-weight: 900; color: var(--color-red); min-width: 40px; letter-spacing: 0.05em; }
-.section-name { font-family: Georgia, serif; font-size: 13px; color: var(--color-tan); line-height: 1.3; }
-.section-item.active .section-name { color: var(--color-cream); }
+.section-item.active { border-left-color: var(--color-secondary); background: rgba(0, 241, 253, 0.05); }
+.section-code { font-family: 'Space Grotesk', sans-serif; font-size: 11px; font-weight: 700; color: var(--color-secondary); min-width: 48px; letter-spacing: 0.05em; flex-shrink: 0; }
+.section-name { font-family: 'Manrope', sans-serif; font-size: 13px; color: var(--color-text-muted); line-height: 1.3; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.section-item.active .section-name { color: var(--color-text); font-weight: 600; }
 
 /* ── Content Area ── */
 .content { flex: 1; display: flex; flex-direction: column; min-width: 0; }
 
 /* ── Page Nav ── */
-.page-nav { display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; background: var(--color-bg); border-bottom: 1px solid var(--color-border); flex-shrink: 0; }
-.breadcrumb { font-family: monospace; font-size: 11px; color: var(--color-tan); letter-spacing: 0.15em; text-transform: uppercase; }
-.breadcrumb strong { color: var(--color-dark); }
-.nav-buttons { display: flex; gap: 8px; }
-.nav-btn { padding: 6px 16px; font-family: monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; cursor: pointer; border: none; font-weight: 700; }
-.nav-btn.primary { background: var(--color-red); color: #fff; }
-.nav-btn.primary:hover { background: #a3182f; }
+.page-nav { display: flex; align-items: center; justify-content: space-between; padding: 8px 16px; background: var(--color-surface-high); border-bottom: 1px solid var(--color-border-faint); flex-shrink: 0; }
+.breadcrumb { font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: -0.01em; }
+.breadcrumb .sec-code { color: var(--color-secondary); }
+.breadcrumb .sec-sep { color: var(--color-text-faint); margin: 0 6px; }
+.breadcrumb .sec-name { color: var(--color-text-muted); }
+.page-pill { background: rgba(0, 241, 253, 0.15); color: var(--color-secondary); padding: 2px 10px; border-radius: 9999px; font-family: 'Space Grotesk', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.05em; margin-left: 12px; }
+.nav-buttons { display: flex; gap: 6px; }
+.nav-btn { padding: 6px 12px; font-family: 'Space Grotesk', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; cursor: pointer; border: none; border-radius: 2px; transition: background-color 0.2s, color 0.2s; }
+.nav-btn.primary { background: var(--color-surface-highest); color: var(--color-text-muted); }
+.nav-btn.primary:hover { background: var(--color-primary); color: #4f006e; }
 .nav-btn:disabled { opacity: 0.3; cursor: default; }
-.nav-btn:disabled:hover { background: var(--color-red); }
+.nav-btn:disabled:hover { background: var(--color-surface-highest); color: var(--color-text-muted); }
 
 /* ── Image Viewer ── */
-.viewer { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative; background: #fff; border: 1px solid var(--color-border); margin: 16px 20px; box-shadow: 0 4px 24px rgba(0,0,0,0.10); }
+.viewer { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative; background: var(--color-surface); border: 1px solid var(--color-border); box-shadow: 0 4px 24px rgba(0,0,0,0.25); cursor: zoom-in; touch-action: none; }
 .viewer img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; user-select: none; transform-origin: center center; }
-.viewer.ewd { cursor: zoom-in; touch-action: none; }
-.viewer.ewd.zoomed { cursor: grab; }
-.viewer.ewd.dragging { cursor: grabbing; }
+.viewer.zoomed { cursor: grab; }
+.viewer.dragging { cursor: grabbing; }
 
 /* ── Zoom Controls ── */
-.zoom-controls { position: absolute; bottom: 12px; right: 12px; display: flex; align-items: center; gap: 8px; background: rgba(26,26,26,0.8); padding: 6px 12px; font-family: monospace; font-size: 11px; color: var(--color-cream); letter-spacing: 0.1em; user-select: none; }
-.zoom-btn { background: none; border: none; color: var(--color-cream); cursor: pointer; font-size: 14px; padding: 0 4px; }
-.zoom-reset { background: none; border: none; color: var(--color-tan); cursor: pointer; font-size: 10px; padding: 0 4px; font-family: monospace; letter-spacing: 0.1em; }
+.zoom-controls { position: absolute; bottom: 12px; right: 12px; display: flex; align-items: center; gap: 2px; background: var(--color-surface-highest); padding: 2px 6px; font-family: 'Space Grotesk', sans-serif; font-size: 12px; color: var(--color-text); letter-spacing: 0.05em; border-radius: 4px; border: 1px solid var(--color-border); user-select: none; }
+.zoom-btn { background: none; border: none; color: var(--color-text); cursor: pointer; font-size: 20px; padding: 6px 10px; line-height: 1; min-width: 36px; min-height: 36px; display: flex; align-items: center; justify-content: center; }
+.zoom-pct { min-width: 44px; text-align: center; }
+.zoom-pct.active { color: var(--color-secondary); }
+.zoom-reset { background: none; border: none; color: var(--color-secondary); cursor: pointer; font-size: 10px; padding: 6px 10px; font-family: 'Space Grotesk', sans-serif; letter-spacing: 0.1em; min-height: 36px; display: flex; align-items: center; }
 
 /* ── Page Info (bottom) ── */
-.page-info { padding: 8px 20px; text-align: center; font-family: monospace; font-size: 10px; color: var(--color-tan); letter-spacing: 0.2em; text-transform: uppercase; flex-shrink: 0; border-top: 1px solid var(--color-border); background: var(--color-bg); }
+.page-info { padding: 6px 16px; text-align: center; font-family: 'Space Grotesk', sans-serif; font-size: 10px; color: var(--color-text-faint); letter-spacing: 0.15em; text-transform: uppercase; flex-shrink: 0; border-top: 1px solid var(--color-border-faint); background: var(--color-surface-high); }
 
 /* ── Sidebar Backdrop (mobile) ── */
 .sidebar-backdrop { display: none; }
 
 /* ── Responsive ── */
 @media (max-width: 768px) {
-  .sidebar { display: none; position: fixed; top: 0; left: 0; bottom: 0; width: 260px; z-index: 100; }
+  .sidebar { display: none; position: fixed; top: 0; left: 0; bottom: 0; width: 280px; height: 100dvh; z-index: 100; }
   .sidebar.open { display: flex; }
-  .sidebar-backdrop.open { display: block; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 99; }
+  .sidebar-backdrop.open { display: block; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 99; }
   .hamburger { display: block; }
-  .viewer { margin: 8px 12px; }
-  .page-nav { padding: 8px 12px; }
-  .page-info { padding: 6px 12px; }
-  .breadcrumb { font-size: 10px; }
+  .page-nav { padding: 6px 12px; }
+  .page-info { padding: 4px 12px; }
+  .breadcrumb { font-size: 11px; }
 }
 </style>
 </head>
@@ -108,10 +119,10 @@ body { font-family: Arial, Helvetica, sans-serif; background: var(--color-cream)
 <div class="topbar">
   <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
   <span class="topbar-brand">TSRM</span>
-  <span class="topbar-sep">|</span>
+  <span class="topbar-sep">/</span>
   <span class="topbar-model" id="topbar-model"></span>
 </div>
-<div class="stripe"><div class="stripe-red"></div><div class="stripe-dark"></div><div class="stripe-tan"></div></div>
+<div class="stripe"></div>
 
 <div class="main">
   <!-- Sidebar Backdrop -->
@@ -130,7 +141,10 @@ body { font-family: Arial, Helvetica, sans-serif; background: var(--color-cream)
   <!-- Content -->
   <div class="content">
     <div class="page-nav">
-      <div class="breadcrumb" id="breadcrumb"></div>
+      <div style="display:flex;align-items:center;">
+        <div class="breadcrumb" id="breadcrumb"></div>
+        <span class="page-pill" id="page-pill"></span>
+      </div>
       <div class="nav-buttons">
         <button class="nav-btn primary" id="btn-prev" onclick="navigatePrev()">&#8592; PREV</button>
         <button class="nav-btn primary" id="btn-next" onclick="navigateNext()">NEXT &#8594;</button>
@@ -138,9 +152,9 @@ body { font-family: Arial, Helvetica, sans-serif; background: var(--color-cream)
     </div>
     <div class="viewer" id="viewer">
       <img id="page-img" draggable="false" alt="" />
-      <div class="zoom-controls" id="zoom-controls" style="display:none">
+      <div class="zoom-controls" id="zoom-controls">
         <button class="zoom-btn" onclick="zoomOut()">&#8722;</button>
-        <span id="zoom-pct">100%</span>
+        <span class="zoom-pct" id="zoom-pct">100%</span>
         <button class="zoom-btn" onclick="zoomIn()">+</button>
         <button class="zoom-reset" id="zoom-reset-btn" onclick="resetZoom()" style="display:none">RESET</button>
       </div>
@@ -165,7 +179,9 @@ const state = {
   dragging: false,
   dragStart: { x: 0, y: 0 },
   panStart: { x: 0, y: 0 },
-  sidebarOpen: false
+  sidebarOpen: false,
+  lastPinchDist: null,
+  pinchZoomStart: 1
 };
 
 const MIN_ZOOM = 1;
@@ -176,10 +192,10 @@ const $ = (id) => document.getElementById(id);
 const viewer = $('viewer');
 const img = $('page-img');
 const breadcrumb = $('breadcrumb');
+const pagePill = $('page-pill');
 const pageInfo = $('page-info');
 const btnPrev = $('btn-prev');
 const btnNext = $('btn-next');
-const zoomControls = $('zoom-controls');
 const zoomPct = $('zoom-pct');
 const zoomResetBtn = $('zoom-reset-btn');
 const sidebar = $('sidebar');
@@ -206,7 +222,7 @@ function renderDocTabs() {
   if (TSRM_SECTIONS.length > 0) {
     const btn = document.createElement('button');
     btn.className = 'doc-tab' + (state.docType === 'tsrm' ? ' active' : '');
-    btn.textContent = 'Repair Manual';
+    btn.textContent = 'Service Manual';
     btn.onclick = () => switchDocType('tsrm');
     tabs.appendChild(btn);
   }
@@ -217,7 +233,6 @@ function renderDocTabs() {
     btn.onclick = () => switchDocType('ewd');
     tabs.appendChild(btn);
   }
-  // Hide tabs if only one doc type
   if ((TSRM_SECTIONS.length === 0) || (EWD_SECTIONS.length === 0)) {
     tabs.style.display = 'none';
   }
@@ -272,14 +287,9 @@ function renderPage() {
   const section = findSection(state.docType, state.section);
   const pageEntry = section ? section.page_index.find(p => p.page === state.page) : null;
   const padded = String(state.page).padStart(3, '0');
-  const docLabel = state.docType === 'tsrm' ? 'TSRM' : 'EWD';
-  breadcrumb.innerHTML = docLabel + ' <strong>' + escHtml(state.section) + '</strong> \u00B7 ' + padded;
+  breadcrumb.innerHTML = '<span class="sec-code">' + escHtml(state.section) + '</span><span class="sec-sep">/</span><span class="sec-name">' + (section ? escHtml(section.name) : '') + '</span>';
+  pagePill.textContent = state.page + ' / ' + (section ? section.pages : '?');
   pageInfo.textContent = (section ? section.name : '') + ' \u2014 Page ' + padded + (pageEntry && pageEntry.title ? ' \u2014 ' + pageEntry.title.replace(/\n/g, ' ') : '');
-
-  // EWD zoom mode
-  const isEwd = state.docType === 'ewd';
-  viewer.classList.toggle('ewd', isEwd);
-  zoomControls.style.display = isEwd ? 'flex' : 'none';
 }
 
 function getImagePath(docType, section, page) {
@@ -307,7 +317,6 @@ function getAdjacentPage(direction) {
   if (direction === 1 && pageIdx < sec.page_index.length - 1) {
     return { section: sec.code, page: sec.page_index[pageIdx + 1].page };
   }
-  // Cross section boundary
   const nextSecIdx = secIdx + direction;
   if (nextSecIdx < 0 || nextSecIdx >= sections.length) return null;
   const nextSec = sections[nextSecIdx];
@@ -337,14 +346,15 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight') { e.preventDefault(); navigateNext(); }
 });
 
-// ── EWD Zoom / Pan ──
+// ── Zoom / Pan (all pages) ──
 function applyTransform() {
   const transition = state.dragging ? 'none' : 'transform 0.15s ease-out';
   img.style.transition = transition;
   img.style.transform = 'scale(' + state.zoom + ') translate(' + state.pan.x + 'px, ' + state.pan.y + 'px)';
   zoomPct.textContent = Math.round(state.zoom * 100) + '%';
+  zoomPct.className = 'zoom-pct' + (state.zoom > MIN_ZOOM ? ' active' : '');
   viewer.classList.toggle('zoomed', state.zoom > MIN_ZOOM);
-  zoomResetBtn.style.display = state.zoom > MIN_ZOOM ? 'inline' : 'none';
+  zoomResetBtn.style.display = state.zoom > MIN_ZOOM ? 'flex' : 'none';
 }
 
 function zoomIn() {
@@ -366,8 +376,8 @@ function resetZoom() {
   applyTransform();
 }
 
+// Mouse wheel zoom
 viewer.addEventListener('wheel', (e) => {
-  if (state.docType !== 'ewd') return;
   e.preventDefault();
   const delta = e.deltaY > 0 ? 0.9 : 1.1;
   state.zoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, state.zoom * delta));
@@ -375,8 +385,10 @@ viewer.addEventListener('wheel', (e) => {
   applyTransform();
 }, { passive: false });
 
+// Mouse/pen drag
 viewer.addEventListener('pointerdown', (e) => {
-  if (state.docType !== 'ewd' || state.zoom <= MIN_ZOOM) return;
+  if (e.pointerType === 'touch') return;
+  if (state.zoom <= MIN_ZOOM) return;
   state.dragging = true;
   state.dragStart = { x: e.clientX, y: e.clientY };
   state.panStart = { x: state.pan.x, y: state.pan.y };
@@ -385,22 +397,75 @@ viewer.addEventListener('pointerdown', (e) => {
 });
 
 viewer.addEventListener('pointermove', (e) => {
+  if (e.pointerType === 'touch') return;
   if (!state.dragging) return;
   state.pan.x = state.panStart.x + (e.clientX - state.dragStart.x) / state.zoom;
   state.pan.y = state.panStart.y + (e.clientY - state.dragStart.y) / state.zoom;
   applyTransform();
 });
 
-viewer.addEventListener('pointerup', () => {
+viewer.addEventListener('pointerup', (e) => {
+  if (e.pointerType === 'touch') return;
   if (!state.dragging) return;
   state.dragging = false;
   viewer.classList.remove('dragging');
 });
 
+// Double-click/tap: toggle zoom
 viewer.addEventListener('dblclick', () => {
-  if (state.docType !== 'ewd') return;
-  resetZoom();
+  if (state.zoom > MIN_ZOOM) {
+    resetZoom();
+  } else {
+    state.zoom = 2.5;
+    applyTransform();
+  }
 });
+
+// Touch: pinch-to-zoom + single-finger pan
+(function() {
+  function getDist(t1, t2) {
+    const dx = t1.clientX - t2.clientX;
+    const dy = t1.clientY - t2.clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+  }
+
+  viewer.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 2) {
+      e.preventDefault();
+      state.lastPinchDist = getDist(e.touches[0], e.touches[1]);
+      state.pinchZoomStart = state.zoom;
+    } else if (e.touches.length === 1 && state.zoom > MIN_ZOOM) {
+      e.preventDefault();
+      state.dragging = true;
+      state.dragStart = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      state.panStart = { x: state.pan.x, y: state.pan.y };
+    }
+  }, { passive: false });
+
+  viewer.addEventListener('touchmove', (e) => {
+    if (e.touches.length === 2 && state.lastPinchDist !== null) {
+      e.preventDefault();
+      const dist = getDist(e.touches[0], e.touches[1]);
+      const scale = dist / state.lastPinchDist;
+      state.zoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, state.pinchZoomStart * scale));
+      if (state.zoom <= MIN_ZOOM) { state.pan.x = 0; state.pan.y = 0; }
+      applyTransform();
+    } else if (e.touches.length === 1 && state.zoom > MIN_ZOOM) {
+      e.preventDefault();
+      state.pan.x = state.panStart.x + (e.touches[0].clientX - state.dragStart.x) / state.zoom;
+      state.pan.y = state.panStart.y + (e.touches[0].clientY - state.dragStart.y) / state.zoom;
+      applyTransform();
+    }
+  }, { passive: false });
+
+  viewer.addEventListener('touchend', (e) => {
+    if (e.touches.length < 2) state.lastPinchDist = null;
+    if (e.touches.length === 0) {
+      state.dragging = false;
+      viewer.classList.remove('dragging');
+    }
+  });
+})();
 
 // ── Sidebar Toggle (mobile) ──
 function toggleSidebar() {
