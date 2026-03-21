@@ -163,24 +163,29 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center pt-[20vh]">
-      <div className="absolute inset-0 bg-black/60" onClick={() => setIsOpen(false)} />
+    <div style={{ position: "fixed", inset: 0, zIndex: 50, display: "flex", alignItems: "flex-start", justifyContent: "center", paddingTop: "20vh" }}>
+      <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.6)" }} onClick={() => setIsOpen(false)} />
       <div
-        className="relative w-full max-w-xl overflow-hidden"
         style={{
+          position: "relative",
+          width: "100%",
+          maxWidth: "36rem",
+          overflow: "hidden",
           background: "var(--color-surface-mid)",
           borderRadius: "12px",
           border: "1px solid var(--color-surface-highest)",
           boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)",
+          margin: "0 16px",
         }}
       >
         <div
-          className="flex items-center px-4"
           style={{
-            borderBottom: "none",
+            display: "flex",
+            alignItems: "center",
+            padding: "0 16px",
           }}
         >
-          <svg className="w-5 h-5" style={{ color: "var(--color-text-faint)" }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg style={{ width: "20px", height: "20px", color: "var(--color-text-faint)", flexShrink: 0 }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
           <input
@@ -190,8 +195,11 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
             onChange={(e) => search(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder="Search the manual..."
-            className="w-full px-3 py-3 text-sm outline-none"
             style={{
+              width: "100%",
+              padding: "12px",
+              fontSize: "14px",
+              outline: "none",
               background: "transparent",
               color: "var(--color-text)",
               fontFamily: "'Manrope', var(--font-manrope), sans-serif",
@@ -202,14 +210,17 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
             onBlur={(e) => { e.currentTarget.style.borderBottomColor = "transparent"; }}
           />
           {isLoading && (
-            <svg className="w-4 h-4 animate-spin" style={{ color: "var(--color-text-faint)" }} viewBox="0 0 24 24" fill="none">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+            <svg style={{ width: "16px", height: "16px", color: "var(--color-text-faint)", animation: "spin 1s linear infinite", flexShrink: 0 }} viewBox="0 0 24 24" fill="none">
+              <circle style={{ opacity: 0.25 }} cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+              <path style={{ opacity: 0.75 }} fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
             </svg>
           )}
           <kbd
-            className="ml-2 px-1.5 py-0.5 text-xs rounded"
             style={{
+              marginLeft: "8px",
+              padding: "2px 6px",
+              fontSize: "12px",
+              borderRadius: "3px",
               color: "var(--color-text-faint)",
               background: "var(--color-surface-high)",
               border: "1px solid var(--color-surface-highest)",
@@ -219,17 +230,22 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
           </kbd>
         </div>
 
-        <div className="max-h-96 overflow-y-auto">
+        <div style={{ maxHeight: "24rem", overflowY: "auto" }}>
           {/* Page Results */}
           {results.length > 0 && (
-            <div className="py-2">
-              <ul>
+            <div style={{ padding: "8px 0" }}>
+              <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
                 {results.map((entry, i) => (
                   <li key={`page-${entry.id}`}>
                     <button
                       onClick={() => handleSelect(i)}
-                      className="w-full text-left px-4 py-2 text-sm transition-colors"
                       style={{
+                        width: "100%",
+                        textAlign: "left",
+                        padding: "8px 16px",
+                        fontSize: "14px",
+                        cursor: "pointer",
+                        border: "none",
                         background: i === selectedIndex ? "var(--color-surface-high)" : "transparent",
                         borderLeft: i === selectedIndex ? "2px solid var(--color-secondary)" : "2px solid transparent",
                         color: "var(--color-text)",
@@ -246,21 +262,21 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
                         }
                       }}
                     >
-                      <div className="flex items-center gap-2">
-                        <span className="shrink-0" style={{ fontFamily: "monospace", color: "var(--color-secondary)" }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                        <span style={{ flexShrink: 0, fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", color: "var(--color-secondary)", fontSize: "12px" }}>
                           {entry.section}-{entry.page}
                         </span>
-                        <span className="font-medium truncate" style={{ color: "var(--color-text)" }}>
+                        <span style={{ color: "var(--color-text)", fontWeight: 500, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
                           {entry.title || entry.section_header || `Page ${entry.page}`}
                         </span>
                       </div>
                       {(entry.section_name || entry.content_text) && (
-                        <div className="ml-[calc(3ch+0.5rem)] mt-0.5">
+                        <div style={{ marginLeft: "4ch", marginTop: "2px" }}>
                           {entry.section_name && (
-                            <span className="text-xs" style={{ color: "var(--color-text-faint)" }}>{entry.section_name}</span>
+                            <span style={{ fontSize: "12px", color: "var(--color-text-faint)" }}>{entry.section_name}</span>
                           )}
                           {entry.content_text && (
-                            <p className="text-xs line-clamp-1 mt-0.5" style={{ color: "var(--color-text-muted)" }}>
+                            <p style={{ fontSize: "12px", color: "var(--color-text-muted)", marginTop: "2px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
                               {entry.content_text}
                             </p>
                           )}
@@ -275,21 +291,21 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
 
           {/* Loading state */}
           {isLoading && totalItems === 0 && query.length >= 2 && (
-            <p className="px-4 py-8 text-sm text-center" style={{ color: "var(--color-text-muted)" }}>
+            <p style={{ padding: "32px 16px", fontSize: "14px", textAlign: "center", color: "var(--color-text-muted)" }}>
               Searching...
             </p>
           )}
 
           {/* No results */}
           {!isLoading && query.length >= 2 && totalItems === 0 && !error && (
-            <p className="px-4 py-8 text-sm text-center" style={{ color: "var(--color-text-muted)" }}>
+            <p style={{ padding: "32px 16px", fontSize: "14px", textAlign: "center", color: "var(--color-text-muted)" }}>
               No results found.
             </p>
           )}
 
           {/* Error state */}
           {error && (
-            <p className="px-4 py-8 text-sm text-center" style={{ color: "var(--color-tertiary)" }}>
+            <p style={{ padding: "32px 16px", fontSize: "14px", textAlign: "center", color: "var(--color-tertiary)" }}>
               {error}
             </p>
           )}

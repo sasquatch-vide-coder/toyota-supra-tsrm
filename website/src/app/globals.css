@@ -124,6 +124,11 @@ body {
   transform: skewX(-6deg);
 }
 
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 .stroke-text {
   -webkit-text-stroke: 1.5px var(--color-primary);
   -webkit-text-fill-color: transparent;
