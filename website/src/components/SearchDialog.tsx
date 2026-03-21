@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import type { SearchResult, SearchResponse } from "@/types";
 
@@ -11,10 +12,13 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const abortRef = useRef<AbortController | null>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const router = useRouter();
+
+  useEffect(() => { setMounted(true); }, []);
 
   const totalItems = results.length;
 
@@ -162,7 +166,9 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
     );
   }
 
-  return (
+  if (!mounted) return null;
+
+  return createPortal(
     <div style={{ position: "fixed", inset: 0, zIndex: 9999, display: "flex", alignItems: "flex-start", justifyContent: "center", paddingTop: "15vh" }}>
       <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.85)" }} onClick={() => setIsOpen(false)} />
       <div
@@ -312,14 +318,13 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
 
           {/* View all results link */}
           {!isLoading && totalItems > 0 && docType === "tsrm" && (
-            <div className="px-4 py-2.5 text-center" style={{ borderTop: "1px solid var(--color-surface-highest)" }}>
+            <div style={{ padding: "10px 16px", textAlign: "center", borderTop: "1px solid var(--color-surface-highest)" }}>
               <button
                 onClick={() => {
                   setIsOpen(false);
                   router.push(`/${model}/tsrm/search?q=${encodeURIComponent(query)}`);
                 }}
-                className="text-sm font-medium"
-                style={{ color: "var(--color-secondary)" }}
+                style={{ color: "var(--color-secondary)", fontSize: "14px", fontWeight: 500, background: "none", border: "none", cursor: "pointer", fontFamily: "'Manrope', var(--font-manrope), sans-serif" }}
                 onMouseEnter={(e) => { e.currentTarget.style.color = "var(--color-primary)"; }}
                 onMouseLeave={(e) => { e.currentTarget.style.color = "var(--color-secondary)"; }}
               >
@@ -329,6 +334,7 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
           )}
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
