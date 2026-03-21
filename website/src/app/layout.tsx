@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "TSRM",
     locale: "en_US",
-    images: ["/supras.png"],
+    images: ["/opengraph-image"],
   },
   twitter: {
     card: "summary_large_image",
