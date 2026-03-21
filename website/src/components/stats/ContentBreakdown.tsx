@@ -7,13 +7,13 @@ interface ContentItem {
 }
 
 const modelColors: Record<string, string> = {
-  "MK4 Supra": "var(--color-red)",
-  "MK3 Supra": "var(--color-tan)",
-  "MK2 Celica-Supra": "var(--color-brown)",
+  "MK4 Supra": "#de8eff",
+  "MK3 Supra": "#00f1fd",
+  "MK2 Celica-Supra": "#ff6e81",
   "Homepage": "#6B8E7B",
   "Landing Variants": "#7B9BAE",
   "Search": "#B8860B",
-  "Other": "var(--color-border)",
+  "Other": "#76747b",
 };
 
 const modelOrder = ["MK2 Celica-Supra", "MK3 Supra", "MK4 Supra"];
@@ -28,8 +28,8 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
     return (
       <div
         style={{
-          background: "#FFFFFF",
-          border: "1px solid var(--color-border)",
+          background: "var(--color-surface-low)",
+          border: "1px solid var(--color-surface-highest)",
           borderRadius: "8px",
           padding: "20px",
           display: "flex",
@@ -38,7 +38,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
           minHeight: "200px",
         }}
       >
-        <p style={{ fontFamily: "Georgia, serif", color: "var(--color-tan)", fontSize: "14px" }}>
+        <p style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", color: "var(--color-text-muted)", fontSize: "14px" }}>
           No data yet
         </p>
       </div>
@@ -51,17 +51,17 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
   return (
     <div
       style={{
-        background: "#FFFFFF",
-        border: "1px solid var(--color-border)",
+        background: "var(--color-surface-low)",
+        border: "1px solid var(--color-surface-highest)",
         borderRadius: "8px",
         padding: "20px",
       }}
     >
       <h3
         style={{
-          fontFamily: "Georgia, serif",
+          fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
           fontSize: "15px",
-          color: "var(--color-dark)",
+          color: "var(--color-text)",
           margin: "0 0 6px 0",
           letterSpacing: "0.02em",
         }}
@@ -72,7 +72,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
         style={{
           fontFamily: "monospace",
           fontSize: "11px",
-          color: "var(--color-tan)",
+          color: "var(--color-text-muted)",
           margin: "0 0 16px 0",
         }}
       >
@@ -94,7 +94,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
             key={item.model}
             style={{
               width: `${item.pct}%`,
-              background: modelColors[item.model] || "#D4C9B8",
+              background: modelColors[item.model] || "#76747b",
               minWidth: item.pct > 0 ? "2px" : 0,
             }}
             title={`${item.model}: ${item.pct}%`}
@@ -111,15 +111,15 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
                 width: "10px",
                 height: "10px",
                 borderRadius: "2px",
-                background: modelColors[item.model] || "#D4C9B8",
+                background: modelColors[item.model] || "#76747b",
                 flexShrink: 0,
               }}
             />
             <span
               style={{
-                fontFamily: "Georgia, serif",
+                fontFamily: "'Manrope', var(--font-manrope), sans-serif",
                 fontSize: "13px",
-                color: "var(--color-dark)",
+                color: "var(--color-text)",
                 width: "140px",
                 flexShrink: 0,
               }}
@@ -131,7 +131,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
                 style={{
                   position: "absolute",
                   inset: 0,
-                  background: "var(--color-cream)",
+                  background: "var(--color-surface-high)",
                   borderRadius: "3px",
                 }}
               />
@@ -142,7 +142,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
                   left: 0,
                   bottom: 0,
                   width: `${(item.views / maxViews) * 100}%`,
-                  background: modelColors[item.model] || "#D4C9B8",
+                  background: modelColors[item.model] || "#76747b",
                   borderRadius: "3px",
                 }}
               />
@@ -151,7 +151,7 @@ export function ContentBreakdown({ data }: { data: ContentItem[] }) {
               style={{
                 fontFamily: "monospace",
                 fontSize: "12px",
-                color: "var(--color-tan)",
+                color: "var(--color-text-muted)",
                 width: "80px",
                 textAlign: "right",
                 flexShrink: 0,

@@ -23,8 +23,8 @@ export function SystemMetricsChart({ data }: { data: MetricPoint[] }) {
     return (
       <div
         style={{
-          background: "#FFFFFF",
-          border: "1px solid var(--color-border)",
+          background: "var(--color-surface-low)",
+          border: "1px solid var(--color-surface-highest)",
           borderRadius: "8px",
           padding: "20px",
           display: "flex",
@@ -33,7 +33,7 @@ export function SystemMetricsChart({ data }: { data: MetricPoint[] }) {
           height: "280px",
         }}
       >
-        <p style={{ fontFamily: "Georgia, serif", color: "var(--color-tan)", fontSize: "14px" }}>
+        <p style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", color: "var(--color-text-muted)", fontSize: "14px" }}>
           No server metrics yet — data appears after the first cron run
         </p>
       </div>
@@ -55,8 +55,8 @@ export function SystemMetricsChart({ data }: { data: MetricPoint[] }) {
   return (
     <div
       style={{
-        background: "#FFFFFF",
-        border: "1px solid var(--color-border)",
+        background: "var(--color-surface-low)",
+        border: "1px solid var(--color-surface-highest)",
         borderRadius: "8px",
         padding: "20px",
       }}
@@ -71,9 +71,9 @@ export function SystemMetricsChart({ data }: { data: MetricPoint[] }) {
       >
         <h3
           style={{
-            fontFamily: "Georgia, serif",
+            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
             fontSize: "15px",
-            color: "var(--color-dark)",
+            color: "var(--color-text)",
             margin: 0,
             letterSpacing: "0.02em",
           }}
@@ -81,23 +81,23 @@ export function SystemMetricsChart({ data }: { data: MetricPoint[] }) {
           Server Metrics
         </h3>
         <div style={{ display: "flex", gap: "16px" }}>
-          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)" }}>
-            Avg CPU: <strong style={{ color: "#C41E3A" }}>{avgCpu}%</strong>
+          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-text-muted)" }}>
+            Avg CPU: <strong style={{ color: "#de8eff" }}>{avgCpu}%</strong>
           </span>
-          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)" }}>
-            Avg Mem: <strong style={{ color: "#8B7355" }}>{avgMem}%</strong>
+          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-text-muted)" }}>
+            Avg Mem: <strong style={{ color: "#00f1fd" }}>{avgMem}%</strong>
           </span>
-          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)" }}>
-            Bandwidth: <strong style={{ color: "#2D8A4E" }}>{bwLabel}</strong>
+          <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-text-muted)" }}>
+            Bandwidth: <strong style={{ color: "#ff6e81" }}>{bwLabel}</strong>
           </span>
         </div>
       </div>
       <ResponsiveContainer width="100%" height={220}>
         <LineChart data={chartData} margin={{ top: 4, right: 8, left: -20, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#F0EBE0" vertical={false} />
+          <CartesianGrid strokeDasharray="3 3" stroke="var(--color-surface-highest)" vertical={false} />
           <XAxis
             dataKey="label"
-            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#8B7355" }}
+            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#76747b" }}
             tickLine={false}
             axisLine={false}
             interval={Math.max(0, Math.floor(chartData.length / 8))}
@@ -105,7 +105,7 @@ export function SystemMetricsChart({ data }: { data: MetricPoint[] }) {
           <YAxis
             yAxisId="pct"
             domain={[0, 100]}
-            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#8B7355" }}
+            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#76747b" }}
             tickLine={false}
             axisLine={false}
             tickFormatter={(v: number) => `${v}%`}
@@ -114,20 +114,21 @@ export function SystemMetricsChart({ data }: { data: MetricPoint[] }) {
             yAxisId="bw"
             orientation="right"
             domain={[0, Math.ceil(maxBw * 1.2)]}
-            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#8B7355" }}
+            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#76747b" }}
             tickLine={false}
             axisLine={false}
             tickFormatter={(v: number) => `${v} MB`}
           />
           <Tooltip
             contentStyle={{
-              background: "#FFFFFF",
-              border: "1px solid var(--color-border)",
+              background: "var(--color-surface-high)",
+              border: "1px solid var(--color-surface-highest)",
               borderRadius: "6px",
               fontFamily: "monospace",
               fontSize: "12px",
+              color: "var(--color-text)",
             }}
-            labelStyle={{ color: "var(--color-dark)", marginBottom: "4px" }}
+            labelStyle={{ color: "var(--color-text)", marginBottom: "4px" }}
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             formatter={((value: number, name: string) => {
               if (name === "Bandwidth") return [`${value.toFixed(2)} MB`, name];
@@ -139,30 +140,30 @@ export function SystemMetricsChart({ data }: { data: MetricPoint[] }) {
             type="monotone"
             dataKey="cpu_pct"
             name="CPU"
-            stroke="#C41E3A"
+            stroke="#de8eff"
             strokeWidth={1.5}
             dot={false}
-            activeDot={{ r: 3, fill: "#C41E3A" }}
+            activeDot={{ r: 3, fill: "#de8eff" }}
           />
           <Line
             yAxisId="pct"
             type="monotone"
             dataKey="mem_pct"
             name="Memory"
-            stroke="#8B7355"
+            stroke="#00f1fd"
             strokeWidth={1.5}
             dot={false}
-            activeDot={{ r: 3, fill: "#8B7355" }}
+            activeDot={{ r: 3, fill: "#00f1fd" }}
           />
           <Line
             yAxisId="bw"
             type="monotone"
             dataKey="bandwidth"
             name="Bandwidth"
-            stroke="#2D8A4E"
+            stroke="#ff6e81"
             strokeWidth={1.5}
             dot={false}
-            activeDot={{ r: 3, fill: "#2D8A4E" }}
+            activeDot={{ r: 3, fill: "#ff6e81" }}
           />
         </LineChart>
       </ResponsiveContainer>

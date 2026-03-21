@@ -66,9 +66,7 @@ export default async function ComparePage({
   const data = loadPage(model, section, pageNum);
   if (!data) notFound();
 
-  const basePath = `/originals/${model}/${section}/${section}_${String(pageNum).padStart(3, "0")}`;
-  const gifExists = fs.existsSync(path.join(process.cwd(), "public", `${basePath}.gif`));
-  const originalSrc = `${basePath}.${gifExists ? "gif" : "png"}`;
+  const originalSrc = `/originals/${model}/${section}/${section}_${String(pageNum).padStart(3, "0")}.png`;
 
   return (
     <CompareView

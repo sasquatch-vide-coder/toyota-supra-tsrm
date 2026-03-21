@@ -48,15 +48,16 @@ export default async function EwdSectionPage({
         className="section-hero"
         style={{
           padding: "40px 32px 32px",
-          borderBottom: "1px solid #D4C9B8",
+          borderBottom: "1px solid var(--color-border-faint)",
         }}
       >
         <div
+          className="section-code"
           style={{
-            fontFamily: "monospace",
+            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
             fontSize: "48px",
-            fontWeight: "900",
-            color: "#C41E3A",
+            fontWeight: 900,
+            color: "var(--color-secondary)",
             marginBottom: "8px",
             letterSpacing: "-0.02em",
           }}
@@ -65,10 +66,10 @@ export default async function EwdSectionPage({
         </div>
         <h1
           style={{
-            fontFamily: "Georgia, 'Times New Roman', serif",
-            fontSize: "32px",
-            fontWeight: "700",
-            color: "#1A1A1A",
+            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
+            fontSize: "28px",
+            fontWeight: 700,
+            color: "var(--color-text)",
             marginBottom: "16px",
             lineHeight: 1.2,
           }}
@@ -77,9 +78,9 @@ export default async function EwdSectionPage({
         </h1>
         <span
           style={{
-            fontFamily: "monospace",
+            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
             fontSize: "12px",
-            color: "#8B7355",
+            color: "var(--color-text-faint)",
             letterSpacing: "0.1em",
           }}
         >
@@ -87,21 +88,14 @@ export default async function EwdSectionPage({
         </span>
       </div>
 
-      {/* Racing divider stripe */}
-      <div style={{ display: "flex", height: "4px", flexShrink: 0 }}>
-        <div style={{ flex: 6, background: "#C41E3A" }} />
-        <div style={{ flex: 1, background: "#1A1A1A" }} />
-        <div style={{ flex: 3, background: "#8B7355" }} />
-      </div>
-
       {/* Page list */}
       <div className="section-page-list" style={{ padding: "32px", flex: 1 }}>
         <p
           style={{
-            fontFamily: "monospace",
+            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
             fontSize: "10px",
-            letterSpacing: "0.3em",
-            color: "#8B7355",
+            letterSpacing: "0.25em",
+            color: "var(--color-text-faint)",
             textTransform: "uppercase",
             marginBottom: "20px",
           }}
@@ -110,7 +104,7 @@ export default async function EwdSectionPage({
         </p>
 
         {sectionInfo.page_index && sectionInfo.page_index.length > 0 ? (
-          <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             {sectionInfo.page_index.map((p) => (
               <Link
                 key={p.page}
@@ -119,29 +113,32 @@ export default async function EwdSectionPage({
                   display: "flex",
                   alignItems: "center",
                   gap: "16px",
-                  background: "#FFFFFF",
-                  border: "1px solid #D4C9B8",
-                  padding: "14px 20px 14px 24px",
+                  background: "var(--color-surface-low)",
+                  padding: "12px 20px 12px 24px",
                   position: "relative",
                   textDecoration: "none",
                   color: "inherit",
+                  borderRadius: "2px",
+                  transition: "background-color 0.2s",
                 }}
               >
+                {/* Left accent */}
                 <div
                   style={{
                     position: "absolute",
                     top: 0,
                     left: 0,
                     bottom: 0,
-                    width: "4px",
-                    background: "#C41E3A",
+                    width: "3px",
+                    background: "var(--color-primary-dim)",
+                    opacity: 0.5,
                   }}
                 />
                 <span
                   style={{
-                    fontFamily: "monospace",
+                    fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
                     fontSize: "11px",
-                    color: "#8B7355",
+                    color: "var(--color-text-faint)",
                     minWidth: "36px",
                   }}
                 >
@@ -149,9 +146,9 @@ export default async function EwdSectionPage({
                 </span>
                 <span
                   style={{
-                    fontFamily: "Georgia, 'Times New Roman', serif",
+                    fontFamily: "'Manrope', var(--font-manrope), sans-serif",
                     fontSize: "14px",
-                    color: "#1A1A1A",
+                    color: "var(--color-text)",
                     lineHeight: 1.4,
                   }}
                 >
@@ -161,7 +158,7 @@ export default async function EwdSectionPage({
             ))}
           </div>
         ) : (
-          <p style={{ fontFamily: "Georgia, serif", color: "#8B7355", fontStyle: "italic" }}>
+          <p style={{ fontFamily: "'Manrope', var(--font-manrope), sans-serif", color: "var(--color-text-muted)", fontStyle: "italic" }}>
             No pages indexed for this section.
           </p>
         )}

@@ -43,7 +43,7 @@ function renderBlock(block: ManualContentBlock, model: string, section: string, 
   switch (block.type) {
     case "text":
       return (
-        <p key={idx} className="my-2 text-gray-800 leading-relaxed">
+        <p key={idx} style={{ margin: "8px 0", color: "var(--color-text-muted)", lineHeight: 1.7, fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "14px" }}>
           {block.text}
         </p>
       );
@@ -53,7 +53,7 @@ function renderBlock(block: ManualContentBlock, model: string, section: string, 
         return (
           <h2
             key={idx}
-            className="text-xl font-bold text-gray-900 mt-6 mb-2 border-b border-gray-200 pb-1"
+            style={{ fontSize: "20px", fontWeight: 700, color: "var(--color-text)", marginTop: "24px", marginBottom: "8px", borderBottom: "1px solid var(--color-border-faint)", paddingBottom: "4px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif" }}
           >
             {block.text}
           </h2>
@@ -62,7 +62,7 @@ function renderBlock(block: ManualContentBlock, model: string, section: string, 
       return (
         <h3
           key={idx}
-          className="text-lg font-semibold text-gray-900 mt-4 mb-1"
+          style={{ fontSize: "17px", fontWeight: 600, color: "var(--color-text)", marginTop: "16px", marginBottom: "4px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif" }}
         >
           {block.text}
         </h3>
@@ -100,7 +100,7 @@ function renderBlock(block: ManualContentBlock, model: string, section: string, 
     case "list":
       if (block.ordered) {
         return (
-          <ol key={idx} className="my-2 ml-6 list-decimal text-gray-800 space-y-1">
+          <ol key={idx} style={{ margin: "8px 0 8px 24px", listStyleType: "decimal", color: "var(--color-text-muted)", display: "flex", flexDirection: "column", gap: "4px", fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "14px" }}>
             {block.items.map((item: unknown, i: number) => (
               <li key={i}>{renderListItem(item)}</li>
             ))}
@@ -108,7 +108,7 @@ function renderBlock(block: ManualContentBlock, model: string, section: string, 
         );
       }
       return (
-        <ul key={idx} className="my-2 ml-6 list-disc text-gray-800 space-y-1">
+        <ul key={idx} style={{ margin: "8px 0 8px 24px", listStyleType: "disc", color: "var(--color-text-muted)", display: "flex", flexDirection: "column", gap: "4px", fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "14px" }}>
           {block.items.map((item: unknown, i: number) => (
             <li key={i}>{renderListItem(item)}</li>
           ))}
@@ -128,14 +128,23 @@ function renderBlock(block: ManualContentBlock, model: string, section: string, 
       return (
         <div
           key={idx}
-          className="my-2 inline-flex items-baseline gap-2 px-3 py-1.5 bg-gray-50 border border-gray-200 rounded text-sm"
+          style={{
+            margin: "8px 0",
+            display: "inline-flex",
+            alignItems: "baseline",
+            gap: "8px",
+            padding: "6px 12px",
+            background: "var(--color-surface-low)",
+            borderRadius: "2px",
+            fontSize: "14px",
+          }}
         >
-          <span className="text-gray-600">{block.label}:</span>
-          <span className="font-mono font-semibold text-red-700">
+          <span style={{ color: "var(--color-text-muted)" }}>{block.label}:</span>
+          <span style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700, color: "var(--color-secondary)" }}>
             {block.number}
           </span>
           {block.description && (
-            <span className="text-gray-500">({block.description})</span>
+            <span style={{ color: "var(--color-text-faint)" }}>({block.description})</span>
           )}
         </div>
       );
@@ -161,12 +170,12 @@ export default function ManualPage({
   const hasContent = data.content && data.content.length > 0;
 
   return (
-    <article className="max-w-4xl">
+    <article style={{ maxWidth: "56rem" }}>
       {data.section_header && (
-        <p className="text-sm text-gray-500 mb-1">{data.section_header}</p>
+        <p style={{ fontSize: "13px", color: "var(--color-text-faint)", marginBottom: "4px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", letterSpacing: "0.1em", textTransform: "uppercase" }}>{data.section_header}</p>
       )}
       {data.title && (
-        <h1 className="text-2xl font-bold text-gray-900 mb-4">{data.title}</h1>
+        <h1 style={{ fontSize: "24px", fontWeight: 700, color: "var(--color-text)", marginBottom: "16px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif" }}>{data.title}</h1>
       )}
 
       {hasOcrText && !hasContent ? (

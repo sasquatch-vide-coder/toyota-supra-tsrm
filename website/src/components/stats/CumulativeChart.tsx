@@ -28,8 +28,8 @@ export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; pe
     return (
       <div
         style={{
-          background: "#FFFFFF",
-          border: "1px solid var(--color-border)",
+          background: "var(--color-surface-low)",
+          border: "1px solid var(--color-surface-highest)",
           borderRadius: "8px",
           padding: "20px",
           display: "flex",
@@ -38,7 +38,7 @@ export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; pe
           height: "280px",
         }}
       >
-        <p style={{ fontFamily: "Georgia, serif", color: "var(--color-tan)", fontSize: "14px" }}>
+        <p style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", color: "var(--color-text-muted)", fontSize: "14px" }}>
           No growth data yet
         </p>
       </div>
@@ -59,8 +59,8 @@ export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; pe
   return (
     <div
       style={{
-        background: "#FFFFFF",
-        border: "1px solid var(--color-border)",
+        background: "var(--color-surface-low)",
+        border: "1px solid var(--color-surface-highest)",
         borderRadius: "8px",
         padding: "20px",
       }}
@@ -75,60 +75,61 @@ export function CumulativeChart({ data, period = "7d" }: { data: DailyData[]; pe
       >
         <h3
           style={{
-            fontFamily: "Georgia, serif",
+            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
             fontSize: "15px",
-            color: "var(--color-dark)",
+            color: "var(--color-text)",
             margin: 0,
             letterSpacing: "0.02em",
           }}
         >
           Total Visitors — {periodLabels[period] ?? period}
         </h3>
-        <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)" }}>
-          Total: <strong style={{ color: "var(--color-dark)" }}>{totalVisitors.toLocaleString()}</strong>
+        <span style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-text-muted)" }}>
+          Total: <strong style={{ color: "var(--color-text)" }}>{totalVisitors.toLocaleString()}</strong>
         </span>
       </div>
       <ResponsiveContainer width="100%" height={220}>
         <AreaChart data={chartData} margin={{ top: 4, right: 8, left: -20, bottom: 0 }}>
           <defs>
             <linearGradient id="cumulativeGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#8B7355" stopOpacity={0.2} />
-              <stop offset="95%" stopColor="#8B7355" stopOpacity={0} />
+              <stop offset="5%" stopColor="#00f1fd" stopOpacity={0.2} />
+              <stop offset="95%" stopColor="#00f1fd" stopOpacity={0} />
             </linearGradient>
           </defs>
-          <CartesianGrid strokeDasharray="3 3" stroke="#F0EBE0" vertical={false} />
+          <CartesianGrid strokeDasharray="3 3" stroke="var(--color-surface-highest)" vertical={false} />
           <XAxis
             dataKey="label"
-            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#8B7355" }}
+            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#76747b" }}
             tickLine={false}
             axisLine={false}
             interval={Math.max(0, Math.floor(chartData.length / 8))}
           />
           <YAxis
-            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#8B7355" }}
+            tick={{ fontFamily: "monospace", fontSize: 10, fill: "#76747b" }}
             tickLine={false}
             axisLine={false}
             allowDecimals={false}
           />
           <Tooltip
             contentStyle={{
-              background: "#FFFFFF",
-              border: "1px solid var(--color-border)",
+              background: "var(--color-surface-high)",
+              border: "1px solid var(--color-surface-highest)",
               borderRadius: "6px",
               fontFamily: "monospace",
               fontSize: "12px",
+              color: "var(--color-text)",
             }}
-            labelStyle={{ color: "var(--color-dark)", marginBottom: "4px" }}
+            labelStyle={{ color: "var(--color-text)", marginBottom: "4px" }}
           />
           <Area
             type="monotone"
             dataKey="total"
             name="Total Visitors"
-            stroke="#8B7355"
+            stroke="#00f1fd"
             strokeWidth={2}
             fill="url(#cumulativeGradient)"
             dot={false}
-            activeDot={{ r: 4, fill: "#8B7355" }}
+            activeDot={{ r: 4, fill: "#00f1fd" }}
           />
         </AreaChart>
       </ResponsiveContainer>

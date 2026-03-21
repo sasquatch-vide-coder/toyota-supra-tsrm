@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TSRM — Toyota Supra Technical Service Repair Manual</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "surface": "#0e0e13",
+        "surface-dim": "#0e0e13",
+        "surface-container-lowest": "#000000",
+        "surface-container-low": "#131318",
+        "surface-container": "#19191f",
+        "surface-container-high": "#1f1f26",
+        "surface-container-highest": "#25252c",
+        "surface-bright": "#2c2b33",
+        "surface-variant": "#25252c",
+        "background": "#0e0e13",
+        "on-background": "#f8f5fd",
+        "on-surface": "#f8f5fd",
+        "on-surface-variant": "#acaab1",
+        "primary": "#de8eff",
+        "primary-dim": "#b90afc",
+        "primary-container": "#d779ff",
+        "on-primary": "#4f006e",
+        "secondary": "#00f1fd",
+        "secondary-dim": "#00e2ed",
+        "secondary-container": "#00696f",
+        "on-secondary": "#00565a",
+        "tertiary": "#ff6e81",
+        "tertiary-dim": "#e7004c",
+        "tertiary-container": "#ff0355",
+        "on-tertiary": "#490012",
+        "outline": "#76747b",
+        "outline-variant": "#48474d",
+        "error": "#ff6e84",
+        "inverse-surface": "#fbf8ff",
+        "inverse-on-surface": "#55545a",
+      },
+      fontFamily: {
+        "headline": ["Space Grotesk", "sans-serif"],
+        "body": ["Manrope", "sans-serif"],
+        "label": ["Space Grotesk", "sans-serif"],
+      },
+      borderRadius: {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "9999px",
+      },
+      animation: {
+        'glow-pulse': 'glow-pulse 3s ease-in-out infinite',
+        'slide-up': 'slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both',
+        'slide-up-delay-1': 'slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both',
+        'slide-up-delay-2': 'slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both',
+        'slide-up-delay-3': 'slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both',
+        'slide-up-delay-4': 'slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both',
+        'fade-in': 'fade-in 1.2s ease both',
+        'fade-in-delay': 'fade-in 1.2s ease 0.4s both',
+        'scan-line': 'scan-line 4s linear infinite',
+        'flicker': 'flicker 6s ease-in-out infinite',
+      },
+      keyframes: {
+        'glow-pulse': {
+          '0%, 100%': { opacity: '0.6' },
+          '50%': { opacity: '1' },
+        },
+        'slide-up': {
+          '0%': { transform: 'translateY(30px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'scan-line': {
+          '0%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(100vh)' },
+        },
+        'flicker': {
+          '0%, 100%': { opacity: '0.03' },
+          '50%': { opacity: '0.06' },
+        },
+      },
+    },
+  },
+}
+</script>
+<style>
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  body {
+    background-color: #0e0e13;
+    color: #f8f5fd;
+    font-family: 'Manrope', sans-serif;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: #00f1fd;
+    color: #00565a;
+  }
+
+  /* Kinetic skew for hero text */
+  .kinetic-skew { transform: skewX(-6deg); }
+  .kinetic-skew-subtle { transform: skewX(-3deg); }
+
+  /* Neon text glow */
+  .neon-cyan { text-shadow: 0 0 8px rgba(0, 241, 253, 0.5), 0 0 20px rgba(0, 241, 253, 0.2); }
+  .neon-purple { text-shadow: 0 0 8px rgba(222, 142, 255, 0.5), 0 0 20px rgba(222, 142, 255, 0.2); }
+
+  /* Neon box glow */
+  .glow-cyan { box-shadow: 0 0 12px rgba(0, 241, 253, 0.3), 0 0 4px rgba(0, 241, 253, 0.15); }
+  .glow-purple { box-shadow: 0 0 12px rgba(222, 142, 255, 0.3), 0 0 4px rgba(222, 142, 255, 0.15); }
+
+  /* Hero background pattern - subtle grid */
+  .hero-grid {
+    background-image:
+      linear-gradient(rgba(0, 241, 253, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 241, 253, 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  /* Scan line overlay */
+  .scan-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(0, 241, 253, 0.15), transparent);
+    animation: scan-line 4s linear infinite;
+    pointer-events: none;
+  }
+
+  /* Underglow input focus */
+  .underglow-input {
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .underglow-input:focus {
+    border-bottom-color: #00f1fd;
+    box-shadow: 0 2px 8px rgba(0, 241, 253, 0.25);
+    outline: none;
+  }
+
+  /* Card hover lift via surface shift */
+  .card-lift { transition: background-color 0.4s, transform 0.4s; }
+  .card-lift:hover { background-color: #25252c; transform: translateY(-2px); }
+
+  /* Ghost watermark */
+  .ghost-text {
+    position: absolute;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 0.85;
+    user-select: none;
+    pointer-events: none;
+    text-transform: uppercase;
+  }
+
+  /* Gradient text helper */
+  .gradient-text-purple {
+    background: linear-gradient(135deg, #de8eff, #b90afc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Gradient border trick for cards */
+  .gradient-border-top {
+    position: relative;
+  }
+  .gradient-border-top::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #00f1fd, transparent 80%);
+  }
+
+  /* Stroke outline text */
+  .stroke-text {
+    -webkit-text-stroke: 1.5px #de8eff;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Chip hover */
+  .chip-hover { transition: background-color 0.2s, color 0.2s; }
+  .chip-hover:hover { background-color: #00f1fd; color: #00565a; }
+
+  /* Feature card image treatment */
+  .feature-img {
+    filter: grayscale(1);
+    transition: filter 0.5s, transform 0.5s;
+  }
+  .group:hover .feature-img {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+
+  /* Smooth scroll */
+  html { scroll-behavior: smooth; }
+
+  /* Hide scrollbar for nav */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  /* Hero radial spotlight */
+  .hero-spotlight {
+    background:
+      radial-gradient(ellipse 80% 50% at 20% 80%, rgba(185, 10, 252, 0.08), transparent),
+      radial-gradient(ellipse 60% 40% at 80% 20%, rgba(0, 241, 253, 0.05), transparent),
+      radial-gradient(ellipse 100% 80% at 50% 100%, rgba(0, 0, 0, 0.9), transparent);
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #0e0e13; }
+  ::-webkit-scrollbar-thumb { background: #25252c; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #48474d; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .kinetic-skew { transform: skewX(-4deg); }
+    .hero-title { font-size: 3.5rem !important; }
+  }
+</style>
+</head>
+
+<body class="bg-background text-on-background">
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- HEADER: Fixed glassmorphism top bar                        -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<header class="fixed top-0 w-full flex justify-between items-center px-6 md:px-10 py-4 z-50 bg-surface-container-low/80 backdrop-blur-2xl">
+  <!-- Logo -->
+  <div class="flex items-center gap-8">
+    <a href="#" class="flex items-center gap-3 group">
+      <span class="text-2xl font-black italic tracking-tight font-headline gradient-text-purple transition-all duration-300 group-hover:drop-shadow-[0_0_12px_rgba(185,10,252,0.5)] pr-1">TSRM</span>
+      <span class="hidden md:block text-[10px] font-label tracking-[0.2em] uppercase text-outline-variant">Toyota Supra</span>
+    </a>
+    <!-- Nav -->
+    <nav class="hidden md:flex gap-1 items-center">
+      <a class="px-4 py-2 font-label text-sm tracking-wide text-secondary neon-cyan hover:text-secondary transition-colors duration-300" href="#">Home</a>
+      <a class="px-4 py-2 font-label text-sm tracking-wide text-on-surface/70 hover:text-secondary transition-colors duration-300" href="#collections">Manuals</a>
+      <a class="px-4 py-2 font-label text-sm tracking-wide text-on-surface/70 hover:text-secondary transition-colors duration-300" href="#features">Features</a>
+      <a class="px-4 py-2 font-label text-sm tracking-wide text-on-surface/70 hover:text-secondary transition-colors duration-300" href="#">Stats</a>
+    </nav>
+  </div>
+  <!-- Search + Menu -->
+  <div class="flex items-center gap-4">
+    <button class="md:hidden material-symbols-outlined text-primary active:scale-95 duration-200 text-2xl">menu</button>
+  </div>
+</header>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- HERO: Full viewport, kinetic headline                      -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="relative h-screen max-h-[900px] w-full overflow-hidden flex items-center px-6 md:px-12 scan-overlay">
+
+  <!-- Background layers -->
+  <div class="absolute inset-0 z-0 hero-grid"></div>
+  <div class="absolute inset-0 z-0 hero-spotlight"></div>
+
+  <!-- Ghost engine codes watermark -->
+  <div class="absolute top-[12%] right-[-2%] z-0 opacity-[0.025] animate-flicker select-none pointer-events-none" aria-hidden="true">
+    <div class="font-headline font-black italic text-[18rem] md:text-[28rem] leading-[0.75] tracking-tighter text-on-surface">
+      2JZ
+    </div>
+  </div>
+  <div class="absolute top-[35%] right-[8%] z-0 opacity-[0.018] select-none pointer-events-none" aria-hidden="true">
+    <div class="font-headline font-black italic text-[12rem] md:text-[18rem] leading-[0.75] tracking-tighter text-secondary">
+      7M
+    </div>
+  </div>
+  <div class="absolute top-[55%] right-[15%] z-0 opacity-[0.015] select-none pointer-events-none" aria-hidden="true">
+    <div class="font-headline font-black italic text-[10rem] md:text-[14rem] leading-[0.75] tracking-tighter text-primary">
+      5M
+    </div>
+  </div>
+
+  <!-- Diagonal speed line accents -->
+  <div class="absolute top-0 left-0 w-full h-full z-0 pointer-events-none overflow-hidden" aria-hidden="true">
+    <div class="absolute top-[20%] -left-[10%] w-[70%] h-[1px] bg-gradient-to-r from-transparent via-secondary/10 to-transparent rotate-[-8deg]"></div>
+    <div class="absolute top-[40%] -left-[5%] w-[80%] h-[1px] bg-gradient-to-r from-transparent via-primary/8 to-transparent rotate-[-5deg]"></div>
+    <div class="absolute top-[65%] -left-[10%] w-[90%] h-[1px] bg-gradient-to-r from-transparent via-secondary/6 to-transparent rotate-[-3deg]"></div>
+  </div>
+
+  <!-- Hero content — two-column layout -->
+  <div class="relative z-10 w-full max-w-[1400px] mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-10 md:gap-16">
+    <!-- Left column: headline + CTAs -->
+    <div class="flex-1 min-w-0">
+      <!-- Animated label -->
+      <span class="font-label text-secondary tracking-[0.3em] uppercase text-xs md:text-sm mb-5 block animate-glow-pulse neon-cyan animate-slide-up">
+        Factory Service Manual — Digitized &amp; AI-Enhanced
+      </span>
+
+      <!-- Kinetic headline -->
+      <h1 class="kinetic-skew mb-6 animate-slide-up-delay-1">
+        <span class="hero-title block font-headline text-6xl md:text-8xl lg:text-[9rem] font-black italic uppercase leading-[0.82] tracking-tighter text-on-surface">
+          TOYOTA
+        </span>
+        <span class="hero-title block font-headline text-6xl md:text-8xl lg:text-[9rem] font-black italic uppercase leading-[0.82] tracking-tighter text-on-surface">
+          SUPRA
+        </span>
+        <span class="hero-title block font-headline text-6xl md:text-8xl lg:text-[9rem] font-black italic uppercase leading-[0.82] tracking-tighter stroke-text mt-1">
+          MANUALS
+        </span>
+      </h1>
+
+      <!-- Subtitle with cyan left border -->
+      <p class="font-body text-base md:text-lg text-on-surface-variant max-w-xl mb-8 border-l-2 border-secondary pl-6 leading-relaxed animate-slide-up-delay-2">
+        Three generations of factory service manuals — digitized from original sources, AI-upscaled, and fully searchable. Built for owners, mechanics, and enthusiasts.
+      </p>
+
+      <!-- CTAs -->
+      <div class="flex flex-wrap gap-4 animate-slide-up-delay-3">
+        <a href="#collections" class="bg-gradient-to-br from-primary to-primary-dim text-on-primary px-8 py-4 font-label font-bold tracking-widest uppercase rounded-sm flex items-center gap-3 hover:brightness-110 active:scale-95 transition-all glow-purple">
+          Browse Manuals <span class="material-symbols-outlined">auto_stories</span>
+        </a>
+        <a href="#collections" class="border-b-2 border-secondary text-on-background px-8 py-4 font-label font-bold tracking-widest uppercase flex items-center gap-3 hover:bg-secondary/10 transition-all">
+          Browse Models <span class="material-symbols-outlined">east</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right column: stats panel -->
+    <div class="hidden md:flex flex-col gap-8 flex-shrink-0 animate-slide-up-delay-4">
+      <div class="flex flex-col items-end">
+        <span class="block font-headline text-6xl lg:text-7xl font-black text-secondary neon-cyan leading-none">3</span>
+        <span class="font-label text-[10px] tracking-[0.2em] uppercase text-outline mt-1">Generations</span>
+      </div>
+      <div class="h-[1px] w-full bg-outline-variant/20"></div>
+      <div class="flex flex-col items-end">
+        <span class="block font-headline text-5xl lg:text-6xl font-black text-on-surface leading-none">78</span>
+        <span class="font-label text-[10px] tracking-[0.2em] uppercase text-outline mt-1">Sections</span>
+      </div>
+      <div class="h-[1px] w-full bg-outline-variant/20"></div>
+      <div class="flex flex-col items-end">
+        <span class="block font-headline text-5xl lg:text-6xl font-black text-on-surface leading-none">5,400<span class="text-primary">+</span></span>
+        <span class="font-label text-[10px] tracking-[0.2em] uppercase text-outline mt-1">Pages</span>
+      </div>
+      <div class="h-[1px] w-full bg-outline-variant/20"></div>
+      <div class="flex flex-col items-end">
+        <span class="block font-headline text-3xl lg:text-4xl font-black text-on-surface leading-none">1982<span class="text-secondary">–</span>2002</span>
+        <span class="font-label text-[10px] tracking-[0.2em] uppercase text-outline mt-1">Coverage</span>
+      </div>
+    </div>
+
+    <!-- Stats row for mobile only -->
+    <div class="flex md:hidden gap-8 mt-4 animate-slide-up-delay-4">
+      <div>
+        <span class="block font-headline text-3xl font-black text-secondary neon-cyan">3</span>
+        <span class="font-label text-[10px] tracking-[0.2em] uppercase text-outline">Generations</span>
+      </div>
+      <div class="w-[1px] bg-outline-variant/20"></div>
+      <div>
+        <span class="block font-headline text-3xl font-black text-on-surface">78</span>
+        <span class="font-label text-[10px] tracking-[0.2em] uppercase text-outline">Sections</span>
+      </div>
+      <div class="w-[1px] bg-outline-variant/20"></div>
+      <div>
+        <span class="block font-headline text-3xl font-black text-on-surface">5,400<span class="text-primary">+</span></span>
+        <span class="font-label text-[10px] tracking-[0.2em] uppercase text-outline">Pages</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-fade-in-delay">
+    <span class="material-symbols-outlined text-secondary/40 text-sm animate-bounce">expand_more</span>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- COLLECTIONS: Bento grid of manual models                   -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section id="collections" class="px-6 md:px-12 mb-16 pt-8">
+
+  <!-- Section header -->
+  <div class="flex items-baseline justify-between mb-12 pb-4" style="border-bottom: 1px solid rgba(72, 71, 77, 0.15);">
+    <h2 class="font-headline text-2xl md:text-3xl font-bold uppercase tracking-tighter">Manual Collections</h2>
+    <span class="font-label text-outline text-xs uppercase tracking-widest hidden md:block">Three Generations</span>
+  </div>
+
+  <!-- Model cards — consistent 3-column grid -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+
+    <!-- ─── MK4 Supra (A80) ─── -->
+    <div class="group relative overflow-hidden bg-surface-container-low rounded-sm cursor-pointer">
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/3"></div>
+      <div class="ghost-text text-[10rem] -right-4 -bottom-8 text-on-surface opacity-[0.03] transition-opacity duration-700 group-hover:opacity-[0.06]" aria-hidden="true">A80</div>
+      <div class="relative flex flex-col justify-between p-7 md:p-8 z-10 min-h-[280px]">
+        <div>
+          <span class="text-secondary font-label text-[10px] tracking-[0.2em] block mb-3">1993–2002</span>
+          <h3 class="font-headline text-3xl md:text-4xl font-black italic uppercase mb-1 tracking-tighter leading-[0.9]">A80 / MK4</h3>
+          <p class="font-headline text-sm font-bold uppercase tracking-wider text-secondary/60 mb-3">2JZ-GTE</p>
+          <p class="text-on-surface-variant font-body text-sm leading-relaxed mb-4">Complete factory service manual with full wiring diagrams. Digitized from Toyota PDF.</p>
+        </div>
+        <div>
+          <div class="flex flex-wrap items-center gap-3 mb-4 text-on-surface-variant font-label text-[10px] tracking-wider uppercase">
+            <span>26 sections</span>
+            <span class="text-outline-variant/30">&middot;</span>
+            <span>2,100+ pages</span>
+            <span class="text-outline-variant/30">&middot;</span>
+            <span>TSRM + EWD</span>
+          </div>
+          <div class="flex items-center gap-5">
+            <a class="text-secondary font-label text-xs uppercase tracking-widest flex items-center gap-2 hover:neon-cyan transition-all" href="#">
+              Service Manual <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </a>
+            <a class="text-primary/60 font-label text-xs uppercase tracking-widest flex items-center gap-2 hover:neon-purple transition-all" href="#">
+              Wiring Diagram <span class="material-symbols-outlined text-sm">electric_bolt</span>
+            </a>
+            <a class="text-on-surface-variant/60 font-label text-xs uppercase tracking-widest flex items-center gap-2 hover:text-secondary transition-all" href="#">
+              <span class="material-symbols-outlined text-sm">download</span> Download
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── MK3 Supra (A70) ─── -->
+    <div class="group relative overflow-hidden bg-surface-container rounded-sm cursor-pointer">
+      <div class="absolute inset-0 bg-gradient-to-br from-secondary/3 via-transparent to-primary/3"></div>
+      <div class="ghost-text text-[10rem] -right-4 -bottom-8 text-on-surface opacity-[0.03] transition-opacity duration-700 group-hover:opacity-[0.06]" aria-hidden="true">A70</div>
+      <div class="relative flex flex-col justify-between p-7 md:p-8 z-10 min-h-[280px]">
+        <div>
+          <span class="text-secondary font-label text-[10px] tracking-[0.2em] block mb-3">1986.5–1992</span>
+          <h3 class="font-headline text-3xl md:text-4xl font-black italic uppercase mb-1 tracking-tighter leading-[0.9]">A70 / MK3</h3>
+          <p class="font-headline text-sm font-bold uppercase tracking-wider text-secondary/60 mb-3">7M-GTE</p>
+          <p class="text-on-surface-variant font-body text-sm leading-relaxed mb-4">Complete factory service manual with full wiring diagrams. Digitized from Toyota PDF.</p>
+        </div>
+        <div>
+          <div class="flex flex-wrap items-center gap-3 mb-4 text-on-surface-variant font-label text-[10px] tracking-wider uppercase">
+            <span>28 sections</span>
+            <span class="text-outline-variant/30">&middot;</span>
+            <span>2,300+ pages</span>
+            <span class="text-outline-variant/30">&middot;</span>
+            <span>TSRM + EWD</span>
+          </div>
+          <div class="flex items-center gap-5">
+            <a class="text-secondary font-label text-xs uppercase tracking-widest flex items-center gap-2 hover:neon-cyan transition-all" href="#">
+              Service Manual <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </a>
+            <a class="text-primary/60 font-label text-xs uppercase tracking-widest flex items-center gap-2 hover:neon-purple transition-all" href="#">
+              Wiring Diagram <span class="material-symbols-outlined text-sm">electric_bolt</span>
+            </a>
+            <a class="text-on-surface-variant/60 font-label text-xs uppercase tracking-widest flex items-center gap-2 hover:text-secondary transition-all" href="#">
+              <span class="material-symbols-outlined text-sm">download</span> Download
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── MK2 Supra (A60) ─── -->
+    <div class="group relative overflow-hidden bg-surface-container-high rounded-sm cursor-pointer">
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/4 via-transparent to-secondary/2"></div>
+      <div class="ghost-text text-[10rem] -right-4 -bottom-8 text-on-surface opacity-[0.03] transition-opacity duration-700 group-hover:opacity-[0.06]" aria-hidden="true">A60</div>
+      <div class="relative flex flex-col justify-between p-7 md:p-8 z-10 min-h-[280px]">
+        <div>
+          <span class="text-secondary font-label text-[10px] tracking-[0.2em] block mb-3">1982–1986</span>
+          <h3 class="font-headline text-3xl md:text-4xl font-black italic uppercase mb-1 tracking-tighter leading-[0.9]">A60 / MK2</h3>
+          <p class="font-headline text-sm font-bold uppercase tracking-wider text-secondary/60 mb-3">5M-GE</p>
+          <p class="text-on-surface-variant font-body text-sm leading-relaxed mb-4">Complete 1986 factory service manual with wiring diagrams — digitized from hand scans.</p>
+        </div>
+        <div>
+          <div class="flex flex-wrap items-center gap-3 mb-4 text-on-surface-variant font-label text-[10px] tracking-wider uppercase">
+            <span>24 sections</span>
+            <span class="text-outline-variant/30">&middot;</span>
+            <span>1,000+ pages</span>
+            <span class="text-outline-variant/30">&middot;</span>
+            <span>TSRM + EWD</span>
+          </div>
+          <div class="flex items-center gap-5">
+            <a class="text-secondary font-label text-xs uppercase tracking-widest flex items-center gap-2 hover:neon-cyan transition-all" href="#">
+              Service Manual <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </a>
+            <a class="text-primary/60 font-label text-xs uppercase tracking-widest flex items-center gap-2 hover:neon-purple transition-all" href="#">
+              Wiring Diagram <span class="material-symbols-outlined text-sm">electric_bolt</span>
+            </a>
+            <a class="text-on-surface-variant/60 font-label text-xs uppercase tracking-widest flex items-center gap-2 hover:text-secondary transition-all" href="#">
+              <span class="material-symbols-outlined text-sm">download</span> Download
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- FEATURES: What makes TSRM special                          -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section id="features" class="px-6 md:px-12 pb-16">
+
+  <!-- Section header with tertiary accent -->
+  <div class="flex items-center gap-4 mb-8">
+    <div class="h-[2px] w-12 bg-tertiary"></div>
+    <h2 class="font-headline text-2xl md:text-3xl font-bold uppercase tracking-tight">Features</h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+
+    <!-- Feature 1: AI-Upscaled -->
+    <div class="group bg-surface-container-low rounded-sm p-7 md:p-8 relative overflow-hidden hover:bg-surface-container transition-colors duration-400">
+      <div class="absolute top-[40%] -left-full w-[200%] h-[1px] bg-gradient-to-r from-transparent via-primary/10 to-transparent transition-transform duration-700 group-hover:translate-x-[25%]"></div>
+      <span class="material-symbols-outlined text-secondary text-3xl mb-4 block" style="font-variation-settings: 'FILL' 0, 'wght' 300, 'opsz' 48;">auto_awesome</span>
+      <h4 class="font-headline text-lg font-bold mb-2 group-hover:text-secondary transition-colors duration-300">AI-Upscaled Diagrams</h4>
+      <p class="text-on-surface-variant font-body text-sm leading-relaxed">Every factory diagram enhanced with AI upscaling for crisp, modern clarity — no more squinting at faded scans.</p>
+    </div>
+
+    <!-- Feature 2: Full-Text Search -->
+    <div class="group bg-surface-container-low rounded-sm p-7 md:p-8 relative overflow-hidden hover:bg-surface-container transition-colors duration-400">
+      <div class="absolute top-[40%] -left-full w-[200%] h-[1px] bg-gradient-to-r from-transparent via-secondary/10 to-transparent transition-transform duration-700 group-hover:translate-x-[25%]"></div>
+      <span class="material-symbols-outlined text-secondary text-3xl mb-4 block" style="font-variation-settings: 'FILL' 0, 'wght' 300, 'opsz' 48;">search</span>
+      <h4 class="font-headline text-lg font-bold mb-2 group-hover:text-secondary transition-colors duration-300">Full-Text Search</h4>
+      <p class="text-on-surface-variant font-body text-sm leading-relaxed">OCR-indexed pages across every manual. Find torque specs, procedures, and wiring in seconds with Ctrl+K.</p>
+    </div>
+
+    <!-- Feature 3: Offline Downloads -->
+    <div class="group bg-surface-container-low rounded-sm p-7 md:p-8 relative overflow-hidden hover:bg-surface-container transition-colors duration-400">
+      <div class="absolute top-[40%] -left-full w-[200%] h-[1px] bg-gradient-to-r from-transparent via-primary/10 to-transparent transition-transform duration-700 group-hover:translate-x-[25%]"></div>
+      <span class="material-symbols-outlined text-secondary text-3xl mb-4 block" style="font-variation-settings: 'FILL' 0, 'wght' 300, 'opsz' 48;">cloud_download</span>
+      <h4 class="font-headline text-lg font-bold mb-2 group-hover:text-secondary transition-colors duration-300">Offline Downloads</h4>
+      <p class="text-on-surface-variant font-body text-sm leading-relaxed">Download complete ZIP archives with an offline HTML viewer. Take the full manual to the garage — no internet needed.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- CALL TO ACTION: Final push                                 -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="px-6 md:px-12 pb-16">
+  <div class="bg-surface-container-low rounded-sm p-10 md:p-16 relative overflow-hidden">
+    <!-- Background effects -->
+    <div class="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5"></div>
+    <div class="ghost-text text-[8rem] md:text-[12rem] -right-4 -bottom-8 text-on-surface opacity-[0.02]" aria-hidden="true">TSRM</div>
+
+    <div class="relative z-10 flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+      <div class="flex-1">
+        <span class="font-label text-secondary text-[11px] tracking-[0.3em] uppercase block mb-4">Complete Factory Documentation</span>
+        <h2 class="font-headline text-3xl md:text-5xl font-black italic uppercase tracking-tighter mb-4 leading-[0.9]">
+          Every page.<br/>
+          <span class="gradient-text-purple">Every diagram.</span><br/>
+          Fully searchable.
+        </h2>
+        <p class="text-on-surface-variant font-body text-base leading-relaxed max-w-lg">
+          Three generations of Toyota Supra service manuals at your fingertips. Browse online or download ZIP archives for offline access.
+        </p>
+      </div>
+      <div class="flex flex-wrap md:flex-col gap-4 flex-shrink-0">
+        <a href="#collections" class="bg-gradient-to-br from-primary to-primary-dim text-on-primary px-8 py-4 font-label font-bold tracking-widest uppercase rounded-sm flex items-center gap-3 hover:brightness-110 active:scale-95 transition-all glow-purple">
+          Browse Manuals <span class="material-symbols-outlined">auto_stories</span>
+        </a>
+        <a href="#" class="border-b-2 border-secondary text-on-background px-8 py-4 font-label font-bold tracking-widest uppercase flex items-center gap-3 hover:bg-secondary/10 transition-all">
+          Download All <span class="material-symbols-outlined">download</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- FOOTER                                                     -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<footer class="bg-surface-container-low px-6 md:px-12 py-8">
+  <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+    <!-- Left -->
+    <div class="flex items-center gap-4">
+      <span class="font-headline font-black italic text-xl gradient-text-purple tracking-tight pr-1">TSRM</span>
+      <span class="text-on-surface-variant font-body text-sm">Toyota Supra factory service manuals — digitized</span>
+    </div>
+    <!-- Right -->
+    <div class="flex flex-wrap items-center gap-4 text-outline">
+      <span class="font-label text-[10px] tracking-[0.15em] uppercase">Not affiliated with Toyota Motor Corporation</span>
+    </div>
+  </div>
+
+  <!-- Bottom accent line -->
+  <div class="mt-8 flex h-[2px]">
+    <div class="flex-[4] bg-gradient-to-r from-primary to-primary-dim"></div>
+    <div class="flex-[1] bg-surface-container-highest"></div>
+    <div class="flex-[2] bg-gradient-to-r from-secondary to-secondary/30"></div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- MOBILE BOTTOM NAV                                          -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center pb-[env(safe-area-inset-bottom)] bg-surface-container-lowest/90 backdrop-blur-2xl z-50 shadow-[0_-20px_40px_rgba(0,0,0,0.6)]" style="border-top: 1px solid rgba(72, 71, 77, 0.15);">
+  <a class="flex flex-col items-center justify-center text-secondary pt-3 pb-2 px-4 border-t-2 border-secondary active:scale-90 transition-transform" href="#">
+    <span class="material-symbols-outlined text-xl">home</span>
+    <span class="font-label text-[9px] uppercase tracking-[0.1em] mt-1">Home</span>
+  </a>
+  <a class="flex flex-col items-center justify-center text-on-surface/50 pt-3 pb-2 px-4 border-t-2 border-transparent hover:text-secondary transition-all" href="#">
+    <span class="material-symbols-outlined text-xl">menu_book</span>
+    <span class="font-label text-[9px] uppercase tracking-[0.1em] mt-1">MK2</span>
+  </a>
+  <a class="flex flex-col items-center justify-center text-on-surface/50 pt-3 pb-2 px-4 border-t-2 border-transparent hover:text-secondary transition-all" href="#">
+    <span class="material-symbols-outlined text-xl">menu_book</span>
+    <span class="font-label text-[9px] uppercase tracking-[0.1em] mt-1">MK3</span>
+  </a>
+  <a class="flex flex-col items-center justify-center text-on-surface/50 pt-3 pb-2 px-4 border-t-2 border-transparent hover:text-secondary transition-all" href="#">
+    <span class="material-symbols-outlined text-xl">menu_book</span>
+    <span class="font-label text-[9px] uppercase tracking-[0.1em] mt-1">MK4</span>
+  </a>
+</nav>
+
+
+
+</body>
+</html>

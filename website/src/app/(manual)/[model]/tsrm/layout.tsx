@@ -26,8 +26,10 @@ export default async function TsrmLayout({
       <div
         className="manual-topbar"
         style={{
-          background: "#1A1A1A",
-          padding: "12px 24px",
+          background: "rgba(19, 19, 24, 0.9)",
+          backdropFilter: "blur(16px)",
+          WebkitBackdropFilter: "blur(16px)",
+          padding: "10px 20px",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
@@ -38,11 +40,11 @@ export default async function TsrmLayout({
           style={{
             display: "flex",
             alignItems: "center",
-            gap: "16px",
-            fontFamily: "monospace",
+            gap: "12px",
+            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
             fontSize: "11px",
-            color: "#8B7355",
-            letterSpacing: "0.15em",
+            letterSpacing: "0.12em",
+            textTransform: "uppercase",
           }}
         >
           <MobileSidebarWrapper>
@@ -50,21 +52,27 @@ export default async function TsrmLayout({
           </MobileSidebarWrapper>
           <Link
             href="/"
-            style={{ color: "#C41E3A", textDecoration: "none", fontWeight: "700", letterSpacing: "0.3em" }}
+            className="gradient-text-purple"
+            style={{ textDecoration: "none", fontWeight: 900, fontStyle: "italic", fontSize: "16px", letterSpacing: "-0.02em", paddingRight: "4px" }}
           >
             TSRM
           </Link>
-          <span style={{ color: "#3A2A1A" }}>›</span>
+          <span style={{ color: "var(--color-text-faint)", opacity: 0.4 }}>/</span>
           <Link
             href={`/${model}`}
-            style={{ color: "#8B7355", textDecoration: "none", textTransform: "uppercase" }}
+            style={{ color: "var(--color-text-muted)", textDecoration: "none" }}
           >
             {modelDef.name}
           </Link>
-          <span style={{ color: "#3A2A1A" }}>›</span>
-          <span style={{ color: "#F5F0E8" }}>Repair Manual</span>
+          <span style={{ color: "var(--color-text-faint)", opacity: 0.4 }}>/</span>
+          <span style={{ color: "var(--color-text)" }}>Repair Manual</span>
         </div>
         <SearchDialog model={model} />
+      </div>
+
+      {/* Accent stripe */}
+      <div className="accent-stripe" style={{ flexShrink: 0 }}>
+        <div /><div /><div />
       </div>
 
       {/* Body: sidebar + main */}
@@ -72,7 +80,7 @@ export default async function TsrmLayout({
         <div className="sidebar-desktop" style={{ overflowY: "auto" }}>
           <V1Sidebar sections={sections} model={model} totalPages={totalPages} basePath={`/${model}/tsrm`} />
         </div>
-        <main style={{ flex: 1, overflowY: "auto", background: "#F5F0E8" }}>
+        <main style={{ flex: 1, overflowY: "auto", background: "var(--color-surface)" }}>
           {children}
         </main>
       </div>

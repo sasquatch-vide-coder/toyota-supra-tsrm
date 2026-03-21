@@ -19,7 +19,7 @@ export function MetricCard({
     const isPositive = change > 0;
     const isGood = invertTrend ? !isPositive : isPositive;
     const arrow = isPositive ? "▲" : "▼";
-    const color = isGood ? "var(--color-green)" : "var(--color-red)";
+    const color = isGood ? "#4ade80" : "var(--color-tertiary)";
     trendEl = (
       <span
         style={{
@@ -39,8 +39,8 @@ export function MetricCard({
   return (
     <div
       style={{
-        background: "#FFFFFF",
-        border: "1px solid var(--color-border)",
+        background: "var(--color-surface-low)",
+        border: "1px solid var(--color-surface-highest)",
         borderRadius: "6px",
         padding: "10px 14px",
         display: "flex",
@@ -50,9 +50,9 @@ export function MetricCard({
     >
       <p
         style={{
-          fontFamily: "Georgia, serif",
+          fontFamily: "'Manrope', var(--font-manrope), sans-serif",
           fontSize: "12px",
-          color: "var(--color-tan)",
+          color: "var(--color-text-muted)",
           margin: 0,
           whiteSpace: "nowrap",
         }}
@@ -64,7 +64,7 @@ export function MetricCard({
           fontFamily: "monospace",
           fontSize: "18px",
           fontWeight: 900,
-          color: "var(--color-dark)",
+          color: "var(--color-secondary)",
           margin: 0,
           lineHeight: 1,
         }}

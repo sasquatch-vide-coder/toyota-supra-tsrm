@@ -14,194 +14,179 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
+const ENGINE_CODES: Record<string, string> = {
+  mk2: "5M",
+  mk3: "7M",
+  mk4: "2JZ",
+};
+
 export default function LandingPage() {
+  // Compute totals
+  const modelData = MODELS.map((model) => {
+    const sections = loadSections(model.id);
+    const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
+    const documents = getDocuments(model.id);
+    const download = getDownloadInfo(model.id);
+    return { model, sections, totalPages, documents, download };
+  });
+  const totalSections = modelData.reduce((sum, d) => sum + d.sections.length, 0);
+  const totalPages = modelData.reduce((sum, d) => sum + d.totalPages, 0);
+
   return (
-    <div style={{ background: "var(--color-cream)", color: "var(--color-dark)", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
-      {/* Triple racing stripe */}
-      <div style={{ display: "flex", height: "10px", flexShrink: 0 }}>
-        <div style={{ flex: 4, background: "var(--color-red)" }} />
-        <div style={{ flex: 1, background: "var(--color-dark)" }} />
-        <div style={{ flex: 2, background: "var(--color-tan)" }} />
-      </div>
+    <div style={{ background: "var(--color-surface)", color: "var(--color-text)", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
 
-      {/* Top bar */}
-      <div className="landing-topbar" style={{ background: "var(--color-dark)", padding: "12px 48px", display: "flex", justifyContent: "space-between", alignItems: "center", flexShrink: 0 }}>
-        <span style={{ fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.25em", color: "var(--color-tan)", textTransform: "uppercase" }}>
-          Toyota Supra · Technical Service Repair Manual
-        </span>
-        <span style={{ fontFamily: "monospace", fontSize: "14px", fontWeight: "900", letterSpacing: "0.3em", color: "var(--color-red)" }}>
-          TSRM
-        </span>
-      </div>
+      {/* ── Header ── */}
+      <header style={{ position: "sticky", top: 0, zIndex: 50, display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 24px", background: "rgba(19, 19, 24, 0.8)", backdropFilter: "blur(24px)", WebkitBackdropFilter: "blur(24px)" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "32px" }}>
+          <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "12px" }}>
+            <span className="gradient-text-purple" style={{ fontSize: "22px", fontWeight: 900, fontStyle: "italic", letterSpacing: "-0.02em", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", paddingRight: "4px" }}>TSRM</span>
+            <span style={{ fontSize: "10px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--color-text-faint)" }}>Toyota Supra</span>
+          </Link>
+          <nav className="landing-nav" style={{ display: "flex", gap: "4px", alignItems: "center" }}>
+            <Link href="/" className="neon-cyan" style={{ padding: "8px 16px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "14px", letterSpacing: "0.02em", color: "var(--color-secondary)", textDecoration: "none" }}>Home</Link>
+            <Link href="#collections" style={{ padding: "8px 16px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "14px", letterSpacing: "0.02em", color: "rgba(248,245,253,0.7)", textDecoration: "none" }}>Manuals</Link>
+            <Link href="#features" style={{ padding: "8px 16px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "14px", letterSpacing: "0.02em", color: "rgba(248,245,253,0.7)", textDecoration: "none" }}>Features</Link>
+            <Link href="/stats" style={{ padding: "8px 16px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "14px", letterSpacing: "0.02em", color: "rgba(248,245,253,0.7)", textDecoration: "none" }}>Stats</Link>
+          </nav>
+        </div>
+      </header>
 
-      {/* Hero */}
-      <div className="landing-hero" style={{ flex: 1, maxWidth: "1200px", width: "100%", margin: "0 auto", padding: "72px 48px 56px", boxSizing: "border-box" }}>
-        <div className="landing-hero-content" style={{ display: "flex", alignItems: "flex-start", gap: "48px" }}>
-          {/* Ghost engine code watermarks — JZ, 7M, 5M */}
-          <div
-            className="landing-hero-codes"
-            aria-hidden="true"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              flexShrink: 0,
-              marginTop: "-16px",
-              lineHeight: 0.9,
-              userSelect: "none",
-              letterSpacing: "-0.05em",
-            }}
-          >
-            {["5M", "7M", "JZ"].map((code) => (
-              <div
-                key={code}
-                style={{
-                  fontSize: "clamp(90px, 12vw, 140px)",
-                  fontWeight: "900",
-                  color: "var(--color-red)",
-                  opacity: 0.1,
-                  fontFamily: "Georgia, 'Times New Roman', serif",
-                }}
-              >
-                {code}
+      {/* ── Hero ── */}
+      <section className="landing-hero" style={{ position: "relative", height: "100vh", maxHeight: "900px", width: "100%", overflow: "hidden", display: "flex", alignItems: "center", padding: "0 48px" }}>
+        {/* Background grid */}
+        <div style={{ position: "absolute", inset: 0, backgroundImage: "linear-gradient(rgba(0, 241, 253, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 241, 253, 0.03) 1px, transparent 1px)", backgroundSize: "60px 60px" }} />
+        {/* Radial spotlights */}
+        <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse 80% 50% at 20% 80%, rgba(185, 10, 252, 0.08), transparent), radial-gradient(ellipse 60% 40% at 80% 20%, rgba(0, 241, 253, 0.05), transparent)" }} />
+
+        {/* Ghost engine codes */}
+        {[
+          { code: "2JZ", top: "6%", right: "8%", size: "14rem", opacity: 0.06 },
+          { code: "7M", top: "38%", right: "28%", size: "12rem", opacity: 0.045, color: "var(--color-secondary)" },
+          { code: "5M", top: "68%", right: "42%", size: "11rem", opacity: 0.04, color: "var(--color-primary)" },
+        ].map((g) => (
+          <div key={g.code} aria-hidden="true" style={{ position: "absolute", top: g.top, right: g.right, opacity: g.opacity, userSelect: "none", pointerEvents: "none" }}>
+            <div style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 900, fontStyle: "italic", fontSize: g.size, lineHeight: 0.75, letterSpacing: "-0.05em", color: g.color || "var(--color-text)" }}>
+              {g.code}
+            </div>
+          </div>
+        ))}
+
+        {/* Hero content — two-column */}
+        <div className="landing-hero-content" style={{ position: "relative", zIndex: 10, width: "100%", maxWidth: "1400px", margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", gap: "64px" }}>
+          {/* Left: headline */}
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <p style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "13px", letterSpacing: "0.3em", textTransform: "uppercase", color: "var(--color-secondary)", marginBottom: "20px" }} className="neon-cyan">
+              Factory Service Manual — Digitized &amp; AI-Enhanced
+            </p>
+            <h1 className="kinetic-skew" style={{ marginBottom: "24px" }}>
+              {["TOYOTA", "SUPRA"].map((word) => (
+                <span key={word} className="hero-title" style={{ display: "block", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "clamp(3.5rem, 10vw, 9rem)", fontWeight: 900, fontStyle: "italic", textTransform: "uppercase", lineHeight: 0.82, letterSpacing: "-0.05em", color: "var(--color-text)" }}>
+                  {word}
+                </span>
+              ))}
+              <span className="hero-title stroke-text" style={{ display: "block", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "clamp(3.5rem, 10vw, 9rem)", fontWeight: 900, fontStyle: "italic", textTransform: "uppercase", lineHeight: 0.82, letterSpacing: "-0.05em", marginTop: "4px" }}>
+                MANUALS
+              </span>
+            </h1>
+            <p style={{ fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "17px", color: "var(--color-text-muted)", maxWidth: "540px", lineHeight: 1.7, borderLeft: "2px solid var(--color-secondary)", paddingLeft: "24px", marginBottom: "32px" }}>
+              Three generations of factory service manuals — digitized from original sources, AI-upscaled, and fully searchable. Built for owners, mechanics, and enthusiasts.
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px" }}>
+              <Link href={`/${MODELS[MODELS.length - 1].id}/tsrm`} className="glow-purple" style={{ background: "linear-gradient(135deg, var(--color-primary), var(--color-primary-dim))", color: "var(--color-on-primary)", padding: "16px 32px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", fontSize: "13px", textDecoration: "none", display: "flex", alignItems: "center", gap: "12px", borderRadius: "2px" }}>
+                Browse Manuals →
+              </Link>
+              <Link href="#collections" style={{ borderBottom: "2px solid var(--color-secondary)", color: "var(--color-text)", padding: "16px 32px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", fontSize: "13px", textDecoration: "none", display: "flex", alignItems: "center", gap: "12px" }}>
+                Browse Models →
+              </Link>
+            </div>
+          </div>
+
+          {/* Right: stats panel (hidden on mobile via class) */}
+          <div className="landing-hero-codes" style={{ display: "flex", flexDirection: "column", gap: "32px", flexShrink: 0 }}>
+            {[
+              { value: String(MODELS.length), label: "Generations", cyan: true },
+              { value: String(totalSections), label: "Sections" },
+              { value: totalPages.toLocaleString() + "+", label: "Pages" },
+              { value: "1982–2002", label: "Coverage", small: true },
+            ].map((stat, i) => (
+              <div key={stat.label}>
+                {i > 0 && <div style={{ height: "1px", background: "rgba(72, 71, 77, 0.2)", marginBottom: "32px" }} />}
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>
+                  <span className={stat.cyan ? "neon-cyan" : ""} style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: stat.small ? "2rem" : "3.5rem", fontWeight: 900, lineHeight: 1, color: stat.cyan ? "var(--color-secondary)" : "var(--color-text)" }}>
+                    {stat.value}
+                  </span>
+                  <span style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--color-text-faint)", marginTop: "4px" }}>
+                    {stat.label}
+                  </span>
+                </div>
               </div>
             ))}
           </div>
-          <div style={{ paddingTop: "8px", flex: 1 }}>
-            <p style={{ fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.35em", color: "var(--color-tan)", textTransform: "uppercase", marginBottom: "20px" }}>
-              Factory Service Manual — Digitized &amp; AI-Enhanced
-            </p>
-            <h1 style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "clamp(64px, 8vw, 100px)", fontWeight: "900", lineHeight: 1, color: "var(--color-dark)", marginBottom: "8px", letterSpacing: "-0.02em" }}>
-              TSRM
-            </h1>
-            <p style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "clamp(18px, 2.5vw, 26px)", fontWeight: "300", color: "var(--color-tan)", fontStyle: "italic", marginBottom: "28px" }}>
-              Toyota Supra
-            </p>
-            <p style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "16px", color: "#5A4A3A", maxWidth: "480px", lineHeight: 1.8 }}>
-              The complete factory service manuals for three generations of Toyota Supra —
-              digitized, AI-upscaled, and fully searchable. Built for owners, mechanics, and enthusiasts.
-            </p>
-          </div>
+        </div>
+      </section>
 
-          {/* Supra generations illustration */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            className="landing-hero-image"
-            src="/supras.png"
-            alt="Toyota Supra MK2, MK3, and MK4 side profile illustrations"
-            style={{
-              flexShrink: 0,
-              width: "clamp(280px, 32vw, 480px)",
-              objectFit: "contain",
-              objectPosition: "top",
-              alignSelf: "stretch",
-              opacity: 0.15,
-              marginTop: "1cm",
-            }}
-          />
+      {/* ── Manual Collections ── */}
+      <section id="collections" className="landing-section" style={{ padding: "32px 48px 64px" }}>
+        <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: "48px", paddingBottom: "16px", borderBottom: "1px solid var(--color-border)" }}>
+          <h2 style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "clamp(1.5rem, 3vw, 1.875rem)", fontWeight: 700, textTransform: "uppercase", letterSpacing: "-0.02em" }}>
+            Manual Collections
+          </h2>
+          <span style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "12px", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--color-text-faint)" }}>
+            Three Generations
+          </span>
         </div>
 
-        {/* Divider stripe */}
-        <div style={{ display: "flex", height: "3px", margin: "56px 0" }}>
-          <div style={{ flex: 6, background: "var(--color-red)" }} />
-          <div style={{ flex: 1, background: "var(--color-dark)" }} />
-          <div style={{ flex: 3, background: "var(--color-tan)" }} />
-        </div>
-
-        {/* Model cards */}
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "24px" }}>
-          {MODELS.map((model) => {
-            const sections = loadSections(model.id);
-            const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
-            const documents = getDocuments(model.id);
-            const download = getDownloadInfo(model.id);
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px" }}>
+          {modelData.map(({ model, sections, totalPages, documents, download }, idx) => {
+            const surfaces = ["var(--color-surface-low)", "var(--color-surface-mid)", "var(--color-surface-high)"];
             return (
-              <div
-                key={model.id}
-                style={{
-                  display: "block",
-                  background: "#FFFFFF",
-                  border: "1px solid var(--color-border)",
-                  padding: "32px",
-                  position: "relative",
-                  overflow: "hidden",
-                }}
-              >
-                {/* Ghost generation watermark */}
-                <div
-                  aria-hidden="true"
-                  style={{
-                    position: "absolute",
-                    top: "-10px",
-                    right: "-8px",
-                    fontSize: "110px",
-                    fontWeight: "900",
-                    color: "var(--color-red)",
-                    opacity: 0.06,
-                    lineHeight: 1,
-                    fontFamily: "Georgia, serif",
-                    userSelect: "none",
-                    letterSpacing: "-0.05em",
-                  }}
-                >
+              <div key={model.id} style={{ position: "relative", overflow: "hidden", background: surfaces[idx] || surfaces[0], borderRadius: "2px", padding: "28px 32px", minHeight: "280px", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                {/* Ghost watermark */}
+                <div aria-hidden="true" className="ghost-text" style={{ fontSize: "10rem", right: "-16px", bottom: "-32px", color: "var(--color-text)", opacity: 0.03 }}>
                   {model.generation}
                 </div>
-
-                {/* Left accent bar */}
-                <div style={{ position: "absolute", top: 0, left: 0, bottom: 0, width: "4px", background: "var(--color-red)" }} />
-
-                <div style={{ position: "relative", paddingLeft: "4px" }}>
-                  <p style={{ fontFamily: "monospace", fontSize: "15px", letterSpacing: "0.3em", color: "var(--color-tan)", textTransform: "uppercase", marginBottom: "10px" }}>
+                {/* Content */}
+                <div style={{ position: "relative", zIndex: 1 }}>
+                  <span style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "10px", letterSpacing: "0.2em", color: "var(--color-secondary)", display: "block", marginBottom: "12px" }}>
                     {model.year}
+                  </span>
+                  <h3 style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "clamp(1.5rem, 4vw, 2.25rem)", fontWeight: 900, fontStyle: "italic", textTransform: "uppercase", letterSpacing: "-0.03em", lineHeight: 0.9, marginBottom: "4px" }}>
+                    {model.generation} / {model.name.split(" ")[0]}
+                  </h3>
+                  <p style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "14px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.1em", color: "rgba(0, 241, 253, 0.6)", marginBottom: "12px" }}>
+                    {ENGINE_CODES[model.id] || ""}
                   </p>
-                  <h2 style={{ fontFamily: "Georgia, serif", fontSize: "20px", fontWeight: "700", color: "var(--color-dark)", marginBottom: "12px" }}>
-                    {model.name}
-                  </h2>
-                  <p style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "var(--color-brown-mid)", lineHeight: 1.6, marginBottom: "16px" }}>
-                    {model.description}
+                  <p style={{ fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "14px", color: "var(--color-text-muted)", lineHeight: 1.6, marginBottom: "16px" }}>
+                    {model.description}. With full wiring diagrams.
                   </p>
-                  <div style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)", display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "20px" }}>
-                    {sections.length > 0 ? (
-                      <>
-                        <span>{sections.length} sections</span>
-                        <span style={{ color: "var(--color-border)" }}>·</span>
-                        <span>{totalPages.toLocaleString()} pages</span>
-                      </>
-                    ) : (
-                      <span>Coming soon</span>
-                    )}
+                </div>
+                <div style={{ position: "relative", zIndex: 1 }}>
+                  {/* Stats */}
+                  <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "12px", marginBottom: "16px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "10px", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--color-text-muted)" }}>
+                    <span>{sections.length} sections</span>
+                    <span style={{ color: "rgba(72, 71, 77, 0.3)" }}>·</span>
+                    <span>{totalPages.toLocaleString()} pages</span>
+                    <span style={{ color: "rgba(72, 71, 77, 0.3)" }}>·</span>
+                    <span>{documents.map(d => d.type === "manual" ? "TSRM" : "EWD").join(" + ")}</span>
                   </div>
-                  <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                  {/* Links */}
+                  <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
                     {documents.map((doc) => (
                       <Link
                         key={doc.type}
                         href={doc.type === "manual" ? `/${model.id}/tsrm` : `/${model.id}/ewd`}
-                        style={{ display: "flex", alignItems: "center", gap: "8px", color: "var(--color-red)", fontFamily: "monospace", fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: "700", textDecoration: "none" }}
+                        className={doc.type === "manual" ? "neon-cyan" : "neon-purple"}
+                        style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "12px", letterSpacing: "0.15em", textTransform: "uppercase", fontWeight: 700, textDecoration: "none", display: "flex", alignItems: "center", gap: "8px", color: doc.type === "manual" ? "var(--color-secondary)" : "rgba(222,142,255,0.6)" }}
                       >
-                        {doc.label}
-                        <span style={{ fontSize: "14px" }}>→</span>
+                        {doc.type === "manual" ? "Service Manual →" : "Wiring Diagram ⚡"}
                       </Link>
                     ))}
                     {download && (
                       <a
                         href={`/api/download/${model.id}`}
-                        style={{
-                          display: "inline-flex",
-                          alignItems: "center",
-                          gap: "8px",
-                          marginTop: "8px",
-                          padding: "8px 14px",
-                          background: "var(--color-dark)",
-                          color: "var(--color-cream)",
-                          fontFamily: "monospace",
-                          fontSize: "10px",
-                          letterSpacing: "0.2em",
-                          textTransform: "uppercase",
-                          fontWeight: "700",
-                          textDecoration: "none",
-                          border: "none",
-                        }}
+                        style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "12px", letterSpacing: "0.15em", textTransform: "uppercase", fontWeight: 700, textDecoration: "none", display: "flex", alignItems: "center", gap: "8px", color: "var(--color-text-faint)" }}
                       >
-                        ↓ Download All · {download.sizeFormatted}
+                        ↓ Download
                       </a>
                     )}
                   </div>
@@ -210,43 +195,76 @@ export default function LandingPage() {
             );
           })}
         </div>
+      </section>
 
-        {/* Features */}
-        <div style={{ marginTop: "64px", paddingTop: "48px", borderTop: "1px solid var(--color-border)", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "40px" }}>
+      {/* ── Features ── */}
+      <section id="features" className="landing-section" style={{ padding: "0 48px 64px" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "16px", marginBottom: "32px" }}>
+          <div style={{ height: "2px", width: "48px", background: "var(--color-tertiary)" }} />
+          <h2 style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "clamp(1.5rem, 3vw, 1.875rem)", fontWeight: 700, textTransform: "uppercase", letterSpacing: "-0.01em" }}>
+            Features
+          </h2>
+        </div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "20px" }}>
           {[
-            { code: "01", label: "AI-Upscaled Diagrams", desc: "All factory manual diagrams upscaled using AI for crisp, modern clarity" },
-            { code: "02", label: "Full-Text Search", desc: "Search across every page of every manual" },
-            { code: "03", label: "Three Generations", desc: "Complete coverage across MK2, MK3, and MK4 Supra manuals from 1982 to 2002" },
+            { icon: "auto_awesome", title: "AI-Upscaled Diagrams", desc: "Every factory diagram enhanced with AI upscaling for crisp, modern clarity — no more squinting at faded scans." },
+            { icon: "search", title: "Full-Text Search", desc: "OCR-indexed pages across every manual. Find torque specs, procedures, and wiring in seconds with Ctrl+K." },
+            { icon: "cloud_download", title: "Offline Downloads", desc: "Download complete ZIP archives with an offline HTML viewer. Take the full manual to the garage — no internet needed." },
           ].map((f) => (
-            <div key={f.label}>
-              <div style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.3em", color: "var(--color-red)", textTransform: "uppercase", marginBottom: "10px" }}>
-                — {f.code}
-              </div>
-              <div style={{ fontFamily: "Georgia, serif", fontSize: "16px", fontWeight: "700", color: "var(--color-dark)", marginBottom: "8px" }}>
-                {f.label}
-              </div>
-              <div style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "var(--color-brown-mid)", lineHeight: 1.7 }}>
+            <div key={f.title} style={{ background: "var(--color-surface-low)", borderRadius: "2px", padding: "28px 32px", position: "relative", overflow: "hidden" }}>
+              <span className="material-symbols-outlined" style={{ fontSize: "28px", color: "var(--color-secondary)", marginBottom: "16px", display: "block", fontVariationSettings: "'FILL' 0, 'wght' 300, 'opsz' 48" }}>
+                {f.icon}
+              </span>
+              <h4 style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "18px", fontWeight: 700, marginBottom: "8px" }}>
+                {f.title}
+              </h4>
+              <p style={{ fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "14px", color: "var(--color-text-muted)", lineHeight: 1.6 }}>
                 {f.desc}
-              </div>
+              </p>
             </div>
           ))}
         </div>
-      </div>
+      </section>
 
-      {/* Footer */}
-      <footer className="landing-footer" style={{ background: "var(--color-dark)", padding: "24px 48px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "16px", flexShrink: 0 }}>
-        <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-          <span style={{ fontFamily: "monospace", fontWeight: "900", fontSize: "16px", letterSpacing: "0.2em", color: "var(--color-red)" }}>TSRM</span>
-          <span style={{ fontFamily: "Georgia, serif", fontSize: "13px", color: "var(--color-tan)" }}>Toyota Supra factory service manuals — digitized</span>
+      {/* ── CTA ── */}
+      <section className="landing-section" style={{ padding: "0 48px 64px" }}>
+        <div style={{ background: "var(--color-surface-low)", borderRadius: "2px", padding: "40px 64px", position: "relative", overflow: "hidden", display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: "32px" }}>
+          <div aria-hidden="true" className="ghost-text" style={{ fontSize: "12rem", right: "-16px", bottom: "-32px", color: "var(--color-text)", opacity: 0.02 }}>TSRM</div>
+          <div style={{ position: "relative", zIndex: 1, flex: 1 }}>
+            <span style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "11px", letterSpacing: "0.3em", textTransform: "uppercase", color: "var(--color-secondary)", display: "block", marginBottom: "16px" }}>
+              Complete Factory Documentation
+            </span>
+            <h2 className="kinetic-skew" style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "clamp(1.5rem, 5vw, 3rem)", fontWeight: 900, fontStyle: "italic", textTransform: "uppercase", letterSpacing: "-0.03em", lineHeight: 0.9, marginBottom: "16px" }}>
+              Every page.<br />
+              <span className="gradient-text-purple">Every diagram.</span><br />
+              Fully searchable.
+            </h2>
+            <p style={{ fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "16px", color: "var(--color-text-muted)", lineHeight: 1.6, maxWidth: "480px" }}>
+              Three generations of Toyota Supra service manuals at your fingertips. Browse online or download ZIP archives for offline access.
+            </p>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", flexShrink: 0, position: "relative", zIndex: 1 }}>
+            <Link href="#collections" className="glow-purple" style={{ background: "linear-gradient(135deg, var(--color-primary), var(--color-primary-dim))", color: "var(--color-on-primary)", padding: "16px 32px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", fontSize: "13px", textDecoration: "none", display: "flex", alignItems: "center", gap: "12px", borderRadius: "2px" }}>
+              Browse Manuals →
+            </Link>
+          </div>
         </div>
-        <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-          <span style={{ fontFamily: "monospace", fontSize: "10px", color: "var(--color-brown)", letterSpacing: "0.15em", textTransform: "uppercase" }}>
+      </section>
+
+      {/* ── Footer ── */}
+      <footer className="landing-footer" style={{ background: "var(--color-surface-low)", padding: "24px 48px" }}>
+        <div className="landing-footer" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "16px", flexWrap: "wrap" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+            <span className="gradient-text-purple" style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 900, fontStyle: "italic", fontSize: "20px", letterSpacing: "-0.02em", paddingRight: "4px" }}>TSRM</span>
+            <span style={{ fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "14px", color: "var(--color-text-muted)" }}>Toyota Supra factory service manuals — digitized</span>
+          </div>
+          <span style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "10px", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--color-text-faint)" }}>
             Not affiliated with Toyota Motor Corporation
           </span>
-          <span style={{ color: "var(--color-brown)" }}>·</span>
-          <Link href="/stats" style={{ fontFamily: "monospace", fontSize: "10px", color: "var(--color-brown)", letterSpacing: "0.15em", textTransform: "uppercase", textDecoration: "none" }}>
-            Site Stats
-          </Link>
+        </div>
+        {/* Accent stripe */}
+        <div className="accent-stripe" style={{ marginTop: "24px" }}>
+          <div /><div /><div />
         </div>
       </footer>
     </div>

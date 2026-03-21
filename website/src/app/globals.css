@@ -1,34 +1,159 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ══════════════════════════════════════════════════════════
+   KINETIC TOKYO — Design System Tokens
+   ═══════════════════════════════════════════════════════ */
 
-  --color-red: #C41E3A;
-  --color-dark: #1A1A1A;
-  --color-tan: #8B7355;
-  --color-border: #D4C9B8;
-  --color-cream: #F5F0E8;
-  --color-bg: #FAF8F4;
-  --color-brown: #4A3A2A;
-  --color-brown-dark: #3A2A1A;
-  --color-brown-mid: #6B5A4A;
-  --color-dark-border: #2A2A2A;
-  --color-grid: #F0EBE0;
+:root {
+  /* Surface hierarchy (dark, layered) */
+  --color-surface: #0e0e13;
+  --color-surface-low: #131318;
+  --color-surface-mid: #19191f;
+  --color-surface-high: #1f1f26;
+  --color-surface-highest: #25252c;
+  --color-surface-bright: #2c2b33;
+
+  /* Primary (purple) */
+  --color-primary: #de8eff;
+  --color-primary-dim: #b90afc;
+  --color-on-primary: #4f006e;
+
+  /* Secondary (cyan) */
+  --color-secondary: #00f1fd;
+  --color-on-secondary: #00565a;
+
+  /* Tertiary (pink/red) */
+  --color-tertiary: #ff6e81;
+
+  /* Text */
+  --color-text: #f8f5fd;
+  --color-text-muted: #acaab1;
+  --color-text-faint: #76747b;
+
+  /* Borders (ghost only) */
+  --color-border: rgba(72, 71, 77, 0.15);
+  --color-border-faint: rgba(72, 71, 77, 0.08);
+
+  /* Legacy aliases for compatibility */
+  --color-red: #de8eff;
+  --color-dark: #0e0e13;
+  --color-tan: #acaab1;
+  --color-cream: #0e0e13;
+  --color-bg: #0e0e13;
+  --color-brown: #76747b;
+  --color-brown-dark: #48474d;
+  --color-brown-mid: #acaab1;
+  --color-dark-border: rgba(72, 71, 77, 0.15);
+  --color-grid: #19191f;
   --color-green: #2D8A4E;
+
+  --background: #0e0e13;
+  --foreground: #f8f5fd;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-space-grotesk);
+  --font-mono: var(--font-manrope);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: 'Manrope', sans-serif;
+}
+
+::selection {
+  background: var(--color-secondary);
+  color: var(--color-on-secondary);
+}
+
+/* ── Custom scrollbar ── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-surface-highest); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-text-faint); }
+
+/* ── Utility classes ── */
+.gradient-text-purple {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dim));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.neon-cyan {
+  text-shadow: 0 0 8px rgba(0, 241, 253, 0.5), 0 0 20px rgba(0, 241, 253, 0.2);
+}
+
+.neon-purple {
+  text-shadow: 0 0 8px rgba(222, 142, 255, 0.5), 0 0 20px rgba(222, 142, 255, 0.2);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 12px rgba(0, 241, 253, 0.3), 0 0 4px rgba(0, 241, 253, 0.15);
+}
+
+.glow-purple {
+  box-shadow: 0 0 12px rgba(222, 142, 255, 0.3), 0 0 4px rgba(222, 142, 255, 0.15);
+}
+
+.underglow-input {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.underglow-input:focus {
+  border-bottom-color: var(--color-secondary);
+  box-shadow: 0 2px 8px rgba(0, 241, 253, 0.25);
+  outline: none;
+}
+
+.ghost-text {
+  position: absolute;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 0.85;
+  user-select: none;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.kinetic-skew {
+  transform: skewX(-6deg);
+}
+
+.stroke-text {
+  -webkit-text-stroke: 1.5px var(--color-primary);
+  -webkit-text-fill-color: transparent;
+}
+
+.accent-stripe {
+  height: 3px;
+  flex-shrink: 0;
+  background: linear-gradient(to right, var(--color-primary), var(--color-primary-dim), var(--color-secondary));
+}
+
+/* Page viewer background */
+.page-viewer-bg {
+  background-color: #111116;
+  background-image:
+    radial-gradient(ellipse 50% 30% at 50% 20%, rgba(185, 10, 252, 0.03), transparent),
+    linear-gradient(rgba(0, 241, 253, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 241, 253, 0.015) 1px, transparent 1px);
+  background-size: 100% 100%, 80px 80px, 80px 80px;
+}
+
+/* ── Sidebar (hidden by default, shown on mobile when open) ── */
+.sidebar-overlay {
+  display: none;
+}
+.sidebar-backdrop {
+  display: none;
+}
+.hamburger-btn {
+  display: none;
 }
 
 /* ── Mobile overrides (768px and below) ── */
@@ -38,7 +163,7 @@ body {
     display: none !important;
   }
 
-  /* Mobile sidebar overlay: hidden by default, slides in when open */
+  /* Mobile sidebar overlay */
   .sidebar-overlay {
     display: none !important;
   }
@@ -48,10 +173,11 @@ body {
     top: 0 !important;
     left: 0 !important;
     bottom: 0 !important;
-    width: 260px !important;
+    height: 100dvh !important;
+    width: 280px !important;
     z-index: 100 !important;
     flex-direction: column !important;
-    background: var(--color-dark) !important;
+    background: var(--color-surface-low) !important;
     overflow-y: auto !important;
   }
   .sidebar-backdrop {
@@ -61,7 +187,7 @@ body {
     display: block !important;
     position: fixed !important;
     inset: 0 !important;
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
     z-index: 99 !important;
   }
   .hamburger-btn {
@@ -69,11 +195,18 @@ body {
   }
 
   /* Landing page */
+  .landing-nav {
+    display: none !important;
+  }
   .landing-topbar {
     padding: 12px 16px !important;
   }
   .landing-hero {
-    padding: 32px 16px 32px !important;
+    padding: 0 16px !important;
+  }
+  .landing-section {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
   }
   .landing-hero-content {
     flex-direction: column !important;
@@ -153,4 +286,8 @@ body {
     min-width: 0 !important;
     overflow: hidden !important;
   }
+
+  /* Kinetic hero mobile */
+  .kinetic-skew { transform: skewX(-4deg); }
+  .hero-title { font-size: 3.5rem !important; }
 }

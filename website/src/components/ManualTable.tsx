@@ -11,7 +11,6 @@ function normalizeHeaders(
   rows: unknown[]
 ): string[] {
   if (Array.isArray(headers)) return headers.map((h) => String(h ?? ""));
-  // Derive headers from first dict row
   if (rows.length > 0 && typeof rows[0] === "object" && rows[0] !== null && !Array.isArray(rows[0])) {
     return Object.keys(rows[0] as Record<string, unknown>).map((k) =>
       k.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
@@ -35,19 +34,32 @@ export default function ManualTable({
 
   return (
     <div className="my-4 overflow-x-auto">
-      <table className="min-w-full border-collapse border border-gray-300 text-sm">
+      <table style={{ minWidth: "100%", borderCollapse: "collapse", fontSize: "14px", fontFamily: "'Manrope', var(--font-manrope), sans-serif" }}>
         {caption && (
-          <caption className="text-left text-sm font-medium text-gray-700 mb-2">
+          <caption style={{ textAlign: "left", fontSize: "13px", fontWeight: 600, color: "var(--color-text-muted)", marginBottom: "8px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif" }}>
             {caption}
           </caption>
         )}
         {safeHeaders.length > 0 && (
           <thead>
-            <tr className="bg-gray-100">
+            <tr>
               {safeHeaders.map((h, i) => (
                 <th
                   key={i}
-                  className="border border-gray-300 px-3 py-2 text-left font-semibold text-gray-800 sticky top-0 bg-gray-100"
+                  style={{
+                    padding: "8px 12px",
+                    textAlign: "left",
+                    fontWeight: 700,
+                    color: "var(--color-secondary)",
+                    background: "var(--color-surface-high)",
+                    borderBottom: "1px solid var(--color-border)",
+                    fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
+                    fontSize: "11px",
+                    letterSpacing: "0.1em",
+                    textTransform: "uppercase",
+                    position: "sticky",
+                    top: 0,
+                  }}
                 >
                   {h}
                 </th>
@@ -57,11 +69,14 @@ export default function ManualTable({
         )}
         <tbody>
           {normalizedRows.map((row, ri) => (
-            <tr key={ri} className="hover:bg-gray-50">
+            <tr key={ri} style={{ borderBottom: "1px solid var(--color-border-faint)" }}>
               {row.map((cell, ci) => (
                 <td
                   key={ci}
-                  className="border border-gray-300 px-3 py-2 text-gray-700"
+                  style={{
+                    padding: "8px 12px",
+                    color: "var(--color-text-muted)",
+                  }}
                 >
                   {cell}
                 </td>

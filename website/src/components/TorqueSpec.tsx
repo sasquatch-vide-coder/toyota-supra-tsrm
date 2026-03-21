@@ -6,9 +6,22 @@ export default function TorqueSpec({
   value: string;
 }) {
   return (
-    <div className="my-2 flex items-baseline gap-3 px-4 py-2 bg-gray-50 border-l-4 border-red-500 rounded-r">
-      <span className="font-medium text-gray-900">{component}</span>
-      <span className="font-mono text-sm text-red-700">{value}</span>
+    <div style={{
+      margin: "8px 0",
+      display: "flex",
+      alignItems: "baseline",
+      gap: "12px",
+      padding: "8px 16px",
+      background: "var(--color-surface-low)",
+      borderLeft: "3px solid var(--color-primary-dim)",
+      borderRadius: "0 2px 2px 0",
+    }}>
+      <span style={{ fontWeight: 600, color: "var(--color-text)", fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "14px" }}>
+        {component}
+      </span>
+      <span style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "13px", color: "var(--color-secondary)", fontWeight: 700 }}>
+        {value}
+      </span>
     </div>
   );
 }

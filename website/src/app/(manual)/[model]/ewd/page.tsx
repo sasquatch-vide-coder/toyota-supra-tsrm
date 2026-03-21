@@ -46,23 +46,18 @@ export default async function EwdLandingPage({
           padding: "40px 32px 32px",
           position: "relative",
           overflow: "hidden",
-          borderBottom: "1px solid #D4C9B8",
+          borderBottom: "1px solid var(--color-border-faint)",
         }}
       >
         <div
           aria-hidden="true"
+          className="ghost-text"
           style={{
-            position: "absolute",
             top: "-20px",
             right: "24px",
             fontSize: "200px",
-            fontWeight: "900",
-            color: "#C41E3A",
-            opacity: 0.08,
-            lineHeight: 1,
-            fontFamily: "Georgia, 'Times New Roman', serif",
-            userSelect: "none",
-            letterSpacing: "-0.05em",
+            color: "var(--color-text)",
+            opacity: 0.025,
           }}
         >
           EWD
@@ -71,10 +66,10 @@ export default async function EwdLandingPage({
         <div style={{ position: "relative" }}>
           <p
             style={{
-              fontFamily: "monospace",
+              fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
               fontSize: "10px",
-              letterSpacing: "0.35em",
-              color: "#8B7355",
+              letterSpacing: "0.3em",
+              color: "var(--color-secondary)",
               textTransform: "uppercase",
               marginBottom: "12px",
             }}
@@ -84,23 +79,25 @@ export default async function EwdLandingPage({
           <h1
             className="model-hero-title"
             style={{
-              fontFamily: "Georgia, 'Times New Roman', serif",
+              fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
               fontSize: "48px",
-              fontWeight: "900",
+              fontWeight: 900,
+              fontStyle: "italic",
               lineHeight: 1,
-              color: "#1A1A1A",
+              color: "var(--color-text)",
               marginBottom: "6px",
-              letterSpacing: "-0.02em",
+              letterSpacing: "-0.03em",
+              textTransform: "uppercase",
             }}
           >
             Wiring Diagrams
           </h1>
           <p
             style={{
-              fontFamily: "Georgia, serif",
+              fontFamily: "'Manrope', var(--font-manrope), sans-serif",
               fontSize: "18px",
-              fontWeight: "300",
-              color: "#8B7355",
+              fontWeight: 300,
+              color: "var(--color-text-muted)",
               fontStyle: "italic",
               marginBottom: "24px",
             }}
@@ -113,19 +110,19 @@ export default async function EwdLandingPage({
             style={{
               display: "flex",
               gap: "32px",
-              fontFamily: "monospace",
+              fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
               fontSize: "11px",
-              color: "#8B7355",
+              color: "var(--color-text-muted)",
             }}
           >
             <div>
-              <span style={{ color: "#C41E3A", fontWeight: "900", fontSize: "20px", display: "block" }}>
+              <span style={{ color: "var(--color-secondary)", fontWeight: 900, fontSize: "20px", display: "block" }}>
                 {sections.length}
               </span>
               Sections
             </div>
-            <div style={{ borderLeft: "1px solid #D4C9B8", paddingLeft: "32px" }}>
-              <span style={{ color: "#C41E3A", fontWeight: "900", fontSize: "20px", display: "block" }}>
+            <div style={{ borderLeft: "1px solid var(--color-border)", paddingLeft: "32px" }}>
+              <span style={{ color: "var(--color-secondary)", fontWeight: 900, fontSize: "20px", display: "block" }}>
                 {totalPages.toLocaleString()}
               </span>
               Pages
@@ -134,21 +131,14 @@ export default async function EwdLandingPage({
         </div>
       </div>
 
-      {/* Racing divider stripe */}
-      <div style={{ display: "flex", height: "4px", flexShrink: 0 }}>
-        <div style={{ flex: 6, background: "#C41E3A" }} />
-        <div style={{ flex: 1, background: "#1A1A1A" }} />
-        <div style={{ flex: 3, background: "#8B7355" }} />
-      </div>
-
       {/* Section grid */}
       <div className="model-sections-grid" style={{ padding: "32px", flex: 1 }}>
         <p
           style={{
-            fontFamily: "monospace",
+            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
             fontSize: "10px",
-            letterSpacing: "0.3em",
-            color: "#8B7355",
+            letterSpacing: "0.25em",
+            color: "var(--color-text-faint)",
             textTransform: "uppercase",
             marginBottom: "20px",
           }}
@@ -161,7 +151,7 @@ export default async function EwdLandingPage({
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
-              gap: "16px",
+              gap: "12px",
             }}
           >
             {sections.map((section) => (
@@ -170,13 +160,14 @@ export default async function EwdLandingPage({
                 href={`/${model}/ewd/${section.code}`}
                 style={{
                   display: "block",
-                  background: "#FFFFFF",
-                  border: "1px solid #D4C9B8",
+                  background: "var(--color-surface-low)",
                   padding: "20px 20px 20px 24px",
                   position: "relative",
                   overflow: "hidden",
                   textDecoration: "none",
                   color: "inherit",
+                  borderRadius: "2px",
+                  transition: "background-color 0.2s",
                 }}
               >
                 <div
@@ -185,16 +176,16 @@ export default async function EwdLandingPage({
                     top: 0,
                     left: 0,
                     bottom: 0,
-                    width: "4px",
-                    background: "#C41E3A",
+                    width: "3px",
+                    background: "var(--color-secondary)",
                   }}
                 />
                 <div
                   style={{
-                    fontFamily: "monospace",
-                    fontSize: "24px",
-                    fontWeight: "900",
-                    color: "#C41E3A",
+                    fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
+                    fontSize: "20px",
+                    fontWeight: 900,
+                    color: "var(--color-secondary)",
                     marginBottom: "6px",
                     letterSpacing: "-0.02em",
                   }}
@@ -203,10 +194,10 @@ export default async function EwdLandingPage({
                 </div>
                 <h2
                   style={{
-                    fontFamily: "Georgia, 'Times New Roman', serif",
+                    fontFamily: "'Manrope', var(--font-manrope), sans-serif",
                     fontSize: "14px",
-                    fontWeight: "700",
-                    color: "#1A1A1A",
+                    fontWeight: 600,
+                    color: "var(--color-text)",
                     marginBottom: "10px",
                     lineHeight: 1.4,
                   }}
@@ -215,9 +206,9 @@ export default async function EwdLandingPage({
                 </h2>
                 <span
                   style={{
-                    fontFamily: "monospace",
+                    fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
                     fontSize: "10px",
-                    color: "#8B7355",
+                    color: "var(--color-text-faint)",
                     letterSpacing: "0.1em",
                   }}
                 >
@@ -231,15 +222,15 @@ export default async function EwdLandingPage({
             style={{
               textAlign: "center",
               padding: "64px 0",
-              fontFamily: "Georgia, serif",
-              color: "#8B7355",
+              fontFamily: "'Manrope', var(--font-manrope), sans-serif",
+              color: "var(--color-text-muted)",
               fontStyle: "italic",
             }}
           >
             <p style={{ marginBottom: "8px" }}>No EWD content generated yet.</p>
             <p style={{ fontSize: "13px", fontStyle: "normal" }}>
               Run{" "}
-              <code style={{ fontFamily: "monospace", background: "#EDE8DC", padding: "2px 8px" }}>
+              <code style={{ fontFamily: "monospace", background: "var(--color-surface-high)", padding: "2px 8px", borderRadius: "2px" }}>
                 python scripts/process_ewd.py --model {model} --pdf &lt;path&gt;
               </code>{" "}
               to process a wiring diagram PDF.

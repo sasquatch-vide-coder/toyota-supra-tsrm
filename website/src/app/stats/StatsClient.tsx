@@ -67,7 +67,7 @@ export default function StatsClient() {
       className="stats-container"
       style={{
         minHeight: "100vh",
-        background: "var(--color-bg)",
+        background: "var(--color-surface)",
         padding: "32px 24px",
       }}
     >
@@ -83,15 +83,15 @@ export default function StatsClient() {
           }}
         >
           <div>
-            <Link href="/" style={{ fontFamily: "monospace", fontSize: "11px", color: "var(--color-tan)", textDecoration: "none", letterSpacing: "0.15em", textTransform: "uppercase" }}>
+            <Link href="/" style={{ fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "11px", color: "var(--color-text-muted)", textDecoration: "none", letterSpacing: "0.15em", textTransform: "uppercase" }}>
               ← TSRM
             </Link>
             <h1
               style={{
-                fontFamily: "Georgia, serif",
+                fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
                 fontSize: "22px",
                 fontWeight: 700,
-                color: "var(--color-dark)",
+                color: "var(--color-text)",
                 margin: "4px 0 0 0",
                 letterSpacing: "0.02em",
               }}
@@ -101,9 +101,9 @@ export default function StatsClient() {
             {lastUpdated && (
               <p
                 style={{
-                  fontFamily: "monospace",
+                  fontFamily: "'Manrope', var(--font-manrope), sans-serif",
                   fontSize: "10px",
-                  color: "var(--color-border)",
+                  color: "var(--color-text-faint)",
                   margin: "4px 0 0 0",
                 }}
               >
@@ -130,8 +130,8 @@ export default function StatsClient() {
             style={{
               display: "flex",
               gap: "2px",
-              background: "#FFFFFF",
-              border: "1px solid var(--color-border)",
+              background: "var(--color-surface-highest)",
+              border: "1px solid var(--color-surface-highest)",
               borderRadius: "6px",
               padding: "3px",
             }}
@@ -141,14 +141,14 @@ export default function StatsClient() {
                 key={p.value}
                 onClick={() => setPeriod(p.value)}
                 style={{
-                  fontFamily: "monospace",
+                  fontFamily: "'Manrope', var(--font-manrope), sans-serif",
                   fontSize: "12px",
                   padding: "5px 14px",
                   borderRadius: "4px",
                   border: "none",
                   cursor: "pointer",
-                  background: period === p.value ? "var(--color-red)" : "transparent",
-                  color: period === p.value ? "#FFFFFF" : "var(--color-tan)",
+                  background: period === p.value ? "linear-gradient(135deg, var(--color-primary-dim), var(--color-primary))" : "transparent",
+                  color: period === p.value ? "#FFFFFF" : "var(--color-text-muted)",
                   transition: "all 0.15s",
                 }}
               >
@@ -161,14 +161,14 @@ export default function StatsClient() {
         {error && (
           <div
             style={{
-              background: "rgba(196,30,58,0.08)",
-              border: "1px solid rgba(196,30,58,0.3)",
+              background: "rgba(255, 110, 129, 0.08)",
+              border: "1px solid rgba(255, 110, 129, 0.3)",
               borderRadius: "6px",
               padding: "12px 16px",
               marginBottom: "24px",
-              fontFamily: "monospace",
+              fontFamily: "'Manrope', var(--font-manrope), sans-serif",
               fontSize: "13px",
-              color: "var(--color-red)",
+              color: "var(--color-tertiary)",
             }}
           >
             {error}
@@ -180,8 +180,8 @@ export default function StatsClient() {
           <div>
             <div
               style={{
-                background: "#FFFFFF",
-                border: "1px solid var(--color-border)",
+                background: "var(--color-surface-low)",
+                border: "1px solid var(--color-surface-highest)",
                 borderRadius: "8px",
                 height: "300px",
                 marginBottom: "24px",
@@ -226,13 +226,13 @@ export default function StatsClient() {
                 <div
                   style={{
                     marginTop: "24px",
-                    background: "#FFFFFF",
-                    border: "1px solid var(--color-border)",
+                    background: "var(--color-surface-low)",
+                    border: "1px solid var(--color-surface-highest)",
                     borderRadius: "8px",
                     padding: "20px 24px",
                   }}
                 >
-                  <p style={{ fontFamily: "Georgia, serif", fontSize: "14px", fontWeight: 700, color: "var(--color-dark)", margin: "0 0 16px 0" }}>
+                  <p style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "14px", fontWeight: 700, color: "var(--color-text)", margin: "0 0 16px 0" }}>
                     Downloads
                   </p>
                   <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
@@ -242,15 +242,15 @@ export default function StatsClient() {
                         style={{
                           flex: "1 1 120px",
                           padding: "12px 16px",
-                          background: "var(--color-bg)",
+                          background: "var(--color-surface-mid)",
                           borderRadius: "6px",
-                          border: "1px solid var(--color-border)",
+                          border: "1px solid var(--color-surface-highest)",
                         }}
                       >
-                        <p style={{ fontFamily: "monospace", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--color-tan)", margin: "0 0 4px 0" }}>
+                        <p style={{ fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--color-text-muted)", margin: "0 0 4px 0" }}>
                           {m.label}
                         </p>
-                        <p style={{ fontFamily: "monospace", fontSize: "20px", fontWeight: 900, color: "var(--color-dark)", margin: 0 }}>
+                        <p style={{ fontFamily: "monospace", fontSize: "20px", fontWeight: 900, color: "var(--color-secondary)", margin: 0 }}>
                           {(countMap[m.id] || 0).toLocaleString()}
                         </p>
                       </div>

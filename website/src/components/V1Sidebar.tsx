@@ -13,13 +13,12 @@ interface V1SidebarProps {
   sections: Section[];
   model: string;
   totalPages: number;
-  basePath?: string; // e.g. "/mk3/ewd" — overrides default /{model} link base
+  basePath?: string;
 }
 
 export default function V1Sidebar({ sections, model, totalPages, basePath: basePathProp }: V1SidebarProps) {
   const pathname = usePathname();
 
-  // Use explicit basePath if provided, otherwise detect from route
   const basePath = basePathProp || (pathname.startsWith("/v1") ? `/v1/${model}` : `/${model}`);
 
   // Determine active section from path
@@ -27,7 +26,6 @@ export default function V1Sidebar({ sections, model, totalPages, basePath: baseP
   const ewdIdx = pathParts.indexOf("ewd");
   const tsrmIdx = pathParts.indexOf("tsrm");
   const modelIdx = pathParts.indexOf(model);
-  // For EWD/TSRM routes, active section is after the segment; fallback to after model
   const activeSection = ewdIdx >= 0
     ? pathParts[ewdIdx + 1]
     : tsrmIdx >= 0
@@ -39,44 +37,62 @@ export default function V1Sidebar({ sections, model, totalPages, basePath: baseP
   return (
     <div
       style={{
-        width: "240px",
+        width: "260px",
         flexShrink: 0,
-        background: "var(--color-dark)",
+        background: "var(--color-surface-low)",
         display: "flex",
         flexDirection: "column",
         overflowY: "auto",
+        borderRight: "1px solid var(--color-border-faint)",
       }}
     >
+      {/* Sidebar header */}
       <div
         style={{
-          padding: "20px 16px 12px",
-          borderBottom: "1px solid var(--color-dark-border)",
+          padding: "16px 20px 12px",
+          borderBottom: "1px solid var(--color-border-faint)",
+          position: "relative",
+          overflow: "hidden",
+          background: "linear-gradient(180deg, rgba(0, 241, 253, 0.03) 0%, transparent 100%)",
         }}
       >
-        <p
+        {/* Ghost watermark */}
+        <div
+          aria-hidden="true"
           style={{
-            fontFamily: "monospace",
-            fontSize: "9px",
-            letterSpacing: "0.3em",
-            color: "var(--color-tan)",
-            textTransform: "uppercase",
-            marginBottom: "4px",
+            position: "absolute",
+            right: "-8px",
+            top: "-8px",
+            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
+            fontWeight: 900,
+            fontStyle: "italic",
+            fontSize: "4rem",
+            lineHeight: 1,
+            color: "var(--color-text)",
+            opacity: 0.025,
+            userSelect: "none",
+            pointerEvents: "none",
           }}
         >
-          Sections
-        </p>
-        <p
-          style={{
-            fontFamily: "monospace",
-            fontSize: "10px",
-            color: "var(--color-brown)",
-          }}
-        >
-          {sections.length} sections · {totalPages.toLocaleString()} pages
-        </p>
+          {model.toUpperCase()}
+        </div>
+        <div style={{ position: "relative" }}>
+          <p
+            style={{
+              fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              color: "var(--color-text-muted)",
+              textTransform: "uppercase",
+              marginBottom: "4px",
+            }}
+          >
+            {sections.length} sections · {totalPages.toLocaleString()} pages
+          </p>
+        </div>
       </div>
 
-      <nav style={{ flex: 1, padding: "8px 0" }}>
+      <nav style={{ flex: 1, padding: "4px 0" }}>
         {sections.map((s) => {
           const isActive = s.code === activeSection;
           return (
@@ -86,33 +102,57 @@ export default function V1Sidebar({ sections, model, totalPages, basePath: baseP
               style={{
                 display: "flex",
                 alignItems: "center",
-                gap: "10px",
-                padding: "8px 16px",
+                gap: "12px",
+                padding: "8px 20px",
                 textDecoration: "none",
-                borderLeft: isActive ? "3px solid var(--color-red)" : "3px solid transparent",
+                borderLeft: isActive ? "3px solid var(--color-secondary)" : "3px solid transparent",
+                background: isActive ? "rgba(0, 241, 253, 0.05)" : "transparent",
+                transition: "background-color 0.2s",
+              }}
+              onMouseEnter={(e) => {
+                if (!isActive) (e.currentTarget as HTMLElement).style.background = "rgba(255,255,255,0.03)";
+              }}
+              onMouseLeave={(e) => {
+                if (!isActive) (e.currentTarget as HTMLElement).style.background = "transparent";
               }}
             >
               <span
                 style={{
-                  fontFamily: "monospace",
-                  fontSize: "12px",
-                  fontWeight: "900",
-                  color: "var(--color-red)",
-                  minWidth: "28px",
+                  fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
+                  fontSize: "11px",
+                  fontWeight: 700,
                   letterSpacing: "0.05em",
+                  color: "var(--color-secondary)",
+                  minWidth: "48px",
+                  flexShrink: 0,
                 }}
               >
                 {s.code}
               </span>
               <span
                 style={{
-                  fontFamily: "Georgia, serif",
-                  fontSize: "14px",
-                  color: isActive ? "var(--color-cream)" : "var(--color-tan)",
+                  fontFamily: "'Manrope', var(--font-manrope), sans-serif",
+                  fontSize: "13px",
+                  color: isActive ? "var(--color-text)" : "var(--color-text-muted)",
+                  fontWeight: isActive ? 600 : 400,
                   lineHeight: 1.3,
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  whiteSpace: "nowrap",
+                  flex: 1,
                 }}
               >
                 {s.name}
+              </span>
+              <span
+                style={{
+                  fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
+                  fontSize: "9px",
+                  color: isActive ? "var(--color-secondary)" : "var(--color-text-faint)",
+                  flexShrink: 0,
+                }}
+              >
+                {s.pages}
               </span>
             </Link>
           );

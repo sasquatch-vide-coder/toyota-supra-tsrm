@@ -131,12 +131,12 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
           alignItems: "center",
           gap: "8px",
           padding: "4px 12px",
-          fontFamily: "monospace",
+          fontFamily: "'Manrope', var(--font-manrope), sans-serif",
           fontSize: "11px",
           letterSpacing: "0.15em",
-          color: "var(--color-tan)",
+          color: "var(--color-text-muted)",
           background: "transparent",
-          border: "1px solid var(--color-brown-dark)",
+          border: "1px solid var(--color-surface-highest)",
           borderRadius: "4px",
           cursor: "pointer",
         }}
@@ -150,9 +150,9 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
           style={{
             padding: "1px 6px",
             fontSize: "10px",
-            color: "var(--color-brown)",
-            background: "var(--color-dark-border)",
-            border: "1px solid var(--color-brown-dark)",
+            color: "var(--color-text-faint)",
+            background: "var(--color-surface-high)",
+            border: "1px solid var(--color-surface-highest)",
             borderRadius: "3px",
           }}
         >
@@ -164,10 +164,23 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
 
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center pt-[20vh]">
-      <div className="absolute inset-0 bg-black/50" onClick={() => setIsOpen(false)} />
-      <div className="relative w-full max-w-xl bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden">
-        <div className="flex items-center px-4 border-b border-gray-200">
-          <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div className="absolute inset-0 bg-black/60" onClick={() => setIsOpen(false)} />
+      <div
+        className="relative w-full max-w-xl overflow-hidden"
+        style={{
+          background: "var(--color-surface-mid)",
+          borderRadius: "12px",
+          border: "1px solid var(--color-surface-highest)",
+          boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)",
+        }}
+      >
+        <div
+          className="flex items-center px-4"
+          style={{
+            borderBottom: "none",
+          }}
+        >
+          <svg className="w-5 h-5" style={{ color: "var(--color-text-faint)" }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
           <input
@@ -178,14 +191,30 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
             onKeyDown={handleKeyDown}
             placeholder="Search the manual..."
             className="w-full px-3 py-3 text-sm outline-none"
+            style={{
+              background: "transparent",
+              color: "var(--color-text)",
+              fontFamily: "'Manrope', var(--font-manrope), sans-serif",
+              borderBottom: "2px solid transparent",
+              transition: "border-color 0.2s",
+            }}
+            onFocus={(e) => { e.currentTarget.style.borderBottomColor = "var(--color-secondary)"; }}
+            onBlur={(e) => { e.currentTarget.style.borderBottomColor = "transparent"; }}
           />
           {isLoading && (
-            <svg className="w-4 h-4 text-gray-400 animate-spin" viewBox="0 0 24 24" fill="none">
+            <svg className="w-4 h-4 animate-spin" style={{ color: "var(--color-text-faint)" }} viewBox="0 0 24 24" fill="none">
               <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
               <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
             </svg>
           )}
-          <kbd className="ml-2 px-1.5 py-0.5 text-xs text-gray-400 bg-gray-100 border border-gray-200 rounded">
+          <kbd
+            className="ml-2 px-1.5 py-0.5 text-xs rounded"
+            style={{
+              color: "var(--color-text-faint)",
+              background: "var(--color-surface-high)",
+              border: "1px solid var(--color-surface-highest)",
+            }}
+          >
             Esc
           </kbd>
         </div>
@@ -199,25 +228,39 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
                   <li key={`page-${entry.id}`}>
                     <button
                       onClick={() => handleSelect(i)}
-                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 ${
-                        i === selectedIndex ? "bg-red-50 text-red-900" : ""
-                      }`}
+                      className="w-full text-left px-4 py-2 text-sm transition-colors"
+                      style={{
+                        background: i === selectedIndex ? "var(--color-surface-high)" : "transparent",
+                        borderLeft: i === selectedIndex ? "2px solid var(--color-secondary)" : "2px solid transparent",
+                        color: "var(--color-text)",
+                        fontFamily: "'Manrope', var(--font-manrope), sans-serif",
+                      }}
+                      onMouseEnter={(e) => {
+                        if (i !== selectedIndex) {
+                          e.currentTarget.style.background = "var(--color-surface-high)";
+                        }
+                      }}
+                      onMouseLeave={(e) => {
+                        if (i !== selectedIndex) {
+                          e.currentTarget.style.background = "transparent";
+                        }
+                      }}
                     >
                       <div className="flex items-center gap-2">
-                        <span className="font-mono text-red-600 shrink-0">
+                        <span className="shrink-0" style={{ fontFamily: "monospace", color: "var(--color-secondary)" }}>
                           {entry.section}-{entry.page}
                         </span>
-                        <span className="font-medium truncate">
+                        <span className="font-medium truncate" style={{ color: "var(--color-text)" }}>
                           {entry.title || entry.section_header || `Page ${entry.page}`}
                         </span>
                       </div>
                       {(entry.section_name || entry.content_text) && (
                         <div className="ml-[calc(3ch+0.5rem)] mt-0.5">
                           {entry.section_name && (
-                            <span className="text-xs text-gray-400">{entry.section_name}</span>
+                            <span className="text-xs" style={{ color: "var(--color-text-faint)" }}>{entry.section_name}</span>
                           )}
                           {entry.content_text && (
-                            <p className="text-xs text-gray-500 line-clamp-1 mt-0.5">
+                            <p className="text-xs line-clamp-1 mt-0.5" style={{ color: "var(--color-text-muted)" }}>
                               {entry.content_text}
                             </p>
                           )}
@@ -232,34 +275,37 @@ export default function SearchDialog({ model, docType = "tsrm" }: { model: strin
 
           {/* Loading state */}
           {isLoading && totalItems === 0 && query.length >= 2 && (
-            <p className="px-4 py-8 text-sm text-gray-500 text-center">
+            <p className="px-4 py-8 text-sm text-center" style={{ color: "var(--color-text-muted)" }}>
               Searching...
             </p>
           )}
 
           {/* No results */}
           {!isLoading && query.length >= 2 && totalItems === 0 && !error && (
-            <p className="px-4 py-8 text-sm text-gray-500 text-center">
+            <p className="px-4 py-8 text-sm text-center" style={{ color: "var(--color-text-muted)" }}>
               No results found.
             </p>
           )}
 
           {/* Error state */}
           {error && (
-            <p className="px-4 py-8 text-sm text-red-500 text-center">
+            <p className="px-4 py-8 text-sm text-center" style={{ color: "var(--color-tertiary)" }}>
               {error}
             </p>
           )}
 
           {/* View all results link */}
           {!isLoading && totalItems > 0 && docType === "tsrm" && (
-            <div className="px-4 py-2.5 border-t border-gray-100 text-center">
+            <div className="px-4 py-2.5 text-center" style={{ borderTop: "1px solid var(--color-surface-highest)" }}>
               <button
                 onClick={() => {
                   setIsOpen(false);
                   router.push(`/${model}/tsrm/search?q=${encodeURIComponent(query)}`);
                 }}
-                className="text-sm text-red-600 hover:text-red-700 font-medium"
+                className="text-sm font-medium"
+                style={{ color: "var(--color-secondary)" }}
+                onMouseEnter={(e) => { e.currentTarget.style.color = "var(--color-primary)"; }}
+                onMouseLeave={(e) => { e.currentTarget.style.color = "var(--color-secondary)"; }}
               >
                 View all results →
               </button>

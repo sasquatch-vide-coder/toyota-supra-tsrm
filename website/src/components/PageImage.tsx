@@ -14,10 +14,11 @@ export default function PageImage({ imageSrc, alt }: PageImageProps) {
         alt={alt}
         style={{
           maxWidth: "100%",
-          border: "1px solid #D4C9B8",
-          boxShadow: "0 4px 24px rgba(0,0,0,0.10)",
+          border: "1px solid rgba(255,255,255,0.06)",
+          boxShadow: "0 2px 24px rgba(0,0,0,0.4)",
           background: "#FFFFFF",
           display: "block",
+          borderRadius: "2px",
         }}
       />
     </div>
