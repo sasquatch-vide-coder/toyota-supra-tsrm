@@ -1,7 +1,7 @@
 import { loadSections } from "./sections";
 
 export interface DocumentDef {
-  type: "manual" | "ewd";
+  type: "manual" | "ewd" | "fixes";
   label: string;
   description: string;
   contentDir: string;
@@ -35,6 +35,12 @@ const MODEL_DOCUMENTS: Record<string, DocumentDef[]> = {
       description: "EWD022U (USA-1987)",
       contentDir: "mk3-ewd",
     },
+    {
+      type: "fixes",
+      label: "Community Fixes",
+      description: "Verified repairs from SupraForums",
+      contentDir: "forum",
+    },
   ],
   mk4: [
     {
@@ -45,6 +51,16 @@ const MODEL_DOCUMENTS: Record<string, DocumentDef[]> = {
     },
   ],
 };
+
+const TYPE_TO_ROUTE: Record<string, string> = {
+  manual: "tsrm",
+  ewd: "ewd",
+  fixes: "fixes",
+};
+
+export function getDocumentRoute(doc: DocumentDef): string {
+  return TYPE_TO_ROUTE[doc.type] || doc.type;
+}
 
 export function getDocuments(model: string): DocumentDef[] {
   const docs: DocumentDef[] = [];
@@ -63,12 +79,17 @@ export function getDocuments(model: string): DocumentDef[] {
     );
   }
 
-  // Add any extra documents (EWD, etc.)
+  // Add any extra documents (EWD, fixes, etc.)
   const extras = MODEL_DOCUMENTS[model]?.filter((d) => d.type !== "manual") || [];
   for (const doc of extras) {
-    const sections = loadSections(doc.contentDir);
-    if (sections.length > 0) {
+    if (doc.type === "fixes") {
+      // Fixes are database-driven, not filesystem-driven — always include
       docs.push(doc);
+    } else {
+      const sections = loadSections(doc.contentDir);
+      if (sections.length > 0) {
+        docs.push(doc);
+      }
     }
   }
 

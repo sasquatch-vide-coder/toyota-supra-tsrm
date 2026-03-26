@@ -1,14 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { loadSections } from "@/lib/sections";
 import { getModel } from "@/lib/models";
 import { getDocuments } from "@/lib/documents";
-import V1Sidebar from "@/components/V1Sidebar";
-import SearchDialog from "@/components/SearchDialog";
-import MobileSidebarWrapper from "@/components/MobileSidebarWrapper";
 import DocumentTabs from "@/components/DocumentTabs";
 
-export default async function EwdLayout({
+export default async function FixesLayout({
   children,
   params,
 }: {
@@ -19,10 +15,9 @@ export default async function EwdLayout({
   const modelDef = getModel(model);
   if (!modelDef) notFound();
 
-  const contentDir = `${model}-ewd`;
-  const sections = loadSections(contentDir);
-  const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
   const documents = getDocuments(model);
+  const hasFixesDoc = documents.some((d) => d.type === "fixes");
+  if (!hasFixesDoc) notFound();
 
   return (
     <>
@@ -51,9 +46,6 @@ export default async function EwdLayout({
             textTransform: "uppercase",
           }}
         >
-          <MobileSidebarWrapper>
-            <V1Sidebar sections={sections} model={model} totalPages={totalPages} basePath={`/${model}/ewd`} />
-          </MobileSidebarWrapper>
           <Link
             href="/"
             className="gradient-text-purple"
@@ -69,9 +61,8 @@ export default async function EwdLayout({
             {modelDef.name}
           </Link>
           <span style={{ color: "var(--color-text-faint)", opacity: 0.4 }}>/</span>
-          <span style={{ color: "var(--color-text)" }}>Wiring Diagrams</span>
+          <span style={{ color: "var(--color-text)" }}>Community Fixes</span>
         </div>
-        <SearchDialog model={model} docType="ewd" />
       </div>
       {documents.length > 1 && (
         <DocumentTabs documents={documents} model={model} />
@@ -82,15 +73,10 @@ export default async function EwdLayout({
         <div /><div /><div />
       </div>
 
-      {/* Body: sidebar + main */}
-      <div style={{ display: "flex", flex: 1, overflow: "hidden" }}>
-        <div className="sidebar-desktop" style={{ overflowY: "auto" }}>
-          <V1Sidebar sections={sections} model={model} totalPages={totalPages} basePath={`/${model}/ewd`} />
-        </div>
-        <main style={{ flex: 1, overflowY: "auto", background: "var(--color-surface)" }}>
-          {children}
-        </main>
-      </div>
+      {/* Body: no sidebar for fixes */}
+      <main style={{ flex: 1, overflowY: "auto", background: "var(--color-surface)" }}>
+        {children}
+      </main>
     </>
   );
 }

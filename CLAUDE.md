@@ -108,6 +108,51 @@ ssh tsrm-prod "cd ~/app && git pull origin main && cd website && npm run build &
 - Pages with structured `content` array: Renders individual content blocks (text, diagrams, tables, etc.)
 - Both MK2 and MK3 use the OCR approach (full page images)
 
+## Forum Fixes Pipeline
+
+Pipeline for extracting community repair knowledge from SupraForums.com MKIII subforum:
+
+### 1. Crawl forum threads
+```bash
+python scripts/forum_crawler.py                    # Full crawl
+python scripts/forum_crawler.py --max-pages 3      # Test with 3 pages
+python scripts/forum_crawler.py --resume            # Resume interrupted crawl
+```
+Uses Playwright (headless Chromium) to bypass Tollbit bot protection. Saves raw thread JSON to `data/forum/raw/`.
+
+### 2. Triage threads for confirmed fixes
+```bash
+python scripts/forum_triage.py                     # Triage all
+python scripts/forum_triage.py --max 20            # Test with 20 threads
+```
+Uses Claude Sonnet to classify threads: does it contain a confirmed fix? Saves to `data/forum/triaged/`.
+
+### 3. Extract structured fix cards
+```bash
+python scripts/forum_extract.py                    # Extract all qualifying
+python scripts/forum_extract.py --max 10           # Test with 10 threads
+```
+Uses Claude Opus for high-quality extraction of problem, root cause, fix steps, parts, tools, difficulty. Saves to `data/forum/extracted/`.
+
+### 4. Ingest to Supabase
+```bash
+python scripts/forum_ingest.py                     # Ingest all extracted fixes
+python scripts/forum_ingest.py --dry-run           # Preview without writing
+```
+Upserts fix cards into `forum_fixes` table.
+
+### 5. Database setup (first time only)
+```bash
+PGPASSWORD=postgres psql -h 127.0.0.1 -p 54322 -U postgres -d postgres -f scripts/forum_setup.sql
+```
+Creates `forum_fixes` table, indexes, RLS, and `search_fixes`/`get_fix_category_counts` RPCs.
+
+### Website: Community Fixes tab
+- Route: `/{model}/fixes/` (browse) and `/{model}/fixes/{thread_id}` (detail)
+- Currently MK3 only (other models 404 on fixes route)
+- DocumentTabs component provides navigation between Repair Manual, Wiring Diagrams, and Community Fixes
+- Data served from Supabase `forum_fixes` table via `search_fixes` RPC
+
 ## Fresh Server Setup
 
 To set up a new server from scratch:
@@ -119,7 +164,7 @@ Follow the [Supabase self-hosting guide](https://supabase.com/docs/guides/self-h
 ```bash
 PGPASSWORD=postgres psql -h 127.0.0.1 -p 54322 -U postgres -d postgres -f scripts/setup.sql
 ```
-This creates all tables (`manual_pages`, `page_views`, `sessions`, `stats_daily`), indexes, RLS policies, and RPC functions in one shot.
+This creates all tables (`manual_pages`, `page_views`, `sessions`, `stats_daily`, `forum_fixes`), indexes, RLS policies, and RPC functions in one shot.
 
 ### 3. Clone the repo and install dependencies
 ```bash

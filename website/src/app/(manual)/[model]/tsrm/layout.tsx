@@ -2,9 +2,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
 import { getModel } from "@/lib/models";
+import { getDocuments } from "@/lib/documents";
 import V1Sidebar from "@/components/V1Sidebar";
 import SearchDialog from "@/components/SearchDialog";
 import MobileSidebarWrapper from "@/components/MobileSidebarWrapper";
+import DocumentTabs from "@/components/DocumentTabs";
 
 export default async function TsrmLayout({
   children,
@@ -19,6 +21,7 @@ export default async function TsrmLayout({
 
   const sections = loadSections(model);
   const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
+  const documents = getDocuments(model);
 
   return (
     <>
@@ -69,6 +72,9 @@ export default async function TsrmLayout({
         </div>
         <SearchDialog model={model} />
       </div>
+      {documents.length > 1 && (
+        <DocumentTabs documents={documents} model={model} />
+      )}
 
       {/* Accent stripe */}
       <div className="accent-stripe" style={{ flexShrink: 0 }}>

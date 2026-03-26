@@ -296,3 +296,9 @@ body {
   .kinetic-skew { transform: skewX(-4deg); }
   .hero-title { font-size: 3.5rem !important; }
 }
+
+/* Fix card hover */
+.fix-card-hover:hover {
+  border-color: rgba(0, 241, 253, 0.2) !important;
+  background: var(--color-surface-mid) !important;
+}
