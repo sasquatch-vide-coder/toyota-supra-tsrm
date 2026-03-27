@@ -78,10 +78,10 @@ RETURNS TABLE (
   tools_needed text[],
   difficulty text,
   estimated_time text,
-  confidence float,
+  confidence double precision,
   confirmation_type text,
   thread_date date,
-  rank float,
+  rank double precision,
   total_count bigint
 ) AS $$
 BEGIN
@@ -92,7 +92,7 @@ BEGIN
     f.root_cause, f.fix_summary, f.fix_steps, f.parts_needed,
     f.tools_needed, f.difficulty, f.estimated_time,
     f.confidence, f.confirmation_type, f.thread_date,
-    CASE WHEN search_query = '' THEN 0.0
+    CASE WHEN search_query = '' THEN 0.0::double precision
          ELSE ts_rank(f.fts, websearch_to_tsquery('english', search_query))
     END AS rank,
     COUNT(*) OVER() AS total_count
