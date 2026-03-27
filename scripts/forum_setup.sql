@@ -32,8 +32,7 @@ CREATE TABLE IF NOT EXISTS forum_fixes (
     setweight(to_tsvector('english', coalesce(title, '')), 'A') ||
     setweight(to_tsvector('english', coalesce(problem_description, '')), 'B') ||
     setweight(to_tsvector('english', coalesce(fix_summary, '')), 'B') ||
-    setweight(to_tsvector('english', coalesce(root_cause, '')), 'C') ||
-    setweight(to_tsvector('english', coalesce(array_to_string(symptoms, ' '), '')), 'C')
+    setweight(to_tsvector('english', coalesce(root_cause, '')), 'C')
   ) STORED,
   created_at timestamptz DEFAULT now()
 );
