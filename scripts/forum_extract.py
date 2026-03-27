@@ -106,36 +106,44 @@ def format_post(post: dict, number: int) -> str:
     return f"Post #{number} by {author}{date_str}:\n{content}\n"
 
 
+CLAUDE_BIN = r"C:\Users\jason\.local\bin\claude.exe"
+
+
 def call_claude(prompt: str, model: str = EXTRACT_MODEL) -> str | None:
     """Call Claude CLI in print mode and return the result text."""
     cmd = [
-        "claude", "-p",
+        CLAUDE_BIN, "-p",
         "--model", model,
         "--output-format", "json",
         "--no-session-persistence",
     ]
 
     try:
+        # Pipe prompt via stdin to avoid Windows command-line length limits
         result = subprocess.run(
-            cmd + ["--system-prompt", "You output only valid JSON. No markdown, no explanation.", prompt],
+            cmd + ["--system-prompt", "You output only valid JSON. No markdown, no explanation."],
             capture_output=True,
-            text=True,
+            input=prompt.encode("utf-8"),
             timeout=300,  # 5 min for Opus
             cwd=str(ROOT_DATA_DIR.parent),
+            env={**__import__("os").environ, "PYTHONIOENCODING": "utf-8"},
         )
 
+        stdout = result.stdout.decode("utf-8", errors="replace") if isinstance(result.stdout, bytes) else result.stdout
+        stderr = result.stderr.decode("utf-8", errors="replace") if isinstance(result.stderr, bytes) else (result.stderr or "")
+
         if result.returncode != 0:
-            log_error(f"Claude CLI failed (exit {result.returncode}): {result.stderr[:200]}")
+            log_error(f"Claude CLI failed (exit {result.returncode}): {stderr[:200]}")
             return None
 
         try:
-            envelope = json.loads(result.stdout)
+            envelope = json.loads(stdout)
             if envelope.get("is_error"):
                 log_error(f"Claude CLI error: {envelope.get('result', 'unknown')}")
                 return None
             return envelope.get("result", "")
         except json.JSONDecodeError:
-            return result.stdout.strip()
+            return stdout.strip()
 
     except subprocess.TimeoutExpired:
         log_error("Claude CLI timed out (300s)")
