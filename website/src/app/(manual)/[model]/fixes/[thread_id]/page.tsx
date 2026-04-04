@@ -63,7 +63,6 @@ export default async function FixDetailPage({
     symptoms: data.symptoms || [],
     root_cause: data.root_cause,
     fix_summary: data.fix_summary,
-    fix_steps: data.fix_steps || [],
     parts_needed: data.parts_needed || [],
     tools_needed: data.tools_needed || [],
     difficulty: data.difficulty,

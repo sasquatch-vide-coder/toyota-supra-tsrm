@@ -8,6 +8,8 @@ import subprocess
 import sys
 import tempfile
 import time
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -151,6 +153,40 @@ def call_claude(prompt: str, model: str = TRIAGE_MODEL, schema: str | None = Non
         Path(prompt_file).unlink(missing_ok=True)
 
 
+def call_ollama(prompt: str, model: str = "gemma4:26b") -> str | None:
+    """Call Ollama local model and return the result text."""
+    payload = json.dumps({
+        "model": model,
+        "messages": [
+            {"role": "system", "content": "You output only valid JSON. No markdown, no explanation, no code fences."},
+            {"role": "user", "content": prompt},
+        ],
+        "stream": False,
+        "format": "json",
+        "options": {"temperature": 0.1},
+    }).encode()
+
+    req = urllib.request.Request(
+        "http://localhost:11434/api/chat",
+        data=payload,
+        headers={"Content-Type": "application/json"},
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=600) as resp:
+            data = json.loads(resp.read().decode())
+            return data.get("message", {}).get("content", "")
+    except urllib.error.URLError as e:
+        log_error(f"Ollama request failed: {e}")
+        return None
+    except json.JSONDecodeError as e:
+        log_error(f"Ollama JSON decode error: {e}")
+        return None
+    except TimeoutError:
+        log_error("Ollama request timed out (600s)")
+        return None
+
+
 def parse_triage_response(text: str, thread_id: str) -> dict | None:
     cleaned = text.strip()
     if cleaned.startswith("```"):
@@ -163,6 +199,14 @@ def parse_triage_response(text: str, thread_id: str) -> dict | None:
 
     try:
         data = json.loads(cleaned)
+
+        # Normalize variant field names (e.g. "has_pop_fix" -> "has_fix")
+        if "has_fix" not in data:
+            for key in data:
+                if "fix" in key.lower() and isinstance(data[key], bool):
+                    data["has_fix"] = data[key]
+                    break
+
         if "has_fix" not in data or "confidence" not in data or "reason" not in data:
             log_error(f"Thread {thread_id}: Missing required fields in response: {cleaned[:200]}")
             return None
@@ -172,7 +216,8 @@ def parse_triage_response(text: str, thread_id: str) -> dict | None:
         return None
 
 
-def triage_thread(thread_path: Path, force: bool = False) -> bool:
+def triage_thread(thread_path: Path, model: str = TRIAGE_MODEL, force: bool = False,
+                   ollama_model: str | None = None) -> bool:
     thread_id = thread_path.stem
     out_path = TRIAGED_DIR / f"{thread_id}.json"
 
@@ -191,7 +236,11 @@ def triage_thread(thread_path: Path, force: bool = False) -> bool:
     thread_text = format_thread_for_prompt(thread)
     prompt = f"{TRIAGE_PROMPT}\n\n---\n\n{thread_text}"
 
-    response_text = call_claude(prompt, model=TRIAGE_MODEL)
+    if ollama_model:
+        response_text = call_ollama(prompt, model=ollama_model)
+        model = ollama_model
+    else:
+        response_text = call_claude(prompt, model=model)
     if response_text is None:
         return False
 
@@ -204,6 +253,7 @@ def triage_thread(thread_path: Path, force: bool = False) -> bool:
         "has_fix": result["has_fix"],
         "confidence": result["confidence"],
         "reason": result["reason"],
+        "model": model,
     }
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -220,31 +270,73 @@ def find_raw_threads() -> list[Path]:
     return sorted(RAW_DIR.glob("*.json"))
 
 
+def find_fix_threads(min_confidence: float = 0.7) -> list[Path]:
+    """Find raw thread paths for threads already triaged as having fixes."""
+    fix_paths = []
+    for triaged_path in sorted(TRIAGED_DIR.glob("*.json")):
+        data = json.loads(triaged_path.read_text(encoding="utf-8"))
+        if data.get("has_fix") and data.get("confidence", 0) >= min_confidence:
+            raw_path = RAW_DIR / f"{triaged_path.stem}.json"
+            if raw_path.exists():
+                fix_paths.append(raw_path)
+    return fix_paths
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Triage forum threads for confirmed fixes")
     parser.add_argument("--force", action="store_true", help="Re-triage all threads (overwrite existing)")
     parser.add_argument("--max", type=int, default=None, help="Process max N threads")
     parser.add_argument("--model", default=TRIAGE_MODEL, help=f"Claude model to use (default: {TRIAGE_MODEL})")
+    parser.add_argument("--recheck-fixes", action="store_true",
+                        help="Only re-triage threads previously marked as having fixes (use with --model to confirm with a different model)")
+    parser.add_argument("--workers", type=int, default=1, help="Number of parallel workers (default: 1)")
+    parser.add_argument("--ollama", type=str, default=None, metavar="MODEL",
+                        help="Use local Ollama model instead of Claude (e.g. --ollama gemma4:26b)")
     args = parser.parse_args()
 
-    threads = find_raw_threads()
-    if not threads:
-        print(f"No raw thread files found in {RAW_DIR}")
-        print("Run the forum crawler first to populate data/forum/raw/")
-        return
+    model_name = args.ollama or args.model
+
+    if args.recheck_fixes:
+        threads = find_fix_threads()
+        if not threads:
+            print("No threads with confirmed fixes found to recheck.")
+            return
+        print(f"Rechecking {len(threads)} fix threads with {model_name}...")
+    else:
+        threads = find_raw_threads()
+        if not threads:
+            print(f"No raw thread files found in {RAW_DIR}")
+            print("Run the forum crawler first to populate data/forum/raw/")
+            return
 
     if args.max:
         threads = threads[: args.max]
 
-    print(f"Triaging {len(threads)} threads with {args.model}...")
+    force = args.force or args.recheck_fixes
+
+    if not args.recheck_fixes:
+        print(f"Triaging {len(threads)} threads with {model_name} ({args.workers} workers)...")
 
     succeeded = 0
     failed = 0
-    for thread_path in threads:
-        if triage_thread(thread_path, force=args.force):
-            succeeded += 1
-        else:
-            failed += 1
+
+    if args.workers > 1:
+        with ThreadPoolExecutor(max_workers=args.workers) as executor:
+            futures = {
+                executor.submit(triage_thread, tp, args.model, force, args.ollama): tp
+                for tp in threads
+            }
+            for future in as_completed(futures):
+                if future.result():
+                    succeeded += 1
+                else:
+                    failed += 1
+    else:
+        for thread_path in threads:
+            if triage_thread(thread_path, model=args.model, force=force, ollama_model=args.ollama):
+                succeeded += 1
+            else:
+                failed += 1
 
     print(f"\nTriage complete: {succeeded} succeeded, {failed} failed out of {len(threads)}")
 

@@ -8,7 +8,6 @@ export interface FixDetailData {
   symptoms: string[];
   root_cause?: string;
   fix_summary: string;
-  fix_steps: string[];
   parts_needed: string[];
   tools_needed: string[];
   difficulty: string;
@@ -115,43 +114,6 @@ export default function FixDetail({ fix }: { fix: FixDetailData }) {
           <p style={{ color: "var(--color-tertiary)", fontWeight: 600, fontSize: "14px", lineHeight: 1.6 }}>
             {fix.root_cause}
           </p>
-        </div>
-      )}
-
-      {/* Fix steps */}
-      {fix.fix_steps.length > 0 && (
-        <div style={{ ...sectionStyle, overflow: "hidden" }}>
-          {/* Ghost watermark */}
-          <div style={{
-            position: "absolute",
-            fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
-            fontWeight: 900, fontStyle: "italic", fontSize: "120px", lineHeight: "0.85",
-            textTransform: "uppercase", opacity: 0.02, pointerEvents: "none",
-            right: "-10px", bottom: "-20px", color: "var(--color-text)",
-          }}>
-            FIX
-          </div>
-          <div style={labelStyle}>Fix Steps</div>
-          <ol style={{ listStyle: "none", padding: 0, margin: 0 }}>
-            {fix.fix_steps.map((step, i) => (
-              <li key={i} style={{
-                display: "flex", gap: "14px", padding: "12px 0",
-                borderBottom: i < fix.fix_steps.length - 1 ? "1px solid rgba(72, 71, 77, 0.15)" : "none",
-                fontSize: "14px", lineHeight: 1.5, color: "var(--color-text-muted)",
-              }}>
-                <span style={{
-                  fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
-                  fontWeight: 700, fontSize: "14px", color: "var(--color-secondary)",
-                  minWidth: "24px", height: "24px", display: "flex", alignItems: "center",
-                  justifyContent: "center", background: "rgba(0, 241, 253, 0.1)",
-                  borderRadius: "2px", flexShrink: 0,
-                }}>
-                  {i + 1}
-                </span>
-                <span>{step}</span>
-              </li>
-            ))}
-          </ol>
         </div>
       )}
 

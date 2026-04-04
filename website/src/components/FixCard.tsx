@@ -5,6 +5,7 @@ export interface FixCardData {
   title: string;
   category: string;
   subcategory?: string;
+  source_urls: string[];
   problem_description: string;
   symptoms: string[];
   fix_summary: string;
@@ -146,6 +147,20 @@ export default function FixCard({ fix, model }: { fix: FixCardData; model: strin
           <span>{partsText}</span>
           {fix.thread_date && (
             <span>{new Date(fix.thread_date).toLocaleDateString("en-US", { month: "short", year: "numeric" })}</span>
+          )}
+          {fix.source_urls?.[0] && (
+            <a
+              href={fix.source_urls[0]}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              style={{
+                color: "var(--color-secondary)", textDecoration: "none",
+                fontWeight: 600, marginLeft: "auto",
+              }}
+            >
+              Forum Thread &rarr;
+            </a>
           )}
         </div>
       </div>

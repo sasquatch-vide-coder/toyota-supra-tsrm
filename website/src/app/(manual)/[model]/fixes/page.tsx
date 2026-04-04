@@ -57,6 +57,7 @@ export default async function FixesBrowsePage({
     title: f.title as string,
     category: f.category as string,
     subcategory: f.subcategory as string | undefined,
+    source_urls: (f.source_urls as string[]) || [],
     problem_description: f.problem_description as string,
     symptoms: (f.symptoms as string[]) || [],
     fix_summary: f.fix_summary as string,
