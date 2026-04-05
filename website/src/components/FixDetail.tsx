@@ -8,10 +8,7 @@ export interface FixDetailData {
   symptoms: string[];
   root_cause?: string;
   fix_summary: string;
-  parts_needed: string[];
-  tools_needed: string[];
   difficulty: string;
-  estimated_time?: string;
   confidence: number;
   confirmation_type: string;
   thread_date?: string;
@@ -116,56 +113,6 @@ export default function FixDetail({ fix }: { fix: FixDetailData }) {
           </p>
         </div>
       )}
-
-      {/* Parts & Tools side by side */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px", marginBottom: "16px" }}>
-        <div style={sectionStyle}>
-          <div style={labelStyle}>Parts Needed</div>
-          {fix.parts_needed.length > 0 ? (
-            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-              {fix.parts_needed.map((p, i) => (
-                <li key={i} style={{ fontSize: "13px", color: "var(--color-text-muted)", padding: "3px 0" }}>
-                  <span style={{ color: "var(--color-secondary)", marginRight: "8px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700 }}>&gt;</span>
-                  {p}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p style={{ color: "var(--color-text-muted)", fontSize: "13px", fontStyle: "italic" }}>No parts required</p>
-          )}
-        </div>
-        <div style={sectionStyle}>
-          <div style={labelStyle}>Tools Needed</div>
-          {fix.tools_needed.length > 0 ? (
-            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-              {fix.tools_needed.map((t, i) => (
-                <li key={i} style={{ fontSize: "13px", color: "var(--color-text-muted)", padding: "3px 0" }}>
-                  <span style={{ color: "var(--color-secondary)", marginRight: "8px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700 }}>&gt;</span>
-                  {t}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p style={{ color: "var(--color-text-muted)", fontSize: "13px", fontStyle: "italic" }}>No special tools required</p>
-          )}
-        </div>
-      </div>
-
-      {/* Difficulty & Time side by side */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px", marginBottom: "16px" }}>
-        <div style={sectionStyle}>
-          <div style={labelStyle}>Difficulty</div>
-          <p style={{ color: diff.color, fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700, fontSize: "14px" }}>
-            {fix.difficulty.charAt(0).toUpperCase() + fix.difficulty.slice(1)}
-          </p>
-        </div>
-        <div style={sectionStyle}>
-          <div style={labelStyle}>Estimated Time</div>
-          <p style={{ color: "var(--color-text)", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700, fontSize: "14px" }}>
-            {fix.estimated_time || "Not specified"}
-          </p>
-        </div>
-      </div>
 
       {/* Confidence */}
       <div style={{ ...sectionStyle, marginBottom: "16px" }}>
