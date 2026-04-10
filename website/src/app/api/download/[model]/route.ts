@@ -28,6 +28,12 @@ export async function GET(
     .insert({ model })
     .then();
 
-  // Redirect to the static ZIP file
-  return NextResponse.redirect(new URL(download.url, request.url), 302);
+  // Redirect to the static ZIP file. Use a relative Location header so the
+  // browser resolves it against the public request URL — behind the nginx
+  // reverse proxy, request.url is the internal upstream (localhost:3000),
+  // so constructing an absolute URL from it would leak that to the client.
+  return new NextResponse(null, {
+    status: 302,
+    headers: { Location: download.url },
+  });
 }
