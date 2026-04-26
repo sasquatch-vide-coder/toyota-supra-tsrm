@@ -167,11 +167,11 @@ export default function LandingPage() {
                     <span style={{ color: "rgba(72, 71, 77, 0.3)" }}>·</span>
                     <span>{totalPages.toLocaleString()} pages</span>
                     <span style={{ color: "rgba(72, 71, 77, 0.3)" }}>·</span>
-                    <span>{documents.map(d => d.type === "manual" ? "TSRM" : "EWD").join(" + ")}</span>
+                    <span>{documents.filter(d => d.type !== "fixes").map(d => d.type === "manual" ? "TSRM" : "EWD").join(" + ")}</span>
                   </div>
                   {/* Links */}
                   <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                    {documents.map((doc) => (
+                    {documents.filter(d => d.type !== "fixes").map((doc) => (
                       <Link
                         key={doc.type}
                         href={doc.type === "manual" ? `/${model.id}/tsrm` : `/${model.id}/ewd`}
