@@ -302,3 +302,16 @@ body {
   border-color: rgba(0, 241, 253, 0.2) !important;
   background: var(--color-surface-mid) !important;
 }
+
+/* Visually hidden but readable by crawlers and assistive tech */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

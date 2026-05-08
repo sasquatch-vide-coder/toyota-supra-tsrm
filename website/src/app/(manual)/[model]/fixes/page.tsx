@@ -29,6 +29,7 @@ export default async function FixesBrowsePage({
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
   const { model } = await params;
+  const modelDef = getModel(model);
   const sp = await searchParams;
   const query = typeof sp.q === "string" ? sp.q : "";
   const category = typeof sp.category === "string" ? sp.category : "";
@@ -80,17 +81,50 @@ export default async function FixesBrowsePage({
   const totalFixes = categories.reduce((sum, c) => sum + c.fix_count, 0);
 
   return (
-    <FixesBrowser
-      model={model}
-      fixes={fixes}
-      categories={categories}
-      totalFixes={totalFixes}
-      totalCount={Number(totalCount)}
-      totalPages={totalPages}
-      currentPage={page}
-      currentCategory={category}
-      currentSort={sort}
-      currentQuery={query}
-    />
+    <>
+      <FixesBrowser
+        model={model}
+        fixes={fixes}
+        categories={categories}
+        totalFixes={totalFixes}
+        totalCount={Number(totalCount)}
+        totalPages={totalPages}
+        currentPage={page}
+        currentCategory={category}
+        currentSort={sort}
+        currentQuery={query}
+      />
+      {modelDef && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "TSRM",
+                  item: "https://tsrm.sasquatchvc.com",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: modelDef.name,
+                  item: `https://tsrm.sasquatchvc.com/${model}`,
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: "Community Fixes",
+                  item: `https://tsrm.sasquatchvc.com/${model}/fixes`,
+                },
+              ],
+            }),
+          }}
+        />
+      )}
+    </>
   );
 }

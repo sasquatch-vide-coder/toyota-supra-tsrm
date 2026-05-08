@@ -127,15 +127,8 @@ export default async function ManualPageRoute({
         />
       </div>
 
-      {/* Hidden OCR text for SEO */}
-      {data.ocr_text && (
-        <div
-          aria-hidden="true"
-          style={{ opacity: 0, position: "absolute", pointerEvents: "none", height: 0, overflow: "hidden" }}
-        >
-          {data.ocr_text}
-        </div>
-      )}
+      {/* OCR text — visually hidden but readable by crawlers and assistive tech */}
+      {data.ocr_text && <div className="sr-only">{data.ocr_text}</div>}
 
       <script
         type="application/ld+json"

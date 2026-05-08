@@ -126,15 +126,49 @@ export default async function EwdPageRoute({
         />
       </div>
 
-      {/* Hidden OCR text for SEO */}
-      {data.ocr_text && (
-        <div
-          aria-hidden="true"
-          style={{ opacity: 0, position: "absolute", pointerEvents: "none", height: 0, overflow: "hidden" }}
-        >
-          {data.ocr_text}
-        </div>
-      )}
+      {/* OCR text — visually hidden but readable by crawlers and assistive tech */}
+      {data.ocr_text && <div className="sr-only">{data.ocr_text}</div>}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "TSRM",
+                item: "https://tsrm.sasquatchvc.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: modelDef.name,
+                item: `https://tsrm.sasquatchvc.com/${model}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Wiring Diagrams",
+                item: `https://tsrm.sasquatchvc.com/${model}/ewd`,
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                name: sectionInfo.name,
+                item: `https://tsrm.sasquatchvc.com/${model}/ewd/${section}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 5,
+                name: `Page ${pageNum}`,
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

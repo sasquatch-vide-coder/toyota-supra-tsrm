@@ -89,6 +89,41 @@ export default async function FixDetailPage({
         </Link>
       </div>
       <FixDetail fix={fix} />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "TSRM",
+                item: "https://tsrm.sasquatchvc.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: modelDef.name,
+                item: `https://tsrm.sasquatchvc.com/${model}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Community Fixes",
+                item: `https://tsrm.sasquatchvc.com/${model}/fixes`,
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                name: data.title,
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

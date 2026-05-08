@@ -163,6 +163,42 @@ export default async function EwdSectionPage({
           </p>
         )}
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "TSRM",
+                item: "https://tsrm.sasquatchvc.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: modelDef.name,
+                item: `https://tsrm.sasquatchvc.com/${model}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Wiring Diagrams",
+                item: `https://tsrm.sasquatchvc.com/${model}/ewd`,
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                name: sectionInfo.name,
+                item: `https://tsrm.sasquatchvc.com/${model}/ewd/${section}`,
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }
