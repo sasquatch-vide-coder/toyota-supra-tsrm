@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     absolute: "TSRM — Toyota Supra Technical Service Repair Manual",
   },
   description:
-    "Complete factory service manuals for MK2, MK3, and MK4 Toyota Supra — digitized, AI-upscaled, and fully searchable.",
+    "Toyota Supra factory service manuals — MK2 (5M/A60, 1982–1986), MK3 (7M/A70, 1986–1992), MK4 (2JZ/A80, 1993–2002). Searchable TSRM repair procedures, EWD wiring diagrams, torque specs, and community fixes. AI-upscaled scans, free, with offline ZIP downloads.",
   alternates: { canonical: "/" },
 };
 
