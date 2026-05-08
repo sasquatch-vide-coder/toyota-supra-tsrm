@@ -92,7 +92,7 @@ export default function LandingPage() {
               Three generations of factory service manuals — digitized from original sources, AI-upscaled, and fully searchable. Built for owners, mechanics, and enthusiasts.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "16px" }}>
-              <Link href={`/${MODELS[MODELS.length - 1].id}/tsrm`} className="glow-purple" style={{ background: "linear-gradient(135deg, var(--color-primary), var(--color-primary-dim))", color: "var(--color-on-primary)", padding: "16px 32px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", fontSize: "13px", textDecoration: "none", display: "flex", alignItems: "center", gap: "12px", borderRadius: "2px" }}>
+              <Link href="#collections" className="glow-purple" style={{ background: "linear-gradient(135deg, var(--color-primary), var(--color-primary-dim))", color: "var(--color-on-primary)", padding: "16px 32px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", fontSize: "13px", textDecoration: "none", display: "flex", alignItems: "center", gap: "12px", borderRadius: "2px" }}>
                 Browse Manuals →
               </Link>
               <Link href="#collections" style={{ borderBottom: "2px solid var(--color-secondary)", color: "var(--color-text)", padding: "16px 32px", fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", fontSize: "13px", textDecoration: "none", display: "flex", alignItems: "center", gap: "12px" }}>
