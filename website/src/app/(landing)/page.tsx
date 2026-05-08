@@ -197,6 +197,41 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* ── Browse All Sections (internal links for SEO + quick nav) ── */}
+      <section id="all-sections" className="landing-section" style={{ padding: "0 48px 64px" }}>
+        <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: "24px", paddingBottom: "16px", borderBottom: "1px solid var(--color-border)" }}>
+          <h2 style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "clamp(1.25rem, 2.5vw, 1.5rem)", fontWeight: 700, textTransform: "uppercase", letterSpacing: "-0.02em" }}>
+            Browse All Sections
+          </h2>
+          <span style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "11px", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--color-text-faint)" }}>
+            Direct Links
+          </span>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px" }}>
+          {modelData.map(({ model, sections }) => (
+            sections.length > 0 && (
+              <div key={model.id}>
+                <h3 style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "13px", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--color-secondary)", marginBottom: "12px" }}>
+                  {model.name} — Repair Manual
+                </h3>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "6px 14px", fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "13px", lineHeight: 1.5 }}>
+                  {sections.map((s) => (
+                    <Link
+                      key={s.code}
+                      href={`/${model.id}/tsrm/${s.code}`}
+                      style={{ color: "var(--color-text-muted)", textDecoration: "none", transition: "color 0.15s" }}
+                    >
+                      {s.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )
+          ))}
+        </div>
+      </section>
+
       {/* ── Features ── */}
       <section id="features" className="landing-section" style={{ padding: "0 48px 64px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "16px", marginBottom: "32px" }}>
@@ -215,9 +250,9 @@ export default function LandingPage() {
               <span className="material-symbols-outlined" style={{ fontSize: "28px", color: "var(--color-secondary)", marginBottom: "16px", display: "block", fontVariationSettings: "'FILL' 0, 'wght' 300, 'opsz' 48" }}>
                 {f.icon}
               </span>
-              <h4 style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "18px", fontWeight: 700, marginBottom: "8px" }}>
+              <h3 style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "18px", fontWeight: 700, marginBottom: "8px" }}>
                 {f.title}
-              </h4>
+              </h3>
               <p style={{ fontFamily: "'Manrope', var(--font-manrope), sans-serif", fontSize: "14px", color: "var(--color-text-muted)", lineHeight: 1.6 }}>
                 {f.desc}
               </p>

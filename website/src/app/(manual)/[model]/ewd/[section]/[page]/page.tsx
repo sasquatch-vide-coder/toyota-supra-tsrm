@@ -122,7 +122,7 @@ export default async function EwdPageRoute({
       <div style={{ flex: 1, minHeight: 0 }}>
         <EwdViewer
           src={imageSrc}
-          alt={`${sectionInfo.name} page ${pageNum}`}
+          alt={`${data.title || data.section_header || sectionInfo.name} — ${modelDef.name} ${sectionInfo.name} wiring diagram, page ${pageNum}`}
         />
       </div>
 
@@ -166,6 +166,40 @@ export default async function EwdPageRoute({
                 name: `Page ${pageNum}`,
               },
             ],
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            headline: data.title || data.section_header || `${sectionInfo.name} — Page ${pageNum}`,
+            name: `${sectionInfo.name} p.${pageNum} — ${modelDef.name} EWD`,
+            description: data.title && data.title !== data.section_header
+              ? `${data.title} — ${sectionInfo.name}, ${modelDef.name} wiring diagrams`
+              : `${sectionInfo.name} page ${pageNum} — ${modelDef.name} wiring diagrams`,
+            url: `https://tsrm.sasquatchvc.com/${model}/ewd/${section}/${pageNum}`,
+            image: `https://tsrm.sasquatchvc.com${imageSrc}`,
+            inLanguage: "en-US",
+            isPartOf: {
+              "@type": "Book",
+              name: `${modelDef.name} Electrical Wiring Diagram`,
+              about: {
+                "@type": "Vehicle",
+                name: modelDef.name,
+                vehicleModelDate: modelDef.year,
+                manufacturer: { "@type": "Organization", name: "Toyota" },
+              },
+            },
+            articleSection: sectionInfo.name,
+            publisher: {
+              "@type": "Organization",
+              name: "TSRM",
+              url: "https://tsrm.sasquatchvc.com",
+            },
           }),
         }}
       />
