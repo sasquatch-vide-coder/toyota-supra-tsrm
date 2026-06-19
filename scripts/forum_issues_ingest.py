@@ -45,9 +45,15 @@ def main() -> None:
 
     seen: dict[str, int] = {}
     rows = []
+    skipped = 0
     for c in catalog:
         issue = c["issue"]
         system = c["system"]
+        # The "uncategorized" bucket holds threads with no identifiable issue
+        # (build logs, vague posts). Not useful as browsable issues -- skip.
+        if system == "uncategorized":
+            skipped += 1
+            continue
         base_slug = f"{slugify(system, 16)}-{slugify(issue)}"
         n = seen.get(base_slug, 0)
         seen[base_slug] = n + 1
@@ -89,7 +95,8 @@ def main() -> None:
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     n_threads = sum(r["thread_count"] for r in rows)
-    print(f"Wrote {len(rows)} issues ({n_threads} thread links) -> {out_path}")
+    print(f"Wrote {len(rows)} issues ({n_threads} thread links) -> {out_path}"
+          f"  (skipped {skipped} uncategorized)")
 
 
 if __name__ == "__main__":

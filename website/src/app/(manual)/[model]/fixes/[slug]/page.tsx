@@ -7,9 +7,9 @@ import IssueDetail from "@/components/IssueDetail";
 import { systemLabel } from "@/components/IssueCard";
 import type { IssueData } from "@/components/IssueCard";
 
-export function generateStaticParams() {
-  return [];
-}
+// DB-backed: always render fresh so added/removed issues reflect immediately
+// (avoids serving stale cached pages for slugs that no longer exist).
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
