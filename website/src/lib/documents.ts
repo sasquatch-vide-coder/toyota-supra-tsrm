@@ -21,6 +21,12 @@ const MODEL_DOCUMENTS: Record<string, DocumentDef[]> = {
       description: "36705A (USA-1985)",
       contentDir: "mk2-ewd",
     },
+    {
+      type: "fixes",
+      label: "Community Fixes",
+      description: "Verified repairs from SupraForums",
+      contentDir: "forum",
+    },
   ],
   mk3: [
     {
@@ -49,8 +55,18 @@ const MODEL_DOCUMENTS: Record<string, DocumentDef[]> = {
       description: "EWD230U (USA-1995)",
       contentDir: "mk4-ewd",
     },
+    {
+      type: "fixes",
+      label: "Community Fixes",
+      description: "Verified repairs from SupraForums",
+      contentDir: "forum",
+    },
   ],
 };
+
+// Models that have a community-issues catalog ingested (forum_issues table).
+// Add a model here once its issue_catalog has been ingested.
+const MODELS_WITH_FIXES = new Set<string>(["mk3"]);
 
 const TYPE_TO_ROUTE: Record<string, string> = {
   manual: "tsrm",
@@ -83,8 +99,10 @@ export function getDocuments(model: string): DocumentDef[] {
   const extras = MODEL_DOCUMENTS[model]?.filter((d) => d.type !== "manual") || [];
   for (const doc of extras) {
     if (doc.type === "fixes") {
-      // Fixes are database-driven, not filesystem-driven — always include
-      docs.push(doc);
+      // Fixes are database-driven; show the tab only for models with a catalog.
+      if (MODELS_WITH_FIXES.has(model)) {
+        docs.push(doc);
+      }
     } else {
       const sections = loadSections(doc.contentDir);
       if (sections.length > 0) {

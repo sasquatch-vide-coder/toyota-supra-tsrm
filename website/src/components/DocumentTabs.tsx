@@ -32,7 +32,7 @@ export default function DocumentTabs({
         marginTop: "6px",
       }}
     >
-      {documents.filter((doc) => doc.type !== "fixes").map((doc) => {
+      {documents.map((doc) => {
         const route = TYPE_TO_ROUTE[doc.type] || doc.type;
         const href = `/${model}/${route}`;
         const isActive = pathname.startsWith(href);

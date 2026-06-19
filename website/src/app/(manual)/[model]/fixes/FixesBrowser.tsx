@@ -1,56 +1,59 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useState, useCallback } from "react";
-import FixCard from "@/components/FixCard";
-import type { FixCardData } from "@/components/FixCard";
+import IssueCard, { systemLabel } from "@/components/IssueCard";
+import type { IssueData } from "@/components/IssueCard";
 
 interface FixesBrowserProps {
   model: string;
-  fixes: FixCardData[];
-  categories: { category: string; fix_count: number }[];
-  totalFixes: number;
+  issues: IssueData[];
+  systems: { system: string; issue_count: number }[];
+  totalIssues: number;
   totalCount: number;
   totalPages: number;
   currentPage: number;
-  currentCategory: string;
+  currentSystem: string;
   currentSort: string;
   currentQuery: string;
 }
 
 export default function FixesBrowser({
   model,
-  fixes,
-  categories,
-  totalFixes,
+  issues,
+  systems,
+  totalIssues,
   totalCount,
   totalPages,
   currentPage,
-  currentCategory,
+  currentSystem,
   currentSort,
   currentQuery,
 }: FixesBrowserProps) {
   const router = useRouter();
   const [searchInput, setSearchInput] = useState(currentQuery);
 
+  const FORUM_LABEL: Record<string, string> = { mk2: "MKII", mk3: "MKIII", mk4: "MKIV" };
+  const forumLabel = FORUM_LABEL[model] ?? model.toUpperCase();
+
   const buildUrl = useCallback(
     (overrides: Record<string, string>) => {
       const params = new URLSearchParams();
       const merged = {
         q: currentQuery,
-        category: currentCategory,
+        system: currentSystem,
         sort: currentSort,
         page: String(currentPage),
         ...overrides,
       };
       if (merged.q) params.set("q", merged.q);
-      if (merged.category) params.set("category", merged.category);
-      if (merged.sort && merged.sort !== "confidence") params.set("sort", merged.sort);
+      if (merged.system) params.set("system", merged.system);
+      if (merged.sort && merged.sort !== "threads") params.set("sort", merged.sort);
       if (merged.page !== "1") params.set("page", merged.page);
       const qs = params.toString();
       return `/${model}/fixes${qs ? `?${qs}` : ""}`;
     },
-    [model, currentQuery, currentCategory, currentSort, currentPage]
+    [model, currentQuery, currentSystem, currentSort, currentPage]
   );
 
   const handleSearch = (e: React.FormEvent) => {
@@ -58,8 +61,8 @@ export default function FixesBrowser({
     router.push(buildUrl({ q: searchInput, page: "1" }));
   };
 
-  const handleCategoryClick = (cat: string) => {
-    router.push(buildUrl({ category: cat === currentCategory ? "" : cat, page: "1" }));
+  const handleSystemClick = (sys: string) => {
+    router.push(buildUrl({ system: sys === currentSystem ? "" : sys, page: "1" }));
   };
 
   const handleSortClick = (sort: string) => {
@@ -67,9 +70,8 @@ export default function FixesBrowser({
   };
 
   const sortOptions = [
-    { key: "confidence", label: "Confidence" },
-    { key: "newest", label: "Newest" },
-    { key: "category", label: "Category" },
+    { key: "threads", label: "Most Discussed" },
+    { key: "system", label: "System" },
   ];
 
   return (
@@ -84,15 +86,15 @@ export default function FixesBrowser({
           Community Fixes
         </h1>
         <p style={{ color: "var(--color-text-muted)", fontSize: "14px" }}>
-          Verified repair solutions from SupraForums &mdash;{" "}
+          Common problems grouped from confirmed-fix threads on SupraForums &mdash;{" "}
           <span style={{
             color: "var(--color-secondary)",
             fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
             fontWeight: 700,
           }}>
-            {totalFixes} fixes
+            {totalIssues} issues
           </span>{" "}
-          extracted from MKIII threads
+          across {forumLabel} threads
         </p>
       </div>
 
@@ -108,7 +110,7 @@ export default function FixesBrowser({
           type="text"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
-          placeholder="Search fixes... (e.g. 'rough idle', 'boost leak', 'no start')"
+          placeholder="Search issues... (e.g. 'rough idle', 'boost leak', 'no start')"
           style={{
             flex: 1, background: "none", border: "none",
             color: "var(--color-text)", fontFamily: "'Manrope', var(--font-manrope), sans-serif",
@@ -130,70 +132,69 @@ export default function FixesBrowser({
       </form>
 
       <div style={{ display: "flex", gap: "28px" }}>
-        {/* Category sidebar */}
+        {/* System sidebar */}
         <div style={{ width: "220px", flexShrink: 0 }}>
           <div style={{
             fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
             fontWeight: 700, fontSize: "10px", letterSpacing: "0.2em",
             textTransform: "uppercase", color: "var(--color-text-faint)", marginBottom: "12px",
           }}>
-            Categories
+            Systems
           </div>
-          {/* All Fixes */}
+          {/* All */}
           <div
-            onClick={() => handleCategoryClick("")}
+            onClick={() => handleSystemClick("")}
             style={{
               display: "flex", justifyContent: "space-between", alignItems: "center",
               padding: "10px 14px", borderRadius: "2px", cursor: "pointer",
               fontSize: "13px", fontWeight: 500, marginBottom: "2px",
-              color: !currentCategory ? "var(--color-secondary)" : "var(--color-text-muted)",
-              background: !currentCategory ? "rgba(0, 241, 253, 0.05)" : "transparent",
-              borderLeft: !currentCategory ? "3px solid var(--color-secondary)" : "3px solid transparent",
+              color: !currentSystem ? "var(--color-secondary)" : "var(--color-text-muted)",
+              background: !currentSystem ? "rgba(0, 241, 253, 0.05)" : "transparent",
+              borderLeft: !currentSystem ? "3px solid var(--color-secondary)" : "3px solid transparent",
               transition: "all 0.15s",
             }}
           >
-            <span>All Fixes</span>
+            <span>All Issues</span>
             <span style={{
               fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
               fontWeight: 700, fontSize: "11px",
-              background: !currentCategory ? "rgba(0, 241, 253, 0.15)" : "var(--color-surface-mid)",
-              color: !currentCategory ? "var(--color-secondary)" : "var(--color-text-faint)",
+              background: !currentSystem ? "rgba(0, 241, 253, 0.15)" : "var(--color-surface-mid)",
+              color: !currentSystem ? "var(--color-secondary)" : "var(--color-text-faint)",
               padding: "2px 8px", borderRadius: "9999px",
             }}>
-              {totalFixes}
+              {totalIssues}
             </span>
           </div>
-          {categories.map((cat) => (
+          {systems.map((s) => (
             <div
-              key={cat.category}
-              onClick={() => handleCategoryClick(cat.category)}
+              key={s.system}
+              onClick={() => handleSystemClick(s.system)}
               style={{
                 display: "flex", justifyContent: "space-between", alignItems: "center",
                 padding: "10px 14px", borderRadius: "2px", cursor: "pointer",
                 fontSize: "13px", fontWeight: 500, marginBottom: "2px",
-                color: currentCategory === cat.category ? "var(--color-secondary)" : "var(--color-text-muted)",
-                background: currentCategory === cat.category ? "rgba(0, 241, 253, 0.05)" : "transparent",
-                borderLeft: currentCategory === cat.category ? "3px solid var(--color-secondary)" : "3px solid transparent",
+                color: currentSystem === s.system ? "var(--color-secondary)" : "var(--color-text-muted)",
+                background: currentSystem === s.system ? "rgba(0, 241, 253, 0.05)" : "transparent",
+                borderLeft: currentSystem === s.system ? "3px solid var(--color-secondary)" : "3px solid transparent",
                 transition: "all 0.15s",
               }}
             >
-              <span>{cat.category}</span>
+              <span>{systemLabel(s.system)}</span>
               <span style={{
                 fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
                 fontWeight: 700, fontSize: "11px",
-                background: currentCategory === cat.category ? "rgba(0, 241, 253, 0.15)" : "var(--color-surface-mid)",
-                color: currentCategory === cat.category ? "var(--color-secondary)" : "var(--color-text-faint)",
+                background: currentSystem === s.system ? "rgba(0, 241, 253, 0.15)" : "var(--color-surface-mid)",
+                color: currentSystem === s.system ? "var(--color-secondary)" : "var(--color-text-faint)",
                 padding: "2px 8px", borderRadius: "9999px",
               }}>
-                {cat.fix_count}
+                {s.issue_count}
               </span>
             </div>
           ))}
         </div>
 
-        {/* Fix cards */}
+        {/* Issue cards */}
         <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "12px" }}>
-          {/* Sort bar */}
           {!currentQuery && (
             <div style={{
               display: "flex", alignItems: "center", gap: "12px", marginBottom: "4px",
@@ -219,19 +220,18 @@ export default function FixesBrowser({
             </div>
           )}
 
-          {/* Results */}
-          {fixes.length === 0 ? (
+          {issues.length === 0 ? (
             <div style={{
               display: "flex", alignItems: "center", justifyContent: "center",
               minHeight: "200px", color: "var(--color-text-muted)", fontSize: "14px",
             }}>
               {currentQuery
-                ? `No fixes found for "${currentQuery}"`
-                : "No community fixes available yet"}
+                ? `No issues found for "${currentQuery}"`
+                : "No community issues available yet"}
             </div>
           ) : (
-            fixes.map((fix) => (
-              <FixCard key={fix.thread_id} fix={fix} model={model} />
+            issues.map((issue) => (
+              <IssueCard key={issue.slug} issue={issue} model={model} />
             ))
           )}
 

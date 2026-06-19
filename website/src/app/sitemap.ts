@@ -82,18 +82,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  // ── Community fixes (Supabase-backed) ──
+  // ── Community issues (Supabase-backed) ──
   try {
-    const { data: fixes } = await supabaseAdmin
-      .from("forum_fixes")
-      .select("model, thread_id");
+    const { data: issues } = await supabaseAdmin
+      .from("forum_issues")
+      .select("model, slug");
 
     const modelsWithFixes = new Set<string>();
-    if (fixes) {
-      for (const fix of fixes as { model: string; thread_id: string }[]) {
-        modelsWithFixes.add(fix.model);
+    if (issues) {
+      for (const issue of issues as { model: string; slug: string }[]) {
+        modelsWithFixes.add(issue.model);
         entries.push({
-          url: `${baseUrl}/${fix.model}/fixes/${fix.thread_id}`,
+          url: `${baseUrl}/${issue.model}/fixes/${issue.slug}`,
           changeFrequency: "monthly",
           priority: 0.6,
         });
@@ -107,7 +107,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       });
     }
   } catch {
-    // If Supabase is unavailable at build time, skip fixes — they'll be
+    // If Supabase is unavailable at build time, skip issues — they'll be
     // discovered via internal links from the model landing pages.
   }
 
