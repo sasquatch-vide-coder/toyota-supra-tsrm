@@ -38,6 +38,12 @@ bash scripts/seo_check.sh http://localhost:3000   # against a local `next start`
 ```
 Checks status codes, titles/canonicals, H1s, OCR transcript, next/image WebP optimizer, sitemap and robots.
 
+### Notify search engines after a content deploy
+```bash
+python scripts/indexnow.py    # pushes every sitemap URL to IndexNow (Bing, Yandex, DuckDuckGo, Seznam, Naver)
+```
+Google ignores IndexNow — resubmit `/sitemap.xml` in Search Console instead. The IndexNow key is the 32-hex `website/public/<key>.txt` file.
+
 ### Quick one-liner deploy
 ```bash
 ssh tsrm-prod "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"
