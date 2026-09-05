@@ -14,7 +14,7 @@ head_tags() { curl -sS "$BASE$1" | grep -o '<head>.*</head>' | sed 's/></>\n</g'
 
 echo "== $BASE"
 
-for u in / /mk2 /mk3 /mk4 /mk3/tsrm /mk3/ewd /mk3/fixes /mk3/tsrm/EM /mk3/tsrm/EM/1 /mk3/ewd/INTRO/1 /sitemap.xml /robots.txt; do
+for u in / /mk2 /mk3 /mk4 /mk3/tsrm /mk3/ewd /mk3/fixes /mk3/tsrm/EM /mk3/tsrm/EM/1 /mk3/ewd/INTRO/1 /sitemap.xml /robots.txt /llms.txt; do
   code=$(curl -sS -o /dev/null -w "%{http_code}" "$BASE$u")
   check "$u -> $code" $([ "$code" = "200" ]; echo $?)
 done
@@ -42,6 +42,16 @@ S=$(curl -sS "$BASE/sitemap.xml")
 check "no /tsrm/search URLs"             $(! echo "$S" | grep -q '/tsrm/search<'; echo $?)
 check "has lastmod"                      $(echo "$S" | grep -q '<lastmod>'; echo $?)
 echo "  urls: $(echo "$S" | grep -c '<loc>')"
+
+echo "== AI agent surface"
+L=$(curl -sS "$BASE/llms.txt")
+check "llms.txt 200 + lists api/pages"   $(echo "$L" | grep -q 'api/pages'; echo $?)
+J=$(curl -sS -D - "$BASE/api/pages/mk3/tsrm/EM/1")
+check "api/pages JSON has ocr_text"      $(echo "$J" | grep -q '"ocr_text"'; echo $?)
+check "api/pages CORS header"            $(echo "$J" | grep -qi '^access-control-allow-origin: \*'; echo $?)
+M=$(curl -sS -D - "$BASE/api/pages/mk3/tsrm/EM/1?format=md")
+check "api/pages markdown variant"       $(echo "$M" | grep -qi '^content-type: text/markdown'; echo $?)
+check "page links JSON alternate"        $(echo "$P" | grep -q 'rel="alternate" type="application/json"'; echo $?)
 
 echo "== robots"
 R=$(curl -sS "$BASE/robots.txt")

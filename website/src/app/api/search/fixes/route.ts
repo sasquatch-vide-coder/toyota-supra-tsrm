@@ -28,6 +28,7 @@ export async function GET(request: NextRequest) {
     const total = results.length > 0 ? results[0].total_count : 0;
 
     const response = NextResponse.json({ results, total });
+    response.headers.set("Access-Control-Allow-Origin", "*");
     response.headers.set(
       "Cache-Control",
       "public, s-maxage=300, stale-while-revalidate=3600"

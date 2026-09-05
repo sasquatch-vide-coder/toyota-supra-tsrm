@@ -1,29 +1,11 @@
-import fs from "fs";
-import path from "path";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
-import { PageData } from "@/types";
 import { getModel, shortName } from "@/lib/models";
+import { loadPage } from "@/lib/pages";
 import { distinctPageTitle, ocrSnippet, stripLeading } from "@/lib/seo";
 import EwdViewer from "@/components/EwdViewer";
 import PageNavBar from "@/components/PageNavBar";
-
-function loadPage(model: string, section: string, page: number): PageData | null {
-  const filePath = path.join(
-    process.cwd(),
-    "src",
-    "content",
-    `${model}-ewd`,
-    section,
-    `${page}.json`
-  );
-  try {
-    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  } catch {
-    return null;
-  }
-}
 
 export function generateStaticParams() {
   return [];
@@ -43,7 +25,7 @@ export async function generateMetadata({
   const sectionInfo = sections.find((s) => s.code === section);
   if (!sectionInfo) return {};
 
-  const data = loadPage(model, section, pageNum);
+  const data = loadPage(`${model}-ewd`, section, pageNum);
   const pageTitle = data ? distinctPageTitle(data.title, data.section_header, sectionInfo.name) : "";
   const lead = `${shortName(modelDef)} Toyota Supra wiring diagram — ${sectionInfo.name}${pageTitle ? `: ${pageTitle}` : ""}, page ${pageNum}.`;
   const snippet = ocrSnippet(
@@ -55,7 +37,10 @@ export async function generateMetadata({
   return {
     title: `${pageTitle ? `${pageTitle} — ` : ""}${sectionInfo.name} p.${pageNum} — ${modelDef.name} Wiring Diagram`,
     description: snippet ? `${lead} ${snippet}` : lead,
-    alternates: { canonical: `/${model}/ewd/${section}/${pageNum}` },
+    alternates: {
+      canonical: `/${model}/ewd/${section}/${pageNum}`,
+      types: { "application/json": `/api/pages/${model}/ewd/${section}/${pageNum}` },
+    },
     openGraph: { type: "article", images: [imageSrc] },
     twitter: { card: "summary_large_image", images: [imageSrc] },
   };
@@ -75,7 +60,7 @@ export default async function EwdPageRoute({
   const sectionInfo = sections.find((s) => s.code === section);
   if (!sectionInfo) notFound();
 
-  const data = loadPage(model, section, pageNum);
+  const data = loadPage(`${model}-ewd`, section, pageNum);
   if (!data) notFound();
 
   const pageIndex = sectionInfo.page_index || [];

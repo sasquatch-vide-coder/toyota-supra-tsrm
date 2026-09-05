@@ -1,29 +1,11 @@
-import fs from "fs";
-import path from "path";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
-import { PageData } from "@/types";
 import { getModel, getModelIds, shortName } from "@/lib/models";
+import { loadPage } from "@/lib/pages";
 import { distinctPageTitle, ocrSnippet, stripLeading } from "@/lib/seo";
 import EwdViewer from "@/components/EwdViewer";
 import PageNavBar from "@/components/PageNavBar";
-
-function loadPage(model: string, section: string, page: number): PageData | null {
-  const filePath = path.join(
-    process.cwd(),
-    "src",
-    "content",
-    model,
-    section,
-    `${page}.json`
-  );
-  try {
-    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  } catch {
-    return null;
-  }
-}
 
 // Return empty array — pages are rendered on-demand and cached as static HTML.
 export function generateStaticParams() {
@@ -56,7 +38,10 @@ export async function generateMetadata({
   return {
     title: `${pageTitle ? `${pageTitle} — ` : ""}${sectionInfo.name} p.${pageNum} — ${modelDef.name} Repair Manual`,
     description: snippet ? `${lead} ${snippet}` : lead,
-    alternates: { canonical: `/${model}/tsrm/${section}/${pageNum}` },
+    alternates: {
+      canonical: `/${model}/tsrm/${section}/${pageNum}`,
+      types: { "application/json": `/api/pages/${model}/tsrm/${section}/${pageNum}` },
+    },
     openGraph: { type: "article", images: [imageSrc] },
     twitter: { card: "summary_large_image", images: [imageSrc] },
   };

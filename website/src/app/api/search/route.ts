@@ -27,6 +27,7 @@ export async function GET(request: NextRequest) {
     const results: SearchResult[] = (data ?? []) as SearchResult[];
 
     const response = NextResponse.json({ results });
+    response.headers.set("Access-Control-Allow-Origin", "*");
     response.headers.set(
       "Cache-Control",
       "public, s-maxage=3600, stale-while-revalidate=86400"
