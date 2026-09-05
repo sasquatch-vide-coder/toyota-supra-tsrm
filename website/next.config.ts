@@ -5,7 +5,9 @@ const nextConfig: NextConfig = {
     // Page scans are 1280px-wide PNGs (120KB–1.4MB). Serve resized WebP via next/image.
     formats: ["image/webp"],
     qualities: [85],
-    deviceSizes: [640, 828, 1080, 1280],
+    // ponytail: two widths only — the prod disk is small and the optimizer cache is per-variant.
+    // A server cron prunes .next/cache/images entries older than 30 days.
+    deviceSizes: [640, 1280],
     // Source files are immutable static scans — keep optimized variants for a year.
     minimumCacheTTL: 60 * 60 * 24 * 365,
   },
