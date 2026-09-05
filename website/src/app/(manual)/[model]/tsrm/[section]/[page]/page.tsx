@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
 import { PageData } from "@/types";
-import { getModel, getModelIds } from "@/lib/models";
+import { getModel, getModelIds, shortName } from "@/lib/models";
+import { distinctPageTitle, ocrSnippet, stripLeading } from "@/lib/seo";
 import EwdViewer from "@/components/EwdViewer";
 import PageNavBar from "@/components/PageNavBar";
 
@@ -44,15 +45,20 @@ export async function generateMetadata({
   if (!sectionInfo) return {};
 
   const data = loadPage(model, section, pageNum);
-  const desc =
-    data?.title && data.title !== data.section_header
-      ? `${data.title} — ${sectionInfo.name}, ${modelDef.name} service manual`
-      : `${sectionInfo.name} page ${pageNum} — ${modelDef.name} service manual`;
+  const pageTitle = data ? distinctPageTitle(data.title, data.section_header, sectionInfo.name) : "";
+  const lead = `${shortName(modelDef)} Toyota Supra repair manual — ${sectionInfo.name}${pageTitle ? `: ${pageTitle}` : ""} (${section}-${pageNum}).`;
+  const snippet = ocrSnippet(
+    stripLeading(data?.ocr_text, [`${section}-${pageNum}`, data?.section_header, sectionInfo.name, data?.title]),
+    Math.max(40, 160 - lead.length)
+  );
+  const imageSrc = `/images/${model}/${section}/${section}_${String(pageNum).padStart(3, "0")}.png`;
 
   return {
-    title: `${sectionInfo.name} p.${pageNum} — ${modelDef.name} Manual`,
-    description: desc,
+    title: `${pageTitle ? `${pageTitle} — ` : ""}${sectionInfo.name} p.${pageNum} — ${modelDef.name} Repair Manual`,
+    description: snippet ? `${lead} ${snippet}` : lead,
     alternates: { canonical: `/${model}/tsrm/${section}/${pageNum}` },
+    openGraph: { type: "article", images: [imageSrc] },
+    twitter: { card: "summary_large_image", images: [imageSrc] },
   };
 }
 
@@ -105,30 +111,41 @@ export default async function ManualPageRoute({
 
   const paddedPage = String(pageNum).padStart(3, "0");
   const imageSrc = `/images/${model}/${section}/${section}_${paddedPage}.png`;
+  const pageTitle = distinctPageTitle(data.title, data.section_header, sectionInfo.name);
+  const headline = pageTitle || sectionInfo.name;
+  const description = `${headline} — ${sectionInfo.name} (${section}), ${shortName(modelDef)} Toyota Supra factory service manual, page ${pageNum}`;
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
-      <PageNavBar
-        model={model}
-        docType="tsrm"
-        section={section}
-        sectionName={sectionInfo.name}
-        pageNum={pageNum}
-        totalPages={sectionInfo.pages}
-        prevLink={prevLink}
-        nextLink={nextLink}
-      />
-
-      {/* Page image viewer */}
-      <div style={{ flex: 1, minHeight: 0 }}>
-        <EwdViewer
-          src={imageSrc}
-          alt={`${data.title || data.section_header || sectionInfo.name} — ${modelDef.name} ${sectionInfo.name}, page ${pageNum}`}
+    <>
+      <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+        <PageNavBar
+          model={model}
+          docType="tsrm"
+          section={section}
+          sectionName={sectionInfo.name}
+          pageNum={pageNum}
+          totalPages={sectionInfo.pages}
+          prevLink={prevLink}
+          nextLink={nextLink}
+          pageTitle={pageTitle}
         />
+
+        {/* Page image viewer */}
+        <div style={{ flex: 1, minHeight: 0 }}>
+          <EwdViewer
+            src={imageSrc}
+            alt={`${headline} — ${modelDef.name} ${sectionInfo.name}, page ${pageNum}`}
+          />
+        </div>
       </div>
 
-      {/* OCR text — visually hidden but readable by crawlers and assistive tech */}
-      {data.ocr_text && <div className="sr-only">{data.ocr_text}</div>}
+      {/* OCR transcript — scroll below the viewer; indexable and copy/paste friendly */}
+      {data.ocr_text && (
+        <details className="ocr-text">
+          <summary>Page text (OCR transcript)</summary>
+          <pre>{data.ocr_text}</pre>
+        </details>
+      )}
 
       <script
         type="application/ld+json"
@@ -152,12 +169,18 @@ export default async function ManualPageRoute({
               {
                 "@type": "ListItem",
                 position: 3,
+                name: "Repair Manual",
+                item: `https://tsrm.sasquatchvc.com/${model}/tsrm`,
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
                 name: sectionInfo.name,
                 item: `https://tsrm.sasquatchvc.com/${model}/tsrm/${section}`,
               },
               {
                 "@type": "ListItem",
-                position: 4,
+                position: 5,
                 name: `Page ${pageNum}`,
               },
             ],
@@ -171,21 +194,22 @@ export default async function ManualPageRoute({
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "TechArticle",
-            headline: data.title || data.section_header || `${sectionInfo.name} — Page ${pageNum}`,
-            name: `${sectionInfo.name} p.${pageNum} — ${modelDef.name} Manual`,
-            description: data.title && data.title !== data.section_header
-              ? `${data.title} — ${sectionInfo.name}, ${modelDef.name} service manual`
-              : `${sectionInfo.name} page ${pageNum} — ${modelDef.name} service manual`,
+            headline,
+            name: `${sectionInfo.name} p.${pageNum} — ${modelDef.name} Repair Manual`,
+            description,
             url: `https://tsrm.sasquatchvc.com/${model}/tsrm/${section}/${pageNum}`,
             image: `https://tsrm.sasquatchvc.com${imageSrc}`,
             inLanguage: "en-US",
             isPartOf: {
               "@type": "Book",
               name: `${modelDef.name} Factory Service Manual`,
+              url: `https://tsrm.sasquatchvc.com/${model}/tsrm`,
               about: {
                 "@type": "Vehicle",
-                name: modelDef.name,
+                name: `Toyota Supra ${modelDef.generation}`,
+                model: modelDef.generation,
                 vehicleModelDate: modelDef.year,
+                vehicleEngine: { "@type": "EngineSpecification", name: modelDef.engines },
                 manufacturer: { "@type": "Organization", name: "Toyota" },
               },
             },
@@ -198,6 +222,6 @@ export default async function ManualPageRoute({
           }),
         }}
       />
-    </div>
+    </>
   );
 }

@@ -31,6 +31,13 @@ ssh tsrm-prod "cd ~/app/website && npm run build"
 ssh tsrm-prod "pm2 restart tsrm"
 ```
 
+### Post-deploy SEO smoke test
+```bash
+bash scripts/seo_check.sh            # against production
+bash scripts/seo_check.sh http://localhost:3000   # against a local `next start`
+```
+Checks status codes, titles/canonicals, H1s, OCR transcript, next/image WebP optimizer, sitemap and robots.
+
 ### Quick one-liner deploy
 ```bash
 ssh tsrm-prod "cd ~/app && git pull origin main && cd website && npm run build && pm2 restart tsrm"

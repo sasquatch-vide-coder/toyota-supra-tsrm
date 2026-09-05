@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
-import { getModel, getModelIds } from "@/lib/models";
+import { getModel, getModelIds, shortName } from "@/lib/models";
 
 export function generateStaticParams() {
   return getModelIds().map((model) => ({ model }));
@@ -21,8 +21,8 @@ export async function generateMetadata({
   const totalPages = sections.reduce((sum, s) => sum + s.pages, 0);
 
   return {
-    title: `Repair Manual — ${modelDef.name}`,
-    description: `${modelDef.description} Browse ${sections.length} sections and ${totalPages.toLocaleString()} pages.`,
+    title: `${shortName(modelDef)} Toyota Supra (${modelDef.generation}) Repair Manual`,
+    description: `Complete ${modelDef.year} Toyota Supra ${modelDef.generation} factory service manual (${modelDef.engines}): ${sections.length} sections, ${totalPages.toLocaleString()} pages of repair procedures, torque specs, diagnostics and diagrams. Free, searchable, AI-upscaled scans.`,
     alternates: { canonical: `/${model}/tsrm` },
   };
 }

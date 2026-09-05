@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState, useCallback } from "react";
 import IssueCard, { systemLabel } from "@/components/IssueCard";
@@ -59,10 +60,6 @@ export default function FixesBrowser({
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     router.push(buildUrl({ q: searchInput, page: "1" }));
-  };
-
-  const handleSystemClick = (sys: string) => {
-    router.push(buildUrl({ system: sys === currentSystem ? "" : sys, page: "1" }));
   };
 
   const handleSortClick = (sort: string) => {
@@ -142,11 +139,11 @@ export default function FixesBrowser({
             Systems
           </div>
           {/* All */}
-          <div
-            onClick={() => handleSystemClick("")}
+          <Link
+            href={buildUrl({ system: "", page: "1" })}
             style={{
               display: "flex", justifyContent: "space-between", alignItems: "center",
-              padding: "10px 14px", borderRadius: "2px", cursor: "pointer",
+              padding: "10px 14px", borderRadius: "2px", cursor: "pointer", textDecoration: "none",
               fontSize: "13px", fontWeight: 500, marginBottom: "2px",
               color: !currentSystem ? "var(--color-secondary)" : "var(--color-text-muted)",
               background: !currentSystem ? "rgba(0, 241, 253, 0.05)" : "transparent",
@@ -164,14 +161,14 @@ export default function FixesBrowser({
             }}>
               {totalIssues}
             </span>
-          </div>
+          </Link>
           {systems.map((s) => (
-            <div
+            <Link
               key={s.system}
-              onClick={() => handleSystemClick(s.system)}
+              href={buildUrl({ system: s.system === currentSystem ? "" : s.system, page: "1" })}
               style={{
                 display: "flex", justifyContent: "space-between", alignItems: "center",
-                padding: "10px 14px", borderRadius: "2px", cursor: "pointer",
+                padding: "10px 14px", borderRadius: "2px", cursor: "pointer", textDecoration: "none",
                 fontSize: "13px", fontWeight: 500, marginBottom: "2px",
                 color: currentSystem === s.system ? "var(--color-secondary)" : "var(--color-text-muted)",
                 background: currentSystem === s.system ? "rgba(0, 241, 253, 0.05)" : "transparent",
@@ -189,7 +186,7 @@ export default function FixesBrowser({
               }}>
                 {s.issue_count}
               </span>
-            </div>
+            </Link>
           ))}
         </div>
 
@@ -242,18 +239,18 @@ export default function FixesBrowser({
               gap: "16px", padding: "24px 0",
             }}>
               {currentPage > 1 && (
-                <button
-                  onClick={() => router.push(buildUrl({ page: String(currentPage - 1) }))}
+                <Link
+                  href={buildUrl({ page: String(currentPage - 1) })}
                   style={{
                     fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
                     fontWeight: 600, fontSize: "12px", letterSpacing: "0.1em", textTransform: "uppercase",
-                    padding: "8px 16px", borderRadius: "2px", cursor: "pointer",
+                    padding: "8px 16px", borderRadius: "2px", cursor: "pointer", textDecoration: "none",
                     background: "var(--color-surface-low)", border: "1px solid var(--color-surface-highest)",
                     color: "var(--color-text-muted)", transition: "all 0.15s",
                   }}
                 >
                   &larr; Previous
-                </button>
+                </Link>
               )}
               <span style={{
                 fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
@@ -262,18 +259,18 @@ export default function FixesBrowser({
                 Page {currentPage} of {totalPages}
               </span>
               {currentPage < totalPages && (
-                <button
-                  onClick={() => router.push(buildUrl({ page: String(currentPage + 1) }))}
+                <Link
+                  href={buildUrl({ page: String(currentPage + 1) })}
                   style={{
                     fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif",
                     fontWeight: 600, fontSize: "12px", letterSpacing: "0.1em", textTransform: "uppercase",
-                    padding: "8px 16px", borderRadius: "2px", cursor: "pointer",
+                    padding: "8px 16px", borderRadius: "2px", cursor: "pointer", textDecoration: "none",
                     background: "var(--color-surface-low)", border: "1px solid var(--color-surface-highest)",
                     color: "var(--color-text-muted)", transition: "all 0.15s",
                   }}
                 >
                   Next &rarr;
-                </button>
+                </Link>
               )}
             </div>
           )}

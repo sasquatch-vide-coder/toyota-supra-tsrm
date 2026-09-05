@@ -25,7 +25,7 @@ export default function IssueDetail({ issue }: { issue: IssueData }) {
           fontWeight: 900, fontSize: "26px", letterSpacing: "0.02em",
           color: "var(--color-text)", marginBottom: "8px", textTransform: "capitalize",
         }}>
-          {issue.issue}
+          {issue.issue.charAt(0).toUpperCase() + issue.issue.slice(1)}
         </h1>
         <p style={{ color: "var(--color-text-muted)", fontSize: "14px" }}>
           Confirmed fixed in{" "}

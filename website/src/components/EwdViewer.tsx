@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRef, useState, useCallback, useEffect } from "react";
 
 interface EwdViewerProps {
@@ -167,22 +168,29 @@ export default function EwdViewer({ src, alt }: EwdViewerProps) {
           justifyContent: "center",
         }}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={src}
-          alt={alt}
-          draggable={false}
+        {/* Zoom/pan is applied to this wrapper; next/image serves resized WebP (LCP). */}
+        <div
           style={{
-            display: "block",
-            maxWidth: "100%",
-            maxHeight: "100%",
-            objectFit: "contain",
+            position: "relative",
+            width: "100%",
+            height: "100%",
             transformOrigin: "center center",
             transform: `scale(${zoom}) translate(${pan.x}px, ${pan.y}px)`,
             transition: dragging ? "none" : "transform 0.15s ease-out",
             userSelect: "none",
           }}
-        />
+        >
+          <Image
+            src={src}
+            alt={alt}
+            fill
+            priority
+            quality={85}
+            sizes="100vw"
+            draggable={false}
+            style={{ objectFit: "contain" }}
+          />
+        </div>
       </div>
 
       {/* Zoom controls — larger touch targets */}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getModel } from "@/lib/models";
+import { getModel, shortName } from "@/lib/models";
 import { supabaseAdmin } from "@/lib/supabase/admin";
 import IssueDetail from "@/components/IssueDetail";
 import { systemLabel } from "@/components/IssueCard";
@@ -29,9 +29,11 @@ export async function generateMetadata({
 
   if (!data) return {};
 
+  const issueTitle = data.issue.charAt(0).toUpperCase() + data.issue.slice(1);
+
   return {
-    title: `${data.issue} — ${modelDef.name} Community Fixes`,
-    description: `${systemLabel(data.system)}: "${data.issue}" — confirmed fixed in ${data.thread_count} ${modelDef.name} forum threads on SupraForums.`,
+    title: `${issueTitle} — ${shortName(modelDef)} Toyota Supra Fix (${systemLabel(data.system)})`,
+    description: `${shortName(modelDef)} Toyota Supra ${systemLabel(data.system).toLowerCase()} problem: "${data.issue}" — confirmed fixes from ${data.thread_count} SupraForums thread${data.thread_count === 1 ? "" : "s"}, with links to the original discussions.`,
     alternates: { canonical: `/${model}/fixes/${slug}` },
   };
 }

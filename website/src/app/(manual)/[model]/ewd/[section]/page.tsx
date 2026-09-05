@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
-import { getModel } from "@/lib/models";
+import { getModel, shortName } from "@/lib/models";
+import { titleCase } from "@/lib/seo";
 
 export function generateStaticParams() {
   return [];
@@ -21,10 +22,17 @@ export async function generateMetadata({
   const sectionInfo = sections.find((s) => s.code === section);
   if (!sectionInfo) return {};
 
+  const topics = Array.from(
+    new Set((sectionInfo.page_index || []).map((p) => titleCase(p.title)).filter((t) => t && t.toLowerCase() !== sectionInfo.name.toLowerCase()))
+  ).slice(0, 5);
+  const firstPage = sectionInfo.page_index?.[0]?.page ?? 1;
+  const imageSrc = `/images/${model}-ewd/${section}/${section}_${String(firstPage).padStart(3, "0")}.png`;
+
   return {
-    title: `${sectionInfo.name} — ${modelDef.name} Wiring Diagrams`,
-    description: `${sectionInfo.name} wiring diagrams for the ${modelDef.name} — ${sectionInfo.pages} pages.`,
+    title: `${sectionInfo.name} — ${shortName(modelDef)} Toyota Supra Wiring Diagrams`,
+    description: `${sectionInfo.name} wiring diagrams for the ${shortName(modelDef)} Toyota Supra (${modelDef.generation}) — ${sectionInfo.pages} pages${topics.length ? `: ${topics.join(", ")}` : ""}.`,
     alternates: { canonical: `/${model}/ewd/${section}` },
+    openGraph: { images: [imageSrc] },
   };
 }
 

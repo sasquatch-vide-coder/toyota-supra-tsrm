@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
-import { getModel, getModelIds } from "@/lib/models";
+import { getModel, getModelIds, shortName } from "@/lib/models";
 
 export function generateStaticParams() {
   return getModelIds().map((model) => ({ model }));
@@ -18,8 +18,8 @@ export async function generateMetadata({
   if (!modelDef) return {};
 
   return {
-    title: `Wiring Diagrams — ${modelDef.name}`,
-    description: `Electrical wiring diagrams for the ${modelDef.name}. Browse circuit diagrams, connector charts, and relay locations.`,
+    title: `${shortName(modelDef)} Toyota Supra (${modelDef.generation}) Wiring Diagrams (EWD)`,
+    description: `Factory electrical wiring diagrams (EWD) for the ${modelDef.year} Toyota Supra ${modelDef.generation}: system circuit diagrams, connector and ground locations, relay and junction block layouts, power source charts. Free, searchable, AI-upscaled.`,
     alternates: { canonical: `/${model}/ewd` },
   };
 }

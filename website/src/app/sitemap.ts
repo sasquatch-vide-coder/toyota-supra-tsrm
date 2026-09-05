@@ -1,7 +1,18 @@
+import fs from "fs";
+import path from "path";
 import type { MetadataRoute } from "next";
 import { getModelIds } from "@/lib/models";
 import { loadSections } from "@/lib/sections";
 import { supabaseAdmin } from "@/lib/supabase/admin";
+
+/** Last time a content set was regenerated (sections.json mtime); undefined if unknown. */
+function contentLastModified(contentDir: string): Date | undefined {
+  try {
+    return fs.statSync(path.join(process.cwd(), "src", "content", contentDir, "sections.json")).mtime;
+  } catch {
+    return undefined;
+  }
+}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://tsrm.sasquatchvc.com";
@@ -15,30 +26,32 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   });
 
   for (const model of getModelIds()) {
-    // Model landing (redirects to first available document)
+    const tsrmSections = loadSections(model);
+    const ewdSections = loadSections(`${model}-ewd`);
+    const tsrmMod = contentLastModified(model);
+    const ewdMod = contentLastModified(`${model}-ewd`);
+
+    // Model hub page
     entries.push({
       url: `${baseUrl}/${model}`,
+      lastModified: tsrmMod ?? ewdMod,
       changeFrequency: "monthly",
       priority: 0.9,
     });
 
     // ── Repair manual (TSRM) ──
-    const tsrmSections = loadSections(model);
     if (tsrmSections.length > 0) {
       entries.push({
         url: `${baseUrl}/${model}/tsrm`,
+        lastModified: tsrmMod,
         changeFrequency: "monthly",
         priority: 0.8,
-      });
-      entries.push({
-        url: `${baseUrl}/${model}/tsrm/search`,
-        changeFrequency: "monthly",
-        priority: 0.3,
       });
 
       for (const section of tsrmSections) {
         entries.push({
           url: `${baseUrl}/${model}/tsrm/${section.code}`,
+          lastModified: tsrmMod,
           changeFrequency: "monthly",
           priority: 0.7,
         });
@@ -46,6 +59,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           for (const page of section.page_index) {
             entries.push({
               url: `${baseUrl}/${model}/tsrm/${section.code}/${page.page}`,
+              lastModified: tsrmMod,
               changeFrequency: "yearly",
               priority: 0.5,
             });
@@ -55,10 +69,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
 
     // ── Wiring diagrams (EWD) ──
-    const ewdSections = loadSections(`${model}-ewd`);
     if (ewdSections.length > 0) {
       entries.push({
         url: `${baseUrl}/${model}/ewd`,
+        lastModified: ewdMod,
         changeFrequency: "monthly",
         priority: 0.8,
       });
@@ -66,6 +80,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       for (const section of ewdSections) {
         entries.push({
           url: `${baseUrl}/${model}/ewd/${section.code}`,
+          lastModified: ewdMod,
           changeFrequency: "monthly",
           priority: 0.7,
         });
@@ -73,6 +88,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           for (const page of section.page_index) {
             entries.push({
               url: `${baseUrl}/${model}/ewd/${section.code}/${page.page}`,
+              lastModified: ewdMod,
               changeFrequency: "yearly",
               priority: 0.5,
             });

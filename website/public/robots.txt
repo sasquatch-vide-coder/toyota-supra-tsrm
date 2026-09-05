@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /api/
 Disallow: /stats
+Disallow: /*/tsrm/compare/
+Disallow: /*/tsrm/search
 
 Sitemap: https://tsrm.sasquatchvc.com/sitemap.xml

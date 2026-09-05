@@ -303,6 +303,32 @@ body {
   background: var(--color-surface-mid) !important;
 }
 
+/* Collapsible OCR transcript under page scans */
+.ocr-text {
+  margin: 16px 24px 24px;
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  background: var(--color-surface-low);
+}
+.ocr-text summary {
+  cursor: pointer;
+  padding: 12px 16px;
+  font-family: 'Space Grotesk', var(--font-space-grotesk), sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+.ocr-text pre {
+  margin: 0;
+  padding: 0 16px 16px;
+  white-space: pre-wrap;
+  font-family: 'Manrope', var(--font-manrope), sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
 /* Visually hidden but readable by crawlers and assistive tech */
 .sr-only {
   position: absolute;

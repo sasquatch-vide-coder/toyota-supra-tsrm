@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadSections } from "@/lib/sections";
-import { getModel, getModelIds } from "@/lib/models";
+import { getModel, getModelIds, shortName } from "@/lib/models";
+import { titleCase } from "@/lib/seo";
 
 export function generateStaticParams() {
   const params: { model: string; section: string }[] = [];
@@ -28,10 +29,17 @@ export async function generateMetadata({
   const sectionInfo = sections.find((s) => s.code === section);
   if (!sectionInfo) return {};
 
+  const topics = Array.from(
+    new Set((sectionInfo.page_index || []).map((p) => titleCase(p.title)).filter((t) => t && t.toLowerCase() !== sectionInfo.name.toLowerCase()))
+  ).slice(0, 5);
+  const firstPage = sectionInfo.page_index?.[0]?.page ?? 1;
+  const imageSrc = `/images/${model}/${section}/${section}_${String(firstPage).padStart(3, "0")}.png`;
+
   return {
-    title: `${sectionInfo.name} (${section}) — ${modelDef.name} Manual`,
-    description: `${sectionInfo.name} section of the ${modelDef.name} service manual — ${sectionInfo.pages} pages.`,
+    title: `${sectionInfo.name} (${section}) — ${shortName(modelDef)} Toyota Supra Repair Manual`,
+    description: `${sectionInfo.name} section of the ${shortName(modelDef)} Toyota Supra (${modelDef.generation}) factory service manual — ${sectionInfo.pages} pages${topics.length ? `: ${topics.join(", ")}` : ""}.`,
     alternates: { canonical: `/${model}/tsrm/${section}` },
+    openGraph: { images: [imageSrc] },
   };
 }
 

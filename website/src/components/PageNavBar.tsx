@@ -15,6 +15,8 @@ interface PageNavBarProps {
   totalPages: number;
   prevLink: NavLink | null;
   nextLink: NavLink | null;
+  /** Page-specific heading (OCR title); read by crawlers/screen readers inside the h1. */
+  pageTitle?: string;
 }
 
 export default function PageNavBar({
@@ -26,6 +28,7 @@ export default function PageNavBar({
   totalPages,
   prevLink,
   nextLink,
+  pageTitle,
 }: PageNavBarProps) {
   const basePath = `/${model}/${docType}`;
 
@@ -69,11 +72,12 @@ export default function PageNavBar({
 
       {/* Center info */}
       <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-        <span style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "13px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "-0.01em" }}>
+        <h1 style={{ margin: 0, fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "13px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "-0.01em" }}>
           <span style={{ color: "var(--color-secondary)" }}>{section}</span>
           <span style={{ color: "var(--color-text-faint)", margin: "0 6px" }}>/</span>
           <span style={{ color: "var(--color-text-muted)" }}>{sectionName}</span>
-        </span>
+          <span className="sr-only">{pageTitle ? ` — ${pageTitle}` : ""}, page {pageNum}</span>
+        </h1>
         <span style={{
           background: "rgba(0, 241, 253, 0.15)",
           color: "var(--color-secondary)",

@@ -151,7 +151,9 @@ export default function LandingPage() {
                     {model.year}
                   </span>
                   <h3 style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "clamp(1.5rem, 4vw, 2.25rem)", fontWeight: 900, fontStyle: "italic", textTransform: "uppercase", letterSpacing: "-0.03em", lineHeight: 0.9, marginBottom: "4px" }}>
-                    {model.generation} / {model.name.split(" ")[0]}
+                    <Link href={`/${model.id}`} style={{ color: "inherit", textDecoration: "none" }} title={`${model.name.split(" ")[0]} Toyota Supra (${model.generation}) service manual`}>
+                      {model.generation} / {model.name.split(" ")[0]}
+                    </Link>
                   </h3>
                   <p style={{ fontFamily: "'Space Grotesk', var(--font-space-grotesk), sans-serif", fontSize: "14px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.1em", color: "rgba(0, 241, 253, 0.6)", marginBottom: "12px" }}>
                     {ENGINE_CODES[model.id] || ""}
